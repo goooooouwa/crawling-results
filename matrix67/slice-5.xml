@@ -1,0 +1,3047 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>Matrix67: The Aha Moments</title>
+<description></description>
+<link>http://www.matrix67.com/blog</link>
+<pubDate>2021-11-20T14:45:25+08:00</pubDate>
+<!-- other elements omitted from this example -->
+<item>
+<title><![CDATA[ 有限域的二次剩余与x^2+y^2=c的解的个数 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2116</link>
+<content><![CDATA[ 
+		<p>    上个月的<a href="http://www.brand.site.co.il/riddles/200906q.html">UyHiP谜题</a>涉及到一些抽象代数的东西：考虑一个有f个元素的有限域，其中c是有限域中的一个元素。试求x^2+y^2=c有多少个解。你的答案应该是一个关于f和c的函数。</p>
+<p>    有趣的是，对所有c≠0的情况，x^2+y^2=c的解的个数与c都是无关的。事实上，方程解的个数只与f模4的余数和c是否为零元有关。具体地说：</p>
+<table style="border-width: 1px; border-style: solid; text-align:center; margin-left:12px;" rules="all">
+<tr>
+<td> </td>
+<td>c = 0</td>
+<td>c ≠ 0</td>
+</tr>
+<tr>
+<td>f mod 4 = 0 或 2</td>
+<td>f</td>
+<td>f</td>
+</tr>
+<tr>
+<td>f mod 4 = 1</td>
+<td>2f – 1</td>
+<td>f – 1</td>
+</tr>
+<tr>
+<td>f mod 4 = 3</td>
+<td>1</td>
+<td>f + 1</td>
+</tr>
+</table>
+<p><span id="more-2116"></span></p>
+<p>    结论的证明并不复杂（并且很诡异），最关键的一点就是：有限域的乘法群是一个f-1阶循环群。在任一有限域F中必然存在一个“生成元”g，使得1、g、g^2、……、g^(f-2)正好就是F中的所有非零元素，反过来所有非零元也都能表示成g的某次幂。这样的话，要想知道c是否是一个二次剩余（是否存在x使得x^2=c），只需要把c写成g^i，然后看是否存在某个元素x=g^(i/2)，换句话说有没有哪个数的两倍模f-1正好就是i。当f是奇数时，i/2存在当且仅当i为偶数；当f为偶数时，每个元素都是一个二次剩余。</p>
+<p>  <img alt="image placeholder" >
+<p>    定义函数Χ(a)为x^2=a的解的个数减一（嗯，我知道，这个函数来得很诡异）。由于x^2=a是一个二次方程，因此它最多只有两个解，也即Χ(a)的取值只可能是-1、0和1。容易看出：</p>
+<p> <br>
+1. 对所有非零元a，Χ(a) = Χ(a^(-1))，其中a^(-1)表示a的乘法逆元。注意，g^i的乘法逆元就是g^(f-i-1)，它们相乘正好就是g^(f-1)=1。</p>
+<p>2. 对任意a和b，Χ(a)Χ(b)=X(ab)。</p>
+<p>3. Χ(0)=0，因为x^2=0明显只有x=0一个解。</p>
+<p>4. 当f=4k+3时，Χ(-1)=-1；当f=2k时，Χ(-1)=0；当f=4k+1时，Χ(-1)=1。注意，-1是指乘法单位元的加法逆元，就是平方之后等于1的那个元素。当f=4k+3时，-1就是g^(2k+1)，它没有平方根；当f=4k+1时，-1就是g^(2k)，g^k和g^(3k)都是它的平方根；当f=2k时，1的加法逆元就是它本身，它的平方根也只有它本身。</p>
+<p>5. ΣΧ(a)=0，其中a取遍有限域F中的所有元素。</p>
+<p> <br>
+ <br>
+    现在我们来求x^2+y^2=c的解的个数，它应该等于：</p>
+<p>   Σ<sub>a+b=c</sub>(Χ(a)+1)(Χ(b)+1)<br>
+ = Σ<sub>a+b=c</sub>Χ(ab) + Σ<sub>a</sub>Χ(a) + Σ<sub>b</sub>Χ(b) + f<br>
+ = Σ<sub>a+b=c</sub>Χ(ab) + f<br>
+ = Σ<sub>b</sub>Χ((c-b)b) + f<br>
+ = Σ<sub>b≠0</sub>Χ((c-b)b) + f<br>
+ = Σ<sub>b≠0</sub>Χ((c-b)/b) + f<br>
+ = Σ<sub>b≠0</sub>Χ(c/b – 1) + f</p>
+<p>    当c=0时，式子就直接变成了Σ<sub>b≠0</sub>Χ(-1) + f = f + (f-1)Χ(-1)；<br>
+    当c≠0时，函数m(b)=c/b正好就是一个F内所有非零元一一对应的函数，因此式子直接变为Σ<sub>d≠0</sub>Χ(d-1) + f = Σ<sub>d≠-1</sub>Χ(d) + f = f – Χ(-1)。而我们已经知道了Χ(-1)的值，问题迎刃而解。</p>
+			 ]]></content>
+<pubDate>2009-07-11T04:48:27+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2116</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 俄罗斯方块可以永无止境地玩下去吗？ ]]></title>
+<link>http://www.matrix67.com/blog/archives/2134</link>
+<content><![CDATA[ 
+		<p>    大家在玩俄罗斯方块的时候有没有想过这样一个问题：如果玩家足够牛B的话，是不是永远也不可能玩死？换句话说，假设你是万恶的游戏机，你打算害死你面前的玩家；你知道任意时刻游戏的状态，并可以有针对性地给出一些明显不合适的方块，尽量迫使玩家面对最坏情况。那么，你有没有一种算法能保证害死玩家，或者玩家无论如何都存在一种必胜策略呢？注意，俄罗斯方块的游戏区域是一个宽为10，高为20的矩形，并且玩家可以预先看到下一个给出的方块是什么。在设计策略时，你必需考虑到这一点。</p>
+<p>  <img alt="image placeholder" >
+<p>    相信很多人有过这样的经历：玩俄罗斯方块时一开局就给你一个“S”型方块，让完美主义者感到异常别扭；结果，第二个方块还是这个“S”，第三个方块依旧是“S”，相当令人崩溃。于是，我们开始猜测，如果游戏机给你无穷个“S”形方块，玩家是不是就没有解了？答案是否定的。如图1，从第10步开始，整个局面产生一个循环；只要机器给的一直都是“S”方块，玩家可以不断重复这几个步骤，保证永远也死不了。</p>
+<p><img alt="image placeholder" >
+<p>    不过，这个循环是在游戏场地清空了的情况下才产生的。有人会进一步想了，要是在玩着玩着，看着你局势不好时突然给你无穷多个“S”方块呢？事实上，此时局面的循环依然可能存在，如图2。在第5个“S”形方块落地后，循环再次产生。</p>
+<p><span id="more-2134"></span></p>
+<p>    俄罗斯方块真的不可能玩死吗？1988年，John Brzustowski的<a href="http://www.iam.ubc.ca/theses/Brzustowski/brzustowski.html">一篇论文</a>指出，俄罗斯方块游戏无解并非不可能。它给出了一种算法可以保证游戏机能够害死玩家，即使我们要求它必须提前向玩家展示出下一个方块的形状。构造的关键在于，整个游戏的局面个数是有限的（2的200次方），如果玩家一直不死，在某一时刻必然会重复某一状态。我们把两次重复状态及其之间的游戏过程叫做一个“循环”，这个循环实际影响到的那些行就叫做“实际循环区”。例如，图2就是一个循环，这个循环的“实际循环区”是从第4行到第7行这四行。</p>
+<p>  <img alt="image placeholder" >
+<p>    我们把宽为10的游戏区域划分为5个宽为2的“通道”，从左至右用1到5标号。注意到图1和图2中的两个循环都有一个共同点：每个“S”形方块最终都完全落在某个通道内。事实上，对于任意一个只有“S”形方块的循环，我们都有这个结论。也就是说，如果游戏机一直给你“S”形的方块，你却用它们弄出了一个循环，那只有一种可能：所有“S”形方块的下落位置都没有跨越通道（就像图3中的紫色方块那样，而非绿色方块那样）。<br>
+    为了证明这一点，我们对通道编号施归纳。令命题P(x)表示，如果某个“S”形方块（或它的其中一部分）落在了通道x的左边，那它一定完全落在某个通道内。P(1)显然成立：方块根本不可能占据通道1左边的某个格子，因为通道1左边啥都没有。下面我们说明，当P(n)为真时，P(n+1)也为真。</p>
+<p>  <img alt="image placeholder" >
+<p>    我们首先要证明一个引理：在循环中的任意时刻，通道n的实际循环区内绝对不可能出现形如“<span style="font-family:simsun">□■</span>”的两个并排的格子。如图4.1，假设图中星号方块所在行是通道n的实际循环区内位置最低的“<span style="font-family:simsun">□■</span>”的结构。假如这一行被消掉了，又由归纳假设，不存在哪个“S”形方块跨越了该通道的左边界，因此只有一种可能：某个“S”形方块从左侧面挤了进来（如图4.2）。但这样一来，我们又产生了一个更低的“<span style="font-family:simsun">□■</span>”，矛盾。这就是说，星号方块所在行一直没被消去。但这也是不可能的，因为实际循环区内是一个新陈代谢、以旧换新的更替过程，每一行最后都是会被消除的。</p>
+<p>  <img alt="image placeholder" >
+<p>    接下来，考虑命题P(n+1)。要想让“S”形方块占据通道n的格子，只有图5这四种情况。但是，由于我们之前证明了通道n中不能存在“<span style="font-family:simsun">□■</span>”，因此在这个“S”形方块落下之前，星号方块都是已经有了的了。注意到，每一个“S”形方块的下落都致使“<span style="font-family:simsun">■□</span>”形结构的减少，但第一种情形除外——它消除了一个“<span style="font-family:simsun">■□</span>”形结构，但在其上方带来了一个新的，使得“<span style="font-family:simsun">■□</span>”形结构个数保持不变。没有哪种情形能够增加“<span style="font-family:simsun">■□</span>”的个数。但是，通道n的“<span style="font-family:simsun">■□</span>”形结构个数应该是恒定的，因为它在一个循环区里。因此，只有第一种情况才能够被接受。</p>
+<p>    因此，仅含有“S”形方块的循环只有一种情况——“S”形方块在各个通道内重叠，填满并消除若干行后回到初始状态。实际循环区内的每个通道都是一个模样：底下是0个或多个“<span style="font-family:simsun">■■</span>”，顶部一个“<span style="font-family:simsun">■□</span>”。注意，最右侧那个通道的最顶端是一个“<span style="font-family:simsun">■□</span>”，右边这个空白一辈子也不可能用“Z”形方块填上。也就是说，在一个只含“S”形方块的循环区内，必然会有某一行，它的最右侧是一个“<span style="font-family:simsun">■□</span>”，它保证了该行不能仅用“Z”形方块消掉。如图6所示，箭头所指的行无法单用“Z”形方块消除，因为星号位置不可能用“Z”形方块填充。</p>
+<p>  <img alt="image placeholder" >
+<p>    下面我们给出游戏机害死人的算法：<br>
+    1. 不断给出“S”形方块并显示下一个方块也为“S”，直到出现一个循环；<br>
+    2. 给一个“S”形方块并显示下一个方块为“Z”；<br>
+    3. 不断给出“Z”形方块并显示下一个方块也为“Z”，直到出现一个循环；<br>
+    4. 给一个“Z”形方块并显示下一个方块为“S”；<br>
+    5. 跳回1并重复执行。</p>
+<p>  <img alt="image placeholder" >
+<p>    这样的话，玩家为什么会无解呢？由上面的结论，在第1步后，游戏区域中出现了一个不能用“Z”消除的行。即使再给你一个“S”形方块，这一点仍然无法挽救，因为填充星号空格的唯一途径就是插一个“S”进去，但这立即又产生了一个“Z”永远放不进去的空位。然后，玩家就拿到了一大堆“Z”，最终必然会产生另一个循环，且这个循环区在刚才那个无法消去的行之上（循环区不可能包含一个不能消除的行，因为正如前面所说，一个实际循环区的所有行最终都是会被消掉的，这样才可能循环）。这个循环区的最左边那个通道将会产生一个“<span style="font-family:simsun">□■</span>”结构，是“S”所不能消去的。于是，游戏机又给出一大堆的“S”，最终使得两种无法消去的行交替出现，直至Game Over。</p>
+<p>    有两点值得注意。一、虽然我们这里假设游戏机是有主观能动性的，但事实上呢，即使方块是随机出的，如果你足够倒霉的话，这个特殊的方块序列可能恰好就让你一个不错地碰上了；虽然这种怪事的发生概率极低，但理论上说仍然是可能的，因此俄罗斯方块终究不是玩不死的，总有一个时候会Game Over。二、这个结论可以直接扩展到场地为任意宽度的俄罗斯方块游戏。当场地宽为偶数时，上述证明同样有效；当场地宽为奇数时，无穷多个方形方块就可以直接干掉玩家。</p>
+			 ]]></content>
+<pubDate>2009-07-12T00:20:23+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2134</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 圆环面积公式与勾股定理 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2157</link>
+<content><![CDATA[ 
+		<p>    勾股定理有上百种证明，但其实它们都大同小异——无非是构造一组三角形和正方形并进行一系列变换。今天我看到了一个用圆面积来解释勾股定理的办法，颇有一些新意。</p>
+<p>  <img alt="image placeholder" >
+<p>    考虑直角三角形OAB绕着一个锐角顶点O旋转一周。顶点A的轨迹是一个半径为a的圆，顶点B的轨迹是一个半径为c的圆。那么，线段AB扫过的区域（一个圆环）的面积就应该是大圆面积减去小圆面积，即π(c^2-a^2)。如果我们能够有一种办法说明，线段AB扫过的面积正好是πb^2，我们就相当于得到了勾股定理的另一个证明。</p>
+<p><span id="more-2157"></span></p>
+<p>    利用微积分或许可以说明这一点，但这里有一个不算严格证明，但却非常直观有趣的想法。考虑线段AB扫过环形区域的过程，它事实上是由平移和旋转两部分叠加构成的——首先沿着圆的切线方向（即BA的方向）平移充分小的距离，然后旋转一个充分小的角度。但很显然，线段沿着自身的方向平移是不会产生面积的，因此线段AB实际扫过的面积就是它绕A点旋转一周的面积，即一个半径为b的圆。从图上看来这一点似乎很显然——上下两个图之间的粉色线条有“一一对应”的关系。这虽然不严密，却是一个很有意思的想法。</p>
+<p>   <img alt="image placeholder" >
+<p>来源：<a href="http://www.cut-the-knot.org/Curriculum/Geometry/PythFromRing.shtml">http://www.cut-the-knot.org/Curriculum/Geometry/PythFromRing.shtml</a></p>
+			 ]]></content>
+<pubDate>2009-07-17T00:01:24+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2157</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 地球上惊现Sierpinski贝壳？ ]]></title>
+<link>http://www.matrix67.com/blog/archives/2163</link>
+<content><![CDATA[ 
+		<p><img alt="image placeholder" >
+<p>我一直在思考，利用物理性质和数学算法之间的一些联系，能否设计出某种物理系统可以直接产生出诸如<a href="http://www.matrix67.com/blog/archives/280">Sierpinski三角形</a>甚至<a href="http://www.matrix67.com/blog/archives/292">Mandelbrot集</a>一类的分形图形。事实证明，大自然的力量是无穷的。<a href="http://www.reddit.com/r/math/comments/91kfu/i_found_a_sierpinski_triangle_seashell/">reddit</a>上的一位网友发现一个<a href="http://www.flickr.com/photos/tehsma/3722970830/sizes/l/">上面长着Sierpinski三角形模样的贝壳</a>。这到底是为什么呢？难道有什么自然规律正好与Sierpinski三角形的某种生成方法相吻合？</p>
+			 ]]></content>
+<pubDate>2009-07-17T00:35:27+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2163</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣题：随机选取两个无穷大的图，求两者相同的概率 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2168</link>
+<content><![CDATA[ 
+		<p>    假设我们俩各自独立地随机选取一个有无穷多个顶点的图（两点之间1/2的概率有边1/2的概率没有边）。那么，我们俩选到相同的图的概率是多少？</p>
+<p>    令人难以置信、但想通了之后又异常显然的是，两个图相同的概率为1。并且，我可以精确地告诉你，这个相同的图是什么样子的。考虑这样一个无穷大的图，我们用自然数1, 2, 3, …给所有顶点标号，然后如果y的二进制表达中的右起第x位为1，就在顶点x和顶点y之间连一条线。比如，顶点5就和顶点1、顶点3相连。我可以证明，我们俩都100%地会选取到上述这个图。</p>
+<p><span id="more-2168"></span><br>
+    我们先来定义一个东西。我们说一个图是“任意连通”的，如果对于任意两个不相交的有限点集U和V，总能找到一个顶点x，使得x和U里面的所有顶点都相连，但和V里面的任一顶点都不相连。下面我们先证明，随机选取一个无穷大的图，该图满足任意连通性的概率为1；其次我们说明，所有满足任意连通性的图都是同构的。<br>
+    为什么一个随机选取的无穷大图具有任意连通性的概率为1呢？我可以反过来说明，一个随机图不满足该性质的概率为0。考虑两个任意的有限点集U和V，假设这两个点集一共有n个点。那么，随便选取一个点x，它和U里所有点都相连，但和V里所有点都不相连的概率显然为1/2^n（因为两点之间是否相连是独立确定的，且概率为1/2）。不管n有多大，1/2^n总是一个不为0的数，但供我选的点有无穷多个。在我第k次选点后还找不到满足条件的点的概率为(1-1/2^n)^k，它是一个最终趋于0的值。<br>
+    然后我们来证明，只要两个图都满足这个性质，我一定能为它们的顶点适当编号，使得图A的点x点y之间有边当且仅当图B的点x点y之间有边。这个证明是构造性的。假设我们已经找到了一个图A和图B的同构子图，这个子图有6个顶点，分别标号为1, 2, 3, 4, 5, 6。在图A当中选取下一个未编号的顶点，把它标号为顶点7。假设顶点7和前面6个顶点中的2, 4相连，和1, 3, 5, 6都不相连。由于图B满足任意连通性，因此图B当中必然也存在一个点，它和自己图里的那个2, 4相连，和1, 3, 5, 6都不相连。于是，把图B中的这个新的点编号为顶点7。不断执行该操作，就可以给图里的每个顶点确定一个适当的编号。<br>
+    有一个问题是，不断这样操作后，虽然图A里的所有顶点都能找到图B中的对应顶点，但图B中可能还剩有顶点一直未被编号。问题的解决办法也很简单：利用任意连通性找到图B中与图A中的顶点7相对应的点后，立马换成让B选取下一个未编号的顶点并命其为顶点8，让图A利用任意连通性来找它的对应点。如此交替变更图A和图B的角色，就能保证两个图中的每个点都能编上号了。</p>
+<p>    那么，为什么我刚才说，我们选出的图都和第二段中描述的那个图相同呢？因为，那个图显然满足任意连通性。</p>
+<p> <br>
+来源：<a href="http://blogs.warwick.ac.uk/dangoodman/entry/something_completely_ridiculous/">http://blogs.warwick.ac.uk/dangoodman/entry/something_completely_ridiculous/</a></p>
+			 ]]></content>
+<pubDate>2009-07-20T14:35:27+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2168</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 证明集合可数的简便方法 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2172</link>
+<content><![CDATA[ 
+		<p>    在集合论中，一个重要的概念就是集合的可数性。我们说一个集合是可数的，如果这个集合内的元素能够与自然数集N建立一一对应的关系。换句话说，我们能够给这个集合里的所有元素按次序排好，能够以某种顺序为所有元素进行编号。在<a href="http://www.matrix67.com/blog/archives/416">这里</a>，我们看到了两个重要的结论：全体有理数集合是可数的，以及全体实数集合是不可数的。在证明全体有理数可数时，我们用到的方法通常是当年Cantor所用的对角线方法。不过，事实上我们还有一个更简便的方法。在证明一个集合可数时，我们只需要建立一个映射到自然数集N的函数，使得每个自然数的原像都只有有限个即可。这样的话，我们便可以从小到大考虑自然数集中的每个元素，列举出它所对应的原像，从而得到原集合的一种编号次序。</p>
+<p>    例如，欲证明全体整数是可数的，只需要考虑函数f(x)=|x|，这是一个从全体整数到自然数的函数，并且每个自然数最多只有两个原像。这样的话，我们便可以立即说明全体整数是可数的。类似地，为了说明全体有理数也是可数的，只需要令函数f(p/q)=|p|+|q|。显然分子分母的绝对值和为某一指定自然数的只有有限多种情况。</p>
+<p><span id="more-2172"></span><br>
+    下面是一些更有意思的情形。怎样用这种方法来证明自然数集N的有限子集个数是可数的呢？一个容易想到的函数是f(S)=|S|，即集合S中的元素个数。不过细想一下发现不对，因为在元素个数给定的情况下，自然数子集有无穷多种取法。这告诉我们，我们还需要找到一个更巧妙的限制。想一想，用怎样的条件才能把自然数子集给限制住呢？令f(S)=max(S)，即集合S中的最大元素。由于有限集中必然存在一个最大元素，因此这个函数是有意义的。又由于最大元素为m的有限集最多有2^m个，这就立即说明了自然数有限子集的个数是可数的。</p>
+<p>    更有趣的是全体整系数多项式的可数性。受上面这一问题的启发，我们自然而然地想到函数f(P)为多项式P的最高次数。不过我们立即发现这样不行——指定次数的多项式有无穷多个。那么，定义f(P)为各项系数的绝对值之和呢？仔细一想发现也不行，例如1, x, x^2, x^3, x^4, …这无穷多个多项式对应的函数值均为1。不过，如果把上面两个条件结合在一起，我们的结论也就证到了：令f(P)为各项系数的绝对值之和加这个多项式的最高次数。这样的话，我既设定了多项式的系数上界，又设定了多项式的次数上界，有效地限定了多项式的数目。</p>
+<p>来源：<a href="http://www.tricki.org/article/A_good_way_of_proving_that_a_set_is_countable">http://www.tricki.org/article/A_good_way_of_proving_that_a_set_is_countable</a></p>
+			 ]]></content>
+<pubDate>2009-07-27T14:30:10+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2172</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 这个图形有什么牛B的地方？ ]]></title>
+<link>http://www.matrix67.com/blog/archives/2181</link>
+<content><![CDATA[ 
+		<p><img alt="image placeholder" >
+<p>这个图形有一个异常牛B的性质，你能看出来吗？</p>
+<p><span id="more-2181"></span></p>
+<p> <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ </p>
+<p>答案：<br>
+对一个正六边形的6个相邻六边形进行黑白二染色，一共可以得到64种构造。<br>
+这个图上有64个黑色正六边形，恰好包含了所有这64种构造（也就是说每个黑色六边形周围一圈的颜色方案都不一样）。</p>
+<p>来源：<a href="http://mindsports.nl/index.php/side-dishes/50-china-labyrinth?5ddadc0c884344">http://mindsports.nl/index.php/side-dishes/50-china-labyrinth?5ddadc0c884344</a></p>
+			 ]]></content>
+<pubDate>2009-07-27T15:28:59+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2181</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Image Functions：在线绘制颜色分布图 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2188</link>
+<content><![CDATA[ 
+		<p>    <a href="http://fragsworth.com/image_functions/">Image Functions</a>是最近web 2.0上谈论很多的一个在线小程序。你可以在输入框里输入一个关于x、y、r、g、b的函数，系统将给出对应的图像并储存在画册里。你可以试着输入0.2*(x+y)或者sin(x)*cos(y)试试。没事可以点随机查看，偶尔你将会看到一些牛人绘制的<a href="http://fragsworth.com/image_functions/12083/hq/">牛图</a>：</p>
+<p><img alt="image placeholder" >
+<p>floor(3/(x*x*50+(y+6)**2+1))+floor(1/((x-2)**2+(y+9)**2*80+1))+floor(1.4/((y+2.8)**2*0.1+x*x*0.04+0.01))-3/(x*x+(y+1.0)**2*180)+floor(2/((y-3)**2*0.2+0.5*(abs(x)-3.5)**2*2+0.1))+floor(2.8/((y+5)**2*1.5+0.5*(abs(x)-5)**2*2.5+0.1))+floor(1.6/((y-4)**2*0.03+x*x*0.1+0.1))+floor(1.5/((y-10)**2+0.5*(abs(x)-3)**2))-floor(9/((y+3)**2*2.4+(abs(x)-1.9)**2*2.4))+floor(2.8/((y+9)**2*1.5+0.5*(x-4)**2*2.5+0.1))</p>
+			 ]]></content>
+<pubDate>2009-08-01T22:14:13+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2188</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣题：用松了的圆规作给定一端点的指定长度线段 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2194</link>
+<content><![CDATA[ 
+		<p>    《几何原本》的命题1是“作以给定线段为边的等边三角形”，其做法也正如大家所料：以AB为半径，分别以A、B为圆心作圆，交点C就是等边三角形的第三个顶点，于是连接AC和BC即可。《几何原本》的命题2则是一个看似更加简单的作图问题：给定点A和线段BC，作以A为其中一个端点的、长度等于BC的线段。我原以为《几何原本》的做法也和我们平常的做法一样——以A为端点向任意方向作一射线，再用圆规截取出和BC等长的线段。因此，每次在网上看到关于《几何原本》命题2时，我都会直接略过去。最近我才发现，《几何原本》中命题2的做法和大家想象的完全不一样，因为这种做法在《几何原本》中是不允许的。圆规只能用来作圆，不能用来度量和转移长度；换句话说，公设3中的“圆规”是一个“松”的圆规，一旦离开纸面后圆规的两脚便会“啪”的一声自动合拢。在这种条件下，你又如何实现上面提到的作图问题呢？</p>
+<p><span id="more-2194"></span><br>
+<img alt="image placeholder" >
+<p>    《几何原本》中的方法非常巧妙：首先，利用命题1作出等边三角形ABD。然后，以B为圆心，BC为半径作圆，交BD于E；然后，以D为圆心，DE为半径作圆，交AD于F。由等边三角形的定义，AD=BD；又由圆的定义，DF=DE；再由于等量减等量，于是AF就等于BE。再次利用圆的定义可知，BC也是等于BE的；最后由于“等于同量的两个量相等”，因此AF=BC，命题成立。</p>
+			 ]]></content>
+<pubDate>2009-08-09T11:59:14+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2194</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Pick定理的几个出人意料的应用 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2199</link>
+<content><![CDATA[ 
+		<p>   <img alt="image placeholder" >
+<p>    考虑直线x+y=n，其中n是一个素数。这条直线将恰好通过第一象限里的n-1个格点（如上图，图中所示的是n=11的情况）。将这n-1个点分别和原点相连，于是得到了n-2个灰色的三角形。仔细数数每个三角形内部的格点数，你会发现一个惊人的事实：每个三角形内部所含的格点数都是一样多。这是为什么呢？</p>
+<p><span id="more-2199"></span><br>
+   <img alt="image placeholder" >
+<p>    Pick定理是说，在一个平面直角坐标系内，如果一个多边形的顶点全都在格点上，那么这个图形的面积恰好就等于边界上经过的格点数的一半加上内部所含格点数再减一。例如，上图多边形的边界上有8个格点，内部含有7个格点，那么其面积就等于8/2+7-1=10。我们曾经在<a href="http://www.matrix67.com/blog/archives/768">这里</a>看到过一个非常神奇非常诡异的证明。这个定理有一些非常巧妙的应用。在上面的问题里，所有三角形都是等底等高的，因此它们的面积都相等。另外，注意到x与y的和是一个素数，这表明x和y是互素的（否则x+y可以提出一个公因数d，与和为素数矛盾），也就是说(x,y)和原点的连线不会经过其它格点。既然所有三角形的面积都相等，边界上的格点数也相等，由Pick定理，我们就能直接得出每个三角形内部的格点数也相等了。</p>
+<p>    另一个有趣的问题则是，一个n*n的正方形最多可以覆盖多少个格点？把这个正方形中规中矩地放在直角坐标系上，显然能够覆盖(n+1)^2个格点。貌似这已经是最多的了，不过如何证明呢？利用Pick定理，我们能够很快说明它的最优性。注意到由于任两个格点间最近也有一个单位的间距，再考虑到正方形的周长为4n，因此该正方形的边界上最多有4n个格点。把正方形边界上的格点数记作B，内部所含格点数记为I，于是它所能覆盖的总格点数等于I+B，由于I+B = I+B/2-1 + B/2+1 ≤ n^2 + 4n/2 + 1 = (n+1)^2，结论立即得证。</p>
+<p>    一个东西最出神入化的运用还是见于那些与它八杆子打不着的地方。Farey序列是指把在0到1之间的所有分母不超过n的分数从小到大排列起来所形成的数列，我们把它记作F_n。例如，F_5就是</p>
+<blockquote><p>0/1, 1/5, 1/4, 1/3, 2/5, 1/2, 3/5, 2/3, 3/4, 4/5, 1/1</p></blockquote>
+<p>   <img alt="image placeholder" >
+<p>    Farey序列有一个神奇的性质：前一项的分母乘以后一项的分子，一定比前一项的分子与后一项分母之积大1。用Pick定理来证明这个结论异常简单。把分母不超过n的每一个0和1之间的分数都标在平面直角坐标系上，例如0/1就对应点(1,0)，1/5就对应点(5,1)。考虑一根从原点出发的射线由x轴正方向逆时针慢慢转动到y轴正方向，这根射线依次扫过的标记点恰好就是一个Farey序列（因为Farey序列相当于是给每个标记点的斜率排序）。考虑这根射线扫过的两个相邻的标记点，它们与原点所组成的三角形面积一定为1/2——由于分数都是最简分数，因此它们与原点的连线上没有格点；又因为这是射线扫过的两个相邻的标记点，因此三角形内部没有任何格点。另外注意到，由于三角形面积等于叉积的一半，因此两个点(m,n)和(p,q)与原点组成的三角形面积应该为(mq-np)/2。于是，对于Farey序列的两个相邻分数n/m和q/p，我们有(mq-np)/2 = 1/2，即mq-np=1。</p>
+<p>来源：<br>
+<a href="http://www.cut-the-knot.org/ctk/PickApps.shtml">http://www.cut-the-knot.org/ctk/PickApps.shtml</a><br>
+<a href="http://www.cut-the-knot.org/ctk/PickToFarey.shtml">http://www.cut-the-knot.org/ctk/PickToFarey.shtml</a></p>
+			 ]]></content>
+<pubDate>2009-08-10T01:34:15+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2199</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 留心观察身边的事物：生活中的FAIL ]]></title>
+<link>http://www.matrix67.com/blog/archives/2207</link>
+<content><![CDATA[ 
+		<p>留心观察身边的事物，你会发现各种荒唐搞笑的事情——或者是马大虎手下那些令人啼笑皆非的Bug，或者是一群傻子突然异想天开却弄巧成拙，或者是脑子不好使的设计师弄出来的“杰作”。最近N82的储存空间不够了，于是开始清理N82上的照片，整理了一系列我亲自抓拍到的FAIL图，在这里和大家分享一下。</p>
+<p><img alt="image placeholder" >
+2008年7月22日摄于重庆某书店<br>
+在书店看到一本巨牛的书，全书讲了十余个几何命题的解析证明，书中全是繁琐累赘的代数计算，有些式子过长以至于出现如图所示的排版……</p>
+<p><span id="more-2207"></span><br>
+ <br>
+<img alt="image placeholder" >
+2008年10月11日摄于中关村鼎好5楼<br>
+某家巨不要脸的牛排店叫做“比森牛排”，牛排做不下去了厚着脸皮换成了猪排，后来甚至做起了干锅。</p>
+<p> <br>
+ <br>
+<img alt="image placeholder" >
+2008年10月30日摄于北大45乙楼一楼<br>
+上有政策，下有对策；道高一尺，魔高一丈。某日深夜归来，惊奇地发现有宿舍用链表法偷走廊上的电，一举解决了晚上寝室熄灯玩不了电脑的问题。</p>
+<p> <br>
+ <br>
+<img alt="image placeholder" >
+2008年11月6日摄于北京公安局海淀分局出境护照办理处<br>
+陪同学办出境护照，玻璃下压着一个巨牛无比的表单填写样本。</p>
+<p> <br>
+ <br>
+<img alt="image placeholder" >
+2008年11月8日摄于海淀桥<br>
+北京的交通现在我仍然搞不明白——比如，为什么放眼望去所有交通灯都是红灯？</p>
+<p> <br>
+ <br>
+<img alt="image placeholder" >
+2008年11月12日摄于北大<br>
+北大的某条小路路口处的一个傻B标识牌——这小路车能开进去么？</p>
+<p> <br>
+ <br>
+<img alt="image placeholder" >
+2009年1月17日摄于北京首都国际机场<br>
+罕见！</p>
+<p> <br>
+ <br>
+<img alt="image placeholder" >
+2009年2月18日摄于北大地厅体育房内<br>
+展板做出来了也没人看一下。</p>
+<p> <br>
+ <br>
+<img alt="image placeholder" >
+2009年2月23日摄于北大附近每日快捷酒店内<br>
+都是翻译软件惹得祸。自此以后每日快捷在我心目中的形象大打折扣。</p>
+<p> <br>
+ <br>
+<img alt="image placeholder" >
+2009年3月30日摄于鼎好5楼呷哺呷哺<br>
+某日和同学去呷哺呷哺，惊奇地发现菜单上清楚地写明“农残检测高于国家标准”。有趣的是，把这句话改成“低于国家标准”貌似也不对。几天后再来看时，发现人家动作挺快，菜单已经全部重印了。也是仅仅把“高”字换成了另外一个字，你能想到它们是怎么改的吗？答案：<span style="color:#e5e5e5">“农残检测严于国家标准”</span>。嗯，适合作为高考写作部分的小题目。</p>
+<p> <br>
+ <br>
+<img alt="image placeholder" >
+2009年5月14日摄于北大通选课《古今数学思想》课堂上<br>
+课上所发的期末考试大纲。</p>
+<p> <br>
+ <br>
+<img alt="image placeholder" >
+2009年6月4日摄于北大农行ATM机<br>
+发现一台中毒了不断重启的机器。</p>
+<p> <br>
+ <br>
+<img alt="image placeholder" >
+2009年6月23日摄于南京街头<br>
+牛！真牛！</p>
+<p> <br>
+ <br>
+<img alt="image placeholder" >
+2009年6月24日摄于南京米乐星KTV<br>
+哈哈！</p>
+<p> <br>
+ <br>
+<img alt="image placeholder" >
+2009年6月27日摄于海淀桥<br>
+限高不是闹着玩的。</p>
+<p> <br>
+ <br>
+<img alt="image placeholder" >
+2009年6月29日摄于办公室<br>
+帮某老师批改语文试卷时发现一个牛孩子。</p>
+<p> <br>
+ <br>
+<img alt="image placeholder" >
+2009年8月4日摄于山西大同街头<br>
+看到这个雕塑时吓了我一跳，大同市已经开放到这种程度了？往前再走一点，不禁狂汗……</p>
+<p> <br>
+ <br>
+<img alt="image placeholder" >
+2009年8月17日摄于北京某书店<br>
+《现代汉语八百词》第230页。自己扇了自己一耳光。</p>
+			 ]]></content>
+<pubDate>2009-08-17T19:19:11+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2207</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 聆听排序算法的声音 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2212</link>
+<content><![CDATA[ 
+		<p>在网上偶然看到<a href="http://www.pillowsopher.com/blog/?p=116">这篇文章</a>，决定把之前创作<a href="http://www.matrix67.com/blog/archives/1763">排序算法内存状态演示图</a>所用的Mathematica程序修改一下，于是搞出来5个midi音乐。这些midi文件用音高来表示内存状态，初始时的音都是乱的，然后声音渐渐变得有序，最后就成了从低到高的一串音符。</p>
+<p><a href="http://www.matrix67.com/data/bubble_8_elements.mid">http://www.matrix67.com/data/bubble_8_elements.mid</a><br>
+<a href="http://www.matrix67.com/data/insert_8_elements.mid">http://www.matrix67.com/data/insert_8_elements.mid</a><br>
+<a href="http://www.matrix67.com/data/select_8_elements.mid">http://www.matrix67.com/data/select_8_elements.mid</a><br>
+<a href="http://www.matrix67.com/data/quick_12_elements.mid">http://www.matrix67.com/data/quick_12_elements.mid</a><br>
+<a href="http://www.matrix67.com/data/bogo_6_elements.mid">http://www.matrix67.com/data/bogo_6_elements.mid</a></p>
+<p>哪位兄弟能推荐一个在线放midi文件的好方法？</p>
+			 ]]></content>
+<pubDate>2009-08-18T22:08:24+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2212</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 勾股定理的两个物理证明 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2227</link>
+<content><![CDATA[ 
+		<p>    说勾股定理是一切科学的基础恐怕一点也不夸张。一些最基本的物理定律就与勾股定理之间产生了完美的对应。在我初三学到动能的公式时，我就想到，动能与速度的平方成正比是有内在原因的，这正是由数理科学中最基本的定理——勾股定理——决定的。考虑一个质量为1的物体向正北方向运动，如果它的速度为a，那么所需要的能量就是(a^2)/2；类似地，让同一个物体以b的速度向正东方向运动，所需要的能量应该为(b^2)/2。如果把这两个力叠加在一起，我们就得到了这样一个事实：用(a^2)/2 + (b^2)/2的能量可以让物体往大致东北的方向运动，其速度正好就是一个以a和b为边的矩形的对角线长。因此，(a^2)/2 + (b^2)/2正好也就是对角线长度的平方的一半，这恰好与勾股定理的内容一致。可以说，我们用数学定理验证了一个物理定律；也可以说，我们用物理定律证明了一个数学定理。</p>
+<p><span id="more-2227"></span><br>
+      <img alt="image placeholder" >
+<p>    让我们来看另外一个更巧妙的例子：考虑一个底面为直角三角形的棱柱形盒子，其中一个锐角顶点（所对应的棱）固定在一根转轴上，因此整个盒子可以绕转轴转动。在盒子里面倒满水。在没有外力作用的情况下，这个盒子会绕着转轴自己转动吗？显然不会。这表明，盒子中的水对三个竖直表面的水压所产生的力矩是平衡的。每个面的压力大小都和直角三角形的对应边长成正比，它到转轴的距离也正好是每条边的长度的一半。两个直角边上的水压把棱柱往顺时针方向推，斜边上的水压则把棱柱往逆时针方向推。这样，前两个力矩应该与后一个力矩平衡，即(a^2)/2 + (b^2)/2 = (c^2)/2。（补充一下：a、b、c分别表示直角三角形的三边长）</p>
+<p>  <img alt="image placeholder" >
+<p>本文来源：<a href="http://www.cut-the-knot.org/pythagoras/MechanicalProofs.shtml">http://www.cut-the-knot.org/pythagoras/MechanicalProofs.shtml</a></p>
+			 ]]></content>
+<pubDate>2009-08-21T23:23:40+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2227</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 祝大家七夕情人节快乐 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2238</link>
+<content><![CDATA[ 
+		<p><img alt="image placeholder" >
+<p>上面这张图片里隐藏了不少与爱情相关的单词，你能找出几个来？<br>
+图片来源：<a href="http://www.bantjes.com/index.php?id=221">http://www.bantjes.com/index.php?id=221</a></p>
+			 ]]></content>
+<pubDate>2009-08-26T08:51:03+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2238</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Scarky：发布你自己的OI/ACM题 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2241</link>
+<content><![CDATA[ 
+		<p>出了一道好题目却不知道该怎样投递到各大OJ上？现在不用担心这个问题了，因为你可以直接把自己的Blog变成一个OJ。<a href="http://www.scarky.com">Scarky</a>是一个建立在<a href="http://www.spoj.pl/">SPOJ</a>系统上的OJ平台。所不同的是，任何人无需注册便可以编写自己的题目并发在自己的网站上与网友分享，并且网友们提交答案时也不需要进行注册。这个网站的功能还在不断扩充中，但目前就Programming Challenge模块看来，这个网站已经很强大了。以后我有了好题目就用这种方式和大家分享了，这里先试用一下，题目来源好像是某次USACO月赛。</p>
+<p><script type="text/javascript" src="http://scarky.com/widget/get/P10DA13B/"></script></p>
+			 ]]></content>
+<pubDate>2009-08-27T12:39:13+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2241</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 爱情究竟是什么？ ]]></title>
+<link>http://www.matrix67.com/blog/archives/2247</link>
+<content><![CDATA[ 
+		<p><img alt="image placeholder" >
+			 ]]></content>
+<pubDate>2009-08-28T00:46:42+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2247</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 经典证明：一组凸集中任三个的交非空，则所有凸集的交非空 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2256</link>
+<content><![CDATA[ 
+		<p>    今天看到一本巨爽的<a href="http://www.math.umn.edu/~pak/book.htm">电子书</a>，里面介绍了很多离散几何的神奇结论和美妙证明。我一口气看了将近十个小节，期间不停地被那些天才的数学证明所震撼。电子书的第一节介绍了一个非常初等的东西——Helly定理。从这里大家足以领略到凸集理论的奇妙。<br>
+    Helly定理是说，如果一组凸图形中任意三个都有公共区域，那么所有这些凸图形也一定有一个公共区域。注意，这个结论并不是显然的。如果把“任意三个”改为“任意两个”的话结论就不成立了，反例很容易找。另外，“凸图形”这个条件也是必需的——下图中的四块区域满足任意三个都有交集，但它们却没有一块公共的部分。因此，要想证明这个结论，我们必须充分利用“凸图形”这一条件。</p>
+<p>  <img alt="image placeholder" >
+<p><span id="more-2256"></span></p>
+<p>    证明对凸集的总个数n施归纳。当n=3时，命题显然成立。不妨来考虑一下n=4的情况。把四个凸集分别记作X_1、X_2、X_3、X_4。我们需要找到一个同属于这四块区域的点。由归纳假设，X_2、X_3、X_4三块区域有一个交集，在这个交集里取一点记为v1；类似地，X_1、X_3、X_4也有一块公共区域，在该区域内选取一点作为v2；用同样的方法确定出v3和v4来。这四个点的位置关系只有两种可能：要么某个点在另外三个点所形成的三角形区域内，要么这四个点构成一个凸四边形的顶点。</p>
+<p><img alt="image placeholder" >
+<p>    对于前一种情况，假设v2在v1、v3、v4所形成的三角形区域内。根据我们刚才的构造，v1、v3、v4都在X_2里面，又因为X_2是凸的，因此这三个点所形成的三角形区域也应全部在X_2中；而v2既落在这个三角形中，又位于X_1、X_3、X_4的公共区域内，因此v2就是满足要求的点。对于后一种情况，画出这个凸四边形的对角线，在右图中这两条对角线即为v2v4和v1v3。注意到v1和v3的连线完全落在X_2和X_4的公共区域内，同样地线段v2v4上的所有点都同属于X_1和X_3，因此这两条线段的交点即为所求。因此，无论如何，我总能找到同属于四个凸集的一个点。<br>
+    当n再大一些的时候，我们可以仿照上面的做法，在每n-1个凸图形的交集中取一个点。事实上，我们只需要考虑其中的四个点就够了，比如我们就考虑v1、v2、v3、v4四个点。由构造，这四个点全都落在X_5, X_6, …, X_n里面，因此它们的凸包（覆盖这些点的最小凸多边形）也完全位于X_5, X_6, …, X_n的交集内；而前面的分析告诉我们，在这四个点的凸包内存在一个点同属于X_1、X_2、X_3和X_4，于是结论成立。<br>
+    事实上，这个结论还可以继续扩展。我们可以证明，对于d维空间中的一组凸集，如果其中任意d+1个凸集的交都非空，那么所有凸集的交非空。这里就不再说了。</p>
+<p> <br>
+    Helly定理有一些有趣的推论。其中一个推论是，给定平面上的若干矩形，如果这些矩形的边都与坐标轴平行，并且任意两个矩形都相交，那么所有矩形都会相交。为了证明这个结论，我们只需要说明任意两个矩形相交能推出任意三个矩形相交就行了。考虑任意三个矩形，把它们水平方向上的边投影到x轴上，则我们得到了三条两两之间都有部分重合的线段。由低维的Helly定理，同一直线上的三条线段两两之间都有公共部分，则三条线段必然也有一个公共部分。类似地，三组竖直边在y轴上的投影也有一个公共的部分。因此，事实上这组矩形中任意三个的交都是非空的。<br>
+    另一个有趣的结论是，如果平面上的n个点中任意三个都能用一个半径为r的圆覆盖，那么所有这n个点也都能被一个半径为r的圆覆盖。证明这个问题要转一个弯儿：一个圆能覆盖一个点当且仅当圆心离点的距离小于半径。受此启发，分别以这n个点为圆心，做半径为r的圆。于是，题目条件立即变为：刚才作的这n个圆中任意三个都有公共部分。因此，所有这n个圆都有一个公共区域。返回来说，只要把圆盘的圆心放进这个公共区域里，所有n个点都能被这个圆盘覆盖住了。</p>
+			 ]]></content>
+<pubDate>2009-08-28T17:48:35+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2256</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 精美组图：Found Functions ]]></title>
+<link>http://www.matrix67.com/blog/archives/2304</link>
+<content><![CDATA[ 
+		<p><img alt="image placeholder" >
+<p><span id="more-2304"></span><br>
+<img alt="image placeholder" >
+<p> <br>
+<img alt="image placeholder" >
+<p> <br>
+<img alt="image placeholder" >
+<p> <br>
+<img alt="image placeholder" >
+<p>图片来源：<a href="http://www.nikkigraziano.com/foundfunctions/index.html">http://www.nikkigraziano.com/foundfunctions/index.html</a></p>
+			 ]]></content>
+<pubDate>2009-09-02T16:54:37+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2304</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 图表的重要性：Anscombe的四组数据 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2308</link>
+<content><![CDATA[ 
+		<p>1973年，统计学家F.J. Anscombe构造出了四组奇特的数据。它告诉人们，在分析数据之前，描绘数据所对应的图像有多么的重要。</p>
+<table style="text-align:center; margin-left: 8px;" border="1">
+<caption>Anscombe’s Quartet</caption>
+<tr>
+<th colspan="2">I</th>
+<th colspan="2">II</th>
+<th colspan="2">III</th>
+<th colspan="2">IV</th>
+</tr>
+<tr>
+<td>x</td>
+<td>y</td>
+<td>x</td>
+<td>y</td>
+<td>x</td>
+<td>y</td>
+<td>x</td>
+<td>y</td>
+</tr>
+<tr>
+<td>10.0</td>
+<td>8.04</td>
+<td>10.0</td>
+<td>9.14</td>
+<td>10.0</td>
+<td>7.46</td>
+<td>8.0</td>
+<td>6.58</td>
+</tr>
+<tr>
+<td>8.0</td>
+<td>6.95</td>
+<td>8.0</td>
+<td>8.14</td>
+<td>8.0</td>
+<td>6.77</td>
+<td>8.0</td>
+<td>5.76</td>
+</tr>
+<tr>
+<td>13.0</td>
+<td>7.58</td>
+<td>13.0</td>
+<td>8.74</td>
+<td>13.0</td>
+<td>12.74</td>
+<td>8.0</td>
+<td>7.71</td>
+</tr>
+<tr>
+<td>9.0</td>
+<td>8.81</td>
+<td>9.0</td>
+<td>8.77</td>
+<td>9.0</td>
+<td>7.11</td>
+<td>8.0</td>
+<td>8.84</td>
+</tr>
+<tr>
+<td>11.0</td>
+<td>8.33</td>
+<td>11.0</td>
+<td>9.26</td>
+<td>11.0</td>
+<td>7.81</td>
+<td>8.0</td>
+<td>8.47</td>
+</tr>
+<tr>
+<td>14.0</td>
+<td>9.96</td>
+<td>14.0</td>
+<td>8.10</td>
+<td>14.0</td>
+<td>8.84</td>
+<td>8.0</td>
+<td>7.04</td>
+</tr>
+<tr>
+<td>6.0</td>
+<td>7.24</td>
+<td>6.0</td>
+<td>6.13</td>
+<td>6.0</td>
+<td>6.08</td>
+<td>8.0</td>
+<td>5.25</td>
+</tr>
+<tr>
+<td>4.0</td>
+<td>4.26</td>
+<td>4.0</td>
+<td>3.10</td>
+<td>4.0</td>
+<td>5.39</td>
+<td>19.0</td>
+<td>12.50</td>
+</tr>
+<tr>
+<td>12.0</td>
+<td>10.84</td>
+<td>12.0</td>
+<td>9.13</td>
+<td>12.0</td>
+<td>8.15</td>
+<td>8.0</td>
+<td>5.56</td>
+</tr>
+<tr>
+<td>7.0</td>
+<td>4.82</td>
+<td>7.0</td>
+<td>7.26</td>
+<td>7.0</td>
+<td>6.42</td>
+<td>8.0</td>
+<td>7.91</td>
+</tr>
+<tr>
+<td>5.0</td>
+<td>5.68</td>
+<td>5.0</td>
+<td>4.74</td>
+<td>5.0</td>
+<td>5.73</td>
+<td>8.0</td>
+<td>6.89</td>
+</tr>
+</table>
+<p><span id="more-2308"></span><br>
+这四组数据中，x值的平均数都是9.0，y值的平均数都是7.5；x值的方差都是10.0，y值的方差都是3.75；它们的相关度都是0.816，线性回归线都是y=3+0.5x。单从这些统计数字上看来，四组数据所反映出的实际情况非常相近，而事实上，这四组数据有着天壤之别。</p>
+<p><img alt="image placeholder" >
+<p>把它们描绘在图表中，你会发现这四组数据是四种完全不同的情况。第一组数据是大多人看到上述统计数字的第一反应，是最“正常”的一组数据；第二组数据所反映的事实上是一个精确的二次函数关系，只是在错误地应用了线性模型后，各项统计数字与第一组数据恰好都相同；第三组数据描述的是一个精确的线性关系，只是这里面有一个异常值，它导致了上述各个统计数字，尤其是相关度值的偏差；第四组数据则是一个更极端的例子，其异常值导致了平均数、方差、相关度、线性回归线等所有统计数字全部发生偏差。</p>
+<p>来源：<br>
+<a href="http://www.reddit.com/r/math/comments/9fz3u/4_datasets_that_demonstrate_the_importance_of/">http://www.reddit.com/r/math/comments/9fz3u/4_datasets_that_demonstrate_the_importance_of/</a><br>
+<a href="http://en.wikipedia.org/wiki/Anscombe's_quartet">http://en.wikipedia.org/wiki/Anscombe’s_quartet</a></p>
+			 ]]></content>
+<pubDate>2009-09-07T19:57:45+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2308</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 余弦定理的三个证明 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2324</link>
+<content><![CDATA[ 
+		<p>无需任何废话，三张图片即可说明一切</p>
+<p>证明一：<br>
+ <img alt="image placeholder" >
+<p><span id="more-2324"></span><br>
+ <br>
+ </p>
+<p>证明二：<br>
+   <img alt="image placeholder" >
+<p> <br>
+ <br>
+ </p>
+<p>证明三：<br>
+   <img alt="image placeholder" >
+<p>来源：<a href="http://books.google.com/books?id=Kx2cjyzTIYkC&amp;lpg=PP1&amp;dq=Proofs%20without%20words&amp;pg=PA31#v=onepage&amp;q=&amp;f=false">http://books.google.com/books?id=Kx2cjyzTIYkC&amp;lpg=PP1&amp;dq=Proofs%20without%20words&amp;pg=PA31#v=onepage&amp;q=&amp;f=false</a></p>
+			 ]]></content>
+<pubDate>2009-09-08T03:30:03+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2324</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣题：构造骰子使其与两个标准骰子等价 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2339</link>
+<content><![CDATA[ 
+		<p>    今天下午在上语言统计分析课时，我听到了一个非常有趣的问题。考虑同时抛掷两个骰子所得到的结果——它们的和有1/36的概率得到2，有2/36的概率得到3，……，有1/36的概率得到12。现在，你能否构造两个新的骰子，使得同时抛掷两个新骰子的结果与原来相同？注意，每个骰子都有6个面，每个面都有一个正整数。这些点数可能超过6，并且可能会有重复。另外，这两个骰子也无需完全相同。<br>
+    解决这个问题并不难。首先注意到，为了使得两个骰子的点数之和能够得达到2，每个骰子上都得有一个“1”（并且仅有一个“1”）才行。接下来考虑，为了得到两种和为3点的情况，我们还得在两个骰子上放置两个“2”：我们可以在每个骰子上各放一个“2”，不过这样就与原来的骰子没啥区别了；我们也可以来点不一样的，把两个“2”都放在一个骰子上。现在，其中一个骰子上只放了一个“1”，另外一个骰子已经填了一个“1”和两个“2”，这可以保证它们能产生出一个2点和两个3点。再下一步，我们将考虑如何产生出三个4点。为此，我们需要把三个“3”分配到两个骰子中。这样推下去虽然越来越麻烦，但最终你还是能得到一个合法解：一个骰子上写有1、2、2、3、3、4，另一个骰子上写有1、3、4、5、6、8。不过，这个问题有一个异常巧妙的解法，它能够把两个骰子的点数进行整体求解。你能想到这个做法吗？</p>
+<p><span id="more-2339"></span><br>
+    考虑多项式x + x^2 + x^3 + x^4 + x^5 + x^6的平方，展开后即为x^2 + 2·x^3 + 3·x^4 + 4·x^5 + 5·x^6 + 6·x^7 + 5·x^8 + 4·x^9 + 3·x^10 + 2·x^11 + x^12。仔细观察多项式展开与合并同类项的过程，你会立即发现，上面的多项式运算精确地表达出了投掷两个标准骰子能够产生的结果——一个2，两个3，三个4，四个5，……，两个11，一个12。为了找到两个与原来等价的新骰子，我们只需要找到两个项数为6、系数为正整数的多项式，使得它们的乘积也等于x^2 + 2·x^3 + 3·x^4 + … + 2·x^11 + x^12即可。注意到x + x^2 + x^3 + x^4 + x^5 + x^6既可以分解成(x + x^2)(1 + x^2 + x^4)，又可以分解成(x + x^4)(1 + x + x^2)。为了得到一种与原骰子不同的方案，我们只需要让前面那个二项式乘以后面那个三项式，再让前面那个三项式乘以后面那个二项式（保证仍然产生六个项）。由于(x + x^2)(1 + x + x^2)等于x + 2·x^2 + 2·x^3 + x^4，并且(x + x^4)(1 + x^2 + x^4)=x + x^3 + x^4 + x^5 + x^6 + x^8，我们立即得到了一个合法解：一个骰子上填一个“1”、两个“2”、两个“3”和一个“4”，另一个骰子上写有“1”、“3”、“4”、“5”、“6”、“8”各一个。事实上，不同的因式分解和组合可以得到更多的方案，只是这些方案不一定能产生系数为正整数的、恰有6项的两个多项式。</p>
+			 ]]></content>
+<pubDate>2009-09-15T18:13:26+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2339</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 最近几天碰到的几个有趣的问题 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2348</link>
+<content><![CDATA[ 
+		<p>最近几天见到了几道零散的、不成系统的趣题，在这里合成一篇文章，与大家分享。</p>
+<p>1. 证明：对任意正整数n，n^2+n+1一定不是完全平方数。</p>
+<p>2. 说一个实数是可表达的，当且仅当它能用有限长的语句明确地描述出来，如2147483648可以说成是“二的三十一次方”，√<span style="text-decoration:overline">2</span>即为“平方后等于二的正实数”，π即为“圆的周长和直径之比”。问题是，是否存在一个不可表达的实数？</p>
+<p>3. 一个人有两个小孩儿，其中有一个生于星期二的男孩儿。问另一个是男孩儿的概率是多少？</p>
+<p>4. 无需积分，计算<img alt="image placeholder" >
+<p><span id="more-2348"></span></p>
+<p> <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ </p>
+<p>1. 证明：对任意正整数n，n^2+n+1一定不是完全平方数。<br>
+答案：n^2+n+1大于n^2而小于(n+1)^2，位于两个相邻平方数之间，显然不可能是一个完全平方数。</p>
+<p>2. 说一个实数是可表达的，当且仅当它能用有限长的语句明确地描述出来，如2147483648可以说成是“二的三十一次方”，√<span style="text-decoration:overline">2</span>即为“平方后等于二的正实数”，π即为“圆的周长和直径之比”。问题是，是否存在一个不可表达的实数？<br>
+答案：存在。因为有限长的字符串是可数的（按字符串的长度排序，长度相同则按字典序排），但实数集是不可数的。有趣的是，这个问题的证明一定是非构造性的。</p>
+<p>3. 一个人有两个小孩儿，其中有一个生于星期二的男孩儿。问另一个是男孩儿的概率是多少？<br>
+答案：13/27。这是“已知有一个男孩儿，问另一个是男孩儿的概率”的加强版，是一个非常精彩的条件概率问题。它非常直观地告诉我们，事先提供更准确的信息能给概率带来怎样的变化。另一个有趣的问题见<a href="http://www.matrix67.com/blog/archives/1344">这里</a>。</p>
+<p>4. 无需积分，计算<img alt="image placeholder" >
+答案：显然<img alt="image placeholder" >
+<img alt="image placeholder" >
+于是立即可知，<img alt="image placeholder" >
+			 ]]></content>
+<pubDate>2009-09-16T19:34:38+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2348</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣题：平面图三染色的零知识证明 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2359</link>
+<content><![CDATA[ 
+		<p>    在各种介绍密码学与协议的教材里都有关于零知识证明的话题——如何让你相信我已经找到了一个解，但又不告诉你这个解是什么。最经典的例子便是关于Hamilton回路的问题——存在这样一种<a href="http://www.matrix67.com/blog/archives/424">巧妙的协议</a>，可以让你相信我已经找到了某个图的Hamilton回路，而你却完全得不到关于这个Hamilton回路本身的任何信息。今天我又看到了一个非常不错的零知识证明实例。给定一个平面图，你需要给每个区域染一种颜色，使得任两个相邻的区域颜色不同。如果你仅用三种颜色就能做到这一点，我们就说这个图是可以三染色的。目前我们还没有一个判断平面图可否三染色的好办法，寻找一个平面图的三染色方案并不是一件容易的事。现在，假如你已经找到了某个给定平面图的三染色方案，你想向别人炫耀自己的成果，但又不想透露关于你的染色方案的任何信息。你能否设计一种协议使得对方能够相信你确实找到了一种三染色方案而又不告诉他这种方案是什么呢？</p>
+<p><span id="more-2359"></span></p>
+<p>    假设平面图一共有n个区域，从1到n分别编号。注意，如果你有了一种三染色方案，置换原方案中的颜色，你会立即得到另外五种染色方案。从六种（本质相同的）染色方案中随机选一种染色方案，用<a href="http://www.matrix67.com/blog/archives/1230">防欺骗的承诺协议</a>对每个区域各自用的什么颜色进行加密（比如“区域编号+随机字符串+颜色代码”的md5值），然后把n份密文一同发给对方。对方选取原图中的相邻两块区域，要求查看它们的颜色。把他所选的两个区域编号所对应的原始信息告诉他，让他验证其颜色确实是合法的，并且这两个字符串的md5值正好与预先给他的相同。反复执行上述操作，直到对方确信你的确掌握有一种三染色的方案。</p>
+<p>来源：<a href="http://math.ias.edu/~virgi/greatcs/Digitalenvelopecrypto.pdf">http://math.ias.edu/~virgi/greatcs/Digitalenvelopecrypto.pdf</a></p>
+			 ]]></content>
+<pubDate>2009-09-17T00:20:24+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2359</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Google在MIT发布的难题 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2368</link>
+<content><![CDATA[ 
+		<p>刚从<a href="http://twitter.com/cnphil">cnPhil</a>那儿看到一则<a href="http://www.techcrunch.com/2009/09/21/google-is-searching-for-beautiful-minds-but-so-far-no-m-i-t-students-have-broken-its-code/">有趣的消息</a>：近日，Google Jobs在MIT校园内到处张贴着一份密码，企图在MIT校园里的一群变态中找出几个最变态的破密大牛。密码上面附文说，如果你能破解这份密码，你在Google会很有前途。据说，这份密码包含了一个Google Jobs的电话号码，解开密码的人可以通过此电话留下自己的个人信息。目前，还没有人破解出这段密码来。</p>
+<p><img alt="image placeholder" >
+<p><span id="more-2368"></span></p>
+<p> <br>
+ <br>
+ <br>
+ <br>
+想要自己试一试的同学可以参看下面的高清无码版：</p>
+<p><img alt="image placeholder" >
+			 ]]></content>
+<pubDate>2009-09-22T12:08:01+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2368</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 按照盒子的三边长之和来计费有没有漏洞？ ]]></title>
+<link>http://www.matrix67.com/blog/archives/2374</link>
+<content><![CDATA[ 
+		<p>    这是一个非常有趣的问题。许多快递公司都依据物件的长、宽、高三边之和来收费，一些航空公司也要求托运行李的三边长相加不能超过某个限制。那么是否有人想过，有没有可能把一个三边之和较大的盒子装进一个三边之和较小的盒子里，从而骗取更低的费用呢？有人会说，恐怕不行吧，长宽高之和更大的盒子体积不也应该更大一些吗？不见得。比方说，盒子A的长宽高分别是10、10、10，盒子B的长宽高分别是9、9、12.1。盒子B的三边长之和显然比盒子A要大，但体积只有980.1，比前者要小近20个单位。那么，为什么就不能把盒子B沿斜线方向塞进盒子A呢？有人会敏锐地发现，在上面的例子中，盒子A的体对角线长为17.3205，但盒子B的对角线长度达到17.5616，显然无法完全放进盒子A里。不过且慢，我也能举出这样的例子，三边和更大的盒子其体积和对角线都比小的盒子的要小。盒子A的长宽高分别为10、10、20，盒子B的长宽高分别为7.1、16.5、16.5。盒子B的长宽高之和比盒子A大，体积为1932.98，对角线长度比前者小大约0.1。看来，为了解决这个问题，我们还需要从一些更巧妙的方面入手。</p>
+<p><span id="more-2374"></span></p>
+<p>    这种骗取低费用的办法虽然有创意，但却是不可能办到的。考虑一个长方体A。我们把长方体A以及离A的距离不超过ε的所有点组成的立体图形记作A_ε。可以想象，A_ε是一个棱角处圆乎乎的近似长方体。如果长方体A的三条边的长度分别为a、b、c的话，它的体积就应该是abc。那么，A_ε的体积应该是多少呢？它应该等于长方体本身的体积，加上长方体6个面外表上的那层皮，加上12条棱外面的那些1/4圆柱，加上8个角外面的那些1/8球体。注意到12个1/4圆柱恰好组成了三个完整的圆柱体，8个1/8球正好拼成了一个完整的球。因此，A_ε的总体积应该为(4/3)·pi·ε^3 + (a+b+c)pi·ε^2 + 2(ab+ac+bc)ε + abc。现在，让我们考虑另一个长方体B，其边长分别为a’、b’和c’。假设长方体B能够放进长方体A里面，那么很显然B_ε也应该完全位于A_ε内。A_ε的体积与B_ε的体积相差</p>
+<p>(a+b+c)pi·ε^2 + 2(ab+ac+bc)ε + abc – (a’+b’+c’)pi·ε^2 – 2(a’b’+a’c’+b’c’)ε – a’b’c’</p>
+<p>    由于A_ε的体积大于B_ε，上式的结果始终为正。这表明，当ε取到足够大时，二次项(a+b+c)pi·ε^2 – (a’+b’+c’)pi·ε^2的结果一定为正，由此可知a+b+c一定大于a’+b’+c’。</p>
+<p>来源&amp;查看更多：<a href="http://www.math.dartmouth.edu/~pw/solutions.pdf">http://www.math.dartmouth.edu/~pw/solutions.pdf</a><br>
+Update：2011年 11 月 4 日，更新了一种新的证明方法，见 <a href="http://www.matrix67.com/blog/archives/4698">http://www.matrix67.com/blog/archives/4698</a></p>
+			 ]]></content>
+<pubDate>2009-09-22T22:56:20+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2374</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 空间想象能力挑战：立方体相邻面两对角线的最近距离？ ]]></title>
+<link>http://www.matrix67.com/blog/archives/2383</link>
+<content><![CDATA[ 
+		<p>    最近在<a href="http://www.reddit.com/r/math/comments/9n45i/a_little_3d_visualisation_puzzle_for_you_whats/">reddit</a>上看到了这么一个有趣的问题：下图是一个单位立方体，黑色实线分别是立方体相邻两个面的两条对角线。你觉得这两条对角线之间的最短距离是多少？</p>
+<p>   <img alt="image placeholder" >
+<p>    可以提前告诉你，答案不是√<span style="text-decoration:overline">2</span>/2。</p>
+<p><span id="more-2383"></span></p>
+<p> <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ </p>
+<p><img alt="image placeholder" >
+<p>    把立方体投影到一个平面上，使得其中一条对角线被映射成一个点。如图，平面上ABCD是一个矩形，其中EF=1，AE=1/√<span style="text-decoration:overline">2</span>。由勾股定理，AF=√<span style="text-decoration:overline">3</span>/√<span style="text-decoration:overline">2</span>。显然，后面那条对角线上的每个点到前面那条竖直对角线的距离都是与后者垂直的线段的长，它投射到平面上便成为了从E到AF的某条等长的线段。显然，这个距离的最小值便是E到AF的垂线段长，它等于1/√<span style="text-decoration:overline">3</span>。</p>
+			 ]]></content>
+<pubDate>2009-09-30T00:39:46+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2383</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣题：以无理点为圆心的圆周上最多有多少个有理点？ ]]></title>
+<link>http://www.matrix67.com/blog/archives/2390</link>
+<content><![CDATA[ 
+		<p>    由于勾股数组有无穷多个，因此以原点为圆心的单位圆上有无穷多个有理点。例如，(3,4,5)是一组勾股数，因此(3/5, 4/5)就是单位圆上的一个有理点。将这个圆的半径放大有理数倍，则原来圆周上的有理点现在显然仍是有理点；将这个圆的圆心平移至一个有理点，则同样地，原来圆周上的有理点现在显然仍是有理点。于是我们得到这样一个结论：在平面直角坐标系内，任意一个以有理点为圆心，有理数为半径的圆周上总存在无穷多个有理点。我们不由得想到这样一个有趣的问题：如果一个圆的圆心是无理点（两个坐标中至少有一个不是有理数），那么圆周上的有理点个数还可能是无穷多个吗？若不是的话，最多能有多少个？</p>
+<p><span id="more-2390"></span><br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+    一个圆心位于无理点上的圆，其圆周上最多有2个有理点，例如圆心在(0,√<span style="text-decoration:overline">3</span>)，半径为2的圆将经过(1,0)和(-1,0)。但是，你绝对不可能构造出某个圆心为无理点的圆，它的圆周经过了两个以上的有理点。为了证明这一点，我们先来复习一下下面这些基本常识：<br>
+     1. 两个有理点的连线所在直线的方程一定是一个有理系数方程；<br>
+     2. 两个有理点的连线的中点也是一个有理点；<br>
+     3. 与斜率为α的直线垂直的直线，斜率为-1/α，两个斜率值要么同为有理数，要么同为无理数；<br>
+     4. 两个有理系数方程的公共解也一定是一个有理数。</p>
+<p>    结合前面三点，我们立即可知，两个有理点的连线的垂直平分线，其对应的方程也一定是一个有理系数方程。现在假设我们的圆周上有三个有理点A、B、C。做出AB的垂直平分线，做出BC的垂直平分线，两条垂直平分线将交于圆心。但是，由上述第四条我们知道，这个交点一定是一个有理点，与题目的前提条件矛盾。</p>
+<p>来源：<a href="http://www.cut-the-knot.org/pythagoras/RationalPointsOnCircle.shtml">http://www.cut-the-knot.org/pythagoras/RationalPointsOnCircle.shtml</a></p>
+			 ]]></content>
+<pubDate>2009-10-02T11:28:42+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2390</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 零点定理的奇妙应用：平分面积的直线 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2397</link>
+<content><![CDATA[ 
+		<p>    零点定理是一个大家平时生活中用惯了以至于反而觉得很陌生的一个定理。若函数f(x)在区间[a,b]连续，并且f(a)与f(b)异号，那在(a,b)之间一定存在某个x，使得f(x)=0。如果你从海拔为-100的地方走到海拔为400的地方，那不管你是怎么走的，你一定会有经过了海平面的一瞬间。另一个比较隐蔽一些的应用便是，对任意一个凸多边形，总存在一条直线把它分成面积相等的两份。考虑一条竖直直线从左至右扫过整个凸多边形，则凸多边形位于直线左边的那部分面积由0逐渐增大为整个凸多边形的面积，直线右侧的面积则由最初的整个凸多边形面积渐渐变为0。若把直线左侧的面积记为f(x)，直线右侧的面积记为g(x)，则随着直线位置x的变化，f(x)-g(x)的值由一个负数连续地变为了一个正数，它一定经过了一个零点。这表明，在某一时刻一定有f(x)=g(x)。</p>
+<p> <br>
+  <img alt="image placeholder" >
+<p>    用类似的方法，我们能证明一个更强的命题：对任意一个凸多边形，总能用两条互相垂直的直线把它的面积分成四等份。利用前面的结论，我们能找到一条直线l1，它把整个凸多边形分成上下相等的两份；类似地，我们能找到唯一的一条与l1垂直的直线l2，使得它恰好把整个凸多边形分成左右相等的两份。注意，现在我们有A1+A2 = A2+A3 = A3+A4 = A4+A1，我们甚至立即还可以知道A1=A3并且A2=A4，但这都还不足以保证四块面积全都相等。怎么办呢？注意，我们前面假定直线l1是一条水平直线。事实上，l1每取一个方向，我们都能用上面的方法得到一个具有相同性质的新构造。为此，我们将直线l1的方向顺时针旋转90度。考虑整个过程中A1-A2的值的变化过程：旋转后的A1-A2恰好就是旋转前的A2-A3，而A1和A3又是相等的……于是我们发现，旋转前后的A1-A2的值恰好互为相反数！这表明，在直线l1旋转的过程中，一定有一瞬间满足A1-A2=0，这一刻的l1和l2便是两条互相垂直并把图形四等分的直线。</p>
+<p><span id="more-2397"></span></p>
+<p> <br>
+ <br>
+ <br>
+ <br>
+    我们来看一个更牛B的定理：对任意一个凸多边形，总能用三条交于一点的直线把它的面积分成六等分。</p>
+<p>   <img alt="image placeholder" >
+<p>    先用直线l1把图形分成上下相等的两半。对于l1上的任意一点p，总存在唯一的四条射线，它们和直线l1一起恰好把图形分成六等分。现在，考虑p点从l1最左边向最右边移动，则角α由180度慢慢变成0度，角β则从0度慢慢变成180度，因此在此过程中必然有α=β的时刻。把此时我们得到的那条直线记作l2，并把剩余的两条射线分别记作r1和r2。现在，将l1的方向顺时针旋转180度，得到的构造和之前一样，只不过r1和r2交换位置了：原来r2在r1延长线的顺时针方向，现在r2跑到了r1的延长线的逆时针方向，前后两个角度互为相反数。因此，在l1旋转的过程中，必然有某个时刻r1的延长线和r2正好重合。三次嵌套地调用零点定理，我们终于证明了这个结论。</p>
+<p> <br>
+ <br>
+ <br>
+本文来源于<a href="http://www.matrix67.com/blog/archives/2256">上次提到的电子书</a><br>
+前几天回了一趟家，不巧又碰上扁桃体发炎，发烧烧得和笔记本底板一个温度，搞得10多天没更新了<br>
+呼吁大家在读书学习写代码想问题的时候多注意身体！</p>
+			 ]]></content>
+<pubDate>2009-10-12T19:19:39+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2397</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣题：哪个像素点坏了？ ]]></title>
+<link>http://www.matrix67.com/blog/archives/2409</link>
+<content><![CDATA[ 
+		<p><img alt="image placeholder" >
+<p>电子公告板上的式子原本是正确的，只是因为有一个像素点坏了，才显示出如此荒谬的结果。<br>
+你能看出是哪一个像素点坏了吗？</p>
+<p>题目来源：<a href="http://www.braingames.ru/?path=comments&amp;puzzle=393">http://www.braingames.ru/?path=comments&amp;puzzle=393</a><br>
+答案很简单，这里就不公布了……</p>
+			 ]]></content>
+<pubDate>2009-10-14T00:00:44+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2409</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 为什么人们往往不愿承担风险？风险规避的科学解释 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2411</link>
+<content><![CDATA[ 
+		<p>    假设你有两份工作供你选择：工作一，有1/2的概率获得1000块钱，有1/2的概率获得2000块钱；工作二，百分之百地能稳拿1500块钱。虽然看上去两种选择的平均收入都一样，但是人们往往更愿意选择后一份工作，尽可能避免前一种工作所带来的风险。为什么面对期望收入相同的事件，人们往往愿意选择风险更小的那一个呢？前几天我去听微观经济学的课时，学到了解释该现象的一个非常有趣的科学模型（经济学大牛请直接无视掉）。</p>
+<p>    这里，我们有一个重要的假设：收入的边际效用是递减的。换句话说，增加同样多的收入，低收入者主观上会感觉自己收益了很多，本来就是高收入的人则觉得这点儿收入算不了什么。人们往往会觉得，收入从1000块钱增加到2000块钱所带来的幸福感，要远远大于收入从8000块增加到9000块所带来的幸福感。因此，如果把个人收入和它给人带来的效益画成一条曲线的话，大致就如图中的那条蓝色曲线。</p>
+<p>   <img alt="image placeholder" >
+<p>    假如你获得了1000元钱，你主观上获得的收益就用A点来表示；假如你获得了2000元，你主观上的收益就在B点。因此，工作一带给你的平均效用就用A和B的中点C来表示。但是，如果我直接就给你1500块钱，你将会得到一个大于C的效用D。这表明，直接选择工作二所带来的效用要高于工作一带给你的平均效用，自然人们都会选择工作二了。因此经济学中有这样一个定理，如果一个人认为自己收入的边际效用是递减的，那么这个人就是一个风险规避者。对于期望收入相同的两件事来说，他愿意去做风险更小的那一件。</p>
+<p><span id="more-2411"></span><br>
+ <br>
+ <br>
+ <br>
+   <img alt="image placeholder" >
+<p>    而事实上，风险规避者甚至有可能通过减少自己的收入来避免可能的风险。上图中我们可以看到，如果工作二所提供的稳定收入值高于x元，风险规避者就会毫不犹豫地选择工作二，即使它的收入低于工作一的平均收入。也就是说，一个风险规避者愿意花费(1500-x)元钱来避免他可能面对的风险。</p>
+			 ]]></content>
+<pubDate>2009-10-15T14:38:17+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2411</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣题：连续函数上的水平线段 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2419</link>
+<content><![CDATA[ 
+		<p>    连续函数f(x)满足f(0)=0且f(1)=0。证明，总能在[0,1]中找到两个数a和b满足b-a=1/2且f(a)=f(b)。换句话说，我们总能画出一条长为1/2的水平线段，它的两个端点都在函数f(x)上。<br>
+    这个证明再次用到了我们上次提及的<a href="http://www.matrix67.com/blog/archives/2397">零点定理</a>。考虑f(1/2)的值，如果它也等于0，我们的问题就直接解决了。无妨设f(1/2)&gt;0，那么考虑f(x+1/2)-f(x)的值：当x=0时，该值为一个正数；但当x=1/2时，这个值变成了一个负数。这表明，在x从0增长到1/2的过程中，一定有某一刻使得f(x+1/2)-f(x)恰好为0。</p>
+<p>    我们接下来的问题是，除了长为1/2的横线段始终存在以外，还有哪些长度值具有相同的性质？下面我们证明，对任意一个正整数n，长为1/n的横线段也总是存在的。</p>
+<p><span id="more-2419"></span></p>
+<p>    我们先来看这么一个引理：如果在某个连续函数上不存在长为a的横线段，也不存在长为b的横线段，那么长度为a+b的横线段也是不可能存在的。为了证明这一点，只需要意识到：f(x)上存在一条长为a的横线段，当且仅当把f(x)向左（或向右）平移a个单位后，新的曲线与原来的曲线有交点。由于f(x)上不存在长为a的横线段，因此将f(x)右移a个单位后，新的曲线（图中的紫色曲线）与f(x)没有交点；类似地，将f(x)左移b个单位后，得到的绿色曲线与原曲线也没有交点。于是，绿色曲线和紫色曲线也不可能有交点，因为它俩被中间的那条蓝色曲线f(x)隔开了。而绿色曲线和紫色曲线相距a+b个单位。这就告诉我们，长为a+b的横线段也是不存在的。</p>
+<p>  <img alt="image placeholder" >
+<p>    现在，假如长为1/n的横线段不存在，我们立即推出长为2/n的横线段也不存在。我们进一步推出，长为3/n的横线段也不存在。依此类推，直至我们得出长为n/n = 1的横线段不存在，但这明显是错误的。</p>
+<p> <br>
+ <br>
+    那么，对于长度值为其它数的情况呢？有趣的是，除了这些正整数的倒数以外，对于其余的任意一个长度值L，我们都能给出一个满足f(0)=0且f(1)=0但不含有长为L的横线段的连续函数。事实上，这个函数是<img alt="image placeholder" >
+<p>  <img alt="image placeholder" >
+<p>    我们可以由下面的推导看出，把这个函数水平平移0.3个单位实质上相当于是竖直平移了常数个单位，这就证明了平移前后的两条曲线的确没有交点。</p>
+<p>  <img alt="image placeholder" >
+<p>    那么，为什么当L等于某个正整数的倒数时，上面的函数就不管用了呢？关键就在于，如果L是一个正整数的倒数，上面的推导中最后的那个常数就不是非零常数了。</p>
+			 ]]></content>
+<pubDate>2009-10-20T01:42:41+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2419</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣题：正方形的边长是多少？ ]]></title>
+<link>http://www.matrix67.com/blog/archives/2434</link>
+<content><![CDATA[ 
+		<p>    今天在某小学数学竞赛真题上看到了这么一个问题：图中阴影部分是一个正方形，求它的边长。当然，题目本身并不难，大家一看就知道答案；问题的关键在于，这个问题是一道小学竞赛题，这意味着这个题目一定有一个异常巧妙的傻瓜解。这个解法不用相似形，不用列方程，事实上几乎什么都不用，只需要用到最基本最显然的正方形长方形的性质。你能想到这个解法吗？</p>
+<p> <br>
+   <img alt="image placeholder" >
+ </p>
+<p><span id="more-2434"></span></p>
+<p> <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <img alt="image placeholder" >
+<p>    反正我是没想到，然后翻了翻答案，顿时感觉小学奥数思维之妙：把图形补充为一个长方形，则两个大的直角三角形面积相同，另外还有A的面积与B的面积相同，C的面积与D的面积相同。于是我们得到，阴影部分与右上角的那个小长方形面积相同，而后者的面积应该是36。这就是说，正方形的边长应该等于6。<br>
+    我不由得开始思考，中学数学的学习真的禁锢了我们的思维吗？</p>
+			 ]]></content>
+<pubDate>2009-10-21T23:00:52+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2434</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 为什么f'(x)与f(x)/x的交点恰为后者的极值点？ ]]></title>
+<link>http://www.matrix67.com/blog/archives/2442</link>
+<content><![CDATA[ 
+		<p>    在今天晚上的微观经济学课上，我又听到了一个比较有意思的东西。试着找找各种类型的连续函数f(x)，画出f'(x)和f(x)/x的函数图像，你会发现一个奇怪的现象：f'(x)与f(x)/x相交的地方都是f(x)/x取到极值的地方。简单地算一算，我们不难证实这个结论。f(x)/x的导数等于f'(x)/x – f(x)/x^2。将f'(x)=f(x)/x代入上式，可得f'(x)/x – f(x)/x^2 = f(x)/x^2 – f(x)/x^2 = 0。这就是说，当f'(x)与f(x)/x相等的时候，f(x)/x的导数一定等于0。有意思的是，这个结论还有一个非常直观的解释，你能想到吗？</p>
+<p> <img alt="image placeholder" >
+<p><span id="more-2442"></span></p>
+<p> <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <img alt="image placeholder" >
+<p>    把f(x)看作一个时间-位置函数，那么f(x)/x就表示前x个单位的时间内物体的平均速度，而f'(x)则表示物体在x时刻的瞬时速度。考虑这两个函数的交点，不妨假设在交点左边有f'(x) &lt; f(x)/x，那么在交点右边就一定有f'(x) &gt; f(x)/x。显然，如果当前的速度比平均速度要小，那么平均速度会被拖慢，也即f(x)/x是递减的；反过来，当前的瞬时速度大于平均速度时会向上拉动平均速度，f(x)/x将会变得递增。这就告诉我们，两条曲线的交点处于f(x)/x的极小点。<br>
+    注意，不管是前面的数学论证还是这里的直观解释，我们都忽略了很多特殊的情况没有讨论，仅仅说明了一些主要思想。不过，这已经足以推出一个重要的经济学结论：边际成本曲线与平均成本曲线相交于后者的最低点。</p>
+			 ]]></content>
+<pubDate>2009-10-27T00:55:27+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2442</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣题：货架上的听装可乐 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2447</link>
+<content><![CDATA[ 
+		<p> <img alt="image placeholder" >
+<p>    有一个放听装可乐的货架，它的宽度要比四听可乐的直径稍微大一些。把10听可乐放进这个货架里，堆叠成一个三角形。虽然底下三层可乐罐歪歪斜斜有高有低，但最顶上的那听可乐一定位于货架的正中心，也就是说它到货架两壁的距离是相等的。这是为什么呢？</p>
+<p><span id="more-2447"></span><br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ </p>
+<p> <img alt="image placeholder" >
+<p>    记最左下角的那个圆的圆心为A，记最右下角的那个圆的圆心为B。把AB上方的图形镜像翻折下来，得到一个沿AB轴对称的图形。把每一对外切圆的圆心连接起来，我们便得到了9个小四边形，显然它们全都是菱形。利用一系列的菱形作桥梁，我们立即可知，折线段AC和折线段BD之间的每一条对应的小线段都是平行且相等的，这表明两条折线段互相之间可以通过平移得到，于是AC=BD；另外，折线段BD是由折线段BC经过对称轴AB翻折得到的，于是BD=BC。因此，AC=BD=BC，△ABC是一个等腰三角形，固然C到两端的距离是相等的。</p>
+<p>题目来源：<a href="http://www.cut-the-knot.org/Curriculum/Geometry/NBallsAtBottom.shtml">http://www.cut-the-knot.org/Curriculum/Geometry/NBallsAtBottom.shtml</a></p>
+			 ]]></content>
+<pubDate>2009-10-27T16:26:09+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2447</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 把[0,2]分割为可数个部分 然后拼成全体实数集R ]]></title>
+<link>http://www.matrix67.com/blog/archives/2453</link>
+<content><![CDATA[ 
+		<p>    Banach-Tarski悖论指出，你可以把一个三维球体分割成有限多份，然后拼合成两个和原来一模一样的球体。这个构造是Stefan Banach和Alfred Tarski在1924年发表的论文中给出的，不过我还从来没有完整地瞻仰过这个牛B的构造过程。今天我看到了一个Banach-Tarski悖论的弱化版，但它的反直觉性绝对不亚于Banach-Tarski悖论。通过这个弱化的结论，你或许会对Banach和Tarski的构造方法有了更多的理解。<br>
+    下面我将会给出这样一个神奇的构造：取出[0,2]的一个子集S，把它分割为可数个不相交的点集，对每个点集各自进行适当的平移后，可以让它们的并集变为全体实数集。</p>
+<p><span id="more-2453"></span><br>
+    对于[0,1]里的任意两个实数x和y，如果x-y是一个有理数，我们就把它归为一类。这样，我们就把[0,1]中的所有数分为了不可数个等价类，每个等价类里的元素个数都是可数的。下面，从每个等价类中选择一个代表元，构成一个集合X（注意：实现这一步需要用到选择公理——你不知道该怎么构造这个集合，但这个集合的确是存在的）。</p>
+<p>    我们用X+a来表示把集合X中的每个元素都加a（即把集合X在数轴上平移a个单位）。由于集合X中的任意两个元素都不在同一等价类里，因此取遍所有的有理数q，得到的X+q都是互不相交的。如果限定q只取[0,1]里的有理数，那么我们就得到了可数个形如X+q的点集，它们的交集为空。把它们的并集记为S，容易看出S是[0,2]的一个子集，并且它由可数个不相交集组成。注意，[0,1]中的有理数和全体有理数都是可数的，因此存在一个一一映射的函数q→f(q)，它把[0,1]中的有理数映射到全体有理数上。然后，我们把集合S中的每个X+q都平移到X+f(q)。这些平移后的点集就组成了整个实数集，因为任何一个实数都对应了某个等价类，而集合X包含了所有等价类的代表元，f(q)又遍历了所有的有理数，因此每一个实数都一定在某个X+f(q)里。</p>
+<p>来源：<a href="http://www.math.ucla.edu/~tao/resource/general/121.1.00s/tarski.html">http://www.math.ucla.edu/~tao/resource/general/121.1.00s/tarski.html</a></p>
+			 ]]></content>
+<pubDate>2009-11-01T15:14:14+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2453</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Hey Jude歌词流程图 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2468</link>
+<content><![CDATA[ 
+		<p><img alt="image placeholder" >
+<p><span id="more-2468"></span><br>
+ 最近各大社区到处转贴的东西，感谢<a href="http://blog.sina.com.cn/fayecatshome">小猫</a>分享<br>
+ 原始出处：<a href="http://loveallthis.tumblr.com/post/166124704">loveallthis.tumblr.com/post/166124704</a><br>
+ </p>
+			 ]]></content>
+<pubDate>2009-11-02T11:50:21+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2468</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ THERE IS A FAULT IN REALITY! ]]></title>
+<link>http://www.matrix67.com/blog/archives/2469</link>
+<content><![CDATA[ 
+		<p><object width="520" height="350"><param name="movie" value="http://www.tudou.com/v/smiy-pi0j_8">
+<param name="allowFullScreen" value="true">
+<param name="allowscriptaccess" value="always">
+<param name="wmode" value="opaque">
+<embed src="http://www.tudou.com/v/smiy-pi0j_8" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" wmode="opaque" width="520" height="350"></embed></object></p>
+<p>视频来源：<a href="http://vimeo.com/6782769">http://vimeo.com/6782769</a></p>
+			 ]]></content>
+<pubDate>2009-11-02T18:05:42+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2469</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Buffon投针实验：究竟为什么是pi？ ]]></title>
+<link>http://www.matrix67.com/blog/archives/2494</link>
+<content><![CDATA[ 
+		<p style="color:red">    重要通告：最近多次发现我的tom邮箱发出的邮件被识别成了垃圾邮件，是什么原因我还不是很清楚。最近向我的tom邮箱发过邮件但迟迟没有收到回复的朋友麻烦检查一下垃圾邮件箱，或者重新给我发一次邮件，我换一个邮箱回复您。</p>
+<p>    数学学习真正悲哀的就是，记住了某个神奇而伟大的定理，看懂了其最严密的推导过程，但却始终没能直观地去理解它。虽然严密的推导是必要的，直观理解往往是不准确的，但如果能悟出一个让定理一瞬间变得很显然的解释，这不但是一件很酷的事，而且对定理更透彻的理解和更熟练的运用也很有帮助。我惊奇地发现，国内的每一本高数课本上都严格地讲解了微积分基本定理的证明，但几乎没有任何一个课本上讲过积分等于函数下方的图形面积究竟是为什么。事实上，这几乎是显然的，但还是有不少人学完微积分后仍然没有意识到。每当谈到这个问题时，我更愿意首先提出一个非常有启发性的事实——圆的周长是2·pi·r，圆的面积就是pi·r^2，后者的导数正好就是前者。这个现象是很容易理解的，因为圆的半径每增加一点，面积增加的就是周长那么一圈，换句话说面积的变化就等于周长。类似地，如果你能找到一个函数g(x)，它的导数正好就是f(x)，那么当x每增加一点，g(x)就增加了一条小竖线段，显然g(x)就应当是f(x)下方的面积。看清了这一点之后，我们才能欣赏到微积分基本定理真正牛B的地方。原先大家都是用分割求极限的办法来求函数下方的面积，但Leibniz却把面积看作一个可变的整体，用一种办法“一下子”就把它求了出来。有趣的是，这种现在看来如此自然的神奇办法，一千多年来居然没有任何人想到。</p>
+<p><span id="more-2494"></span></p>
+<p> <br>
+ <br>
+  <img alt="image placeholder" >
+<p>    数学中有很多直观上看很不可思议的东西。比如，神秘的常数pi就经常出现在一些貌似和它毫无关系的地方，其中最经典的例子莫过于Buffon投针实验。Buffon投针实验是说，假设地板上画着一组间距为1的平行线。把一根长度为1的针扔到地上，则这根针与地板上的平行线相交的概率为2/pi。很多概率论课本上都会用微积分计算可行范围的方法求解Buffon投针问题，计算过程显得相当麻烦。我一直觉得，这个问题一定有一个异常直观、一目了然的解释，不过我还从来没见到过，自己也没有想到过。今天，我偶然看到了<a href="http://blog.sigfpe.com/2009/10/buffons-needle-easy-way.html">这个网页</a>，猛地一下恍然大悟。</p>
+<p> <br>
+ <br>
+  <img alt="image placeholder" >
+<p>    期望值的一个最引人注目的性质就是，E(A+B)=E(A)+E(B)，不管A和B是不是独立的。想象一根长度为L的铁丝，不管它被弯成了什么形状，扔到地上后它与地板上的平行线的交点个数的期望值都是一样的，并且这个值是和L成正比的。这是因为，我们可以把一根弯铁丝看作很多很多小的直线段构成；而每个充分小的直线段与平行线交点个数的期望都是相同的，那么由期望值的线性关系，整个弯铁丝与平行线交点数的期望就是c·L，其中c是某个固定的系数。为了求出这个系数是多少，我们只需要考虑一些特殊的情况。注意到，把一根长度为pi的铁丝弯成一个直径为1的圆，则把它扔到地上之后，它与这组平行线总有两个交点。这就是说，pi的c倍就等于2，即c等于2/pi。自然，一根单位长度的针与平行线的交点个数的期望值就是2/pi；而由于这根针与平行线要么没有交点，要么就只有一个交点，因此这个数值就相当于是针与平行线相交的概率了。</p>
+<p> <br>
+ <br>
+Update 1: 有人问到了关于圆的周长与面积关系的普适性问题。当边长增加时，正方形的面积变化应该是两个边长，而不是整个周长——边长增长的过程是线段的其中一个端点的移动过程，不是两个端点同时移动或者与中心的距离增加的过程。因此，正方形的面积x^2和两倍边长之间就有导数关系。这对于等边三角形又不再适用了，是因为等边三角形的面积变化不直接等于一个边长——由于边长增加的方向与面积扩展的方向并不垂直，这个面积变化应该缓于一个边长的扩张，具体地说应该等于√<span style="text-decoration:overline">3</span>/2个边长。<br>
+ <br>
+Update 2: 网友<a href="http://wei23.net/">Wei</a>分享了一个<a href="http://www.cut-the-knot.org/ctk/August2001.shtml">非常不错的网页</a>供大家延伸阅读。他自己写了一篇介绍Buffon投针实验与定宽曲线的<a href="http://wei23.net/my-works/%E7%AD%89%E5%AE%BD%E5%9B%BE%E5%BD%A2%E7%9A%84%E5%A5%87%E5%A6%99%E6%80%A7%E8%B4%A8%E5%92%8C%E5%B7%A7%E5%A6%99%E8%AF%81%E6%98%8E/">日志</a>，相当强大。</p>
+			 ]]></content>
+<pubDate>2009-11-06T20:16:58+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2494</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 概率论教你说谎：直觉思维的科学解释 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2517</link>
+<content><![CDATA[ 
+		<p>    昨夜，M同学牵着女朋友的手走出宿舍楼，整夜没有回来；直到今天早晨，大家才见他支着腰回到寝室，样子十分疲惫。我们几个好友似乎已经心领神会，于是一行人走上前去，带着淫邪的笑容拷问他：昨晚干啥了，那么疲惫？本以为M同学会支支吾吾答不上话来，殊不知他义正严词地答道：我和女朋友去看通宵电影去了。几个人不服气，问他，那电影票呢？谁知他说了一句“忘了放哪儿了”后，还真煞有其事地在包里翻来翻去。一群人大笑着说，唉呀，你就别装了吧。两分钟后，我们全都傻了眼——M同学还真摸出两张电影票。一哥们儿猛地拍了一下M同学的肩膀说，唉呀，为了骗过我们真是煞费苦心啊，居然到影院门口找散场观众买了两张票根！<br>
+    笑过之后，我突然开始想，假如M同学为了掩饰自己的恶劣行径，真的准备好了伪证的话，他的演技可不是一般的高明。试着想象以下两个画面：</p>
+<p>1. 几个人不服气，问他，那电影票呢？M同学不急不慢地从口袋里掏出两张电影票说，在这儿呢。<br>
+2. 几个人不服气，问他，那电影票呢？M同学假装到处寻找电影票，过了两分钟才翻出来。</p>
+<p>    显然，第二种做法更令人相信，他真的跑去看通宵电影去了。事实上，M同学还能做得更好：</p>
+<p><span id="more-2517"></span><br>
+3. 几个人不服气，问他，那电影票呢？M同学条件反射式地说，电影票早就扔了。我们继续追问，不会吧，跟女朋友的电影票就这样扔了，不是你的作风啊。M同学继续狡辩，电影票真没了，是不小心被搞丢的……半个小时后，M同学终于（装作）妥协了，说，那你们看了电影票不要笑我哦。于是，他（假装）不好意思地交出电影票。我们接过来一看，然后指着他大笑：你居然和女朋友一起去看见过大爷？！还是爱国电影通宵连映？！</p>
+<p> <br>
+    这个效果绝对一流，估计我们几乎百分之百地会相信他是真的去看电影去了。事实上，很多电影和小说中也有类似的情节，比如《达芬奇密码》中爵士以隐私权为由拒绝警方进入飞机搜查，而事实上警方强行进入后却发现飞机里根本没有别人。爵士事先让大伙儿撤离飞机，并在警方要求搜查飞机时故意造成飞机里还有别人的假象，这样为什么就会让人更加相信爵士反而没有隐瞒什么呢？有趣的是，从概率论的角度来说，这个直觉思维有一个很具有启发性的科学解释。</p>
+<p>    在概率论中，在知道事件B已经发生的情况下，事件A发生的概率就记作P(A|B)，它应该等于P(A∩B)/P(B)。例如，投掷一颗骰子，如果已经知道它的点数不超过3，那么这个点数是奇数的概率就应该等于2/6除以3/6，即2/3。而上述公式中的P(A∩B)又可以等于P(B|A)·P(A)，因此我们得到公式P(A|B) = P(B|A)·P(A)/P(B)。这个公式叫做Bayes定理，它的直观意义就是，当你获知了一个新的信息后，你对原事件的看法有什么改变。若令事件A等于“M同学去开房”，事件B等于“M同学有电影票”，让我们来看看公式中的各个概率的意义：</p>
+<p> <br>
+P(A)：M同学昨晚去开房了的概率<br>
+P(B)：M同学手中有电影票的概率<br>
+P(A|B)：M同学手中的电影票被发现后，他昨晚去开房了的概率<br>
+P(B|A)：如果昨晚M同学真的去开房了，他手中会有电影票的概率</p>
+<p> <br>
+    其中P(A|B)就是当事人提供了新的证据之后人们对原事件发生概率的看法。利用Bayes定理P(A|B) = P(B|A)·P(A)/P(B)，我们发现，P(A|B)与P(A)和P(B|A)成正比，与P(B)成反比。因此，为了让人们相信事件A没有发生，作为伪证的事件B一定要具有这样的性质：它本来很可能发生，但伴随着事件A一起发生就很不可思议了。通宵电影票就具有这样的性质：有一张通宵电影票根并不罕见，罕见的就是昨晚开了房之后还有一张通宵电影票。为了充分利用这个伪证，让P(A|B)变得更低，我们可以从以下三个角度入手：</p>
+<p> <br>
+减小P(B|A)：不要轻易拿出证据（前文所说的策略）。故意做出没法给出证据的样子，让人越来越坚信在事件A发生后还能给出证据B的概率有多么小。</p>
+<p>增加P(B)：平时做好铺垫工作。长期保存电影票根，经常提起自己保留纪念物的喜好，让人们相信证据本身的存在并不是什么怪事。</p>
+<p>减小P(A)：不要长得那么猥琐。努力提高自己在别人心目中的人品。去整形医院改头换面，让自己的面容端庄善良、和蔼可亲，不致于让人一看见你就说你怎么看上去那么淫荡是不是昨晚又没干好事。<br>
+ </p>
+			 ]]></content>
+<pubDate>2009-11-08T19:35:19+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2517</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣题：某个经典结论的妙用 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2538</link>
+<content><![CDATA[ 
+		<p>    空间中有六个点，它们两两间的距离都互不相等。考虑所有以这些点为顶点构成的三角形。证明：存在某个三角形，它的最长边是另外某个三角形中的最短边。<br>
+    这个结论并不是显然的。为了说明这一点，只需要注意到同样的结论对n=5的情况是不成立的。考虑平面上一个正五边形的五个顶点（微调它们的位置使得两两间的距离互不相等），容易发现任意三个点所组成的三角形，其最长边都不可能是另一个三角形的最短边。</p>
+<p><span id="more-2538"></span><br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ </p>
+<p>    证明：考虑以这些点为顶点的全体三角形。依次把每一个三角形的最短边染成红色。这样下来，某些线段被染了好几次红色，某些线段自始至终从未被染色。把那些没有染色的线段染成蓝色。由一个<a href="http://en.wikipedia.org/wiki/Theorem_on_friends_and_strangers">经典的结论</a>我们知道，把六个点两两间的所有连线进行红蓝二染色，则总能找到这样一个三角形，它的三条边都是红色或者都是蓝色。但在我们这里的构造中，不可能有哪个三角形三条边都是蓝色的，因为每个三角形中都有一条最短边，根据构造它已经被我们染成红色了。因此，在我们的染色构造中存在一个全是红色边的三角形。这个三角形就是满足题意的三角形——它有一条最长边，并且由于它是红色的，它一定是另外某个三角形的最短边。<br>
+ <br>
+    附上面那个经典结论的证明：任意选一个顶点P，和它相邻的有五条边，由鸽笼原理，至少有三条边是一种颜色。无妨假设PA、PB、PC都是红色。现在，如果AB、BC、AC这三条边中有一条也是红色的话，我们就立即得到了三条边都是红色的三角形；如果AB、BC、AC这三条边都不是红色，那ABC本身就是三边均为蓝色的三角形了。这就证明了我们的结论。</p>
+<p>来源：<a href="http://www.cut-the-knot.org/proofs/ShortestIsLongest.shtml">http://www.cut-the-knot.org/proofs/ShortestIsLongest.shtml</a></p>
+			 ]]></content>
+<pubDate>2009-11-13T17:30:50+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2538</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 经典证明：任何可数集都含有不可数个嵌套子集 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2546</link>
+<content><![CDATA[ 
+		<p>    你相信吗？对于任意一个可数集，总能找出不可数个子集，使得从中任取两个集合，其中一个都是另一个的真子集。乍看之下，这似乎是不可能的。如果任两个集合之间都具有“其中一个是另一个的真子集”的关系，那它们就能构成一个“集合序列”（准确地说是全序关系），使得每个集合都是由它前面那个集合添加进若干元素得到；换句话说，我们能通过不断往一个空集中添加新的元素依次得到所有这些集合。但是如果这些集合中的元素就只有可数个，那这个“集合序列”中怎么会有不可数个集合呢？然而，涉及到无穷的问题总是那样违背直觉。下面我们只用三行字就能说明，这个命题的的确确是成立的。</p>
+<p><span id="more-2546"></span><br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+    由于可数集与可数集之间总存在一一对应的关系，为了证明原命题，我们只需要说明命题对某个特定的可数集成立即可。对于全体有理数集Q来说，该命题是成立的。对每一个实数r，令集合S_r = {q|q∈Q且q&lt;r}。根据这个定义，我们得到了不可数个形如S_r的集合，显然从中任取两个集合，其中一个都是另一个的真子集。</p>
+<p>来源：<a href="http://www.cut-the-knot.org/do_you_know/NestedSubsets.shtml">http://www.cut-the-knot.org/do_you_know/NestedSubsets.shtml</a></p>
+			 ]]></content>
+<pubDate>2009-11-14T17:29:59+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2546</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 假如P=NP，世界将会怎样？ ]]></title>
+<link>http://www.matrix67.com/blog/archives/2552</link>
+<content><![CDATA[ 
+		<p>    在计算机复杂度理论中，P问题指的是能够在多项式的时间里得到解决的问题，NP问题指的是能够在多项式的时间里验证一个解是否正确的问题。虽然人们大多相信P问题不等于NP问题，但人们目前既不能证明它，也不能推翻它。P是否等于NP是计算机科学领域中最突出的问题，在千禧年七大难题中排在首位。科学家们普遍认为P≠NP是有原因的。让我们来看一看，如果哪一天科学家证明了P=NP，寻找一个解和验证一个解变得同样容易，那这个世界将会变得怎样？</p>
+<p> <br>
+    已知的NPC难题将全部获解，这将瞬间给各个科学领域都带来革命性的进展。整数规划、01规划、背包问题全部获解，运筹学将登上一个全新的高度；数据库的串行化、多处理器调度等问题也随之解决，大大提高了计算机的性能。同时，空当接龙、扫雷、数独等经典游戏也由于获得了多项式的算法而在很大程度上失去了意义。<br>
+    算法研究方向将发生全面转移。对算法的研究可能会转向围棋等NP-Hard问题。算法设计的学问与“NP问题统一解”的关系正如小学应用题与列方程解题的关系一样，将成为一种纯粹锻炼思维的游戏。</p>
+<p>    一些新型的自动编程语言将出现，并将逐渐取代传统的编程语言。这种新型编程语言扮演着一个“判定性/最优化问题万能解决器”的角色。在新的编程语言中，你只需要用代码指明输入数据与输出数据的关系，而无需关心计算输出数据的步骤。只要这种关系是多项式时间内可计算的，编译器将自动找到解法。在新型编程语言的支持下，人们唯一需要考虑的是，如何把实际问题转化成数学模型。</p>
+<p><span id="more-2552"></span><br>
+    利用Occam剃刀原理，困扰人类已久的自然语言处理问题将被一举攻破。只要提供足够多的语言文字材料，计算机将很快掌握这门语言，并反过来为语言学提供新的科学体系。考虑这样一个最优化问题：输入一大批语句样本，它们有的符合语法，有的不符合语法；寻找一个最简单的算法，将这些语句输入这个算法时，算法能正确得出它是否符合语法。显然，这个问题本身是NP的（当然前提是该算法是多项式的），因此计算机可以在多项式时间内找到能判定语法正误的最简算法。我们有理由相信，这个算法也就是人类头脑中正在使用的算法，因此它能够适用于所给材料之外的其它语句，并具有自我学习的功能。分词技术、手写识别、语音朗读、语音识别等难题在一瞬间全部攻破。<br>
+    很可能计算机给出的自然语言处理算法完全不同于传统语言学的那一套方法，因此传统语言学本身将受到极大的冲击。字、词、句的概念很可能被重新界定，词类、句式的概念有可能被完全颠覆。</p>
+<p>    类似地，所有人工智能问题都将得到解决。我们只需要向计算机提交足够多的情境以及与之对应的正常人反应，计算机就可以找出一种能正确生成出这些反应的最简算法，并且由我们的Occam剃刀假设，这种算法能够适用于更广的范围，完全模仿人类的行为。在网络上，再没有任何办法能够把计算机和人区别开来。验证码将变得毫无意义。<br>
+    计算机不仅能轻易通过图灵测试，还能精确地模仿某一个特定的人。如果你能把某个人的网络聊天记录全部搜集起来，把这个人和网友们的对话全部递交给计算机，计算机将会很快学会如何模仿这个人。网络的身份鉴定将变得相当困难，很可能不得不借助一些物理方式。</p>
+<p>    数学证明可以完全交给计算机来处理。寻找一个反例和验证一个反例变得同样简单，一切错误的猜想都将瞬间被推翻。事实上，寻找一个数学证明和验证一个证明的正确性也变得同样简单，因此一切正确的命题也能够瞬间找到一个最简的证明。困扰人类数个世纪的数学猜想将逐一获解。数学领域内部将掀起一次革命，数学研究真正成为了一门“提出问题的艺术”而不再是“解决问题的艺术”。数理逻辑等底层研究，以及开创数学新分支并将其形式化，将成为数学研究的主流方向。<br>
+    类似地，一切具有解释性并可以形式化的科学都可以借助计算机寻求现象的最佳解释方案。物理学、化学、经济学、心理学等学科都将会受到不同程度的影响。</p>
+<p>    md5算法不再有效，判定一个串的md5是否等于给定值与寻找一个md5等于给定值的串一样轻松。RSA算法也不再有效，寻找一个质因子和判断整除性也变得一样简单。事实上，发明任何新的密码算法都是徒劳——计算机可以根据一大批明文密文样本推算出生成密文的算法（只要这个算法是多项式的）。现有的密码学体系彻底崩溃。理论上不具有可预测性的一次一密协议成为唯一安全的密码协议。但人们很快注意到，密码本本身的生成也不能依赖于任何伪随机数算法，必须完全借助于物理算法。从这个角度来说，纯机器的密码协议将不复存在，任何身份验证手续都必须借助物理手段。互联网可能会变得非常不可靠。</p>
+<p> <br>
+本人对复杂度理论涉猎不深，并且叙述颇有些夸大其辞，欢迎网友们探讨、指正、争论和补充。<br>
+本文部分参考一篇牛文，已上传至我的空间，强烈建议大家膜拜：<a href="http://www.matrix67.com/data/average.ps">http://www.matrix67.com/data/average.ps</a></p>
+			 ]]></content>
+<pubDate>2009-11-17T14:25:14+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2552</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 大力普及“他妈的”有助于语言交流 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2571</link>
+<content><![CDATA[ 
+		<p>    在翻看现代汉语笔记时，我突然惊奇地发现，在语言文字中大量使用“他妈的”能够非常有效地避免歧义现象，提高语言交际的效率。<br>
+    让我们来看看这个句子：“今年的考题跟去年一样”。假设你想要在这句话里面加一个“他妈的”，在通常情况下（不强调句中的任何成份时），你应该加在哪里？嗯，不错，大家通常都会说，“今年的考题跟去年他妈的一样”。但是，再看看这个句子：“他很狡猾，跟狐狸一样”。同样在这里插入一句“他妈的”，你又会加在哪里呢？相信大多数人都会说，“他很狡猾，跟他妈的狐狸一样”。同样是“跟……一样”的结构，为什么“他妈的”插入的位置就不一样呢？其根本原因就在于，两个句子看似相同，但具体结构是不一样的。当表示A和B完全相同时，说“跟B一样”指的是“和B是一个样”，其结构是“跟B”加上“一样”；当表示A与B具有相似性时，说“跟B一样”指的是“好像B的样子”，其结构是“跟”加上“B一样”。因此，在这两个划分不同的结构间插入“他妈的”，位置也理所当然的不一样了。当“A跟B一样”表示相同时，我们往往说“A跟B他妈的一样”，重音在“一样”上；但当“A跟B一样”表示相似时，我们往往说“A跟他妈的B一样”，重音在B上。<br>
+    现在，考虑这个句子：“今年的考题跟作业题一样”。这就有歧义了——是说今年的考题真的用了作业里的题呢，还是仅仅是比喻这次考题简单得像作业题？这时，“他妈的”就派上用场了。我们可以在句子间加入“他妈的”来区别：</p>
+<p>      今年的考题跟作业题他妈的一样 （指与作业题相同）<br>
+      今年的考题跟他妈的作业题一样 （暗指考题太简单）</p>
+<p><span id="more-2571"></span><br>
+    类似的情况还有很多。比如说，“这个解释不清楚”也有歧义。它有两个意思，解释本身不清晰，或者问题很难解释。但是，加上“他妈的”之后，歧义立即消失了：</p>
+<p>      这个解释他妈的不清楚 （这个解释不太明确）<br>
+      这个他妈的解释不清楚 （这个问题难以解释）</p>
+<p>    又如，“没有一次看完”有两种意思，没有哪一次是看完了的，或者说没有一口气看完。在不同的位置插入“他妈的”，歧义同样可以消解：</p>
+<p>      没有他妈的一次看完 （没有一口气看完）<br>
+      没有一次他妈的看完 （没有哪次看完过）</p>
+<p>    “他妈的”不但应该随口带，白纸黑字上也不能省。中文里的多音字有时能害死人。假如你借了人家100万元，然后还了人家90万。现在你不是还差10万元没还吗？于是你写下欠条注明“还欠债10万元”。当你攒够了剩下的10万元，打算把债还清时，人家突然把你欠条拿出来，非说你只“还欠债10万元”，还差90万元没还，咋办？你会大骂自己，要是当初写的是“还他妈的欠债10万元”，不就没事儿了吗？<br>
+    利用“他妈的”消除歧义的例子还有很多，这里随便再举些例子：</p>
+<p>      经济困难 （经济有困难/经济上的困难）<br>
+      经济他妈的困难 （经济有困难）</p>
+<p>      明天再去 （明天又去一次/今天别去明天再去）<br>
+      明天他妈的再去 （明天又去一次）</p>
+<p>      两天就看了一本书 （看少了/看得快）<br>
+      两天就看了他妈的一本书 （看少了）</p>
+<p>      这个人谁都不认识 （这个人不认识所有人/所有人都不认识这个人）<br>
+      这个人谁他妈的都不认识 （这个人不认识所有人）</p>
+<p>    因此，他妈的最后结论是，应该提倡他妈的在句中大量插入“他妈的”，这他妈的很有助于明晰他妈的句子结构，减少他妈的句子歧义，实现他妈的无障碍沟通。<br>
+    （注：本文纯属搞笑，请勿当真；文中部份分析具有语言学意义，相关现象的更深刻的原因有待挖掘，因此该话题具有成为汉语语言学“民间课题”供“地下研究”的潜力） </p>
+			 ]]></content>
+<pubDate>2009-11-19T00:36:01+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2571</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 人生就是一个接一个的杯具 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2586</link>
+<content><![CDATA[ 
+		<p>   <img alt="image placeholder" >
+ </p>
+			 ]]></content>
+<pubDate>2009-11-21T11:51:34+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2586</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 《欺诈游戏》中的少数决游戏 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2591</link>
+<content><![CDATA[ 
+		<p>    前几天有网友推荐我看一部日剧叫做《欺诈游戏》，据说里面的高智商较量非常强大。最近这几天我看了前面几集，感觉和之前看过的一些推理日剧一样——剧情相当精彩，可惜拍得很烂。或许是不习惯日剧本身的画面风格吧。从第三集起，剧集进入了欺诈游戏第二场比赛之少数决游戏，有一段剧情相当科学。<br>
+    欺诈游戏的第二场共有22人参加。这22个人集中在一个阴森的大厅里，参加一个叫做“少数决”的游戏。游戏规则很有意思：主办方随机抽取一个人到台上来，向众人问一个二选一的问题，比如“你信春哥吗”。每个人手里都会得到两张选票，两张选票上都印有自己的名字，但其中一张纸上印有“YES”，另一张纸上印有“NO”。游戏者们有6个小时的时间进行交流和考虑，并要在时间结束前将自己的选择投入投票箱。时间结束后，主办方进行唱票，并规定票数较少的那一方取胜，多数派将全部被淘汰。获胜的选手将进行新一轮的游戏，主办方从剩下的人中重新选一位进行提问，并要求大家在6个小时内投票，唱票后仍然宣布少数派胜出。若某次投票后双方人数相等，则该轮游戏无效，继续下一轮。游戏一直进行下去，直到最后只剩下一人或两人为止（只剩两人时显然已无法分辨胜负）。所有被淘汰的人都必须缴纳罚金，这些罚金将作为奖金分给获胜者。<br>
+    这个游戏有很多科学的地方，其中最有趣的地方就是，简单的结盟策略将变得彻底无效。如果游戏是多数人获胜，那你只要能成功说服其中11个人和你一起组队（并承诺最后将平分奖金），你们12个人便可以保证获胜。但在这里，票数少的那一方才算获胜，这个办法显然就不行了。因此，欺诈和诡辩将成为这个游戏中的最终手段。如果你是这22个参赛者中的其中一个，你会怎么做呢？</p>
+<p><span id="more-2591"></span><br>
+ <br>
+    其实，仔细思考后你会发现，结盟策略也是可行的。事实上，如果你能成功找到7个相信你的人和你结盟，那恭喜你，你们百分之百地获胜了。在游戏的第一轮中，你安排你们8个人中4个人投YES，4个人投NO，因此无论如何，在这一轮中总有你们的4个人存活下来。第一轮游戏的最坏情况是10:12胜出，因此存活下来的人中最多还有6个不是你们队的人。在第二轮比赛中，你们队的4个人按之前的战术安排，让其中2个投YES，另外2个投NO。因此这一轮后留下来的人中总有你们队的2个人，最坏情况下还有2个别的人。最后一轮中，你们两个人一个投YES，另一个投NO，这就可以保证获胜了。只要另外两个人是未经商量随机投票的，总会有一个时候他们俩恰好都投到一边去了，于是最终的胜出者永远是你们队的人。比赛结束后，胜出者按约定与队伍里的另外7人平分奖金，完成整个协议。</p>
+<p>    当然，这是一个充满欺诈和谎言的游戏。你无法确定你们队的7个人是否都是好人，会不会在拿到奖金之后逃之夭夭。同时，你自己也可以想方设法使自己存活到最后，在拿到奖金以后突然翻脸不认人，使自己的收益最大化。不过，成功骗7个人相信你很容易，但要保证自己能留到最后就很难了。不过，还有一种阴险狡诈的做法，可以保证你能揣走全部的奖金！当然前提是，你能成功骗过所有人，让大家都相信你自己。<br>
+    首先，找7个人和你一起秘密地组一个队伍，把上述策略给大伙儿说。然后，再找另外7个人和你秘密地组建另一支队伍，并跟他们也部署好上面所说的必胜策略。现在不是应该还剩下7个人吗？把剩的这7个人也拉过来，秘密地组成第三支8人小队。现在的情况是这样，你成功地组建了三支8人小队，让每个人都坚信自己身在一个将要利用必胜法齐心协力获得并平分奖金的队伍里。除了你自己，大家都不知道还有其它队伍存在。在第一轮游戏中，你指示每个队伍里包括你自己在内的其中4个人投YES，其余的人都投NO。这样下来，投YES的一共就有10票，NO有12票，于是你和每个队伍里除你之外的另外三个人获胜。下一轮游戏中，你部署每个队伍里包括你在内的其中两人投YES，其它人都投NO，这样YES就有4票，NO有6票，你再次胜出。最后，你自己投YES，并叫每个人都投NO，这就保证了自己可以胜出。拿到奖金后，突然翻脸不认人，背叛所有人，逃之夭夭。</p>
+<p>    这在现实生活中虽然不真实，但游戏本身很具有科学性。如果你是这部剧的编剧，你还能想到哪些科学的策略和狡诈的伎俩？你还能想到哪些刺激而有趣的博弈游戏？欢迎大家在下面留言讨论~</p>
+			 ]]></content>
+<pubDate>2009-11-26T02:42:47+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2591</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Runge现象：多项式插值不见得次数越高越准确 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2599</link>
+<content><![CDATA[ 
+		<p>    今天学到了一个新的名词，<a href="http://en.wikipedia.org/wiki/Runge%27s_phenomenon">Runge现象</a>。1901年，Carl David Tolmé Runge意外地发现，用<del datetime="2009-12-06T13:05:00+00:00">差值</del>插值多项式逼近函数f(x)=1/(1+25x^2)时出现了一些反常的现象。如图，灰色的粗线就是Runge函数在[-1,1]上的图象。蓝色虚线是过[-1,1]上的6个等距点所得到的5次多项式，红色虚线是过[-1,1]上的10个等距点所得到的9次多项式。可以看到，当次数变高时，插值多项式反而变得更不准确。</p>
+<p><img alt="image placeholder" >
+<p><span id="more-2599"></span><br>
+ <br>
+    事实上，当次数n趋于无穷时，该区间上的最大误差值也将趋于无穷大！</p>
+<p><img alt="image placeholder" >
+			 ]]></content>
+<pubDate>2009-12-06T18:35:40+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2599</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 贪心算法的一个出人意料的应用 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2605</link>
+<content><![CDATA[ 
+		<p>    <a href="http://domino.research.ibm.com/Comm/wwwr_ponder.nsf/challenges/November2009.html">IBM Ponder This上个月的题目</a>比较有趣：我在心里面想一个2到166之间的整数（包括2和166），你的任务是用尽可能少的是非问句（我只能回答是或者否）猜出这个数除1以外的最小约数是多少。<br>
+    (1) 寻找一种策略使得在最坏情况下猜到答案的询问次数最少。<br>
+    (2) 寻找一种策略使得在平均情况下猜到答案的期望询问次数最少。</p>
+<p><img alt="image placeholder" >
+<p>    第一个问题很容易回答。虽然2到166之间的整数一共有165个，但它们的最小约数（以后我们说的“最小约数”都是指的不包括1的最小约数）只有38种。因此，事实上你只需要用二分法在38个可能的答案当中找出一个就可以了。由于2^5=32，2^6=64，因此最坏情况下需要6次询问才能保证猜到。<br>
+    真正困难的是后面一个问题：要想让平均猜测次数尽可能少，我们该从哪里入手呢？</p>
+<p><span id="more-2605"></span><br>
+ <br>
+    为了方便思考，不妨让我们把这个问题简化一下。假设题目条件中我心里想的数字范围是2到10之间的自然数，由于这些数的最小约数分别是2、3、2、5、2、7、2、3、2，只有四种情况，因此只需要两个问题即可问出答案——比方说，第一次问“最小约数是2或3吗”，回答“是”则再问“最小约数是2吗”，回答“否”则问“最小约数是5吗”，即可保证知道答案。若采用这种策略的话，不管我心里想的是什么数，你总是需要恰好两次猜测才能猜出答案。但事实上，由于最小约数是2的可能性远远大于其它的数，因此减少最小约数是2时的猜测次数，增加最小约数是5和7时的猜测次数，虽然最坏情况下需要的猜测次数变多了，但我们或许能得到更优的平均猜测次数。我们可以这样做：先问“最小约数是2吗”。如果回答是，则直接猜到，因此当我心里想的数是2、4、6、8、10中的一个时，猜测次数仅为一次。如果回答否，则问题变为了下述子问题：当我心里所想的数为3、5、7、9时，平均需要多少次猜测才能猜出它的最小约数？对于这个子问题，我们同样发现，由于最小约数为3的概率较大，因此直接问“最小约数是3吗”更好。采取这种策略，我们可以看到：当我心里想的数是2、4、6、8、10中的一个时，只需要一次猜测；当我心里想的数是3或者9时，需要两次猜测；当我心里想的数是5或者7时，一共需要三次猜测。因此，采用这种策略平均需要(5*1 + 2*2 + 1*3 + 1*3)/9 = 15/9 ≈ 1.67次猜测。</p>
+<p><img alt="image placeholder" >
+<p>    觉得上面的图是不是很熟悉？当你把上图从下面倒着往回推时，你会发现这是一个经典的贪心算法问题。我们把拥有相同最小约数的数放进一个集合，则得到的四个集合分别为{2,4,6,8,10}、{3,9}、{5}、{7}。把两个集合合并成一个大集合，直观意义就是这两个集合是由一个大集合通过一次询问划分出来的，此时总的询问次数就增加了两个集合总的元素个数那么多。借用类似于Huffman编码的算法，我们立即想到，不断合并当前元素个数最少的集合，得到的总猜测次数就应该是最优的。利用Mathematica求解原问题，我们可以得出，对于2到166的情况，平均494/165=2.9939…≈3次询问就能找到那个最小约数。</p>
+<p><img alt="image placeholder" >
+<p>    当你联想到了Huffman编码时，你会惊奇地发现，原问题完全等价于Huffman编码问题。注意到“猜到最小约数”的意思就是说，每一个可能的答案都对应着一个YES/NO序列（也就是一个01串），且任一序列都不能成为另一个序列的前缀。而这些最小约数的频次是不同的，因此我们需要给所有可能的最小约数进行二进制编码，使得它们的加权长度最短。这就是一个典型的Huffman编码问题了。</p>
+			 ]]></content>
+<pubDate>2009-12-07T01:26:31+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2605</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 令人敬畏的数学：整系数多项式的根在复平面上的图像 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2615</link>
+<content><![CDATA[ 
+		<p>    <a href="http://jdc.math.uwo.ca/roots/">Dan Christensen</a>发现，把所有次数不超过5的、系数在-4到4范围内的整系数多项式的所有根描绘在同一个复平面上，你会看到一个异常壮观的画面。图中的每个灰色点代表某个二次多项式的一个根，蓝色点代表三次多项式的根，红色代表四次多项式的根，黑色代表五次多项式的根。水平线代表实轴，0和±1的地方有很明显的空洞；竖直方向是虚轴，每个单位根处也都有明显可辨的空洞。</p>
+<p><img alt="image placeholder" >
+<p><span id="more-2615"></span><br>
+ <br>
+ <br>
+    受到上述实验的启发，Sam Derbyshire决定画一张更一般的、分辨率更高的多项式复根图。考虑每个系数要么为1要么为-1的全体24次多项式，它们总共将产生24*2^24——约等于4亿——个根。他让Mathematica运行了四天四夜才算出所有这些根的位置，得到了大约5个G的数据。最后，他用一个Java程序画出了这些根在复平面上的分布图，奇迹出现了：</p>
+<p><img alt="image placeholder" >
+<p> <br>
+ <br>
+ <br>
+下面是一张局部放大图：</p>
+<p><img alt="image placeholder" >
+<p> <br>
+ <br>
+ <br>
+这是位于1附近的局部放大图：</p>
+<p><img alt="image placeholder" >
+<p> <br>
+ <br>
+ <br>
+这是位于4/5附近的局部放大图：</p>
+<p><img alt="image placeholder" >
+<p> <br>
+ <br>
+ <br>
+这是位于(4/5)i 附近的局部放大图：</p>
+<p><img alt="image placeholder" >
+<p> <br>
+ <br>
+ <br>
+最美的地方还是(1/2)*Exp(i/5)附近的局部放大图：</p>
+<p><img alt="image placeholder" >
+<p> <br>
+ <br>
+ <br>
+查看更多：<a href="http://math.ucr.edu/home/baez/roots/">http://math.ucr.edu/home/baez/roots/</a><br>
+ </p>
+			 ]]></content>
+<pubDate>2009-12-09T17:46:22+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2615</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 选C的概率真的是最高的！ ]]></title>
+<link>http://www.matrix67.com/blog/archives/2621</link>
+<content><![CDATA[ 
+		<p>从小老师就教导我们，不会做的题就选C，因为选择题选C的概率是最高的。事实上真是如此吗？今天我突发奇想，利用Google做了一个小实验。统计显示，答案选C的题果然是最多的！</p>
+<p>Results 1 – 10 of about 364,000 for “这道题选A”.<br>
+Results 1 – 10 of about 352,000 for “这道题选B”.<br>
+Results 1 – 10 of about 521,000 for “这道题选C”.<br>
+Results 1 – 10 of about 254,000 for “这道题选D”.</p>
+<p>Results 1 – 10 of about 2,140 for “这道题为什么选A”.<br>
+Results 1 – 10 of about 2,200 for “这道题为什么选B”.<br>
+Results 1 – 10 of about 2,580 for “这道题为什么选C”.<br>
+Results 1 – 10 of about 1,350 for “这道题为什么选D”. </p>
+			 ]]></content>
+<pubDate>2009-12-15T18:53:22+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2621</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 物理直觉与数学证明：凸多边形的平衡点 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2628</link>
+<content><![CDATA[ 
+		<p>    任意给定一个凸多边形和它内部的一个点，证明把这个点投影到该凸多边形的每条边所在直线上，至少会有一个投影点恰好落在边里。换句话说，过凸多边形内一点向每条边的所在直线作垂线，则总会有一个垂足恰好就在对应的边上。</p>
+<p> <img alt="image placeholder" >
+<p><span id="more-2628"></span><br>
+    这个问题的限制条件之少，以至于乍看之下我们似乎无从下手。但有趣的是，物理直觉给我们带来了一个非常具有启发意义的“证明”。把凸多边形看作一个由密度不均匀的物质做成的物体，使得凸多边形里的那个给定点恰好就是物体的重心。把这个物体放在桌面上，只要重心在底边上的投影不在边内，那么重力和支持力就不可能在同一直线上，因此这个物体不会保持平衡，必然会往一侧翻滚。由于一个物体不可能在没有外力的情况下永无止境地翻滚下去（它哪来的那么多能量），因此最终这个物体将静止下来，此时重心在桌面上的投影就位于底边里了。<br>
+    这个直观的物理证明虽然有趣，但我们寻求的毕竟是一个严格的数学证明。我们能从上述物理证明中得到什么启发呢？仔细思考物体由下落到翻滚最后变为静止的实质，你会想到这本质上就是物体重心不断下降、重力势能不断转化为动能的过程。当重心下降到不能再下降时，物体也就静止下来了。原来，这个物理证明想要告诉我们，离凸边形内的点最近的边就是我们所要找的那条边。</p>
+<p>  <img alt="image placeholder" >
+<p>    我们的数学证明思路也就明朗了——只需要从数学上说明离给定点最近的那条边的确满足投影点在边上的要求就可以了。事实上，假设上图中的红色虚线是给定点到所有边的垂线段中最短的一个，但垂足却在边的外面。我们立即发现，由于灰色直角三角形中斜边大于直角边，蓝色垂线段显然要比红色线段更短，这就与红色线段是所有垂线段中最短的一条相矛盾。可见，最短的垂线段所对应的垂足一定在边内。显然，不管是从物理角度还是从数学角度来说，这个命题对更高维的情形也都是成立的：对于给定凸多面体和它内部的一点，总能找到其中一个面使得，给定点在这个面上的投影恰好就落在这个面上。</p>
+<p> <br>
+ <br>
+    考虑到投影点的物理性质，我们不妨约定，对于给定凸边形及其内部的一点O，如果凸边形某条边e上的一点P满足OP垂直于e，我们就说P是这个凸多边形的平衡点。从上面的例子中我们可以看到，凸多边形的平衡点至少有一个，并且也存在恰好只有一个的极端情况。但假如O点是密度均匀的凸多边形的重心，结果又如何呢？显然，恰好只有两个平衡点的情况是存在的（例如一个等腰梯形），但再三尝试后你会发现，此时要想再找到只有一个平衡点的凸多边形就不大可能了。事实上，我们可以证明，一个密度均匀的凸多边形最少也有两个平衡点。证明的关键在于下面这个引理。</p>
+<p> <br>
+ <img alt="image placeholder" >
+    引理：重心重合且面积相同的两个凸多边形至少有4个交点<br>
+    证明：显然，两个凸图形的交点个数只可能是偶数个。假设两个凸多边形X和Y只有两个交点，这两个凸多边形的公共部份记作Z。令X’为X除去Z的部份，令Y’为Y除去Z的部份。由于X和Y的面积相同，因此X’和Y’的面积也相同，因此Z与X’的面积之比和Z与Y’的面积之比是一样的，无妨设这个比值为1:r。那么X的重心就应该在Z的重心与X’的重心的连线上的1:r处，Y的重心也应该在Z的重心与Y’的重心的连线上的1:r处。但X和Y的重心是重合的，由此推出X’和Y’的重心也应该是重合的。但这显然是不可能的，因为X’和Y’位于一条直线的两侧。</p>
+<p> <br>
+ <br>
+ <img alt="image placeholder" >
+    借助上述引理，我们便可以轻易证明前面所说的定理：如果O是密度均匀的凸多边形的重心，则该凸多边形至少有两个平衡点。<br>
+    证明：以O为中心，适当半径作圆，使圆的面积与凸多边形的面积相同。则圆与凸多边形有至少4个交点。那么，在圆内至少会产生两组折线段。每一组折线段上的点到O点的距离都会存在一个极小值，而这些极小点显然就是满足要求的平衡点。</p>
+<p> <br>
+ <br>
+  <img alt="image placeholder" >
+    有趣的是，这个结论并不能推广到高维空间中去。在三维空间中，存在只有一个平衡点的密度均匀的凸图形。想象一个两头都被斜着削了一刀的圆柱体，把它放在桌面上，它显然只有一个（稳定的）平衡位置。如果用面数足够多的凸多面体去逼近这个图形，我们就可以得到一个只有一个平衡点的多面体。</p>
+<p>    Update：感谢网友们挑错。对，这里说的是稳定的平衡点。上面的那个立体图形其实有不止一个平衡点，但其它那些平衡点都是不稳定的，稍微一碰就不平衡了。对于多边形和多面体来说，前文借用垂直概念定义出来的平衡点都是稳定的，但需要注意的是，在一般的图形中却不能用这种方法来描述稳定平衡点。上图就有一个非稳定平衡点（重心正上方的那个点），它也满足到重心的连线垂直于切面。</p>
+			 ]]></content>
+<pubDate>2009-12-15T19:42:54+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2628</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 天书般的高IQ智商测试 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2649</link>
+<content><![CDATA[ 
+		<p>    最近在忙很多事情，抱歉很久没更新了。刚才抽时间上网闲逛，在<a href="http://www.reddit.com/r/math/comments/ai97q/the_hoeflin_power_test_very_difficult_iqlogicmath/">reddit</a>上看到了一个叫做<a href="http://www.eskimo.com/~miyaguch/power.html">The Hoeflin Power Test</a>的网页，里面的大多数题目都是我从来没见过的、题目描述简单的、一般性极强的数学问题，无聊时从里面找一两道来，足以打发一整天的时间。从这个网站出发，我还顺藤摸瓜地找到了其它一些有如天书般的智商测试题目（尤其是那个图形测试），据称是专门用于测试最罕见的高智商人群的，足够大家在这个周末折磨一下自己了。</p>
+<p>   <a href="http://www.iq-tests-for-the-high-range.com/slse.html">Strict Logic Sequences Examination – Form I</a> 数字规律1<br>
+   <a href="http://www.iq-tests-for-the-high-range.com/slse2.html">Strict Logic Sequences Examination – Form II</a> 数字规律2<br>
+   <a href="http://www.iq-tests-for-the-high-range.com/slse_sp">Strict Logic Spatial Examination 48</a> 图形规律，有3页<br>
+   <a href="http://pages.videotron.com/brendanh/emit.html">eMiT</a> 类比推理</p>
+<p>  查看更多：<br>
+   <a href="http://www.eskimo.com/~miyaguch/hoeflin.html">http://www.eskimo.com/~miyaguch/hoeflin.html</a><br>
+   <a href="http://www.iq-tests-for-the-high-range.com/">http://www.iq-tests-for-the-high-range.com/</a></p>
+			 ]]></content>
+<pubDate>2009-12-25T19:57:48+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2649</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 算法问题征解：怎样生成随机数而不借助任何工具？ ]]></title>
+<link>http://www.matrix67.com/blog/archives/2653</link>
+<content><![CDATA[ 
+		<p>    如果你身上没有任何可以使用的工具（手机、mp3、手表、尺子、纸和笔等等），也无法寻求别人的帮助，碰巧这时你突然急需获取一个小于10的随机自然数，你该怎么办？</p>
+<p>    先抛砖引玉，说说我自己想到的一些办法：</p>
+<ul>
+<li>取当前年月日之和的个位数（理论上随机性不佳）</li>
+<li>憋住呼吸并循环慢念0到9这十个数，在吸下一口气之前看念到多少（潜意识会导致随机性不佳）</li>
+<li>拔10根头发，看第几根最长（可以边拔边比并不断更新最大值）</li>
+<li>回忆一下看有多少天没来那个了，取个位数（只适用于女性）</li>
+<li>看身上一共有多少块钱，取个位数</li>
+<li>完整地唱完一首歌，取歌词字数的个位数</li>
+<li>随意想一个英文单词，算出所有字母的ASCII码之和并模10</li>
+</ul>
+<p>    你还能想到哪些有趣的算法？欢迎在下面留言讨论，我会把有意思的留言在这里更新出来。</p>
+<p><span id="more-2653"></span><br>
+    网友<strong>芝壹</strong>：</p>
+<ul>
+<li>想一个人名字，取总笔划数模10的值</li>
+<li>依次摁每个手指的关节，看响了几个（哈哈，挺有意思，可惜不是随机的）</li>
+<li>如果钱不算工具的话，直接看钱的序列号就可以了（我承认我的数钱法其实是用到了辅助工具的）</li>
+<li>如果穿了有拉链的上衣，随机拉到一个地方，数一下下面的链齿</li>
+</ul>
+<p>    网友<strong>Combo</strong>：</p>
+<ul>
+<li>如果是在大街上，可以取看见的第一个车牌号的个位</li>
+<li>或是在骑车的时候，数一分钟经过了多少根电线杆，取个位</li>
+</ul>
+<p>    网友<strong>无聊的人</strong>：</p>
+<ul>
+<li>随便涂鸦，求总的交点数或区域数（我喜欢这个创意，虽然要借用纸和笔）</li>
+</ul>
+<p>    网友<strong>Platinum</strong>：</p>
+<ul>
+<li>手指头的指纹到关节处是完全消失了的，可以任意掐住一点，看到关节处有多少条纹</li>
+</ul>
+<p>    网友<strong>可耻的匿了</strong>：</p>
+<ul>
+<li>对于头发长的女同胞们，可以先抓住一把头发，再数里面有几根</li>
+<li>对于头发短的男同胞们，别忘了还有其它地方的毛也是可以用到的</li>
+</ul>
+<p>    网友<strong>maxint64</strong>：</p>
+<ul>
+<li>买一包字母饼干，算ASCII码之和（-_-b）</li>
+</ul>
+<p>    网友<strong>lmhjf</strong>：</p>
+<ul>
+<li>没有手表可以用70次脉搏来计时，有了计时工具就可以想出很多办法了</li>
+<li>比如在大街上，数70次脉搏的时间里有多少辆车经过（两头都得数可不容易）</li>
+</ul>
+<p>    网友<strong>wen</strong>：</p>
+<ul>
+<li>看看上面几楼发的帖子最搞笑，取个位（呵呵）</li>
+</ul>
+<p>    网友<strong>aaa</strong>：</p>
+<ul>
+<li>上街摸一个美女屁股，看他骂你用了几个字（汗-_-b）</li>
+</ul>
+			 ]]></content>
+<pubDate>2009-12-27T20:10:02+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2653</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 一个有趣的智力题：机智巧妙的楼顶逃生 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2660</link>
+<content><![CDATA[ 
+		<p>    发现一个有很多智力题的<a href="http://gurmeetsingh.wordpress.com/puzzles/">网页</a>，绝大多数题目我都见过，这个Blog之前也曾经介绍过。但是有一个特别有趣的问题让我眼前一亮，之前从来没有见过这类问题。不知道各位网友是否有见过。和大家分享一下。<br>
+    你被困在一幢200米高的大楼的楼顶。你手里有一根150米长的绳子和一把瑞士军刀。你所站的地方有一个铁钩子。往楼下看时，你发现大楼正中间，也就是100米高的位置上，有一个可以落脚的金属支架，上面还有另外一个钩子。你怎样才能利用这些东西安全到达地面？</p>
+<p>  <img alt="image placeholder" >
+<span id="more-2660"></span><br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <img alt="image placeholder" >
+<p>    答案：把绳子割成50米和100米两段。把50米绳子的一端拴在楼顶的钩子上，另一端打一个小环。让100米长的绳子穿过这个环，再把它的两头系在一起形成一个绳圈。沿着绳子爬到落脚点，把100米长的绳子割断并收回来，然后把其中一端拴在钩子上，沿着绳子爬到地面。</p>
+			 ]]></content>
+<pubDate>2009-12-28T16:35:45+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2660</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 10个精彩的智力问题 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2671</link>
+<content><![CDATA[ 
+		<p>今天考完美国结构语言学，稍微轻松了一些。我把前几天<a href="http://gurmeetsingh.wordpress.com/puzzles/">向大家推荐的网页</a>好好看了一遍，挑选了10个比较精彩的、不是很常见的、本Blog之前没有提过的智力题，并且把它们都整理到了一起，与大家一同分享。希望大家能够大呼过瘾~</p>
+<p>1. 给一个瞎子52张扑克牌，并告诉他里面恰好有10张牌是正面朝上的。要求这个瞎子把牌分成两堆，使得每堆牌里正面朝上的牌的张数一样多。瞎子应该怎么做？<br>
+<span style="color:#E5E5E5;">答案：把扑克牌分成两堆，一堆10张，一堆42张。然后，把小的那一堆里的所有牌全部翻过来。</span></p>
+<p>2. 如何用一枚硬币等概率地产生一个1到3之间的随机整数？如果这枚硬币是不公正的呢？<br>
+<span style="color:#E5E5E5;">答案：如果是公正的硬币，则投掷两次，“正反”为1，“反正”为2，“正正”为3，“反反”重来。<br>
+如果是不公正的硬币，注意到出现“正反”和“反正”的概率一样，因此令“正反反正”、“反正正反”、“正反正反”分别为1、2、3，其余情况重来。另一种更妙的办法是，投掷三次硬币，“正反反”为1，“反正反”为2，“反反正”为3，其余情况重来。</span></p>
+<p>3. 30枚面值不全相同的硬币摆成一排，甲、乙两个人轮流选择这排硬币的其中一端，并取走最外边的那枚硬币。如果你先取硬币，能保证得到的钱不会比对手少吗？<br>
+<span style="color:#E5E5E5;">答案：先取者可以让自己总是取奇数位置上的硬币或者总是取偶数位置上的硬币。数一数是奇数位置上的面值总和多还是偶数位置上的面值总和多，然后总是取这些位置上的硬币就可以了。</span></p>
+<p><span id="more-2671"></span><br>
+4. 一个环形轨道上有n个加油站，所有加油站的油量总和正好够车跑一圈。证明，总能找到其中一个加油站，使得初始时油箱为空的汽车从这里出发，能够顺利环行一圈回到起点。<br>
+<span style="color:#E5E5E5;">答案：总存在一个加油站，仅用它的油就足够跑到下一个加油站（否则所有加油站的油量加起来将不够全程）。把下一个加油站的所有油都提前搬到这个加油站来，并把油已被搬走的加油站无视掉。在剩下的加油站中继续寻找油量足以到达下个加油站的地方，不断合并加油站，直到只剩一个加油站为止。显然从这里出发就能顺利跑完全程。<br>
+另一种证明方法：先让汽车油箱里装好足够多的油，随便从哪个加油站出发试跑一圈。车每到一个加油站时，记录此时油箱里剩下的油量，然后把那个加油站的油全部装上。试跑完一圈后，检查刚才路上到哪个加油站时剩的油量最少，那么空着油箱从那里出发显然一定能跑完全程。</span></p>
+<p>5. 初始时，两个口袋里各有一个球。把后面的n-2个球依次放入口袋，放进哪个口袋其概率与各口袋已有的球数成正比。这样下来，球数较少的那个口袋平均期望有多少个球？<br>
+<span style="color:#E5E5E5;">答案：先考虑一个看似无关的问题——怎样产生一个1到n的随机排列。首先，在纸上写下数字1；然后，把2写在1的左边或者右边；然后，把3写在最左边，最右边，或者插进1和2之间……总之，把数字i等概率地放进由前面i-1个数产生的（包括最左端和最右端在内的）共i个空位中的一个。这样生成的显然是一个完全随机的排列。<br>
+我们换一个角度来看题目描述的过程：假想用一根绳子把两个球拴在一起，把这根绳子标号为1。接下来，把其中一个小球分裂成两个小球，这两个小球用标号为2的绳子相连。总之，把“放进第i个球”的操作想象成把其中一个球分裂成两个用标有i-1的绳子相连的小球。联想我们前面的讨论，这些绳子的标号事实上是一个随机的全排列，也就是说最开始绳子1的位置最后等可能地出现在每个地方。也就是说，它两边的小球个数(1,n-1)、(2,n-2)、(3,n-3)、……、(n-1,1)这n-1种情况等可能地发生。因此，小袋子里的球数大约为n/4个。准确地说，当n为奇数时，小袋子里的球数为(n+1)/4；当n为偶数时，小袋子里的球数为n^2/(4n-4)。</span></p>
+<p>6. 考虑一个n*n的棋盘，把有公共边的两个格子叫做相邻的格子。初始时，有些格子里有病毒。每一秒钟后，只要一个格子至少有两个相邻格子染上了病毒，那么他自己也会被感染。为了让所有的格子都被感染，初始时最少需要有几个带病毒的格子？给出一种方案并证明最优性。<br>
+<span style="color:#E5E5E5;">答案：至少要n个，比如一条对角线上的n个格子。n个格子也是必需的。当一个新的格子被感染后，全体被感染的格子所组成的图形的周长将减少0个、2个或4个单位（具体减少了多少要看它周围被感染的格子有多少个）。又因为当所有格子都被感染后，图形的周长为4n，因此初始时至少要有n个被感染的格子。</span></p>
+<p>7. 在一个m*n的棋盘上，有k个格子里放有棋子。是否总能对所有棋子进行红蓝二染色，使得每行每列的红色棋子和蓝色棋子最多差一个？<br>
+<span style="color:#E5E5E5;">答案：可以。建一个二分图G(X,Y)，其中X有m个顶点代表了棋盘的m个行，Y有n个顶点代表了棋盘的n个列。第i行第j列有棋子就在X(i)和Y(j)之间连一条边。先找出图G里的所有环（由于是二分图，环的长度一定是偶数），把环里的边红蓝交替染色。剩下的没染色的图一定是一些树。对每棵树递归地进行操作：去掉一个叶子节点和对应边，把剩下的树进行合法的红蓝二染色，再把刚才去掉的顶点和边加回去，给这个边适当的颜色以满足要求。</span></p>
+<p>8. 任意给一个8*8的01矩阵，你每次只能选一个3*3或者4*4的子矩阵并把里面的元素全部取反。是否总有办法把矩阵里的所有数全部变为1？<br>
+<span style="color:#E5E5E5;">答案：不能。大矩阵中有36个3*3的小矩阵和25个4*4的小矩阵，因此总共有61种可能的操作。显然，给定一个操作序列，这些操作的先后顺序是无关紧要的；另外，在一个操作序列中使用两种或两种以上相同的操作也是无用的。因此，实质不同的操作序列只有2^61种。但8*8的01矩阵一共有2^64种，因此不是每种情况都有办法达到目的。</span></p>
+<p>9. 五个洞排成一排，其中一个洞里藏有一只狐狸。每个夜晚，狐狸都会跳到一个相邻的洞里；每个白天，你都只允许检查其中一个洞。怎样才能保证狐狸最终会被抓住？<br>
+<span style="color:#E5E5E5;">答案：按照2, 3, 4, 2, 3, 4的顺序检查狐狸洞可以保证抓住狐狸。为了说明这个方案是可行的，用集合F表示狐狸可能出现的位置，初始时F = {1, 2, 3, 4, 5}。如果它不在2号洞，则第二天狐狸已经跑到了F = {2, 3, 4, 5}。如果此时它不在3号洞，则第三天狐狸一定跑到了F = {1, 3, 4, 5}。如果此时它不在4号洞，则再过一晚后F = {2, 4}。如果此时它不在2号洞，则再过一天F = {3, 5}。如果此时它不在3号洞，再过一天它就一定跑到4号洞了。<br>
+方案不是唯一的，下面这些方案都是可行的：<br>
+2, 3, 4, 4, 3, 2<br>
+4, 3, 2, 2, 3, 4<br>
+4, 3, 2, 4, 3, 2</span></p>
+<p>10. 一个经典老题是说，把一个3*3*3的立方体切成27个单位立方体，若每一刀切完后都允许重新摆放各个小块的位置，最少可以用几刀？答案仍然是6刀，因为正中间那个单位立方体的6个面都是后来才切出来的，因此怎么也需要6刀。考虑这个问题：若把一个n*n*n的立方体切成一个个单位立方体，最少需要几刀？<br>
+<span style="color:#E5E5E5;">答案：事实上，从一个更强的命题出发反而能使问题变得更简单。对于一个a*b*c的长方体，我们需要f(a)+f(b)+f(c)刀，其中f(x)=⌈log(x)/log(2)⌉。只需要注意到，在整个过程中的任何一步，切完当前最大的块所需要的刀数也就等于整个过程还需要的刀数，因为其它小块需要的刀数都不会超过最大块所需刀数，它们都可以与最大块一道并行处理。这表明，我们的最优决策即是让当前的最大块尽可能的小，也就是说要把当前的最大块尽可能相等地切成两半。利用数学归纳法，我们可以很快得到本段开头的结论。</span></p>
+<p> <br>
+如果你还没过瘾的话，很早以前我还整理过一些智力题合集，感兴趣的话请移步这里：<br>
+<a href="http://www.matrix67.com/blog/archives/501">http://www.matrix67.com/blog/archives/501</a><br>
+<a href="http://www.matrix67.com/blog/archives/502">http://www.matrix67.com/blog/archives/502</a></p>
+			 ]]></content>
+<pubDate>2009-12-30T21:08:26+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2671</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Geek的收藏：印满圆周率的纸钱包 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2691</link>
+<content><![CDATA[ 
+		<p>    Dynomighty Design 推出了一系列有创意的再生纸钱包 <a href="http://www.dynomighty.com/products.php?s=mighty%20wallets">Mighty Wallet</a> ，整个钱包是用一种特殊的纸质材料做成的，既撕不坏又打不湿。这些钱包上的图案非常有创意，其独特性和趣味性足以让它成为 Geek 们的收藏。<br>
+    今天我去新中关闲逛时发现了这套纸钱包，其中一个叫做 Dot Matrix Pi 的钱包立即引起了我的注意。当我意识到钱包上印的是圆周率的小数点后 3000 位时，我立即掏钱把它买了下来。回寝室拆开来仔细端详，甚是喜欢。不多说了，放图！</p>
+<p><img alt="image placeholder" >
+<p><span id="more-2691"></span></p>
+<p> <br>
+<img alt="image placeholder" >
+<p> <br>
+<img alt="image placeholder" >
+<p> <br>
+<img alt="image placeholder" >
+<p> <br>
+这种钱包在网上很多地方都有卖的，价格都在 100 元上下。</p>
+			 ]]></content>
+<pubDate>2010-01-04T20:44:00+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2691</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 经典证明：用信息熵证明素数无穷多 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2700</link>
+<content><![CDATA[ 
+		<p>    偶然读到一个非常帅的证明：用信息熵可以瞬间证明素数有无穷多个。这个证明比本 Blog 之前讲过的五种非主流证明 (<a href="http://www.matrix67.com/blog/archives/282">282</a>, <a href="http://www.matrix67.com/blog/archives/539">539</a>, <a href="http://www.matrix67.com/blog/archives/1678">1678</a>) 看上去都要帅，并且更重要地，它道出了素数无穷多的根本原因：只有无穷多的素数，才有能力表达出如此丰富的自然数世界。<br>
+    假设我们从所有不超过 n 的自然数中随机选取一个数 N ，并把它分解成质因数的乘积 N = P1^X1 * P2^X2 * … * Pm^Xm，其中 m 是不超过 n 的素数的个数。注意到由于 2^Xi ≤ Pi^Xi ≤ N ≤ n 对所有 i 都成立，因此我们有 Xi ≤ log(n) 。真正帅的地方来了。考虑随机选取一个 N 带来的信息熵，我们有：</p>
+<p> log(n) = H(N)<br>
+         = H(X1, X2, …, Xm)<br>
+         ≤ H(X1) + H(X2) + … + H(Xm)<br>
+         ≤ log(log(n)+1) * m</p>
+<p>    上面的第一个等号是由信息熵的定义直接得出的。第二个等号是由唯一分解定理得到的：由于一个数可以唯一地分解为质因数的乘积，因此 N 和 (X1, X2, …, Xm) 是一一对应的，知道了前者也就确定了后者，它们的信息熵是相同的。第三行的不等式是由于我们放开了 Xi 的取值条件（每个 Xi 独立取值可能会导致它们的乘积超过 n ），必然会增加结果的不确定性。而每个 Xi 的取值范围不会超出 0 到 log(n) ，最多 log(n)+1 种情况，因此 H(Xi) ≤ log(log(n)+1) ，这就得到了第四行的那个不等式。<br>
+    整理上式，我们得到了 m ≥ log(n) / log(log(n)+1) ，这不但告诉我们当 n 趋于无穷大时不超过 n 的素数个数也是趋于无穷的，还给出了不超过 n 的素数个数的一个下界。</p>
+			 ]]></content>
+<pubDate>2010-01-06T02:08:48+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2700</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 瓶魔悖论与不完全信息 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2712</link>
+<content><![CDATA[ 
+		<p>    <a href="http://en.wikipedia.org/wiki/The_Bottle_Imp">The Bottle Imp</a> 是一则有意思的短篇小说。某日，小说里的主人公遇上了一个怪老头。怪老头拿出一个瓶子，说你可以买走这个瓶子，瓶子里的妖怪就能满足你的各种愿望；但同时，持有这个瓶子会让你死后入地狱永受炼狱之苦，唯一的解法就是把这个瓶子以一个更低的价格卖给别人。如果你是小说里的主人公，你会不会买下这个瓶子呢？你会以什么价格买下这个瓶子呢？<br>
+    以什么价格买入这个瓶子，这个问题貌似并不容易回答。你当然不愿意花太多的钱，在你的愿望被满足之前你至少还得给自己留一点钱花；但你也不能花太少的钱，否则你会承担着卖不出去的风险。但是，在做出一些理性的分析后，我们得出了一个惊人的结论：任何人都不应该以任何价格购买这个瓶子。<br>
+    和很多博弈问题一样，这一系列的分析首先从最简单的情形开始。首先，你是绝对不能只出 1 分钱就买下这个瓶子的，因为这样的话这个瓶子就永远也卖不出去了——没有比 1 分钱更低的金额了。那么，用 2 分钱买瓶子呢？这样理论上貌似是可行的，但仔细一推敲你会发现还是有问题——这样你只能以 1 分钱卖掉这个瓶子，但没有人会愿意用 1 分钱去买瓶子（否则他就卖不掉了）。因此，用 2 分钱买下瓶子后，你同样找不到下一个买家。和上面的推理一样，用 3 分钱买这个瓶子也不是什么好主意，因为没有人愿意以 1 分钱或 2 分钱购入瓶子，因此你的瓶子不可能卖得掉。依此类推，你不应该以任何价钱去购买这个瓶子，因为每个人都知道，他无法以任何价格卖掉这个瓶子。</p>
+<p><span id="more-2712"></span><br>
+    这个推理有意思就有意思在，它的结论和我们的生活直觉是相反的——花几万块或者更保险的，几百万块钱，去买这个瓶子，怎么想也不会是一个如此杯具的结果。但上述严格的推理为什么会得到一个看似荒谬的结果呢？这个推理有一个很强的前提条件，这也是很多趣味博弈问题的基础——假设每个人都是最聪明的，他们所做的决策都是最优的；并且每个人都知道，每个人都是最聪明的，都将选择自己的最优策略；并且每个人都知道，每个人都知道每个人是最聪明的；并且……这样无限循环下去。但现实生活中，这个假设明显不成立。或许每个人都绝顶聪明，但这一点并不是所有人都知道；即使所有人都知道，也不是每个人都知道所有人都知道。这就是所谓的不完全信息，它会对整个游戏的结果造成根本性的影响。<br>
+    听一个朋友说，他在某堂经济学课上玩了一个非常有趣的游戏，那堂课的教授通过这个游戏完美地诠释了不完全信息。教授叫每个人在小纸条上写一个不超过 100 的正整数，然后交给助教。由助教当场统计所有同学所写的数的平均值，并约定所写的数最接近平均值的 2/3 的同学将在期末考试中获得额外的加分。例如，若所有同学所写的数平均值为 44 ，则写下 29 的全体同学都将在期末得到加分。如果是你，你打算写多少？<br>
+    我们来看看，如果前面那个“人人都是聪明人”等一系列假设成立，最后的结果是什么。首先，你有理由猜测，大家所写的数随机分布在 1 到 100 之间，平均值大约在 50 上下。这样的话，你写下 50 的 2/3 ，即 33 ，应该是最合理的。且慢！不只是你，其他人当然也都想到了这一点，他们都会发现写下 33 是更好的选择。这样，你写下 22 便成为了一个更好的选择。不过，别人也会和你一样想到这一步，进而所有人都会考虑写下 22 的 2/3 也即 15 ……这样推下去，最后的结果是，所有人都会发现写下数字 1 是最好的结果。而事实上，这个结果也确实是最好的——在这种情况下所有人都将获胜，每个人都能得到期末加分。<br>
+    能上这课的人固然不笨，并且大家或许也都清楚这一点。更有意思的是，后来的调查发现，当时的课堂上有很大一部分人以前就知道这个游戏，并以智力题的形式见过上面的分析。但真正敢写“1”的人几乎没有，因为信息是不透明的，你不知道别人能够想到多远，也不知道有没有写 100 的大傻子，也不知道有没有内鬼，等等。</p>
+<p>    在 The Bottle Imp 的例子中，情况也相同——谁也不知道，有没有傻子来打破上面那个卖不出去的推理链条。更有趣的是，小说 The Bottle Imp 的情节本身还考虑到了另外一些非常机智的转折。可能会出现一些对许愿瓶上了瘾、根本不在乎入地狱的人，他或许不相信有地狱，或许已经犯过不可饶恕的滔天大罪，觉得自己反正都得下地狱。还有这么一种可能：有人发现即使你用 1 分钱买下了这个瓶子，这也不是完全无解——你可以把瓶子卖掉其它国家去。由于汇率的原因，在其它国家里你或许能找到比 1 分钱更低的价格。这样卖瓶子是否合法并不重要，只要有人相信他是合法的就够了。他的存在，或者有人相信有这样的人的存在，或者有人相信有人相信有这样的人存在，都足以打破上面的那个推理链条。</p>
+			 ]]></content>
+<pubDate>2010-01-11T22:31:56+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2712</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Self-Description ]]></title>
+<link>http://www.matrix67.com/blog/archives/2723</link>
+<content><![CDATA[ 
+		<p><img alt="image placeholder" >
+<p>图片来源：<a href="http://xkcd.com/688/">http://xkcd.com/688/</a><br>
+真是太有才了！</p>
+			 ]]></content>
+<pubDate>2010-01-13T15:59:12+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2723</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 从全唐诗对偶字中提取字义网络图 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2728</link>
+<content><![CDATA[ 
+		<p><img alt="image placeholder" >
+<p>    语言统计分析期末大作业要求我们统计全唐诗中的对偶字，并用所得到的统计结果反过来评判出对仗最工整的诗句。我在数据处理过程中突然想到，鉴于互成对偶的两个字之间有一定的语义联系，我们便有了一个庞大的汉字语义关联库；如果把所有汉字之间的关联画成一张图会是什么样子呢？于是我用 Mathematica 7 提出了全唐诗中处在对偶位置上的所有字对，得到了 464448 个可能的对偶关系；再利用一些算法得到了最稳定、最常用的 2000 个对偶关系，把它们都描绘在一张大图上，于是便有了上面的这个图。点击<a href="http://www.matrix67.com/blogimage_2010/201001142.png">这里</a>查看高清无码大图，1600×1600 像素。可以看到，有语义关联的汉字自动地聚合到了一起。</p>
+<p><span id="more-2728"></span><br>
+    利用 Mathematica 7 的 CommunityStructurePartition 算法，我把这个图中的顶点大致分成了几个团体，每一个团体内的字基本上就构成了一个词类。这几天打算就这个题目继续研究下去，希望能得到一些更有意思的结果。</p>
+			 ]]></content>
+<pubDate>2010-01-14T12:03:08+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2728</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ UyHiP趣题：自然数划分中的幂关系 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2740</link>
+<content><![CDATA[ 
+		<p>    <a href="http://brand.site.co.il/riddles/200912q.html">UyHiP上个月的题目</a>：把所有大于 1 的自然数划分成两个集合，证明至少能在其中一个集合里找到互不相同的三个数 a 、 b 、 c 满足 a^b=c 。然后，试着给出一种划分，使得只有其中一个集合里存在这样的三元组。<br>
+    Update: 后一个问题要求两个集合都是无限集。感谢网友 Triple.J 的提醒。</p>
+<p style="color:#e5e5e5">    证明：如果集合 A 里只有有限个数，那就在集合 B 里选两个比集合 A 中的最大数还大的数 a 和 b ，显然 a^b 也在集合 B 里。类似的，若集合 B 里只有有限个数，我们立即可知 A 中存在满足 a^b=c 的三元组。因此，我们只需要讨论两个集合里都有无穷多个数的情况。<br>
+    从集合 A 里选一个数 x ，从集合 B 里选一个数 y 。无妨假设 xy 在集合 A 中。在集合 A 中选一个比 xy 大的数 r 。由于集合 A 是无限大的，因此这样的数总存在。由于 r 比 xy 大，因此 x 、 y 、 xy 、 r 、 r^x 、 r^(xy) 这六个数两两不同。为了避免在同一集合里出现满足要求的三元组， r^x 和 r^(xy) 都必须在集合B里面，但这样的话， r^x 、 y 和 r^(xy) 就成了符合要求的三元组了。<br>
+    后一个问题则出奇的简单：把所有素数放进一个集合，所有合数放进另一个集合。显然，一个素数不可能是另一个素数的整数次幂<br>
+。</p>
+<p>    这个月的题目非常有意思，点击<a href="http://brand.site.co.il/riddles/201001q.html">这里</a>围观。</p>
+			 ]]></content>
+<pubDate>2010-01-21T23:56:09+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2740</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 分形图形：千伏高压下的湿木板 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2733</link>
+<content><![CDATA[ 
+		<p><object width="520" height="320"><param name="movie" value="http://www.tudou.com/v/rxqY8TygaUQ">
+<param name="allowFullScreen" value="true">
+<param name="allowscriptaccess" value="always">
+<param name="wmode" value="opaque">
+<embed src="http://www.tudou.com/v/rxqY8TygaUQ" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" wmode="opaque" width="520" height="320"></embed></object></p>
+<p>原来一直在想，有没有什么物理手段可以得到分形图形，没想到还真有。<br>
+看上去确实很帅。</p>
+<p>视频来源：<a href="http://www.youtube.com/watch?v=S5-U8bazU7E">http://www.youtube.com/watch?v=S5-U8bazU7E</a><br>
+查看更多：<a href="http://tesladownunder.com/LowVoltagePower.htm#Wood%20burn%20fractals">http://tesladownunder.com/LowVoltagePower.htm#Wood%20burn%20fractals</a></p>
+			 ]]></content>
+<pubDate>2010-01-22T00:00:53+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2733</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 利用阶乘因子数公式证明素数无穷多 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2753</link>
+<content><![CDATA[ 
+		<p>    搞过 OI/ACM 的同学们想必对一道经典题目印象极深：求 n 的阶乘末尾有多少个 0 。注意到末尾的一个 0 是由一个因子 2 和一个因子 5 相乘产生的；但在 n 的阶乘里，因子 5 的个数通常远远少于因子 2 。因此这个问题就等价于问 n 的阶乘里有多少个因子 5 。在 n 的阶乘式中，每个 5 的倍数里都含有一个因子 5 ，每个 25 的倍数里都还含有另外一个因子 5 ，每个 125 的倍数里都还有第三个因子 5 ……因此， n 的阶乘里因子 5 的个数的计算公式就是 ⌊n/5⌋ + ⌊n/25⌋ + ⌊n/125⌋ + … 。如果把 K 的阶乘里素因子 p 的个数记作 Φ(p, K) ，则 Φ(p, K) = Σ⌊K/(p^i)⌋ 。有意思的是，最近 The American Mathematical Monthly 上的一篇文章利用这个公式瞬间证明了素数无穷多的定理。</p>
+<p>    如果素数是有限的，则 K 的阶乘就可以写成所有 p^Φ(p, K) 的乘积，其中的 p 取遍所有的素数。注意到 Φ(p, K) = Σ⌊K/(p^i)⌋ &lt; Σ(K/(p^i)) = K/(p-1) &lt; K ，因此对任意正整数 K 都有 K! &lt; (Πp)^K ，其中 Πp 表示所有素数的乘积。但当 K 充分大的时候， K! 显然会超过一个常数的 K 次方，矛盾。因此素数不可能是有限的。
+
+ 
+来源：<a href="http://www.cut-the-knot.org/wiki-math/index.php?n=Arithmetic.InfinitudeOfPrimesFromLegendresFormula">http://www.cut-the-knot.org/wiki-math</a></p>
+			 ]]></content>
+<pubDate>2010-01-29T12:22:07+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2753</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣题：数轴上的潜水艇 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2762</link>
+<content><![CDATA[ 
+		<p>    说有一个潜水艇，初始时位于数轴上的某个整数点，并沿着数轴以每秒整数个单位的速度做匀速运动（但你不知道具体的初始位置和移动速度是多少，移动方向也是未知的）。每一秒你都可以在某个整数点投放深水炸弹，如果此时潜艇正好在你放炸弹的位置，这个潜艇就被炸掉了。你是否有办法可以保证炸毁潜艇？</p>
+<p style="color:#e5e5e5">    这是可以办到的。不管初始时潜水艇在哪儿，它的速度有多大，我总能在有限的时间里炸毁潜艇。假设潜艇的速度为 a ，初始位置为 b ，则在第 t 秒时它的位置就在 a*t + b 。把所有可能的有序数对 (a,b) 看作是平面直角坐标系上的整格点，每次考虑其中的一个点；假设第 i 秒考虑的点是 (a_i, b_i) ，那就在 a_i * i + b_i 处放一个炸弹。如此重复做下去，每次排除一种情况，直到击中目标为止。现在的问题就是，用怎样的顺序遍历平面上的所有格点才能保证每个 (a,b) 都会在有限的时间里访问到。这个方法就多了，比如从原点开始以一条螺旋线为路径一圈一圈地遍历周围越来越远的点。</p>
+<p>    这个问题展示了一些典型的数学思维在传统智力题方面的应用，它背后的数学方法非常深刻。</p>
+<p> <br>
+来源：<a href="http://www.reddit.com/r/math/comments/as2d5/sinking_the_submarine_a_puzzle/">http://www.reddit.com/r/math/comments/as2d5/sinking_the_submarine_a_puzzle/</a></p>
+			 ]]></content>
+<pubDate>2010-01-29T13:14:14+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2762</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 微观经济学之定价策略（上）：价格歧视 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2774</link>
+<content><![CDATA[ 
+		<p>    上学期学校之外的事情特别多，因此开学时选的课比以前所选的都要少。开学两周后又退掉了不少的课，期中又补退掉了几门，最后整个学期惊人地只上了 16 学分的课。在这 16 学分里，又有 13 学分的专业课我基本上就没去过，其中古代文学史我就只去过两次，期末考试前只复习了一天，最后以近乎裸考的状态大摇大摆地走进了考场，异常平静地面对挂科的危险。因为我觉得，重要的是学到自己想学的知识，而不是用各种手段获取更高的绩点。那些几乎完全依赖于考前背诵的期末考试没有任何价值，我甚至愿意用挂科来表达自己的这一观点。<br>
+    上学期我真正去上过的课只有一个 3 学分的选修课，中级微观经济学。在这门课中，我大开眼界，学到了一种分析问题的全新思维，其价值远远超过了那 13 学分的专业课，可以说是我上学期的学习中唯一的收获。在微观经济学中，垄断定价是我认为最有趣的东西之一。我想把这些简单而深刻的经济学分析与大家分享，即使网上或许已经充斥着大量介绍有关内容的文章了。大家会在微观经济学中惊奇地发现，初中所学的那些数学知识竟然有如此美妙的应用。</p>
+<p><span id="more-2774"></span><br>
+    很多常见的商品，比如大米、白菜等等，它们的买家和卖家都很多，产品本身的差异也不大。因此，个人行为是无法改变整个市场的，价格完全由整个市场的供求决定。这种市场叫做完全竞争市场。在完全竞争市场中，卖家自己是无法操纵价格的。<br>
+    还有一些产品就不同了。比如铁路、电力等市场，产品的提供商通常只有一个企业，这个企业就能随意调整产品的价格。电信、航空等产业也不是随便哪个人就可以白手起家说干就干的，新企业的参与和旧企业的退出都需要耗费巨大的成本，这也决定了商品的提供商必然不会很多，企业有自主定价的空间；还有衣服、手机、书报等商品，不同商品间的差异很大，每一样产品都有它的独特性，因此这些行业也不是完全竞争，生产商也有自己定价的权利。由此引发了一个有趣的话题——如何制定价格才能让生产商的利益达到最大呢？<br>
+    这里有一个二难的问题：价格定得太低，赚不到；价格定得太高，没人买。这是传统定价策略的一个巨大的缺陷：不管你把价格定到多少，你都觉得不好——价格再高点或许就能从某些买家手里赚到更多，价格再低点或许就能赢来一些新的买家。要是有办法给愿意高价购买的人卖贵点，给只想便宜买的人卖便宜点的话就好了。这种放弃统一定价，为不同消费者制定不同价格的策略就叫做“价格歧视”。<br>
+    对于商家来说，最完美的情况就是拥有看透每个买家的读心术，能知晓每个人愿意支付的最高价格，并且抵着这个价格卖给他。这种为每个人“量身定价”的理想情况被称为“一级价格歧视”。在现实生活中，一级价格歧视显然是不大可能发生的。不过有一些例子却非常接近一级价格歧视。比方说小商铺中的讨价还价，最后的成交价格因人而异，这就有点一级价格歧视的味道。聪明的卖家在报价前会先问“你觉得它值多少钱”，目的就在于摸清你的心理价位。对于一些不大会砍价的人，回答卖家的这个问题几乎就是彻底暴露自己愿意支付的最高价格，于是市场上又诞生了一个悲剧的消费者。<br>
+    和每个消费者讨价还价虽然很接近梦想中的一级价格歧视，但这并不是在每一个行业里都能办到。除了“明码标价”等政策上的原因之外，有时候还有一些更直接的原因。比方说电信业，话费和流量费就只能统一定价，与每个消费者都搞讨价还价根本不可能实施，况且消费者众多，费用信息是完全透明的。因此，商家还得绞尽脑汁想点儿别的办法来区分不同档次的消费者才行。</p>
+<p> <br>
+ <img alt="image placeholder" >
+<p>    我们就用数据流量费来举例子吧。在 GPRS 服务出现之初，人们用 GPRS 可以干的事情并不多，因此我们假设消费者们的需求都差不多。每个月 30MB 的流量对于数据流量的消费者来说已经足够了，再多了也用不上。但是，这 30MB 的流量在消费者心中的价值并不一样。对于一个饿汉来说，第一个烧饼的价值显然比第七个烧饼价值更高。对于消费者来说，每多一 MB 流量所带来的价值也是递减的。我们假设，为了得到头一个 MB 的流量消费者愿意出 3 块钱，但消费者只愿意再花 2.9 元获得额外的一个 MB ，第三个 MB 则只值 2.8 元钱，等等。我们把消费者对每单位流量的估价用左边的这个柱状图表示，所有竖条面积的总和就是这 30MB 的流量在消费者心目中的总价。我们近似地用右图中的一条斜线来反应流量和价格之间的关系，斜线下方的三角形面积就可以看作是一个消费者为了得到 30MB 愿意支付的总价——约45元。</p>
+<p> <br>
+ <img alt="image placeholder" >
+<p>    对于电信公司来说，怎样定价才能赚到更多的钱呢？和上面提到的定价困境一样，流量单价无论怎么设定都不完美。比方说，若规定每 MB 的单价为一块钱，则消费者只愿意购买 20MB ；假设提供数据服务的成本为 0 ，服务提供商也只能赚到一个小矩形区域这么多钱，斜线下方的其它区域都被放掉了。把单价定到一块五可以从每个消费者手中赚到 22.5 元钱，这时的单价虽然已经达到了最优值，但获得的利润仍然只有斜线下方面积的 1/2 。有没有办法榨干消费者的每一分钱呢？有！那就是放弃按单价收费的办法，直接推出一个 45 元 30MB 的套餐。由于每个消费者购买 30MB 的流量所愿意支付的最高价格恰好也就是 45 元 ，因此消费者将接受这个价格，于是服务提供商将赚到斜线下方的所有面积。为什么电信业务里总是有那么多套餐，秘密也就在这里了。</p>
+<p style="color:#006666">    Update: 若消费者允许按单价（比方说一块钱）购买任意数量的流量，消费者显然会只买 20MB ，此时消费者赚到的部分（收获到的价值减去实际的支出）达到最大。买满 20MB 后，再多买就觉得亏了，因为新的一 MB 值不了这么多钱。但若以套餐的形式定价，消费者将别无选择，只要价格没超过带给他的价值，他都会去买。 45 元 30MB 的套餐最狠，消费者几乎“赚不到”任何东西，支付意愿完全被榨取光了。</p>
+<p> <br>
+    现在，有趣的问题来了。假设数据流量市场上突然出现了一类新的消费者。或许是由于这类消费者用 GPRS 比较频繁，或许是由于他们开发出来了 GPRS 的一项比较费流量的新用途，总之 40MB 才能满足他们的需求。他们对每单位流量的价值估算也是随着流量增多而递减的。他们愿意为头一个 MB 的流量花费 4 块钱，但只愿意花 3.9 元钱购买第二个 MB ，依此类推。这样的话，市场上就出现了两种消费愿望不同的消费者，我们不妨把他们分别叫做“低端消费者”和“高端消费者”。</p>
+<p> <br>
+ <img alt="image placeholder" >
+<p>    若只推出一个 30MB 套餐，则只能赚到两个面积 A 的钱，荒废了高端消费者的巨大潜力；若只推出 40MB 套餐，则只能赚到面积 A+B+C 的钱，完全无视了低端消费者的购买力。为了兼顾两类消费者，从消费者身上榨取出最多的钱，这次我们就需要放弃统一定价策略，并同时推出两种套餐： 45 元钱 30MB ，以及 80 块钱 40MB 。低端消费者愿意用面积 A 所代表的金额去购买 30MB ，高端消费者愿意用面积 A+B+C 购买 40MB ，因此他们都能接受为自己准备的套餐，以愿意支付的最高价格购买数据服务。这就是鲜活的价格歧视：给每一类不同的消费者制定不同的价格。但此时，我们发现了一个之前不曾遇到过的问题：高端消费者可能会发现，买前一种套餐似乎更划得来——对于高端消费者来说， 30MB 的价值等于面积 A 加上面积 B ，但现在只需要用面积 A 就能拿到这 30MB ，又何乐而不为呢？另外的 10MB 流量对高端消费者的价值只相当于区域 C 的面积，却需要在低端套餐的基础上再加上面积 B+C 的钱才买得到，明显亏了很多。这就是实现价格歧视真正最困难的地方：既然不能靠讨价还价等手段区别消费者，在一个开放的市场环境中，如何阻止高端消费者模仿低端消费者去消费低端套餐呢？</p>
+<p>    为了让高端消费者自动去选择高端套餐，我们必须要让高端消费者觉得，购买高端套餐要比购买低端套餐划得来一些。因此，我们想到以下这种改进的定价方式。低端套餐：面积 A 购买 30MB ；高端套餐：面积 A+C 购买 40MB 。高端消费者会发现，在购买了 30MB 的流量之后，再获得额外的 10MB 对他而言的价值相当于面积 C ，恰好也就是购买 40MB 套餐的额外付出。因此，高端消费者会觉得多花一个面积 C 的金额是值得的，从而主动去选择后面那一种套餐。这样，服务提供商将从两类消费者中赚取到的总面积为 A+A+C 。这种套餐定价虽然不能赚到消费者愿意支付的每一分钱，但它能自动把两类消费者区分开来，让每一类消费者都会自动选择适合他的套餐，实现了消费者的区别对待，从而赚到比统一定价更多的钱。我们把这种给不同量的商品制定不同的价格，得以让高消费者自动选择高价位商品的定价策略叫做“二级价格歧视”。这样的例子在生活中很多见。“一件 30 元两件 50 元”、“量大从优”的价格策略本质上都是二级价格歧视的典型例子。</p>
+<p> <br>
+ <img alt="image placeholder" >
+<p>    有趣的是，上面这种套餐设置还不是最好的，它还能继续改进。由于高端消费者愿意花费的钱更多一些，我们可以想办法拉大高端套餐和低端套餐的差距，从而向高端消费者收取更高的费用。例如，按上面的这个图设置两个套餐，面积 A’ 购买 x 个 MB ，以及面积 A’+D+E+C 购买 40MB 。低端消费者会发现他购买前 x 个 MB 愿意支付的价格正好也就是面积 A’ ，因此愿意接受套餐 A ；高端消费者发现把流量扩充到 40MB 愿意支付的价格正好也就是面积 D+E+C ，因此会购买 40MB 套餐。这时，服务提供商赚到的面积为一个 A’ 的面积，加上 A’+D+E+C 的面积，和原来相比少赚了一个 D 的面积，但多赚到了一个 E 的面积。由于区域 E 要比区域 D 大一些，因此这个套餐比原来更好。</p>
+<p> <br>
+ <img alt="image placeholder" >
+<p>    x 到底取多少才能达到最优呢？注意，只要红色虚线段比蓝色虚线短，把 x 的值减小一点总能保证面积 E 的变化量大于面积 D 的变化量。当 x=20 时，两种颜色的虚线段一样长了，低端套餐的低端化也就到了极限。因此，在这个例子中，最终的二级价格歧视策略是设定 20MB 和 40MB 两个套餐，它们的价格分别为面积 A’ 和面积 A’+D+E+C 。</p>
+<p>    这里我们看到了一个有趣的现象：让低端产品更低端，反而会增大生产商的收益。只需要注意到例子中的横轴不一定总是代表了商品的数量，它也可以用来表示商品的质量，我们就会发现二级价格歧视理论可以解释生活中很多奇怪的现象。联邦快递服务表面上有次日到达、隔日到达、普通到达三种，但显然普通到达的快递并不是真的需要更长的运输时间才能到。在同一天寄出的快递，即使选用了不同的服务，它们显然也都是在同一天到的。只是，隔日到达的快递会在仓库里多囤一天，普通到达的快递则会被闲置更久。有人会想，这不是有毛病吗？为什么明明今天就能送到的东西非要明天才送出去？事实上，这种看似很不合理的做法正是前面所说的二级价格歧视。快递公司人为地把快递服务分成了三种不同的档次，有意设置低端服务，从而让消费者根据自己的消费水平对号入座。轮船的四等舱又脏又臭，很多乘客都抱怨，明明只需要很小的成本就能稍微改善一下四等舱的环境，为什么不这么做呢？其实，这也是价格歧视的需要。为了区分出不同档次的产品，商家有意设置了一个低端消费品，供那些支付意愿较低的人购买。<br>
+    二级价格歧视还有一些更匪夷所思的例子。为了实现价格歧视，产品研发部门有时会面对一些看似不可理喻的设计需求—— IBM 研发打印机时曾经专门研发过一种可以减慢打印速度的部件。超市新进一批货物后，往往会举办特卖会贱价销售运输过程中有所损坏的商品。每次运输中真的都会产生那么多不小心受损的东西吗？有人惊奇地发现，这些号称是运输中撞伤的商品竟然都是到货之后商家自己用锤子砸坏的！有了价格歧视理论，生活中的很多怪现象都有了合理的解释。</p>
+<p> <br>
+    除了用不同档次的商品来区分消费者，有时候，商家还有其它办法直接区分出消费水平不同的买家。如果商家能够成功区别出不同档次的消费者，无需拐弯抹角，直接就给他们提供不同的价格，这就叫做“三级价格歧视”。游乐园门票、电影票、火车票等商品不大能分出个一等二等，因此二级价格歧视在这儿没有什么用武之地。不过，商家仍然能够想出区别定价的奇招：持有学生证可以享受优惠。由于学生群体消费水平较低，而借助学生证又能轻易将这类消费者区别开来，因此商家可以直接给这一类人提供优惠价，从而既能保证榨取高端消费人群，又不至于损失了低端消费人群。同一件商品在不同省市的价格不同，高速公路对不同车型收取不同的费用，这些都是最典型的三级价格歧视。<br>
+    当然，还有一些非典型的、很隐蔽的三级价格歧视。商家经常在暗中布置好一盘棋，根据你的行为来分辨你的消费档次。在很多商场、餐厅或者酒店，获取更低折扣的办法竟然就是简单地问一句“打折吗”。别小看这个小细节，问不问这一句话很大程度上就反映出了买家的消费水平。按照这个行为细节把消费者分为两个档次，给他们提供不同的价格，兼顾不同消费人群，这就是相当隐蔽的三级价格歧视策略。电子商城也能根据用户操作区别出不同的消费人群。一些阴险狡诈的电子商场可能会在用户点击“按价格从高到低排序”后有意给出更高的价格，目的就是从高端消费者那里赚到更多的钱。<br>
+    还有一些更隐蔽的三级价格歧视。优惠券的印刷和发放都需要耗费不少的成本，那麦当劳为什么不直接在餐厅提供折扣，而偏偏要用优惠券的方式提供折扣呢？其实，提供优惠券就是一个非常隐蔽的三级价格歧视。据说，拿到优惠券的人当中，只有 30% 的人会有意把它留下来供以后使用，另外 70% 的人不是放着放着就弄丢了，就是放着放着就过期了，甚至有很多人拿到优惠券直接就扔掉了。根据这一点，消费者就自动分为了两个群体。这样，商家便能从高端消费者手中榨取到更多的钱，并为那些对价格很敏感的低端消费者提供优惠价。在国外买很多电子产品时，有一种价格优惠策略叫做“邮寄回扣”，就是说买完东西后把收据、反馈卡、回扣申请表等物品整理好并寄回厂家，厂家就会以支票的形式返赠多少多少钱。返赠的金额少则几十刀，多则一百多刀，对消费者来说无疑是一个巨大的诱惑。但事实上，申请回扣是一件很麻烦的事情，需要寄回厂家的东西少了任何一样都不行。因此，回了家后真正认真整理回扣申请资料的人并不多，很多人要不就是嫌手续麻烦不弄了，要不就是放着放着就忘了。只有对价格特别敏感，真正在乎回扣的消费者才会花精力去申请回扣。高端消费者和低端消费者就这样区别了开来。</p>
+			 ]]></content>
+<pubDate>2010-02-05T01:04:11+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2774</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣题：用两个2算出一个5 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2784</link>
+<content><![CDATA[ 
+		<p>    <a href="http://domino.research.ibm.com/Comm/wwwr_ponder.nsf/Challenges/January2010.html">IBM Ponder This 上个月的题目</a>很有意思：利用各种数学函数和数学符号，用两个数字 2 得到一个 5 。不过，有一些限制条件：<br>
+    1. 只能够使用两次数字 2 。因此，像 2 + 2 + 2/2 这样的算式是不行的。<br>
+    2. 不允许使用变量，因此 (2x + 2x + x)/x 也是不合法的。<br>
+    3. 不允许使用其它常量，因此 2 + 2 + ln(e) 是不合法的，因为用到了常量 e 。诸如 (2+i)(2-i) 的妙解也因此被禁止了。<br>
+    4. 不允许使用取整类的函数，否则问题就太简单了，例如⌈√<span style="text-decoration:overline">(2*2)!</span>⌉。</p>
+<p><span id="more-2784"></span><br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+    一个非常巧妙的解是 cos(atan(2))<sup>-2</sup> 。注意直角边为 1:2 的直角三角形，斜边长应该是 √<span style="text-decoration:overline">5</span> ，那么 cos(atan(2)) 就应该等于 1/√<span style="text-decoration:overline">5</span> ，它的 -2 次方就是我们要求的结果了。<br>
+    另一个比较万能的解则是 -log<sub>2</sub>(ln(√<span style="text-decoration:overline">√√√√√exp(2)</span>)) 。显然 √<span style="text-decoration:overline">exp(2)</span> 就等于 e ，再连续开 5 次平方后就等于e<sup>1/32</sup> ，取对数后就是 1/32 ，相当于 2<sup>-5</sup> 。因此， -log<sub>2</sub>(1/32) 就恰好等于 5 了。显然，我们还能用这种方法把两个 2 变成任意一个整数。</p>
+			 ]]></content>
+<pubDate>2010-02-06T01:15:42+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2784</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ I LOVE YOU IN EVERY DIMENSION ]]></title>
+<link>http://www.matrix67.com/blog/archives/2799</link>
+<content><![CDATA[ 
+		<p><img alt="image placeholder" >
+<p>原创Geek图一枚</p>
+			 ]]></content>
+<pubDate>2010-02-07T21:26:36+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2799</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 微观经济学之定价策略（下）：两部分定价与捆绑销售 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2803</link>
+<content><![CDATA[ 
+		<p>    为了榨干消费者的每一分钱，除了价格歧视以外，商家还想出了各种招数。一种看上去似乎与此无关的定价策略叫做“两部分定价”。游乐园、酒吧之类的地方广泛存在两部分定价的现象，即在消费者消费之前必须先一次性支出一定数量的“入场费”，入场之后才可以按单价支付你所消费的商品。为什么商家要把费用分成这么两层呢？其实，根本目的还是在于从消费者手中赚到更多的钱。<br>
+    为了说明为什么两部分定价能赚到更多，我们不妨以游乐园来举例。为了简便起见，我们假设游乐园里只有一个游乐项目，比方说过山车。去游乐园的人只有一个目的，就是去玩儿过山车。不过，过山车老玩儿也没意思，随着玩儿的次数增加，游客获得的“爽感”将逐渐减小，具体地说坐第 n 次过山车只能给他带来相当于 100-10n 元的价值（这也就是他第 n 次乘坐过山车愿意支付的最高价格）。我们再假设，运营过山车的成本是平均每人次 60 元。那么，游乐园应该怎样定价才能从消费者手中赚到最多呢？</p>
+<p><span id="more-2803"></span><br>
+ <img alt="image placeholder" >
+<p>    首先注意到，传统定价策略依旧有前面已经讨论过的缺陷——无论怎么也不能赚到消费者愿意支付的全部金额。例如，把价格定到 p ，则消费者只愿意玩 q 次过山车（再玩的话还能获得的收益就不抵还需支付的费用了），他需要支付的就是图中面积 A+C 所代表的金额。而面积 C 是运行 q 次过山车的成本，因此商家最终只能赚到一个面积 A 的钱。而事实上，为了坐这 q 次过山车，消费者愿意支付的价格是面积 A+C 再加上 A 上方的一个小三角形 F ，那块面积 F 怎么能白白便宜了消费者呢？于是，商家想到，何不把那块小三角形面积以“门票”的形式一次性收入囊中呢？<br>
+    于是，我们有了收费的新方法：坐一次过山车的单价仍然是 p ，但不管你坐多少次，你都需要事先缴纳面积 F 那么多钱作为门票。这样，你总共支付的价格就是面积 A+C+F ，除去成本 C 后，商家赚到的部分就是面积 A+F 。这就比刚才的定价方法多赚了一个三角形 F 的面积。</p>
+<p> <br>
+ <img alt="image placeholder" >
+<p>    然而，这种方法仍然不是最好的。为了继续赚到区域 A 右边的那块面积，商家还可以降低过山车单价，让消费者再多坐几次过山车。最佳的两部分定价方案就是，把过山车的单价定得和成本一样，然后直接收取成本线以上的整个大三角形面积 F’ 的门票费。这样，消费者愿意坐 q’ 次过山车，总共支付 F’+C’ 的钱，除去成本后商家净赚 F’ ，理论上把消费者榨取得一干二净。<br>
+    细心观察你会发现，在生活中，两部分定价的例子还有很多。会员入会费、信用卡年费、手机月租费都属于两部分定价的典型例子。</p>
+<p> <br>
+    另一个常见的定价技巧叫做捆绑销售。例如，购买电视频道时，你会发现很多电视频道都不单卖，都必须要和其它的频道一起买才行。这就有些奇怪了：为什么不简单地按需求给每个频道订个价，而偏要费尽周折设计那么多频道包呢？难道打包了卖会赚得更多一些吗？事实上还真是这样——绑定销售会使得商家获得更高的利润。商家一切诡异的行为其动机都是唯一的——赚尽可能多的钱。<br>
+    为了解释这一现象，我们不妨从最简单的情况开始说起。假设有甲、乙两个人，以及 A 和 B 两个频道。甲愿意以 120 元购买 A 频道，愿意以 30 元购买 B 频道；乙只愿意以 100 元购买 A 频道，却愿意用 40 元购买 B 频道。如果对 A 、 B 两个频道分别定价，则显然应该为 A 频道定价 100 元，给 B 频道定价 30 元，此时商家收入 260 元。但若把 A 、 B 两个频道捆绑在一起销售，则可以给这个包的价格订到 140 元，这能让商家收入到 280 元。可见，捆绑销售确实能够给商家带来更多的利润。<br>
+    但捆绑销售不见得总有效。如果把上面的数据稍稍更改一下，甲对两个频道的估值分别为 120 和 40 ，乙对两个频道的估值分别为 100 和 30 ，则单独定价和捆绑销售都只能收入 260 元，这之间并无差异。由此可见，不是随便两样东西捆绑起来就能带给商家更多利润的，这背后还隐藏有一些条件。<br>
+    仔细观察你会发现核心问题所在——若捆绑销售能让商家赚更多，则一定是出现了这样的情况：这些频道的最低估价来自于不同的买家，即买家对频道的评价不能是“都很好”或者“都不好”，对两个频道的评价呈现负相关。换句话说，对于某一系列商品，若消费者往往只偏爱于其中一个，并且不同人的偏爱不同，则捆绑销售可以带来更多的利润。最经典的例子就是微软办公套件——为什么要把 Word 、 Excel 、 PowerPoint 捆绑销售，而不单卖呢？原因就在于，一个普通消费者并不会用到里面所有的软件，不同人对这几款软件的评价不同。虽然很多人觉得 Word 是最常用的，但财务人员则觉得 Excel 更加有用，而教师则觉得 PowerPoint 的价值更高。在这种情形下，捆绑销售将让商家赚得更多的钱。重庆数字电视的特选节目包包含 DOXTV 、世界地理、发现之旅、第一剧场、风云音乐、英语辅导、风云足球、老故事这 8 个频道，频道内容覆盖面很宽，基本上满足上述条件。影剧院、游乐园的套票，颜色、款式不同但不单卖的成套商品，都是典型的捆绑销售。</p>
+<p> <br>
+    运用这些基本的数学知识，我们还可以得出很多其它的定价方案，解释各种有趣的经济学现象。其实经济学并不仅仅是关于经济的学问，它是一种思考问题的方式，旨在用简单的数学推导描述人们的行为。稍后我还想写一写微观经济学中一个同样有趣的结论——公有地悲剧。它和囚徒困境一样，是一种在日常生活中普遍存在的现象，给人们带来的启发远远大于其本身的经济学意义。</p>
+			 ]]></content>
+<pubDate>2010-02-10T12:11:50+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2803</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 满足xy恰有k个约数的(x,y)所组成的图形 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2810</link>
+<content><![CDATA[ 
+		<p>刚才在<a href="http://kevinpluck.net/factors/Part5/part5.shtml">这里</a>看到了如题所说的图像，立即想到用 Mathematica 验证一下。我选出了几个个人比较感兴趣的 k ，再用一句话便可输出所有对应 k 的图像：</p>
+<p><code>kArray = {2, 3, 4, 6, 8, 10, 12, 14, 16, 18, 20, 36, 50};<br>
+For[i = 1, i &lt;= Length[kArray], i++,
+ Export["F:\" &lt;&gt; ToString[kArray[[i]]] &lt;&gt; ".png",<br>
+  ArrayPlot[Table[Boole[Length[Divisors[x*y]] == kArray[[i]]], {x, 1, 400}, {y, 1, 400}],<br>
+   PixelConstrained -&gt; {1, 1}, Frame -&gt; False]]];</code></p>
+<p> <br>
+当 k=2 时，由于只有素数才有两个约数，因此所有点都是形如 (p, 1) 或者 (1, p) 的点，其中 p 为某个素数：<br>
+<img alt="image placeholder" >
+<p><span id="more-2810"></span><br>
+ <br>
+当 k=3 时，图像上的点大致成一条斜线，斜线上的点都是形如 (p, p) 的点，其中 p 为某个素数：<br>
+<img alt="image placeholder" >
+当k是更大一些的奇数时，情况类似，因此不再重复了。</p>
+<p> <br>
+当 k=4 时，图像上出现了很多竖直线和水平线，这些直线的位置与素数的平方相对应：<br>
+<img alt="image placeholder" >
+<p> <br>
+当 k=6 时，逐渐出现了一些乍看之下不好理解的元素：<br>
+<img alt="image placeholder" >
+<p> <br>
+当 k=8 时，出现了之前不曾见过的情况：图中有一些连续的直线段：<br>
+<img alt="image placeholder" >
+<p> <br>
+当 k=10 时：<br>
+<img alt="image placeholder" >
+<p> <br>
+当 k=12 时：<br>
+<img alt="image placeholder" >
+<p> <br>
+当 k=14 时：<br>
+<img alt="image placeholder" >
+<p> <br>
+当 k=16 时，更加怪异了：<br>
+<img alt="image placeholder" >
+<p> <br>
+当 k=18 时：<br>
+<img alt="image placeholder" >
+<p> <br>
+当 k=20 时：<br>
+<img alt="image placeholder" >
+<p> <br>
+当 k=36 时：<br>
+<img alt="image placeholder" >
+<p> <br>
+当 k=50 时：<br>
+<img alt="image placeholder" >
+<p>研究这些图像各种有趣的模式产生的原因，无疑是一个有趣的课题。</p>
+			 ]]></content>
+<pubDate>2010-02-11T13:02:20+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2810</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 经典智力题：自行车往哪个方向行驶？ ]]></title>
+<link>http://www.matrix67.com/blog/archives/2817</link>
+<content><![CDATA[ 
+		<p>    这是一个经典智力问题，不知道大家见过没。下图是一辆自行车在泥地中驶过留下的痕迹，你能据此判断出这辆自行车是从左往右行驶的还是从右往左行驶的吗？</p>
+<p>   <img alt="image placeholder" >
+<p>    提示：<span style="color:#E5E5E5">题目条件是充分的，根据这两道车轮印我们足以判定车行方向。这和图中的线条粗细、边缘锯齿没有关系，你完全可以把两道痕迹当作没有粗细之分的理想曲线；为了解决这个问题，必须仔细分析自行车驶过后两道车轮印一定会满足的几何性质。</span></p>
+<p><span id="more-2817"></span><br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ </p>
+<p>    答案：自行车只有前车轮可以自由改变方向，后车轮的方向始终指向前车轮的中心。也就是说，如果把前后车轮的痕迹分别记为曲线 A 和曲线 B ，第 t 时刻前车轮的位置记为 A(t) ，后车轮的位置记为 B(t) ，则对任意时刻 t ， A(t) 和 B(t) 的连线都与曲线 B 相切，且这条连线的长度是一个定值（两车轮间的距离）。换个角度来说，曲线 B 上任意一点的（其中一个方向上的）切线一定会与曲线 A 产生交点，且两个点的距离是一个定值。</p>
+<p> <br>
+ <br>
+ <img alt="image placeholder" >
+<p>    由于曲线 B 的切线一定与另一条曲线相交，作出两条曲线各个部分上的切线，我们就可以区别出两道车轮印哪条是前轮痕迹 A ，哪条是后轮痕迹 B 。</p>
+<p> <br>
+ <br>
+ <img alt="image placeholder" >
+<p>    下面在曲线 B 上任意取几个点，比如 B(t1) 、 B(t2) 、 B(t3) 、 B(t4) ，我们只需要找出对应的 A(t1) 、 A(t2) 、 A(t3) 、 A(t4) 的位置，即可还原出自行车行驶的大致过程了。由于 A(t) 一定在曲线 B 过 B(t) 点的切线上，作出各个 B(t) 的切线，它与曲线 A 的交点就应该是各个 A(t) 的位置。但这些切线与曲线 A 都有两个交点，哪个才是真正的 A(t) 呢？利用 A(t) 与 B(t) 间的距离为定值这一结论，我们可以看出，只有位于各 B(t) 左边的那些交点才与 B(t) 保持相同的距离。因此，自行车是从右往左行驶的。</p>
+			 ]]></content>
+<pubDate>2010-02-12T14:08:42+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2817</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 如何构造一个平滑的最大值函数 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2830</link>
+<content><![CDATA[ 
+		<p>    在处理最优化问题时，我们常常通过分析导函数来寻找极值点，因此往往希望目标函数是可导的；但在很多实际问题中，目标函数里经常带有取最大值函数，它的存在将破坏函数的可导性。一个有趣的问题由此产生：能否设计一个平滑的二元函数 f(x,y) ，它的效果近似于 max(x,y) ，足以用来代替最大值函数？在设计这样的函数时，下面这些条件需要尽可能满足：</p>
+<p>   · 函数简洁而美观<br>
+   · 可以调整函数的“平滑度”<br>
+   · 可以很方便地扩展到多个变量</p>
+<p><span id="more-2830"></span><br>
+    我在<a href="http://www.johndcook.com/blog/2010/01/13/soft-maximum/">这里</a>发现了一个非常漂亮的构造： ln(exp(x) + exp(y)) 。由于 x 和 y 都在指数位置上，因此它们的差距将会放得很大。比方说， 3 和 8 这两个数虽然相隔不远，但 e^3≈20.0855 ， e^8≈2980.96 ，两个幂差了几个数量级。因此，把 e^3 加到 e^8 上，几乎不会改变 e^8 的大小。对 e^3+e^8 取对数的结果和直接对 e^8 取对数的结果相差不多。事实上， ln(exp(3) + exp(8))≈8.00672 ，非常逼近最大值函数的结果。</p>
+<p><img alt="image placeholder" >
+<p> <br>
+    这个函数有很多好处。首先，它看上去非常漂亮，并且很容易参与到其它运算中。其次，它可以非常方便地扩展到 n 个变量的情况，即 ln(exp(x_1) + exp(x_2) + … + exp(x_n)) 。另外，这个函数的精确程度是可以控制的。显然，由于指数函数越到后面变化幅度越大，因此这个函数对尺度较大的变量来说会变得更加精确。如果把 3 和 8 变成 30 和 80 ，函数结果可以精确到小数点后 20 多位。因此，我们可以用一个系数 k 来调节变量的尺度，让 x 和 y 同时扩大 k 倍，最后结果再除以 k 。换句话说，把函数重新写成 ln(exp(k·x) + exp(k·y))/k ， k 越大整个函数将越逼近最大值函数， k 越小函数也就变得越平滑。</p>
+<p><img alt="image placeholder" >
+<p> <br>
+    有了这个函数后，很多本身不可导的函数立即有了可导的近似函数。例如，绝对值函数 abs(x) 其实可以写作 max(x,-x) ，因此可以用可导函数 ln(exp(x) + exp(-x)) 近似代替：</p>
+<p><img alt="image placeholder" >
+<p> <br>
+    对于复合函数的情形，用 ln(exp(g(x,y)) + exp(h(x,y))) 代替 max(g(x,y), h(x,y)) 同样能带来很好的效果：</p>
+<p><img alt="image placeholder" >
+			 ]]></content>
+<pubDate>2010-02-19T03:08:13+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2830</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 奇妙的心电图数列 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2839</link>
+<content><![CDATA[ 
+		<p>    心电图数列 (EKG Sequence) 的定义简单而有趣：第一项为 1 ，第二项为 2 ，以后的每一项都是最小的和前一项不互质并且不曾出现过的数。换句话说，数列 a(1)=1 ， a(2)=2 ，且当 n&gt;2 时取 a(n) 为所有满足以下两个条件的数中最小的那一个：该数与 a(n-1) 有大于 1 的公约数，并且该数与前面 n-1 项都不相等。心电图数列的前面 20 项为</p>
+<p>      1, 2, 4, 6, 3, 9, 12, 8, 10, 5, 15, 18, 14, 7, 21, 24, 16, 20, 22, 11 …</p>
+<p>    为什么它叫做心电图数列呢？原因很简单——因为把它描绘在图象上时，看上去像一张心电图。</p>
+<p> <img alt="image placeholder" >
+<p><span id="more-2839"></span><br>
+    心电图数列有很多有趣的性质。例如，考虑某个素数 p ，如果数列中第一个能被 p 整除的数是 t·p ，那么 t 一定就是前一项的因子了。由于 t·p 满足最小性，因此我们可以进一步得出， t 是 t·p 前一项的最小素因子。我们还可以推算出 t·p 的后一项。 t·p 的后一项要么就是 p ，要么就是（比 p 小的） t 的倍数。但后者是不可能，如果存在某个 t 的倍数比 p 小而之前又没出现过，那 t·p 这一项本身就不会是 t·p 了，而将由这个 t 的倍数取代。因此， t·p 的后一项一定是 p 。我们还可以看出，只要 t≠2 ，这个 p 的后一项就一定是 2p ；而当 t=2 时， p 的后一项就只能是 3p 了。也就是说，如果数列中出现了一个素数 p ，那么 2p 不是它的前一项就一定是它的后一项。<br>
+    有意思的是，除了 p=2 以外，目前我们还没有找到 2p 出现在 p 后面的情况。换句话说，人们发现，对于数列中的每个奇素数 p ，它的前一项无一例外地都是 2p ，并且后一项总是跟着 3p 。证明或推翻这个猜想并不容易，直到最近几年才出现有关它的证明。很大程度上来说，这是整个数列呈心电图模样的最关键原因。</p>
+<p> <br>
+    心电图数列有一个很漂亮的数学事实：所有的自然数都出现在了这个数列中。由这个数列的定义，每个数最多也只能出现一次。因此，心电图数列是全体自然数的一个排列。这个结论的证明堪称经典。首先我们证明引理 1 ：如果数列中有无穷多项都是某个素数 p 的倍数，那么 p 的任意一个倍数都出现在了数列中。证明的基本思路是反证。无妨假定 k·p 是最小的不在数列中的 p 的倍数。我们总能找到一个充分大的 N ，使得从第 N 项开始所有数都不小于 k·p 。然而数列中有无穷多项都是 p 的倍数，因此在第 N 项后面一定能找到一个 p 的倍数，这个数的下一项就只可能是 k·p 了，矛盾。<br>
+    我们可以故技重施，继续证明引理 2 ：如果某个素数 p 的任意一个倍数都出现在了数列中，那么所有正整数都出现在了数列中。反证，假设 k 是最小的不在数列中的数，我们总能找到一个充分大的 N ，使得从第 N 项起后面的所有数都不小于 k 。由于素数 p 的任一倍数都在数列里，因此 k·p 的任一倍数都在数列里，即数列中有无穷多项都是 k 的倍数。那么，第 N 项之后一定存在一个 k 的倍数，它的下一项就只可能是 k 了，矛盾。<br>
+    接下来就是最妙的地方了。我们可以利用上面两个引理立即得知，所有正整数都出现在了数列中。假设数列中所有项的所有素因子只有有限多种，但整个数列有无穷多个数，因此至少有一种素因子出现了无穷多次，由引理 1 可知这个素因子的所有倍数都在数列里，由引理 2 所有数都出现在了数列中，与前面的假设矛盾。因此，数列中包含有无穷多种素因子。而前面说过，数列中第一个含有素因子 p 的项，其下一项一定是素数 p 。因此，数列中出现了无穷多个素数。而素数 p 的前一项或者后一项必有一个是 2p ，因此素因子 2 出现了无数多次。由引理 1 可知 2 的所有倍数都在数列里。由引理 2 可知所有数都在数列中了。</p>
+<p> <br>
+ <br>
+ <img alt="image placeholder" >
+<p>    心电图数列还有很多优美的性质和尚未解决的猜想。把前面 500 多个数描绘在图象上，容易看出整个图象大致成三条斜线，其中两条稀疏的线明显是由形如 p 和 3p 的数组成。于是有人猜想，如果把所有 p 和 3p 都变成 2p ，整个数列在渐近意义上与 f(n)=n 等价。</p>
+<p> <br>
+ <img alt="image placeholder" >
+<p>    由此我们又想到一个问题，既然 a(n) 与 n 相差不远，那么它们之间的大小关系究竟如何？作出 a(n)-n 的图象，我们立即得出一个新的猜想：排除 a(n) 为素数的情况，则几乎所有 a(n) 都大于 n 。<br>
+    从<a href="http://www.research.att.com/~njas/sequences/A064413">这里</a>看来，这两个问题中，前一个问题似乎已经得到了证明，后一问题则是最近才提出的猜想，还有待人们继续探索。</p>
+			 ]]></content>
+<pubDate>2010-02-20T00:06:20+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2839</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 汉字版Alphametic征集 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2856</link>
+<content><![CDATA[ 
+		<p>    Alphametic 是指这样一种有趣的文字游戏。在一个用字母组成的加法算式中，相同的字母代表相同的数字，不同的字母代表不同的数字。如果算式成立，那么这个数字谜有唯一解。而 Alphametic 的精髓就在于，整个算式本身也必须“有意义”。最经典的 Alphametic 可能是这个：</p>
+<p>        SEND + MORE = MONEY</p>
+<p>    它的唯一解是 9567 + 1085 = 10652 。</p>
+<p>    就像灯谜、对联一样，作为一种文字游戏， Alphametic 也有很多异常牛 B 的，比如：</p>
+<p>        EARTH + AIR + FIRE + WATER = NATURE</p>
+<p>    1969 年，有人发现了这样一个有趣的 Alphametic：</p>
+<p>        THREE + THREE + TWO + TWO + ONE = ELEVEN</p>
+<p>    这样的 Alphametic 叫做 Doubly-True Alphametic 。可以证明上面这个 Doubly-True Alphametic 是合法的 Alphametic 中“最小的”一个。一个稍微大一点的 Doubly-True Alphametic 为：</p>
+<p>        SEVEN + SEVEN + SIX = TWENTY</p>
+<p><span id="more-2856"></span><br>
+    理论上，汉字也应该有类似的 Alphametic ，可惜目前国内的小学奥赛试题中，各种高难度的虫食算、数字谜屡见不鲜，但这种有趣的 Alphametic 却从未出现。<br>
+    昨天，为了撰写一份三年级奥数讲义，我有意创作了一个说实话有点别扭的汉字 Alphametic ：</p>
+<p>        结冰 + 结冰 = 冷冰冰</p>
+<p>    紧接着我开始思考：汉字有没有 Doubly-True Alphametic 呢？答案是肯定的，并且最小的 Doubly-True Alphametic 一定是：</p>
+<p>        一 + 一 + 一 + 一 + 一 = 五</p>
+<p>    这个 Alphametic 的解只能是 1+1+1+1+1=5 ，因为“一”等于 2 的话和将变成两位数。不过，这个解太“平凡”了，有没有一些非平凡的汉字 Doubly-True Alphametic 呢？<br>
+    于是，我用 Mathematica 写了一个程序，用一夜的时间搜索 Doubly-True Alphametic 。早上爬起来打开电脑一看，屏幕上已经有了一个（可能是最小的）非平凡汉字 Doubly-True Alphametic ：</p>
+<p>        二十一 + 九十九 = 一百二十</p>
+<p>    并且令人满意的是，它的唯一解与汉字本身表达的算式相差甚远。</p>
+<p>    大家还能构造出哪些有趣的 Alphametic ？要是有高人能创作出搞笑一些的，或者具有现实意义一些的汉字 Alphametic 的话那就更爽了，简单的例子如：</p>
+<p>        墙 + 墙 + 墙 = 翻墙</p>
+<p>    一些辅助工具可以在<a href="http://www.tkcs-collins.com/truman/alphamet/index.shtml">这里</a>找到，但貌似……就在墙的另一面。</p>
+			 ]]></content>
+<pubDate>2010-02-23T12:20:22+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2856</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 一张无法正确缩放的诡异图片 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2866</link>
+<content><![CDATA[ 
+		<p>    给大家看一个好玩儿的东西。在不同的显示器上，下面这张图片的显示效果可能大不相同。如果你用的是 TFT 屏幕，上下移动你的脑袋，调整你的视角，你也会看到不同的色彩。从低处往上看，你会看到一个白色的 MM 站在蓝色背景中；从高处往低看，你会看到一个黑色的 MM 站在黄色背景中。</p>
+<p>   <img alt="image placeholder" >
+<p>    现在，把上面这幅图片保存下来，用你最爱的图象处理软件打开，然后缩放到原图的 50% 。左图是图片缩小后理应得到的结果，但你会发现，你得到的结果是右边的这个图——一片灰色。</p>
+<p>   <img alt="image placeholder" >
+<p><span id="more-2866"></span><br>
+    今天从 <a href="http://www.reddit.com/r/programming/comments/b5air/almost_every_piece_of_software_scales_images/">reddit</a> 上看到了<a href="http://www.4p8.com/eric.brasseur/gamma.html?">这个网页</a>。根据它的解释，目前的绝大多数图象处理软件，包括 Photoshop 和 GIMP ，它们的图象缩放算法都有问题，错误的根源乃是对 gamma 值的错误假设。左图就是采用正确的图象缩放算法得到的图片，但几乎所有图象处理软件都会得到右边的这张图。该问题也普遍存在于图象查看程序里，甚至就在你用浏览器阅读这篇文章的时候，按几下 Ctrl + 减号 后你也会看到同样的错误。另外，由于同样的原因，缩放到其它尺寸、图片的旋转、使用某些滤镜也会出现各种奇怪的问题。具体的原理和更多学术讨论可以在上面那个网页中看到。原文中的图片很不和谐，因此我才根据其原理自己重做了一张。</p>
+			 ]]></content>
+<pubDate>2010-02-24T20:09:55+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2866</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 推荐视频：纸牌穿玻璃魔术揭密 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2875</link>
+<content><![CDATA[ 
+		<p>    玻璃是一个神奇的东西，你能看见玻璃的另一侧，却无法触摸得到。或许就因为这样，穿透玻璃成为了现代人类的梦想，也成为了魔术界的一个不朽主题。为此，魔术师们发明创造了各种办法来展示人们的这种幻想。<br>
+    我在网上下载了一个 40 多分钟长的视频（英文无字幕），想和大家分享一下。这个视频介绍了很多种实现纸牌穿玻璃的手法，从中可以看到很多魔术师特有的创造性思维。手法和魔术的关系就好像数论和密码学的关系一样，人们通常只看到前者复杂而华丽的外表，而真正令人折服的其实是把前者作为工具，利用想象力和创造力去构造后者那些不可思议的杰作。给你一个小小的遥控汽车，你能用它做到些什么？你可以看到，在一个魔术家眼中，利用一个小小的遥控汽车能够实现哪些看似惊人的魔术效果。</p>
+<p><object width="480" height="363"><param name="movie" value="http://www.tudou.com/v/FrwT9AI-Psk">
+<param name="allowFullScreen" value="true">
+<param name="allowscriptaccess" value="always">
+<param name="wmode" value="opaque">
+<embed src="http://www.tudou.com/v/FrwT9AI-Psk" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" wmode="opaque" width="480" height="363"></embed></object></p>
+			 ]]></content>
+<pubDate>2010-03-03T00:10:02+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2875</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 原创小工具：Idea Generator ]]></title>
+<link>http://www.matrix67.com/blog/archives/2882</link>
+<content><![CDATA[ 
+		<p>&gt;&gt;&gt; <a href="http://www.matrix67.com/ideagen" target="_blank">http://www.matrix67.com/ideagen</a> &lt;&lt;&lt;</p>
+<p>    在小学应用题里面，师徒二人的工作除了做衣服就是加工零件，百货商场里卖的永远是彩电和冰箱，村里的工程队不是修路就是挖水渠。长大了后，我才惊讶地发现，编出一道背景有新颖一些的应用题并不是一件容易事儿。在冰冷的键盘和屏幕前面，能够进入我们脑子里的东西并不多。在我写文章时，我经常需要想出一些贴近实际生活的例子，或是恰当而又有新意的比方；环顾四周，却发现身边的物品并没有带给我什么启发。此时，我竭尽全力去捕捉生活中的各种小事，却发现那些平时司空见惯的琐事很难被思维触及。<br>
+    于是，我写了一个小程序。每刷新一次，程序便会自动从近千个形容词和上万个名词中随机挑选出一对显示出来。当你在写文章、出题目、做策划时想不到什么好点子了，不妨用这个小工具来帮你打开思路。<br>
+ </p>
+			 ]]></content>
+<pubDate>2010-03-03T12:55:47+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2882</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣题：三角形两顶点在直线上滑动时第三点的轨迹 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2896</link>
+<content><![CDATA[ 
+		<p>  <img alt="image placeholder" >
+<p>    如图，两条直线相交于点 O 。 △ABC 的顶点 A 在其中一条直线上，顶点 B 在另一条直线上。如果保持 △ABC 的各边边长不变，让点 A 和点 B 在所在直线上滑动，那么点 C 描绘出来的轨迹是一个什么样的图形？</p>
+<p><span id="more-2896"></span><br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ </p>
+<p>  <img alt="image placeholder" >
+<p>    答案：是一个椭圆。</p>
+<p> <br>
+     <img alt="image placeholder" >
+<p>    为了证明这一点，我们过 O 、 A 、 B 三点做一个圆，并把圆心记作 M 。过 M 、 C 两点作一条直线，直线与圆相交于 P 、 Q 两点。注意到由于 PQ 是圆的直径，因此 ∠POQ 始终为直角。在 △ABC 移动的过程中，圆的直径 AB/sin(∠AOB) 将会始终保持不变。既然圆的直径总是相同的，因此我们可以把这个圆重新描述为过 A 、 B 两点的一个指定直径的圆，这样的话整个圆以及 P 、 Q 的位置就唯一地由 △ABC 决定了。这样，弧 AP 和弧 AQ 的位置虽然不断在变，但它的弧度总保持不变，因此其圆周角也不会变化，即 ∠AOP 和 ∠AOQ 总是定值。既然 A 的轨迹是一条直线，那么 P 、 Q 的轨迹也就分别是一条直线。而 ∠POQ 始终是 90° ，因此 P 、 Q 的轨迹实际上是过 O 点的两条垂直线。</p>
+<p> <br>
+  <img alt="image placeholder" >
+<p>    以这两条垂直线作为坐标系，我们便可以以一个全新的角度来描述 C 的轨迹了。我们可以把定长线段 PQ 看作是在这个坐标系上滑动，而点 C 的轨迹则是 PQ 上的一定点移动的轨迹。设 C 到 P 的距离为 a ， C 到 Q 的距离为 b ，由于 sin(∠OPQ) 和 sin(∠OQP) 的平方和总为 1 ，因此显然 C 点的坐标 (x,y) 总满足 x^2/a^2 + y^2/b^2 = 1 。因此，点 C 的轨迹就是以 OP 、 OQ 为轴的椭圆了。</p>
+<p>来源：<a href="http://www.cut-the-knot.org/Curriculum/Geometry/EllipseByVanSchooten.shtml">http://www.cut-the-knot.org/Curriculum/Geometry/EllipseByVanSchooten.shtml</a></p>
+			 ]]></content>
+<pubDate>2010-03-05T13:04:21+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2896</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 经典证明：1+2+3+…+(n-1) = C(n,2) ]]></title>
+<link>http://www.matrix67.com/blog/archives/2904</link>
+<content><![CDATA[ 
+		<p> <img alt="image placeholder" >
+<p>来源：<a href="http://mathoverflow.net/questions/8846/proofs-without-words/8847#8847">MathOverflow</a><br>
+不得不说，确实很妙！</p>
+			 ]]></content>
+<pubDate>2010-03-08T11:44:34+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2904</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 用Mathematica寻找最相似的汉字 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2907</link>
+<content><![CDATA[ 
+		<p>    Mathematica 提供了一个看上去毫无用途的无厘头函数 Rasterize ，它可以以图片的格式输出运算结果。比如，下面这个句子可以打印出 (x+1)^n 的展开式的“倒影”：</p>
+<p>   <img alt="image placeholder" >
+<p>    今天我突然想到，我们可以利用这个函数很方便地分析汉字在图象上的性质。函数 Binarize 可以把图象转换为单色单通道， ImageData 则可以把图象转换成数组的形式，以便我们定量分析。因此，下面这句话就可以把一个汉字转换成 12*12 的 01 矩阵：</p>
+<p>   <img alt="image placeholder" >
+<p><span id="more-2907"></span><br>
+    下面这几句话可以把 GB2312 中的最常用的 3755 个一级汉字按照宋体 12 像素点阵字的像素点多少进行排序。</p>
+<p>   <img alt="image placeholder" >
+<p>    可以看到，像素点最少的 10 个汉字为：</p>
+<p>   <img alt="image placeholder" >
+<p>    像素点最多的 10 个汉字则为：</p>
+<p>   <img alt="image placeholder" >
+<p> <br>
+ <br>
+    曾经多次在网上看到诸如“三秒钟之内找到我”、“你吃过康帅博方便面吗”之类的帖子，不由得感叹汉字之强大。于是我开始思考，汉字中哪些字对长得最像？于是，我利用上面这些函数写了一段 Mathematica 程序，跑了几个小时的时间终于得出了在 3755 个一级汉字所对应的宋体 12 像素点阵字中像素不同之处最少的字对。其中有一对字仅一个像素之差，它们是“己”和“已”字。其它的一些结果如下：</p>
+<p>   只差 2 个像素：(鸣,呜), (柬,束), (竟,竞)<br>
+   只差 3 个像素：(壳,亮), (含,合)<br>
+   只差 4 个像素：(上,土), (免,兔), (兵,乒), (士,土)<br>
+   只差 5 个像素：(夫,失), (臣,巨), (未,朱), (宜,直)</p>
+<p>    但是，我对上面这个结果并不满意，因为有这么一个问题被忽略掉了：虽然相差相同数量的像素点，但差异发生在不同的地方，主观上的视觉差别程度是不同的。比方说，同样只差 4 个像素，人们会觉得 (士,土) 之间的差异远远小于 (上,土) 之间的差异。我们可以用一个更简单的例子来说明这种情况：</p>
+<p>   <img alt="image placeholder" >
+<p>    图 A 和图 B 、图 A 和图 C 都只差一个像素，但从人眼的角度来看，图 C 要和图 A 接近一些。这是为什么呢？或许这就是人和机器的区别吧。机器能够精确地知道每个像素的位置，但人却很难做到这一点，一般只能分辨出每个像素的大致位置。为了模拟人眼的感受，我想到把所有的汉字全部模糊化，让每个像素点都在其周边留下一些影子，这相当于从一个近视眼的角度去量化字形的差异。</p>
+<p>   <img alt="image placeholder" >
+<p>    对前面的三个例图进行模糊并转化为 256 灰阶后，图 A 和图 B 的各像素灰度值的差值的平方和为 33699 ，图 A 和图 C 的各像素灰度值的差值的平方和则为 29330 ，后者比前者小得多。又是几个小时的时间， Mathematica 终于找出了在这个意义下字形最接近的 50 个字：</p>
+<p>   (己,已), (竟,竞), (鸣,呜), (柬,束), (壳,亮), (含,合), (免,兔), (荚,英), (士,土), (宜,直)<br>
+   (并,井), (杜,社), (夫,失), (侍,恃), (昔,音), (未,朱), (囤,围), (检,捡), (昧,味), (桶,捅)<br>
+   (末,未), (懦,儒), (著,着), (上,土), (兵,乒), (素,索), (臣,巨), (迸,进), (盖,蛊), (槐,愧)<br>
+   (优,忧), (官,言), (挡,档), (醇,酵), (柠,拧), (茧,苗), (儿,几), (蓬,篷), (供,洪), (幂,幕)<br>
+   (扁,肩), (贵,贪), (金,全), (借,惜), (厘,屋), (析,折), (戍,戌), (大,太), (悄,俏), (失,矢)</p>
+<p> <br>
+ <br>
+ <br>
+    这些字究竟相仿到什么程度呢？让我们用上面这个列表中的头 6 组字对做一张“汉字视力表”吧：</p>
+<p>   <img alt="image placeholder" >
+<p> <br>
+ <br>
+ <br>
+<img alt="image placeholder" >
+			 ]]></content>
+<pubDate>2010-03-08T22:38:35+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2907</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 公用品悲剧：污染环境损人损己人尽皆知 为何危机依然存在？ ]]></title>
+<link>http://www.matrix67.com/blog/archives/2935</link>
+<content><![CDATA[ 
+		<p>    公用品悲剧是微观经济学中又一个非常有趣的话题。从一些简单的假设出发，通过一系列数学推导，我们能够得出一些乍看之下很不可思议的结论。利用这个结论，生活中的很多反常的现象都有了合理的解释。<br>
+    一个经典的公用品悲剧实例就是过度放牧的问题。同样一块牧场，如果为私人所有，牧场主将会非常合理地规划牧场，让放牧数量达到一个理论上的最优值；但是，如果这是一块公共牧场，则所有人都会争抢牧地，从而导致过度放牧，放牧数量远远大于最优值，最终每个人都得不到什么好处。可能有人会觉得这个现象并不难理解——既然是一块无人管制任人使用的公共牧场，人人都能在这里放牧，过度放牧自然就会不可避免地出现了。但是，仔细一想你会发现这个解释是有问题的：每一个来牧场放牧的人，自己心里也都知道，过度放牧对整个大局是不利的，自己的收益也会随之降低。既然人人都知道过度放牧不好，为什么最后来放牧的人还是越来越多呢？私有牧场和公共牧场的区别到底在哪儿？我们可以借助数学工具来帮助我们分析这个问题。</p>
+<p><span id="more-2935"></span><br>
+    为了用数字来说明这一情况，我们首先做一些假设。我们假定牧场只放奶牛，收益也全部来自于牛奶供应。显然，牧场的总收益与放牧数量之间的关系是一个单峰函数——牧场上没有牛时总收益为 0 ，牛的数量超过牧场的最大容量后总收益也为 0 ，在这之间一定存在一个平衡点使得总收益达到最大。为此，我们无妨假设总收益 y 与放牛数量 x 满足 y = x(100-x) 的关系，即当牧场上的牛数为 0 或者为 100 时整个牧场都不会有任何收益，而 x = 50 时牧场的总收益将会达到最大。我们再假设，购买一头牛的成本为 c ，拥有奶牛之后放牧的成本则忽略不计。接下来，我们将求出该牧地在公有和私有两种情况下最终达到的放牧数量，大家将会看到开放牧地后确实将导致放牧数量远远超过最佳水平。</p>
+<p>    如果这是一块私有牧地，牧场主会选择放多少头牛呢？很多人可能会脱口而出，当然是 50 头牛，因为 x=50 时收益达到最大值。但请注意，牧场主想要最大化的并不是他的收入，而是减去成本后所得的利润 x(100-x) – c·x 。对这个式子求导，我们就能得到利润最大化的条件： 100-2x-c = 0 。解出这个式子中的 x ，我们就得出了牧场中的最佳牛数 x = (100-c)/2 。<br>
+    从另一个角度来看，上述结论也是很显然的： 100-2x 恰好就是 x(100-x) 的导数，是增加第 x 头牛给人带来的收入增加量。如果这个增加量比 c 大，那么买入一头新的牛显然划算；什么时候这个增加量比 c 小了，再买牛来放就要亏本了。因此，临界点 100-2x = c 正好就是牛的数量达到最优的时候。</p>
+<p>    但是，一旦整个牧场变为公有，上述推理就不对了，因为单个放牧人并不关心整个牧场的利润，只在乎自己的盈亏。为了简便起见，我们假设牧场上有 x 个放牧人，每个人都只放一头牛。那么，牧场的总收入将为 x(100-x) ，每个人得到的收入为 x(100-x)/x = 100-x 。因此，当牧场上有 x-1 头牛时，对这块蛋糕垂涎已久的人会发现，他作为第 x 个放牧人进入牧场后，能够分得的收入为 100-x ，只要这个值比 c 大，这样做就是值得的。随着进入牧场的人数增多，新加入的放牧人会发现他所能赚到的越来越少。最终当 100-x = c 时，便不会再有人想要进入该牧场了。此时的总体情况惨不忍睹——每个放牧人所得的收入都是 c ，可以说是一分钱也赚不到。</p>
+<p>  <img alt="image placeholder" >
+<p>    为什么同样都是为了最大化自己的利益，公有牧地和私有牧地的差别那么大呢？根本原因就在于，在公有牧地中，每个人都能自由地进出该牧场，每个人都拥有在牧地放牧的权利。只要一个新来的放牧人发现自己有钱赚，他就会选择买牛放牧，而并不关心这样做其实会导致每个已经在牧场上的放牧人都要少赚一些。但是，选择在这里放牧是这个放牧人的权利，原来的放牧人没有理由驱逐他。随着新人的不断加入，每个人都会赚得越来越少，最后大家的利润都将趋于 0 ，悲剧也就产生了。<br>
+    不仅仅是公共牧场，事实上“公用品悲剧”发生在几乎所有的公共资源上。例如，人人都知道污染环境损人损己，最后弄得每个人都活不下去，但为什么大家仍然亡了命似的破坏自然资源呢？原因就在于，对于某一个企业来说，直接排放污水废气给它带来了一个正的收益，但这却给其它的每个企业都造成了损失。每个决定要污染环境的企业都会怎么想，这样做的人便会越来越多，整个社会的损失也就越来越大。<br>
+    公用品悲剧还会涉及很多非自然资源的公用品。例如，每个人都知道公交车挤着不舒服，但为什么最终车上还是这么挤呢？这就是因为，对于每个车下面的人来说，只要能上车，他就已经得到了好处，完全无视这一举措会使车上的每个人都受到一点损失。每个车下的人都这样想，悲剧也就发生了。<br>
+    公用品悲剧的理论还有很多更奇怪的应用。很多时候，交通堵塞的原因是前方路段发生车祸，但事实上前方发生的仅仅是某辆车撞上了护栏，车祸根本没有挡住道路。为什么最终还是堵车了呢？原来，每辆开到车祸现场的车，都会减慢速度看看热闹，甚至停下来掏出手机照下这一“杰作”。这样做虽然满足了自己的好奇心，却让后面的每一辆车都多堵上好几秒。因此大家往往会发现这样一个有趣的现象：车祸越是离奇，交通堵塞越厉害。另一个经典而有趣的应用是，为什么在餐桌上，实行 AA 制的总消费要比某一个人请客的消费高出许多。原因就在于，在实行 AA 制后，每个点菜的人都会想，原来需要 100 块钱才能吃到的美味，这次只需要 100/n 块钱便能享受到了。这样，虽然自己得到了满足，却让每个人都为你多付出了一些。</p>
+<p> <br>
+    最近我写了不少与微观经济学有关的文章，目的仅仅是想告诉大家，数学作为一种工具广泛应用于各种学科之中，能用来解释很多生活中的现象。由于我对微观经济学也是一知半解，因此这一系列的文章就不再深入写下去了。希望这几篇日志能引起大家对经济学的兴趣，并能抽出时间逛逛神奇的经济学世界。</p>
+			 ]]></content>
+<pubDate>2010-03-11T18:42:43+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2935</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ The Most Beautiful Equation (Remix) ]]></title>
+<link>http://www.matrix67.com/blog/archives/2943</link>
+<content><![CDATA[ 
+		<p>  <img alt="image placeholder" >
+ </p>
+			 ]]></content>
+<pubDate>2010-03-12T00:08:16+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2943</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Happy Pi Day！一起来挑战俄罗斯方块圆周率版 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2926</link>
+<content><![CDATA[ 
+		<p>    早上好！今天是 3 月 14 日，一年一度的圆周率日。为了和大家庆祝这个日子，我下载了一个 JavaScript 俄罗斯方块游戏 <a href="http://www.gosu.pl/tetris/">Js Tetris </a>的源代码，并且小小地修改了一下。那 7 种四联骨牌已经不复存在了，你将看到圆周率中的数字一个接一个地依次落下。这恐怕有希望成为史上最变态的俄罗斯方块了吧。<br>
+    游戏改造完毕后，我自己居然沉迷了好久。把积木换成数字后游戏变得不是一般的困难，有很多小技巧有待大家慢慢去摸索。我个人的最好成绩是第 32 位。你呢？</p>
+<p>    Update: 如果上下左右按钮会带动浏览器的滚动条，可以用 W 、 S 、 A 、 D 代替。如果浏览器不支持框架，也可以直接打开 <a href="http://www.matrix67.com/PiTetris/tetris.html" target="_blank">http://www.matrix67.com/PiTetris/tetris.html</a> 进行游戏。</p>
+<p><iframe frameborder="0" width="400" height="410" src="http://www.matrix67.com/PiTetris/tetris.html"><br>
+</iframe><br>
+ </p>
+			 ]]></content>
+<pubDate>2010-03-14T00:01:26+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2926</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 也说Pizza问题：分享几个漂亮的证明 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2946</link>
+<content><![CDATA[ 
+		<p>    显然，过 Pizza 的圆心作四条直线，把一个周角平分成八等份，则整个 Pizza 饼也被分成了八等份。我们也很容易联想到，如果过圆心外的一点做出四条直线，并且同样满足每两条相邻直线夹 45 度角，那么这八块 Pizza 饼显然是不一样大的。考验你直觉的时候到了：你认为蓝色面积之和与红色面积之和相比，哪个大一些呢？</p>
+<p>  <img alt="image placeholder" >
+<p><span id="more-2946"></span></p>
+<p> <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ </p>
+<p>  <img alt="image placeholder" >
+<p>    事实上，蓝色面积和红色面积一样大。但请注意，这绝对不是显然的。下面这个事实估计会让不少人吃一惊：如果题目改为<strong>两条</strong>互相垂直的直线，那么红色（圆心所在的颜色）的面积是大于蓝色面积的。证明这一点很容易，我们只需要说明红色面积之和减去蓝色面积之和大于 0 就可以了。而容易看出 G – A = D ， H – B = E ， I – C = F ，并且还有 D – F = E ，于是</p>
+<p>    (D + G + E + H + C) – (A + B + F + I)<br>
+  = [(G – A) + D] + [(H – B) + E] – [(I – C) + F]<br>
+  = 2 * D + 2 * E – 2 * F<br>
+  = 2 * (D + E – F)<br>
+  = 4 * E &gt; 0</p>
+<p> <br>
+    今天，我看到<a href="http://songshuhui.net/archives/35072.html">科学松鼠会</a>上谈到了 Pizza 定理，正巧我最近也读到了很多与 Pizza 定理有关的东西，在这里与大家分享一下。正如<a href="http://songshuhui.net/archives/author/yixiaodong/">小易</a>所说，前不久， Rick Mabry 和 Paul Deiermann 证明了下面这个猜想：用 N 条等分周角的直线切一个圆，当 N 为大于等于 4 的偶数时，两种颜色的面积一样多；当 N = 1 、 N = 2 以及 N 除以 4 余 3 时，圆心所在的颜色拥有更多的面积；其它情况下（ N 大于 4 且被 4 除余 1 ），圆心所在的颜色拥有更少的面积。这个证明很长，我自己也没有读完过。但值得一提的是，对于 N = 4 的情况，之前人们曾发现了不少值得膜拜的证明。<br>
+    1994 年， L. Carter 和 S. Wagon 利用几何软件 CABRI 发现了一个割补法证明，得出 N = 4 时两种颜色的面积确实是一样大的。我做了一个 GIF 动画，直观地显示出了整个“证明”过程，真可谓是神来之笔。有几块区域的全等需要严格的证明，不过也非常容易，这里就不再赘述了。</p>
+<p>  <img alt="image placeholder" >
+<p> <br>
+ <br>
+    利用积分思想， Jörg Härterich 给出了一个更美妙的证明。证明的关键在于下面这个引理：在半径为 R 的圆内有任意一点 P ，过 P 做两条互相垂直的直线，与圆产生四个交点，记 P 到这四个交点的距离分别为 a 、 b 、 c 、 d ，则 a^2 + b^2 + c^2 + d^2 = 4*R^2 。</p>
+<p>  <img alt="image placeholder" >
+<p>    证明很容易，由勾股定理，显然有 (c-a)^2 + (b+d)^2 = (2R)^2 ，同理 (d-b)^2 + (a+c)^2 = (2R)^2 ，两式展开后一加，结论就出来了。<br>
+    现在，把 P 点当作极坐标的原点，假设 Pizza 的半径为 1 ，令 r(θ) 表示 P 在 θ 方向上到 Pizza 圆周的距离。把面积看作一个个小扇形面积的积分，由于扇形面积等于半径的平方乘以弧度的一半，因此红色面积就等于</p>
+<p>  <img alt="image placeholder" >
+<p>    正好是整个圆面积的一半。</p>
+<p>    虽然 N = 4 的情况有了不少漂亮的证明，但当 N 更大的时候，问题将会变得出奇地复杂，分析时需要用上一些更玄妙的手段，几十年的时间里愣是没人搞出来。附上 Rick Mabry 和 Paul Deiermann 的<a href="http://www.cs.umd.edu/~gasarch/BLOGPAPERS/pizza.pdf">论文原文</a>，大家若有兴趣的话可以研究一下。 </p>
+			 ]]></content>
+<pubDate>2010-03-17T18:56:08+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2946</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 什么是算法：如何寻找稳定的婚姻搭配 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2976</link>
+<content><![CDATA[ 
+		<p style="text-align:center;">引言 什么是算法<br>如何寻找稳定的婚姻搭配</p>
+<p> <br>
+    据说，一本书开篇就直言不讳地谈起两性的话题，这本书准能畅销。有幸的是，在众多可以用来引入“算法”的话题中，我最喜欢的那一个还真与两性有那么一些关系。假如你是一个媒人，有若干个单身男子登门求助，还有同样多的单身女子也前来征婚。如果你已经知道这些女孩在每个男人心目中的排名，以及男孩们在每个女孩心中的排名<sup>(1)</sup>，你应该怎样为他们牵线配对呢？<br>
+    最好的配对方案当然是，每个人的另一半正好都是自己的“第一选择”。这虽然很完美，但绝大多数情况下都不可能实现。比方说，男 1 号的最爱是女 1 号，而女 1 号的最爱不是男 1 号，这两个人的最佳选择就不可能被同时满足。如果出现了好几个男人的最爱都是同一个女孩儿的情况，这几个男人的首选也不会同时得到满足。当这种最为理想的配对方案无法实现时，怎样的配对方案才能令人满意呢？<br>
+    其实，找的对象太完美不见得是个好事儿，和谐才是婚姻的关键。如果男 1 号和女 1 号各自有各自的对象，但男 1 号觉得，比起自己现在的对象，女 1 号更好一些；女 1 号也发现，在自己心目中，男 1 号的排名比现男友更靠前一些。这样一来，这两人就可能会发生外遇，最后扔下各自现在的对象，一起私奔了——因为这个结果对他们两人都更好一些。在一种男女配对的方案中，如果出现了这种情况，我们就说婚姻搭配是不稳定的。作为一个红娘，你深深地知道，对象介绍得不好没有关系，就怕婚姻关系不稳定。给客户牵线配对时，虽然不能让每个人都得到最合适的，但婚姻搭配必须得是稳定的。换句话说，对于每一个人，在他心目中比他当前的伴侣更好的异性，都不会认为他也是一个更好的选择。现在，我们的问题就是：稳定的婚姻搭配总是存在吗？应该怎样寻找出一个稳定的婚姻搭配？</p>
+<p><span id="more-2976"></span><br>
+    为了便于分析，我们下面做一些约定。我们用字母 A 、 B 、 C 对男性进行编号，用数字 1 、 2 、 3 对女性进行编号。我们把所有男性从上到下列在左侧，括号里的数字表示每个人心目中对所有女性的排名；再把所有女性列在右侧，用括号里的字母表示她们对男性的偏好。图 0-1 所示的就是有 2 男 2 女的一种情形，每个男的都更喜欢女 1 号，但女 1 号更喜欢男 B ，女 2 号更喜欢男 A 。若按 A-1 、 B-2 进行搭配，则男 B 和女 1 都更喜欢对方一些，这样的婚姻搭配就是不稳定的。但若换一种搭配方案（如图 0-2 ），这样的搭配就是稳定的了。</p>
+<p> <br>
+          <img alt="image placeholder" >
+ 图 0-1  一个不稳定的婚姻搭配 男 B 和女 1 都不满意现任伴侣<br>
+ </p>
+<p> <br>
+          <img alt="image placeholder" >
+          图 0-2  一个稳定的婚姻搭配<br>
+ </p>
+<p>    可能很多人会立即想到一种寻找稳定婚姻搭配的策略：不断修补当前搭配方案。如果两个人互相之间都觉得对方比自己当前的伴侣更好，就让这两个人成为一对，剩下被甩的那两个人组成一对。如果还有想要私奔的男女对，就继续按照他们的愿望对换情侣，直到最终消除所有的不稳定组合。容易看出，应用这种“修补策略”所得到的最终结果一定满足婚姻的稳定性，但这种策略的问题就在于，它不一定有一个“最终结果”。事实上，按照上述方法反复调整搭配方案，最终有可能会陷入一个死循环，因此该策略甚至不能保证得出一个确定的方案来。</p>
+<p> <br>
+   <img alt="image placeholder" >
+         图 0-3  应用“修补策略”可能会产生死循环<br>
+ </p>
+<p>    1962 年，美国数学家 David Gale 和 Lloyd Shapley 发明了一种寻找稳定婚姻的策略。不管男女各有多少人，不管他们各自的偏好如何，应用这种策略后总能得到一个稳定的婚姻搭配。换句话说，他们证明了稳定的婚姻搭配总是存在的。有趣的是，这种策略反映了现实生活中的很多真实情况。<br>
+    在这种策略中，男人将一轮一轮地去追求他中意的女子，女子可以选择接受或者拒绝她的追求者。第一轮，每个男人都选择自己名单上排在首位的女人，并向她表白。此时，一个女孩儿可能面对的情况有三种：没有人跟她表白，只有一个人跟她表白，有不止一个人跟她表白。在第一种情况下，这个女孩儿什么都不用做，只需要继续等待；在第二种情况下，接受那个人的表白，答应暂时和他做男女朋友；在第三种情况下，从所有追求者中选择自己最中意的那一位，答应和他暂时做男女朋友，并拒绝其他所有的追求者。<br>
+    第一轮结束后，有些男人已经有女朋友了，有些男人仍然是单身。在第二轮追女行动中，每个单身男都<strong>从所有还没拒绝过他的女孩中</strong>选出自己最中意的那一个，并向她表白，不管她现在是否是单身。和第一轮一样，女孩儿们需要从表白者中选择最中意的一位，拒绝其他追求者。注意，如果这个女孩儿已经有男朋友了，当她遇到了更好的追求者时，她必须拒绝掉现在的男友，投向新的追求者的怀抱。这样，一些单身男人将会得到女友，那些已经有了女友的人也可能会被甩掉，重新变成光棍。在以后的每一轮中，单身的男人继续追求列表中的下一个女孩儿，女孩儿则从包括现男友在内的所有追求者中选择最好的一个，并对其他人说不。这样一轮一轮地进行下去，直到某个时候所有人都不再单身，下一轮将不会有任何新的表白发生，整个过程自动结束。此时的婚姻搭配就一定是稳定的了。</p>
+<p> <br>
+   <img alt="image placeholder" >
+   图 0-4  应用上述策略，三轮之后将得出稳定的婚姻搭配<br>
+ </p>
+<p>    这个策略会不会像之前的修补法一样，出现永远也无法终止的情况呢？不会。下面我们将说明，随着轮数的增加，总有一个时候所有人都能配上对。由于在每一轮中，至少会有一个男人向某个女人告白，因此总的告白次数将随着轮数的增加而增加。倘若整个流程一直没有因所有人都配上对了而结束的话，最终必然会出现某个男人追遍了所有女孩儿的情况。而一个女孩儿只要被人追过一次，以后就不可能再单身了。既然所有女孩儿都被这个男人追过，就说明所有女孩儿现在都不是单身，也就是说此时所有人都配上对了。<br>
+    接下来，我们还需要证明，这样得出的配对方案确实是稳定的。首先注意到，随着轮数的增加，一个男人追求的对象总是越来越糟，而一个女孩儿的男友只可能变得越来越好。假设男 A 和女 1 各自有各自的对象，但比起现在的对象来，男 A 更喜欢女 1 。因此，在此之前男 A 肯定已经跟女 1 表白过。既然女 1 最后没有跟男 A 在一起，说明女 1 拒绝了男 A ，也就是说她有了比男 A 更好的男人。这就证明了，两个人虽然不是一对，但都觉得对方比自己现在的伴侣好，这样的情况绝不可能发生。</p>
+<p>    我们把用来解决某种问题的一个策略，或者说一个方案，或者说一个处理过程，或者说一系列操作规则，或者更贴切的，一套计算方法，叫做“算法”。上面这个用来寻找稳定婚姻的策略就叫做“ Gale-Shapley 算法”，有些人也管它叫“延迟认可算法”。<br>
+    每个算法都有它的实际意义，能给我们带来很多启发。 Gale-Shapley 算法最大的意义就在于，作为一个为这些男女牵线的媒人，你并不需要亲自计算稳定婚姻匹配，甚至根本不需要了解每个人的偏好，只需要按照这个算法组织一个男女配对活动就可以了。你需要做的仅仅是把算法流程当作游戏规则告诉大家，游戏结束后会自动得到一个大家都满意的婚姻匹配。对于男性来说，从最喜欢的女孩儿开始追起是顺理成章的事；对于女性来说，不断选择最好的男人也正好符合她的利益。因此，大家会自动遵守游戏规则，不用担心有人虚报自己的偏好。<br>
+    历史上，这样的“配对游戏”还真有过实际应用，并且更有意思的是，这个算法的应用居然比算法本身的提出还早 10 年。早在 1952 年，美国就开始用这种办法给医学院的学生安排工作，这被称之为“全国住院医师配对项目”。配对的基本流程就是，各医院从尚未拒绝这一职位的医学院学生中选出最佳人选并发送聘用通知，当学生收到来自各医院的聘用通知后，系统会根据他所填写的意愿表自动将其分配到意愿最高的职位，并拒绝掉其它的职位。如此反复，直到每个学生都分配到了工作。当然，那时人们并不知道这样的流程可以保证工作分配的稳定性，只是凭直觉认为这是很合理的。直到 10 年之后， Gale 和 Shapley 才系统地研究了这个流程，提出了稳定婚姻问题，并证明了这个算法的正确性。</p>
+<p>    用稳定性来评价配对方案的好坏的确很站得住脚，但有时候我们也会遇到一些别的需求，它们又对应着算法世界中的诸多其它问题。比方说，如果我们已经知道每一对男女之间的“相配度”，如何寻找一种配对方案使得由此产生的总相配度最大？在算法领域中，这被称为二分图的最大权值匹配问题。再比如，如果不考虑性别的差异（比如同桌、搭档的匹配），问题就更加复杂了，这通常被归入一般图匹配的范畴。这些问题现在都已经找到了有效的算法，不过它们太复杂，已经超出本书的范围了。生活中的算法应用随处可见。这本书要做的，就是带领大家从身边熟悉的事物出发，一睹算法的无尽魅力。</p>
+<p>——————————————————————-<br>
+(1) 这个排名的来源并不重要，它有可能是客户根据每位异性的个人资料直接给出的，也有可能是通过客户提交的个人信息推算出来的。</p>
+			 ]]></content>
+<pubDate>2010-03-19T23:26:51+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2976</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 玩转内接多边形（一）：任意多边形内均存在内接正三角形 ]]></title>
+<link>http://www.matrix67.com/blog/archives/2995</link>
+<content><![CDATA[ 
+		<p>    <a href="http://www.matrix67.com/blog/archives/2256">这本电子书</a>的第五章非常牛 B ，里面讲到了一系列与多边形的内接图形有关的定理及其证明。有意思的是，同样是研究多边形的内接图形，当具体的研究对象不同时，证明手段也各有各的精彩，并且十分难得的是，这些证明都极具欣赏价值。读完这些巧妙的证明后，我迫不及待地想与大家分享。这里我们先来热热身，看一看最简单的情况：一个多边形内是否总能内接一个等边三角形。</p>
+<p> <br>
+ <br>
+ <img alt="image placeholder" >
+<p>    答案是肯定的，任意一个多边形内总存在一个内接等边三角形。一个非常直观的证明是，令 P 为多边形边界上的一点， Q 点为多边形上的一个动点。以 PQ 为边作等边三角形，把这个三角形的第三点记作 R 。当 Q 离 P 点充分近的时候， R 显然在多边形内部；当 Q 点运动到离 P 点最远处 Q’ 时，多边形内的任意一点到 P 的距离都比 PQ’ 小，因此此时 R 点只可能在多边形外。但 R 的运动轨迹显然是连续的，因此在运动过程中它一定经过了多边形的边界。此时，我们就找到了多边形边界上的三个点 P 、 Q 、 R ，它们组成了一个等边三角形。</p>
+<p><span id="more-2995"></span><br>
+ <br>
+ <br>
+ <img alt="image placeholder" >
+<p>    另一个漂亮的证明如上图所示。令 P 为多边形某条边上的一点，将整个多边形顺时针绕 P 点旋转 60 度。显然， P 点所在的线段经过旋转后，有一部分将落在原多边形内，有一部分将落在原多边形外。因此，旋转后的多边形必然与原多边形的边界有其它交点，否则它的边不可能形成一条封闭的回路。不妨设另一交点为 Q ，再把 Q 点绕 P 逆时针旋转 60 度后得到的点记作 R 点。那么显然 R 点在原多边形上，并且 △PQR 是一个等边三角形。</p>
+<p> <br>
+    注：这一系列证明中有很多是不完整的，许多看似显然的细节实际上有待进一步去证明。但是，这仍然不影响我们去欣赏这些优雅的证明（尤其是它们的思路）。</p>
+			 ]]></content>
+<pubDate>2010-03-21T23:23:06+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/2995</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 推荐视频：大自然中的数学 ]]></title>
+<link>http://www.matrix67.com/blog/archives/3004</link>
+<content><![CDATA[ 
+		<p>时常感叹，造物者一定是一个数学家，能把数学之美如此完美地融入自然界。<br>
+国外网友制作的这个短片向大家展示了大自然中令人震撼的数学之美，非常漂亮，值得一看：</p>
+<p><object width="500" height="363"><param name="movie" value="http://www.tudou.com/v/_afmR6hZ72s">
+<param name="allowFullScreen" value="true">
+<param name="allowscriptaccess" value="always">
+<param name="wmode" value="opaque">
+<embed src="http://www.tudou.com/v/_afmR6hZ72s" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" wmode="opaque" width="500" height="363"></embed></object></p>
+<p>YouTube 链接：<a href="http://www.youtube.com/watch?v=kkGeOWYOFoA">http://www.youtube.com/watch?v=kkGeOWYOFoA</a></p>
+			 ]]></content>
+<pubDate>2010-03-22T14:14:44+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/3004</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 玩转内接多边形（二）：任意多边形内均存在内接矩形 ]]></title>
+<link>http://www.matrix67.com/blog/archives/3011</link>
+<content><![CDATA[ 
+		<p>    紧接着，我们想问：是否任意一个多边形内都能找到内接矩形呢？有意思的是，答案也是肯定的。但此时，前一节我们用到的两种证明方法现在都派不上用场了，我们需要用到一些全新的手段。下面这个证明真可谓是巧妙到了诡异的地步，真不知是谁想出来的。</p>
+<p>    对于多边形边界上的任意两点 A(x1, y1) 、 B(x2, y2) ，作出它们在三维空间中所对应的点 ((x1+x2)/2, (y1+y2)/2, √<span style="text-decoration: overline">(x1-x2)^2+(y1-y2)^2</span>) 。换句话说，把多边形放在水平面 z=0 上，对于多边形上的每一组无序点对 A 、 B ，在线段 AB 中点的正上方 |AB| 处作一个点。再把这个多边形本身加进去，我们就得到了一个三维空间中的封闭曲面。</p>
+<p><img alt="image placeholder" >
+<p>    可以看到，图中所示的例子中，这个曲面与自身相交了。这就表明，存在多边形边界上的两组点对 A 、 B 和 C 、 D ，它们满足线段 AB 和 CD 的中点重合，并且两线段一样长。这样，四边形 ABCD 就是多边形的一个内接矩形了。下面我们将说明，这个曲面一定会与自身相交。</p>
+<p><span id="more-3011"></span><br>
+    容易看出，如果 A 、 B 两个点都在多边形的同一条边上，那么所有这样的点对在三维空间的对应点集是一个三角形；如果 A 、 B 来自于两条不同的边，那么所有可能的线段 AB 的中点将构成一个平行四边形，它们在空间中对应的点集就是一个有四条边的曲面。也就是说，这个曲面有一个 n 边形（底面），有 n 个三边形（对应多边形的 n 条边），还有 n(n-1)/2 个四边形（对应多边形的 n(n-1)/2 对边）。因此，这个曲面一共有 1 + n + n(n-1)/2 个面，而它的边数则为</p>
+<p>   (1/2) * (n*1 + 3*n + 4*n(n-1)/2) = n^2 + n</p>
+<p>    另外，多边形的每两个顶点对应了曲面上的一个顶点，再加上底面上还有 n 个顶点，因此这个曲面有 n + n(n-1)/2 个顶点。于是，这个曲面的 Euler 示性数 V – E + F 等于</p>
+<p>   n + n(n-1)/2 – n^2 – n + 1 + n + n(n-1)/2 = 1</p>
+<p>    这表面这个曲面是不可定向的，它不能嵌入到三维空间中。</p>
+			 ]]></content>
+<pubDate>2010-03-24T19:38:00+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/3011</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Sierpinski-Mazurkiewicz悖论：一加一还是等于一 ]]></title>
+<link>http://www.matrix67.com/blog/archives/3025</link>
+<content><![CDATA[ 
+		<p>    大家或许知道 Banach-Tarski 悖论——把一个三维球分成有限多份并重新拼成两个和原来一模一样大的球——这个悖论告诉我们利用选择公理我们能够推出看上去多么不合逻辑的东西。今天我听说了另一个类似的悖论叫做 Sierpinski-Mazurkiewicz 悖论，它的结论在直观上同样令人难以接受，并且推导不依赖于选择公理。<br>
+    Sierpinski-Mazurkiewicz 悖论是说，存在平面上的一个点集 S ，我们能把它划分成两个子集 A 和 B ，使得 A 旋转 1 弧度后与 S 完全重合， B 平移一个单位后也与 S 完全相同。换句话说，存在这么一个点集，我们能把它分成两个与自身一模一样的子集！这听上去实在是不可思议，然而构造却极其简单。</p>
+<p><span id="more-3025"></span><br>
+    考虑所有系数为非负整数的多项式</p>
+<p>      F = {a0 + a1*x + a2*x^2 + a3*x^3 + … + an*x^n | n, a0, a1, …, an ∈N}</p>
+<p>    令每个多项式里的 x 等于 e^i ，我们就得到了复平面上的可数个点。注意，由于 e^i 是一个超越数，它不是任何一个整系数多项式的根，因此对任意两个不同的整系数多项式，令 x = e^i 后它们的结果都不可能相同（否则两式相减 e^i 就是整系数方程的根了）。这样的话，上述复平面上的点与 F 里的多项式就是一一对应的了。令这个点集为 S 。令子集 A 为 F 里所有不含常数项的多项式所对应的点，令子集 B 为 F 里所有常数项不为 0 的多项式所对应的点。显然， A 和 B 的交集为空集，并集为全集，它们是 S 的一个划分。<br>
+    把点集 A 顺时针旋转 1 弧度后，它就与 S 完全重合了。这是为什么呢？因为顺时针旋转 1 弧度相当于把一个复数乘以 e^(-i) ，而 e^(-i) 又等于 1/x 。而所有不含常数项的多项式乘以 1/x 后，显然就与 F 里的全体多项式一一对应了。<br>
+    把点集 B 向左平移一个单位后，它就与 S 完全重合了。这又是为什么呢？因为左移一个单位相当于把一个复数减去 1 ，而按照前面的定义， B 集合里的常数项都是正整数，减去 1 后常数项的取值就是一切非负整数， 正好就成了 F 里的全体多项式。<br>
+    于是，奇怪的事情产生了： A 等于 S ， B 等于 S ， A 加 B 还等于 S 。</p>
+<p> <br>
+    Sierpinski-Mazurkiewicz 悖论和<a href="http://www.matrix67.com/blog/archives/2453">这里</a>提到的悖论相比，前者的点集是可数的，并且是分成有限多份，可惜这个点集是无界的；后者虽然有界，但整个点集是不可数的，需要被分为无限多份，并且用到了选择公理。在点集有界且可数，只分割为有限多份的条件下，还有没有类似的悖论？目前我们仍然不清楚。</p>
+<p>参考：<a href="http://www.math.hmc.edu/funfacts/ffiles/30001.1-2-8.shtml">http://www.math.hmc.edu/funfacts/ffiles/30001.1-2-8.shtml</a></p>
+			 ]]></content>
+<pubDate>2010-03-27T07:19:39+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/3025</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 玩转内接多边形（三）：任意凸多边形内均存在内接菱形 ]]></title>
+<link>http://www.matrix67.com/blog/archives/3035</link>
+<content><![CDATA[ 
+		<p>    当我们进一步考虑内接菱形时，情况有了一些变化——证明任意多边形内均存在内接菱形没有前几个问题那么容易了。但我们可以轻易证明一个弱化版的命题：任意<strong>凸多边形</strong>内均存在内接菱形。下面将给出这个命题的两种不同的证明，它们都相当经典。</p>
+<p> <br>
+  <img alt="image placeholder" >
+<p>    证明 1 ：考虑凸多边形内的一条水平线段由上至下扫过，这条线段的中点所形成的轨迹就是一条连接凸多边形最顶端与最底端的折线段。类似地，考虑一条从左至右移动的竖直线段，它的中点就构成了从凸多边形最左端到最右端的连线。显然，这两条连线会有一个交点，也就是说我们找到了两条互相垂直且中点重合的线段，它们对应的四个端点显然就是一个菱形的四个顶点。</p>
+<p><span id="more-3035"></span><br>
+ <br>
+  <img alt="image placeholder" >
+    证明 2 ：考虑凸多边形内的任意一点 P ，过 P 点作水平直线和竖直直线，与凸多边形交于四个点 Pa 、 Pb 、 Pc 、 Pd 。令 f(P) 表示 Pa 、 Pb 、 Pc 、 Pd 的重心（也就是 Pa Pc 和 Pb Pd 的中垂线的交点）。由图形的凸性可知，这个重心一定位于凸多边形内部。另外，容易得出 f 是连续的，由 Brouwer 不动点定理可知，存在一个 P 点使得 P=f(P) ，这个 P 点所对应的 Pa 、 Pb 、 Pc 、 Pd 显然就是一个菱形的四个顶点。</p>
+			 ]]></content>
+<pubDate>2010-03-30T22:48:31+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/3035</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ （愚人节玩笑）历史上最奇怪的圆周率计算法 ]]></title>
+<link>http://www.matrix67.com/blog/archives/3039</link>
+<content><![CDATA[ 
+		<p style="color:red">    晚上好！今天是 4 月 1 日愚人节。你猜对了，这篇日志中的所有人物和事件完全是由本人编造的，如有雷同，纯属巧合。祝大家愚人节快乐！</p>
+<p>    从古至今，计算圆周率一直挑战着人类的探索能力极限，人们为此提出了效率越来越高的计算方法。可是，你知道多少圆周率的另类计算法呢？今天我们就来和大家分享一下，历史上出现的几个最奇怪的圆周率计算法。</p>
+<p> <br>
+<strong>功亏一篑的人肉计算记录</strong><br>
+    电脑计算圆周率屡破记录，但新时代对机器的信任和依赖使得人们已经主动放弃了自己手动演算的能力。为了打破手算圆周率的记录，让人们重新拾回对自己演算能力的信心，澳大利亚一个 16 岁的小伙子决定人肉计算圆周率的前 100 位。他挑选了圆周率的一个广义连分数公式，准备了 2000 张草稿纸，并精心地规划了一番。从此开始，他总是把这厚厚的一叠草稿纸带在身边。不管是在家还是在学校，他都端坐在草稿纸面前，不停地挥动着手中的笔。他很快成为了学校的一道风景线——无视上下课铃声，雷打不动地做着枯燥的加法和除法。 2 年后的某堂历史课上，就在他书写最后一个除法竖式时，悲剧发生了：新来的代课老师发现他有小动作，点名叫他起来回答问题。当他无视老师继续埋头苦算时，不明真相的代课老师一怒之下抢过草稿纸，并撕成了无数碎片。</p>
+<p><span id="more-3039"></span><br>
+<strong>最辗转的计算方法</strong><br>
+    在一本统计学读物中，为了告诉读者在日常生活中数字无处不在，作者统计出了自家厕所的卷筒纸平均每多少天换一次，乘以平均每天的大便次数，乘以平均每次大便需要扯下来的卫生纸张数，乘以每一截卫生纸的长度，乘以把一长截卫生纸对折 10 次的厚度，除以 1024 ，除以自动切割机从卷筒纸最外层切到最里层（厚度为 R-r ）的时间，除以切完整个卷筒纸（剩余的 R+r ）还需要的时间，除以切割机移动的速度，得出了圆周率近似值。<br>
+    作者顺便指出，若读者愿意，还可以在末尾乘以平均每个男人拥有的 jj 根数。</p>
+<p> <br>
+<strong>用生命换来的圆周率</strong><br>
+    这个多少有些标题党了，但实际情况就是如此——这个 3.14 真的是由无数人的鲜血换来的。 2003 年，美国纽约警方搜集了 30 年来发生在斑马线上的车祸，从里面抽取了所有身高在 5 英尺 6 英寸到 8 英寸之间（大概从 1.68 米到 1.73 米）的遇难行人，统计了他们的尸体与斑马线相交的概率，并应用 Buffon 投针实验理论得到了圆周率的近似值。纽约警方还专门发表了文章，称由此他们得出，行人被撞事故是完全随机的，一切都是遵循大自然的规律的。文章末尾请求出行人看开一些，生命在规律面前弱不禁风，该发生的总会发生。</p>
+<p> <br>
+<strong>凶案现场也有圆周率</strong><br>
+    无独有偶，美国另一名侦探也将 Buffon 投针实验应用到了他的调查中。上世纪末，一名中年男子不幸遇害，全身上下共中 37 刀。由于当时中年男子身穿条纹 T 恤，这名侦探敏锐地想到，可以利用 T 恤上的刀印求出圆周率的近似值，并根据其结果与实际圆周率值的接近程度来推断凶手作案时的心理状况。通过计算 T 恤上的刀痕与条纹的交点数，他求出了 π 的近似值 3.142 。这个结果与实际值是如此接近，以至于该侦探推断出凶手出刀是完全随机的，不具有任何能影响到凶手的心理因素。顺着这条线索出发，案件有了飞速进展——整个凶案乃一场意外：受害人醉酒后误闯建筑工地，然后倒在地上就睡，被脚手架上一名失误工人碰掉的一箱白钢条砸中。慌张的工人赶忙清理了现场，并把尸体丢弃在外。简单地说，这个倒霉蛋被刀子雨下死了。真可谓是世界之大，无奇不有啊。<br>
+    结案后，侦探发表了一篇题为《身穿条纹 T 恤有助于侦探破案》的论文，详细分析了求得的 π 值与凶手心理的关系。一时间，条纹 T 恤热卖，各名牌服饰纷纷推出新款，并以条纹间隔相等的准确度为卖点。</p>
+<p> <br>
+<strong>尿床尿出圆周率</strong><br>
+    一位数学家早上起来发现，他 4 岁大的儿子昨晚睡觉尿了一床，格子床单上浸出了很大一块淡黄色的圆。数学家数出儿子的尿在床单上覆盖的格点数，以及在此范围内距离最远的两个格点的距离，从而求出了 π 的两位小数近似值。</p>
+<p> <br>
+<strong>神谕中的圆周率</strong><br>
+    美国一位中年妇女曾宣称自己听到上帝向她宣读圆周率前 100 位，而她自己只知道圆周率的前 8 位。可惜她自己已经不记得上帝所说的具体数字了，因此我们无法验证她所听见的数字的正确性。不过，她仍然相信这是神的旨意，是神希望她借助数学的力量拯救世界，因而从此之后她成为了一个狂热的数学爱好者。晚年她著有《上帝背圆周率吗》，成为了一本家喻户晓的科普读物。<br>
+    日本一位 8 岁小女孩儿半夜起床上厕所时，看见镜子里有一个正在低声念叨一串数字的白衣长发女子。事后，当小女孩儿向人们复述她所听到的那串数字时，所有人都大吃一惊——这串数字竟然是圆周率的前 15 位。奇怪的是，小女孩儿根本不知道什么是圆周率，而当时房屋里除了家人以外也没有其他人，因此该事件的唯一解释是，小女孩儿真的撞见了女鬼。警方推测，女鬼生前可能是因数学考试不及格自杀而死。就这样，小女孩儿“求”出了圆周率的小数点后 15 位。<br>
+    韩国一个小伙子宣称，自己梦见一只小叮当侦听到了另一只小叮当探测到的人类对话。醒来后，该小伙子清晰地记得这段对话的内容。“请输入坐标”，运输机说。“三点一四一五九二六五三五八九七九三二三八思密达”，总部回答。而事实上，这个小伙子在此之前只知道圆周率小数点后四位的精确值。因此，此人用这种方法得到了圆周率小数点后 18 位，为历史上最奇怪的圆周率计算法再添一笔。韩国当局非常重视此事件，称将尽快研究圆周率究竟是由哪个国家发明的。<br>
+    目前尚无人宣称自己在三个代表重要思想中悟到圆周率的值。</p>
+<p> <br>
+<strong>超级玛丽也疯狂</strong><br>
+    一位超级玛丽深度中毒玩家花了半个月的时间自创关卡，用大量的蘑菇和乌龟实现了一个图灵机，并计算出了圆周率值。</p>
+<p> <br>
+<strong>小 jj 有大本领</strong><br>
+    大家知道，利用多次实验取平均值是一个提高精确度的好方法，但总给人感觉有些“假”。可大家有想过用连续的示数变化代替多次离散的实验，并利用变化率去求得精确值吗？这相当于用无穷多次实验逼近其真实值的大小。英国一名教授受此启发，认为这是一种革命性的物理测量方法，并决定用此方法测量圆周率的精确值。圆的周长为 2πr ，其导数为 2π ，这也就是圆周的增长速度。可是，从哪里去找能变大变小的圆周呢？某晚，该教授突发奇想，用游标卡尺夹住自己的小 jj ，再用卷尺绕自己的小 jj 一周后，立即开始观看 A 片，并观察两刻度的示数变化，从而算出来 π 的近似值。有趣的是，一名日本数学教授听闻此事后想重复此实验，却发现实验很难操作，因为他观察不到示数的变化。</p>
+<p> <br>
+参考资料：<a href="http://to./3fz5">http://to./3fz5</a></p>
+			 ]]></content>
+<pubDate>2010-04-01T04:48:17+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/3039</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 玩转内接多边形（四）：登山引理 一个无关的问题 ]]></title>
+<link>http://www.matrix67.com/blog/archives/3059</link>
+<content><![CDATA[ 
+		<p>    在继续探索多边形内接图形问题之前，我们先来看一个看似无关的趣题。从水平线上的一点起笔，在这条水平线上方随意画一条折线段，最后回到水平线上（如下图）。把这个折线段想象成一座座山峰。我们以最高峰所在位置为界把整座山分成左右两部分。现在，假设有一对相恋的登山者，一个站在最左侧的山脚出（即点 0 处），一个站在最右侧山脚处（即点 0′ 处）。这两个人将同时从山脚出发，同时到达山顶，并且保证在此过程中他们俩总处于同一海拔高度。不管这座山是什么形状，这种浪漫的想法总可以实现吗？</p>
+<p>   <img alt="image placeholder" >
+<p>    注意，在登山的过程中，登山者可以为了照顾对方而走回头路。例如，对于图中所示的小山，两个人可以按照下列方法实现同步登山。左右两个人的路线分别为：</p>
+<p><code>0 → 1 → 2 → 3 → 4 → 5 → 6 → 5 → 4 → 3 → 2 → 1 → 2 → 3 → 4 → 5 → 6  → 7<br>
+0'→ 1'→ 2'→ 3'→ 2'→ 3'→ 4'→ 5'→ 6'→ 5'→ 6'→ 7'→ 8'→ 9'→ 8'→ 9'→ 10'→ 11'</code></p>
+<p><span id="more-3059"></span><br>
+    事实上，不管折线段是什么样，这样的登山方式总是能实现的。就像本 Blog 之前介绍的<a href="http://www.matrix67.com/blog/?s=%E7%9F%A9%E5%BD%A2%E5%89%96%E5%88%86">矩形剖分</a>问题一样，这个问题也有数学归纳证明、构造证明、图论模型证明等多种证明方式。下面我们给出一个拓扑证明，它是我所见过的最巧妙的证明方式。</p>
+<p>  <img alt="image placeholder" >
+<p>    以左侧登山者所在位置为横轴，以右侧登山者所在的位置为纵轴。把所有位于同一高度的点对全部标在平面上，形成连续的曲线。下面我们只需要说明，这条曲线连通了最左下角的点和最右上角的点。为此，我们只需要说明任意一条从左上角到右下角的连续曲线必定会和这条曲线相交。而这是显然的，因为一个人从山顶走到山脚，另一个人从山脚走到山顶，他俩必然会有某一时刻在同一高度“相遇”。</p>
+			 ]]></content>
+<pubDate>2010-04-06T18:13:15+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/3059</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 如此排序能成吗？ ]]></title>
+<link>http://www.matrix67.com/blog/archives/3066</link>
+<content><![CDATA[ 
+		<p>  <img alt="image placeholder" >
+<p>    书架的某一层里放了一套百科全书，但它们排列的顺序却是乱的。一个傻子想要把这套书排好顺序，也就是说他想要书架里的书从左至右分别是第 1 卷，第 2 卷，……，第 n 卷。他给这套书排序的办法是这样的：不断取出一本原应放在更左边的书，插进它该在的位置。比方说，某本书的卷号是 3 ，它的位置却是左起第 5 ，位于其目标位置的右侧。那么傻子就可以把这本书拿出来，插入当前左起第 2 本书的右边，把那些占了它位置的书挤到更右边去，而不管这一操作是否会破坏掉已经就位的书。注意到这种排序法很可能捡了芝麻，丢了西瓜，为了一本书的位置而破坏掉一连串原已排好的书，可谓是鼠目寸光，缺乏远见。我们的问题是，在哪些情况下这样的排序法最终<strong>一定能</strong>实现排序，哪些情况下可能会陷入永无止境的死循环？</p>
+<p><span id="more-3066"></span><br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+    出人意料的是，这种看上去明显有漏洞的排序法竟然是一种正确的排序算法——对于<strong>任意一个</strong>初始序列，采用这种方法总能让序列最终变得有序。为了证明这一点，我们按照如下方式把序列编码为 n 位的 01 串：左起第 i 位为 1 当且仅当第 i 卷在正确的位置上。序列 7, 2, 1, 4, 3, 5, 6, 8, 9 就被编码为 010100011 ，因为在这 9 本书当中，只有卷 2 、卷 4 、卷 8 和卷 9 在正确的位置上。<br>
+    如果某一次操作中，傻子把第 k 卷放进了正确的位置，那么考虑所有卷数小于 k 的书：如果它原本就在左起第 k 本书的左边，这个操作影响不到它；如果它原本就是左起第 k 本或者更右边的书（这表明它原本就不在正确的位置上），那么现在它仍然不可能在正确的位置上（它的位置只可能不变或者更靠右了）。因此，编码的前 k-1 位是不动的，但第 k 位从 0 变成 1 了。这就意味着，任意一个操作总会让整个二进制编码变大。而容易看出，只要序列不是有序的，傻子总有可以操作的对象，因此序列编码将不断增加，最终将变成 111…11 。此时所有书都在它应该在的位置上，整个序列也就有序了。</p>
+<p> <br>
+ <br>
+ <br>
+    现在，又来了另外一个傻子。他的排序办法和前一个傻子基本上相同，唯一不同的是，他每次都可以选择任意一本不在原位的书（并把它放进它应该在的位置），而不仅仅是选择那些位于目标位置右侧的书。这个傻子的排序方法还能保证最终总会让这排书变得有序吗？</p>
+<p> <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+    答案竟然再一次是肯定的——这种方法最终总能让所有序列变得有序。为了证明这一点，只需要注意到，只要序列不是有序的，傻子总能找到合法的操作，因此只要不存在循环，序列最终一定会变得有序。我们将用反证法证明，傻子的操作一定不会让状态产生循环。<br>
+    假设存在一个循环，并且在某一步，傻子取出了第 k 卷，并且无妨假设它被移动到了更右边的某个位置。由于这是一个循环，因此在某个时候它又跑回了目标位置的左边。这说明，傻子一定取出了一本卷号比 k 更大的书，放到了 k 的右边，并把 k 挤到左边去了。只需要令 k 为循环中被挪到右边的书中卷号最大的一本，矛盾就产生了。</p>
+<p> <br>
+ <br>
+    我们自然会提出这样一个问题：这种排序算法的效率如何？换句话说，最坏情况下傻子排序法需要操作多少步？今年一月和二月的 UyHiP 谜题中， Michael Brand 详细地讨论了这个问题，有兴趣的朋友可以看看：</p>
+<p>    <a href="http://www.brand.site.co.il/riddles/201001q.html">http://www.brand.site.co.il/riddles/201001q.html</a><br>
+    <a href="http://www.brand.site.co.il/riddles/201002q.html">http://www.brand.site.co.il/riddles/201002q.html</a></p>
+			 ]]></content>
+<pubDate>2010-04-09T01:26:22+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/3066</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 推荐视频：关于大脑的思维方式 ]]></title>
+<link>http://www.matrix67.com/blog/archives/3072</link>
+<content><![CDATA[ 
+		<p><a href="http://www.mathpuzzle.com/">MathPuzzle</a> 推荐了来自 <a href="http://www.quirkology.com/USA/index.shtml">quirkology.com</a> 的<a href="http://www.youtube.com/user/Quirkology">一系列视频</a>。这些视频充分利用了网络媒体的特点，向人们展示了诸多与心理学（尤其是大脑的思维方式）有关的事实。我把其中一些比较有意思的上传到了国内服务器上，与大家分享。</p>
+<p> <br>
+<strong>Intro</strong></p>
+<p><object width="420" height="363"><param name="movie" value="http://www.tudou.com/v/tEvysCuZlQM">
+<param name="allowFullScreen" value="true">
+<param name="allowscriptaccess" value="always">
+<param name="wmode" value="opaque">
+<embed src="http://www.tudou.com/v/tEvysCuZlQM" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" wmode="opaque" width="420" height="363"></embed></object></p>
+<p> <br>
+<span id="more-3072"></span></p>
+<p><strong>Colour Changing Card Trick</strong></p>
+<p><object width="420" height="363"><param name="movie" value="http://www.tudou.com/player/outside/player_outside.swf?iid=49762351&amp;snap_pic=http%3A%2F%2Fi01.img.tudou.com%2Fdata%2Fimgs%2Fi%2F049%2F762%2F351%2Fm20.jpg&amp;default_skin=http://js.tudouui.com/bin/player2/outside/Skin_outside_21.swf&amp;autostart=false&amp;rurl=">
+<param name="allowFullScreen" value="true">
+<param name="allowscriptaccess" value="always">
+<param name="wmode" value="opaque">
+<embed src="http://www.tudou.com/player/outside/player_outside.swf?iid=49762351&amp;snap_pic=http%3A%2F%2Fi01.img.tudou.com%2Fdata%2Fimgs%2Fi%2F049%2F762%2F351%2Fm20.jpg&amp;default_skin=http://js.tudouui.com/bin/player2/outside/Skin_outside_21.swf&amp;autostart=false&amp;rurl=" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" wmode="opaque" width="420" height="363"></embed></object></p>
+<p> </p>
+<p><strong>Psychological Card Trick</strong></p>
+<p><object width="420" height="363"><param name="movie" value="http://www.tudou.com/v/sqZ__0evc2Q">
+<param name="allowFullScreen" value="true">
+<param name="allowscriptaccess" value="always">
+<param name="wmode" value="opaque">
+<embed src="http://www.tudou.com/v/sqZ__0evc2Q" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" wmode="opaque" width="420" height="363"></embed></object></p>
+<p> </p>
+<p><strong>The Missing Piece</strong> （大家看出这是怎么回事儿了吗？）</p>
+<p><object width="420" height="363"><param name="movie" value="http://www.tudou.com/v/Ac_KdjG8IF0">
+<param name="allowFullScreen" value="true">
+<param name="allowscriptaccess" value="always">
+<param name="wmode" value="opaque">
+<embed src="http://www.tudou.com/v/Ac_KdjG8IF0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" wmode="opaque" width="420" height="363"></embed></object></p>
+<p> </p>
+<p><strong>Corkology – Video and Reveal</strong></p>
+<p><object width="420" height="363"><param name="movie" value="http://www.tudou.com/v/VpFf955Zw68">
+<param name="allowFullScreen" value="true">
+<param name="allowscriptaccess" value="always">
+<param name="wmode" value="opaque">
+<embed src="http://www.tudou.com/v/VpFf955Zw68" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" wmode="opaque" width="420" height="363"></embed></object></p>
+<p> </p>
+<p><strong>World’s Quickest Personality Test</strong></p>
+<p><object width="420" height="363"><param name="movie" value="http://www.tudou.com/player/outside/player_outside.swf?iid=49762498&amp;snap_pic=http%3A%2F%2Fi01.img.tudou.com%2Fdata%2Fimgs%2Fi%2F049%2F762%2F498%2Fm35.jpg&amp;default_skin=http://js.tudouui.com/bin/player2/outside/Skin_outside_21.swf&amp;autostart=false&amp;rurl=">
+<param name="allowFullScreen" value="true">
+<param name="allowscriptaccess" value="always">
+<param name="wmode" value="opaque">
+<embed src="http://www.tudou.com/player/outside/player_outside.swf?iid=49762498&amp;snap_pic=http%3A%2F%2Fi01.img.tudou.com%2Fdata%2Fimgs%2Fi%2F049%2F762%2F498%2Fm35.jpg&amp;default_skin=http://js.tudouui.com/bin/player2/outside/Skin_outside_21.swf&amp;autostart=false&amp;rurl=" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" wmode="opaque" width="420" height="363"></embed></object></p>
+			 ]]></content>
+<pubDate>2010-04-16T13:20:26+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/3072</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ iPad上的数学软件介绍与畅想 ]]></title>
+<link>http://www.matrix67.com/blog/archives/3087</link>
+<content><![CDATA[ 
+		<p>    又是好久没有更新了，因为最近正沉迷于 iPad 。前天花 4800 元买了个 iPad ，然后一直在 App Store 上淘软件。下面与大家分享几款适用于 iPad 的数学软件，犹豫是否要买 iPad 的网友可以参考一下。因为我最近买了个 Hero ，把原来的 N82 卖了，因此拍照效果不太好，大家容忍一下。</p>
+<p> <br>
+Quick Graph 是一个难得的免费软件，可以用来绘制各种函数图象。在 iPad 上研究函数图象尤其方便，因为你可以利用触摸屏非常自由地放大、缩小、移动查看的范围。</p>
+<p><img alt="image placeholder" >
+<p><span id="more-3087"></span> <br>
+Quick Graph 还能画 3D 图象，同样可以自然地用手指控制视角。</p>
+<p><img alt="image placeholder" >
+<p>新版本可以画隐函数、不等式的图象，不过需支付 1.99 刀。</p>
+<p> <br>
+ <br>
+虽然用 iPad 自带的 Safari 浏览器能够正常使用 WolframAlpha ，不过用 WolframAlpha 官方推出的 iPad 版要方便得多。让人想不通的是，这个软件居然是收费的，需要 1.99 刀。</p>
+<p><img alt="image placeholder" >
+<p> <br>
+WolframAlpha 里的虚拟键盘，多出了好几行常用数学符号，很实用。</p>
+<p><img alt="image placeholder" >
+<p> <br>
+ <br>
+iPhone/iPad 上的符号计算软件，就是说一个算 1/2 + 1/3 可以得到 5/6 而不是 0.8333333 的软件。鉴于我在 S60 和 Android 上都没找到符号计算软件， iPad 的地位又提高了不少。有点贵，要 9.99 刀。照片上显示的是解方程 x^2 + 2 x = 5 ，结果是 [ – √<span style="text-decoration:overline">6</span> – 1, √<span style="text-decoration:overline">6</span> – 1 ]。</p>
+<p><img alt="image placeholder" >
+<p> <br>
+ <br>
+AllofWiki Offline ，可以把整个 Wikipedia 全部下载到 iPad 上离线浏览的软件，也要 9.99 刀。软件本身只有 3M ，下载数据是在 iPad 端进行的。整个 Wikipedia 数据有 5 个 G ，我在北大开的 90 块包国际网，能以每秒 100 多 KB 的速度下载，应该算很快了。整个下载过程一共要用十几个小时，中途可以暂停下载，以后断点续传。<br>
+把整部 Wikipedia 装进 iPad 确实很爽，可惜很多数学公式、符号、图片不能显示，能带来的信息多少有些受限。</p>
+<p><img alt="image placeholder" >
+<p> <br>
+ </p>
+<p>最后是大家比较关心的，用 iPad 看 pdf 格式的电子书。我用的 GoodReader 软件，阅读电子书感受相当不错。软件非常便宜，只需要 0.99 刀。不过要说真正最爽还是在 iBook 上看书，尤其是翻页时的效果。可惜 iBook 上的牛 B 书不多，<a href="http://www.cut-the-knot.org/books/Reviews/index.shtml">这里</a>的几本书我都没找到。</p>
+<p><img alt="image placeholder" >
+<p> <br>
+ <br>
+ <br>
+    值得一提的是，用 iPad 看照片异常之帅，可以说 iPad 的大屏幕和多点触摸环境彻底改变了在电子设备下浏览照片的方式。但可惜，目前除了浏览照片等少数应用以外，大多数软件都还保留了按钮、输入框、对话框等元素，很少能跳出鼠标时代的操作方式框架。事实上，我们可以在 iPad 上开发出很多数学工作者们梦想的数学研究环境，而不仅仅是停留在命令式的输入输出环境中。例如，在 iPad 上我们能轻易实现尺规作图模拟器（不知现在有没有这样的应用）。轻点一下添加一个动点，轻点相交处确定一个交点，拇指按住一个点食指移动另一个点就可以作一段圆弧，这样的几何画板该有多帅啊。类似地，在 iPad 上进行图论研究也相当方便，能够实现自由地缩放、移动、删边、删点、染色、撤销等用铅笔和橡皮擦办不到的事情。或许在不久的将来，我们还能用不同大小的力按住一条边，来改变它的权值呢。<br>
+    计算器也可以摆脱按钮的形式，变成一张可以自由涂鸦的白纸。我们可以在 iPad 上写一个 3<sup>2</sup> + 2<sup>3</sup> ，再在后面写一个 = ，白纸上就自动写出一个手写体的 17 ；再在另一块地方写一个 sin1°≈ ，约等于号后面就自动出现一个 0.0174524 。再用手指把 17 拖到 0.0174524 前面，两数中间点一个小点或者画一把小叉，后面写一个 = ，等号后面就自动出现 0.2966908 。写下 (x+y)<sup>2</sup> 并用两只手指把它拨开，它就自动变成了 x<sup>2</sup> + 2·x·y + y<sup>2</sup> ；写下 1 + 1/2 + 1/4 + 1/8 + … ，用手指把它们一合拢，自动就变成了一个 2 。在这样的环境下研究数与数的关系，那该多么美妙啊。<br>
+    总之， iPad 的潜力似乎还没有充分挖掘出来。作为一张活的草稿纸，它的潜力几乎是无穷的。当然，这也只是一个畅想罢了，实际开发时会遇到很多难题。未来的数学软件究竟会发展成什么样，让我们拭目以待吧。</p>
+			 ]]></content>
+<pubDate>2010-04-21T18:58:53+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/3087</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Math Horizons的愚人节笑话：一个奇妙的分式方程 ]]></title>
+<link>http://www.matrix67.com/blog/archives/3105</link>
+<content><![CDATA[ 
+		<p>Math Horizons 杂志 2010 年 4 月刊上发表了一个有点搞笑的题目，很有些愚人节玩笑的味道。</p>
+<blockquote>
+<p>    观察下面这个分式方程：</p>
+<p><img alt="image placeholder" >
+<p>    它可以化简为 x^3 – 42x + 36 = 0 ，如果分式方程存在整数解，这个解一定是 36 的约数。把 36 的约数一个一个代进去便可得到，这个分式方程的唯一整数解为：</p>
+<p><img alt="image placeholder" >
+<p> <br>
+    现在，你能快速求解出下面这个方程的整数解吗？</p>
+<p><img alt="image placeholder" >
+<p>    只需要注意到，新的分式方程是由原方程旋转 180 度得到的，因此它的解应该为：</p>
+<p><img alt="image placeholder" >
+</blockquote>
+<p>有意思的是，这个“推导”虽然是荒谬的，但 x = 9 真的就是第二个方程的唯一整数解！<br>
+来源：<a href="http://www.cut-the-knot.org/proofs/FalseSymmetry.shtml">http://www.cut-the-knot.org/proofs/FalseSymmetry.shtml</a></p>
+			 ]]></content>
+<pubDate>2010-04-22T17:42:39+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/3105</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Mathematica真的什么都能求出来吗？ ]]></title>
+<link>http://www.matrix67.com/blog/archives/3120</link>
+<content><![CDATA[ 
+		<p>    Mathematica 强大的符号计算和化简能力相信会让不少人震撼不已。输入 Sum[1/n^2, {n, 1, ∞}] ， Mathematica 竟然知道它等于 π^2/6 。我不禁问自己， Mathematica 真的什么都能化简出来吗？今天，我偶然遇到一个简单的表达式， Mathematica 竟然不知道它的精确值。</p>
+<p><img alt="image placeholder" >
+<p>    在 Mathematica 中输入 Cot[π/2] ， Mathematica 会告诉你它等于 0 ；在 Mathematica 中输入 Cot[π/4] ， Mathematica 会告诉你它等于 1 ；但在 Mathematica 中输入 Cot[π/8] ， Mathematica 返回的却还是一个 Cot[π/8] ，并没有给出它的值。而 Cot[π/8] 并不是一个复杂到无法用四则运算和平方开方表达出来的数。在一个边长为 1 的正八边形中，每条边的所对应的“圆心角”为 2π/8 = π/4 ，因此“圆周角” α 就等于 π/8 。由下图我们可以轻易看出， Cot[π/8]=√<span style="text-decoration:overline">2</span>+1 。</p>
+<p><img alt="image placeholder" >
+<p><span id="more-3120"></span></p>
+<p>    哈哈！我大笑，原来 Mathematica 也有做不到的事情！于是，我查了查 Mathematica 的帮助文档，想看看 Mathematica 对这个问题有何说明。万万没有想到的是，其实 Mathematica 并不是不知道  Cot[π/8] 等于多少，只是智能地保留了 Cot[π/8] 的形式。如果你愿意的话，可以用 FunctionExpand 函数将其展开，得到 Cot[π/8] 的精确结果。</p>
+<p><img alt="image placeholder" >
+<p>    Mathematica 真有那么无敌吗？不妨继续拿三角函数考考 Mathematica ，试探出 Mathematica 的极限。由于正十七边形可以用尺规作图作出，因此 π/17 的三角函数值理论上说是可以表示出来的。而无所不知的 Mathematica 也再一次给出了我们期待的结果：</p>
+<p><img alt="image placeholder" >
+<p>    联想到正 65537 边形也能用尺规作图完成，这表明 π/65537 的三角函数值也能展开为用有限次加减乘除和平方开方构成的表达式。 Mathematica 还能算出 π/65537 的三角函数值吗？这下 Mathematica 似乎无能为力了。</p>
+<p><img alt="image placeholder" >
+<p>    由此可见， Mathematica 并不是万能的。 Mathematica 之所以能求出 π/17 的三角函数值，可能仅仅是因为它预先存储了这个值。</p>
+<p> <br>
+ <br>
+    我又开始在想， Mathematica 化简不出，别的符号计算软件能把它化简出来吗？是否存在这么一个牛 B 的数学软件，输进去的任意表达式都可以化简成你想要的形式？后来我想到，这和软件牛不牛 B 是没有关系的。任意符号表达式的化简求值从理论上说就是一个不可能完成的任务。</p>
+<p>    首先，我们将说明化简求值至少是 NP-hard 的。我们下面将说明，我们能够把任意一个整数线性规划问题“编码”为级数的化简求值问题。例如，考虑下面这个整数规划问题：</p>
+<blockquote><p>  最大化 x+y 的值，其中 x 、 y 满足：<br>
+  x &gt; 0<br>
+  y &gt; 0<br>
+  x ≤ 5<br>
+  y ≤ 5<br>
+  2x + y &lt; 12.5
+  x + 3y &lt; 16.5</p></blockquote>
+<p>    我们将考虑它的两个判定问题： x+y 是否能取到 8 ？ x+y 是否能取到 9 ？<br>
+    为了把这个问题用一个级数表达出来，我们只需要用到这么一个函数： f(x)=x/√<span style="text-decoration:overline">x^2</span> 。这个初等函数有一个非常有用的性质：当 x 大于 0 时， f(x) = 1 ；当 x 小于 0 时， f(x) = -1 。因此， (f(a – b) + 1)/2 就可以用来判断 a 是否大于 b （假设 a 、 b 不相等）。如果 a 大于 b ，函数值为 1 ；否则，函数值为 0 。<br>
+    为了判断出 x+y 是否能取到 8 ，我们只需要计算下面这个级数的值即可（我们用“大于 7.5 ”来代替“大于等于 8 ”，以排除分母为 0 的情况）。如果整个级数的值为 0 ，表示级数的每一项中的各个因式里至少有一个为 0 ，换句话说不管 x 和 y 取多少，这些限制条件中总有一个不成立。反之，如果整个级数的值为一个正整数，那么这个正整数就表示符合要求的解有多少个。 Mathematica 告诉我们， x+y≥8 有一组解，但 x+y≥9 是没有解的。</p>
+<p><img alt="image placeholder" >
+<p>    然而，整数规划问题是 NP-hard 的，因此级数的化简求值不会有什么有效的算法。</p>
+<p> <br>
+    事实上，实际情况可能更糟：一般的级数很可能根本没办法化简求值。考虑定义在整数范围内的函数 g(x) = (f(x + 0.5) + f(x – 0.5))/2 。容易看出，当 x 为正整数时， g(x) = 1 ；当 x 为负整数时， g(x) = -1 ；当 x 为 0 时， x+0.5 和 x-0.5 一正一负，因此 g(x) = 0 。利用函数 g(x) ，我们就能构造出函数 isNonZero(x) = (g(x))^2 ，该函数的取值范围只有 0 和 1 ，并且函数值为 1 当且仅当 x 为非零数。另外，我们可以顺便定义出 isZero(x) = 1 – isNonZero(x) 。<br>
+    考虑这么一个无穷级数：</p>
+<p>        Σ(a=1..∞) Σ(b=1..∞) Σ(c=1..∞) isZero(a^3 + b^3 – c^3)</p>
+<p>    如果化简求值的结果为 0 ，则表明对于所有的正整数 a 、 b 、 c ，a^3 + b^3 – c^3 都不为0。再把级数增强为</p>
+<p>        Σ(n=3..∞) Σ(a=1..∞) Σ(b=1..∞) Σ(c=1..∞) isZero(a^n + b^n – c^n)</p>
+<p>    如果哪个软件能瞬间求出它化简求值的结果，不就相当于证明了 Fermat 大定理吗？</p>
+<p> <br>
+    鉴于 Fermat 大定理已经被证明过了，于是我开始着手构造一些更震撼的东西。考虑级数</p>
+<p>        Σ(a=2..n) Σ(b=2..n) isZero(a*b – n)</p>
+<p>    若级数值为 0 ，表明 n 不可能等于两个大于 1 的整数的乘积，也就是说这个数是一个质数。因此，可以定义</p>
+<p>        isPrime(n) = isZero( Σ(a=2..n) Σ(b=2..n) isZero(a*b – n)) )。</p>
+<p> <br>
+    下面这个级数化简求值的结果为 1 当且仅当 n 能表示为两个质数之和：</p>
+<p>      canBeExpressedAsSumOfTwoPrimes(n) = isNonZero( Σ(i=2..n-2) (isPrime(i) * isPrime(n-i)) )</p>
+<p>    再考虑下面这个级数</p>
+<p>      Σ(n=2..∞) isZero(canBeExpressedAsSumOfTwoPrimes(2n))</p>
+<p>    如果级数不为 0 ，就表明存在某个 n 使得 canBeExpressedAsSumOfTwoPrimes(2n) 不成立。因此，如果有什么万能表达式化简软件具有化简这个级数的能力，我们就能够证明或推翻 Goldbach 猜想了。看来，计算机的符号运算也是有极限的。</p>
+<p> </p>
+<p>    当然，以上都是我个人的一些见解，我也不知道类似的话题是否有探究过，与此相关的还有些什么样的结论。如果大家发现了什么错误，或者想到了什么更牛的，欢迎加入讨论。</p>
+<p>    Update: 似乎有这样的结论：由于 Diophantine 方程是否有解是不可判定的，而它能规约到级数化简求值，因此后者也是不可判定的。感谢 24 楼的网友 DarkRaven 。</p>
+			 ]]></content>
+<pubDate>2010-04-25T21:03:30+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/3120</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Which Way Did the Bicycle Go 趣题选（上） ]]></title>
+<link>http://www.matrix67.com/blog/archives/3113</link>
+<content><![CDATA[ 
+		<p>    我找到了<a href="http://www.matrix67.com/blog/archives/2817">这道经典智力题</a>的出处。它似乎来源于一本叫做 Which Way Did the Bicycle Go 的书。这本书又是一本超赞的趣题集，里面有很多我没有见过的趣题妙解。我找到了这本书的电子版，并且传到了自己网站上，与大家分享一下。大家可以点击<a href="http://www.matrix67.com/data/Which.Way.Did.the.Bicycle.Go.djvu">这里</a>下载。阅读器可以在<a href="http://djvu.org/resources/">这里</a>找到。</p>
+<p>    我整理出了个人认为比较精彩的题目。如果你没有时间翻遍整本书的话，看看我精选出的这些题目也是一个不错的选择。</p>
+<p> </p>
+<blockquote><p>1. 给定 △ABC ，对于平面上的任意一点 X ，它属于点集 S 当且仅当线段 BC 上存在一点 D 使得 △ADX 是等边三角形。点集 S 是什么样子的？</p></blockquote>
+<p> </p>
+<blockquote>
+<p>答案：两条线段，它由线段 BC 绕 A 点顺时针或逆时针旋转 60 度而得。这是因为，给定 A 点和 X 点，则 D 点的位置可以由 X 点绕 A 旋转 60 度得到的。既然 D 点在 BC 上，那么显然 X 点就应该在 BC 绕 A 旋转 60 度得到的线段上。</p>
+<p>  <img alt="image placeholder" >
+</blockquote>
+<p><span id="more-3113"></span><br>
+ <br>
+ </p>
+<blockquote><p>2. 能否把一个正方形分割成 7 个等腰直角三角形，其中任意两个三角形都不全等？</p></blockquote>
+<p> </p>
+<blockquote>
+<p>
+答案：能。如图。</p>
+<p>  <img alt="image placeholder" >
+</blockquote>
+<p> <br>
+ </p>
+<blockquote><p>3. 能否把一个等边三角形分成五个等腰三角形，使得<br>
+    (1) 五个三角形都不是等边三角形？<br>
+    (2) 恰有一个三角形是等边三角形？<br>
+    (3) 恰有两个三角形是等边三角形？</p></blockquote>
+<p> </p>
+<blockquote>
+<p>答案：都可以。如图。</p>
+<p>  <img alt="image placeholder" >
+</blockquote>
+<p> <br>
+ </p>
+<blockquote>
+<p>4. △ABC 中， AB=AC ， ∠A=20° 。 P 在 AB 上，满足 AP=BC 。求 ∠ACP 。</p>
+<p>  <img alt="image placeholder" >
+</blockquote>
+<p> </p>
+<blockquote>
+<p>答案：把 △ABC 翻折两次，得到 △ACD 、 △ADE 。在 AE 边上截取 AQ 使得 AQ=AP 。显然 △APQ 为等边三角形，因此 AP = PQ = CD 。另外，由 SAS 可得 △APC 与 △AQD 全等，因此 PC=QD ，四边形 PQDC 是平行四边形。由全等还可得 ∠APC=∠AQD ，由此可知 ∠1=∠2 。也就是说，四边形 PQDC 事实上是一个矩形。因此， ∠ACP = ∠ADQ = 90° – ∠ADC = 10°。</p>
+<p>  <img alt="image placeholder" >
+</blockquote>
+<p> <br>
+ </p>
+<blockquote>
+<p>5. △ABC 中， M 为 AB 边的中点。以 AC 为边向外作正六边形， P 为其中心；以 BC 为边向外作正三角形， Q 为其中心。证明： ∠PMQ 为直角。</p>
+<p>  <img alt="image placeholder" >
+</blockquote>
+<p> </p>
+<blockquote>
+<p>答案：把整个图形绕 M 点旋转 180 度，则四边形 PQP’Q’ 是平行四边形。下面我们证明两个阴影三角形全等。显然 CP=BP’ ，且 CQ=BQ 。另外，记 △ABC 的三个角分别为 α 、 β 、 γ ，则 ∠PCQ = 360° – 60° – 30° – γ = 270° –  (180° – α – β) = 90° + α + β = 60° + α + β + 30° = ∠P’BQ ，于是 △PCQ≌△P’BQ 。因此， PQ=QP’ ，四边形 PQP’Q’ 是菱形，它的两条对角线互相垂直。</p>
+<p>  <img alt="image placeholder" >
+</blockquote>
+<p> <br>
+ </p>
+<blockquote>
+<p>6. △ABC 中， AD 是角平分线， M 是 BC 的中点。过 M 作 AD 的平行线，与 AB 交于点 N 。求证 MN 平分 △ABC 的周长。</p>
+<p>  <img alt="image placeholder" >
+</blockquote>
+<p> </p>
+<blockquote>
+<p>答案：过 C 作 MN 的平行线，与 BA 的延长线交于 E 。易证 AC=AE ，所以 △ABC 的周长就等于 BC+BE 。只需注意到 MN 是 △BCE 的中位线，问题即得证。</p>
+<p>  <img alt="image placeholder" >
+</blockquote>
+<p> <br>
+ </p>
+<blockquote>
+<p>7. 五个圆依次相切，它们又都相切于两条不平行的直线。如果最左边那个圆的半径为 4 ，最右边那个圆的半径为 9 ，求中间那个圆的半径。</p>
+<p>  <img alt="image placeholder" >
+</blockquote>
+<p> </p>
+<blockquote><p>答案： 6 。下面我们说明，五个圆的半径成等比数列。把五个圆从小到大依次记作 C<sub>1</sub> 、 C<sub>2</sub> 、 C<sub>3</sub> 、 C<sub>4</sub> 、 C<sub>5</sub> ，把两条直线的交点记为 P 。把 C<sub>1</sub> 、 C<sub>2</sub> 的圆心到 P 的距离分别记作 P<sub>1</sub> 、 P<sub>2</sub> 。现在，把整个图以 P 为中心缩小到原来的 P<sub>1</sub>/P<sub>2</sub> ，则两条直线还在原来的位置，但是 C<sub>2</sub> 现在占据了 C<sub>1</sub> 的位置。另外，由于所有相切关系都不变，因此新的 C<sub>3</sub> 就是原来的 C<sub>2</sub> ，新的 C<sub>4</sub> 就是原来的 C<sub>3</sub> ，新的 C<sub>5</sub> 就是原来的 C<sub>4</sub> 。这就说明，每个 C<sub>i</sub> 缩小到原来的 P<sub>1</sub>/P<sub>2</sub> 就和 C<sub>i-1</sub> 重合，也就是说每两个相邻圆的半径之比为 P<sub>1</sub>/P<sub>2</sub> 。</p></blockquote>
+<p> <br>
+ </p>
+<blockquote>
+<p>8. 给定一条直线和直线外一点 P ，再给出直线上一点 O ，以及一个以 O 为圆心的圆。如何只用一个没有刻度的直尺作出已知直线过 P 点的垂线？</p>
+<p>  <img alt="image placeholder" >
+</blockquote>
+<p> </p>
+<blockquote>
+<p>答案：连接 AP ，与圆交于 Q ；延长 PB ，与圆交于 R 。则 AR 、 QB 的延长线的交点 X 就满足 PX⊥l 。这是因为在 △APX 中， QX 和 PR 都是三角形的高，说明点 B 是三角形的垂心，自然就有 PX⊥l 了。</p>
+<p>  <img alt="image placeholder" >
+</blockquote>
+<p> <br>
+ </p>
+<blockquote><p>9. 证明：把一个正 400 边形剖分为平行四边形，则其中至少有 100 个矩形。</p></blockquote>
+<p> </p>
+<blockquote><p>答案：假设这个正 400 边形的底边是一条水平线段。显然，我们可以从最上面的边出发，穿过一个个平行四边形，一路走到最下面的边，使得路上经过的线段都是水平线段；类似地，正 400 边形的最左端到最右端也有这么一条通路，路上经过的每条边都是竖直线段。但这两条路径显然有一个交点，这个交点所在的四边形显然就是矩形。这个操作可以在该正 400 边形的不同方向上进行 100 次，因此我们能找出 100 个朝向不同的矩形。</p></blockquote>
+<p> <br>
+ </p>
+<blockquote>
+<p>10. 图中所示的是一种用不相交线段覆盖四边形中每一个点（包括边界上的点）的方法，其中每条线段的长度都不为 0 。是否有可能<br>
+    (1) 用长度都不为 0 的不相交线段覆盖一个三角形中的每一个点？<br>
+    (2) 用长度都不为 0 的不相交线段覆盖一个圆里的每一个点？</p>
+<p>  <img alt="image placeholder" >
+</blockquote>
+<p> </p>
+<blockquote>
+<p>答案：都是可以的。如图。</p>
+<p>  <img alt="image placeholder" >
+</blockquote>
+<p> <br>
+ </p>
+<blockquote>
+<p>11. 给定任意四边形 ABCD 和四边形外一点 O 。把 AB 平移到 OA’ ，把 BC 平移到 OB’ ，把 CD 平移到 OC’ ，把 DA 平移到 OD’ 。求两个四边形的面积之比。</p>
+<p>  <img alt="image placeholder" >
+</blockquote>
+<p> </p>
+<blockquote>
+<p>答案：倍长 BC 到 E ，于是三角形 (1) 和 (2) 面积相同。而显然三角形 (2) 和 (3) 全等，因此 (1) 和 (3) 面积相同。同理可知，右边这个四边形中的四个三角形事实上分别与 △ABC 、 △BCD 、 △CDA 、 △DAB 等积，因此右边这个四边形的面积是左边的两倍。</p>
+<p>  <img alt="image placeholder" >
+</blockquote>
+<p> <br>
+ </p>
+<blockquote>
+<p>12. 图中的四个点之间一共有 6 条线段，它们满足：有一种长度恰好出现 1 次，有一种长度恰好出现 2 次，有一种长度恰好出现 3 次。是否存在平面上的五个点，它们之间的 10 条线段满足有一种长度恰好出现 1 次，有一种长度恰好出现 2 次，有一种长度恰好出现 3 次，有一种长度恰好出现 4 次？</p>
+<p>  <img alt="image placeholder" >
+</blockquote>
+<p> </p>
+<blockquote>
+<p>答案：是的。下图是一个简单的构造： △ABC 为等边三角形， O 为其中心。以 A 为圆心， AB 为半径作弧， OB 的中垂线与这段弧相交于点 D 。则这五个点满足要求。</p>
+<p>  <img alt="image placeholder" >
+<p>受很多与维度有关的几何命题的影响，或许很多人认为五个点已经是最多了吧。其实不是。现在已经发现了一些 n=6 、 n=7 甚至 n=8 的构造。下图显示的就是一个 n=8 的构造，构造出这玩意儿的人简直是太牛 B 了。</p>
+<p>  <img alt="image placeholder" >
+</blockquote>
+<p> <br>
+ </p>
+<blockquote>
+<p>
+13. 如图，四边形房间内有一光源，它照亮了大部分区域，只有其中两面墙有阴影部分。是否存在这样的多边形房间，把光源放在房间里的某个位置后，能够让每一面墙都有阴影部分？</p>
+<p>  <img alt="image placeholder" >
+</blockquote>
+<p> </p>
+<blockquote>
+<p>答案：有。如图。</p>
+<p>  <img alt="image placeholder" >
+</blockquote>
+<p> </p>
+			 ]]></content>
+<pubDate>2010-04-27T06:35:36+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/3113</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 如果你的计算器上没有pi…… ]]></title>
+<link>http://www.matrix67.com/blog/archives/3155</link>
+<content><![CDATA[ 
+		<p>    下面是一个有趣的小把戏：拿出一个科学型计算器（就比如说 Windows 计算器），确认你的计算器使用的是角度制。然后，输入 55555555 ，按 1/x ，再按 sin ，然后看看你的屏幕……神奇吧！如果你觉得还不够精确，输入 55555555555555555555 ，再依次按下 1/x 和 sin 看看……<br>
+    事实上，sin( (1 / 55555555555555555555)° ) = 3.141592653589793238494059.. * 10<sup>-22</sup> ，前 20 位都和 pi 的值一模一样。显然，这绝对不可能是一个巧合。那么，这究竟是为什么呢？</p>
+<p>    注意到 1/180 = 0.00555555… ，换句话说 55555..55 （连续 n 个 5 ）的倒数就近似于 180 * 10<sup>-n-2</sup> 。另外，当 x 很小很小的时候， sin(x) 会与 x 非常接近，但在角度制中，我们必须写作 sin(x) ≈ (pi / 180) x 。因此， sin(1 / 55555..555) ≈ (pi / 180) * (180 * 10<sup>-n-2</sup>) = pi * 10<sup>-n-2</sup></p>
+<p>来源：<a href="http://divisbyzero.com/2010/02/17/the-math-behind-a-neat-calculator-trick/">http://divisbyzero.com/2010/02/17/the-math-behind-a-neat-calculator-trick/</a></p>
+			 ]]></content>
+<pubDate>2010-04-28T03:47:46+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/3155</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Which Way Did the Bicycle Go 趣题选（中） ]]></title>
+<link>http://www.matrix67.com/blog/archives/3172</link>
+<content><![CDATA[ 
+		<p>14. 有意思的是，在数学历史上，一些很简单的结论竟然几百年来都未曾发现。直到 1977 年， Paul Erdős 和 George Szekeres 才发现，除了两头的 1 以外，杨辉三角同一行内的任意两个数都有公因数。证明这个结论。</p>
+<p style="color:#e5e5e5">答案：只需要注意到， a 乘以一个比 b 小的数之后还能成为 b 的倍数，这说明 a 和 b 一定有公因数。不妨设 0 &lt; i &lt; j &lt; n ，则 C(j, i) &lt; C(n, i) 。我们的命题可以由下述关系直接推出。
+ 
+   C(n, j) · C(j, i)
+= n! / (j! (n - j)!) · j! / (i! (j - i)!)
+= n! / (i! (n - j)! (j - i)!)
+= n! / (i! (n - i)!) · (n - i)! / ((j - i)! (n - j)!)
+= C(n, i) · C(n-i, j-i)</p>
+<p><span id="more-3172"></span><br>
+ <br>
+15. 2 的 5 倍是 10 ， 3 的 37 倍是 111 ， 4 的 25 倍是 100 。是否对于任意正整数 n ，都能找到一个 n 的倍数，它全由数字 0 和 1 构成？</p>
+<p style="color:#e5e5e5">答案：是的。考虑数列 1, 11, 111, 1111, … 。它们除以 n 的余数只有 n 种可能，因此前 n+1 项中一定有两项，它们除以 n 的余数相同。这两项的差即满足条件。</p>
+<p> <br>
+16. 或许大家常会注意到这么一个有趣的事实： 111 能被 3 整除。是否存在无穷多个正整数 n 满足， n 个 1 所组成的 n 位数能被 n 整除？</p>
+<p style="color:#e5e5e5">答案：是的。我们只需要证明，若 n 个 1 所组成的 n 位数能被 n 整除，则 3n 个 1 所组成的 3n 位数能被 3n 整除。这是因为 11..11 11..11 11..11 可以写成 11..11 * 1 00..01 00..01 ，其中前者含有因子 n ，后者显然含有因子 3 。</p>
+<p> <br>
+17. 是否对于任意正整数 n ，都能找到一个 n 的倍数，它含有从 0 到 9 所有的数字？</p>
+<p style="color:#e5e5e5">答案：是的。假设 n 是一个 d 位数，那么 1234567890·10^d + 1 和 1234567890·10^d + n 之间一定有一个数是 n 的倍数，它显然满足要求。</p>
+<p> <br>
+18. 对任意一个正整数集合 A ，令 S 为 A 中的数两两相加可能得到的所有和所组成的集合，令 D 为 A 中的数两两相减可能得到的所有差所组成的集合。例如，若 A = {1, 2, 4} ，则 S = {2, 3, 4, 5, 6, 8} ， D = {-3, -2, -1, 0, 1, 2, 3} 。证明或推翻： D 中的元素个数不可能少于 S 中的元素个数。</p>
+<p style="color:#e5e5e5">答案：这是错的。目前已知的最小反例为 {1, 3, 4, 5, 8, 12, 13, 15} ，这 8 个数能产生 26 种和，但只能产生 25 种差。</p>
+<p> <br>
+19. 多项式 p(x) = (1/2)x^2 – (1/2)x + 2 满足 p(1)=2 、 p(2)=3 、 p(3)=5 。是否能找到一个<strong>整系数</strong>多项式 q(x) ，使得 q(1)=2 、 q(2)=3 、 q(3)=5 ？</p>
+<p style="color:#e5e5e5">答案：不能。事实上，连只满足 q(1)=2 、 q(3)=5 的整系数多项式都不存在。假设 q(x) = a<sub>0</sub> + a<sub>1</sub>·x + a<sub>2</sub>·x^2 + … + a<sub>n</sub>·x^n ，则<br>
+ <br>
+   3 = 5 – 2 = q(3) – q(1) = (3-1)a<sub>1</sub> + (3^2-1)a<sub>2</sub> + … + (3^n-1)a<sub>n</sub>。<br>
+ <br>
+由于 3^k – 1 总是偶数，因此等式右边一定是偶数，它不可能等于 3 ，矛盾。</p>
+<p> <br>
+20. 假设 P(x) 是一个 8 次多项式，且 P(1)=1, P(2)=1/2, P(3)=1/3, …, P(9)=1/9 。求 P(10) 。</p>
+<p style="color:#e5e5e5">答案：由条件可知 1, 2, … ,9 是多项式 x·P(x) – 1 的 9 个根。因此， x·P(x) – 1 = c(x-1)(x-2)(x-3)…(x-9) 。对比常数项可知 -1 = -c·9! ，因此 c=1/9! 。因此， 10·P(10) – 1 = 9!/9! = 1 ，所以说 P(10)=1/5 。</p>
+<p> <br>
+21. 把杨辉三角写成方阵：</p>
+<p>  1  1  1  1  1 …<br>
+  1  2  3  4  5 …<br>
+  1  3  6 10 15 …<br>
+  1  4 10 20 35 …<br>
+  1  5 15 35 70 …<br>
+  …<br>
+  …</p>
+<p>证明：对任意正整数 n ，方阵的前 n 行 n 列组成的矩阵，其行列式总为 1 。</p>
+<p style="color:#e5e5e5">答案：对 n 施归纳。当 n=1 时，显然成立。考虑方阵的前 n 行 n 列，若每一行都减去它的上面一行，就变成了：<br>
+ <br>
+  1  1  1  1  1  …<br>
+  0  1  2  3  4  …<br>
+  0  1  3  6 10  …<br>
+  0  1  4 10 20  …<br>
+  0  1  5 15 35  …<br>
+  …<br>
+  …<br>
+ <br>
+再把每一列都减去它的前一列：<br>
+ <br>
+  1  0  0  0  0  …<br>
+  0  1  1  1  1  …<br>
+  0  1  2  3  4  …<br>
+  0  1  3  6 10  …<br>
+  0  1  4 10 20  …<br>
+  …<br>
+  …<br>
+ <br>
+显然其行列式与 n-1 阶时相同</p>
+<p> <br>
+22. 一个机器洗牌时总是以相同的方式打乱牌的顺序。把</p>
+<p>   A, 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K</p>
+<p>放进去，用机器连续洗两次牌之后，顺序变为了</p>
+<p>   10, 9, Q, 8, K, 3, 4, A, 5, J, 6, 2, 7</p>
+<p>求机器第一次洗牌之后的顺序。</p>
+<p style="color:#e5e5e5">答案：可以把这个洗牌机看作一个置换 σ ，则 σ^2 为<br>
+ <br>
+   1→8→4→7→13→5→9→2→12→3→6→11→10→1<br>
+ <br>
+由于 σ^2 不能分解成若干个不相交循环，因此 σ 也不可能有多个循环。但这就表明连续洗牌 13 次所有牌又会回到原位，因此洗一次牌相当于 (σ^2)^7 ，即<br>
+ <br>
+   1→2→8→12→4→3→7→6→13→11→5→10→9→1<br>
+ <br>
+因此所求的顺序为<br>
+ <br>
+   9, A, 4, Q, J, 7, 3, 2, 10, 5, K, 8, 6</p>
+			 ]]></content>
+<pubDate>2010-05-04T12:53:34+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/3172</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ – 1 + 2^7 = 127 这样的算式有多少个？ ]]></title>
+<link>http://www.matrix67.com/blog/archives/3186</link>
+<content><![CDATA[ 
+		<p>    或许有人会对算式 5^2 = 25 有一种特别的偏好——等式左右两边都用到了相同的数字，让人深感奇妙。类似的算式还有很多，例如</p>
+<p>      5^(6 – 2) = 625<br>
+      (4 / 2)^10 = 1024<br>
+      ((86 + 2 * 7)^5 – 91) / 3^4 = 123456789</p>
+<p>    我们自然而然地提出了这样一个问题：这样的算式究竟有多少呢？答案是：无穷多。只需要借助本文一开始提到的算式 5^2 = 25 ，我们就能轻易构造出无穷多个同样满足这种神奇性质的算式来：</p>
+<p>      50^2 + 0 = 2500<br>
+      500^2 + 0 + 0 = 250000<br>
+      5000^2 + 0 + 0 + 0 = 25000000<br>
+      ……</p>
+<p>    现在，让我们来看看另一类更加精妙的算式：等式两边的数字顺序也完全一样！</p>
+<p>      – 1 + 2^7 = 127<br>
+      (3 + 4)^3 = 343<br>
+      16^3 * (8 – 4) = 16384</p>
+<p>    这样的算式是否仍然有无穷多个呢？</p>
+<p><span id="more-3186"></span><br>
+ <br>
+    答案仍然是肯定的，并且有趣的是，它的构造仍然可以由经典算式 5^2 = 25 扩展得到。把前面提到的 50^2 + 0 = 2500 稍微改造一下，我们便可以得到一个两边数字顺序也相同的等式：</p>
+<p>      2 + 50^2 = 2502</p>
+<p>    它可以继续衍生出无穷多个满足要求的式子：</p>
+<p>      2 + (500 + 0)^2 = 250002<br>
+      2 + (5000 + 0 + 0)^2 = 25000002<br>
+      2 + (50000 + 0 + 0 + 0)^2 = 2500000002<br>
+      ……</p>
+<p>    由此可见，即使要求等式两边的数字顺序也一模一样，符合要求的式子依旧有无穷多个。</p>
+<p> <br>
+    不过，上面这些构造都只在十进制中成立。在其它进制下，这种算式还是无穷多的吗？<a href="http://www.brand.site.co.il/riddles/201004q.html">上个月的 UyHiP 谜题</a>中就讨论了这个有趣的话题。事实上，我们只需要<strong>一个</strong>巧妙的构造就可以说明，在所用进制中，这种算式都有无限多。考虑算式</p>
+<p>        (m + 9/9) * (9 + 9/9)^(9 + 9/9) – 9/9<br>
+      = (m + 1) * 10^10 – 1<br>
+      = m * 10^10 + 9999999999</p>
+<p>    显然对任意正整数 m ，等式最左边和最右边所用的数字（包括顺序）都完全相同。我们很容易对这个式子进行改造，使它适用于任一进制。例如，为了得到一个八进制下的公式，只需要把式中的 9 全部换成 7 ，然后把指数部分改为 77 + 7/7 + 7/7 + 7/7 + … 。注意到每添加一个 7/7 将使得算式中多出两个 7 ，但计算结果中只会多出一个 7 。因此，只要初始时把指数设为一个比算式中已有 7 的数目更大的数（比如 77 ），在其后面不断添加 7/7 ，总有一个时候计算结果和算式中数字 7 的个数恰好一样多。</p>
+			 ]]></content>
+<pubDate>2010-05-05T00:36:58+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/3186</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ HATETRIS：故意跟你作对的俄罗斯方块游戏 ]]></title>
+<link>http://www.matrix67.com/blog/archives/3201</link>
+<content><![CDATA[ 
+		<p>    大家也许想过，如果玩家足够牛 B 的话，俄罗斯方块游戏是不是永远也玩不死呢？不是的。我曾经在<a href="http://www.matrix67.com/blog/archives/2134">这里</a>介绍过，理论上说，俄罗斯方块游戏是不能永无止境地玩下去的，总有一个时候你会死掉。事实上，如果允许电脑不随机出牌，可以有意为难你的话，电脑可以利用一个简单的算法迅速把你整死。倘若电脑真的能故意陷害你，玩俄罗斯方块会是什么样的呢？<br>
+    今天，我还真找到了这么一个在线俄罗斯方块游戏 <a href="http://qntm.org/files/hatetris/hatetris.html">HATETRIS</a> 。在这个游戏中，下一个方块并不是随机给的，游戏将用一套确定性算法精心为你挑选一个对你最不利的方块，让你感受一下想要什么偏没有什么的痛苦。毫不夸张地说，在这个游戏中，即使想消掉一行也是一件很困难的事。<br>
+    游戏是用 JavaScript 写的，你可以在下面这个框架中点 start new game 直接开始游戏。游戏没有重力因素（方块不会自动下落），这可以给你充分长的思考时间。技术细节和高分记录请移步<a href="http://qntm.org/hatetris">这里</a>。<br>
+    想让俄罗斯方块更变态一些，方法不止一种。如果喜欢这个游戏，欢迎挑战我自己原创的变态俄罗斯方块 <a href="http://www.matrix67.com/blog/archives/2926">PiTetris</a> 。</p>
+<p><span id="more-3201"></span></p>
+<p><iframe frameborder="0" width="612" height="610" src="http://qntm.org/files/hatetris/hatetris.html"></iframe></p>
+<p>    大家的最高分是多少？<br>
+ </p>
+			 ]]></content>
+<pubDate>2010-05-06T19:25:24+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/3201</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+</channel>
+</rss>

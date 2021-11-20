@@ -1,0 +1,1686 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>Matrix67: The Aha Moments</title>
+<description></description>
+<link>http://www.matrix67.com/blog</link>
+<pubDate>2021-11-20T14:45:25+08:00</pubDate>
+<!-- other elements omitted from this example -->
+<item>
+<title><![CDATA[ OI/MO必备：巨牛无比的公式、定理速查表 ]]></title>
+<link>http://www.matrix67.com/blog/archives/281</link>
+<content><![CDATA[ 
+		<p>    数学考试时我最怕的就是三角函数，几十个公式我一个都背不到。那时我有了制作公式定理表的想法。经过反复尝试，我那张表已经设计得非常合理了，表里的内容也初具规模。我复印了几份给我的几个同学，反映都还不错，其它的同学听说了都想来找我要一份。当初我以为我那张表已经很牛了，今天终于发现我错了。<br>    刚才偶然发现一份非常牛的公式定理表，满满写了10页，不但包含有完整的三角公式、微分表、积分表，还有排列组合公式、概率公式、质数表、杨辉三角等等，甚至还有主定理、图论概念等东西。想要公式定理手册的OI/MO牛不用再去买中学数理化的口袋书了，你真正需要的东西那上面根本没有；这10页的速查表才是真正为你设计的，打印一份随身携带更能体现你nerd/geek的身份……<br>    <a target="_blank" href="http://www.matrix67.com/data/cheat_sheet.pdf">点击这里下载</a>(pdf, 154KB) 请勿直接链接到此文件</p>
+			 ]]></content>
+<pubDate>2007-08-09T15:01:31+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/281</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 另外两种证明素数无穷多的方法 ]]></title>
+<link>http://www.matrix67.com/blog/archives/282</link>
+<content><![CDATA[ 
+		<p>    我们已经知道，<a target="_blank" href="http://www.matrix67.com/blog/article.asp?id=280">素数有无穷多个</a>。当时我们用的是最普遍的证明方法：<br>
+</p>
+<blockquote>假设存在最大的素数P，那么我们可以构造一个新的数2 * 3 * 5 * 7 * … * P + 1（所有的素数乘起来加1）。显然这个数不能被任一素数整除（所有素数除它都余1），这说明我们找到了一个更大的素数。</blockquote>
+<p>    这里，我们将再提供两种新的证明方法，来自<a target="_blank" href="http://www.cut-the-knot.org">cut-the-knot</a>两篇新文。</p>
+<p><strong>用Fermat数证明素数无穷多</strong><br>    Fermat数是指形为2^(2^n)+1的数，我们把2^(2^n)+1记作F(n)，其中n可以取所有自然数。显然所有的Fermat数都是奇数。一会儿我们将看到任两个Fermat数都是互素的，也就是说，每一个Fermat数的每一个素因子都与其它Fermat数的素因子不同。这也就说明，素数个数有无穷多。<br>    引理1：F(0) * F(1) * F(2) * … * F(n-1) = F(n) – 2, n&gt;=1<br>    证明：数学归纳法。F(0)=3且F(1)=5，那么k=1时显然成立。假设k=n成立，则当k=n+1时：<br>    F(0) * F(1) * F(2) * … * F(n)<br>  = ( F(0) * F(1) * F(2) * … * F(n-1) ) * F(n)<br>  = ( F(n)-2 ) * F(n)<br>  = ( 2^(2^n)-1 ) * ( 2^(2^n)+1 )<br>  = 2^(2^(n+1))-1<br>  = F(n+1)-2</p>
+<p>    引理2：对任意两个不相等的自然数n和m，有F(n)和F(m)互素。<br>    证明：假设t同时整除F(n)和F(m)，m&lt;n。根据引理1，有：<br>    F(n)=F(0) * F(1) * F(2) * … * F(m) * … * F(n-1) – 2<br>    这说明t可以整除<br>    F(0) * F(1) * F(2) * … * F(m) * … * F(n-1) – F(n) = 2<br>    注意到2只有两个因数1和2。前面说过Fermat数都是奇数，因此不可能被2整除。这样，t只能为1，这就证明了两个数互素。</p>
+<p><strong>用*-集合证明素数无穷多</strong><br>    *-集合是一个正整数集合{a1, a2, … an}，使得对所有不相等的i和j都有ai-aj整除ai。<br>    引理1：对所有n&gt;=2，都存在一个大小为n的*-集合。<br>    证明：数学归纳法。{1,2}显然是一个大小为2的*-集合。假设{a1, a2, … an}是一个*-集合。定义b0为a1*a2*…*an（即所有ai的乘积）。对所有不超过n的正整数k，令bk=b0+ak，那么{b0, b1, b2, …, bn}就是一个大小为n+1的*-集。</p>
+<p>    引理2：假设{a1, a2, … an}是一个*-集合。对所有不超过n的正整数i，定义fi=2^ai+1，那么f1, f2, …, fn两两互素。<br>    证明：显然fi都是奇数。假设fk和fm(fk&gt;fm)可以被同一个素数p整除，那么p也只能是奇数。p可以整除fk-fm即2^am * ( 2^(ak-am)-1 )。由于p是奇数，那么它只可能是整除2^(ak-am)-1。<br>    如果有s整除t，那么2^s-1整除2^t-1。于是，根据*-集合的定义，2^(ak-am)-1整除2^ak-1。那么p就可以整除2^ak-1。但p也能整除2^ak+1，于是我们得出p整除2，这与p为奇数矛盾。</p>
+<p>    定理：素数有无穷多个<br>    证明：根据引理1和2，对任意大的n，都存在大小为n的集合，里面的数两两互素，即至少存在n个不同的素因子。这就说明了素数的个数可以任意多。</p>
+			 ]]></content>
+<pubDate>2007-08-10T08:12:47+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/282</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 魔方问题新进展：26步足以破解任何魔方 ]]></title>
+<link>http://www.matrix67.com/blog/archives/283</link>
+<content><![CDATA[ 
+		<p>    最近，波士顿Northeastern大学的计算机科学家Daniel Kunkle证明了任何一个魔方可以在26步以内解开。这个结果打破了以往所有的记录。在解魔方的处理过程中，他构造了一些非常具有启发性的算法，这篇文章将简单地介绍一下这些算法。<br>    一个魔方大约有4.3 x 10^19种可能的初始状态，再牛的机器也不可能搜索完所有的可能。因此Kunkle和他的指导员Gene Cooperman想出了一些对魔方状态进行分类筛选的策略。<br>    Kunkle和Cooperman首先运用了一个小技巧将问题进行简化。如果魔方的每个面全是一种颜色，我们就认为魔方被解开，不管哪一面是哪一种颜色。换句话说，相互之间可以通过颜色置换得到的初始状态都是等价的。这样，“本质不同”的初始状态就减少到10^18种。<br>    接下来，他们开始观察一类更简单的问题：如果只允许180度转动(half-turn)，有多少状态可以被解决。在10^18种状态中，只有大约15000种状态可以仅用180度旋转来破解。对于普通计算机来说，这个数目也不大，只需要不到一天的时间就可以搜索出解开所有15000多个魔方各自需要的最少步数。他们发现，这类初始状态中任何一个都可以在13步以内解决。<br>    然后他们需要做的就是找出，需要多少步才能把任意一种状态转化为这15000种特殊状态中的一个。为了完成这一工作，首先他们把所有的初始状态划分为若干个等价类，每个等价类里的状态都可以仅用180度转动互相得到。这样，同一个等价类中如果任一状态可以变换为其中一种特殊状态，同样的转动步骤也可以使该等价类的其它所有状态都变成特殊状态。最后他们找到了1.4 x 10^12个不同的等价类，需要解决的状态数由最初的4.3×10^19减少到1.4×10^12。但无论如何，10^12仍然是一个恐怖的数字。<br>    现在他们用了一台超级计算机来完成这个工作，并且使用了一些很有技巧性的决策来加速搜索过程。计算机需要耗费大量的时间读取硬盘上的数据，为了加快速度，Kunkle和Cooperman将数据巧妙地进行了处理，使得数据的排列正好与计算机读取的顺序相符，这样就节省了搜索硬盘的时间。<br>    “这种方法可以应用在任何一个组合问题上”，Kunkle说。他提到了西洋跳棋、国际象棋、航班安排和蛋白质摺叠等一系列问题。一种类似的组合学方法最近被用于寻找西洋跳棋的最优策略中。<br>    63小时的计算后，超级计算机得到的答案是，任何一种状态都能在16步以内转化为15000种特殊状态。而这些特殊状态又只需要13步达到最终状态，因此这种方法最终得到的结论是：29步以内可以解决任何一个魔方问题。<br>    但这个数字还不足以创造出新的记录，去年瑞典就曾经得到过27步内解决魔方问题的结论。Kunkle和Cooperman意识到，要想打破这个记录，他们还需要削减3步才行。<br>    应用他们现有的算法，只有8×10^7个状态集合还不能做到26步以内出解。再次对这些相对较少的状态进行搜索，最终他们找到了26步以内解决所有魔方的方法。<br>    7月29日他们在ISSAC(International Symposium on Symbolic and Algebraic Computation,国际符号和代数计算会议)上公布了这一结果。<br>    现在Kunkle和Cooperman希望把最大步骤数减少到25。他们认为他们可以对所有需要26步的状态进行暴力搜索来寻找更优的方案。<br>    虽然他们已经获得了很大的成功，但这一结果很可能还有改进的空间。许多学者认为20步以内足以解决任何魔方，但现在没有人能够证明。</p>
+<p>Matrix67翻译，<a target="_blank" href="http://blog.sciencenews.org/mathtrek/2007/08/cracking_the_cube.html">原文地址</a><br>做人要厚道，转贴请注明出处</p>
+			 ]]></content>
+<pubDate>2007-08-10T14:56:35+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/283</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 十个有趣的英文文字游戏（上） ]]></title>
+<link>http://www.matrix67.com/blog/archives/289</link>
+<content><![CDATA[ 
+		<p><strong>Crossword</strong><br>    Crossword我就不用多废话了，这应该是最流行的英文文字游戏。和大多数人想象的不同，构造一个Crossword谜题非常难。真正的Crossword谜题里的空格比你想象的更多，整个填字区域要做到中心对称，而且通常每个Crossword需要有一个特定的主题。去年有一个记录片叫<a target="_blank" href="http://www.imdb.com/title/tt0492506/">Wordplay</a>，很不错（我给它打了8分）。记录片里介绍了很多和Crossword有关的文化，包括出谜人、解谜人、俱乐部、比赛等很多内容。<br>    下面是一个以数学为主题的Crossword，大家没事可以做做。答案在本文最后面。</p>
+<blockquote>
+<p>  <img alt="image placeholder" >
+<p>1. Cut corners<br>5. The __ plane, or S(7)<br>9. Hydrogen<br>14. Large reptile<br>16. Column<br>17. Gives the slope of a tangent to a curve<br>19. Book by Zienkiewicz and Taylor, abbr.<br>20. Divide<br>21. Sin reciprocal<br>22. The playing field, in nim<br>25. "I saw Blanusa's paper __ after it appeared." — Tutte<br>26. pronoun<br>27. Hydroxyl group bonded to a doubly-bonded carbon atom<br>28. (e^z – e^(-z))/2<br>29. Bar<br>30. The sphinx is a __-tile<br>31. __-digit<br>32. Fit<br>35. A type of map projection<br>38. The ___ hypothesis is independent of Zermelo-Fraenkel-Choice<br>39. Floor coverings, frequently symmetrical<br>40. Graph theorist Hai Peng<br>41. Angle<br>42. Branch or Dedekind<br>43. Math __ (where to find a prof)<br>44. 2, 4, 6, 30, 32, 34, 36, 40, 42 …<br>46. Art __<br>47. Computer Algebra: Systems and Algorithms for Algebraic Computation editor<br>48. MAA president Graham<br>49. Rule<br>50. As opposed to LHS<br>51. The gamma function has these at negative integers<br>57. Puzzle creator van Deventer<br>58. Tries<br>59. Paris river<br>60. Philosopher Descartes<br>61. Charts</p>
+<p>Down</p>
+<p>1. Saturnine<br>2. Director of Ulugh Beg's observatory<br>3. 3-30 KHz, as heard by "whistler" receivers<br>4. An OOPL or tower.<br>5. Plow<br>6. Supped<br>7. Proof of existance, without a specific example<br>8. Hermite orthogonal polynomial<br>9. Stat<br>10. GTE rival<br>11. Quasi-conformal enemy of Edmund Landau<br>12. (23/9)^5 and 109, for example<br>13. Ergo<br>15. Pilot stunt: "pulling ___"<br>18. Faraday theory, later proven by Arrhenius<br>22. Peace prize winner Shimon<br>23. J of ___ and Appl<br>24. The Inverse Variational Problem in Classical Mechanics author<br>25. The "sampling" function<br>26. A searching method for Ramsey numbers<br>28. "What I give form to in daylight is only one per cent of what I have __ in darkness." — Escher<br>29. boxers<br>31. High school math<br>32. Add-with-carry, inverse congruential, rule 30, dice, etc.<br>33. Chaos and Fractals author Dietmar<br>34. Graphica author Michael<br>36. ICOSAHOM editor Andrew<br>37. Focus, for example<br>42. Triangle part studied by Kimberling<br>43. In anatomy, away from the origin<br>44. More than 1500 math papers have his name<br>45. Where Set theory: On the structure of the real line was written<br>46. Actor Knotts<br>47. Number theorist Peter<br>49. Sported<br>50. Theorem<br>52. Cylinder<br>53. O'__ group (order 460815505920)<br>54. Skater Midori<br>55. Mind plotter<br>56. It's better than angle-angle-side</p>
+</blockquote>
+<p><strong>Anagram</strong><br>    Anagram是指调整一个单词或短语的字母顺序后组成另外一个单词或短语，通常前后两者的关系有点讽刺意味。比如，《达芬奇密码》上就有一个：<br>    O, Draconian devil! Oh, lame saint! = Leonardo da Vinci, The Mona Lisa</p>
+<p>    经典的Anagram非常有意思。看下面几个Anagram：<br>    Listen = Silent<br>    Dormitory = Dirty Room<br>    Desperation = A Rope Ends It<br>    Mother-in-law = Woman Hitler<br>    A telephone girl = Repeating "Hello"<br>    The country side = No City Dust Here</p>
+<p>    一些Anagram有可能很长。比如这一个：<br>    To be or not to be: that is the question, whether tis nobler in the mind to suffer the slings and arrows of outrageous fortune.<br>    = In one of the Bard's best-thought-of tragedies, our insistent hero, Hamlet, queries on two fronts about how life turns rotten.</p>
+<p>    另一个有趣的Anagram是这样：<br>    Eleven plus two = Twelve plus one</p>
+<p><strong>Pangram</strong><br>    Pangram是指这样一种句子，它虽然不长，但包含了所有26个英文字母。Pangram常用于打字机测试和字体演示。大家最熟悉不过的是Windows字体演示时所用的Pangram：<br>    The quick brown fox jumps over the lazy dog.</p>
+<p>    而Macintosh的字体演示则是使用的这个Pangram：<br>    Cozy lummox gives smart squid who asks for job pen.</p>
+<p>    另一个比较常见的Pangram如下：<br>    Pack my box with five dozen liquor jugs.</p>
+<p>    当然，有人肯定想问，有没有最短的Pangram？当然有。有的Pangram只有26个字母（每个字母恰好用一次），这样的Pangram叫做Perfect pangram。比如下面这一个：<br>    New job: fix Mr. Gluck's hazy TV, PDQ!</p>
+<p><strong>Autogram</strong><br>    Autogram又叫做Self-enumerating Sentence，是指一句话的内容描述的正是这句话本身。下面是一些常见的Autogram：<br>    This sentence contains five words.<br>    This sentence contains thirty-six letters.<br>    There are fourteen vowels in this sentence.</p>
+<p>    1982年，Scientific American月刊上刊登出一个Autogram杰作：<br>
+</p>
+<blockquote>Only the fool would take trouble to verify that his sentence was composed of ten a's, three b's, four c's, four d's, forty-six e's, sixteen f's, four g's, thirteen h's, fifteen i's, two k's, nine l's, four m's, twenty-five n's, twenty-four o's, five p's, sixteen r's, forty-one s's, thirty-seven t's, ten u's, eight v's, eight w's, four x's, eleven y's, twenty-seven commas, twenty-three apostrophes, seven hyphens and, last but not least, a single !</blockquote>
+<p>    另一个类似的Autogram如下：<br>
+</p>
+<blockquote>This autogram contains five a's, one b, two c's, two d's, thirty-one e's, five f's, five g's, eight h's, twelve i's, one j, one k, two l's, two m's, eighteen n's, sixteen o's, one p, one q, six r's, twenty-seven s's, twenty-one t's, three u's, seven v's, eight w's, three x's, four y's, and one z.</blockquote>
+<p><strong>Palindrome</strong><br>    Palindrome是指这样一种单词或句子，从左往右和从右往左读都是一样的。例如，单词eye, noon, level, racecar, redivider都是Palindrome。一些比较长的句子也可能是Palindrome，比如USACO上曾出现过这样一个Palindrome：<br>    Madam, I'm Adam.</p>
+<p>    另一些有趣的Palindrome如下：<br>    Never odd or even.<br>    Was it a cat I saw?<br>    Step on no pets! <br>    Dammit, I'm mad!<br>    Rise to vote, sir.<br>&amp;nbs<br>
+p;   God lived as a devil dog.<br>    A man, a plan, a canal — Panama!</p>
+<p>    1814年，当拿破仑被流放到Elba岛时，拿破仑曾说过：<br>    Able was I ere I saw Elba.</p>
+<p>    <a target="_blank" href="http://www.palindromelist.com/longest.htm">这里</a>有一份号称世上最长的Palindrome。</p>
+<p><strong>Alphamagic Square</strong><br>    1986年，一个叫Lee Sallows的电子工程师发现了这样一个3阶幻方：<br><span style="font-family:宋体">5       22      18<br>28      15      2<br>12      8       25</span></p>
+<p>    初看之下这个幻方似乎没有什么特别之处。然而，把它转换成文字后：<br><span style="font-family:宋体">five            twenty-two      eighteen<br>twenty-eight    fifteen         two<br>twelve          eight           twenty-five</span></p>
+<p>    再数一下每个单词的字母个数，我们可以得到一个新的幻方，它恰好由3到11这9个数字组成：<br><span style="font-family:宋体">4       9       8<br>11      7       3<br>6       5       10</span></p>
+<p>Matrix67收集整理<br>转贴请注明出处</p>
+<p>      <img alt="image placeholder" >
+			 ]]></content>
+<pubDate>2007-08-15T00:35:00+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/289</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 十个有趣的英文文字游戏（下） ]]></title>
+<link>http://www.matrix67.com/blog/archives/290</link>
+<content><![CDATA[ 
+		<p><strong>Ambigram</strong><br>    Ambigram是指把一个单词或短语写成对称的样子，这样从两个不同的角度看这个图形都能读出这个单词或短语。例如，下面一个图形就是单词Ambigram的Ambigram：<br>      <img alt="image placeholder" >
+<p>    ambigram.com的首页有个这样的图片：<br>      <img alt="image placeholder" >
+<p>    Wikipedia上有这样一个Ambigram：<br>      <img alt="image placeholder" >
+<p>    最后来看一个左右轴对称的Ambigram（献丑了）：<br>      <img alt="image placeholder" >
+<p>    Erich Friedman教授为他的朋友创作了很多Ambigram。你可以在<a target="_blank" href="http://www.stetson.edu/~efriedma/ambigram/">他的个人主页</a>上看到。</p>
+<p><strong>Alphametic</strong><br>    Alphametic是指，把一句话写成加法算式，每一个字母表示一个数字，那么这个“虫食算”有唯一解。最常见的Alphametic可能是这个：<br>    SEND + MORE = MONEY<br>    它的唯一解是9567 + 1085 = 10652</p>
+<p>    另一些Alphametic如下：<br>    FIFTY + STATES = AMERICA<br>    TERRIBLE + NUMBER = THIRTEEN<br>    EARTH + AIR + FIRE + WATER = NATURE<br>    SATURN + URANUS + NEPTUNE + PLUTO = PLANETS</p>
+<p>    1969年，有人发现了这样一个有趣的Alphametic：<br>    THREE + THREE + TWO + TWO + ONE = ELEVEN</p>
+<p>    这样的Alphametic叫做Doubly-True Alphametic。可以证明上面这个Doubly-True Alphametic是合法的Alphametic中“最小的”一个。另外两个稍微大一点的Doubly-True Alphametic为：<br>    SEVEN + SEVEN + SIX = TWENTY<br>    EIGHT + EIGHT + TWO + ONE + ONE = TWENTY</p>
+<p><strong>Mnemonic</strong><br>    Mnemonic本意是可以帮助记忆的句子。例如，我原来记together这个单词就记作We want <u>to get her</u>。再比如，arithmetic可以记作A Rat In Tom's House Might Eat Tom's Ice Cream（每个单词的首字母）。当然，也有一些专门搞笑的Mnemonic，比如Microsoft = Most Intelligent Customers Realize Our Software Only Fools Them，而Macintosh = Most Applications Crash. If Not, The Operating System Hangs。<br>    数学家George Pólya（就是Pólya置换定理的那个Pólya）曾说过一句经典的话：How I need a drink, alcoholic of course, after the heavy chapters involving quantum mechanics! 依次数出每个单词的字母个数，你会惊讶的发现它正好是圆周率的前15位。后来又有人在后面加上一句All of thy geometry, Herr Planck, is fairly hard，让圆周率长度增加到24位。另一些圆周率的Mnemonic如下：<br>    Can I have a large container of orange juice?<br>    May I have a white telephone, or pastel color?<br>    How I wish I could calculate pi faster.<br>    For a girl I loved contrived; by nature tough, her heart survived.</p>
+<p>    下面这首诗给出了圆周率的前740位。其中10个字母的单词表示一个数字0，字母数大于10的单词则表示两位数。<br>
+</p>
+<blockquote>Poe, E.<br>      Near a Raven 
+<p>Midnights so dreary, tired and weary. <br>    Silently pondering volumes extolling all by-now obsolete lore. <br>During my rather long nap – the weirdest tap! <br>    An ominous vibrating sound disturbing my chamber's antedoor. <br>        "This", I whispered quietly, "I ignore". </p>
+<p>Perfectly, the intellect remembers: the ghostly fires, a glittering ember. <br>    Inflamed by lightning's outbursts, windows cast penumbras upon this floor. <br>Sorrowful, as one mistreated, unhappy thoughts I heeded: <br>    That inimitable lesson in elegance – Lenore – <br>        Is delighting, exciting…nevermore. </p>
+<p>Ominously, curtains parted (my serenity outsmarted), <br>    And fear overcame my being – the fear of "forevermore". <br>Fearful foreboding abided, selfish sentiment confided, <br>    As I said, "Methinks mysterious traveler knocks afore. <br>        A man is visiting, of age threescore." </p>
+<p>Taking little time, briskly addressing something: "Sir," (robustly) <br>    "Tell what source originates clamorous noise afore? <br>Disturbing sleep unkindly, is it you a-tapping, so slyly? <br>    Why, devil incarnate!–" Here completely unveiled I my antedoor– <br>        Just darkness, I ascertained – nothing more. </p>
+<p>While surrounded by darkness then, I persevered to clearly comprehend. <br>    I perceived the weirdest dream…of everlasting "nevermores". <br>Quite, quite, quick nocturnal doubts fled – such relief! – as my intellect said, <br>    (Desiring, imagining still) that perchance the apparition was uttering a whispered "Lenore". <br>        This only, as evermore. </p>
+<p>Silently, I reinforced, remaining anxious, quite scared, afraid, <br>    While intrusive tap did then come thrice – O, so stronger than sounded afore. <br>"Surely" (said silently) "it was the banging, clanging window lattice." <br>    Glancing out, I quaked, upset by horrors hereinbefore, <br>        Perceiving: a "nevermore". </p>
+<p>Completely disturbed, I said, "Utter, please, what prevails ahead. <br>    Repose, relief, cessation, or but more dreary 'nevermores'?" <br>The bird intruded thence – O, irritation ever since! – <br>    Then sat on Pallas' pallid bust, watching me (I sat not, therefore), <br>        And stated "nevermores". </p>
+<p>Bemused by raven's dissonance, my soul exclaimed, "I seek intelligence; <br>    Explain thy purpose, or soon cease intoning forlorn 'nevermores'!" <br>"Nevermores", winged corvus proclaimed – thusly was a raven named? <br>    Actually maintain a surname, upon Pluvious seashore? <br>        I heard an oppressive "nevermore". </p>
+<p>My sentiments extremely pained, to perceive an utterance so plain, <br>    Most interested, mystified, a meaning I hoped for. <br>"Surely," said the raven's watcher, "separate discourse is wiser. <br>    Therefore, liberation I'll obtain, retreating heretofore – <br>        Eliminating all the 'nevermores' ". </p>
+<p>Still, the detestable raven just remained, unmoving, on sculptured bust. <br>    Always saying "never" (by a red chamber's door). <br>A poor, tender heartache maven – a sorrowful bird – a raven! <br>    O, I wished thoroughly, forthwith, that he&amp;#<br>
+39;d fly heretofore. <br>        Still sitting, he recited "nevermores". </p>
+<p>The raven's dirge induced alarm – "nevermore" quite wearisome. <br>    I meditated: "Might its utterances summarize of a calamity before?" <br>O, a sadness was manifest – a sorrowful cry of unrest; <br>    "O," I thought sincerely, "it's a melancholy great – furthermore, <br>        Removing doubt, this explains 'nevermores' ". </p>
+<p>Seizing just that moment to sit – closely, carefully, advancing beside it, <br>    Sinking down, intrigued, where velvet cushion lay afore. <br>A creature, midnight-black, watched there – it studied my soul, unawares. <br>    Wherefore, explanations my insight entreated for. <br>        Silently, I pondered the "nevermores". </p>
+<p>"Disentangle, nefarious bird! Disengage – I am disturbed!" <br>    Intently its eye burned, raising the cry within my core. <br>"That delectable Lenore – whose velvet pillow this was, heretofore, <br>    Departed thence, unsettling my consciousness therefore. <br>        She's returning – that maiden – aye, nevermore." </p>
+<p>Since, to me, that thought was madness, I renounced continuing sadness. <br>    Continuing on, I soundly, adamantly forswore: <br>"Wretch," (addressing blackbird only) "fly swiftly – emancipate me!" <br>    "Respite, respite, detestable raven – and discharge me, I implore!" <br>        A ghostly answer of: "nevermore". </p>
+<p>" 'Tis a prophet? Wraith? Strange devil? or the ultimate evil?" <br>    "Answer, tempter-sent creature!", I inquired, like before. <br>"Forlorn, though firmly undaunted, with 'nevermores' quite indoctrinated, <br>    Is everything depressing, generating great sorrow evermore? <br>        I am subdued!", I then swore. </p>
+<p>In answer, the raven turned – relentless distress it spurned. <br>    "Comfort, surcease, quiet, silence!" – pleaded I for. <br>"Will my (abusive raven!) sorrows persist unabated? <br>    Nevermore Lenore respondeth?", adamantly I encored. <br>        The appeal was ignored. </p>
+<p>"O, satanic inferno's denizen — go!", I said boldly, standing then. <br>    "Take henceforth loathsome "nevermores" – O, to an ugly Plutonian shore! <br>Let nary one expression, O bird, remain still here, replacing mirth. <br>    Promptly leave and retreat!", I resolutely swore. <br>        Blackbird's riposte: "nevermore". </p>
+<p>So he sitteth, observing always, perching ominously on these doorways. <br>    Squatting on the stony bust so untroubled, O therefore. <br>Suffering stark raven's conversings, so I am condemned, subserving, <br>    To a nightmare cursed, containing miseries galore. <br>        Thus henceforth, I'll rise (from a darkness, a grave) — nevermore! </p>
+<p>                        — original: E. Poe <br>                        — Redone by measuring circles.</p>
+</blockquote>
+<p><strong>Lipogram</strong><br>    看看下面这句话有什么问题？<br>
+</p>
+<blockquote>This is an unusual paragraph. I'm curious how quickly you can find out what is so unusual about it. It looks so plain you would think nothing was wrong with it! In fact, nothing is wrong with it! It is unusual though. Study it, and think about it, but you still may not find anything odd. But if you work at it a bit, you might find out! Try to do so without any coaching!</blockquote>
+<p>    答案：这段话里竟然没有一个字母e ！<br>    Lipogram就是指的这样一个段落（甚至文章），里面缺少某个常用的字母。在所有的Lipogram中，写一个没有字母e的文章是最难的，因为字母e出现的频率最高。<br>    看一个比较长的Lipogram。下面这篇文章里硬是没有一个字母e！</p>
+<blockquote>
+<p>Looking at this paragraph with confusion? I'll aid you slightly. Is any odd gap, lacuna or omission obvious to you? Got it now? No?</p>
+<p>That's right – this is a lipogram – a book, paragraph or similar thing in writing that lacks a symbol, particularly (but not always) that symbol fifth in rank out of our 26 script-signs (found amidst 'd' and 'f'), which stands for a sound such as that in 'kiwi'. I won't bring it up right now, to avoid spoiling it. I could play with lipograms morning, noon and night. So it is with joy that I submit to you this location – truly, a loquacious location – for lipogram fanatics to join as a unit to glorify this form of wordplay.</p>
+<p>As far as I know, this location has a distinct honour: it contains such an abundant quantity of words without using this taboo glyph that no WWW location can outmatch it. As of right now, it contains 1500 words without any hint of that symbol. Naturally, many long lipograms abound in print, including books, rhyming stanzas, and similar works of fiction. Most notably, La Disparition (A Void) by a famous author of a writing group known as Oulipo, stands out as a paragon of lipogrammaticity. I cannot aim to surpass it, but as a fan, I can look upon it with admiration.</p>
+<p>Writing lipograms is, as you might think, a difficult task. In my lingo, 2/3 of all words contain that symbol which I am now avoiding, including many common pronouns and similar words commonly found in writing. Without using abbrvs., slang and odd jargon, which most purists scorn as cop-outs, it's darn tough to impart information in a stylistically satisfying way. Stripping paragraphs of particular symbols has a way of making looking at lipograms jarring. No doubt about it, a lipogram is a particularly arduous form of wordplay.</p>
+<p>Having said this, acquiring a knack for lipogram composition isn't that hard, and may assist you in your non-lipogrammatic writing. Not to say that I'm without aid in this activity; my dictionary is always handy, as is a book with synonyms for words. And, notwithstanding any drawbacks flowing from passing many an hour looking for unusual ways to say ordinary things, it might aid your socialization skills. Chicks truly dig lipogrammatists, or so my old lady says.</p>
+<p>Sadly, a handful of critics find lipograms ridiculous, ugly or without worth (as fiction or as wordplay). To such sorry saps, I say only that in constraining your thoughts and writing in a particular way aids in promoting branching paths of thought, thus amplifying vocabulary and instilling adroit linguistic skills among both young and old. By putting into praxis ways of thinking that wouldn't occur normally, lipograms call for authors to look at writing as an activity in ways that, frankly, wouldn't occur to such niggling adjudicators of linguistic conduct.</p>
+<p>Withholding a symbol found in so many words has drastic symptoms that disallow many topics of discussion. (From this point on, I'll stick to talking about that sign I'm skipping right now). Using math is almost an impossibility; you can only main<br>
+tain 15 of all non-digital words for cardinal quantity up to 100, and hardly any at all past that point, though using digits is a good way out. You can go north or south, but talking about circumnavigating our world latitudinally is an impossibility. How can I possibly talk about various kinds of malt liquor, or parts of my body, without it? To top it all off, as an Anglo, strict prohibitions apply to naming of my own form of linguistic communication. I ought to thank my lucky stars that I'm not writing in lipogrammatic français, though, which holds on to only an octal portion of its original vocabulary.</p>
+<p>But all is not lost. Surprisingly, profanity is mostly intact. As a practicing lipogrammatist, you'll find you want many such words, for it is a task so awkward as to call for cussing and cursing on a normal basis. A world map is truly a blissful oasis; my country (Canada) is totally satisfactory, as with most toponyms for nations (111 out of 186, by my count); with a bit of work, USA, UK, and so on, can still show up, and with twin island nations Trinidad and Tobago and Antigua and Barbuda (both with 17 glyphs) topping my list for prolongation. Musicians (particularly classical artists), astonishingly, hold firm as topics of discussion, with Bach, Bartok, Brahms, Chopin, Dvorak, Haydn, Holst, Liszt, Mozart, orff, Puccini, Rachmaninov, Rossini, Scarlatti, Schumann, Strauss, Stravinsky, Tchaikovsky and Vivaldi void of my lost non-consonant.</p>
+<p>An additional branch of family Lipogrammatica consists of univocalics. This form of wordplay is akin to a lipogram, but contains a solitary sign that's not a consonant. To wit, a univocalic might omit 'a', 'i', 'o', and 'u' (but what about 'y'?). A univocalic has a sonorant quality that a lipogram lacks, so you must look at a lipogram, but contrarily, a univocalic is both auditory and visual, and has a strong sound if said aloud. Univocalic writing is hard to pull off, but if it's good, its payoff is gigantic.</p>
+</blockquote>
+<p>另外推荐本Blog里的两个相关内容：<br>http://www.matrix67.com/blog/article.asp?id=104<br>http://www.matrix67.com/blog/article.asp?id=173</p>
+<p>Matrix67收集整理<br>转贴请注明出处</p>
+			 ]]></content>
+<pubDate>2007-08-15T01:41:25+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/290</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 数学笑话之“饼干之争” ]]></title>
+<link>http://www.matrix67.com/blog/archives/291</link>
+<content><![CDATA[ 
+		<p>一位国外的数学爱好者在某个超市的货架上发现了这样有趣的一幕：</p>
+<div align="center"><img alt="image placeholder" >
+			 ]]></content>
+<pubDate>2007-08-15T17:18:41+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/291</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 神奇的分形艺术（四）：Julia集和Mandelbrot集 ]]></title>
+<link>http://www.matrix67.com/blog/archives/292</link>
+<content><![CDATA[ 
+		<p>    考虑函数f(z)=z^2-0.75。固定z0的值后，我们可以通过不断地迭代算出一系列的z值：z1=f(z0), z2=f(z1), z3=f(z2), …。比如，当z0 = 1时，我们可以依次迭代出：</p>
+<p>z1 = f(1.0) = 1.0^2 – 0.75 = 0.25<br>z2 = f(0.25) = 0.25^2 – 0.75 = -0.6875<br>z3 = f(-0.6875) = (-0.6875)^2 – 0.75 = -0.2773<br>z4 = f(-0.2773) = (-0.2773)^2 – 0.75 = -0.6731<br>z5 = f(-0.6731) = (-0.6731)^2 – 0.75 = -0.2970<br>…</p>
+<p>    可以看出，z值始终在某一范围内，并将最终收敛到某一个值上。<br>    但当z0=2时，情况就不一样了。几次迭代后我们将立即发现z值最终会趋于无穷大：</p>
+<p>z1 = f(2.0) = (2.0)^2 – 0.75 = 3.25<br>z2 = f(3.25) = (3.25)^2 – 0.75 = 9.8125<br>z3 = f(9.8125) = (9.8125)^2 – 0.75 = 95.535<br>z4 = f(95.535) = (95.535)^2 – 0.75 = 9126.2<br>z5 = f(9126.2) = (9126.2)^2 – 0.75 = 83287819.2<br>…</p>
+<p>    经过计算，我们可以得到如下结论：当z0属于[-1.5, 1.5]时，z值始终不会超出某个范围；而当z0小于-1.5或大于1.5后，z值最终将趋于无穷。<br>    现在，我们把这个函数扩展到整个复数范围。对于复数z0=x+iy，取不同的x值和y值，函数迭代的结果不一样：对于有些z0，函数值约束在某一范围内；而对于另一些z0，函数值则发散到无穷。由于复数对应平面上的点，因此我们可以用一个平面图形来表示，对于哪些z0函数值最终趋于无穷，对于哪些z0函数值最终不会趋于无穷。我们用深灰色表示不会使函数值趋于无穷的z0；对于其它的z0，我们用不同的颜色来区别不同的发散速度。由于当某个时候|z|&gt;2时，函数值一定发散，因此这里定义发散速度为：使|z|大于2的迭代次数越少，则发散速度越快。这个图形可以编程画出。和上次一样，我用Pascal语言，因为我不会C的图形操作。某个MM要过生日了，我把这个自己编程画的图片送给她^_^</p>
+<p><code>{$ASSERTIONS+}</code></p>
+<p>uses graph;</p>
+<p>type<br>   complex=record<br>      re:real;<br>      im:real;<br>   end;</p>
+<p>operator * (a:complex; b:complex) c:complex;<br>begin<br>   c.re := a.re*b.re - a.im*b.im;<br>   c.im := a.im*b.re + a.re*b.im;<br>end;</p>
+<p>operator + (a:complex; b:complex) c:complex;<br>begin<br>   c.re := a.re + b.re;<br>   c.im := a.im + b.im;<br>end;</p>
+<p>var<br>   z,c:complex;<br>   gd,gm,i,j,k:integer;<br>begin<br>   gd:=D8bit;<br>   gm:=m640x480;<br>   InitGraph(gd,gm,'');<br>   Assert(graphResult=grOk);</p>
+<p>   c.re:=-0.75;<br>   c.im:=0;<br>   for i:=-300 to 300 do<br>   for j:=-200 to 200 do<br>   begin<br>      z.re:=i/200;<br>      z.im:=j/200;<br>      for k:=0 to 200 do<br>      begin<br>         if sqrt(z.re*z.re + z.im*z.im) &gt;2 then break<br>         else z:=(z*z)+c;<br>      end;<br>      PutPixel(i+300,j+200,k)<br>   end;</p>
+<p>   readln;<br>   CloseGraph;<br>end.</p>
+<p>    代码在Windows XP SP2，FPC 2.0下通过编译，麻烦大家帮忙报告一下程序运行是否正常（上次有人告诉我说我写的绘图程序不能编译）。在我这里，程序运行的结果如下：
+</p>
+<div align="center"><img alt="image placeholder" >
+<p>    这个美丽的分形图形表现的就是f(z)=z^2-0.75时的Julia集。考虑复数函数f(z)=z^2+c，不同的复数c对应着不同的Julia集。也就是说，每取一个不同的c你都能得到一个不同的Julia集分形图形，并且令人吃惊的是每一个分形图形都是那么美丽。下面的六幅图片是取不同的c值得到的分形图形。你可能不相信这样一个简单的构造法则可以生成这么美丽的图形，这没什么，你可以改变上面程序代码中c变量的值来亲自验证。</p>
+<p>c = 0.45, -0.1428<br>   <img alt="image placeholder" >
+<p>c = 0.285, 0.01<br>   <img alt="image placeholder" >
+<p>c = 0.285, 0<br>   <img alt="image placeholder" >
+<p>c = -0.8, 0.156<br>   <img alt="image placeholder" >
+<p>c = -0.835, -0.2321<br>   <img alt="image placeholder" >
+<p>c = -0.70176, -0.3842<br>   <img alt="image placeholder" >
+<p>    类似地，我们固定z0=0，那么对于不同的复数c，函数的迭代结果也不同。由于复数c对应平面上的点，因此我们可以用一个平面图形来表示，对于某个复数c，函数f(z)=z^2+c从z0=0开始迭代是否会发散到无穷。我们同样用不同颜色来表示不同的发散速度，最后得出的就是Mandelbrot集分形图形：<br>    <img alt="image placeholder" >
+<p>    前面说过，分形图形是可以无限递归下去的，它的复杂度不随尺度减小而消失。Mandelbrot集的神奇之处就在于，你可以对这个分形图形不断放大，不同的尺度下你所看到的景象可能完全不同。放大到一定时候，你可以看到更小规模的Mandelbrot集，这证明Mandelbrot集是自相似的。下面的15幅图演示了Mandelbrot集的一个放大过程，你可以在这个过程中看到不同样式的分形图形。
+</p>
+<div align="center"><img alt="image placeholder" >
+<p>
+</p>
+<div align="center"><img alt="image placeholder" >
+<p>
+</p>
+<div align="center"><img alt="image placeholder" >
+<p>
+</p>
+<div align="center"><img alt="image placeholder" >
+<p>
+</p>
+<div align="center"><img alt="image placeholder" >
+<p>网上可以找到很多小程序实现Mandelbrot集的放大过程。把上面给出的代码改一改，你也可以写出一个这样的程序来。</p>
+<p>Update：2011 年 8 月 31 日，我对这个话题做了更进一步的讨论 <a href="http://www.matrix67.com/blog/archives/4570">http://www.matrix67.com/blog/archives/4570</a></p>
+			 ]]></content>
+<pubDate>2007-08-17T12:55:31+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/292</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Geek的桌面怪物：脑袋跟着你转动的龙 ]]></title>
+<link>http://www.matrix67.com/blog/archives/297</link>
+<content><![CDATA[ 
+		<div align="center"><img alt="image placeholder" >
+<p>    MM的书桌上往往会放上一些可爱的小玩意儿来点缀一下，那男生的书桌上应该放些什么东西呢？答案是：一个能带给人错觉的手工制作。这是很早以前就在网上流行的手工制作，做出来的东西可以带给人一种奇特的视觉效果，被很多Blogger誉为有史以来“最酷的错觉”。我很早就想尝试一下，但一直懒得花钱出去彩印。昨天买了一台打印机，第一件事就是把保留了很久的制作图纸打印出来。<br>    做好后，把它放在一个固定的位置，然后不断移动观察点，从不同的角度去看那条龙。你会发现，龙的脑袋竟然会跟着你转动！当然，这只是一个错觉。这条龙完全是纸制的，不可能自己转动。刚才有人说视频不清晰，现在更换视频版本：</p>
+<p><embed src="http://union.bokecc.com/flash/player.swf?videoID=27994_692867&amp;autoStart=false&amp;share=true" width="438" height="387" type="application/x-shockwave-flash"></embed></p>
+<p>    想自己动手做一个吗？制作方法非常简单。把下面的图片打印出来，贴在硬纸板上，然后按照图纸上的提示进行操作。特别注意一下头部的折叠方向，图纸上没有写错，请严格按照图纸上的标注进行操作。下面这些小技巧可以增强视觉效果：站在远处，闭上一直眼；避免光源集中，最好在自然光线下进行观察。<br>    图片地址：http://www.matrix67.com/blogimage/200708262.jpg</p>
+			 ]]></content>
+<pubDate>2007-08-26T13:46:13+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/297</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣题：单位正方形内相互分离的两个小正方形，其边长和小于1 ]]></title>
+<link>http://www.matrix67.com/blog/archives/300</link>
+<content><![CDATA[ 
+		<p>  <img alt="image placeholder" >
+<p>  <img alt="image placeholder" >
+			 ]]></content>
+<pubDate>2007-08-30T17:09:13+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/300</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Tupper自我指涉公式：图象里竟然包含式子本身 ]]></title>
+<link>http://www.matrix67.com/blog/archives/301</link>
+<content><![CDATA[ 
+		<p>    你认为，一个函数图象里是否有可能包含这个函数本身的“图象”？难以置信的是，还真有人构造了这样一个东西。2001年，Jeff Tupper发表的一篇论文里提到了这样一个有趣的不等式：<br>  <img alt="image placeholder" >
+<p>其中，n = 96093937991895888497167296212785275471500433966012930665150551927170280239526642<br>46896428421743507181212671537827706233559932372808741443078913259639413377234878<br>57735749823926629715517173716995165232890538221612403238855866184013235585136048<br>82869333790249145422928866708109618449609170518345406782773155170540538162738096<br>76025656250169814820834187831638491155902256100036523513703438744618483787372381<br>98224849863465033159410054974700593138339226497249461751545728366702369745461014<br>655997933798537483143786841806593422227898388722980000748404719</p>
+<p>    你会觉得这个很神奇吗？你也许会想，天哪，这个是怎么构造出来的啊！但仔细思考之后，你会发现这个一点都不神奇。事实上明白了道理之后你可以构造出无数个这样的式子来。现在给你一些时间让你思考一下，你能否看出其中的奥秘？</p>
+<p>    就像魔术揭秘一样，说穿了真相后上面的这些东西就一点意思都没有了。在这个式子里，涉及到x和y的变量时都加上了取整符号，因此整个图象都是一格一格的。这样，不等式右边的式子就简化为y div 17 * 2^(-17x – y mod 17) mod 2，其中x和y都为整数。接着观察，一个数乘以2的负k次方相当于对应的二进制数右移k位，那么x * 2^(-k) mod 2实质上就是二进制数x右起第k位上的数字。对于某个自然数t，当17t &lt;= y &lt; 17(t+1)时，指数-17x – y mod 17恰好对应所有的负整数，于是位于y=17t和y=17t+16之间的图象的每个像素和t的二进制中的每一位数字一一对应。随着t值的增加，图形的像素会一点一点地变化。当纵坐标足够大时，必然会出现一段高度为17的图象，图象的样子和不等式本身的样子相同。当然，你也可以在里面“找到”任何你想要的图象，只需要把图象还原为二进制数并转换为十进制即可。你甚至可以告诉你的MM，说你发现了一个函数，函数在某个位置的图象正好是某某某我爱你的字样。</p>
+<p>Matrix67原创<br>转贴请注明出处<br>最近发现了一些很不厚道的人，希望大家注意哦！</p>
+			 ]]></content>
+<pubDate>2007-08-31T10:52:37+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/301</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 一段极具创意的视频：《机器人故事》片头动画 ]]></title>
+<link>http://www.matrix67.com/blog/archives/302</link>
+<content><![CDATA[ 
+		<p>    前几年有一个电影叫做<a target="_blank" href="http://www.imdb.com/title/tt0301777/">Robot Stories</a>，讲述有关机器人与人的四个独立的小故事。记得当时《科幻世界》上曾对这个电影有过介绍。下面这段视频是电影的片头动画，非常有意思：</p>
+<p><embed src="http://union.bokecc.com/flash/player.swf?videoID=27994_714624&amp;autoStart=false&amp;share=true" width="438" height="387" type="application/x-shockwave-flash"></embed>。</p>
+			 ]]></content>
+<pubDate>2007-09-01T05:30:51+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/302</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣题：用最简单的话来描述一个集合 ]]></title>
+<link>http://www.matrix67.com/blog/archives/304</link>
+<content><![CDATA[ 
+		<p>    定义f(n)的值为将n拆分成若干个2的幂的和，且其中每个数字出现的次数不会超过两次的方案数。规定f(0)=1。<br>    例如，有5种合法的方案可以拆分数字10：1+1+8, 1+1+4+4, 1+1+2+2+4, 2+4+4 和 2+8。因此，f(10)=5。<br>    请用一句最简单的话来描述集合{ f(n)/f(n-1) }。证明你的结论。</p>
+<p>    注意：答案远比一个递归公式来得精辟，来得巧妙。如果你发现了我们的结论，你会一眼认定它为正确答案。</p>
+<p>    答案：数列{ f(n)/f(n-1) }以最简形式包含了所有的正有理数。</p>
+<p>    如果n是奇数（等于2m+1），那么数字1（即2^0）必须出现且只能出现一次。现在的问题就是，2m的拆分方案中有多少个方案不含数字1呢？稍作思考你会立即发现，它就等于f(m)，因为m的所有拆分方案的所有数都乘以2后正好与不含1的2m拆分方案一一对应。因此，f(2m+1) = f(m)<br>    如果n是偶数（等于2m），那么数字1要么没有出现，要么恰好出现两次。对于前一种情况，我们有f(m)种可能的方案；第二种情况则有f(m-1)种方案。因此，f(2m) = f(m) + f(m-1)<br>    另外，显然f(k)都是正数。于是，f(2k-1) = f(k-1) &lt; f(k-1)+f(k) = f(2k)<br>    这样，我们可以得到以下三个结论：</p>
+<p>    结论1：gcd( f(n),f(n-1) ) = 1<br>    证明：对n进行数学归纳。显然gcd( f(1),f(0) ) = gcd(1,1) = 1<br>    假设对于所有小于n的数结论都成立。根据n的奇偶性，下面两式中必有一个成立：<br>    gcd( f(n),f(n-1) ) = gcd( f(2m+1),f(2m) ) = gcd( f(m), f(m)+f(m-1) ) = gcd( f(m),f(m-1) ) = 1<br>    gcd( f(n),f(n-1) ) = gcd( f(2m),f(2m-1) ) = gcd( f(m)+f(m-1), f(m-1) ) = gcd( f(m),f(m-1) ) = 1</p>
+<p>    结论2：如果f(n+1)/f(n) = f(n'+1)/f(n')，那么n=n'<br>    证明：还是数学归纳法。当max(n,n')=0时结论显然成立，因为此时n=n'=0。<br>    假如对于所有小于n的数结论都成立。由于f(2k-1)&lt;f(2k)，那么要想f(n)/f(n-1) = f(n')/f(n'-1)，n与n'的奇偶性必须相同，于是可以推出f(m)/f(m-1) = f(m')/f(m'-1)，根据归纳我们有m=m'，这就告诉我们n=n'。</p>
+<p>    结论3：对于任何一个有理数r，总存在一个正整数n使得r=f(n)/f(n-1)。<br>    证明：把r写成两个互素的数p和q的比。我们对max(p,q)施归纳。<br>    显然，当p=q=1时结论成立，此时n=1。<br>    不妨设p&lt;q，那么定义r'为p/(q-p)。根据归纳假设，总存在一个数m满足r'=f(m)/f(m-1)。于是r=f(2m+1)/f(2m)。当p&gt;q时同理可证明。</p>
+<p>做人要厚道<br>转贴请注明出处</p>
+			 ]]></content>
+<pubDate>2007-09-06T11:03:47+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/304</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 推荐视频：神奇的大脑 之 三个错觉演示 ]]></title>
+<link>http://www.matrix67.com/blog/archives/305</link>
+<content><![CDATA[ 
+		<p>    很多人问我<a target="_blank" href="http://www.matrix67.com/blog/article.asp?id=346">这篇日志</a>和<a target="_blank" href="http://www.matrix67.com/blog/article.asp?id=255">这篇日志</a>里的东西的原理。下面这个视频非常有趣，里面有两个看似真实的不可能立方体，其中奥秘就是前面提到的两篇日志的错觉原理。</p>
+<p><embed src="http://union.bokecc.com/flash/player.swf?videoID=27994_734254&amp;autoStart=false&amp;share=true" width="438" height="387" type="application/x-shockwave-flash"></embed></p>
+<p>    youtube链接：http://www.youtube.com/watch?v=WvVfcyVCdNA</p>
+			 ]]></content>
+<pubDate>2007-09-06T18:34:11+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/305</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 数学推导之Sex is fun完整版 ]]></title>
+<link>http://www.matrix67.com/blog/archives/307</link>
+<content><![CDATA[ 
+		<p><img alt="image placeholder" >
+<p>现在，我想和MM have fun……<br>欢迎大家踊跃报名，无经验者优先:)</p>
+			 ]]></content>
+<pubDate>2007-09-11T22:26:30+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/307</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 聆听函数的声音：Mathematica的声音函数试验 ]]></title>
+<link>http://www.matrix67.com/blog/archives/308</link>
+<content><![CDATA[ 
+		<p>     <img alt="image placeholder" >
+<p>=================== 我是可爱的分割线 ===================</p>
+<p>    上面的例子中，4000表示函数的周期大小，也就是声音的音调高低。把4000改成8000，你可以听到音调更高的声音：<br><code>Play[Sin[8000 t], {t, 0, 2}]</code></p>
+<p>    函数的形状决定了音色。对于不同的周期函数，声音是不一样的。试试下面三个不同的函数：<br><code>Play[Sin[5000 t], {t, 0, 2}]<br>Play[Tan[5000 t], {t, 0, 2}]<br>Play[Mod[5000 t, 50], {t, 0, 2}]</code></p>
+<p>    如果我们的函数不是周期函数呢？记得一次音乐课上，老师曾经告诉过我们音乐和噪声的区别。<br><code>Play[Random[], {t, 0, 2}]</code></p>
+<p>=================== 我是可爱的分割线 ===================</p>
+<p>    音量的大小由振幅来控制，说穿了就是函数值的大小。运行下面三条语句，你会发现函数竟然可以用声音如此形象地表现出来。你甚至可以让别人根据音量变化来猜你放的是什么函数。<br><code>Play[Sin[4000t] t, {t, 0, 2}]<br>Play[Sin[4000t] t^2, {t, 0, 2}]<br>Play[Sin[4000t] Log[t], {t, 0, 2}]<br>Play[Sin[4000t] Sin[8t], {t, 0, 2}]<br>Play[Sin[4000t] Mod[t,0.4], {t, 0, 2}]</code></p>
+<p>     <img alt="image placeholder" >
+<p>    在运行下面的语句前，你可以先自己想象一下每个函数对应的声音是什么样子的：<br><code>Play[Sin[5000/t], {t, 0, 2}]<br>Play[Sin[5000 * Sqrt[t]], {t, 0, 2}]<br>Play[Sin[5000 * Sin[4t]], {t, 0, 2}]<br>Play[Sin[2000 t * Sin[8t]], {t, 0, 2}]</code></p>
+<p>=================== 我是可爱的分割线 ===================</p>
+<p>    两个函数相加的结果是什么？下面两个例子分别是二次函数加正弦函数，与倒数函数加噪声。你可以立即观察到，函数的相加即声音的相加。<br><code>Play[Sin[5000 (t-1)^2] + Sin[5000 * Sin[4t]], {t, 0, 2}]<br>Play[Sin[5000/t] + Random[], {t, 0, 2}]</code><br>    我们还可以举一些其它的例子来说明这种现象。比如，Sin[5000t]和Cos[5000t]的声音肯定是一样的，那么函数Sin[5000t] + Cos[5000t]的周期一定与原来相同，只是振幅更大。<br>     <img alt="image placeholder" >
+<p>    再看下面的这个例子。同样是函数的相加，为什么这次只能听见mod函数的声音，但听不见正弦函数的声音呢？<br><code>Play[Sin[5000 t] + Mod[5000 t, 50], {t, 0, 2}]</code><br>    原因很简单。上面两个函数中，mod函数的振幅更大，因此它的声音远远大于sin函数的声音，于是sin函数只能淹没在mod的嘈杂声中。如果把sin函数乘上一个系数50，两个函数的声音就一样大了：<br><code>Play[50 * Sin[5000 t] + Mod[5000 t, 50], {t, 0, 2}]</code></p>
+<p>    把倒数函数与噪声的五分之一相加，得到的就是一个带有轻微噪声的“倒数函数声”。<br><code>Play[Sin[5000/t] + Random[]/5, {t, 0, 2}]</code></p>
+<p>=================== 我是可爱的分割线 ===================</p>
+<p>    当然，声音可以相加，也就可以相减。对于多种函数的混音，减去一个特定的函数可以从混音中踢去对应的声音。电影里经常会出现这样一些镜头，侦探们用电脑消去截获的音频中特定的背景声音。从函数的角度来看，这样的事情在理论上是可行的。比如，你偷偷摸摸录下了你的MM和她的前男友的谈话，但最关键的那段谈话声被一个突如其来的电话铃声盖住了。现在，你只需要获取一个电话铃声的样本，然后从原始声音中减去电话铃声即可。而电话铃声是非常简单的波函数，你完全可以自己生成一个。科幻电影中也经常见到一些类似的事情：某超级BOSS制造出的秘密武器可以放射有害波函数f(x)，然后天才科学家们争分夺秒地制作并发射出-f(x)函数，企图和有害波正负抵消，把它中和了。在五花八门的波函数中加入一个-f(x)，实际上就相当于从“混合波”中减去f(x)。<br>    前几天给系里的MM找迎新晚会用的音乐伴奏时突然想到了一个有趣的问题：是否有可能在某个歌曲的原声和自己的清唱之间做差值运算？这在理论上提供了一个有趣的消音算法，和一个同样有趣的翻唱相似度评判标准（看差值里残留有多少人声）。</p>
+<p>=================== 我是可爱的分割线 ===================</p>
+<p>    不要以为函数声音都那么难听，掌握适当的理论知识和技巧可以做出动听的声音。Mathematica的官方网站上有一个简单而动听的声音函数，这里写出来供大家欣赏：<br><code>Play[(2 + Cos[50 t])*Sin[2000*(1 + Round[2 t])*t], {t, 0, 3}]</code></p>
+<p>Matrix67原创<br>转贴请注明出处<br>第一次涉及这方面的东西，很多东西都是自己的猜测，可能有理论错误，请大家指正！<br>同时，期待大家通过Mathematica试验发现更多有趣的推论。</p>
+			 ]]></content>
+<pubDate>2007-09-15T11:22:28+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/308</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 2007年解谜游戏设计大赛作品 ]]></title>
+<link>http://www.matrix67.com/blog/archives/309</link>
+<content><![CDATA[ 
+		<p>    今年的<a target="_blank" href="http://www.johnrausch.com/DesignCompetition/2007/default.htm">解谜游戏设计比赛</a>(Puzzle Design Competition)作品目录已经出炉，我从里面挑选了一些比较有意思的玩意儿和大家分享一下。更多的作品（共55个）可以在上面的那个链接里看到。</p>
+<p><strong>Baby Duck Case</strong><br><img alt="image placeholder" >
+<p><strong>Cheese and Mouse</strong><br><img alt="image placeholder" >
+<p><strong>Cubature of the Ball</strong><br><img alt="image placeholder" >
+<p><strong>Digits in a Box</strong><br><img alt="image placeholder" >
+<p><strong>Forest Puzzle</strong><br><img alt="image placeholder" >
+<p><strong>Magnetic Super Dice</strong><br><img alt="image placeholder" >
+<p><strong>Void Cube</strong><br><img alt="image placeholder" >
+			 ]]></content>
+<pubDate>2007-09-17T23:26:20+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/309</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Flatland电影版！关于一个二维世界中的哥白尼 ]]></title>
+<link>http://www.matrix67.com/blog/archives/310</link>
+<content><![CDATA[ 
+		<p>    Flatland是一部巨经典的科学幻想小说，小说里构造了一个全新的世界──这个世界是二维的！整个小说分成两个部分，前一部分系统地描述这个二维世界，包括自然状况、居民生活、政治历史等等。真正有趣的事情发生在后一部分里，这里不同维度的世界之间发生了碰撞——二维世界中的主人公拜访了一维世界，同时又接触到了一个全新的三维世界。当他在他的世界传播三维思想时，整个世界大乱，哥白尼时代的那段故事再次发生。<br>    Flatland: The Movie是由此改编的一个动画短片，整个电影大约30分钟。官方网站上已经放出了电影的预告片，看起来非常有意思：</p>
+<p><embed src="http://union.bokecc.com/flash/player.swf?videoID=27994_776485&amp;autoStart=false&amp;share=true" width="438" height="387" type="application/x-shockwave-flash"></embed></p>
+<p>下面是一个两分多钟的片段：</p>
+<p><embed src="http://union.bokecc.com/flash/player.swf?videoID=27994_776499&amp;autoStart=false&amp;share=true" width="438" height="387" type="application/x-shockwave-flash"></embed></p>
+<p>原版小说：http://xahlee.org/flatland/index.html<br>陈忱译《神奇的二维国》：http://www.matrix67.com/data/flatland.html<br>官方网站：http://flatlandthemovie.com/<br>imdb链接：http://www.imdb.com/title/tt0814106/</p>
+<p>现在，你可以在官方网站上订购学校教育专用的特别版DVD，价格是120美元；30美元的个人版DVD还要过几个月才能订购。</p>
+			 ]]></content>
+<pubDate>2007-09-18T13:27:20+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/310</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣题：内切圆与最大内接矩形 ]]></title>
+<link>http://www.matrix67.com/blog/archives/312</link>
+<content><![CDATA[ 
+		<p>      <img alt="image placeholder" >
+<p>      <img alt="image placeholder" >
+<p><span style="font-family:宋体">△ABC     a      b      c<br>△EDC    ka     kb     kc<br>△AEF    …    …  (1-k)b<br>△DBG    …    …  (1-k)a</span></p>
+<p>    现在，我们要证明的是，当矩形DEFG面积达到最大时，有：<br>  [(1-k)a]^2 + [(1-k)b]^2 = (kc)^2</p>
+<p>    也即<br>  (1-k)^2 * a^2 + (1-k)^2 * b^2 = k^2 * c^2</p>
+<p>    同时，我们还知道a^2 + b^2 = c^2。等式两边同时乘以k^2后与上式相减，我们就得到：<br>  (1 – 2k) * (a^2 + b^2) = 0</p>
+<p>    显然，只有k=1/2时上式才有可能成立。<br>    接着看，由△DBG ∽ △ABC，可知 DG/AC = BD/AB，因此DG = (1-k)ab/c。另外，我们还知道DE=kc，那么矩形DEFG的面积就可以这样表示：<br>  S = DG x DE = (1-k)k * ab</p>
+<p>    S取最大等价于函数f(k)=(1-k)k达到最大值。这个函数是一个以0和1为根的上下颠倒的抛物线，显然在k=1/2时达到最大值。</p>
+<p>来源：<a target="_blank" href="http://www.cut-the-knot.org/pythagoras/PythRectSangaku.shtml">cut-the-knot新文</a><br>Matrix67原创翻译</p>
+			 ]]></content>
+<pubDate>2007-09-23T11:23:05+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/312</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣题：等腰直角三角形与勾股定理形式的条件 ]]></title>
+<link>http://www.matrix67.com/blog/archives/314</link>
+<content><![CDATA[ 
+		<p>    <img alt="image placeholder" >
+<p>    <img alt="image placeholder" >
+<p>来源：<a target="_blank" href="http://www.cut-the-knot.org/Curriculum/Geometry/Projective45.shtml">cut-the-knot新文</a><br>Matrix67原创翻译</p>
+			 ]]></content>
+<pubDate>2007-09-24T00:00:38+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/314</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 将杠杆原理发挥到极致！硬币堆叠图片赏 ]]></title>
+<link>http://www.matrix67.com/blog/archives/317</link>
+<content><![CDATA[ 
+		<div align="center"><img alt="image placeholder" >
+<p>    记得初三物理竞赛的一道经典题目就是，给你N本大小相同的书（不同的版本：砖头、多米诺骨牌），问你在书桌的边沿处重叠起来最多可以伸出桌面多远。这是典型的杠杆原理题目，只是没有把杠杆原理发挥到极致罢了。<br>    下面的所有图片都来自<a target="_blank" href="http://www.fincher.org/CoinStacking/">这个站点</a>。</p>
+<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >
+<p>    我们立即会提出一系列有趣的问题，比如按照某种规则最多可以重叠多少硬币，可以伸出桌面多远，搭出给定长度的桥至少需要多少硬币等等。正巧前不久看到了一篇讨论此问题的论文，这里做一个链接：<a target="_blank" href="http://www.arxiv.org/PS_cache/arxiv/pdf/0707/0707.0093v1.pdf">pdf文件, 1.20MB, 英文</a></p>
+			 ]]></content>
+<pubDate>2007-09-30T11:23:21+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/317</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 07年NOIp模拟赛by Matrix67 比赛已顺利结束 题目内容在此发布 ]]></title>
+<link>http://www.matrix67.com/blog/archives/320</link>
+<content><![CDATA[ 
+		<p><span style="color:blue">2007年10月5日，我举办了一次NOIp模拟赛。现在比赛已经顺利结束了，以下是这次比赛的题目</span></p>
+<p>题目一览<br><span style="font-family:宋体"><br>题目名称    Matrix67的情书（二）  送给MM的生日礼物   流言的传播         表白机器人<br>题目类型    传统                  传统               传统               传统<br>源文件名称  lovelttr.(pas/c/cpp)  gift.(pas/c/cpp)   rumor.(pas/c/cpp)  robot.(pas/c/cpp)<br>输入文件名  lovelttr.in           gift.in            rumor.in           robot.in<br>输出文件名  lovelttr.out          gift.out           rumor.out          robot.out<br>时间限制    1秒                   1秒                1秒                1秒<br>内存限制    64M                   64M                64M                64M<br>测试点      10个                  10个               10个               10个<br>分值        100分                 100分              100分              100分<br></span></p>
+<p><strong>Problem 1: lovelttr<br>Matrix67的情书（二）</strong></p>
+<p>问题描述<br>    28是一个很特别的数字。它是一个完全数，是一个三角形数，是前五个素数的和。天上有28星宿，人有28颗牙齿；土星绕太阳公转一周需要28年，从一只猴子的释放到整座城市的沦陷只需28天。当然，Matrix67偏爱这个数字是有原因的：这是一个关心MM身体和计算安全期都必须用到的数字。总之，Matrix67非常喜欢数字28，他甚至希望数字28能够出现在他给MM写的情书里。<br>    Matrix67的情书只由数字、大小写字母、空格、换行符和各种英文半角标点符号组成。除去所有其它的字符，仅保留文本中的数字和字母，则整个情书可以看作是一个36进制数。比如，句子“I Love you!”可以转化为1457771337246，因为(ILOVEYOU)36 = (1457771337246)10。Matrix67希望从情书中截取一个或若干个连续的句子，使得它所对应的十进制数能够被28整除。Matrix67希望知道他的情书中有多少个文本片段满足这样的条件。<br>    我们认为，只有句号、感叹号、问号三种符号才是句子结束的标志（当然整篇文章的结束也标志着最后一句话结束，即使文章最末尾没有任何标点符号）。Matrix67的情书里保证没有不能表示任何数字的“空句子”，即任意两个句子结束标志之间至少会出现一个数字或字母。</p>
+<p>输入数据<br>    输入数据是一篇合法的英文文章，包括英文大小写字母、数字、空格、回车和半角的标点符号。</p>
+<p>输出数据<br>    输出满足要求的文本片段个数。一个满足要求的文本片段是指一个或若干个连续的句子，将它们当作36进制后得到的数可以被28整除。</p>
+<p>样例输入</p>
+<p>I WILL SHOW YOU</p>
+<p>Yes, I am still amazed that I have you. It's still hard to understand how you chose me. How after just one short conversation you knew I was meant for you. But now I know the truth of your conviction. I've never been with someone who suited me so perfectly. You seduced me with your sexy body and strong spirit, and you've kept me with your tender heart. I know you that I can't have you completely and maybe not even for much longer. But I'm still happy. A part of you has become part of me and that is enough.</p>
+<p>You'll laugh when I say this, but I dream about you every night. Probably because I can't see you often enough. But when I'm awake I know that you are the furthest thing from a dream. Sometimes I imagine that you are built from solid rock: a moving statue and an indestructible human being. You absolutely contain yourself and then again much more than yourself. Your confidence is consuming and your perspective is huge. You have no place in your life for jealousy or complaints. My friends seem so small in comparison, with their problems always spilling over onto everyone else.</p>
+<p>I want you to know how much you've opened my eyes and helped me truly see myself. Until now, my life has been an undecided back-and-forth, and now I know that I've wasted too much time. But now my direction seems clear, and I have confidence in my future. The past doesn't seem to matter anymore. You've made me see possibilities I would never have imagined before.</p>
+<p>Yes, I want to please you. But it's through pleasing you that I'll become a better and stronger person. There is nothing I want more than to transform myself through you. You challenge me to grow beyond myself and leave my weaker self behind. I will show you how beautiful I can be, and I will show you how brilliant I can become. This way, I know I'll always have your love.</p>
+<p>Forever yours,</p>
+<p>Matrix67</p>
+<p>样例输出<br>6</p>
+<p>数据规模<br>    对于30%的输入数据，输入文件大小不超过50KB；<br>    对于100%的输入数据，输入文件大小不超过1MB。</p>
+<p><strong>Problem 2: gift<br>送给MM的生日礼物</strong></p>
+<p>问题描述<br>    10月11日是MM的生日，Matrix67打算自己DIY一些抱枕送给MM。Matrix67手中有一块矩形花布，花布分成了M x N个小格子，有些格子的花色相同，有些格子的花色不同。为了使最终成品更美观，Matrix67希望用于DIY的布匹都是正方形的，并且满足布匹花色上下对称且左右对称。为此，他希望能计算出这块花布里一共包含有多少个上下对称且左右对称的小正方形。<br>    举例来说，Matrix67手中的花布大小为6 x 4，上面共有5种花色：</p>
+<p>ABACDA<br>DCDEAA<br>ABABAA<br>DDCBBA</p>
+<p>    则这块布里一共有26个上下对称且左右对称的正方形，其中包括最左上角的3×3正方形、右边4个A组成的2×2正方形，当然还有24个1×1的小正方形。</p>
+<p>输入数据<br>    第一行输入两个用空格隔开的正整数M,N，表示Matrix67手中的格子布分为M行N列。<br>
+    以下M行每行N个字符，描述布匹的花色。我们用26个大写字母来区别不同的花色，相同的字母代表相同的花色，不同的字母代表不同的花色。</p>
+<p>输出数据<br>    输出在Matrix67的格子布中切出一块花色左右对称且上下对称的正方形共有多少种方案。</p>
+<p>样例输入<br>4 6<br>ABACDA<br>DCDEAA<br>ABABAA<br>DDCBBA</p>
+<p>样例输出<br>26</p>
+<p>数据规模<br>    对于30%的数据，M,N&lt;=10；<br>    对于100%的数据，M,N&lt;=200。</p>
+<p><strong>Problem 3: rumor<br>流言的传播</strong></p>
+<p>问题描述<br>    昨天下午，Matrix67陪MM出去逛街，走累了后去咖啡店歇了歇脚；再后来MM陪Matrix67去了一趟书店，之后两人去电影院看了一场电影。从电影院出来后已经很晚了，考虑到MM的安全问题，Matrix67先送MM回到宿舍，然后自己才回去。第二天Matrix67起床后发现问题严重了：昨天和MM出去玩本来什么都没发生，但现在一些不堪入耳的流言正疯狂传播，很多细节都说得有鼻子有眼的。在澄清事实并抓出元凶的同时，Matrix67希望切断一些流言传播的路径，尽可能减缓流言传播的速度。<br>    除去Matrix67和他的MM，学校里还有N个人。这N个人形成了M对双向的朋友关系，这些朋友关系连通了所有N个人。不同的朋友间传递消息的速度各不相同。如果A和B是第i对朋友，那么当其中一个人听到流言后，他会在Ti的时间内传给另一个人。现在，Matrix67只知道流言并没有传遍整个学校，但他不知道哪些人已经听说了这个流言。他希望切断尽可能少的朋友关系，使得无论是哪些人已经获知了流言，流言都无法以原来的速度传给一个新的人（即新的得知此流言的人的出现将变得更晚）。换句话说，Matrix67希望找到一个最小的边集E，使得对任意一个不等于全集的点集S，恰好只有一个顶点在S里的边中权值最小的那一条在边集E中。</p>
+<p>输入数据<br>    第一行输入两个用空格隔开的正整数N和M，分别表示学校的人数和朋友关系数。<br>    以下M行每行有三个用空格隔开的正整数，其中第i行的三个正整数为Ai, Bi, Ti，表示Ai和Bi是第i对朋友，它们之间传递消息需要Ti的时间。输入数据保证0&lt;Ai≠Bi&lt;=N，0&lt;Ti&lt;=2 000 000 000，且对任意i≠j都有Ti≠Tj。</p>
+<p>输出数据<br>    你需要输出你所得到的最小值和具体的方案。<br>    输出文件的第一行是一个正整数，代表你的最优方案中需要切断的朋友关系数。<br>    以下若干行每行一个正整数，表示你的方案里需要切断的朋友关系在输入数据中的编号（即你需要切断的是输入数据中给的第几条边）。这些数必须按照增序排列输出。<br>    如果有多种最优方案，你只需要输出其中一种即可。我们的评测系统会自动判断你的输出数据的正确性。</p>
+<p>样例输入<br>4 4<br>1 2 2<br>4 3 4<br>2 3 3<br>1 3 1</p>
+<p>样例输出<br>3<br>1<br>2<br>4</p>
+<p>样例说明<br><span style="font-family:宋体">               (1)<br>                o<br>               / <br>            1 /    2<br>             /     <br>(4) o——-o——-o (2)<br>        4  (3)  3   </span></p>
+<p>    首先，(3)—(4)这条边必须去掉，否则若只有4号同学得知流言，流言将以相同的速度传给下一个人。对于其它三条边，只需要去掉权值较小的两条即可，这样不论获知流言的是哪个（些）人，所有可以继续向外传播流言的边中最小的那一条一定已经被去掉了。可以证明，去掉三条边已经是最优的答案了。</p>
+<p>数据规模<br>    对于30%的数据，N&lt;=10，M&lt;=20；<br>    对于50%的数据，N&lt;=100，M&lt;=1 000；<br>    对于100%的数据，N&lt;=10 000，M&lt;=100 000。</p>
+<p><strong>Problem 4: robot<br>表白机器人</strong></p>
+<p>问题描述<br>    永远不要以为Matrix67就是传说中的情圣。很少有人知道，Matrix67竟然不好意思主动向MM表白！为此，Matrix67派出他的表白机器人，帮他完成这一项光荣而艰巨的任务。<br>    Matrix67和MM所在的地方可以看作是一个封闭的平面空间，里面分成了M x N个房间，某些房间之间可能有墙。Matrix67总在最左下角的那个房间，MM总在最右上角的那个房间。Matrix67需要给它的机器人输入一系列方向指令，控制机器人避开墙壁到达MM所在的位置。如果L表示向左移一格，R表示向右移一格，U表示向上移一格，D表示向下移一格，那么在下图所示的4×4平面地图里，命令序列RURUUR可以让机器人从起点（左下角）到达终点（右上角）。<br><span style="font-family:宋体"><br>#—#—#—#—#<br>|       |     F |<br>#   #   #   #—#<br>|       |       |<br>#   #   #   #—#<br>|   |           |<br>#   #   #   #   #<br>| S             |<br>#—#—#—#—#<br></span><br>    但问题远远没有这么简单。由于设计上的缺陷，Matrix67的机器人只能记忆K条指令。这就意味着，当机器人的行走路线过长时，指令不一定能完整地输入机器人。这怎么办呢？Matrix67想到一个好办法：如果让机器人反复执行预先给定的K条指令，那么恰当的指令序列也能使机器人到达终点（虽然这样可能会走很多重复的路）。机器人会忽略所有命令它撞墙的指令。也就是说，如果下一个指令对应的方向上是一面墙的话，机器人将跳过该指令。Matrix67希望知道，是否存在一个长度为K的命令序列，若机器人反复执行这段指令，最终会到达MM所在的地方。对于上面给出的例子，当K=4时，RRLU是一个合法的答案。</p>
+<p>输入数据<br>    第一行输入四个用空格隔开的正整数M、N、W和K，表示该平面区域内有M行N列小房间，房间与房间之间共有W面墙，Matrix67需要给机器人输入的指令长度为K。<br>    以下W行每行四个数Ai, Aj, Bi, Bj，表示第Ai行Aj列的房间与Bi行Bj列的房间之间有一面墙。</p>
+<p>输出数据<br>    你的输出数据应该是一个由L、R、U、D四种字符组成的长度为K的字符串，表示一个合法的指令序列。机器人反复执行这串指令后最终可以到达右上角的房间。<br>    输入数据保证有唯一解，因此你不用考虑多解或无解的情况。</p>
+<p>样例输入<br>4 4 5 4<br>1 2 1 3<br>2 2 2 3<br>1 4 2 4<br>2 4 3 4<br>3 1 3 2</p>
+<p>样例输出<br>RRLU</p>
+<p>数据规模<br>    对于30%的数据，K&lt;=4；<br>    对于100%的数</p>
+			 ]]></content>
+<pubDate>2007-10-05T08:28:13+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/320</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 07年NOIp模拟赛by Matrix67 比赛成绩公布 ]]></title>
+<link>http://www.matrix67.com/blog/archives/321</link>
+<content><![CDATA[ 
+		<p><span style="font-family:宋体">lyt                     AAAAAAAAAA      AAAAAAAAAA      ??????????      AAAAAAAAAA      300<br>lyt (1)                 AAAAAAAAAA      AAAAAAAAAA      ??????????      AAAAAAAAAA      300<br>nothing                 WWWWWWWWWW      AAAAAAAAAA      AAAAAAAAAA      AAAAAAAAAA      300<br>coolerzxw (1)           AAAAAAAATT      AAAAAAAAAT      AAWWWWWWWW      AAAAAAAAAA      290<br>coolerzxw               AAAAAAAATT      AAAAAAAAAT      AAWWWWWWWW      AAAAAAAAAA      290<br>SubRaY                  WAAAAAAAAA      AAAAAAWWTT      ??????????      AAAAAAAAAA      250<br>wangbicheng1            WWWWWWWWWW      AAAAATTTTT      AAAAAAAAAA      AAAAAAAAAA      250<br>xyr                     WAAAAAAWBB      AAAAAWAATT      AAWWWWWWWW      AAAAAAAAAA      250<br>didiao                  ??????????      AAAAAAAATT      AAAAAAABBB      AAAAAAAAAA      250<br>猪都可以来虐我          AAAAAAAAAA      AAAAATTTTT      ??????????      AAAAAAAAAA      250<br>zxf_sheep               WWWWWWWWWW      AAAAWWWWWW      AAAAAAAAAA      AAAAAAAAAA      240<br>oldherl                 AAAAAAAAAA      AWAAAWWWWW      ??????????      AAAAAAAAAW      230<br>cockhorse               AAATTTTTTT      AAAAAAAAAA      ??????????      AAAAAAAAAA      230<br>latioswang (1)          WAAAAAAWTT      AWAAAAWWWT      AAWWWWWTTT      AAAAAAAAAA      230<br>latioswang (2)          WAAAAAAWTT      AWAAAAWWWT      AAWWWWWTTT      AAAAAAAAAA      230<br>latioswang              WAAAAAAWTT      AWAAAAWWWT      AAWWWWWTTT      AAAAAAAAAA      230<br>TangGingQ               AAAAAAAAAW      AWWAWWWWWW      AWWWWWWTTT      AAAAAAAAAT      210<br>宇智波然                AAAAAATTTT      AAAAWWWWWT      WWWWWWWWWW      AAAAAAAAAA      200<br>Avalon                  AAAAAAAAAA      AAAAAAAAAA      ??????????      ??????????      200<br>onion                   WWWWWWWWWW      AAAAAAAAAA      ??????????      AAAAAAAAAA      200<br>xc_bb                   AAAAAATTTT      AWAAAWWWWW      WWWWWWWWWW      AAAAAAAAAA      200<br>tang_of_fjsdfz          AAAAAAAAAW      AWWAWWWWWW      ??????????      AAAAAAAAAT      200<br>ztz                     AAAAAAAAAW      ??????????      ??????????      AAAAAAAAAA      190<br>ztz (1)                 AAAAAAAAAW      ??????????      ??????????      AAAAAAAAAA      190<br>inatial_D (1)           ??????????      AAAAAAAATT      AWWWWWWWWW      AAAAAAAAAA      190<br>AlexRay                 AAAAAAAAAA      AWWAWWWWWT      ??????????      AAAAAAATTT      190<br>Fp-hhh1                 WWWWWWWWWW      AAAAAAATTT      AAWWWWWWWW      AAAAAAAAAA      190<br>robot                   ??????????      AAAAAAAATT      ??????????      AAAAAAAAAA &amp;<br>
+nbsp;    180<br>claire                  WWWWWWWWWW      AAAAAAAATT      ??????????      AAAAAAAAAA      180<br>star                    ??????????      AAAAAAAATT      ??????????      AAAAAAAAAA      180<br>我是菜鸟                ———-      AAAAAAAATT      ??????????      AAAAAAAAAA      180<br>star (1)                ??????????      AAAAAAAATT      ??????????      AAAAAAAAAA      180<br>robot (1)               ??????????      AAAAAAAATT      ??????????      AAAAAAAAAA      180<br>fengyi                  ??????????      AAAAAAAATT      YYYYYYYYYY      AAAAAAAAAA      180<br>fengyi (1)              ??????????      AAAAAAAATT      ??????????      AAAAAAAAAA      180<br>桃の11 (1)              WWWWWWWWWW      AAAAAAAATT      ??????????      AAAAAAAAAA      180<br>桃の11                  WWWWWWWWWW      AAAAAAAATT      ??????????      AAAAAAAAAA      180<br>tt (1)                  AAAAAAAAAA      AAAAAAAATT      ??????????      TTTTTTTTTT      180<br>tt                      AAAAAAAAAA      AAAAAAAATT      ??????????      TTTTTTTTTT      180<br>Jason911的Cheat程序     WWWWWWWWWW      AAAAAAWWWT      AWWWWWWWWW      AAAAAAAAAA      170<br>skyinde2                AAAAAWAATT      AAAAAAAATT      AAWWWWWTTT      ??????????      170<br>2wsx2wsx2wsx            WWWWWWWWWW      AAAAAAWWTT      ??????????      AAAAAAAAAA      160<br>ly                      WAAAAAAAAA      AAAAAAWWWW      ??????????      AWWWWWWWWW      160<br>PigTree                 ??????????      AAAAAAWWTT      ??????????      AAAAAAAAAA      160<br>ly (1)                  WAAAAAAAAA      AAAAAAWWWW      ??????????      AWWWWWWWWW      160<br>AC+AC                   AAAAAAAAAA      AWAAAAWWTT      ??????????      AWWWWWWWWW      160<br>zerg                    AAAWAAAAAT      AAAAAAAATT      ??????????      ??????????      160<br>fs                      ??????????      AWAAAAWWWW      ??????????      AAAAAAAAAA      150<br>fs (1)                  ??????????      AWAAAAWWWW      ??????????      AAAAAAAAAA      150<br>maoshengyang            ??????????      AAAAAWWWTT      ———-      AAAAAAAAAA      150<br>FP-hhh2                 WWWWWWWWWW      AWAAWWWWWT      AAWWWWWWWW      AAAAAAAAAA      150<br>windwind                WWWWWWWWWW      AAAAAAAATT      WWWWWWWWWW      AAAAAAATTT      150<br>Ice_Msk                 ??????????      AWAAWBBBTT      WWAWWWWWWW      AAAAAAAAAA      140<br>cy_super                ??????????      AWAAAWTTTT      WWWWWBBWWW      AAAAAAAAAA      140<br>lucylala                WWWWWWWWWW      AWAAWAWWTT      WWWWWWWWWW      AAAAAAAAAA      140<br>Firewood            &amp;<br>
+nbsp;   ??????????      AAWAAWWWTT      ??????????      AAAAAAAAAA      140<br>lsz                     AAAAAAAAAA      AWAAAWWWWW      ??????????      YYYYYYYYYY      140<br>x_cRP版                 WWWAAAWWWA      ??????????      ??????????      AAAAAAAAAA      140<br>littlekfc               ??????????      AWAWWWAATT      ??????????      AAAAAAAAAA      140<br>jackchen                WWWWWWWWWW      AAAAAAAATT      WWWWWWWWWW      AAAAATTTTA      140<br>yyysb                   AAAAAAAATT      AAWAAAAWTT      ??????????      ??????????      140<br>xx&amp;xx                   **********      AWAAWWWWWT      ??????????      AAAAAAAAAA      130<br>Takuma                  MMMMMMMMMM      AWWWWTTTTT      AAWWWWWWWW      AAAAAAAAAA      130<br>victor2100              WWWWWWWWWW      AWAAWWWWWW      ??????????      AAAAAAAAAA      130<br>victor2100 (1)          WWWWWWWWWW      AWAAWWWWWW      ??????????      AAAAAAAAAA      130<br>yk000123                ??????????      AAAAAAAATT      ??????????      AAAAWWWAWW      130<br>落叶归根                WWWWWWWWWW      AWAAWWWWWW      ??????????      AAAAAAAAAA      130<br>绝望了                  ??????????      AAAAAAAATT      ??????????      AAAAABBBBB      130<br>Pru.Lite                WWWWWWWWWW      AAAAAAAATT      WWWWWWWWWW      AWAAAWWWWA      130<br>sobeit                  ??????????      AAAAAAAATT      ??????????      AWAAAWWWWA      130<br>Fp-tens                 ??????????      ATTATTTTWW      ??????????      AAAAAAAAAA      120<br>落枫                    ??????????      AWAWWWTTTT      ??????????      AAAAAAAAAA      120<br>俺不玩了                WWWWWWWWWW      AWWAWWWWWW      ??????????      AAAAAAAAAA      120<br>laj (1)                 AAAAAAAAAW      ??????????      ??????????      AAAWWWWWWW      120<br>laj                     AAAAAAAAAW      ??????????      ??????????      AAAWWWWWWW      120<br>lydia                   WWWWWWWWWW      AAAAATTTTT      ??????????      AAAAAAATTT      120<br>hu                      AAAAAATTTT      AAAAAATTTT      WWWWWWWTTT      ??????????      120<br>mt_j                    TTTTTTTTTT      AWAAAWWWTT      WWWWWWWWWW      AAAAAAATTT      110<br>mt_j (1)                TTTTTTTTTT      AWAAAWWWTT      WWWWWWWWWW      AAAAAAATTT      110<br>hamo (1)                WWWWWWWWWW      AAWAWWWWWT      ??????????      AAAAAAAWAW      110<br>thbourlove              WWWWWWWWWW      AWWWWBBBBB      WWWWWWWWWW      AAAAAAAAAA      110<br>hamo                    WWWWWWWWWW      AAWAWWWWWT      WWWWWWWWWW      AAAAAAAWAW      110<br>hiroger (1)             WWWWWWWWWW      AW<br>
+WWWWWWWW      WWWWWWWWWW      AAAAAAAAAA      110<br>hiroger                 WWWWWWWWWW      AWWWWWWWWW      WWWWWWWWWW      AAAAAAAAAA      110<br>骑士                    WWWWWWWWWW      AWWWWBBBBB      WWWWWWWWWW      AAAAAAAAAA      110<br>fp-hxl                  WWWTTTTTTT      AAAAAAAATT      ??????????      AAAWWWWTWT      110<br>lwt1231234              WWWWWWWWWW      AWAAAAWWTT      WWWWWWWWWW      AAAAATATTT      110<br>zqqdtc                  WWWWWWWWWW      AWWWWWWWTT      WWWWWWWWWW      AAAAAAAAAA      110<br>Jason                   AAAAAAAATT      AWAAWWWWWW      ??????????      ??????????      110<br>wuxifan88               ??????????      ??????????      ??????????      AAAAAAAAAA      100<br>ufotalent               ??????????      ??????????      ??????????      AAAAAAAAAA      100<br>灰谜瞳                  WWWWWWWWWW      AAAAAAAATT      WWWWWWWWWW      AWAWWWWWWW      100<br>wasyyyy                 WWWWWWWWWW      AAAAAAAATT      AAWWWWWWWW      WWWWWWWWWW      100<br>叉叉叉叉                WWWWWWWWWW      AAAAAAAATT      AAWWWWWWWW      WWWWWWWWWW      100<br>BCSim                   *******TTT      AAAAAAAATT      WWWBWBBBBB      AWAWWWWWWW      100<br>追心子                  WWWWWWWWWW      AAAAAAAATT      WWWWWWWWWW      AWAWWWWWWW      100<br>Anthony                 WWWTTTTTTB      AAAAAAAATT      WWWWWWWWWW      AWAWWWWWWW      100<br>战役第一章              WWWWWWWWWW      AAAAAAAATT      WWWWWWWWWW      AWAWWWWWWW      100<br>zzy2007                 AAAAAATTTT      AAAAWTTTTT      ??????????      ??????????      100<br>lonely_knight           ??????????      AAAAAAAATT      ??????????      ATAWWTWTTT      100<br>luoshibo (1)            AAAAAAAAAA      MMMMMMMMMM      ??????????      ??????????      100<br>luoshibo                AAAAAAAAAA      MMMMMMMMMM      ??????????      ??????????      100<br>Xcheng                  WWWWWWWWWW      AAAAAAWWTT      ??????????      AWAAWWWW*W      90<br>monster_chen            ??????????      AAAAAAAATT      MMMMMMMMMM      *A*BBWB*WB      90<br>monster_chen (1)        ??????????      AAAAAAAATT      MMMMMMMMMM      *A*BBWBWWB      90<br>inatial_D               ??????????      AAAAAAAATT      AWWWWWWWWW      ??????????      90<br>koko                    WWWWWWWWWW      AAAAAAAATT      ??????????      AWWWWWWWWW      90<br>qqqjhjh                 ??????????      AAAAAAAATT      AWWWWWWWWW      ??????????      90<br>flyfox                  ??????????      ??????????      ??????????      AAAAAAAAAT      90<br>flyfox (1)              ??????????      ??????????      ??????????      AAAAAAAAAT      90<br>flyfox (2)              ??<br>
+????????      ??????????      ??????????      AAAAAAAAAT      90<br>xiaq                    AWWWAWWATT      AAAAAAWWTT      WWWWWWWWWW      WWWWWWWWWW      90<br>梦ぁ逍遥                AAAAAAAATT      AWWWWWWWTT      ??????????      ??????????      90<br>woac                    ———-      AAAAAAWWTT      ??????????      AWAWWWWWWW      80<br>MemoryBank              WWWWWWWWWW      AAAAAAWWTT      AAWWWWWWWW      ———-      80<br>zhang                   ??????????      AAAAATTTTT      WWWWWWWTTT      AAABBBBBBB      80<br>swj05652                ??????????      AAAAAAAATT      ??????????      ??????????      80<br>doris-king              ??????????      AAAAAAAATT      ??????????      WWWWWWWWWW      80<br>fp-hwh                  WWWWWWWWWT      AAAAAAAATT      ??????????      ??????????      80<br>zhouye                  ??????????      AAAAAAAATT      ??????????      ??????????      80<br>ayou                    WWWWWWWWWW      AAAAAAAATT      WWWWWWWWWW      ??????????      80<br>林添                    WWWWWWWWWW      AAAAAAAATT      ??????????      ??????????      80<br>meowkingdom             ??????????      AAAAAAAATT      ??????????      ??????????      80<br>纯白的守护              WWWWWWWWWW      AAAAWAWWTT      WWWWWWWWWW      AWAWWWWWWW      70<br>死亡山谷                WWWWWWWWWW      AAAAAAATTT      ??????????      ??????????      70<br>qweeo                   TTTTTTBBBB      AAAAAATATT      TTTTTTTTBT      ??????????      70<br>mwj                     WWWWWWWWTT      MMMMMMMMMM      ??????????      AWAAAWAAWW      60<br>lirczx                  ??????????      AAAAWBBBTT      AAWWWWWWWW      WWWWWWWWWW      60<br>mwj (1)                 WWWWWWWWTT      MMMMMMMMMM      ??????????      AWAAAWAAWW      60<br>cqbzzlg                 WWWWWWWWWW      AAAAAAWWTT      ??????????      ??????????      60<br>zjk                     WWWWWWWWWW      AWAAAAWWTT      ??????????      AWWWWWWWWT      60<br>tjbwyk                  WAAAAAAWTT      ??????????      ??????????      ??????????      60<br>初三小朋友来垫底        WWWWWWWWTT      AAAAAWWWTT      ??????????      ??????????      50<br>章亚中                  WWWWWWWWWW      AAAAWBBBBB      WWWWWWWWWW      ATTTTTTTTT      50<br>章亚中 (1)              WWWWWWWWWW      AAAAWBBBBB      WWWWWWWWWW      ATTTTTTTTT      50<br>gift                    ??????????      AAAAATTTTT      ??????????      ??????????      50<br>ice_bear                ??????????      AAAAABBBTT      ??????????      ??????????      50<br>sweetjuice              ??????????      AAAAWWAWWT      WWWWWWW<br>
+BBB      ??????????      50<br>Skyfan                  WWWWWWWWWW      AAAAWAWWTT      ??????????      ??????????      50<br>MAjia                   ??????????      AAAAATTTTT      ??????????      ??????????      50<br>1742                    TTTTTTTTTT      AAAAWWWWTT      ??????????      ———-      40<br>O'Element               WWWWWWWWWW      AWAWWWTTTT      WWWWWWWWWW      AWAWWWWWWW      40<br>ZeroZerg (1)            ———-      AWWWWBBBBB      ??????????      AWAAWWWWWW      40<br>wjx (1)                 WWWWWWWWWW      AWAAWAWWWW      ??????????      WWWWWWWWWW      40<br>wjx                     WWWWWWWWWW      AWAAWAWWWW      ??????????      WWWWWWWWWW      40<br>ZeroZerg                ———-      AWWWWBBBBB      ??????????      AWAAWWWWWW      40<br>fp_wzm                  ??????????      AAAAWTTTTT      ??????????      WWWWWWWWWW      40<br>fp_wzm (1)              ??????????      AAAAWTTTTT      ??????????      ??????????      40<br>我爱丁贝莉～！          ??????????      AAAATTTTTT      ??????????      ??????????      40<br>国庆快乐！              ??????????      AAAAWWWWWT      ??????????      ??????????      40<br>garfield175             WWWWWWWWWT      AWAAWWWWTT      WWWWWWWWWW      WWWWWWWWWW      30<br>iamworm                 WWWWWWWWWW      AWWWWWWWWW      WWWWWWWWWW      AWAWWWWWWW      30<br>gongbanban              ———-      AWWWWWWWWW      WWWWWWWWWW      AWAWWWWWWW      30<br>154315284               WWWWWWWWWW      AWAAWWTTWT      *****BBBBB      WWWWWWWWWW      30<br>yoy                     ??????????      AAAWTTTTTT      BBBBTBBTTT      ??????????      30<br>asdf                    ??????????      AAWAWWWWTT      ??????????      ??????????      30<br>政治课来做了一道        AWAATTTTTT      ??????????      ??????????      ??????????      30<br>111                     WWWWWWWWTT      AWWAWWWWTT      ??????????      ??????????      20<br>FREEDOM                 ??????????      AAWWWWWWTT      ??????????      ??????????      20<br>hudqmh                  ??????????      AWWAWWWWTT      ??????????      WWWWWWWWWW      20<br>ke_ma                   WWWWWWWWWW      WWWWWWWWWW      WWWWWWWWWW      AWAWWWWWWW      20<br>ke_ma (1)               WWWWWWWWWW      WWWWWWWWWW      WWWWWWWWWW      AWAWWWWWWW      20<br>tom                     **********      WWWWWWWWWW      ??????????      AWAWWWWWWW      20<br>我是周杰伦              WWWWWWWWWW      WWWWWWWWWW      WWWWWWWWWW      AWAWWWWWWW      20<br>101                     ??????????      ??????????      AAWWWWWWWW      ??????????      20<br>mart               &amp;<br>
+nbsp;    WWWWWTTTTT      **********      WWWWWWWWWW      AWAWWWWWWW      20<br>fp-HRT                  TTTTTTTTTT      AWWAWWWWTT      ??????????      ??????????      20<br>mart (1)                WWWWWTTTTT      **********      WWWWWWWWWW      AWAWWWWWWW      20<br>GriffinHeart            MMMMMMMMMM      MMMMMMMMMM      AWWWWTBBBB      ??????????      10<br>huaimao                 WWWWWWTTTT      AWWWWTTTTT      ??????????      ??????????      10<br>hxuzuma2                ??????????      YYYAYYYYTT      ??????????      YYYYYYYYWY      10<br>ssggwwhh                WWWWWWWWWW      WWWWWWWWTT      WWWWWWWWWW      AWW****WWT      10<br>乱醒                    ??????????      AWWWWTTTTT      ??????????      WWWWWWWWWW      10<br>乱醒2号                 ??????????      AWWWWTTTTT      ??????????      WWWWWWWWWW      10<br>弱死我了                WWWWWWWWWW      AWWWWWWWTT      ??????????      ??????????      10<br>adventure               WWWWWWWWWW      AWWWWTWWTT      ??????????      ??????????      10<br>BW                      WWWWWTTWTT      AWWWTTTTTT      ??????????      WWWWWWWWWW      10<br>ly16                    ??????????      AWWWWWWWTT      ??????????      ??????????      10<br>ssggwwhh (1)            WWWWWWWWWW      WWWWWWWWTT      WWWWWWWWWW      AWW****WWT      10<br>WeiTony                 WWWWBWBBBB      ??????????      ??????????      ATWWWTWTWT      10<br>windyvov                ??????????      AWWWWWWWTT      ———-      WWWWWWWWWW      10<br>lijian                  WWWATTTTTT      ??????????      ??????????      WWWWWWWWWW      10<br>BillWSY                 MMMMMMMMMM      RRRRRRRRRR      ??????????      ??????????      0<br>CAO                     ??????????      YYYYYYYYYY      ??????????      ??????????      0<br>coycooper               YYYYYYYYYY      YYYYYYYYYY      YYYYYYYYYY      YYYYYYYYYY      0<br>coycooper (1)           YYYYYYYYYY      YYYYYYYYYY      YYYYYYYYYY      YYYYYYYYYY      0<br>dkz                     ??????????      ??????????      YYYYYYYYYY      ??????????      0<br>hraikkonen              ??????????      ———-      MMMMMMMMMM      ??????????      0<br>jht                     ??????????      YYYYYYYYYY      ??????????      ??????????      0<br>Leser                   ??????????      ———-      ??????????      ??????????      0<br>matrix                  ??????????      ??????????      ??????????      ??????????      0<br>matrix (1)              ??????????      ??????????      ??????????      ??????????      0<br>MissingInTheSeason      WWWWWWWWWW      ———-      ———-      TTTTTTTTTT      0<br>yy123                   WWWWWWWWTT      WWWWWWWWTT      ??????????      ??????????      0<br>zjfhzdy                 ??????????      ———-      WWWWWWWWWW      ??????????      0<br>麦迪迷                  ??????????      YYYYYYTTTT      ??????????      ??????????      0<br>                                                <br>"R=无法运行<br>T=超时<br>M=超内存<br>Y=运行时错误<br>B=崩溃<br>A=正确<br>W=错误的答案<br>P=得部分分<br>*=程序无输出<br>[=缺标准输入<br>]=无标准输出<br>?=无程序<br>^=自定义评测错误<br>-=编译错误"</span></p>
+			 ]]></content>
+<pubDate>2007-10-05T16:00:19+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/321</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 07年NOIp模拟赛by Matrix67 解题报告 ]]></title>
+<link>http://www.matrix67.com/blog/archives/323</link>
+<content><![CDATA[ 
+		<p><strong>Problem 1: Matrix67的情书（二）</strong><br>    大家都知道，看一个数是否能被2整除只需要看它的个位能否被2整除即可。可是你想过为什么吗？这是因为10能被2整除，因此一个数10a+b能被2整除当且仅当b能被2整除。大家也知道，看一个数能否被3整除只需要看各位数之和是否能被3整除。这又是为什么呢？答案或多或少有些类似：因为10^n-1总能被3整除。2345可以写成2*(999+1) + 3*(99+1) + 4*(9+1) + 5，展开就是2*999+3*99+4*9 + 2+3+4+5。前面带了数字9的项肯定都能被3整除了，于是要看2345能否被3整除就只需要看2+3+4+5能否被3整除了。当然，这种技巧只能在10进制下使用，不过类似的结论可以推广到任意进制。<br>    注意到36是4的整数倍，而ZZZ…ZZ除以7总是得555…55。也就是说，判断一个36进制数能否被4整除只需要看它的个位，而一个36进制数能被7整除当且仅当各位数之和能被7整除。如果一个数同时能被4和7整除，那么这个数就一定能被28整除。于是问题转化为，有多少个连续句子满足各位数字和是7的倍数，同时最后一个数是4的倍数。这样，我们得到了一个O(n)的算法：用P[i]表示前若干个句子除以7的余数为i有多少种情况，扫描整篇文章并不断更新P数组。当某句话的最后一个字能被4整除时，假设以这句话结尾的前缀和除以7余x，则将此时P[x]的值累加到最后的输出结果中（两个前缀的数字和除以7余数相同，则较长的前缀多出来的部分一定整除7）。<br>    上述算法是我出这道题的本意，但比赛后我见到了其它各种各样新奇的算法。比如有人注意到36^n mod 28总是等于8，利用这个性质也可以构造出类似的线性算法来。还有人用动态规划（或者说递推）完美地解决了这个问题。我们用f[i,j]表示以句子i结束，除以28余数为j的文本片段有多少个；处理下一句话时我们需要对每一个不同的j进行一次扫描，把f[i-1,j]加进对应的f[i,j']中。最后输出所有的f[i,0]的总和即可。这个动态规划可以用滚动数组，因此它的空间同前面的算法一样也是常数的。<br>    如果你完全不知道我在说什么，你可以看看和<a target="_blank" href="http://www.matrix67.com/blog/article.asp?id=246">进位制</a>、<a target="_blank" href="http://www.matrix67.com/blog/article.asp?id=282">同余</a>相关的文章。另外，我之前还曾出过一道很类似的题(<a target="_blank" href="http://www.vijos.cn/Problem_Show.asp?id=1090">VOJ1090</a>)，你可以对比着看一看。<br>    另外，非常抱歉地告诉大家，这道题的最后一个数据是错的。这个数据的第一个句子是一个空句子（感谢<a target="_blank" href="http://aifreedom.com/">Ai.Freedom</a>的提醒）。很多第一题只得了90分的好同志估计都是由于我的失误造成的，这里再次表示歉意。如果去掉最前面的那个问号，输出应该是19511110。</p>
+<p><strong>Problem 2: 送给MM的生日礼物</strong><br>        <img alt="image placeholder" >
+<p>以同列不同行的两个格子(i,j)和(i',j)为右端点，同时向左扩展可以得到多长的相等区域<br>以同行不同列的两个格子(i,j)和(i,j')为最底端，同时向上扩展可以得到多长的相等区域<br>以格子(i,j)为中心，向左右扩展可以得到多长的对称区域<br>以格子(i,j)为中心，向上下扩展可以得到多长的对称区域<br>以两个横向相邻的格子(i,j-1)和(i,j)为中心，向左右扩展可以得到多长的对称区域<br>以两个纵向相邻的格子(i-1,j)和(i,j)为中心，向上下扩展可以得到多长的对称区域</p>
+<p>    上面的每个预处理都可以在三方的时间里完成，动态规划的决策降到常数级别，因此总的复杂度还是三方。</p>
+<p>    同样地，这也只是我出这道题的本意。我事先已经想到，这道题应该还有很多其它的算法，只是没想到会有那么多。一个比较容易想到的算法是，执行与上面相同的预处理后，枚举某个格子（或某个交叉点）为中心，向外一层一层地进行扩展。虽然这样的复杂度仍然是三方的，并且与前面的算法实质相同，但它的效率显然更高，因为你可以在无法再向外扩展时停止最里面的那个循环，继续枚举下一个中心点。<br>    同样是枚举正方形的中心点，只使用上面的后4个预处理也可以解决这个问题。我们可以在线性的时间内找出，以某个格子（或交叉点）为中心的最大的合法正方形。假如这个最大的正方形边长为k，这相当于我们同时找到了(k+1) div 2个正方形来。至于如何找到这个最大的正方形，还是留给大家思考吧。<br>    <a target="_blank" href="http://cockhorseblog.spaces.live.com/">Cockhorse</a>想到了一个非常巧妙的算法，预处理结束后它可以在常数时间内判断任一个给定的小正方形是否满足题目要求。用f[i,j,k]表示，以第i行中(i,j)及其右边相邻的k-1个格子（共k个格子）来作为底边，所能得到的左右对称的矩形其最大高度是多少。则当f[i,j+1,k-2]为True且(i,j)格与(i,j+k-1)格花色相等时f[i,j,k]=f[i-1,j,k]+1（否则f[i,j,k]=0）。同样地，再用g[i,j,k]表示以(j,i)..(j+k-1,i)作为右边界，使矩形上下对称的最大宽度。这样，判断任意一个正方形是否满足题目要求，只需要检查它的底边和右边能够产生的最大对称区域是否可以覆盖该正方形即可。<br>    当然，这道题目还有很多其它的算法，这里就不一一列举了。</p>
+<p><strong>Problem 3: 流言的传播</strong><br>    给定一个图，把图中所有点构成的点集叫做U，另指定一个不等于全集的子集S，那么所有一个顶点在S里另一个顶点在U-S里的边就叫做S点集的“割边”，因为去掉所有这样的边后S集将孤立出来。这道题就是需要你找出一个边集E，使得不管S集是什么，对应的割边中权值最小的那一条一定在边集E中。这样的边集肯定是存在的，比如所有边构成的集合就是一个满足条件的边集。这道题希望你找到的边集E里所含的边尽可能的少。<br>    一个错误的贪心法是，去掉每个点的邻接边中权值最小的那一条。这种算法显然不对，比如下面就是一个鲜活的反例：<br><span style="font-family:宋体"><br>o—–o—–o—–o<br>   2     3     1<br></span><br>    在上图中，每个点的邻接边中权值最小的不是1就是2，这样的话中间那条边就被保留了下来，于是令S集为左边两个点（或右边两个点），割边仍然一条不少。很容易想到，要想让任意S集的割边中权值最小的被去掉，首先得保证边集E连通了所有的点，否则令S等于任一连通分量，边集E里都不会包含任何一条割边。这样，边集E至少要有n-1条边。<br>&amp;n<br>
+bsp;   考虑到最优解至少是n-1条边，这n-1条边必须连通所有的点，而所选边的权值都应该很小，于是想到最后的答案很可能就是最小生成树。现在假设我们已经选择了某些边，这些边形成了若干个连通分量。考虑所有连接两个不同的连通分量的边（两顶点不在同一连通分量的边）中权值最小的一条，那这条边必须要选，否则令S集为其中一个连通分量，题目条件就不能达到了。这不就是Kruskal算法吗？<br>    且慢，我们还没有证明，对任意一个S集，最小生成树都符合条件。证明其实很简单，假设权值最小的割边e不在最小生成树E中，添加割边e将形成一个回路。这条回路将从S集的某个点出发，经过e跑到U-S里，最后必须还要回到S集。回到S集必然要经过另一条割边e'，而显然e'&gt;e（因为e是权值最小的割边，且题目说了没有权值相同的边），于是边集E+{e}-{e'}就成了更小的生成树。</p>
+<p><strong>Problem 4: 表白机器人</strong><br>    第四题是整个模拟赛中最简单的题，它不需要你构造任何算法，你只需要按照题目意思进行模拟即可。和去年的NOIp一样，纯粹考编程能力的题目并没有放在第一道题的位置上。这提示大家拿到题目后要先看完所有的题，特别是看到最后一道题时千万别慌，很可能把它的衣服扒光了一看，发现它居然是一道赤裸裸的送分题。<br>    为了加快速度，先预处理出一个数组wall[i][j][k]，表示第i行第j列往k(1&lt;=k&lt;=4)方向上走是否走得通。然后枚举所有可能的命令序列，模拟机器人的行走过程，看它是否能到达终点。在模拟过程中，你需要用一个数组hash[i][j][k]表示机器人曾在序列的第k个命令后到达第i行第j列的位置，并在模拟过程中不断更新hash数组；当某一次命令后机器人还没走到右上角，而对应的hash值已经为True了，则机器人的行动将从这里开始循环，永远也到不了右上角了。<br>    虽然这道题不需要任何剪枝，但我还想再说一句。这道题有一个非常有趣的剪枝：命令序列的第一个指令只能是U或R，最后一个指令也只能是U或R。大家想想这是为什么。</p>
+			 ]]></content>
+<pubDate>2007-10-08T19:40:13+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/323</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 07年NOIp模拟赛by Matrix67  TRIVIA20 ]]></title>
+<link>http://www.matrix67.com/blog/archives/324</link>
+<content><![CDATA[ 
+		<p>1. 我在Vijos的第二次NOIp模拟赛是2006年10月5日，正好是一年前。</p>
+<p>2. 那次模拟赛的第一题也是Matrix67的情书。两次题目的样例数据所用的情书是一样的。</p>
+<p>3. 第一题最初的想法是：Matrix67喜欢美剧24，它希望在一串数字中统计有多少个子序列（所构成的10进制数）能被24整除。</p>
+<p>4. 我的幸运数字不是28。我的幸运数字是23。我的第二任女友昵称23，05年2月23日认识她，同年12月23日分手。我去年7月23日参加第23届NOI，不算笔试的话是23名。</p>
+<p>5. 你可以从lovelttr4.in看出，我是9月19日出的第一题。</p>
+<p>6. lovelttr5.in是在Google中搜索porn得到的前500个结果。</p>
+<p>7. 我曾经完整地读过lovelttr7.in的中文版。</p>
+<p>8. 有人知道John Titor吗？lovelttr8.in完整地记录了这次事件。</p>
+<p>9. 为了增加句子的个数，我把lovelttr9.in的D:和E:全部替换为?: （结果导致数据出错）</p>
+<p>10. 我的StarCraft目录下有很多RPG地图，因为很多文件名包含题目中不允许出现的字符，于是从数据中删除了。</p>
+<p>11. 我曾经认真地想过在最后一个数据中添加F:Adult Video目录，最后没有添加，原因同上。</p>
+<p>12. 我真的是因为想制造极限数据（凑齐1000000字节）才添加的Sentimental Shooting目录。</p>
+<p>13. Worms World Party是我最喜欢的游戏之一。</p>
+<p>14. 我第二题的标程写错了，修正数据后重新评测了一遍，因此评测结果迟迟没有公布。</p>
+<p>15. 我把我们系的一个MM的生日写错了。我写的是10月11日，后来才知道她的生日是10月12日。</p>
+<p>16. 我曾经认真地想过把第二题换掉，因为我觉得这道题太简单了。</p>
+<p>17. 前两题都是我在史纲课上突然想到的，于是有了举办模拟赛的想法。</p>
+<p>18. 第四题的构思和数据来源于<a target="_blank" href="http://www.stetson.edu/~efriedma/robot/">这里</a>。</p>
+<p>19. 最后两题的标程和数据是在比赛前一天晚上赶出来的，因为那天白天和清北学堂的OIer出去吃饭去了。</p>
+<p>20. 我仍然认为这是我个人举办的所有模拟赛中最简单的一次。</p>
+			 ]]></content>
+<pubDate>2007-10-10T14:01:43+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/324</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 数学与色情？ “以下图片完全由数学算法生成” ]]></title>
+<link>http://www.matrix67.com/blog/archives/325</link>
+<content><![CDATA[ 
+		<div align="center"><img alt="image placeholder" >
+<p>    我们见过<a target="_blank" href="http://www.matrix67.com/blog/article.asp?id=357">用数学算法生成的声音</a>，用函数表示出来的<a target="_blank" href="http://www.matrix67.com/blog/article.asp?id=107">平面图形</a>和<a target="_blank" href="http://www.matrix67.com/blog/article.asp?id=269">立体图形</a>。在某一个孤独的夜晚，我们或许会想，利用数学算法是否有可能生成一部激情四射的小A？这或许在工程量上和伦理道德上看都是很困难的，不过有人倒是搞出了一组有那么点味道的图片。可惜作者仅仅是宣称，这些图片“完全由数学算法生成”，并没有告诉我们这些数学算法是什么。我们仍然有理由相信，图片背后仅仅是几个非常简单的数学公式，毕竟这些图片也仅仅是由一些简单的几何曲线构成的。</p>
+<div align="center"><img alt="image placeholder" >
+<p>
+</p>
+<div align="center"><img alt="image placeholder" >
+<p>
+</p>
+<div align="center"><img alt="image placeholder" >
+<p>查看更多：http://www.perpetualocean.com/amgallery8.html</p>
+			 ]]></content>
+<pubDate>2007-10-10T23:35:05+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/325</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 创意游戏推荐：FPS+解谜 VALVE新游戏发行 ]]></title>
+<link>http://www.matrix67.com/blog/archives/326</link>
+<content><![CDATA[ 
+		<div align="center"><img alt="image placeholder" >
+<p>    提到VALVE，多数人的第一反应就是半条命和CS。但似乎很少有人知道，VALVE竟然用这套引擎做了一个第一人称射击类的解谜游戏，其创意和趣味性不亚于以前本Blog介绍的任何一个游戏！这个新游戏叫做Portal，游戏设定在一个未来的科学实验室中，每一关里你需要充分利用手中的Portal发射器到达指定的出口。Portal发射器的子弹射到（指定材质的）墙上后会形成虫洞一样的东西（游戏中叫做Portal），你可以在两个Portal间任意穿梭。于是，分形、递归、悖论、自指……所有你能想到的那些诡异的东西现在都可以在游戏中亲身体验了。</p>
+<p>下面这段视频是很早以前官方的预告片：<br><embed src="http://union.bokecc.com/flash/player.swf?videoID=27994_868252&amp;autoStart=false&amp;share=true" width="438" height="387" type="application/x-shockwave-flash"></embed></p>
+<p>昨天这款游戏发行后，国外很多玩家第一时间过了手瘾。下面这段视频就是某个玩家录制的Level 8通关录像：<br><embed src="http://union.bokecc.com/flash/player.swf?videoID=27994_868259&amp;autoStart=false&amp;share=true" width="438" height="387" type="application/x-shockwave-flash"></embed></p>
+<p>上面两个视频的YouTube链接：<br>http://www.youtube.com/watch?v=Wb7aDZeO_MQ<br>http://www.youtube.com/watch?v=bA9sZL-mjxU<br>想要这个游戏的同志最近可以留意一下国外的BT种子发布区，过几天各种破解版的种子会像潮水般涌来的:)<br>我这个破本本就算了……这可能是我见过的最华丽的、系统配置要求最高的解谜游戏。</p>
+			 ]]></content>
+<pubDate>2007-10-12T01:05:42+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/326</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Retargeting：经典动态规划问题的一个出人意料的应用 ]]></title>
+<link>http://www.matrix67.com/blog/archives/327</link>
+<content><![CDATA[ 
+		<p>    计算机的图片处理技术已经越来越牛B了，很多看似不可能的东西现在都已经有了比较成熟的算法，比如无锯齿放大、抠图、智能抹除等等。但你相信吗，现在竟然有这样一种算法，它可以改变图片的长宽比，同时保持画面内容的长宽比不变！<br>    我们经常遇到这样一个问题：源图片的长宽比与目标长宽不合，把图片剪裁一部分会觉得可惜，而拉伸图片后画面内容就变形了。此时，一种叫做Retargeting的技术或许可以帮助你：当图片长宽比改变后，它能压缩图片中不重要的部分，保持画面主体内容长宽比不变，让人看不出这个图片是被拉伸过的。<br>    算法的原理来自这篇名为<a target="_blank" href="http://www.faculty.idc.ac.il/arik/imret.pdf">Seam Carving for Content – Aware Image Resizing</a>的论文，它第一次出现在今年8月份举行的<a target="_blank" href="http://www.siggraph.org/s2007/">SIGGRAPH</a>大会上。下面一段视频简单地介绍了这个算法，看后你会发现其实质非常简单。<br><embed src="http://union.bokecc.com/flash/player.swf?videoID=27994_880106&amp;autoStart=false&amp;share=true" width="438" height="387" type="application/x-shockwave-flash"></embed></p>
+<p>YouTube链接：http://www.youtube.com/watch?v=qadw0BRKeMk</p>
+<p>    你会在视频中听到一个OIer特别熟悉的词。“从最上面一排的某个像素出发，每次只能向左下、右下和正下方三个方向移动，求出到达最底端的路径中权值和最小的一条”，这是每个OIer学习动态规划的必修课程，它甚至还出现在了前几天的某次NOIp模拟赛中（记得好像是第三题）。<br>    最近<a target="_blank" href="http://www.cnbeta.com/articles/41037.htm">cnBeta的一篇文章</a>提到，这个技术已经用于实践，一个叫做<a target="_blank" href="http://rsizr.com/">rsizr</a>的Flash网站可以实现上述算法，感兴趣的同学可以去试试。</p>
+			 ]]></content>
+<pubDate>2007-10-14T20:23:07+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/327</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 推荐网页：一大堆的Computer Science Puzzle ]]></title>
+<link>http://www.matrix67.com/blog/archives/329</link>
+<content><![CDATA[ 
+		<p>http://www.ocf.berkeley.edu/~wwu/riddles/cs.shtml</p>
+<p>一些很另类的信息学问题，比如：用常数空间线性时间找链表中的一个环，只用NAND实现XOR门，不用乘法和加法把一个数乘以7，常数时间无附加空间交换两变量，写一个输出自己代码的程序，用n + O(log n)次比较查找第二小的元素，写一个程序用C编译时输出“C”而用C++编译时输出“C++”……</p>
+<p>另外，不要找我要答案，我这里没有答案</p>
+			 ]]></content>
+<pubDate>2007-10-18T15:06:58+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/329</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 函数上某一点导数为正，该点邻域不一定形成单增区间 ]]></title>
+<link>http://www.matrix67.com/blog/archives/330</link>
+<content><![CDATA[ 
+		<p>    给出一个连续函数，某一点上的导数为正说明函数在这一点是上升的，换句话说函数从左边充分靠近该点时函数值总小于这个点，从右边靠近该点时函数值总大于这个点。但这并不等于说这一点左右是一个单增区间，也就是说该点左右任意小的邻域内函数都不是单调递增的。你能找出这样的函数来吗？</p>
+<p>    昨天数学课上，我学到了一个比较牛B的东西：函数上某一点导数为正，该点邻域不一定形成单增区间。虽然左边的点都比该点低，右边的点都比该点高，但这并不能说明左边和右边各自都是单增的。这样的函数确实存在，而且并不是那种很怪的函数，仅仅是一个简单的初等函数：f(x) = x + 2x^2*sin(1/x)。由于x=0时函数没有定义，我们规定f(0)=0。按照导数的定义，函数在x=0时的导数值为<br>   Limit[ (f(0+Δx)-f(0))/(Δx-0), Δx-&gt;0 ]<br>= Limit[ f(Δx)/Δx, Δx-&gt;0 ]<br>= Limit[ 1 + 2Δx*sin(1/Δx) , Δx-&gt;0 ]<br>= 1</p>
+<p>    这说明函数在x=0处的导数确实是正的。当x≠0时，按照求导法则可以求出f'(x) = 1 – 2*cos(1/x) + 4x*sin(1/x)。当|x|充分小时，最后一项可以忽略不计；此时只要1/x恰好等于2πn (n为整数)，那么f'(x)保证是负的。这就告诉我们，x=0左右任意近的位置都存在导数为负的情况，这样不管邻域范围多小总能找到一个函数值在减小的地方。<br>    其实，看一下f(x)的函数图象，你会立即明白这是怎么回事。这个函数越接近原点抖动频率越快（到原点时“周期”无限小），同时振幅也越小（到原点时振幅为0，这样可以保证导数存在）；但这个函数总的来说呈上升趋势。因此，这个函数才有我们前面提到的奇怪性质。
+</p>
+<div align="center"><img alt="image placeholder" >
+			 ]]></content>
+<pubDate>2007-10-19T21:38:16+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/330</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Google面试题中的两道趣题 ]]></title>
+<link>http://www.matrix67.com/blog/archives/331</link>
+<content><![CDATA[ 
+		<p>看看下面两道题，它的解答非常简单，即使没学过信息学的人也可以想到答案。你能在多短的时间内想出问题的算法来？一小时？一分钟？一秒钟？</p>
+<p>1. 给你一个长度为N的链表。N很大，但你不知道N有多大。你的任务是从这N个元素中随机取出k个元素。你只能遍历这个链表一次。你的算法必须保证取出的元素恰好有k个，且它们是完全随机的（出现概率均等）。</p>
+<p>2. 给你一个数组A[1..n]，请你在O(n)的时间里构造一个新的数组B[1..n]，使得B[i]=A[1]*A[2]*…*A[n]/A[i]。你不能使用除法运算。</p>
+<p><span style="color:#E5E5E5">Solution:<br>1. 遍历链表，给每个元素赋一个0到1之间的随机数作为权重（像Treap一样），最后取出权重最大的k个元素。你可以用一个堆来维护当前最大的k个数。<br>2. 从前往后扫一遍，然后从后往前再扫一遍。也就是说，线性时间构造两个新数组，P[i]=A[1]*A[2]*…*A[i]，Q[i]=A[n]*A[n-1]*…*A[i]。于是，B[i]=P[i-1]*Q[i+1]。</span></p>
+<p>突然想到，给别人(MM?)介绍信息学时，用这两道题当例子挺合适的。</p>
+			 ]]></content>
+<pubDate>2007-10-22T13:30:46+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/331</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣图：分形图形之海岸线 无限放大的图片 ]]></title>
+<link>http://www.matrix67.com/blog/archives/332</link>
+<content><![CDATA[ 
+		<p>    你可能见过那个非常火星的<a target="_blank" href="http://zoom.elements-network.de/zoom.htm">Flash动画</a>，那里你可以见到一组诡异的图最终形成了一个循环，于是得到一个可以无限放大的图片。下面是这类动画的一个非常牛B的特例，形象地表达出了分形思想：</p>
+<p>  <img alt="image placeholder" >
+<p>    这张图片或许可以帮助你理解“海岸线无限长”一说。这个海岸线可以无限放大，线条的复杂度不随放大而消失，是一个典型的分形图形。按照<a target="_blank" href="http://www.matrix67.com/blog/article.asp?id=290">前面说过的某些结论</a>，这样的线条很可能无限长，和Koch曲线非常类似：</p>
+<p>   <img alt="image placeholder" >
+			 ]]></content>
+<pubDate>2007-10-22T21:30:35+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/332</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 编辑距离、拼写检查与度量空间：一个有趣的数据结构 ]]></title>
+<link>http://www.matrix67.com/blog/archives/333</link>
+<content><![CDATA[ 
+		<p>    除了字符串匹配、查找回文串、查找重复子串等经典问题以外，日常生活中我们还会遇到其它一些怪异的字符串问题。比如，有时我们需要知道给定的两个字符串“有多像”，换句话说两个字符串的相似度是多少。1965年，俄国科学家Vladimir Levenshtein给字符串相似度做出了一个明确的定义叫做Levenshtein距离，我们通常叫它“编辑距离”。字符串A到B的编辑距离是指，只用插入、删除和替换三种操作，最少需要多少步可以把A变成B。例如，从FAME到GATE需要两步（两次替换），从GAME到ACM则需要三步（删除G和E再添加C）。Levenshtein给出了编辑距离的一般求法，就是大家都非常熟悉的经典动态规划问题。<br>    在自然语言处理中，这个概念非常重要，例如我们可以根据这个定义开发出一套半自动的校对系统：查找出一篇文章里所有不在字典里的单词，然后对于每个单词，列出字典里与它的Levenshtein距离小于某个数n的单词，让用户选择正确的那一个。n通常取到2或者3，或者更好地，取该单词长度的1/4等等。这个想法倒不错，但算法的效率成了新的难题：查字典好办，建一个Trie树即可；但怎样才能快速在字典里找出最相近的单词呢？这个问题难就难在，Levenshtein的定义可以是单词任意位置上的操作，似乎不遍历字典是不可能完成的。现在很多软件都有拼写检查的功能，提出更正建议的速度是很快的。它们到底是怎么做的呢？1973年，Burkhard和Keller提出的BK树有效地解决了这个问题。这个数据结构强就强在，它初步解决了一个看似不可能的问题，而其原理非常简单。</p>
+<p>    首先，我们观察Levenshtein距离的性质。令d(x,y)表示字符串x到y的Levenshtein距离，那么显然：</p>
+<p>1. d(x,y) = 0 当且仅当 x=y  （Levenshtein距离为0 &lt;==&gt; 字符串相等）<br>2. d(x,y) = d(y,x)     （从x变到y的最少步数就是从y变到x的最少步数）<br>3. d(x,y) + d(y,z) &gt;= d(x,z)  （从x变到z所需的步数不会超过x先变成y再变成z的步数）</p>
+<p>    最后这一个性质叫做三角形不等式。就好像一个三角形一样，两边之和必然大于第三边。给某个集合内的元素定义一个二元的“距离函数”，如果这个距离函数同时满足上面说的三个性质，我们就称它为“度量空间”。我们的三维空间就是一个典型的度量空间，它的距离函数就是点对的直线距离。度量空间还有很多，比如Manhattan距离，图论中的最短路，当然还有这里提到的Levenshtein距离。就好像并查集对所有等价关系都适用一样，BK树可以用于任何一个度量空间。</p>
+<p>    建树的过程有些类似于Trie。首先我们随便找一个单词作为根（比如GAME）。以后插入一个单词时首先计算单词与根的Levenshtein距离：如果这个距离值是该节点处头一次出现，建立一个新的儿子节点；否则沿着对应的边递归下去。例如，我们插入单词FAME，它与GAME的距离为1，于是新建一个儿子，连一条标号为1的边；下一次插入GAIN，算得它与GAME的距离为2，于是放在编号为2的边下。再下次我们插入GATE，它与GAME距离为1，于是沿着那条编号为1的边下去，递归地插入到FAME所在子树；GATE与FAME的距离为2，于是把GATE放在FAME节点下，边的编号为2。<br>      <img alt="image placeholder" >
+<p>Matrix67原创<br>做人要厚道 转贴请注明出处</p>
+			 ]]></content>
+<pubDate>2007-10-22T21:50:28+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/333</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 号外：2,3图灵机通用性得证 英国大学生获得2.5万美元奖金 ]]></title>
+<link>http://www.matrix67.com/blog/archives/334</link>
+<content><![CDATA[ 
+		<div align="center"><img alt="image placeholder" >
+<p>    图灵机是1936年Alan Turing提出的一个计算机模型。这种计算机由一个一维数组（或者叫磁带）构成，还有一个可以左右移动的指针。磁带上每个格子里都有一种颜色（共可从m种颜色中选择），指针本身则可以是n种状态中的一种。给定一个m*n的表格，你就定义了一个图灵机。这个表格告诉机器，如果当前指针的状态是x，它所指的格子的颜色是y，那么下一步机器应该把这个格子染成什么颜色，然后指针应该左移一位还是右移一位，指针的新状态又是什么。有了一个图灵机后，我们便可以把它当做一个计算机进行数据处理了。我们可以给这个图灵机编写一个初始状态（也就相当于现在所说的程序和数据），让它按照这个表格不断执行下去，对数据进行处理并“输出”适当的结果来。<br>    能够模拟其它所有图灵机的图灵机叫做“通用图灵机”(UTM, Universal Turing Machine)。不是所有的图灵机都是通用的：很多图灵机只能完成一些特定的运算，而只有通用图灵机才能完成更一般的操作，是一台“通用的”机器。这些通用图灵机就像现代计算机一样，可以用来编程执行各种各样的操作，能实现现代计算机的各种功能。我们经常说一种程序语言是图灵完全的(Turing Complete)，指的就是这种语言等价于通用图灵机，能够执行任何一种复杂的数学运算。<br>    50年代起，科学家们疯狂地寻找通用图灵机，所需要的颜色数和状态数越来越小。最好的结果是1967年由Marvin Minsky得到的，他发现了一个7,4通用图灵机，即一个只需要7种状态，4种颜色的通用图灵机。人们开始好奇，最简单的通用图灵机是什么样子的。2002年，Stephen Wolfram（没错，就是<a target="_blank" href="http://mathworld.wolfram.com">MathWorld</a>的那个Wolfram）做出了一个重大的突破：他发现了一个2,5通用图灵机，并且给出了一个很可能是通用图灵机的2,3图灵机。很早以前人们就证明了，不存在2,2的通用图灵机；因此如果Wolfram提出的2,3图灵机是通用图灵机的话，它就是最小的通用图灵机了。但Wolfram始终不能证明这个2,3图灵机是通用的，于是在今年三月份用25000美元悬赏征解。<br>    昨天，英国伯明翰大学的一名20岁在校大学生Alex Smith提交了一篇<a target="_blank" href="http://www.wolframscience.com/prizes/tm23/TM23Proof.pdf">55页的论文</a>，证明了Wolfram的2,3图灵机与另一个已知的通用机器等价，从而证明了2,3图灵机是最简单的通用图灵机，证实了这个很早就已经提出的猜想，解决了长期以来计算机科学界的一大疑问。这是一个意义非常重大的突破，无疑是信息学界中的一件激动人心的大事。</p>
+<p>做人要厚道 转贴请注明出处<br>新闻来源：<a target="_blank" href="http://technology.newscientist.com/article/dn12826-simplest-universal-computer-wins-student-25000.html">来源1</a> <a target="_blank" href="http://www.wolframscience.com/prizes/tm23/">来源2</a></p>
+			 ]]></content>
+<pubDate>2007-10-25T00:47:14+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/334</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Poincaré圆盘模型：一个神奇的双曲世界 ]]></title>
+<link>http://www.matrix67.com/blog/archives/336</link>
+<content><![CDATA[ 
+		<p>    今年恰逢PKU数学文化节十周年，其间开办的很多讲座我都去了。去听讲座的人好像都是数院的，我恐怕是唯一一个中文系的。考虑到我和中文系的MM没有共同话题，因此每一次听讲座时我都会顺便四处打望，看看有没有数院的美女，下来可以和她“交谈”一下。有趣的是我的做法与常人所想的恰好相反：据说数院的已经盯上中文系的MM了，而我一个中文系的竟然反过来去找数院的MM。<br>    昨天有一个关于非欧几何的讲座，这是目前所有的讲座中最为精彩的一次。讲座里提到了Poincaré的一个双曲几何模型，感觉非常有意思，在这里和大家分享一下。<br>    在所有的双曲几何模型中，Poincaré的圆盘模型可能是最有趣的一个。这个双曲世界存在于一个有限的平面区域里，整个世界限制在一个单位圆的范围内。这个世界中有两个最重要的物理定律：一，假如某物体X离原点O距离为d，那么该物体的温度为1-d^2；二，物体的大小与温度成正比。这样，假如某个人从这个世界的中心走向边缘，那么他的温度会从1慢慢变成0，同时整个人慢慢变小。他自身大小改变的同时周围的物体也等比例地放大或缩小，而这个世界里的人视野有限，看不见远处的东西，因此他不会觉得自己变小了或者变大了。因此，在这个世界里，物理学家们能够很轻易地发现第一定律，但要发现第二定律则非常具有挑战性，探索第二定律的过程必然很曲折，并且很可能出现哥白尼时代的故事。<br>    对于我们来说，这个世界是有界的；但对于这个世界中的人来说，这个世界是无穷大的。因为离原点越远，人就越小，于是相对来说他们所看到的空间也就越大。当人的位置趋于边界时，物体大小趋于0，此时的空间将变得无穷大，因此这个世界中的物体永远无法到达边界。同时，离原点越远的话越接近“绝对零度”，这将非常不适宜生物的生存，因此人们大多居住在原点，离原点越远城市规模越小，更远的地方则完全没有开发过，只适合于疯狂的冒险家进行极限运动。于是这个世界中的物理学家很自然地得到这个结论：世界是无穷大的。<br>    下面就神奇了。现在，考虑某个人想从A点走到B点。如果按照红色的线段直直地走过去，所走的路程并不是最短的，因为这条路线离原点较远。聪明的人会发现，我先往原点方向走一点，然后再到B点去，这样走的路程更短一些。我们猜想，最短路线很可能是一条偏向于原点的弧线（就好像原点把直线段“吸”过去了一样）。之所以产生这种奇怪的现象是因为，离原点越远物体就越小，人的步子也变小了，相对来说实际空间就变大了。因此，对我们来说距离相等的两点，对他们来说离原点越远其实际距离越大。因此，我们有必要重新定义这个双曲世界中“距离”的概念。由于物体大小与1-d^2成正比，因此我们可以定义，如果在离原点距离为d的位置上有一个充分小的位移，在我们看来距离为Δx，那么在这个世界中的实际距离就是Δx/(1-d^2)。这样就可以算出，从A到B的最近路线是一条垂直于边界的圆弧（蓝色的那条）。于是在这个世界中，“直线段”已经不再是我们熟悉的直线段了，而是一条条的弧线（还包括整个圆的直径）。而我们眼中的直线，在他们看来就是曲线。<br>       <img alt="image placeholder" >
+<p>       <img alt="image placeholder" >
+<p>    另外值得一提的是，这个构想很适合写成一篇科幻小说。记得大刘的那篇科幻吗？一群电子器件诞生在某颗星球的内核，然后探索物理定律，历经重重困难，最终冲破了它们那个世界的“天然外壳”，看到了外面的世界，并相信我们整个宇宙也处于一个更大的星体内。这个双曲几何模型也很适合写出这样的小说来，比如以物理史书的方式叙述从古至今若干个传奇人物的故事，讲述他们是如何从一些奇怪的现象出发，通过各种试验证明自己的猜想，顶住社会各方面的压力，执著地探索宇宙的奥秘。小说中的人物可以带着读者一起进行探索，最后才告诉读者这个宇宙的本质是什么。</p>
+<p>Matrix67原创<br>转贴请注明出处</p>
+			 ]]></content>
+<pubDate>2007-10-27T13:47:14+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/336</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Linux下的数学工具Maxima 简明教程（上） ]]></title>
+<link>http://www.matrix67.com/blog/archives/337</link>
+<content><![CDATA[ 
+		<p>    这个Blog里曾经多次提到过超强数学软件<a target="_blank" href="http://www.matrix67.com/blog/default.asp?tag=Mathematica">Mathematica</a>，但目前为止我还没发现它的Linux版，Wine似乎也没有用。其实，在Linux下也有很多类似于Mathematica的数学软件，其中<a target="_blank" href="http://maxima.sourceforge.net/">Maxima</a>是我用的最多的一个。这里简单介绍一下Maxima的各个函数供大家参考，也方便我自己今后查询。</p>
+<p>安装：sudo apt-get install maxima maxima-share<br>运行：maxima<br>退出：quit();</p>
+<p><strong>基本运算</strong><br><code>(%i1) 2+3;<br>(%o1)                                  5<br>(%i2) 5*6;<br>(%o2)                                 30<br>(%i3) %+2;<br>(%o3)                                 32<br>(%i4) %o1*%o3;<br>(%o4)                                 160<br>(%i5) 4/7+3/4;<br>                                      37<br>(%o5)                                 --<br>                                      28<br>(%i6) float(%);<br>(%o6)                          1.321428571428571<br>(%i7) 2^32;<br>(%o7)                             4294967296<br>(%i8) 30!;<br>(%o8)                  265252859812191058636308480000000<br>(%i9) float(sqrt(2));<br>(%o9)                          1.414213562373095</code></p>
+<p><strong>三角函数和对数函数</strong><br><code>(%i1) float(sin(1));<br>(%o1)                           0.8414709848079<br>(%i2) sin(%pi/2);<br>(%o2)                                  1<br>(%i3) sin(%pi/2)+cos(%pi/3);<br>                                       3<br>(%o3)                                  -<br>                                       2<br>(%i4) float(sec(%pi/3)+csc(%pi/3));<br>(%o4)                          3.154700538379252<br>(%i5) log(1);<br>(%o5)                                  0<br>(%i6) float(log(10));<br>(%o6)                          2.302585092994046<br>(%i7) log(%e);<br>(%o7)                                  1<br>(%i8) log(2^a);<br>(%o8)                              log(2) a<br>(%i9) %e^log(2);<br>(%o9)                                 2</code></p>
+<p><strong>变量操作</strong><br><code>(%i1) a^2-b^2;<br>                                     2    2<br>(%o1)                               a  - b<br>(%i2) a:3;<br>(%o2)                                  3<br>(%i3) a^2-b^2;<br>                                         2<br>(%o3)                               9 - b<br>(%i4) b:2;<br>(%o4)                                  2<br>(%i5) a^2-b^2;<br>(%o5)                                  5<br>(%i6) kill(a);<br>(%o6)                                done<br>(%i7) kill(b);<br>(%o7)                                done<br>(%i8) a^2-b^2;<br>                                     2    2<br>(%o8)                      &amp;nb<br>
+sp;        a  - b</code></p>
+<p><strong>函数操作</strong><br><code>(%i1) f(x):=x^2-1;<br>                                         2<br>(%o1)                           f(x) := x  - 1<br>(%i2) f(2);<br>(%o2)                                  3<br>(%i3) f(100);<br>(%o3)                                9999<br>(%i4) float(f(2/3));<br>(%o4)                         - 0.55555555555556<br>(%i5) a:4/5;<br>                                       4<br>(%o5)                                  -<br>                                       5<br>(%i6) f(a);<br>                                       9<br>(%o6)                                - --<br>                                       25</code></p>
+<p><strong>多项式运算（展开、合并、化简和消元）</strong><br><code>(%i1) expand((a+b)^3);<br>                            3        2      2      3<br>(%o1)                      b  + 3 a b  + 3 a  b + a<br>(%i2) factor(a^2-b^2);<br>(%o2)                          - (b - a) (b + a)<br>(%i3) ratsimp((x^2-1)/(x+1));<br>(%o3)                                x - 1<br>(%i4) eliminate([x^2+x*y+z=0,3*x+5*y+z=0,x-y-2*z^2=1],[y,z]);<br>                             4      3       2<br>(%o4)               [- x (8 x  - 2 x  + 19 x  - 50 x + 25)]</code></p>
+<p><strong>解方程</strong><br><code>(%i1) solve(x^2-3*x+4/x=5,x);<br>                         sqrt(5) + 1      sqrt(5) - 1<br>(%o1)             [x = - -----------, x = -----------, x = 4]<br>                              2                2<br>(%i2) funcsolve(f(n)*(n+1)+2*n=1-f(n)/n,f(n));<br>                                      n (2 n - 1)<br>(%o2)                        f(n) = - -----------<br>                                       2<br>                                      n  + n + 1<br>(%i3) solve([x+3*y=10,1/x+x*y=4],[x,y]);<br>                              sqrt(69) - 9      4 sqrt(3) sqrt(23) - 34<br>(%o3) [[x = 1, y = 3], [x = - ------------, y = -----------------------], <br>                                   2            9 sqrt(3) sqrt(23) - 75<br>                                    sqrt(69) + 9      4 sqrt(3) sqrt(23) + 34<br>                               [x = ------------, y = -----------------------]]<br>                                         2            9 sqrt(3) sqrt(23) + 75<br>(%i4) solve(x^2+b*x+c=0,x);<br>                           2                       2<br>                     sqrt(b  - 4 c) + b      sqrt(b  - 4 c) - b<br>(%o4)         [x = - ------------------, x = ------------------]<br>                      &amp;nbs<br>
+p;      2                       2<br>(%i5) find_root(x^x=2,x,1,2);<br>(%o5)                          1.559610469462369<br>(%i6) find_root(sin(x)=x/2,x,0.1,%pi);<br>(%o6)                          1.895494267033981</code></p>
+<p><strong>数论相关</strong><br><code>(%i1) mod(100,7);<br>(%o1)                                  2<br>(%i2) primep(3214567);<br>(%o2)                                true<br>(%i3) next_prime(200);<br>(%o3)                                 211<br>(%i4) factor(1001);<br>(%o4)                               7 11 13<br>(%i5) factor(30!);<br>                        26  14  7  4   2   2<br>(%o5)                  2   3   5  7  11  13  17 19 23 29<br>(%i6) gcd(200,780);<br>(%o6)                                 20<br>(%i7) binomial(7,4);<br>(%o7)                                 35<br>(%i8) fib(7);<br>(%o8)                                 13</code></p>
+<p><strong>画函数图像</strong><br><code>(%i1) plot2d(x^3+2*x^2-3,[x,-2,2]);<br>*** X11 output driver not found, switching to dumb terminal!<br>*** If you want to use the X11 output, please install the gnuplot-x11 package</code></p>
+<p>  14 ++-------+--------+--------+--------+-------+--------+--------+-------++<br>     +        +        +        +        +       +       x^3+2*x^2-3 $$$$$$ $<br>  12 ++                                                                    $+<br>     |                                                                    $ |<br>  10 ++                                                                  $ ++<br>     |                                                                  $   |<br>     |                                                                  $   |<br>   8 ++                                                                $   ++<br>     |                                                                $     |<br>   6 ++                                                             $$     ++<br>     |                                                             $$       |<br>   4 ++                                                          $$        ++<br>     |                                                          $$          |<br>   2 ++   <br>
+                                                     $$          ++<br>     |                                                      $$$             |<br>     |                                                     $$               |<br>   0 ++                                                 $$$                ++<br>     |                                               $$$$                   |<br>  -2 ++$$$$$$$$$$$$$$$$$$$$$$$$$$               $$$$$                      ++<br>     $$       +        +        $$$$$$$$$$$$$$$$ +        +        +        +<br>  -4 ++-------+--------+--------+--------+-------+--------+--------+-------++<br>    -2      -1.5      -1      -0.5       0      0.5       1       1.5       2</p>
+<p>(%o1) </p>
+<p>你可以通过安装gnuplot-x11让maxima在X上画图，安装方法是：<br><code>sudo apt-get install gnuplot-x11</code><br>maxima也可以画3D图像，比如执行下面代码可以画出sin(x)cos(y)的图像，我就不贴图了，大家自己试试。<br><code>plot3d(sin(x)*cos(y),[x,-2,2],[y,-2,2]);</code></p>
+<p>做人要厚道<br>转贴请注明出处</p>
+			 ]]></content>
+<pubDate>2007-10-30T12:30:15+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/337</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Linux下的数学工具Maxima 简明教程（下） ]]></title>
+<link>http://www.matrix67.com/blog/archives/338</link>
+<content><![CDATA[ 
+		<p><strong>三角运算</strong><br><code>(%i1) trigexpand(sin(10*x+y));<br>(%o1)                 cos(10 x) sin(y) + sin(10 x) cos(y)<br>(%i2) trigexpand(sin(2*x));<br>(%o2)                           2 cos(x) sin(x)<br>(%i3) trigsimp(2*cos(x)^2+sin(x)^2);<br>                                     2<br>(%o3)                             cos (x) + 1<br>(%i4) trigreduce(-sin(x)^2+3*cos(x)^2+x);<br>                      cos(2 x)      cos(2 x)   1        1<br>(%o4)                 -------- + 3 (-------- + -) + x - -<br>                         2             2       2        2</code></p>
+<p><strong>代数推理</strong><br><code>(%i1) assume(x&gt;0,y&lt;-1,z&gt;=0);<br>(%o1)                      [x &gt; 0, y &lt; - 1, z &gt;= 0]<br>(%i2) assume(a&lt;b and b&lt;c);<br>(%o2)                           [b &gt; a, c &gt; b]<br>(%i3) facts();<br>(%o3)               [x &gt; 0, - 1 &gt; y, z &gt;= 0, b &gt; a, c &gt; b]<br>(%i4) is(a&gt;c);<br>(%o4)                                false<br>(%i5) is(z-y&gt;0);<br>(%o5)                                true<br>(%i6) is(z-x&gt;0);</code></p>
+<p>Maxima was unable to evaluate the predicate:<br>z - x &gt; 0<br> -- an error.  Quitting.  To debug this try debugmode(true);<br>(%i7) prederror:false;<br>(%o7)                                false<br>(%i8) is(z-x&gt;0);<br>(%o8)                               unknown<br>(%i9) forget(a&lt;b);<br>(%o9)                               [b &gt; a]<br>(%i10) is(a&gt;c);<br>(%o10)                              unknown</p>
+<p><strong>级数计算</strong><br><code>(%i1) sum(i,i,1,5);<br>(%o1)                                 15<br>(%i2) sum(i^2,i,1,5);<br>(%o2)                                 55<br>(%i3) sum(1/2^i,i,1,inf);<br>                                   inf<br>                                   ====<br>                                        1<br>(%o3)                               &gt;    --<br>                                   /      i<br>                                   ====  2<br>                                   i = 1<br>(%i4) sum(1/2^i,i,1,inf),simpsum;<br>(%o4)                                  1<br>(%i5) sum(1/i^2,i,1,inf),simpsum;<br>                                        2<br>                                     %pi<br>(%o5)                                ----<br>                                      6<br>(%i6) sum(1/i,i,1,inf),simpsum;<br>(%o6)                                 inf<br></code></p>
+<p><strong>微积分</strong><br><code>(%i1) limit(1/x,x,inf);<br>(%o1)                                  0<br>(%i2) limit(sin(x)/x,x,0);<br>(%o2)                                  1<br>(%i3) limit(sin(x),x,inf);<br>(%o3)                            &amp;n<br>
+bsp;    ind<br>(%i4) diff(3*x^2+x+5/x,x);<br>                                       5<br>(%o4)                            6 x - -- + 1<br>                                        2<br>                                       x<br>(%i5) diff(sin(x)*tan(x),x);<br>                                           2<br>(%o5)                   cos(x) tan(x) + sec (x) sin(x)<br>(%i6) diff(%e^(a*x),x);<br>                                        a x<br>(%o6)                               a %e<br>(%i7) integrate(sin(x)^3,x);<br>                                  3<br>                               cos (x)<br>(%o7)                          ------- - cos(x)<br>                                  3<br>(%i8) integrate(x^3,x,1,3);<br>(%o8)                                 20<br>(%i9) taylor(%e^x,x,0,3);<br>                                     2    3<br>                                    x    x<br>(%o9)/T/                    1 + x + -- + -- + . . .<br>                                    2    6<br>(%i10) taylor(sin(x),x,0,5);<br>                                  3    5<br>                                 x    x<br>(%o10)/T/                    x - -- + --- + . . .<br>                                 6    120<br>(%i11) taylor(sqrt(x+1),x,1,3);<br>                                                     2                  3<br>                    sqrt(2) (x - 1)   sqrt(2) (x - 1)    sqrt(2) (x - 1)<br>(%o11)/T/ sqrt(2) + --------------- - ---------------- + ----------------<br>                           4                 32                128<br>                                                                        + . . .<br>(%i12) ratsimp(%);<br>                      3              2<br>             sqrt(2) x  - 7 sqrt(2) x  + 43 sqrt(2) x + 91 sqrt(2)<br>(%o12)       -----------------------------------------------------<br>                                      128</code></p>
+<p><strong>矩阵运算</strong><br><code>(%i1) f[i,j]:=i+j;<br>(%o1)                           f     := i + j<br>                                 i, j<br>(%i2) genmatrix(f,3,3);<br>                                  [ 2  3  4 ]<br>                                  [         ]<br>(%o2)                       &amp;nbs<br>
+p;     [ 3  4  5 ]<br>                                  [         ]<br>                                  [ 4  5  6 ]<br>(%i3) g[i,j]:=i-2^j;<br>                                              j<br>(%o3)                           g     := i - 2<br>                                 i, j<br>(%i4) genmatrix(g,3,3);<br>                               [ - 1  - 3  - 7 ]<br>                               [               ]<br>(%o4)                          [  0   - 2  - 6 ]<br>                               [               ]<br>                               [  1   - 1  - 5 ]<br>(%i5) %o2+%o4;<br>                                 [ 1  0  - 3 ]<br>                                 [           ]<br>(%o5)                            [ 3  2  - 1 ]<br>                                 [           ]<br>                                 [ 5  4   1  ]<br>(%i6) %o2.%o4;<br>                               [ 2  - 16  - 52 ]<br>                               [               ]<br>(%o6)                          [ 2  - 22  - 70 ]<br>                               [               ]<br>                               [ 2  - 28  - 88 ]<br>(%i7) %o2^^3;<br>                               [ 360  474  588 ]<br>                               [               ]<br>(%o7)                          [ 474  624  774 ]<br>                               [               ]<br>                               [ 588  774  960 ]<br>(%i8) x:matrix([17, 3],[-8, 11]);<br>                                  [ 17   3  ]<br>(%o8)                             [         ]<br>                                  [ - 8  11 ]<br>(%i9) x^^-1;<br>                                [ 11      3  ]<br>                                [ ---  - --- ]<br>                                [ 211    211 ]<br>(%o9)                           [            ]<br>                                [  8    17   ]<br>            &amp;n<br>
+bsp;                   [ ---   ---  ]<br>                                [ 211   211  ]</code></p>
+<p>想了解更多请阅读官方文档：<br>http://maxima.sourceforge.net/docs/manual/en/maxima.html</p>
+<p>做人要厚道<br>转贴请注明出处</p>
+			 ]]></content>
+<pubDate>2007-10-31T15:57:52+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/338</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 五子棋接龙：一个简单而有趣的挑战 ]]></title>
+<link>http://www.matrix67.com/blog/archives/340</link>
+<content><![CDATA[ 
+		<div align="center"><img alt="image placeholder" >
+<p>    Morpion Solitaire是一个非常简单的单人棋类游戏。游戏开始前棋盘上摆好了36个棋子，这些棋子排成一个空心的十字架形。以后你放上去的每个棋子都必须和已有的四个子连成一条线（左图所示，就像五子棋那样）。唯一需要注意的是，同一个棋子在同一个方向上只能使用一次（即同一方向上的连线不能重叠，否则你就可以一条直线无限摆下去了）。每放下一个新的棋子你就得到1分，再没有新的棋子可摆时游戏结束。<br>    人们开始好奇，游戏最多可以走多少步。上面的右图一共走了68步，这个记录从99年开始一直保持了7年，直到06年才有人改进到了74步。最近，又一个新的记录诞生了，有人找到了一种79步的解法。它的解法如下图所示：<br>   <img alt="image placeholder" >
+<p>    这个游戏看似简单，但你真正玩一下你会发现游戏变化莫测。很可能这一次你走了60多步，但下一次你却只能走40多步。这是一个打发时间的绝佳方法，仅仅需要一张纸和一支笔就可以混过大半节古代汉语课，没准一不小心就破了世界纪录。有兴趣的话不妨也写个程序来搜索一下，看看你的程序能不能跑出一个80的解来。目前解的上界是141，下界是79，任何改进都可以发信到<a target="_blank" href="http://slef.org/jeu/">这个页面</a>里的电子邮箱。</p>
+<p>    这个游戏的另一个版本则是要求构造新的连线时已有的四个子中任两个都还不曾连接过（而不是同一棋子同一方向只能用一次），你可以在<a target="_blank" href="http://croix2malte.free.fr/indexGB.php">这里</a>玩到一个在线的Java版本。这个版本更是变化多端，运气不好只能走出40多步，RP爆发可以超过150步，目前已经证明的上界则是324步。如果你能走到160步，你可以联系<a target="_blank" href="http://euler.free.fr/morpion.htm">这里</a>给出的邮箱地址（为什么我要翻墙才能看到这个页面？）。目前的最好记录是170步，如下图所示：<br>  <img alt="image placeholder" >
+			 ]]></content>
+<pubDate>2007-11-02T12:23:54+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/340</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ PS图片集：Thinking with Portals ]]></title>
+<link>http://www.matrix67.com/blog/archives/341</link>
+<content><![CDATA[ 
+		<p>    还记得上个月推荐的创意解谜游戏<a target="_blank" href="http://www.matrix67.com/blog/article.asp?id=375">Portal</a>吗？这个游戏中游戏者可以用一把Portal发射器创造出类似虫洞的传送门，任何物体都可以从这头瞬移到那头。这款创意游戏吸引人的地方就在于它给人们带来一种全新的思维方式，因此游戏的motto就是Thinking with Portals。或许玩多了后，在生活中我们会突然想到，要是这里有一个Portal该多好啊。于是，这样一组有趣的PS图片诞生了——</p>
+<p>   <img alt="image placeholder" >
+<p>   <img alt="image placeholder" >
+<p>   <img alt="image placeholder" >
+<p>   <img alt="image placeholder" >
+<p>   <img alt="image placeholder" >
+<p>   <img alt="image placeholder" >
+<p>消息来源：<a target="_blank" href="http://digg.com/pc_games/b_PICS_Thinking_with_Portals">digg</a><br>更多图片：<a target="_blank" href="http://www.somethingawful.com/d/photoshop-phriday/thinking-with-portals.php">somethingawful</a></p>
+<p>    P.S. 这个游戏网上已经有<a target="_blank" href="http://thepiratebay.org/search/portal/0/3/400">BT下载</a>了，感兴趣的同志赶快下载试试，别忘了回来告诉我游戏怎么样（我的本本配置太低，肯定玩不起这个游戏）。</p>
+			 ]]></content>
+<pubDate>2007-11-02T13:06:07+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/341</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣题：Anagram辅助程序的数据结构 ]]></title>
+<link>http://www.matrix67.com/blog/archives/342</link>
+<content><![CDATA[ 
+		<p>    Anagram是一个比较流行的英文文字游戏，本Blog之前曾经<a target="_blank" href="http://www.matrix67.com/blog/article.asp?id=338">介绍过</a>，这里我再提一下。Anagram就是把一个词或者一句话里的字母重新排列，组成一个新的单词或句子，通常前后两者有一种讽刺的意味。比如，Dormitory = Dirty Room，或者Desperation = A Rope Ends It。创作一个有意思的Anagram并不是一件容易的事，你很可能需要计算机的帮助才能找到合适的词。例如，我们可以利用Hash表瞬间找出与给定单词所使用的字母完全相同的单词。我们可以把字典中每个单词的字母按照字母顺序重新排列，于是对单词dame和made操作后的结果都是adem，这样的话使用字母完全相同的单词就对应了一个唯一的Hash值，我们就可以方便地把它们归在一起。<br>    而实际上，这个Hash表往往没什么用。一个Anagram很可能是由多个单词构成的，因此我们更希望知道，使用某个单词中的字母（不一定全部使用）可以构造出哪些新的单词。例如，我输入单词dormitory，则程序可以输出dirty, motor, trim, dry, room等单词。很多Anagram辅助程序都有这样的功能，并且这也单独作为一个文字游戏存在。我们称这种只用到一部分给定字母的单词叫做不完全Anagram。假如字典里共有n个单词，输入数据长度为l，那么你怎样才能找出所有的不完全Anagram？一种方法是遍历所有n个单词，依次判断每个单词是否合法；另一种方法则是枚举输入数据的2^l子集，对每个子集在之前建立的Hash表中查询一次。现在，你能否想出一个数据结构，使得你的Anagram辅助程序能够以最快的速度输出任何一个给定单词的不完全Anagram？</p>
+<p>   <img alt="image placeholder" >
+<p>做人要厚道<br>转贴请注明出处</p>
+			 ]]></content>
+<pubDate>2007-11-03T15:54:18+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/342</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 网站推荐：The Python Challenge 第一个编程解谜站点 ]]></title>
+<link>http://www.matrix67.com/blog/archives/343</link>
+<content><![CDATA[ 
+		<div align="center"><img alt="image placeholder" >
+<p>    <a target="_blank" href="http://www.pythonchallenge.com">The Python Challenge</a>是一个过关式的解谜站点，使用的是经典在线解谜站点<a target="_blank" href="http://www.matrix67.com/blog/article.asp?id=61">Not Pr0n</a>的模式：根据提示找出下一关的网页地址。和Not Pr0n不同的是，在每一关里你都需要编写程序来寻找答案。虽然这个解谜站点的名字叫做Python Challenge，但事实上你可以使用任意一种程序语言（除了少数一两关可能会用到点Python的知识）。<br>    虽然这个解谜站点已经很火星了（05年建立的），但在国内似乎流传得并不广。偶然发现这个站点，想到NOIp也快到了，多一个有趣的coding练习也是一件好事，因此这里推荐一下这个站点，大家可以一起来试试。</p>
+<p>本日志评论原则：禁止“剧透”</p>
+			 ]]></content>
+<pubDate>2007-11-05T01:08:27+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/343</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Eleusis Express：非常有创意的多人纸牌游戏 ]]></title>
+<link>http://www.matrix67.com/blog/archives/344</link>
+<content><![CDATA[ 
+		<p>    1956年Robert Abbott发明了一个全新的纸牌游戏叫做Eleusis，后来Martin Gardner在1959年6月的Scientific American杂志上介绍了这个游戏。77年10月这个游戏又进一步得到完善，并发展出一些其它的玩法。最近，John Golden提出了这个游戏的第三个版本Eleusis Express，他比Eleusis更简单，更完备，平均游戏时间也更短。Robert Abbott对这个游戏非常满意，这种简单而有趣的推理游戏很可能会像杀人游戏一样流行起来。下面我简单介绍一下这个游戏的规则，你将会看到一种集策略和推理于一体的全新的纸牌游戏。</p>
+<p>    这个游戏的规则极其简单，但变化也异常丰富，因为这个游戏的出牌方式是不固定的，游戏开始时玩家甚至不知道出牌的规则是什么。玩家的主要任务就是在游戏过程中探索出牌的规则。游戏需要两副牌，玩家以3到8人为宜。每轮游戏前，玩家需要推选出一位主持人，主持人在这个游戏里扮演最重要的角色。游戏开始前，主持人自己在心里默想一个出牌规则(Secret Rule)，但不能告诉玩家。规则的内容应该只考虑扑克牌的花色与点数，与出牌人、牌的摆放方式等无关。这个规则必须简单、明确，通常以“如果上一张牌是什么什么，那么下一张牌就该接什么什么”一类的形式给出，比如“如果上一张牌是红色，下一张牌就是黑色；如果上一张牌是黑色，下一张牌就该是红色”，或者是“要么与前一张牌同花色，要么与前一张牌同点数”。然后主持人洗牌，给每个人发12张牌，然后再翻出一张放在桌面上作为第一张牌打出。这张牌及后面正确的跟牌都摆成一行，叫做主线(Mainline)；主线下方可能会有若干边线(Sideline)，表示错误的跟牌。游戏正式开始前，主持人可以对秘密规则进行一些提示，之后玩家轮流打牌，主持人判断玩家打出的牌是否符合他的规则：</p>
+<p>     <img alt="image placeholder" >
+<p>    轮到某位玩家出牌时，该玩家可以选择不出牌，即宣称自己无牌可打。此时他应该把手中的牌摊出来给所有人看，同时主持人判定该玩家是否确实无牌可打：<br><strong>如果该玩家确实无牌可打</strong><br>    如果此时玩家手中只有一张牌，游戏结束。否则，主持人清点该玩家手中牌的数目N，把它们放回还没发完的牌摞的最底下，再发给他N-1张牌。同时，该玩家获得一次猜测出牌规则的机会，猜对了同样可以直接获胜。<br><strong>如果该玩家有可以打的牌</strong><br>    此时主持人从中选出一张可以打的牌接在主线后面，该玩家收起自己其余的牌并再摸一张，保持手中的牌数不变。</p>
+<p>    游戏结束后，每个人的得分就是自己打出去的牌的张数。打完所有牌而获胜的玩家再获3分的加分，猜对规则而获胜则得到6分的加分。主持人的得分与本轮最高分相同。然后大家重新推选主持人，继续下一轮游戏。<br>    如果牌抓完了但游戏还没结束，可以再洗一副牌继续进行，或宣布游戏结束，本轮不计分。然后，主持人阴笑几下，故弄玄虚地说出自己所想的规则，等待玩家们恍然大悟并集体发出“哎呀~~~”的叹息声（或者等待玩家大骂这规则太他妈BT了谁能想到啊）。<br>    若干轮游戏后，最终的胜者就是累积得分最高的人。我们可以适当给赢家一些奖励，比如让他亲一下最漂亮的MM玩家，或者传几个小A给他。得分最低的人也应当受到惩罚，比如叫他把MM共享出来让大家玩弄，或者贡献一个XX论坛的账号。</p>
+<p>    能想到一个简单明了而又富有新意的规则是非常重要的，因此游戏的主持人是整个游戏的灵魂，一个思维活跃又爱捉弄人的主持人可以让游戏变得非常精彩。这里写一些自己想到的规则，大家有什么好的想法也可以在下面说一说。
+</p>
+<ul>
+<li>按黑红梅方的顺序出牌</li>
+<li>按三张红色，三张黑色，又三张红色，又三张黑色的顺序出牌</li>
+<li>如果上一张牌的点数是1到7，则应该接8到K；如果上一张牌是8到K，则应该接1-7</li>
+<li>相邻两张牌的点数之和大于10</li>
+<li>相邻两张牌的点数的差的绝对值不超过3</li>
+<li>相邻两张牌的点数加起来能被3整除</li>
+<li>下一张牌的点数比上一张牌大1点、2点、3点或4点；数字大小关系是“循环的”</li>
+<li>如果上一张牌的点数是奇数，则出红色牌；如果上一张牌的点数是偶数，则出黑色牌</li>
+<li>如果上一张牌是红色，则出牌的点数小于等于上张牌的点数；否则，出牌的点数大于等于上张牌的点数</li>
+<li>如果上一张牌的点数为平方数，则出牌的点数是非完全平方数；否则出牌的点数应该是一个平方数</li>
+<li>牌的点数一大一小交替排列（即奇数位置上的牌比前面的点数小，偶数位置上的牌比前面点数大）</li>
+<li>如果花色与前面一张相同，则点数必须比它大；如果花色与前面一张不同，则点数必须比它小</li>
+</ul>
+<p>做人要厚道 转贴请注明出处<br>查看更多：http://www.logicmazes.com/games/eleusis/index.html</p>
+			 ]]></content>
+<pubDate>2007-11-06T20:08:46+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/344</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 偶然发现一个iGoogle彩蛋 猜猜看触发事件是什么 ]]></title>
+<link>http://www.matrix67.com/blog/archives/345</link>
+<content><![CDATA[ 
+		<p>    这个可能比较火星，很多人可能已经知道了这个彩蛋；但如果你事先不知道这个彩蛋而碰巧遇上了，你能找出触发这个彩蛋的条件吗？刚才打开iGoogle，发现一件神奇的事件：我的iGoogle主题的顶部图片上居然出现了一个圆周率π──天上的星星排列出来的形状。我立即想到这是iGoogle的一个彩蛋，但我却不知道是什么东西触发了这个彩蛋。仔细想了一下后，突然恍然大悟，这个触发条件确实符合Google的Geek精神。把当时的截屏放出来给大家看一看，如果你还不曾听说过这个彩蛋，你完全可以通过这个截屏找出这个彩蛋的触发条件。继续看下去前不妨先来找找看~~</p>
+<div align="center"><img alt="image placeholder" >
+<p>    图上显示截屏的时间是11点15分。中国是东八区，比标准时间早8小时，因此国际标准时间是3点15分。考虑到本机时间准确性、截屏时间稍晚等原因，很容易想到iGoogle页面的实际生成时间是3点14分。也就是说，当国际标准时间恰为3:14时，iGoogle将会出现彩蛋。</p>
+<p>图片地址：http://www.google.com/ig/images/skins/sweetdreams/3.14am/header_bg.jpg<br>了解更多：http://www.gseeker.com/50226711/googleaeaeeceee_66197.php</p>
+			 ]]></content>
+<pubDate>2007-11-07T12:14:22+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/345</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 网站推荐：blackflip 基于Flash的web 2.0解谜游戏站 ]]></title>
+<link>http://www.matrix67.com/blog/archives/347</link>
+<content><![CDATA[ 
+		<div align="center"><img alt="image placeholder" >
+<p>    <a target="_blank" href="http://blackflip.org">blackflip</a>是一个有趣的智力游戏。在每一个关卡里，你需要画一条不自交的路线，这条路线经过的所有格子都将会反色，游戏的目标就是要让反色后同一行的所有格子恰好都同色。游戏规则很简单，但有一些关卡特别费脑子。我很喜欢这个游戏的一个Tagline：Waste Time and Get Smarter。<br>    与其它Flash解谜游戏不同的是，这是一个完整的web 2.0应用。这个网站会记录你曾玩过的关卡，并能告诉你哪些关卡你解开过，哪些关卡你最终放弃了。破解一道关卡后你还可以为该关卡评分留言，系统将依据这个评分来确定关卡的难度系数。任何人都可以为这个游戏创造新的关卡，然后与朋友分享自己创造的关卡。目前该网站的总关卡数已经达到3000多个；更牛B的是，该网站甚至还提供了新关卡的RSS输出！</p>
+			 ]]></content>
+<pubDate>2007-11-10T00:33:31+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/347</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 网上出现340-cipher破解系统 邀请大家一起破译Zodiac密码 ]]></title>
+<link>http://www.matrix67.com/blog/archives/348</link>
+<content><![CDATA[ 
+		<div align="center"><img alt="image placeholder" >
+<p>    69年7月31日，三家报社各自收到了连环杀手Zodiac写的一封密文的三分之一。Zodiac要求这三家报社把密文发表在报纸上，否则他将在这周末再次杀人。Vallejo Times-Herald得到的是整个密文的头三分之一(图1)，另外两家报社则是San Francisco Chronicle和San Francisco Examiner。这个密文共有408个符号，以后大家都习惯称它为408-密文(408-cipher)。408-密文是Zodiac的第一封密信，是Zodiac事件中极其重要的一环，David Fincher的电影<a target="_blank" href="http://www.imdb.com/title/tt0443706/">Zodiac</a>就完整地记述了这一事件。<br>    一个星期后，一位教师和他的妻子破解了这篇密文。他们发现，这篇密文用的是最简单的字母替换法，所不同的是一个字母可能对应多个符号。通常这种一对多的替换加密叫做同音替换法(Homophonic Substitution Cipher)。同音替换密码可以很好地防止字频破解法，因为你可以让常用的字母对应更多的符号，保证每个符号出现的次数大致相等。破解同音密码的常见方法是利用“字母Q后面一定是U”这一类的英文特性，因此你可以特别注意一个符号后面总是跟着那几个符号的情况（Q是不常用的字母，一般只对应一个符号）。但这篇密文太短，可以获取的信息有限，因此可能的破解方法只有一个：不断尝试，不断猜测，不断改进。不管怎样，那位教师和他的妻子解开了Zodiac的密码：<br>
+</p>
+<blockquote>I LIKE KILLING PEOPLE BECAUSE IT IS SO MUCH FUN
+<p>IT IS MORE FUN THAN KILLING WILD GAME IN THE FORREST BECAUSE MAN IS THE MOST DANGEROUE ANIMAL OF ALL TO KILL SOMETHING GIVES ME THE MOST THRILLING EXPERENCE</p>
+<p>IT IS EVEN BETTER THAN GETTING YOUR ROCKS OFF WITH A GIRL</p>
+<p>THE BEST PART IS THAE WHEN I DIE I WILL BE REBORN IN PARADICE AND ALL THE I HAVE KILLED WILL BECOME MY SLAVES</p>
+<p>I WILL NOT GIVE YOU MY NAME BECAUSE YOU WILL TRY TO SLOI DOWN or STOP MY COLLECTING OF SLAVES FOR MY AFTERLIFE EBEORIETEMETHHPITI</p>
+</blockquote>
+<p>    最后这个EBEORIETEMETHHPITI是什么意思现在还没搞清楚。</p>
+<p>    11月8日，Zodiac又寄出了一篇密文。这篇密文有340个字符，被称作340-密文。与408-密文不同的是，虽然大家都相信340-密文同样使用的是同音替换加密，但直到现在340-密文也没有解开。<br>    时至今日，David Fincher电影Zodiac又掀起了一次破解未解之谜的热潮，很多人都开始尝试破解340-密文并在网络上分享他们的新发现。最近，网络上出现了一个<a target="_blank" href="http://oranchak.com/zodiac/webtoy/">专门用于破解340-密文的网页</a>。这个网页假设340-密文和408-密文一样也是用的同音替换法，你可以方便地对符号进行替换，同时程序可以告诉你替换后可以得到哪些单词。你也可以随机建立替换表，或者查看一些有趣的替换结果。目前最好的替换表可以产生halloween, killing, you, next, die, zodiac等单词。看过很多侦探小说和电影？对密码破译很有兴趣？340-密文是货真价实的“侦探小说式”密码，有兴趣的话不妨试一试。</p>
+			 ]]></content>
+<pubDate>2007-11-10T22:12:48+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/348</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 等高线模式：解决极大极小问题的另类策略 ]]></title>
+<link>http://www.matrix67.com/blog/archives/351</link>
+<content><![CDATA[ 
+		<p>    最近在看Pólya的《数学与猜想》，读到了一些很有意思的东西，在这里和大家分享。<br>    我们首先来看一道很火星的题目：A、B两点在已知直线的同侧，请在直线上找出一点C使得∠ACB最大。可能大家都知道这个该怎么做，但这个解法到底是怎么想到的呢？《数学与猜想》提到了这样一种看法：<br>       <img alt="image placeholder" >
+<p>    真正的数学家会从这个简单的题目里看到一些更深的思想。我们可以把这个图任意的扭曲，从而得到这样一个有趣的结论。假设我和MM在野外探险，地形是任意给定的，我们的行动路线也是任意给定的。现在我有一张非常精确的等高线地图，我把我们的路线画在地图上，那么整个旅途中所到达的最高点和最低点在地图上的什么位置？仔细思考等高线的定义，我们立即想到：路径穿过等高线的地方肯定不会是最高点或最低点，因为穿过一条等高线即表明你正在爬上爬下。因此，达到最高点或最低点的地方只能是等高线与我的路线相切的地方。这给我们一个启发：我们可以用这种模式来解决很多极大极小问题。我们把所有可能的结果的分布情况用等高线表示，而实际允许的初始条件则被限制在了一条路径上，那么最优解必然是这条路径与某条等高线的切点。用等高线模式来解释刚才的问题将变得非常简单：图中的蓝色线条就是角度大小的“等高线”，在直线上取得极值的时候，等高线恰与直线相切，其它情况下角度大小都在“变化进行时”。<br>    我们再来看三个有趣的例子。在第一个例子中我们将解释为什么点到直线的距离以垂线段最短，第二个例子则将探究为什么所有的圆内接n边形以正n边形最大。在第三个例子里我们将提到一个与椭圆有关的神奇性质。</p>
+<p>       <img alt="image placeholder" >
+<p>    上面这个图就是到定点距离大小的等高线图。我们可以立即看到，等高线就是一个个的同心圆。与已知直线相切的那个同心圆确定了直线到给定点距离最短的位置，而圆的半径与对应位置上的切线垂直，这就说明了点到直线的距离以垂线段最短。</p>
+<p>       <img alt="image placeholder" >
+<p>    我相信你已经对这个方法非常熟悉了，因此最后这个例子我就不画图了。在第三个例子中，我们将考虑一个和光学有关的性质。给定一条直线和直线同侧的两点A、B，那么直线上一定有一点C使得AC+BC达到最小。这个点C是一个以A、B为焦点的椭圆形等高线与直线的切点。固定点A和点B，适当调整直线的位置，结论始终成立。还记得Fermat原理吗，光从一点到另一点总是沿着光程最短的路径来传播。仅考虑反射定律，这个结论很显然。也就是说，A-&gt;C-&gt;B这样的光线传播路径完全遵循光的反射规律。嘿！我证明了这样一个富有传奇色彩的结论：椭圆形从一个焦点发射出来的光线总会反射到另一个焦点。</p>
+<p>做人要厚道<br>转贴请注明出处</p>
+			 ]]></content>
+<pubDate>2007-11-12T21:33:46+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/351</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 挑战你的感觉 BBC科学栏目的趣味Flash测试 ]]></title>
+<link>http://www.matrix67.com/blog/archives/352</link>
+<content><![CDATA[ 
+		<p>    那些火星得不能再火星的错觉图片已经告诉大家，不要相信你所看到的东西，你的眼睛会欺骗你的大脑。而事实上，你将会发现你的所有感官都不可信，甚至连你的记忆能力和文字阅读能力都将受到严峻的挑战。试试看，你的五官感觉准吗？<br>    有一些题目已经很火星了，但也有一些东西是我第一次见到（比如那个和音高有关的题）；即使是那些经典的错觉也会以一个独特的方式出现。刚刚看到，觉得很有趣，和大家分享一下。</p>
+<p>http://www.bbc.co.uk/science/humanbody/body/interactives/senseschallenge</p>
+			 ]]></content>
+<pubDate>2007-11-15T13:45:37+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/352</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 空间想象力大挑战！Smale球面外翻问题 ]]></title>
+<link>http://www.matrix67.com/blog/archives/354</link>
+<content><![CDATA[ 
+		<p>      <embed src="http://union.bokecc.com/flash/player.swf?videoID=27994_1046020&amp;autoStart=false&amp;share=true" width="438" height="387" type="application/x-shockwave-flash"></embed></p>
+<p>    Smale球面外翻问题(Smale's Sphere Eversion Paradox)是微分拓扑学中的一个非常有趣的问题：在允许与自身相交的情况下，是否有可能无损地、平滑地、不留折痕地把一个球面的内侧翻到外面来。答案是肯定的，并且球面外翻的方法不只一种。上面这段有趣的动画里就演示了球面外翻问题的一种常见解法。你能看出这是怎么变的吗？你能把整个变换过程的每个细节都想清楚吗？你是否能在头脑里清晰地想象出整个过程？你又如何给别人解释这一过程？<br>    <a target="_blank" href="http://www.dgp.utoronto.ca/~mjmcguff/eversion/sphereEversion-0.4-exec.zip">这个小程序</a>可以帮助你观察这个球面外翻过程。你可以拉进拉远，从任意角度观察任一时刻该球面的形状。程序提供了球面透明、只查看半球等实用功能便于你一步一步进行分析。</p>
+<p>YouTube链接：http://www.youtube.com/watch?v=R_w4HYXuo9M<br>了解更多：http://torus.math.uiuc.edu/jms/Papers/isama/color/opt2.htm</p>
+			 ]]></content>
+<pubDate>2007-11-16T15:02:58+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/354</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 07年NOIp提高组题目内容概述 ]]></title>
+<link>http://www.matrix67.com/blog/archives/355</link>
+<content><![CDATA[ 
+		<p>    NOIp越来越水了，题目还没大家的模拟赛出得好。我感觉从来没有这么垃圾的题目，一二题完全是送分题，三题估计多数人都会，只有四题或许会难住一些人。本来还想写题解的……算了，不用写了，节约点时间赶我的高数作业。</p>
+<p><strong>第一题：count 统计数字</strong><br>    输入一个数n(n&lt;=200000)和n个自然数（每个数都不超过1.5*10^9），请统计出这些自然数各自出现的次数，按顺序从小到大输出。输入数据保证不相同的数不超过10000个。</p>
+<p>样例输入：<br>8<br>2<br>4<br>2<br>4<br>5<br>100<br>2<br>100<br>样例输出：<br>2 3<br>4 2<br>5 1<br>100 2</p>
+<p><strong>第二题：expand 字符串的展开</strong><br>    我们可以用减号对连续字母或数字进行缩写，于是字符串a-dha3-68就可以展开为abcdha34568。<br>    输入三个参数p1,p2,p3，再输入一个仅由数字、小写字母和减号组成的字符串（长度不超过100），请按参数展开此字符串<br>    各个参数的意义如下：
+</p>
+<ul>
+<li>参数p1=1 -&gt; 所有填充的字母都写成小写；</li>
+<li>参数p1=2 -&gt; 所有填充的字母都写成大写；</li>
+<li>参数p1=3 -&gt; 所有填充的字母和数字都用星号代替；</li>
+<li>参数p2=k -&gt; 同一个填充字符连续写k遍；</li>
+<li>参数p3=1 -&gt; 顺序填充；</li>
+<li>参数p3=2 -&gt; 逆序填充。</li>
+</ul>
+<p>    另外，如果减号两边的字符一个是数字一个是字母，或者减号右边的ASCII码没左边的大，则该处不变</p>
+<p>样例输入1：<br>1 2 1<br>abcs-w1234-9s-4zz<br>样例输出1：<br>abcsttuuvvw1234556677889s-4zz</p>
+<p>样例输入2：<br>2 3 2<br>a-d-d<br>样例输出2：<br>aCCCBBBd-d</p>
+<p>样例输入3：<br>3 4 2<br>di-jkstra2-6<br>样例输出3：<br>dijkstra2************6</p>
+<p><strong>第三题：game 矩阵取数游戏</strong><br>    一个n行m列的矩阵，每次你需要按要求取出n个数，m次正好将所有数取完。每取出一个数你都会有一个得分，请求出最终的得分最大是多少。<br>    每一次取数的要求：每一行中恰好取一个数，且只能取剩下的数中最左边或最右边位置上的数<br>    每取一个数的得分：所取数的数值乘以2^i，i表示这是第i轮取数。<br>    矩阵中的数为不超过100的自然数，1&lt;=n,m&lt;=80</p>
+<p>样例输入：<br>2 3<br>1 2 3<br>3 4 2<br>样例输出：<br>82<br>样例说明：<br>1*2+2*2 + 2*4+3*4 + 3*8+4*8 = 82</p>
+<p><strong>第四题：core 树网的核</strong><br>    树上的任两点间都有唯一路径。定义某一点到树上某一路径的距离为该点到路径上所有点的路径长度中的最小值。定义树中某条路径的“偏心距”为所有其它点到此路径的距离的最大值。定义树的直径为树的最长路径（可能不唯一）。给出一个有n个节点的无根树，请找出某个直径上的一段长度不超过s的路径（可能退化为一个点），使它的偏心距最小。请输出这个最小偏心距的值。<br>    题目已经告诉你如下定理：树的所有直径的中点必然重合（这个中点可能在某条边上）。其实这个结论很显然嘛，因为如果中点不重合的话必然可以找到一条更长的路。<br>    5&lt;=n&lt;=300，0&lt;=s&lt;=1000，边权是不超过1000的正整数</p>
+<p>只是大致读了一下题目，若有写错的地方请指正<br>感谢<a target="_blank" href="http://hi.baidu.com/%CA%A5%C6%EF">huyue</a>第一时间发布题目照片</p>
+			 ]]></content>
+<pubDate>2007-11-17T15:42:49+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/355</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 刚看到一个小笑话：我的数学MM ]]></title>
+<link>http://www.matrix67.com/blog/archives/356</link>
+<content><![CDATA[ 
+		<p>I told my girlfriend that she's "math girl, doer of math: unable to integrate with society, only with functions of x"<br>我告诉我的女朋友说，她是一个数学MM，正如数学一样，不能融入这个社会（不能对社会进行积分），只有X的功能（函数）。</p>
+<p>and guys, this is why she's my girlfriend. she said:<br>你猜怎么着，她真不愧是我的女朋友。她说：</p>
+<p>"I could do a u substitution…"<br>“我可以用U来进行代换……”</p>
+<p>来源：http://bash.org/?823025<br>我要是有这样的MM就好了</p>
+			 ]]></content>
+<pubDate>2007-11-19T15:50:06+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/356</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 朋友提出的一个有趣的经济学问题 ]]></title>
+<link>http://www.matrix67.com/blog/archives/357</link>
+<content><![CDATA[ 
+		<p>    今天一个同学问了我这样一个问题。我从来没有研究过这方面的问题，同时也觉得这个问题比较有趣味性，在这里发出来，希望大家能提供一些想法。<br>    通货膨胀的具体表现就是物价上涨，货币贬值。那么，通货膨胀到了一定程度后，是否有可能出现这样一种情况：一张纸币本身的价值超过了这张纸币的面值？换句话说，货币贬值是否可能贬到这样的地步，把纸币当做普通的纸张来看价值反而更大，我把钱当废纸卖了还有赚的。这样下去还会发生一些什么现象？是否有可能产生新的经济形态？大家发挥一下自己的想像，考虑这种情况存在的可能性，猜测一下这样下去可能会产生的各种后果。</p>
+			 ]]></content>
+<pubDate>2007-11-20T17:21:50+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/357</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 局部变动原理：算术平均数不小于几何平均数 ]]></title>
+<link>http://www.matrix67.com/blog/archives/358</link>
+<content><![CDATA[ 
+		<p>    前几天写的<a target="_blank" href="http://www.matrix67.com/blog/article.asp?id=400">等高线模式</a>中，在倒数第二个例子里我们证明了所有的圆内接n边形以正n边形最大。当时我们用到了一个很值得思考的方法：固定其余所有点的位置，只移动其中一个点的位置，那么这个点与左右相邻两点等距时面积才可能达到最大。这就说明圆内接n边形以正n边形最大，否则我可以不断寻找长度不等的邻边，通过一次次地调整不断地趋近我的最终目标。对于一个多变元函数，只有每个变量（在它所对应的单变量函数中）都达到最大时，所有变量才可能同时使函数值达到最大。这种思考方法被称之为“局部变动原理”。《数学与猜想》中提到了局部变动原理的另一个应用──证明n个数的算术平均数大于等于几何平均数。中学教材（至少在我的中学教材里）没有给出这一结论的证明。我自己曾经找到过这一定理的很多种证明，但《数学与猜想》中给出的是我所见到的最简洁、最有趣的证明。<br>    考虑两个数a和b，现在我已经知道它们的和是S，那么它们的乘积最大是多少？或许大家都知道，当两个数的和一定时，两数相等时乘积最大。也就是说，问题的答案就是((a+b)/2)^2。证明这个结论很简单，我们可以通过简单的代数运算看出，对于任意的a和b，((a+b)/2)^2不会小于ab。用前面的减去后面的，我们有<br>   ((a+b)/2)^2 – ab<br>= (a^2+2ab+b^2)/4 – ab<br>= (a^2-2ab+b^2)/4<br>= ((a-b)/2)^2<br>    可以看到，前者减去后者的差始终非负，并且仅当a=b时差值为0。</p>
+<p>    下面考虑n个数a1, a2, …, an，现在已经知道它们的和是S，那么它们的乘积最大是多少？你也许不知道相关的定理，以前也不曾想过这个问题，但稍加思考你会说，当这n个数都相等时乘积最大。你或许以为你是凭直觉想到了这个结论，但事实上你的大脑已经不自觉地使用了局部变动法。固定其它n-2个数不变，只考虑其中两个数，那么很显然这两个数的和也已经固定了，并且增大它们的积也就可以改进整个问题的答案。而要想让这两个数的积最大，它们必须得相等才行。运用局部变动原理，则只有任两个数都相等，这n个数的乘积才会最大。此时，这n个数的值都等于(a1+a2+…+an)/n，只有这样它们的乘积才可能是最大的，任何其它情况下的a1*a2*…*an都比它小。<br>    仿照上面给出的式子，我们把这个结论写成如下形式：<br>( (a1+a2+…+an)/n )^n &gt;= a1*a2*…*an<br>    两边同时开n次方，我们的结论赫然出现：n个数的算术平均数大于等于它们的几何平均数。</p>
+<p>    今后我们还将看到这样的例子。<br>    做人要厚道，转贴请注明出处</p>
+			 ]]></content>
+<pubDate>2007-11-20T18:10:28+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/358</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Chain Factor：容易上瘾的Flash解谜小游戏 ]]></title>
+<link>http://www.matrix67.com/blog/archives/359</link>
+<content><![CDATA[ 
+		<div align="center"><img alt="image placeholder" >
+<p>    <a target="_blank" href="http://www.matrix67.com/blog/article.asp?id=258">Numb3rs</a>是一部很有意思的美剧，讲述一个应用数学家利用数学模型帮助FBI破案。在最近的一集Numb3rs中，一家网游公司在现实世界里精心策划了一次大型的解谜寻宝活动，而将一部分线索隐藏在网络游戏中，以此来推广自己的游戏；但不幸的是网游中的帮派斗争转移到了现实社会中，游戏者在真实世界里被害。<br>    故事多次提到一个叫做<a target="_blank" href="http://chainfactor.com">Chain Factor</a>的解谜游戏。这是一个非常有创意的消除类小游戏，任意时刻一旦某个小球身上的数字与它所在行或所在列里（连续的）小球的个数相同，这个小球就会被消去。灰色的球实质上是穿了两层衣服的普通球，只要它四周有小球被消除了，它就会掉一层皮。<br>    游戏很有挑战性。每过一段时间棋盘最底层会冒出一排灰色球，它们出现时间的间隔将越来越短，最终总会Game Over。你可以提交你的最高分，每天的最高分和历史最高分都将在首页显示出来。另一个有趣的挑战便是，是否有人能够把整个棋盘清空。目前我的Basic Mode最高分是140 818。你呢？</p>
+<p>    另外，提到这一集的Numb3rs，前几天我发现了另一件有趣的事情，现实生活中还真有这样的解谜寻宝活动。这个月30日，在伦敦将有一场名为The London Code的解谜竞赛，任何人都可以发一封邮件到<a target="_blank" href="http://londoncode.stfoto.nl/">官方网站</a>免费报名，比赛开始时所有报名的人都会收到一封含有解谜线索的电子邮件。就像探险小说一样，这些线索将带着比赛者穿越伦敦城市到处进行探索，寻找一个又一个的提示信息。当最终获胜者产生后，每个玩家都会再收到一封邮件宣布比赛结束。<a target="_blank" href="http://www.youtube.com/watch?v=-C_eocvN3Z4">这里</a>有一个活动的宣传片。</p>
+			 ]]></content>
+<pubDate>2007-11-21T17:26:01+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/359</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 没有乘法口诀表将会怎样：古巴比伦乘法和古埃及乘法 ]]></title>
+<link>http://www.matrix67.com/blog/archives/360</link>
+<content><![CDATA[ 
+		<p>    在各种文明的算术发展过程中，乘法运算的产生是很重要的一步。一个文明可以比较顺利地发展出计数方法和加减法运算，但要想创造一套简单可行的乘法运算方法却不那么容易。我们目前使用的乘法竖式计算看似简便，实际上这需要我们事先掌握九九乘法口诀表；考虑到这一点，这种竖式计算并不是完美的。我们即将看到，在数学的发展过程中，不同的文明创造出了哪些不同的乘法运算方法，其中有的运算法甚至可以完全抛弃乘法表。<br>    古巴比伦数学使用60进制，考古发现的一块古巴比伦泥板证实了这一点。这块泥板上有一个正方形，对角线上有四个数字1, 24, 51, 10。最初发现这块泥板时人们并不知道这是什么意思，后来某牛人惊讶地发现，如果把这些数字当作60进制的三位小数的话，得到的正好是单位正方形对角线长度的近似值：1 + 24/60 + 51/60^2 + 10/60^3 = 1.41421296296…  这说明古巴比伦已经掌握了勾股定理。60进制的使用为古巴比伦数学的乘法运算发展带来了很大的障碍，因为如果你要背59-59乘法口诀表的话，至少也得背1000多项，等你把它背完了后我期末论文估计都已经全写完了。另一项考古发现告诉了我们古巴比伦数学的乘法运算如何避免使用乘法表。考古学家们发现一些泥板上刻有60以内的平方表，利用公式ab = [(a+b)^2 – a^2 – b^2]/2 可以迅速查表得到ab的值。另一个公式则是ab = [(a+b)^2 – (a-b)^2]/4，这说明两个数相乘只需取它们的和平方与差平方的差，再两次取半即可。平方数的频繁使用很可能加速了古巴比伦人发现勾股定理的过程。<br>    古巴比伦数学把除以一个数看作是乘以它的倒数，利用倒数表可以很方便的实现这种算法。倒数表开头的一部分是这个样子：</p>
+<blockquote><p>2      0; 30<br>3      0; 20<br>4      0; 15<br>5      0; 12<br>6      0; 10<br>8      0; 7, 30<br>9      0; 6, 40<br>10     0; 6<br>12     0; 5<br>15     0; 4<br>16     0; 3, 45<br>18     0; 3, 20<br>20     0; 3<br>….    ….</p></blockquote>
+<p>    <br>    古巴比伦人很早就发现，1/7是一个无限小数，怎么除也除不完。古巴比伦的倒数表里所有的数都是精确的小数，它们（在60进制中）都是有限小数。碰到无限小数时，他们会用取近似值的方法来解决。例如，古巴比伦人会通过1/13 = 1*(1/13) = 7*(1/91) ≈ 7*(1/90) = 7*(40/3600) = (7*40)/3600 来计算1/13的值。那个40就是查倒数表查出来的。</p>
+<p>    古埃及数学使用了完全不同的乘法运算法。它们的乘法运算不需要借助任何辅助用表。古埃及人注意到，任何一个数都可以表示为若干个不同的2的幂的和。因此，你需要做的仅仅是不断将1和乘数进行翻倍。看看古埃及人如何计算46乘以22：</p>
+<p><span style="font-family:宋体">  46 x 22 = 1012<br>   1   22<br><span style="color:red">   2   44     44</span><br><span style="color:red">   4   88   + 88</span><br><span style="color:red">   8  176  + 176</span><br>  16  352<br><span style="color:red">  32  704  + 704</span><br>          ——-<br>            1012</span></p>
+<p>    上面的演算中，左列是1不断翻倍的结果，右边是22不断翻倍的结果。选出左列的2, 4, 8, 32，它们的和正好就是被乘数46；那么把右列对应的数加起来就是乘法运算的最终结果。至于如何选出2, 4, 8, 32这四个数，一个简单的方法就是，不断选出左列里小于被乘数的数中最大的一个，然后当前被乘数减去它。比如，32是最大的数，用46-32后剩14；8是小于14的最大数，14-8后剩6；然后最大的小于6的数是4，6减去4后剩2，这样下来2+4+8+32正好就是被乘数46了。这其实就是二进制的经典应用，2, 4, 8, 32正好与46的二进制中的数字1一一对应。你可以在<a target="_blank" href="http://www.matrix67.com/blog/article.asp?id=246">这里</a>看到一些相关的东西。<br>    无独有偶，据说俄国农村曾产生过这样一种乘法算术法：将被乘数逐次减半，同时乘数依次加倍，那么找出所有左边的数是奇数的行，其右列的数的和就是答案。例如，下面的例子中，23, 11, 5和1都是奇数，于是右边对应的44, 88, 176和704的和就是乘法运算的结果。这个做法与古埃及的算术法完全一样，但看起来似乎更神奇一些。</p>
+<p><span style="font-family:宋体">  46 x 22 = 1012<br>  46   22<br><span style="color:red">  23   44     44</span><br><span style="color:red">  11   88   + 88</span><br><span style="color:red">   5  176  + 176</span><br>   2  352<br><span style="color:red">   1  704  + 704</span><br>          ——-<br>            1012</span></p>
+<p>做人要厚道<br>转贴请注明出处</p>
+			 ]]></content>
+<pubDate>2007-11-23T12:34:07+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/360</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 牛顿迭代法快速寻找平方根 ]]></title>
+<link>http://www.matrix67.com/blog/archives/361</link>
+<content><![CDATA[ 
+		<p>    下面这种方法可以很有效地求出根号a的近似值：首先随便猜一个近似值x，然后不断令x等于x和a/x的平均数，迭代个六七次后x的值就已经相当精确了。<br>    例如，我想求根号2等于多少。假如我猜测的结果为4，虽然错的离谱，但你可以看到使用牛顿迭代法后这个值很快就趋近于根号2了：</p>
+<p><span style="font-family:宋体">(       4  + 2/   4     ) / 2 = 2.25<br>(    2.25  + 2/   2.25  ) / 2 = 1.56944..<br>( 1.56944..+ 2/1.56944..) / 2 = 1.42189..<br>( 1.42189..+ 2/1.42189..) / 2 = 1.41423..</span><br>….</p>
+<p>       <img alt="image placeholder" >
+			 ]]></content>
+<pubDate>2007-11-24T19:45:59+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/361</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 旧闻一则：神秘的0x5f3759df 不可思议的Quake III源码 ]]></title>
+<link>http://www.matrix67.com/blog/archives/362</link>
+<content><![CDATA[ 
+		<p>    Quake III公开源码后，有人在game/code/q_math.c里发现了这样一段代码。它的作用是将一个数开平方并取倒，经测试这段代码比(float)(1.0/sqrt(x))快4倍：<br><code>float Q_rsqrt( float number )<br>{<br>  long i;<br>  float x2, y;<br>  const float threehalfs = 1.5F;</code></p>
+<p>  x2 = number * 0.5F;<br>  y  = number;<br>  i  = * ( long * ) &amp;y;  // evil floating point bit level hacking<br>  i  = 0x5f3759df - ( i &gt;&gt; 1 ); // what the fuck?<br>  y  = * ( float * ) &amp;i;<br>  y  = y * ( threehalfs - ( x2 * y * y ) ); // 1st iteration<br>  // y  = y * ( threehalfs - ( x2 * y * y ) ); // 2nd iteration, this can be removed</p>
+<p>  #ifndef Q3_VM<br>  #ifdef __linux__<br>    assert( !isnan(y) ); // bk010122 - FPE?<br>  #endif<br>  #endif<br>  return y;<br>}</p>
+<p>    code/common/cm_trace.c中也出现了这样一段解释sqrt(x)的函数，与上面的代码唯一不同的就是这个函数返回的是number*y：<br><code>/*<br>================<br>SquareRootFloat<br>================<br>*/<br>float SquareRootFloat(float number) {<br>    long i;<br>    float x, y;<br>    const float f = 1.5F;</code></p>
+<p>    x = number * 0.5F;<br>    y  = number;<br>    i  = * ( long * ) &amp;y;<br>    i  = 0x5f3759df - ( i &gt;&gt; 1 );<br>    y  = * ( float * ) &amp;i;<br>    y  = y * ( f - ( x * y * y ) );<br>    y  = y * ( f - ( x * y * y ) );<br>    return number * y;<br>}</p>
+<p>    这样的代码速度肯定飞快，我就不用多说了；但算法的原理是什么呢？其实说穿了也不是很神，程序首先猜测了一个接近1/sqrt(number)的值，然后两次使用<a target="_blank" href="http://www.matrix67.com/blog/article.asp?id=410">牛顿迭代法</a>进行迭代。根号a的倒数实际上就是方程1/x^2 – a = 0的一个正实根，它的导数是-2/x^3。运用牛顿迭代公式x' = x – f(x)/f'(x)，式子化简为x' = x * (1.5 – 0.5a * x^2)。迭代几次后，x的值将趋于1/sqrt(a)。<br>    但这段代码真正牛B的是那个神秘的0x5f3759df，因为0x5f3759df – (i &gt;&gt; 1)出人意料地接近根号y的倒数。人们都不知道这个神秘的常数是怎么来的，只能把它当作神来膜拜。这个富有传奇色彩的常数到底咋回事，很少有人说得清楚。<a target="_blank" href="http://www.matrix67.com/data/InvSqrt.pdf">这篇论文</a>比较科学地解释了这个常数。</p>
+			 ]]></content>
+<pubDate>2007-11-24T19:51:24+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/362</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 如果非要给这份爱加上一个期限，我希望是……无限 ]]></title>
+<link>http://www.matrix67.com/blog/archives/363</link>
+<content><![CDATA[ 
+		<div align="center"><img alt="image placeholder" >
+<p>图片来源：http://brownsharpie.courtneygibbons.org/?p=313 一个非常有意思的网站！</p>
+			 ]]></content>
+<pubDate>2007-11-25T22:34:26+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/363</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣题：直觉 VS 理性思考  经典概率问题 ]]></title>
+<link>http://www.matrix67.com/blog/archives/364</link>
+<content><![CDATA[ 
+		<p>    各种违反常理的错觉图片和数学事实告诉我们，我们的直觉并不可靠。其实这本身就是一种错觉，它让我们觉得我们的直觉总是不可信的。而事实上，多数情况下我们的直觉都是可信的，而理性的思考反而会带来一些错误。</p>
+<p>    我的书桌有8个抽屉，分别用数字1到8编号。每次我拿到一份文件后，我都会把这份文件随机地（概率均等地）放在某一个抽屉中。但我非常粗心，有1/5的概率我会忘了把文件放在抽屉里，最终把这个文件搞丢了。<br>    现在，我要找一份非常重要的文件（比如GF的处女鉴定书）。我将按顺序打开每一个抽屉，直到找到这份文件为止，或者令人同情地，翻遍了所有抽屉都还没找到这份文件。考虑下面三个问题：
+</p>
+<ul>
+<li>1. 假如我打开了第一个抽屉，发现里面没有我要的文件。这份文件在其余7个抽屉里的概率是多少？</li>
+<li>2. 假如我翻遍了前4个抽屉，里面都没有我要的文件。这份文件在剩下的4个抽屉里的概率是多少？</li>
+<li>3. 假如我翻遍了前7个抽屉，里面都没有我要的文件。这份文件在最后一个抽屉里的概率是多少？</li>
+</ul>
+<p>    你猜一猜这三个概率值是越来越大还是越来越小？你能算出准确的值来吗？</p>
+<p>    三个概率值分别是7/9, 2/3和1/3。可能这有点出人意料，这个概率在不断减小；但设身处地地想一下，这也不是没有道理的。这正反映了我们实际生活中的心理状态：假如我肯定我的文件没被搞丢，每次发现抽屉里没有我要的东西时我都会更加坚信它在剩下的抽屉里；但如果我的文件很可能被搞丢了，那每翻过一个抽屉但没找到我的文件时，我就会更加担心。我会越来越担心，感到希望越来越渺茫，直到自己面对着第8个抽屉，呆呆地看着我的最后一丝希望，同时心里想：完了，这下可能是真丢了。</p>
+<p>    平均每10份文件就有两份被搞丢，其余8份平均地分给了8个抽屉。假如我把所有搞丢了的文件都找回来了，那么它们应该有2个抽屉那么多。这让我们想到了这样一个有趣的思路：在这8个抽屉后加上两个虚拟抽屉──抽屉9和抽屉10，这两个抽屉专门用来装我丢掉的文件。我甚至可以把题目等价地变为：随机把文件放在10个抽屉里，但找文件时不允许打开最后两个抽屉。当我已经找过n个抽屉但仍没找到指定的文件时，文件只能在剩下的10-n个抽屉里，但我只能寻找剩下的8-n个抽屉，因此所求的概率是(8-n)/(10-n)。当0&lt;=n&lt;=8时，函数是一个递减函数。</p>
+<p>参考资料：<a target="_blank" href="http://www.cut-the-knot.org/Probability/SeekAndFind.shtml">cut-the-knot</a><br>做人要厚道 转贴请注明出处</p>
+			 ]]></content>
+<pubDate>2007-11-26T18:30:19+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/364</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣题：丢失的机票 一个有趣的概率问题 ]]></title>
+<link>http://www.matrix67.com/blog/archives/365</link>
+<content><![CDATA[ 
+		<p>    一架客机上有100个座位，100个人排队依次登机。第一个乘客把机票搞丢了，但他仍被允许登机。由于他不知道他的座位在哪儿，他就随机选了一个座位坐下。以后每一个乘客登机时，如果他的座位是空着的，那么就在他的座位坐下；否则，他就随机选一个仍然空着的座位坐下。请问，最后一个人登机时发现唯一剩下的空位正好就是他的，其概率是多少？</p>
+<p>    当最后一个乘客登机时，最后一个空位要么就是他的，要么就是第一个乘客的。由于所有人选择座位时都是随机选择的，这两个位置的“地位”相等，它们所面对的“命运”是相同的，不存在哪个概率大哪个概率小的问题。因此，它们成为最后一个空位的概率是均等的。也就是说，最后一个人发现剩下的空位正好是他的，其概率为50%。</p>
+<p>来源：<a target="_blank" href="http://www.cut-the-knot.org/Probability/LostPass.shtml">cut-the-knot</a><br>不知不觉地，这已经是第400篇日志了</p>
+			 ]]></content>
+<pubDate>2007-11-27T23:01:33+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/365</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ KMP算法与一个经典概率问题 ]]></title>
+<link>http://www.matrix67.com/blog/archives/366</link>
+<content><![CDATA[ 
+		<p>    考虑一个事件，它有两种概率均等的结果。比如掷硬币，出现正面和反面的机会是相等的。现在我们希望知道，如果我不断抛掷硬币，需要多长时间才能得到一个特定的序列。</p>
+<p>序列一：反面、正面、反面<br>序列二：反面、正面、正面</p>
+<p>    首先，我反复抛掷硬币，直到最近的三次抛掷结果形成序列一，然后我记下这次我抛掷了多少次才得到了我要的序列。重复执行这个过程，我可以算出得到序列一平均需要的抛掷次数。同样地，反复抛掷硬币直到序列二产生，它所需要的次数也有一个平均值。你认为这两个平均值哪一个大哪一个小？换句话说，出现序列一平均所需的抛掷次数少还是出现序列二平均需要的次数少？</p>
+<p>    大多数人会认为，两个序列会以同样快的速度出现，因为在所有“正”和“反”的8种三元组合里，“反正反”和“反正正”各占1/8，其概率是均等的。而事实上，我们将会看到掷出序列二所需的次数更少一些。不妨考虑这样一个问题：在由“正”和“反”构成的n位01序列中，有多少个序列以序列一结尾但之前不曾出现过序列一？有多少个序列以序列二结尾但之前不曾出现过序列二？当n比较小时，两者答案是一样的（例如n=3时符合要求的情况都是唯一的），但到后来n越大时，两者的差距越明显：后者的个数总比前者的个数要多一些。不妨看一看n=6的情况。对于序列一，只有以下5个序列是符合要求的：
+</p>
+<ul>
+<li>反反反反正反</li>
+<li>反正正反正反</li>
+<li>正正正反正反</li>
+<li>正反反反正反</li>
+<li>正正反反正反</li>
+</ul>
+<p>    但对于序列二来说，符合条件的序列就有7个：
+</p>
+<ul>
+<li>反反反反正正</li>
+<li>反正反反正正</li>
+<li>反反正反正正</li>
+<li>正反反反正正</li>
+<li>正正反反正正</li>
+<li>正正正反正正</li>
+<li>正反正反正正</li>
+</ul>
+<p>    你可以通过计算机编程枚举，计算一下n为其它值的情况。计算结果和刚才也一样：在n位01序列中，以序列二结尾但之前不含序列二的情况不会少于以序列一结尾但之前不含序列一的情况。这说明，抛掷第n次硬币后恰好出现了序列二，其概率不会小于恰好出现序列一的概率。显然，当n渐渐增大时，这个概率应该呈下降趋势；同时，随着n的增长，两个序列各自出现的概率由相等开始慢慢拉开差距，第n次抛掷产生序列二的概率下降得要缓慢一些，或者说更多的情况集中发生在n更小的时候。因此总的来说，出现序列二所需要的抛掷硬币次数的期望值更小。<br>    虽然我们通过一系列的观察验证了这个结论，并且我们也相信这个结论是正确的（虽然没有严格的证明），但我们仍然不是很接受这个结论。这种情况是有悖于我们的直觉的，它与我们的生活经验不相符合。此刻，我们迫切需要一个解释，来说明这种出人意料的反常现象产生的原因。</p>
+<p>    如果不亲自做几次试验的话，你很难体会到这种微妙的差距。考虑整个游戏的实际过程，“反正正”序列显然会出现得更早一些。假如某一次我们得到了序列“反正”。如果我们需要的是“反正反”序列，那么下一次抛掷结果为反面将结束本轮的抛掷，而下一次是正面则前功尽弃，你必须再次从零开始。如果我们需要的是“反正正”序列，那么下一次抛掷结果为正面将结束本轮的抛掷，而下一次是反面的话我至少不会惨到一切归零，这相当于我已经有了一个反面作为新的开头，只需再来两个正面即可。这样看的话，提前掷出“反正正”的可能性更大一些。<br>    反复体会上面的想法，了解<a target="_blank" href="http://www.matrix67.com/blog/article.asp?id=146">KMP算法</a>的网友会恍然大悟：这就是KMP算法的基本思路！考虑这样一个问题：我们在当前字串中寻找子串“反正正”第一次出现的位置。假如当前已经能匹配模式串的前两个字“反正”，主串中的下一个字是“正”则匹配成功，主串的下一个字是“反”则将使模式串的当前匹配位置退到第一个字。考虑一个更复杂的例子：我们希望在主串中寻找子串abbaba，现在已经在主串中找到了abbab。如果主串下一个字符是a，则成功匹配；如果主串下一个字符是b，则模式串最多能匹配到的位置退到了第三个字符，我只需要从abb开始继续匹配，而不必一切从头再来。<br>    我们可以用KMP算法完美地解决上面的问题。首先预处理出一个数组c，c[i,0]表示模式串匹配到了第i个字符，主串下一个字符为0（反）时，模式串的匹配位置将退到哪里；同样地，c[i,1]表示模式串匹配到了第i个字符，主串下一个字符为1（正）时，新的模式串匹配位置在什么地方。设f[i,j]表示第i次抛掷硬币后恰好匹配到模式串第j位有多少种情况，则f[i,j]=Σf(i-1,k) + Σf(i-1,l)，其中k满足c[k,0]=j，l满足c[l,1]=j。将f[i,j]除以2的i次方，我们就得到了相应的概率值。或者更直接地，设P[i,j]表示第i次抛掷硬币后，最远能匹配到的模式串位置是第j位的概率，则P[i,j]=Σ( P(i-1,k)/2 ) + Σ( P(i-1,l)/2 )。注意，我们还应该添加一种特殊的概率值P[i,*]，它表示在主串第i个字符以前已经成功匹配过的概率，这样的话下表中每一列的和才能为1。</p>
+<p>    来看一看程序的输出结果：<br><span style="font-family:宋体">Pattern 1: s[]="aba"<br>主串位置       1        2       3       4       5       6       7       8       9      10<br>匹配到s[0]  0.5000  0.2500  0.2500  0.2500  0.2188  0.1875  0.1641  0.1445  0.1270  0.1113<br>匹配到s[1]  0.5000  0.5000  0.3750  0.3125  0.2813  0.2500  0.2188  0.1914  0.1680  0.1475<br>匹配到s[2]  0.0000  0.2500  0.2500  0.1875  0.1563  0.1406  0.1250  0.1094  0.0957  0.0840<br>匹配到s[3]  0.0000  0.0000  0.1250  0.1250  0.0938  0.0781  0.0703  0.0625  0.0547  0.0479<br>已找到匹配  0.0000  0.0000  0.0000  0.1250  0.2500  0.3438  0.4219  0.4922  0.5547  0.6094</span></p>
+<p>Pattern 2: s[]="abb"<br>主串位置       1        2       3       4       5       6       7       8       9      10<br>匹配到s[0]  0.5000  0.2500  0.1250  0.0625  0.0313  0.0156  0.0078  0.<br>
+0039  0.0020  0.0010<br>匹配到s[1]  0.5000  0.5000  0.5000  0.4375  0.3750  0.3125  0.2578  0.2109  0.1719  0.1396<br>匹配到s[2]  0.0000  0.2500  0.2500  0.2500  0.2188  0.1875  0.1563  0.1289  0.1055  0.0859<br>匹配到s[3]  0.0000  0.0000  0.1250  0.1250  0.1250  0.1094  0.0938  0.0781  0.0645  0.0527<br>已找到匹配  0.0000  0.0000  0.0000  0.1250  0.2500  0.3750  0.4844  0.5781  0.6563  0.7207</p>
+<p>    这下我们可以清楚地看到，序列二提前出现的概率要大得多。注意到，根据我们的概率定义，表格中每一列的数字之和都是1。同时，倒数第二行的数字之和（有无穷多项）也应该为1，因为最后一行的概率就是倒数第二行的概率值累加的结果，而根据最后一行概率的定义，主串无穷长时已找到匹配的概率应该为1。因此，我们也可以把倒数第二行看作是模式串在主串第i个位置首次匹配成功的概率。我们可以根据这一结果近似地计算出抛掷次数的期望值。</p>
+<p>Matrix67原创<br>转贴请注明出处</p>
+			 ]]></content>
+<pubDate>2007-11-28T17:41:53+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/366</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ The Simpsons Homer^3：三维空间历险记 ]]></title>
+<link>http://www.matrix67.com/blog/archives/367</link>
+<content><![CDATA[ 
+		<p>下面的视频是The Simpsons的95年Halloween特别版Treehouse of Horror VI的最后一部分，名字叫做Homer^3：</p>
+<p>   <embed src="http://union.bokecc.com/flash/player.swf?videoID=27994_1158713&amp;autoStart=false&amp;share=true" width="438" height="387" type="application/x-shockwave-flash"></embed></p>
+<p>YouTube链接：http://www.youtube.com/watch?v=AzecHW-DTqY<br>难怪说The Simpsons是一部属于Geek的剧集，里面隐藏了好多彩蛋！<br>你能在那个三维空间里看到些什么东西？</p>
+<p>我看到了：
+</p>
+<ul>
+<li><a target="_blank" href="http://www.matrix67.com/blog/article.asp?id=134">信息学界的终极难题</a></li>
+<li>一段由ASCII码组成的字符串</li>
+<li>一个我最喜欢的数学等式，由三个数学界最神奇的数组成</li>
+<li>一个最简单、最基本的等式</li>
+<li>一个Fermat大定理的“反例”（95年的时候Fermat大定理还没有得证）</li>
+<li>一个物理公式，它给出将导致整个宇宙坍塌的宇宙密度的临界点</li>
+</ul>
+			 ]]></content>
+<pubDate>2007-11-30T15:29:24+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/367</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Flash小游戏：Chat Noir ]]></title>
+<link>http://www.matrix67.com/blog/archives/369</link>
+<content><![CDATA[ 
+		<p>http://www.gamedesign.jp/flash/chatnoir/chatnoir.html</p>
+<p>根据那个经典的数学问题改编：在无限大的棋盘上，天使和魔鬼轮流行动，天使每次可以走n步，魔鬼每次可以划去任意一个格子。对于不同的n，问魔鬼是否总有困住天使的策略，或者天使是否有策略保证不被魔鬼抓住。</p>
+<p>对于这个Flash小游戏，一个有趣的问题：小猫的算法是什么？<br>另一个有趣的问题：这个Flash游戏是否保证有解？<br> – 如果游戏保证有解，程序如何寻找一个有解的开局？<br> – 如果不保证有解，谁能玩到一个无解的情况，并证明它确实无解？</p>
+			 ]]></content>
+<pubDate>2007-12-01T19:36:53+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/369</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 真实与理性 ]]></title>
+<link>http://www.matrix67.com/blog/archives/370</link>
+<content><![CDATA[ 
+		<p>     <img alt="image placeholder" >
+			 ]]></content>
+<pubDate>2007-12-02T11:47:12+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/370</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 标题党 之 密码学家用PS3成功预测美国2008大选结果 ]]></title>
+<link>http://www.matrix67.com/blog/archives/371</link>
+<content><![CDATA[ 
+		<p>    昨天，一帮密码学家在网上宣称，他们通过一台PS3成功预测出了2008年大选的结果。但为了不干预事件的进程，他们将放出描述大选结果的文档的md5值。大选结束后，密码学家们会放出该文档，证实他们之前确实成功预测到了这个结果。这份电子文档的md5值为：<br>
+</p>
+<blockquote>3D515DEAD7AA16560ABA3E9DF05CBC80</blockquote>
+<p>    你能猜出这背后有什么阴谋诡计吗？</p>
+<p>    在字谜界有一个非常有趣的故事。美国大选结果出炉的前一天，某报纸上刊登了一则纵横字谜，正中间的那个最长的单词的提示是：美国新一任总统的名字。字谜爱好者纷纷给报社打电话，说大选结果还没出来，我他妈的咋知道新总统是谁，这背后到底隐藏了什么秘密。第二天，报纸上刊登了字谜的答案，中间那个单词果然就是新总统的名字。这家报社“预测”出了大选的结果。你可能已经想到了，这是一个设计得非常巧妙的字谜。这则纵横字谜有两个答案，每个答案都完全符合所有的提示，只是中间的那个人名字不同。纵横字谜中任一个字母的改变都会引起连锁反应导致很大一片字母的改变，因此要想设计出这样一个字谜是非常困难的。但是，就有这么牛的人设计出来了。<br>    你相信吗？就有那么牛的人，他居然可以构造出两篇文档，hash出来的md5是完全一样的！比起纵横字谜来，这似乎变得更不可思议，因为一篇文档中任何一处微小的改变都会使原来的md5值面目全非。但是，就有这样一种算法，它可以在短时间内构造出md5发生“碰撞”的情况。这就是前几年炒得沸沸扬扬的“山东大学王小云教授成功破解md5”一事。<br>    当时的新闻很不负责任，没有几个是说清楚了的。和大多数人想的不同，md5被破解并不是真的md5被破解了，你无法把md5还原为原来的信息（因为md5是多对一、不可逆的），也几乎不可能构造一个字符串具有指定的md5值。但是，王小云教授发现，作为一种验证码，md5已经不再可靠了，因为利用他的发现可以很轻易地构造出md5发生冲突的情况。考虑这样一种情况，你需要在未来的某个时间公开一份秘密文档，但到时候你必须证明这份文档确实就是之前说要公开的那一份。比如，你参加CCTV的垃圾娱乐节目，主持人叫你猜一个充气娃娃的价格，你猜是1000元，然后被干冰吓跑，主持人阴笑着宣布这个充气娃娃的真实价格是998。但制作单位如何证明这个价格确实就是998呢？即使是把真实价格藏在一块遮板后面，也有作假的可能。一种不错的方式就是，预先算出998的md5值，由于md5值是不可逆转的，因此即使公开md5别人也拿它没办法；但这个md5可以起一个验证作用，我在报出998的同时你可以验证998的md5值和刚才给的是不是一样，这样才能确保制作单位没有作假。这就需要md5算法具有很低的碰撞概率。现在看来，这种验证方法也不能相信了，因为人为构造md5冲突的两个原始信息变得越来越容易，你猜价格是A我就说是B，你说是B我就说是A，而A和B的md5是一样的。这样的话，我可以做很多坏事，比如说些什么我能预测股票的走向，我五年前就知道我会和你在一起之类的屁话。从这个意义上说，md5不再安全，它已经被破解了。</p>
+<p>消息来源：http://blog.wired.com/27bstroke6/2007/11/cryptographers.html<br>查看更多：http://www.win.tue.nl/hashclash/Nostradamus/<br>做人要厚道，转贴请注明出处</p>
+			 ]]></content>
+<pubDate>2007-12-02T12:50:02+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/371</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 欧拉的一篇研究报告：关于整数因子和的一个非常奇特规律的发现 ]]></title>
+<link>http://www.matrix67.com/blog/archives/372</link>
+<content><![CDATA[ 
+		<p>    《数学与猜想》里引用了一段欧拉的这篇经典的研究报告，写的非常精彩。你可以从中看到一个数学家是如何进行发现、归纳、猜想和论证的。你可以看到两个完全不同的数学模型里出现了惊人的巧合，通过挖掘它们之间的内在联系，最终完成了伟大的统一。<br>    没扫描仪，拿相机拍的，效果非常不好，见谅了！<br>    另外，拜托大家不要盗链下面的图片。</p>
+<p>  <img alt="image placeholder" >
+			 ]]></content>
+<pubDate>2007-12-03T22:25:42+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/372</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 四维魔方？ ]]></title>
+<link>http://www.matrix67.com/blog/archives/373</link>
+<content><![CDATA[ 
+		<p>  <embed src="http://union.bokecc.com/flash/player.swf?videoID=27994_1190147&amp;autoStart=false&amp;share=true" width="438" height="387" type="application/x-shockwave-flash"></embed></p>
+<p>YouTube链接：http://www.youtube.com/watch?v=GgbcHZHEqSQ<br>查看更多：http://www.superliminal.com/cube/cube.htm (含下载)</p>
+			 ]]></content>
+<pubDate>2007-12-04T13:44:12+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/373</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 史上最难的初等几何问题？ ]]></title>
+<link>http://www.matrix67.com/blog/archives/374</link>
+<content><![CDATA[ 
+		<p><img alt="image placeholder" >
+<p><s>大家动笔挑战吧，我过几天发一份答案。</s><br>答案已发布，在这里：http://www.matrix67.com/blog/article.asp?id=431</p>
+			 ]]></content>
+<pubDate>2007-12-05T00:53:20+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/374</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 网站推荐：archimy.com 在线函数图象绘制 ]]></title>
+<link>http://www.matrix67.com/blog/archives/375</link>
+<content><![CDATA[ 
+		<div align="center"><img alt="image placeholder" >
+<p>
+</p>
+<div align="center"><img alt="image placeholder" >
+<p>    <a target="_blank" href="http://www.archimy.com">archimy.com</a>是刚建立的一个在线数学工具，给人的第一印象非常不错。这个网站可以在线绘制出2D和3D的函数图象，支持参数方程，支持三角函数、反三角函数、对数、绝对值、取整、较大、较小等多种函数。你可以设定函数图象的绘制范围和取样步长。绘制的图形可以任意旋转。</p>
+			 ]]></content>
+<pubDate>2007-12-05T23:40:20+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/375</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 计算机与拼图游戏：探讨一个交互式问题 ]]></title>
+<link>http://www.matrix67.com/blog/archives/377</link>
+<content><![CDATA[ 
+		<p>    似乎MM都很喜欢拼图游戏。如果MM过生日你不知道送她什么，送她一副拼图是一个不错的选择（事实上原来我也曾干过这事）。如果你失恋了，或者挂科了，或者这个月没饭钱了，或者怀疑自己的性取向，感到很郁闷的时候，静下心来玩一玩拼图游戏可以让你暂时忘掉烦恼。当你最终完成整个拼图时，你会有前所未有的成就感。当然，只有那些有耐心的人才觉得拼图有趣，像我这样的人肯定拼个十几二十分钟就觉得烦了。计算机搞久了的人往往都很没耐心，同一个操作反复执行的次数多了就觉得很烦，心里总会想这种机械操作交给傻B计算机去做该多省事啊。有时我会想，计算机是否有什么牛B算法可以用来解决拼图问题。今天我们要研究的是，如何把拼图游戏描述成一个信息学问题，计算机是否有更高效的算法来解决这个问题。<br>    传统的拼图一共有w*h个正方形小块，最终将拼成一个w*h的矩形图案。我们大致有以下两种依据来确定一个小块的位置：根据这一小块上的图案来确定它在整幅图片中的位置，或者从形状上观察这一小块可以和其它哪些块拼接。于是，拼图游戏变成了这样一种交互式的问题：允许你询问某一块是否在指定的位置，或者某两块是否相连，你如何尽早地完成整个拼图。具体地说，你可以：
+</p>
+<ul>
+<li>询问拼块A是否在(x,y)上，交互库返回yes/no</li>
+<li>询问拼块A和拼块B是否相连，交互库返回yes/no</li>
+</ul>
+<p>    有时候，你并不能把拼图完全当作一个顶点最大度为4的无向图。多数情况下两个拼块只能按某一个方向上的某一种顺序相连。为了更贴近拼图游戏的真实情况，我们可以假定，对于第二个问题如果返回的是yes，则交互库还会告诉你A应该接在B的什么方向。现在的问题是，完成整个拼图最少需要多少次询问？<br>    假如拼图共有n块，询问的次数不会超过O(n^2)。对于每一个拼块，我都像傻B一样挨着挨着询问“它是不是在这里”，O(n^2)次询问可以保证我完成整副拼图。我们希望知道，是否有算法可以使用O(nlogn)甚至更少的询问次数？</p>
+<p>    答案是否定的。对于拼图问题，计算机并没有英明到哪里去，它也只能像傻B一样一个一个去试。我们下面将证明，不管你怎么努力，询问次数再怎么也不会低于O(n^2)。首先我们需要说明的是，问题2实际上并不能带给我们多大的帮助。</p>
+<p>       <img alt="image placeholder" >    如上图，我们把整个拼图划分成一个一个的“十字架”，并且挖掉每个十字架正中间的那个格子（深灰色的格子）。注意到关于这种划分的三个重要性质：
+</p>
+<ul>
+<li>每个浅灰色的格子最多与一个深灰色的格子相邻</li>
+<li>任何两个深灰色的格子都不相邻</li>
+<li>深灰色的格子共有n/5个（可能有常数级别的偏差）</li>
+</ul>
+<p>    现在，假如整个拼图里只剩这些被挖掉的深灰色格子还没确定，其它的格子上都已经放好了正确的拼块。再换句话说，在拼图游戏过程中，拼块是否应放在浅灰色的格子里，若可以则应该放在哪个格子，以及浅灰色格子之间的邻接状态都是已经知道的了，只要是不涉及深灰色格子的信息，你要什么我就给你什么。此时，我们只剩下n/5个格子（仍然是O(n)个格子），并且询问1与询问2变得完全等价；你要问拼块A和拼块B是否相邻，还不如直接问拼块是否应放在某个洞里。于是，问题变为这样，只凭借询问1来确定O(n)个拼块的位置需要多少次询问。我们下面证明，O(n^2)次询问是必须的。<br>    考虑一个二分图，左边n个顶点表示n个拼块，右边n个顶点表示拼图上残留的n个洞。现在，我只能询问指定的两顶点间是否有边，只有当交互库回答了n次yes后拼图才算完成。那么，作为交互库，你应该尽可能返回对游戏者不利的信息，让整个局面往最坏的方向发展。如果叫你来写这个交互库，你该怎么写？容易想到，只要有可能，我都返回no；除非某个时候一旦我再返回一次no，所有没被问过的边和返回过yes的边所组成的二分图不存在一个完全匹配时，我才可能返回yes。我们需要一个二分图存在完全匹配的充分条件来支持我们的这个算法。<br>    考虑如下定理：如果一个二分图左边右边各有n个顶点，每个顶点都与对面至少n/2个顶点相连，则这个二分图一定存在一个完全匹配。定理的证明很简单。<a target="_blank" href="http://www.matrix67.com/blog/article.asp?id=147">König定理</a>告诉我们，二分图的最大匹配数应该等于最小点覆盖集，而一个图的最小点覆盖与最大点独立集是互补的，它们的和始终等于顶点数|V|（在这里|V|=2n）。因此我们只需要证明，上述二分图的最大点独立集不会超过n。假如我在左边选的顶点数不超过n/2个，则右边最多也只能选n/2个顶点（左边任一个点都已经使右边至少n/2个点废了）；假如我左边选的顶点数超过了n/2个，则右边的顶点一个都不能选（右边每个点都连接了左边至少n/2个点，任选一个都会导致冲突）。总之，最大点独立集不可能超过n，但n显然是可以达到的（取同一边的所有点），那么最小点覆盖集也就是n，即二分图存在完全匹配。<br>    有了这个定理，下面我就好办了：任何时候，只要每个顶点你都有半数以上的边没问过，我就可以放心大胆的回答no（因为这些没问过的边总可以组成一个完全匹配）；一旦某个时刻有一个顶点被问过了n/2次，那么我就随便找一个完全匹配，把这个点“亮”出来，告诉你这个点应该和哪个点匹配（不计询问次数），然后把这两个匹配了的顶点从图中删去，继续刚才的操作。每次删除一对顶点都会顺带着删掉与它们相连的至少k/2条问过的边，其中k表示当时左边右边各剩下k个顶点。删掉了多少边就表示你曾问过了多少边，因此完成整个拼图你总共问过至少n/2 + (n-1)/2 + … + 2/2 + 1/2条边，这个数量显然是O(n^2)的。</p>
+<p>做人要厚道<br>转贴请注明出处<br>参考资料：http://www.brand.site.co.il/riddles/200710q.html</p>
+			 ]]></content>
+<pubDate>2007-12-07T12:14:50+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/377</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Geek饰物DIY：粘土工艺之Sierpinski三角形 ]]></title>
+<link>http://www.matrix67.com/blog/archives/378</link>
+<content><![CDATA[ 
+		<div align="center"><img alt="image placeholder" >
+<p>    一提到水果，人们首先想到的往往是苹果；一提到AV女优，最先想到的总是武腾兰；同样地，一提到分形图形，大多数人都会首先想起<a target="_blank" href="http://www.matrix67.com/blog/article.asp?id=329">Sierpinski三角形</a>。Sierpinski三角形可能是最具有代表性的分形图形了，随身佩戴一个Sierpinski三角形绝对够酷。回想Sierpinski三角形的构造方法，将三个同样的三角形的边长缩小一半，再与一个空白的倒三角相拼即可得到一个更高阶的Sierpinski三角形。这种构造方法非常简单，它是在现实生活中最容易构造的分形图形之一，你所需要的仅仅是一种可以拉伸变形的材料。</p>
+<p>  <img alt="image placeholder" >
+<p>  <img alt="image placeholder" >
+<p>  <img alt="image placeholder" >
+<p>  <img alt="image placeholder" >
+<p>查看更多：http://www.evilmadscientist.com/article.php/fimofractals</p>
+			 ]]></content>
+<pubDate>2007-12-08T16:17:17+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/378</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ SAGE：一个新的开源多平台数学软件 ]]></title>
+<link>http://www.matrix67.com/blog/archives/379</link>
+<content><![CDATA[ 
+		<p>    <a target="_blank" href="http://www.sagemath.org/">SAGE</a>是一个新的开源数学软件，和Mathematica、<a target="_blank" href="http://www.matrix67.com/blog/article.asp?id=386">Maxima</a>等软件一样可以进行各种复杂的数学运算。SAGE系统基于Python语言，如果你曾经用过Python，使用SAGE会感觉格外顺手。SAGE包含有一个<a target="_blank" href="http://www.sagenb.com/">在线版本</a>，注册后你可以在线制作自己的数学文档，方便教学或自己学习。</p>
+<p>主页：<a target="_blank" href="http://www.sagemath.org/">http://www.sagemath.org/</a><br>截屏：<a target="_blank" href="http://www.sagemath.org/screen_shots/">http://www.sagemath.org/screen_shots/</a><br>下载：<a target="_blank" href="http://www.sagemath.org/download.html">http://www.sagemath.org/download.html</a><br>教程：<a target="_blank" href="http://www.sagemath.org/doc/html/tut/index.html">http://www.sagemath.org/doc/html/tut/index.html</a></p>
+			 ]]></content>
+<pubDate>2007-12-10T19:13:08+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/379</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 另类搞笑：自我指涉例句不完全收集 ]]></title>
+<link>http://www.matrix67.com/blog/archives/380</link>
+<content><![CDATA[ 
+		<p>这句子很短。<br>我是这个句子的主语。<br>这个句子有八个字。<br>的写着倒是话句这<br>这是一个问句吗？<br>这个句子是不是一个自我指涉的句子？</p>
+<p>这句话是假的。<br>这个句子又三个错悟。<br>这个句子会让你联想到小泽玛丽亚吗？<br>有没有什么句子会莫明其妙地包含“哈密瓜”这个词？<br>如果“真”和“假”的意思颠倒一下，这个句子就不会是错的了。</p>
+<p>The eighth word in this sentence is last.<br>This sentence begins and ends with this.<br>This sentence repeats the word twice twice.<br>A preposition must never be used to end a sentence with.<br><a target="_blank" href="http://consc.net/misc/moser.html">This Is the Title of This Story, Which Is Also Found Several Times in the Story Itself</a></p>
+<p>这个世界上有三种人：会数数的和不会数数的。<br>这个世界上有10种人：会二进制的和不会二进制的。<br>这个世界上有10种人：会二进制，不会二进制的，和错把它当成二进制的。<br>这个世界上有两种人：认为这个世界上有两种人的，和不这么认为的。</p>
+<p>世上没有“绝对”。<br>迷信会带给人厄运。<br>87.5%的统计数据都是编造出来的。<br>所有普遍化的原理都是有问题的。<br>所有的规则都可以被打破，这一条除外。</p>
+<p>我他妈的从不骂脏话。<br>他们造的谣有一半都是真的。<br>和以往一样，你做的异常出色。<br>记住，你是独一无二的，就像其他人一样。<br>在我讲话之前，有一些事情我想先交待一下。<br>如果有人爱你，请无条件地把爱奉献给他吧。<br>我也想变得很有耐心，但这需要花很长的时间。<br>我从不做任何预言。我现在不会，将来也永远不会。<br>我曾经以为我做事情总是犹豫不决，但现在我不敢肯定了。</p>
+<p>我是我所见过的最不谦虚的人。<br>那些去看心理医生的人脑子都有问题。<br>再也不会有人去那里了，那地方太拥挤了。<br>成功的两条秘诀： 1. 不要把你知道的东西都告诉别人<br>谁说我很自大？自大是一种错误，但我没有任何错误。<br>我讨厌两种人：一是有种族歧视的人，二是黑人。<br>天哪，我肯定是这个星球上的最后一个乐观主义者了。<br>计算机就像猞猁一样，我一时间都想不出什么合适的比喻。</p>
+<p>Never say never!<br>我们要打破一切规则！<br>这真是迈进未知世界的一大步啊！<br>我们必须要坚持自由意愿，我们别无选择！</p>
+<p>定理：考虑由所有从未被考虑过的集合所组成的集合……嘿！它们全都不在了！！<br>排中律的定义：你要么相信排中律，要么不相信排中律。<br>Hofstadter法则：任何事花费的时间都比你想象中的长，即使你把Hofstadter法则也考虑进来。</p>
+<p>定理：所有的数都可以用20个以内的汉字表达（比如25852016738884976640000可以表达为“二十三的阶乘”，100000000000000000000000可以表达为“一后面二十三个零”）<br>证明：反证，假设存在不能用20个以内的汉字表达的数，则必有一个最小的不能用20个以内的汉字表达的数，而这个数已经用“最小的不能用20个以内的汉字表达的数”表达出来了，矛盾。<br>（大家想一想，这个“定理”的“证明”有什么问题？）</p>
+<p>An Englishman, an Irishman, and a Scotsman walk into a bar. The bartender turns to them, takes one look, and says "What is this – some kind of joke?"</p>
+<p>A Catholic Priest, a Rabbi and a Muslim Imam all sit next to one another at a diner. The Rabbi turns to the other two and says, "Hey, did you hear the one about us?"</p>
+<p>A Priest, a Rabbi and a Leprechaun walk into a bar. The Leprechaun looks around and says, "Woah bejaysus! I'm in the wrong joke!"</p>
+<p>我拥有一个漂亮而有智慧的妻子，没有了她我将一无所有。她总是那么善解人意，从不抱怨，从不争吵，无私奉献却不求回报，并且她还替我写好了献辞。</p>
+<p>哲学考试，教授出题：“这就是题目，请做答”。某学生挥笔写下几个大字：“这就是答案，请给分”。</p>
+<p>recursion<br>Main Entry: re·cur·sion<br>Pronunciation: ri-'k&amp;r-zh&amp;n<br>Function: noun<br>Etymology: Late Latin recursion-, recursio, from recurrere<br>1 : see <u>RECURSION</u></p>
+<p>一个逻辑学家救了一个外星人。外星人很感谢他，给了他一个问问题的机会（因为外星人无所不知）。<br>于是，逻辑学家问：“我现在应该问的最好的问题是什么，它的答案又是什么？”<br>外星人顿了一下，然后回答：“最好的问题就是你刚才问的那个问题，问题的答案就是我现在给你的这个答案。”</p>
+<p>本文来源：http://www.matrix67.com/blog/article.asp?id=429</p>
+			 ]]></content>
+<pubDate>2007-12-10T20:23:15+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/380</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Gömböc：神奇的自调整几何体 ]]></title>
+<link>http://www.matrix67.com/blog/archives/5232</link>
+<content><![CDATA[ 
+		<div align="center"><img alt="image placeholder" >
+<p>    想像一个凸的几何体（比如一块鹅卵石）。把鹅卵石扔在平地上，石头可能会滚上个一两圈，但最终总会停下来。由于鹅卵石是凸的，任意时刻它与地面只有一点相接触。当它静止下来的时候，它与地面的触点可以使得整个几何体保持平衡，不妨把这样的点叫做平衡点。显然，一个几何体不可能永无止息地原地翻滚（它哪来那么多能量），最终总会在某个平衡点处停下。事实上，我们可以严格地证明，一个几何体至少有一个平衡点。问题是，有没有什么几何体就只有一个平衡点呢？你可能会说，不倒翁就只有一个平衡点啊。我们说，不倒翁这玩意儿是耍了赖的，把不倒翁劈开来，里面没粘着一个秤砣大的重物才怪。<br>    经过几年的努力，匈牙利科学家Gábor Domokos和他以前的学生Péter Várkonyi终于找到了这样一种凸几何体，它的密度是均匀的，并且它只有一个平衡点。随意地把它放在一个平面上，它总会自动地调整到那个唯一的平衡状态。轻轻碰一下它，它马上又会恢复原位。这样的凸几何体叫做Gömböc。匈牙利语Gömb是球体的意思，gömböc就表示像球一样的东西。Gömböc是第一个凸的、均匀的、只有一个平衡点的几何体（准确地说是两个平衡点，另一个是非稳定的平衡点，它在稳定平衡点的正对面）。这种几何体很可能被做成玩具或摆设，因为它们本身也非常美观，具有很多现代抽象艺术的特征，极具观赏价值。<br>    他们还猜想，存在这样一个凸多面体，只有一个面是“平衡面”。满足这种性质的凸多面体所需要的面数可能相当多。现在还没有找到这样的凸多面体。</p>
+<p>消息来源：<a target="_blank" href="http://www.nytimes.com/2007/12/09/magazine/09selfrighting.html?ex=1354856400&amp;en=709ba9d5b34c4d12&amp;ei=5124">nytimes</a><br>查看更多：http://www.gomboc.eu/site.php</p>
+			 ]]></content>
+<pubDate>2007-12-11T21:03:47+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/5232</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 史上最难的初等几何问题？分享一个参考答案 ]]></title>
+<link>http://www.matrix67.com/blog/archives/5233</link>
+<content><![CDATA[ 
+		<p>   <img alt="image placeholder" >
+<p>    <a target="_blank" href="http://www.matrix67.com/blog/article.asp?id=423">题目</a>发出后，大家的回应似乎比我想象中的更积极，我看到了好几个不同的正确解答。加上我本来知道的几种做法，现在我已经知道了至少5种正确的解法。现在随便发一个，供大家参考。</p>
+<p>    我们首先从号称世界第二难的几何题“50-60三角形”（图一）入手。这个题目要稍微简单一些，因为有个已知条件很重要：∠1=50°=∠2，因此我们一开始就有了一个等腰三角形，其中BC=CD。过E作BC的平行线交AC于E'（图二），我们很快就可以知道两个蓝色三角形是等边三角形，于是BC=CP。这样的话三条红色线段都相等，△CPD是等腰三角形，即可算出∠3=80°，∠4=40°。而△BE'C中的∠5也是40°，于是△DPE'也是等腰三角形，DP=DE'。又EP=EE'（全等三角形的两边），ED=ED（公共边），因此△DEE'=△DEP。∠6=∠7=1/2∠PEE'=30°</p>
+<p>    事实上，利用50-60问题的结论，我们能很快解决60-70问题（图三）。在AC上找一点F使得∠CBF=50°（图4），根据前面的结论，∠1=30°。而△BDC中的∠2也是30°。又∠3=∠4=20°，于是红色三角形和紫色三角形相似，CF/EF=BF/DF。而∠5=50°，∠6=∠1+∠3=50°，结合前面的比例关系，于是两个蓝色三角形相似。这样的话，∠EDF=∠CBF=50°。我们要求的角就等于∠EDF-∠2=20°</p>
+<p>    解答很繁琐。目前我还没有找到什么简单而巧妙的解法。欢迎大家提供更多的解答思路。</p>
+			 ]]></content>
+<pubDate>2007-12-13T23:44:24+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/5233</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ AppJet：编写并发布你的网络应用程序 ]]></title>
+<link>http://www.matrix67.com/blog/archives/383</link>
+<content><![CDATA[ 
+		<div align="center"><img alt="image placeholder" >
+<p>    <a target="_blank" href="http://appjet.com/">AppJet</a>是一个免费的网络应用程序制作网站，你不需要数据库、动态网页语言等知识，也不需要拥有支持动态网页的空间，就可以在线编辑、运行你的代码，并且以yourname.appjet.com的形式发布出去。<br>    使用AppJet，你可以轻易制作出留言板、投票系统等网络应用程序，甚至还可以做出像<a target="_blank" href="http://www.matrix67.com/guessword/guess.asp">字谜游戏</a>和<a target="_blank" href="http://www.matrix67.com/">我的网站首页</a>那样的小程序。<a target="_blank" href="http://shoutbox.appjet.com/">这里</a>就是一个用AppJet制作出来的留言板，它的代码不到50行，你可以在<a target="_blank" href="http://appjet.com/docs/intro">这里</a>看到它的全部代码。</p>
+			 ]]></content>
+<pubDate>2007-12-14T13:50:40+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/383</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Zoomquilt II & Infinite OZ 无限放大之加强版 ]]></title>
+<link>http://www.matrix67.com/blog/archives/384</link>
+<content><![CDATA[ 
+		<div align="center"><img alt="image placeholder" >
+<p>    <a target="_blank" href="http://www.matrix67.com/blog/article.asp?id=381">这篇日志</a>里，我曾提到过一个非常牛B的Flash动画<a target="_blank" href="http://zoom.elements-network.de/zoom.htm">The Zoomquilt</a>，它由一系列的图片拼接而成，并且这些图片最终形成了一个循环，从而产生出无限放大的效果。最近，网络上出现了Zoomquilt加强版<a target="_blank" href="http://zoomquilt2.madmindworx.com">Zoomquilt II</a>，它比前一代包含更多的图片和更丰富的细节。如果你喜欢他们的前一个作品的话，你会更加喜欢这个加强版的。<br>    每年的这个时候，SciFi频道都会推出一个Mini科幻剧，通常只有三集，每集大约两个小时。最新的Mini科幻剧<a target="_blank" href="http://www.tv.com/tin-man/show/69870/summary.html">Tin Man</a>讲述一群人被困在一个叫做Outer Zone的地方，前几天刚刚播完。SciFi频道为这部剧集制作了一个类似的<a target="_blank" href="http://www.scifi.com/tinman/oz/">Flash动画</a>，效果更加华丽，完全看不出拼接的痕迹，并且还加入了声音和动画效果。</p>
+			 ]]></content>
+<pubDate>2007-12-14T13:56:20+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/384</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 编程世界的20个怪物 ]]></title>
+<link>http://www.matrix67.com/blog/archives/385</link>
+<content><![CDATA[ 
+		<p><img alt="image placeholder" >
+<p>本来想写一段有趣的翻译，发现有几个自己也不知道怎么翻，算了。<br>哪位牛人来一个牛B点的翻译。</p>
+<p>来源：<br>http://blogoscoped.com/archive/2007-12-10-n70.html<br>http://blogoscoped.com/archive/2007-12-12-n59.html</p>
+			 ]]></content>
+<pubDate>2007-12-17T00:10:02+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/385</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 如果在Google Code Search里搜索fuck…… ]]></title>
+<link>http://www.matrix67.com/blog/archives/386</link>
+<content><![CDATA[ 
+		<p>    <a target="_blank" href="http://codeulate.com/?p=7">Ben orenstein</a>尝试在Goolge Code Search里输入脏话，在众多的开源软件中找到了一些非常牛B的代码：</p>
+<p>gdb-6.4.50.20060515:<br><code>/* OK, now set up the filehdr...  */</code></p>
+<p>/*   We will NOT put a fucking timestamp in the header here. Every time you<br>     put it back, I will come in and take it out again.  I’m sorry.  This<br>     field does not belong here.  We fill it with a 0 so it compares the<br>     same but is not a reasonable time. — gnu@cygnus.com  */</p>
+<p>Siesta-0.66:<br><code>    # This job would be great if it wasn’t for the fucking customers.</code></p>
+<p>CGI-FormBuilder-3.0202:<br><code>        # Get field from radio buttons or checkboxes<br>        # Must cycle through all again to see which is checked. yeesh.<br>        # However, this only works if there are MULTIPLE checkboxes!<br>        # The fucking JS DOM *changes* based on one or multiple boxes!?!?!<br>        # Damn damn damn I hate the JavaScript DOM so damn much!!!!!!</code></p>
+<p>DJabberd-0.81:<br><code>    # Trillian, again, is fucking stupid and crashes on just<br>    # about anything its homemade XML parser doesn’t like.</code></p>
+<p>gift-0.11.5:<br><code>void list_lock_insert_sorted (ListLock *lock, CompareFunc func, void *data)<br>{<br>    if (lock-&gt;locked)<br>    {<br>        /* TODO: this is obviously not right ... this whole fucking module<br>         * sucks anyway */<br>        list_lock_prepend (lock, data);<br>        return;<br>    }</code></p>
+<p>    lock-&gt;list = list_insert_sorted (lock-&gt;list, func, data);<br>}</p>
+<p>bh-asia-03-grugq:<br><code>    /* if we get here, there are massive fucking problems, for a start<br>     * our stack is fucked up, and we can’t return(). Just crash out. */</code></p>
+<p>trunk:<br><code>    /* FIXME: please god, when will the hurting stop? Thus function is so<br>              fucking broken it’s not even funny. */</code></p>
+<p>SQL-Abstract-1.20:<br><code>    # Note to self: I have no idea what this does anymore<br>    # It looks like a cool fucking segment of code though!<br>    # I just wish I remembered writing it… :-</code></p>
+<p>mendax_linux:<br><code>for(i = 0 ; i &lt; pktcount; i++) {<br>    from.sin_port = htons(ntohs(from.sin_port) + 1);<br>    pktlen = gen_tcp_pak(&amp;pak, &amp;from, dst, ip_id++,<br>                     seq_num, 0L, 0, flags);<br>    seq_num += 64000;</code></p>
+<p>    /* don't fire dem packets too fucking fast */<br>    usleep(1000);</p>
+<p>    send_pak((char *) &amp;pak, pktlen, ether);<br>     putchar('.');<br>}</p>
+<p>SugarOS-for-Microsoft-Full-4.5.0h:<br><code>    /*   Outlook can’t fucking follow RFC if someone PAID them to do it…<br>        oh wait, someone paid them NOT to do it. */</code></p>
+<p>AfterStep-2.2.5:<br><code>    /* No we fucking don’t! DB entries should be stored in the same order<br>       as they are in the file ! I can’t belive I was so fucking stupid !  */</code></p>
+<p>gallery-2.0.4/modules/core/classes/GalleryStorage:<br><code>else if ($affectedRows &gt; 1) {<br>   /* Holy shit, we just updated more than one row!  What do we do now? */<br>   return GalleryStatus::error(ERROR_STORAGE_FAILURE, __FILE__, __LINE__,<br>                        "$query (" . implode('|', $data) . ") $affectedRows");<br>}</code></p>
+<p>linux-2.4.34.1/arch/sparc/lib/checksum.S:<br><code>        /* Sun, you just can’t beat me, you just can’t.  Stop trying,<br>         * give up.  I’m serious, I am going to kick the living shit<br>         * out of you, game over, lights out. */</code></p>
+<p>linux-2.6.1/arch/mips/kernel/sysirix.c:<br><code>    /* 2,191 lines of complete and utter shit coming up… */</code></p>
+<p>nfs-utils-1.1.0/utils/statd/misc.c:<br><code>    if (!(ptr = malloc (size)))<br>            /* SHIT!  SHIT!  SHIT! */<br>            die (”malloc failed”);</code></p>
+<p>dada-2_10_12:<br><code>    # code below replaces code above - any problems?<br>    # yeah, it doesn’t fucking work.</code></p>
+			 ]]></content>
+<pubDate>2007-12-18T14:03:28+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/386</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 八进制：未来人类的计数法？ ]]></title>
+<link>http://www.matrix67.com/blog/archives/387</link>
+<content><![CDATA[ 
+		<p>    <img alt="image placeholder" >
+			 ]]></content>
+<pubDate>2007-12-18T14:21:16+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/387</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 数学题征解：存在一条直线穿过至少两个点且颜色全部相同 ]]></title>
+<link>http://www.matrix67.com/blog/archives/388</link>
+<content><![CDATA[ 
+		<p>昨天收到一封邮件：</p>
+<blockquote>
+<p>Matrix67：</p>
+<p>    我最近发现了一个我无法解决的问题。题目如下：<br>    平面上有n(n&gt;=3)个点不全共线，一部分是红色的，其它是绿色的，是否一定存在一条直线满足：<br>    (1) 通过这些点中至少两个；<br>    (2) 它通过的点颜色全部相同。<br>    我在百度知道上发过此问题两次，告诉了学校的N个人，但还未能解决，希望你能帮助我。</p>
+<p>         　　　　　　　　　　　　　　　　　　　　一位痴迷于数学的网友</p>
+</blockquote>
+<p>    我当然不大可能会做出来，毕竟我也只是一个数学爱好者，不是搞MO的。因此把题目发到这里，大家可以一起来讨论。<br>    这道题和我之前看过的一道经典题目很相似：若n个点不全共线，则必存在一条直线恰好穿过两个点。证明方法很巧妙，画出所有两点确定的直线，作出每一个点到每一条直线的垂线，找出这些垂线中最短的一条，然后你会发现，假设每条直线上都有至少三个点的话，我总能找到比这条垂线段更短的垂线（大家可以自己试试看）。注意到，这个题目要求证明“若任何两点的连线上都有另一个点，则所有点共线”，而上面的题目则要求证明“若任何同色两点的连线上都有另一个异色点，则所有点共线”。这两个问题间有没有什么联系？我感觉，区分颜色的话命题似乎更强一些。我曾尝试找反例，每一次都是只差那么一点就成功了，但对于我提到的老问题，即使想找出一个很“悬”的情况也不太容易。<br>    这道题是原创的吗？如果是原创的话就真的强了。</p>
+			 ]]></content>
+<pubDate>2007-12-19T11:49:49+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/388</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 推荐视频：速算与数学魔术秀 ]]></title>
+<link>http://www.matrix67.com/blog/archives/390</link>
+<content><![CDATA[ 
+		<p>    Arthur Benjamin是一个数学家，也是一个魔术师，或者按照他的说法，“数学魔术师”(mathemagician)。工作时间，他是Harvey Mudd大学的数学教授；其它时间，他会到处上台表演他的心算技巧、超强记忆力和数学魔术。在<a target="_blank" href="http://www.ted.com/talks/view/id/199">这段视频</a>里，他表演了一系列令人吃惊的数学技巧。有意思的是，在最后心算5位数平方时，他用Thinking out loud的形式来表演：他会把自己心里的演算过程念出声来，因此你可以看到他是如何快速心算的。</p>
+			 ]]></content>
+<pubDate>2007-12-21T10:38:06+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/390</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 物理方法解决数学问题（一）：从一个简单的平面几何题谈起 ]]></title>
+<link>http://www.matrix67.com/blog/archives/391</link>
+<content><![CDATA[ 
+		<p>    数学很科学，但真正神奇的是物理。物理科学一次又一次震撼了人类。上帝是一个艺术家，它创造的这个世界是如此的和谐。自然界的每一个现象都可以用如此简洁的公式表达出来，以至于越来越多的人相信宇宙终极定律的存在。有一句话非常准确地表达了我对物理学的看法：Chemistry is physics without thought. Mathematics is physics without purpose.<br>    数学的很多问题都可以用物理模型来描述，并且利用一些物理定律来解决。之前我知道至少5个用物理方法解决数学问题的实例，看完《数学与猜想》第一卷后又多了解了好几个。我将选一些个人感觉比较有趣的例子写在这里。另外，这一系列文章的科学性和严密性可能是我所有写过的东西中最没把握的，希望网友们能帮忙纠正一些物理方面的严重错误。毕竟我是文科生，物理的东西了解得并不透彻:(</p>
+<p>    我们首先从一个简单的问题开始。这是一道初中平面几何题，它是初中那几道经典老题之一，能在一瞬间唤起你初中时的记忆。相信很多人对这题记忆犹新，再次看到这个题目时甚至可以立即报出答案来。但是，你有见过用杠杆原理来解这个几何题吗？</p>
+<p>      <img alt="image placeholder" >
+<p>    解答：把整个图形想象成一块水平放置的纸板。在A点挂一个1g的砝码，在B点挂一个2g的砝码，在C点挂一个4g的砝码。由杠杆原理：F是AB边上的支点，相当于承受了3g的重物，这样的话整个图形的重心应该在FC上；D是BC边上的支点，相当于承受了6g的重物，这样的话整个图形的重心应该在AD上。于是，整个图形的重心就应该落在FC和AD的交点S上，因此S必须是AD边的支点。而A重1g，D重6g，则AS:SD=6:1。于是S△ASC = 6/7 S△ADC = 6/7*1/3 S△ABC = 2/7。类似地，S△BQC和S△APB都等于2/7，剩下的S△PQS就等于1/7。</p>
+<p>    应用类似的方法还可以解决很多<a href="http://www.matrix67.com/blog/archives/507">其它的几何问题</a></p>
+<p>做人要厚道<br>
+转贴请注明出处</p>
+			 ]]></content>
+<pubDate>2007-12-21T10:49:35+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/391</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 物理方法解决数学问题（二）：Archimedes与球体积公式 ]]></title>
+<link>http://www.matrix67.com/blog/archives/392</link>
+<content><![CDATA[ 
+		<p>    我们平时习惯说“微积分”。有趣的是，积分的出现远远早于微分。积分思想的早期萌芽甚至可以追溯到古希腊时代，Democritus曾运用这种思想解决了很多复杂的问题。他的“数学原子论”观点强调几何体是由一个一个面重叠而成，而面则是由线组成。他把圆锥看作一个个不可再分的薄片，从而成功地得到了圆锥体体积公式：圆锥的体积等于等底等高的圆柱体体积的1/3。事实上，仅仅凭借经验加实验，这个公式也很容易被发现，因此我们这里不再仔细追究公式的推导过程。但古希腊人对球体积的研究却迟迟没有进展。此时，一代神牛Archimedes出现了。Archimedes用了一种出人意料的神奇方法找到了球的体积公式，整个推导过程令人称叹不已，拍案叫绝。<br>    我们从圆的方程开始说起。首先观察方程(x-a)^2 + y^2 = a^2，这是一个中心在(a,0)，半径为a的圆，它在y轴右边与y轴相切。整理一下这个式子，我们有x^2 + y^2 = 2ax。在这个式子中，x可以从0取到2a，每一个x的值就对应着一个y值，它表示圆上对应位置的半弦长。注意到这个式子的特殊性：如果等式两边同时乘以π，牛B东西就来了：πx^2 + πy^2 = 2aπx，左边出现了两个与圆面积相关的项。这使我们有了一种让等式两边再乘以一个2a的冲动，因为这样的话等式右边也出现了一个与2a相关的圆面积：2a(πx^2 + πy^2) = x π(2a)^2。现在的问题是，等式左边多出来的一个2a和等式右边的那个x该咋办？不用担心，我们不是有杠杆原理这种牛B东西么，这两个东西可以当力臂长啊。于是，一个现在看上去并不算太突兀的力学模型出现了：</p>
+<p>      <img alt="image placeholder" >
+<p>Matrix67原创<br>做人要厚道<br>转贴请注明出处</p>
+			 ]]></content>
+<pubDate>2007-12-22T01:06:00+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/392</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 计算阶乘的另一些有趣的算法 ]]></title>
+<link>http://www.matrix67.com/blog/archives/393</link>
+<content><![CDATA[ 
+		<p>    一个正整数n的阶乘就是前n个正整数的乘积，我们通常需要n-1次乘法操作来算出精确的值。不像等差数列求和、a的n次幂之类的东西，目前求阶乘还没有什么巨牛无比的高效算法，我们所能做的仅仅是做一些小的优化。</p>
+<p><strong>更少的乘法运算次数？</strong><br>    在高精度运算中，乘法计算的速度远远慢于加减法，因此我们有必要减少乘法运算的次数。下面我将做一个非常简单的变换，使得计算阶乘只需要n/2次乘法。继续看下去之前，你能自己想到这个算法来吗？</p>
+<p>    我们可以把一个数的阶乘转换为若干个平方差的积。例如，假如我想求9!，我可以把前9个正整数的乘积写成这个样子：<br>   1 * 2 * 3 * 4 * 5 * 6 * 7 * 8 * 9<br>= (5-4) * (5-3) * (5-2) * (5-1) * 5 * (5+1) * (5+2) * (5+3) * (5+4)<br>= (5-1) * (5+1) * (5-2) * (5+2) * (5-3) * (5+3) * (5-4) * (5+4) * 5<br>= (5^2 – 1^2) * (5^2 – 2^2) * (5^2 – 3^2) * (5^2 – 4^2) * 5<br>    注意到一个有趣的事实：上面的四个平方差算出来分别是24, 21, 16, 9，它们之间的差正好是连续的奇数（因为n^2等于前n个正奇数的和）。因此，我们可以用初始数(n/2)^2不断减去一个个的正奇数，求出所有n/2个平方差，再用n/2次乘法把它们乘起来。这种算法实现起来非常简单，并且（当n不大时）同样只需要单精度乘高精度，但需要的乘法次数大大减少了。假设我们已经有了一个高精度类，求n!只需要下面几句话：<br><code>long h=n/2, q=h*h;<br>long r = (n&amp;1)==1 ? 2*q*n : 2*q;<br>f = LargeInteger.create(r);<br>for(int d=1; d&lt;n-2; d+=2)<br>   f = f.multiply(q-=d);</code></p>
+<p><strong>更少的总运算次数？</strong><br>    尽量提取阶乘中的因子2，我们可以得到另一种阶乘运算的优化方法。这很可能是不需要分解质因数的阶乘算法中最快的一种。<br>    假如我们需要计算20!，我们可以把20拆成若干组正奇数的乘积：</p>
+<p>  1 * 2 * 3 * 4 * 5 * 6 * 7 * 8 * 9 * 10 * 11 * 12 * 13 * 14 * 15 * 16 * 17 * 18 * 19 * 20<br>= <u>1 * 3 * 5 * 7 * 9 * 11 * 13 * 15 * 17 * 19</u> * 2 * 4 * 6 * 8 * 10 * 12 * 14 * 16 * 18 * 20<br>= <u>1 * 3 * 5 * 7 * 9 * 11 * 13 * 15 * 17 * 19</u> * 1 * 2 * 3 * 4 * 5 * 6 * 7 * 8 * 9 * 10 * 2^10<br>= <u>1 * 3 * 5 * 7 * 9 * 11 * 13 * 15 * 17 * 19</u> * <u>1 * 3 * 5 * 7 * 9</u> * 2 * 4 * 6 * 8 * 10 * 2^10<br>= <u>1 * 3 * 5 * 7 * 9 * 11 * 13 * 15 * 17 * 19</u> * <u>1 * 3 * 5 * 7 * 9</u> * 1 * 2 * 3 * 4 * 5 * 2^15<br>= <u>1 * 3 * 5 * 7 * 9 * 11 * 13 * 15 * 17 * 19</u> * <u>1 * 3 * 5 * 7 * 9</u> * <u>1 * 3 * 5</u> * 2 * 4 * 2^15<br>= <u>1 * 3 * 5 * 7 * 9 * 11 * 13 * 15 * 17 * 19</u> * <u>1 * 3 * 5 * 7 * 9</u> * <u>1 * 3 * 5</u> * 1 * 2 * 2^17<br>= <u>1 * 3 * 5 * 7 * 9 * 11 * 13 * 15 * 17 * 19</u> * <u>1 * 3 * 5 * 7 * 9</u> * <u>1 * 3 * 5</u> * <u>1</u> * 2^18</p>
+<p>    只需要一次累乘就可以求到每一组奇数的乘积，最后再花费log(n)次乘法把它们全部乘起来。最后的那个2^18也可以二分计算出来。真正的代码还有很多细节上的优化，另外还借用了递归使得操作变得更加简便。你可以在本文最后附的那个链接里去找Split-Recursive算法。</p>
+<p><strong>还能再快一点么？</strong><br>    继续扩展上面的算法，我们可以想到，如果把每个数的质因数都分解出来，并且统计每种质因子有多少个，我们就可以多次使用二分求幂，再把它们的结果乘起来。注意这里并不是真的要老老实实地去分解每个数的质因子。对于每个质数x，我们可以很快算出前n个正整数一共包含有多少个质因子x（记得如何求n!末尾有多少个0么）。这种算法的效率相当高，已经能够满足大多数人的需要了。</p>
+<p><strong>另一种诡异的阶乘算法：</strong><br>    这个算法可能是所有有名字的阶乘算法中最慢的一个了（Additive Moessner算法），它对一个数列进行重复的累加操作，一次次地计算前缀和，总共将花费O(n^3)次加法操作。但是，令人费解的是，这个简单的程序为什么可以输出前n个正整数的阶乘呢？<br><code>a[0]:=1;<br>for i:=1 to n do<br>begin<br>   a[i]:=0;<br>   for j:=n downto 1 do<br>   begin<br>      for k:=1 to j do<br>         a[k]:=a[k]+a[k-1]<br>      write(a[i],' ');<br>   end;<br>end;</code><br>    我在网上搜索相关的东西时找到了<a target="_blank" href="http://www.maa.org/mathland/mathland_11_18.html">另一个有趣的东西</a>。对一个初始时全为1的数列反复进行这两个操作：累加求前缀和，然后以1,2,3,…的间隔划掉其中一部分数（即划去所有位置编号为三角形数的数）形成新的序列。类似的数列操作方法最先由Alfred Moessner提出的，我们这里不妨把它叫做Moessner数列。你会发现，第n轮操作开始前，数列的第一个数恰好是n! 。看看下面的例子吧：</p>
+<p><span style="font-family:宋体">1 1 1 1 1 1 1 1 1  1  1  1  1  1  1 …<br>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 …<br>x 2 x 4 5 x 7 8 9  x 11 12 13 14  x …</span></p>
+<p>2 4  5  7  8  9 11 12 13 14 …<br>2 6 11 18 26 35 46 58 71 85 …<br>x 6  x 18 26  x 46 58 71  x …</p>
+<p>6 18 26 46  58  71 …<br>6 24 50 96 154 225 …<br>x 24  x 96 154   x …</p>
+<p>24  96 154 …<br>24 120 274 …<br> x 120  x  …</p>
+<p>120 …<br>…..</p>
+<p>    当然，发现前面O(n^3)的程序和这个Moessner数列的关联时我很是吃了一惊：在前面的程序里，如果你输出每一次i循环末所得到的数列，你会发现输出的这些数正好就是后面这个问题里被我们划掉的数，而它们其实就是第一类Stirling数！<br>    这到底是为什么呢？是什么东西把阶乘、第一类Stirling数、Moessner数列和那个O(n^3)的程序联系在一起的呢？昨天，我想这个问题想了一天，最后终于想通了。如果把Moessner数列排列成这个样子，一切就恍然大悟了：</p>
+<p>   <img alt="image placeholder" >
+的序列是第i个三角形中每一行左起第j个数组成的序列。例如，计算第5个三角形内的数时，程序首先累加出1, 11, 46, 96, 120, 120，这样便算出了a[5]=120，数列的前5个数再次累加即得到1, 12, 58, 154, 274，由此算出a[4]=274。<br>    第二个性质可以利用第一个性质进行数学归纳法证明，证明很简单，我就不多说了。现在我尽可能少写一些繁琐的细节，节约一些时间用来复习古代汉语。</p>
+<p>做人要厚道，<br>转贴请注明出处。</p>
+<p>查看更多：<br>http://www.luschny.de/math/factorial/FastFactorialFunctions.htm<br>http://www.luschny.de/math/factorial/index.html &lt;—- 巨牛，20多种阶乘算法的代码！</p>
+			 ]]></content>
+<pubDate>2007-12-24T15:26:26+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/393</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣题：估算小数点后第三位 ]]></title>
+<link>http://www.matrix67.com/blog/archives/396</link>
+<content><![CDATA[ 
+		<p>    下面这道题来自今年的<a target="_blank" href="http://www.math.vt.edu/people/plinnell/Vtregional/E07/index.html">Virginia Tech Rigeonal数学比赛</a>（不知道该咋翻好）。比赛时间为两个半小时，一共有7道题，这是第5题：<br>    找出下面这个数小数点后第三位上的数字：(2+√5)^100 * ((1+√2)^100 + (1+√2)^(-100))</p>
+<p>    这个问题有趣的地方就是，你真的可以用一个简单的办法估算出答案来。为什么不先试试看？</p>
+<p>    我们需要求出(2+√5)^100 * ((1+√2)^100 + (1+√2)^(-100))小数点后第三位上的数。首先，(1+√2)^(-1)就等于(√2-1)，而二项式展开后你会发现(√2 + 1)^(2n) + (√2 – 1)^(2n)总是一个整数（根号2的奇数次幂总是一正一负抵消）。同样地，((√5 + 2)^(2n) + (√5 – 2)^(2n)) * ((√2 + 1)^(2n) + (√2 – 1)^(2n))也是一个整数，于是(√5 + 2)^(2n) * ((√2 + 1)^(2n) + (√2 – 1)^(2n))和(√5 – 2)^(2n) * ((√2 + 1)^(2n) + (√2 – 1)^(2n))的小数部分是互补的（相加为1），我们可以依据后面这个数的小数部分来确定前面这个数（也即题目要求的数）的小数部分。而当n较大时，后面这个数很可能会变得非常小。事实上，当n=50时，</p>
+<p>  (√5 – 2)^100 * ((√2 + 1)^100 + (√2 – 1)^100)<br>&lt; (√5 – 2)^100 * 2((√2 + 1)^100)<br>&lt; (1/4)^100 * 2((5/2)^100)<br>= 2(5/8)^100</p>
+<p>    可以断定，这是一个非常非常小的数，小数点后面紧跟着的0至少有10个。这足以说明，题目里那个数的小数点后面十几位全部是9。事实上，<br>(2+√5)^100 * ((1+√2)^100 + (1+√2)^(-100))<br>= 94158733601034420664808450657998303298219601745567527892456021922994<br>  873597395955752869490271254871747.9999999999999999999999996186915243<br>  507242961564029332966750212181162222265977213142686546252118999….<br>    小数点后一共有24个9。</p>
+<p>本文来源：http://www.cut-the-knot.org/arithmetic/PowersOf10.shtml</p>
+			 ]]></content>
+<pubDate>2007-12-26T12:27:26+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/396</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 警告：绝对不要把pi转换为二进制！！！ ]]></title>
+<link>http://www.matrix67.com/blog/archives/397</link>
+<content><![CDATA[ 
+		<p>    警告，千万不要去计算pi的二进制表达。数学家们猜想pi是一个正规数(normal number)，也就是说它包含了任意一个有限长的01串，所有n位长的01串都以相等的概率出现在pi的二进制中。</p>
+<p>    如果你偏要去计算它，你会：
+</p>
+<ul>
+<li>侵犯版权（包括所有书籍、小说、报纸、杂志、网站、音乐、电影、软件，甚至是Windows源码）；</li>
+<li>侵犯商标权；</li>
+<li>拥有大量非法的激情无码大片；</li>
+<li>拥有大量国家最高机密；</li>
+<li>制造出非法的DVD破解软件；</li>
+<li>制造对小胡同志的恐吓信；</li>
+<li>拥有所有人的身份证号、信用卡号、电话号码和各种密码；</li>
+<li>亵渎伊斯兰教（理论上并不是非法的，但你下半辈子得和Salman Rushdie躲在一起）；</li>
+<li>亵渎科学论派（非法！问问Keith Henson就知道）。</li>
+</ul>
+<p>    同时，你的电脑里会包含有目前所有已知的最邪恶的电脑病毒──事实上还包括有所有未知的最邪恶的病毒。<br>    我的电脑上有很多极度私密的文件，我不希望你把它们浏览个遍。<br>    你或许想，我只计算几位就行了；但何必去冒这个险呢？谁也说不准，算到哪一位时你会找到关于Kennedy刺杀案的秘密文件，或者你邻居的六岁小女孩和家里的狗狗XX的恶心照片，或者还未发行的最新一部Star Wars的完整拷贝。反正，千万别去算它。<br>    同样的警告还适用于e、根号2、Euler常数、phi、除0以外的代数数的余弦值和其它各种各样的实数。<br>    这也是为什么这些数总是被表示成十进制数的原因。</p>
+<p>来源：http://everything2.net/index.pl?node_id=1302963</p>
+			 ]]></content>
+<pubDate>2007-12-27T13:53:00+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/397</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Kobon问题新进展：17条直线可构成多少个互不重叠的三角形 ]]></title>
+<link>http://www.matrix67.com/blog/archives/398</link>
+<content><![CDATA[ 
+		<div align="center"><img alt="image placeholder" >
+<p>    很多时候，问题越是简单，解答起来越复杂。1983年，Kobon Fujimura提出了这样一个问题：N条直线最多可以构成多少个互不重叠的三角形？这个问题后来被称为Kobon三角形问题。虽然对于一些特殊的n，人们已经找到了确切的最优解，但目前Kobon三角形问题还没有一般的结论。就在上个月，Johannes Bader用17条直线构造出85个互不重叠的三角形，它被证明是n=17的最优解。这里，我们将给出Johannes Bader构造出来的图形，并且证明它确实是n=17时的最优解。</p>
+<p>      <img alt="image placeholder" >
+<p>    当n=17时，上界n(n-2)/3是可以达到的。Johannes Bader构造出了下面这个图形，图形中包含了85个互不重叠的三角形，完美解决了n=17时的Kobon三角形问题。
+</p>
+<div align="center"><img alt="image placeholder" >
+<p>查看更多：http://www.tik.ee.ethz.ch/sop/people/baderj/?page=other.php<br>做人要厚道，转贴请注明出处</p>
+			 ]]></content>
+<pubDate>2007-12-27T14:56:03+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/398</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 不可能几何体新境界：史上最牛的gif动画平铺背景 ]]></title>
+<link>http://www.matrix67.com/blog/archives/399</link>
+<content><![CDATA[ 
+		<p><img alt="image placeholder" >
+<p>足够牛B吧！膜拜做这个gif动画的牛人！<br>期待有人真的把这个当网页背景用~~</p>
+<p>全屏查看：http://aislian.org/tile.html （保证你立马就晕了）<br>单个的gif：http://aislian.org/tiling.gif <br>消息来源：<a target="_blank" href="http://digg.com/design/The_coolest_animated_GIF_tiled_background_perhaps_ever">digg</a></p>
+<p>下面两个牛B东西是在digg里的评论里看到的：<br>http://j-walkblog.com/blog/docs/platform.htm<br>http://gif.woventhorns.com/tiled.php</p>
+			 ]]></content>
+<pubDate>2007-12-28T13:32:54+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/399</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ That's not supposed to happen! ]]></title>
+<link>http://www.matrix67.com/blog/archives/400</link>
+<content><![CDATA[ 
+		<div align="center"><img alt="image placeholder" >
+<p>Source: http://digg.com/comedy/That_s_not_supposed_to_happen_comic<br><span style="color:#E5E5E5">英语彻底考砸了，现在非常郁闷……</span></p>
+			 ]]></content>
+<pubDate>2007-12-31T11:24:37+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/400</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 关于2008：你必须知道的10个有趣的事实 ]]></title>
+<link>http://www.matrix67.com/blog/archives/401</link>
+<content><![CDATA[ 
+		<p><span style="color:#0099ff">10. 2008是所有元素均为非负整数，每一行每一列的数字和都等于3的4×4矩阵个数；</span><br><span style="color:#ff0066">9. 2008是使2^n+3恰为素数的第一个大于2000的n；</span><br><span style="color:#66cccc">8. 2008是广义Fibonacci数列1, 8, 9, 17, … 的第14项；</span><br><span style="color:#ff33ff">7. 2008是质数251与它的各位数字之和的乘积；</span><br><span style="color:#00cc00">6. 2008可以用两种方式表示成3个正整数的立方和。其中一种是10^3+10^3+2^3。你能找到另一种吗？</span><br><span style="color:#ff6600">5. 2008是所有三位Lucas数的和；</span><br><span style="color:#cc00ff">4. 2008在三进制中是一个Kaprekar常数（就像十进制的6174一样）；</span><br><span style="color:#33ff66">3. 2008表示了一个把时针和分针位置互换后仍然有意义的（精确到秒的）时刻（即00:20:08）；</span><br><span style="color:#009966">2. 2008是在计算器上最小的需要24根数码管表示的数；</span><br><span style="color:#ff0033">1. 2008将是你我最开心、最难忘、最有意义的一年！</span></p>
+			 ]]></content>
+<pubDate>2008-01-01T00:00:01+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/401</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 10 Levels of Security：又一个在线解谜游戏 ]]></title>
+<link>http://www.matrix67.com/blog/archives/402</link>
+<content><![CDATA[ 
+		<p>http://topsecret.quadium32.com/</p>
+<p>根据该站点的统计，目前共有5491个人成功进入了第一关，只有224个人完成了最后一关（第10关）。你会是第225个人吗？</p>
+<p>呃……如果你连第一关都不知道该咋办的话，可以看看下面的答案（Ctrl+A显示）：<br><span style="color:#E5E5E5">You have to enter "the password" to access Level 1.</span></p>
+<p>接下来就靠大家自己来完成了。</p>
+			 ]]></content>
+<pubDate>2008-01-02T11:42:35+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/402</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 2008年北京大学自主招生数学考题 ]]></title>
+<link>http://www.matrix67.com/blog/archives/403</link>
+<content><![CDATA[ 
+		<p>    北大自主招生的数学考题就只有5道题，考生反映“巨难无比”，考完立马就郁闷了，哇啦哇啦地哭。我收集到的信息不多，得到的消息也没有一一去证实。我把这5道题大致写一下，题目描述可能不准确，但基本意思就是这样。</p>
+<p>1. 证明：边长为1的正五边形的对角线长为(1+√5)/2</p>
+<p>2. 已知一个六边形AB<sub>1</sub>CA<sub>1</sub>BC<sub>1</sub>，AB<sub>1</sub>=AC<sub>1</sub>，CB<sub>1</sub>=CA<sub>1</sub>，BA<sub>1</sub>=BC<sub>1</sub>，∠A+∠B+∠C=∠A<sub>1</sub>+∠B<sub>1</sub>+∠C<sub>1</sub>。证明：三角形ABC面积为六边形的一半。 </p>
+<p>3. 某次球赛实行单循环赛制，规定赢一场得1分，输一场得0分。比赛队伍分为南方和北方，南方比北方多9支球队，且最后南方总分数是北方的9倍。求证：南方某支球队的得分最高。</p>
+<p>4. 已知实数a1、a2、a3、b1、b2、b3满足：<br>a1+a2+a3 = b1+b2+b3, a1^2 + a2^2 + a3^2 = b1^2 + b2^2 + b3^2<br>且min{a1, a2, a3}≤min{b1, b2, b3}<br>证明：max{a1, a2, a3}≤max{b1, b2, b3}</p>
+<p>5. <s>空间解析几何题，涉及到旋转体和光源。题目看了半天都不懂是啥意思，估计原题有附图。哪位有更准确的题目描述麻烦请在下面留言告诉我。</s> 网上找的题目没有“圆周”两个字，怪不得半天不懂是啥意思。<br>立体直角坐标系xyz，在xy平面上有图形0&lt;=y&lt;=2-x^2，将此图形绕y轴旋转得到一个不透光的几何体V。在点P(1,0,1)处有一点光源，xy平面上有一以原点为圆心的圆，此圆的圆周上被照亮的部分长度为2π，求未被照亮的部分的长度。（感谢<a target="_blank" href="http://tianyi.yo2.cn/%e6%96%b0%e5%b9%b4%e7%ba%aa%e5%bf%b5/">dd</a>）</p>
+<p>另据了解，清华的数学题题量较大，题目也稍微简单一些。有两道题非常有意思，我也一起写在这里。<br>证明：任意给定一个四面体，则至少存在一个顶点，使得过该顶点的三条棱可以构成一个三角形。<br>证明：以原点为对称中心、面积大于4的矩形至少覆盖除原点外的另外两个格点。</p>
+			 ]]></content>
+<pubDate>2008-01-02T12:11:59+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/403</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣题：n为奇数时，正n边形的三角形剖分内有且仅有一个锐角三角形 ]]></title>
+<link>http://www.matrix67.com/blog/archives/405</link>
+<content><![CDATA[ 
+		<p>      <img alt="image placeholder" >
+<p>    这道题几乎可以说是非常简单的脑筋急转弯。如果我告诉你，整个证明过程只需一句话，你再仔细想想能想到答案么？偷看答案后你会后悔你没有想到这个简单而神奇的证明。</p>
+<p>     </p>
+<p>     <img alt="image placeholder" >
+			 ]]></content>
+<pubDate>2008-01-04T00:05:44+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/405</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 喜欢这个Blog？小心别人发现你的致命弱点 ]]></title>
+<link>http://www.matrix67.com/blog/archives/406</link>
+<content><![CDATA[ 
+		<div align="center"><img alt="image placeholder" >
+<p>    你是否曾趴在电脑前暗下“做出了这道题再睡觉”的决心？你是否曾有过“这题没想出来，老子今天不吃饭”的想法？看到最近<a target="_blank" href="http://www.xkcd.com/356/">xkcd</a>的一幅漫画后，我突然意识到了它的危险性：不顾一切地钻进某个难题里并不是一件好事。不要轻易透露你geek/nerd的身份，不然你很容易被人利用或者陷害。<br>    to各位MM，当你的BF在你旁边叽叽喳喳闹个不停把你弄烦了时，你会咋办？如果他正好是一个狂热的数学/物理/信息学爱好者，问题就好办多了：给他一道难题做，他很快就安静下来了。这样的题最有效果：题目新颖有趣，描述非常简单，并且解答异常困难。比如，漫画里的那道题就是一个绝好的例子……<br>    妈的，今天不再更新了，古代汉语也他妈的不复习了，等老子把这题解决了来再说。呃，如果两个点之间的Manhattan距离为3的话……</p>
+			 ]]></content>
+<pubDate>2008-01-04T19:00:45+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/406</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 隐藏在函数里的问候 ]]></title>
+<link>http://www.matrix67.com/blog/archives/407</link>
+<content><![CDATA[ 
+		<p>    不知是哪个牛人发现了这样一个有趣的函数f(x,y)=e^(-x^2-y^2/2) * cos(4x) + e^(-3((x+0.5)^2+y^2/2))，它可以说是“函数界”里的Hello World，因为当z充分小的时候（比如取0&lt;z&lt;0.001），函数图象是两个大大的字母，向电脑前的你表示最真挚的问候。看来，以后打招呼又有新的方式了。</p>
+<p>     <img alt="image placeholder" >
+<p>    另外一些有趣的问题是，有没有牛人能找到一个并不太复杂的，可以显示“Hello World”的初等函数呢？或者更实用一些的，想要创作一个“XXX我爱你函数”需要花多长时间，函数本身会有多复杂？<br>    消息来源：http://www.walkingrandomly.com/?p=19</p>
+<p>    你认为，是这个“HI函数”牛B，还是<a target="_blank" href="http://www.matrix67.com/blog/article.asp?id=107">爱的方程式</a>牛B？或者<a target="_blank" href="http://www.matrix67.com/blog/article.asp?id=269">爱的方程式3D版</a>更牛一些？或者<a target="_blank" href="http://www.matrix67.com/blog/article.asp?id=374">数学公式生成的色情图片</a>更牛？个人觉得，还是<a target="_blank" href="http://www.matrix67.com/blog/article.asp?id=350">Tupper自我指涉公式</a>最牛。</p>
+			 ]]></content>
+<pubDate>2008-01-04T23:59:57+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/407</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 我所见过的最有创意的Flash小游戏 ]]></title>
+<link>http://www.matrix67.com/blog/archives/408</link>
+<content><![CDATA[ 
+		<p><object width="550" height="400" data="http://www.matrix67.com/blogimage/200801052.swf" type="application/x-shockwave-flash"><param name="src" value="http://www.matrix67.com/blogimage/200801052.swf"></object><br>我考虑了很久，还是决定把“之一”两个字去掉。<br>非常有创意的小游戏，可惜太简单了。希望有更难的版本出现。<br>如果你通关了，不妨继续挑战188分的满分。</p>
+<p>游戏出处：<a target="_blank" href="http://www.nekogames.jp/mt/2008/01/cursor10.html">nekogames</a><br>消息来源：<a target="_blank" href="http://digg.com/playable_web_games/GAME_Cursor_10_Play_a_flash_game_with_yourself">digg</a></p>
+			 ]]></content>
+<pubDate>2008-01-05T14:14:54+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/408</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 推荐视频：另类素数筛选法 ]]></title>
+<link>http://www.matrix67.com/blog/archives/409</link>
+<content><![CDATA[ 
+		<p>   <embed src="http://union.bokecc.com/flash/player.swf?videoID=27994_1504909&amp;autoStart=false&amp;share=true" width="438" height="387" type="application/x-shockwave-flash"></embed></p>
+<p>    画一个三角形阵列，初始时只有每一行的两头有标记，然后从上到下依次把每一行复制两份，摆放成一个等边三角形。最后你会发现，第i行为空行（除两头外不再有其它标记），当且仅当i为素数。对于其它行，标记的位置也与该行行号的质因子有关。这是为什么呢？<br>    照惯例，给个YouTube链接：http://youtube.com/watch?v=sbjPwyPT1AI</p>
+<p>    设f[i,j]表示第i行左起第j个位置是否有标记。j从0开始计数（即第i行最左边用f[i,0]表示）。对于每个f[i,j]，我们将它的值赋给了f[i+j,j]和f[2*i-j,i]。也就是说，对于每组i和j，我们都进行以下两个操作：<br>f[i+j,j] &lt;- f[i,j]<br>f[2*i-j,i] &lt;- f[i,j]<br>    而这实际上就是辗转相除的变形，不断递归下去后，最终f[i,j]表示的其实就是i和j是否互质。这样一来，上面那些东西就全解释清楚了。<br>    用这种方法描述数论问题是一件很有趣的事，给人感觉很神奇。如果你感兴趣的话，<a target="_blank" href="http://www.matrix67.com/blog/article.asp?id=329">这里</a>有一个类似的例子，你可以看到Sierpinski三角形、杨辉三角和组合数的奇偶性是如何联系在一起的。</p>
+			 ]]></content>
+<pubDate>2008-01-05T14:29:20+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/409</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 巨牛B的在线数学工具：反符号计算器 ]]></title>
+<link>http://www.matrix67.com/blog/archives/410</link>
+<content><![CDATA[ 
+		<div align="center"><img alt="image placeholder" >
+<p>    在没有Mathematica这种牛B东西的年代，我们用电脑做数学题时，电脑只能返回一长串的小数。但你那小数精确到多少位都没用，我们做作业总是要求最终结果是一个表达式的形式。于是，当时我就在想，计算器可以计算出一长串表达式的值，但有没有计算器可以根据足够精确的数值反过来推出表达式呢？<br>    今天果然发现了这样一个牛B东西：在线反符号计算器(Inverse Symbolic Calculator, ISC)。输入足够多位的小数，它可以告诉你这个数是由什么表达式得到的。比如，你输入10.5916630466254391，系统会告诉你它是两倍根号23加1；输入1.8994432200976623351，系统会告诉你它是cos(1)的值加上e的一半；输入0.3732821739073952，系统会告诉你它是Γ(1/3)的倒数。它到底有多牛B呢？我试过一些比较复杂的式子。它竟然能准确地算出，11.1457467760047553180356168160是(2√2 + 1)/3 + π^2。</p>
+<p>链接：http://ddrive.cs.dal.ca/~isc/standard.html</p>
+			 ]]></content>
+<pubDate>2008-01-06T14:24:43+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/410</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 概率学的创立：Chevalier de Méré问题 ]]></title>
+<link>http://www.matrix67.com/blog/archives/412</link>
+<content><![CDATA[ 
+		<p>    在1717年，法国流行这样一个赌博游戏：连续抛掷一个骰子四次，赌是否会出现至少一个1点。经过试验，赌徒Chevalier de Méré发现至少出现一个1点比不出现的几率似乎要稍微大一些。他总是赌“会出现”，每次算下来他总是赢。在这个赌博游戏的一个“加强版”中，赌徒们需要猜测，连续抛掷两个骰子24次，是否会出现至少一对1点。Chevalier de Méré想，两个骰子同时掷出1点的几率显然是单个骰子掷出1点的几率的1/6，为了补偿几率的减小则必须要抛掷骰子24次。因此，两个赌博游戏换汤不换药，赌“出现”获胜的几率应该是一样的。但奇怪的是，他每次都赌会出现一对1点，结果几乎每次的最终结果都是输。他感到百思不得其解，于是向数学家Pascal寻求一个合理的解释。Pascal与大数学家Fermat用信件进行了交流，最终提出了概率问题的若干原理，创立了概率学。<br>    我们可以简单算一下，虽然直观感觉两个问题的概率应该相等，但实际上前者发生的概率大于0.5，后者发生的概率小于0.5，虽然两者相差并不多。</p>
+<p>    问题1：连续抛掷一个骰子4次，至少出现一个1点的概率是多少？<br>    解答：在所有6^4种可能的情况中，一个1点都没有的情况有5^4种，因此至少出现一个1点的概率是(6^4-5^4)/6^4≈0.5177</p>
+<p>    问题2：连续抛掷两个骰子24次，至少出现一对1点的概率是多少？<br>    解答：在所有36^24种可能的情况中，一对1点都没有的情况有35^24种，因此至少出现一对1点的概率是(36^24-35^24)/36^24≈0.4914</p>
+<p>    谁能用一句话解释清楚，为什么赌徒Chevalier de Méré的直觉是错误的？不用Ctrl+A了，这次没有藏啥东西。</p>
+<p>参考资料：http://www.cut-the-knot.org/Probability/ChevalierDeMere.shtml</p>
+			 ]]></content>
+<pubDate>2008-01-09T01:03:09+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/412</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 另类分形图形赏：2007年分形艺术大赛获奖作品 ]]></title>
+<link>http://www.matrix67.com/blog/archives/413</link>
+<content><![CDATA[ 
+		<p>从2007年分形艺术大赛(Benoit Mandelbrot Fractal Art Contest)中选了几个自己感觉不错的图与大家分享。</p>
+<p>图片按以下三个原则来选取：<br>1. 严格符合分形图形的定义<br>2. 与以往的分形图形风格很不一样<br>3. 很好看:)</p>
+<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >
+<p>查看全部获奖作品：http://www.fractalartcontests.com/2007/winners.php<br>查看全部参赛作品：http://www.fractalartcontests.com/2007/entries.php</p>
+			 ]]></content>
+<pubDate>2008-01-09T01:31:36+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/413</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣题：经典二分问题的一个扩展 ]]></title>
+<link>http://www.matrix67.com/blog/archives/415</link>
+<content><![CDATA[ 
+		<p>    SETI@home可以在杂乱的射电数据中搜寻独特的讯号，你能在大街上的嘈杂声中清晰分辨出一个尖细的女声大叫“亚美蝶”。这些现象都表明，有时对集合里的所有元素进行整体考察可以很快找出我们所要找的个体。去年我们搞合唱比赛时，我又想到了一个绝佳的例子：你可以在合唱声中清楚地听到是否有人跑调。考虑这样一个问题，假如合唱团里有一个人唱歌始终走调，但我听不出来是谁走调，只能听出当前正在唱歌的人中是否有唱走调了的人。那么，我如何才能迅速地揪出那个唱走调的人？利用经典二分法，我们可以在log2(n)次合唱后找出唱走调了的人。每一次，我都把剩下的人平均分成两组，然后选其中一组来合唱：如果听不到走调的声音，这一组的人就全部过关；如果听到有人走调，那另一组里的人都可以被排除了。递归地对剩下的组进行同样的操作，log2(n)次操作后必定可以找出那个唱歌走调的人。<br>    现在的问题变得有些麻烦了。假如我们知道合唱队里有一个人唱歌爱跑调，但他不是总会跑调。具体地说，他只有1/2的概率唱错，但其余1/2的时间里他却唱得很准。现在，传统的二分法不再适用了，因为没有走调声已经不能起到排除的作用了。你能想出多少种可行的算法来找出那个人？下面提出一些可行的方法，你认为哪种方法更好？你能求出这些算法所需要的检测次数的期望值各是多少吗？</p>
+<p>    1. 不断地随机生成一个大小为n/2的子集并对其进行检测，直到某次不能通过检测为止，然后递归地对其进行操作。<br>    2. 所选的子集大小为n/2是最优的吗？把上面这种方法的n/2改成n/a，常数a的最优值是多少？<br>    3. 检测次数的期望值还可以更小吗？我们想到，每次都重新生成一个新的集合其实并不科学，新集合本身是否包含老鼠屎也是得碰碰运气的。因此，对方法1的一个合理改进是：把集合平均划分为两个部分，交替对它们进行检测直到某次检测没通过为止，然后对该组递归操作下去。这种方法真的比前两种好吗？它所需要的期望次数是多少？<br>    4. 尝试对方法3进行改进。如果把集合平均划分成3份并循环进行检测，效果会不会更好一些？</p>
+<p>    1. 选取的子集有1/2的概率覆盖了我们要找的那个人，子集里有他而他这次恰好又唱走调了则有1/4的概率。因此，不管规模有多大，平均需要4次才能把规模缩小一半。因此，检测次数的期望值为4*log2(n)。为了方便比较期望值的大小，后面的答案我们一律表示成一个常数乘以log2(n)的形式。<br>    2. 类似地，平均需要2a次检测才能把规模缩小到原来的1/a，因此总共花费的检测次数为2a*log2(n)/log2(a)。对函数求导，可得当a为e时函数值达到最小。此时的检测次数期望值为2e*log2(n)/log2(e)≈3.7683 * log2(n)。<br>    3. 这个就经典了。设方法3里把规模缩小一半所需要的检测的期望次数为m，下面我们来看m应该等于多少。把n个人平均分成两组，我们要找的老鼠屎有1/2的概率在第一组，有1/2的概率在第二组。因此，第一次就测出问题来有1/4的可能，第二次就测出问题也有1/4的可能。对于剩下的1/2种情况，局面变得又和最开始一样，只是平均需要的检测次数比原来多了2。根据期望值的定义，有m=(1/4)*1 + (1/4)*2 + (1/2)*(m+2)，解得m=3.5。总的检测次数就是3.5 * log2(n)，它比前面两种方法都要好。你可能不同意上面求m的方法。这没啥，如果你不断对m进行迭代，你会发现展开出来的式子就是最标准的期望值定义。<br>    4. 类似地，有m=(1/6)*1 + (1/6)*2 + (1/6)*3 + (1/2)*(m+3)，解得m=5。于是，把规模缩小到原来的1/3平均需要5次检测，总的检测次数为5*log2(n)/log2(3)≈3.1546 * log2(n)。</p>
+<p>题目来源：<a target="_blank" href="http://domino.research.ibm.com/Comm/wwwr_ponder.nsf/Challenges/December2007.html">IBM Ponder This Dec07</a><br>原文还从熵的角度探寻了问题的最优算法，感兴趣的读者可以去看一看</p>
+			 ]]></content>
+<pubDate>2008-01-12T13:34:29+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/415</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+</channel>
+</rss>

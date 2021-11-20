@@ -1,0 +1,2040 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>Matrix67: The Aha Moments</title>
+<description></description>
+<link>http://www.matrix67.com/blog</link>
+<pubDate>2021-11-20T14:45:25+08:00</pubDate>
+<!-- other elements omitted from this example -->
+<item>
+<title><![CDATA[ 证明实数区间不可数的新方法 ]]></title>
+<link>http://www.matrix67.com/blog/archives/416</link>
+<content><![CDATA[ 
+		<p>    Cantor对集合的一些著名的研究让我们更加清楚地认识了无穷这玩意儿。Cantor发现，无穷集合之间也有大小关系，他把这种大小关系叫做集合的势(cardinality)。正整数和正偶数都有无穷多个，但到底谁要多一些呢？我们认为，正整数和正偶数一样多，因为我们可以在它们之间建立起一一对应的关系（乘2除2），因此有多少个正整数就有多少个正偶数，反过来有多少个正偶数我就能找出多少个正整数。于是我们说，正整数集和正偶数集是等势的。<br>    再来想一个问题，自然数和所有整数哪个多哪个少？答案还是一样多。重新排列一下所有整数，你会看到自然数和整数之间也有一一对应的关系，它们的个数一样多，两个集合也是等势的：</p>
+<p>自然数：0,  1,  2,  3,  4,  5,  6,  7,  8, …<br>   整数：0, -1,  1, -2,  2, -3,  3, -4,  4, …</p>
+<p>    Cantor还发现，有理数集与自然数集也是等势的，也就是说有理数和自然数一样多！这个证明方法可谓是数学史上真正的经典：把所有有理数写成最简分数的形式，根据分子和分母的值把它们排列成二维的阵列，然后从1/1出发沿对角线方向蛇形遍历所有的数。第i个遍历到的数与自然数i对应，正有理数集与正整数集也就有了一一对应的关系。注意这里仅仅是正有理数，不过没啥，用刚才证明整数集与自然数集等势的方法，我们也可以把正有理数扩展到全体有理数。<br>      <img alt="image placeholder" >
+<p>    事实上，对于任何一个集合S，如果你能找出一种方法把集合里的所有元素按顺序一个不漏地罗列出来，写成a1, a2, a3, a4, … 的形式，那么这个集合就是和自然数集等势的，因为序列的下标和自然数集就已经构成了一个一一对应的关系。我们把所有与自然数集等势的集合叫做可数集(countable set)，因为它们是可以数出来的。<br>    并不是所有集合都是可数的。Cantor证明了，实数区间[0,1]是不可数的集合，它的势比自然数集大。你找不出什么方法能把0到1之间的所有实数一个不漏地排列出来。这个证明方法很巧妙，假设你把实数区间[0,1]里的所有数按照某种顺序排列起来，那么我总能找到至少一个0到1之间的实数不在你的列表里。把你的列表上的数全写成0到1之间的小数：</p>
+<p>a1 = 0.0147574628…<br>a2 = 0.3793817237…<br>a3 = 0.2323232323…<br>a4 = 0.0004838211…<br>a5 = 0.9489129145…<br>………</p>
+<p>    那么我就构造这么一个小数，小数点后第一位不等于a1的第一位，小数点后第二位不等于a2的第二位，总之小数点后第i位不等于ai的第i位。这个数属于实数区间[0,1]，但它显然不在你的列表里。这样，我就证明了实数区间是不可数的。</p>
+<p>    最近，Matthew H. Baker找到了证明实数区间是不可数集的一种新方法。这种方法同原来的方法完全不同。新的证明方法从一个博弈游戏出发，在两个不同的数学领域间建立起了联系，非常具有启发性。<br>    A和B两个人在实数区间[0,1]上玩一个游戏。首先，A在(0,1)之间选一个数a1，然后B在(a1,1)里选一个数b1；接着，A在(a1,b1)之间选一个数a2，然后B在(a2,b1)里选一个数b2……总之，以后A和B轮流取数，选的那个数必须位于前面两次选的数之间。可以看到，序列a1, a2, a3, …是一个单增的有界序列，因此游戏无限进行下去，数列{an}最终会收敛到某一个实数c。游戏进行前，A和B约定一个[0,1]的子集S，规定如果最后c∈S，则A胜，否则B胜。<br>    Baker发现，如果S集为可数集的话，B肯定有必胜策略。如果S集可数，那么B就可以把S集里的数排列成一个序列s1, s2, s3, … 。B的目标就是让序列{an}的极限不等于S集里的任一个数。考虑B的这样一个游戏策略：当B第i次选数时，如果选si合法，那么就选它（这样序列{an}就不能收敛到它了）；否则如果这一步选si不合法，那就随便选一个合法的数（此时序列{an}已经不可能收敛到si了）。这种策略就可以保证A选出的数列的极限不是S集里的任一个数。<br>    有趣的事情来了。假如A和B约定好的S集就是整个实数区间[0,1]，那么B显然不可能获胜；但如果[0,1]是可数集的话，B是有必胜策略的。于是我们就知道了，[0,1]是不可数集。</p>
+<p>消息来源：http://blog.sciencenews.org/mathtrek/2008/01/small_infinity_big_infinity.html<br>查看更多：https://www.math.gatech.edu/~mbaker/pdf/realgame.pdf</p>
+			 ]]></content>
+<pubDate>2008-01-13T11:31:29+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/416</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 关于123456789：一个难以解释的数学巧合 ]]></title>
+<link>http://www.matrix67.com/blog/archives/417</link>
+<content><![CDATA[ 
+		<p>    将123456789翻一倍，你会发现结果仍然是这9个数字的一个排列：</p>
+<p>123456789 x 2 = 246913578</p>
+<p>    我们再次将246913578翻倍，发现：</p>
+<p>246913578 x 2 = 493827156</p>
+<p>    结果依旧使用了每个数字各一次。操，没完了吗？我们继续翻倍：</p>
+<p>493827156 x 2 = 987654312</p>
+<p>    牛B了，一个很有特点的数987654312，显然每个数字又只用了一次。<br>    你或许会想，这下到头了吧，再翻倍就成10位数了。不过，请看：</p>
+<p>987654312 x 2 = 1975308624</p>
+<p>    又使用了每个数字各一次，只不过这一次加上了数字0。再来？</p>
+<p>1975308624 x 2 = 3950617248</p>
+<p>    恐怖了，又是每个数字各出现一次。<br>    出现了这么多巧合之后我们开始怀疑，这并不是什么巧合，一定有什么简单的方法可以解释这种现象的。<br>    但是，下面的事实让这个问题更加复杂了。到了第6次后，虽然仍然是10位数，但偏偏就在这时发生了一次例外：</p>
+<p>3950617248 x 2 = 7901234496 &lt;– 第一次出现例外</p>
+<p>    于是，我们不得不相信，前面这一切很可能只是一个巧合，它背后并没有什么简单的原理。<br>    即使有办法解释这种巧合，解释方法可能也很麻烦。寻找一个漂亮的解释是一个有趣的课题。</p>
+			 ]]></content>
+<pubDate>2008-01-15T14:33:40+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/417</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 物理方法解决数学问题（三）：神奇的Fermat原理 ]]></title>
+<link>http://www.matrix67.com/blog/archives/419</link>
+<content><![CDATA[ 
+		<p>    前两篇文章中，我们提到了两个用杠杆原理解决数学问题的例子。这篇文章将从另一个物理领域出发，探索光学的一个重要原理与几何极值问题的关系。<br>    物理学的美不仅仅表现在简洁的公式上。我们还惊奇地发现，很多物理现象都是按照使某个变量达到极值的方式发生。一个典型的例子就是Fermat原理，它指出了光的传播路径的一个重要规律：光总是沿着所花时间最短的路径传播。这里我们将简单介绍一下Fermat原理，该系列后面的文章里将会用到这一原理。<br>    Fermat原理俗称“最快到达原理”、“最小时间原理”，意思是光线传播的路径总是满足这样一个规律：它总能使光在最短的时间内到达目的地。这个原理完美地统一了直线传播定律、反射定律和Snell定律，解释了为什么光线总是沿直线传播，为什么入射角等于反射角，以及光线在不同介质间传播为什么会发生折射现象。<br>    在Ted Chiang的著名科幻小说The Story of Your Life里有这样一段形象的描述：<br>
+</p>
+<blockquote>    “好，这是一条光线从空气射进水中所走的路线。在碰到水面前，光线沿着直线前进；水有不同的折射率，所以光改变了前进方向。你以前听过这个，对吗？”<br>    我点点头，“当然。”<br>    “现在关于光所走路线有个有趣的性质。这条路线是这两点之间可能的最快的路线。”<br>    “又来了？”<br>    “想象一下，光线沿着这条路线前进。”他在图解中加了条虚线。<br>    “这条假想中的路线比光实际走的路线要短。但是光在水中前进的速度比在空气中小，而这条假想的路线的很大一部分是在水中的，所以光沿着这条假想的路线所花的时间要比沿着实际路线要长。”<br>    “好，我明白了。”<br>    “现在想象一下，假设光沿和另一条路线前进。”他画了第二条虚线。<br>    “这条路线减少了在水中的比例，但总长增加了。光沿着这条假想的路线所花的时间也要比沿着实际路线要长。”<br>    Gary放下粉笔，用蘸着粉笔屑的手指指着黑板上的图解，“任何假想的路线都比实际的要花更多的时间。换一句话说，光线走的路线是最有可能走得走快的一条。这就是Fermat定理的最小时间原理。”</blockquote>
+<p>    你发现Fermat原理有什么奇怪的地方了吗？你是不是感觉Fermat原理很诡异，但自己也说不清楚到底是为什么诡异？仔细想想你会发现，“最快到达”这种原理显然是不符合我们的行为方式的：假如我是光，我的传播规律是“最快到达”，但此时我要传播到哪里还不知道呢。Ted Chiang的小说对此也做出了详细的描述：<br>
+</p>
+<blockquote>    “然而我仍要问你关于Fermat定理的东西。它的一些东西让我感到奇怪，但我不能正确指出那是什么。它只是不像是物理法则。”<br>     Gary的眼睛闪了一下，“我打赌我知道你想谈什么，”他用筷子把锅贴夹成两半，“你习惯于用起因和结果来思考折射：光照到水面上是起因，方向的变化是结果。但Fermat定理听上去很古怪，因为它以目的的形式来描述光的行为。它就像是光线的指挥官，‘你应该将抵达目的的时间最小化或最大化。’”<br>    我想了一下，“继续说。”<br>    “这是物理法则的一个老问题。人们在17世纪Fermat定理第一次成形时就一直在谈论它。Planck写了好几卷。本质是，普通的物理法则的表述是具有因果关系的，而像Fermat定理的可变法则具有目的性，几乎是目的论。”<br>    “嗯，这样解释道挺有趣。让我想一下。”我拿起一支标签笔，在餐巾纸上画了幅图解，就是Gary在我的黑板上画的那幅，“好，”我想我很大声地说道，“那么让我们假设光的目的是要沿着最快的路线前进。这样的话，光如何走呢？”<br>    “好吧，假若按人类行为学来说，光得检验每条可能的路线并计算每条得花多少时间。”他从盘子里戳起最后一块锅贴。<br>    “那样做的话，”我继续道，“光线得知道目的在哪儿。假如目的地在某某其他地方，最快的路线就会不同。”<br>    Gary再次点点头，“完全正确。‘最快的路线’的概念是无意义的，除非有特定的目的地。计算沿着一条假想的路线需多长时间也需要关于在这条路线上有什么东西的信息，比如水面在哪？”<br>    我继续看着纸巾上的图解，“在光开始移动前，它得事先知道所有这一切，对吗？”<br>    “这样说来，”Gary说，“光线不能沿着老路前进，然后再在后来返回。因为引起这样行为的路线不是最快的。在一开始光就已经做好了全部的计算。”<br>    我心中暗想，在光线能够选择它移动的方向前，它已经知道它最终会在那里结束。我知道这让我想起了什么，我抬起头看着Gary，“这让我困扰。”</blockquote>
+<p>   <img alt="image placeholder" >
+<p>    接下来，我们举两个火星例子。两个都是经典的小学奥赛题。<br>   <img alt="image placeholder" >
+			 ]]></content>
+<pubDate>2008-01-17T14:35:14+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/419</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 物理方法解决数学问题（四）：Fermat-Torricelli问题 ]]></title>
+<link>http://www.matrix67.com/blog/archives/422</link>
+<content><![CDATA[ 
+		<p>    据说，17世纪时，大数学家Fermat曾向意大利的物理学家和数学家Torricelli提出过这样一个问题：在已知锐角三角形ABC内求一点P，使得PA+PB+PC最小。Torricelli证明了，这个点是存在的，且∠APB=∠BPC=∠CPA=120°。他还指出，若分别以AB、BC、AC为边向外作等边三角形ABC'、BCA'、ACB'，则AA'、BB'、CC'三线共点，交点即为所求的点P。这个点后来被称为Fermat点，通常记作F。这个定理有很多种证明，这里我们先介绍一种比较简单的证明方法。<br>  <img alt="image placeholder" >
+<p>  <img alt="image placeholder" >
+<p>    上面的这个问题有一个扩展，叫做广义Fermat点问题。考虑平面上n个点A1, A2, …, An，每个点都有一个权值W1, W2, …, Wn，广义Fermat点是这样的一个点P，它使得ΣPAi*Wi达到最小。广义Fermat点更具一般性，有非常高的实用价值。比如，城区里有n个住宅区，第i个住宅区里有Wi个人，问邮局设在哪里可以使所有人到邮局的总路程最短。目前，广义Fermat点问题还没有一般结论，但它可以通过力学模拟法完美解决。我们可以用力学模拟法说明，这个广义Fermat点是唯一存在的。事实上，我们可以建立力学模型找出这个点来。<br>  <img alt="image placeholder" >
+<p>Matrix67原创<br>做人要厚道，转贴请注明出处</p>
+			 ]]></content>
+<pubDate>2008-01-23T13:35:42+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/422</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Benjamin Franklin的另类幻方 ]]></title>
+<link>http://www.matrix67.com/blog/archives/423</link>
+<content><![CDATA[ 
+		<p>    Benjamin Franklin是一个与Leonardo da Vinci同样神秘的人，他是一个伟大的物理学家、发明家、文学家、实业家、政治家、思想家、社会活动家。他一生中留下了许多的迷，电影National Treasure里提到的绝大多数关于Benjamin Franklin的事情都是真的。刚出版的一本名为Benjamin Franklin's Numbers: An Unsung Mathematical Odyssey的书中提到，人们还长期忽视了Benjamin Franklin的一些数学成就。Franklin曾计算过战争的经济开销，曾做过人口数预计，这都是没有先例的。其中，最有趣的数学创造还是要数Franklin的“另类幻方”。<br>    一个3×3的幻方是这样的一个九宫格，格子里写有1到9这9个数字，每一行、每一列和两条对角线上的三个数加起来都是一个相同的数。当然，更大一些的幻方也是存在的，例如你可以用前16个正整数排列成4×4的幻方。Franklin发明了一些另类的幻方，它的要求更加严格，但看上去似乎更有意思一些。Franklin在一封信中写道：“我不满足于这些普通的幻方，这都是很普遍、很简单的东西了。我给我自己强加了一些任务，然后成功地创造出了一些具有其它各种性质的幻方，它们看上去更加神奇。”Franklin创造了下面这个8×8的幻方，每种颜色的数字加起来都等于260，不同寻常的是，你有至少六种方法去解读它。<br>   <img alt="image placeholder" >
+<p>    更牛B的是Franklin的16×16幻方，他称它为“史上最神奇的幻方”。在这个幻方中，每一行、每一列和每一个“/”形区域内的数字和都是2056。更不可思议的是，每一个4×4的子正方形内的数字之和也是2056 ！<br>   <img alt="image placeholder" >
+<p>    Franklin仍不感到满足。Franklin想，既然有“幻方”，为什么没有“幻圆”？于是Franklin构造出了下面这个图形。这个图形里，每一条半径、每一个同心圆和图中画出的每一个偏心圆内的数字加起来都是360。<br>   <img alt="image placeholder" >
+<p>    你可以从下面这个图中看出上图的偏心圆是怎么画出来的。<br>   <img alt="image placeholder" >
+<p>阅读更多：http://blog.sciencenews.org/mathtrek/2008/01/benjamin_franklin_plays_sudoku.html</p>
+			 ]]></content>
+<pubDate>2008-01-25T13:45:34+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/423</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣题：一个与Hamilton回路有关的问题 ]]></title>
+<link>http://www.matrix67.com/blog/archives/424</link>
+<content><![CDATA[ 
+		<p>    今天在回访网站流量来源时看到了一个很牛B的东西，和大家分享一下。<br>    给定一个顶点数为100000的图G，问是否存在Hamilton回路。现在，A宣称自己已经找到了一个Hamilton回路，但B不信，要A证明给他看。你能否想出一个办法使得，A可以让B相信自己有了正确的答案，但B依然不知道答案是什么。这种方法既科学又有趣，整个过程不需要第三者参与，仅仅靠AB两人之间的交流即可。这种方法可以让B有充分的理由相信A找到了Hamilton回路，但能保证B仍然得不到任何与正确答案有关的线索。</p>
+<p>    首先，A生成一个100000的全排列P，然后用这个排列P把原图G的顶点标号打乱（对标号进行置换），这样就得到了一个同构的图G'。然后A把图G'告诉给B。注意，目前判断两个图是否同构还没有有效的P算法，因此除非A把排列P也告诉了B，否则B不知道G'和G是不是真的同构。接下来B从下面这两个问题中随机抽一个问题让A作答：叫A证明G与G'同构（即叫A给出排列P，确保他没有作假），或者叫A指出G'中的一条Hamilton回路。反复进行“构造G'—抽问”的过程，每次A答对后B都会更加确信A确实找到了原图G的Hamilton回路，来个十几二十次后A作假的嫌疑基本上可以被排除了。这是因为，如果A不知道原图G中的Hamilton回路，这两个问题他是不可能同时答对的，既然B是抽查的，A不可能每次总能答对。同时，除非B同时知道了两个问题的答案，否则B永远不知道原图G的Hamilton回路是什么。仅仅知道G'的Hamilton回路是没有用的，因为此时B连G和G'是否同构都不知道，更别提找出它们之间的对应关系了。</p>
+<p>来源：<a target="_blank" href="http://www.zju88.cn/cgi-bin/bbstcon?board=Algorithm&amp;file=M.1200769543">http://www.zju88.cn/cgi-bin/bbstcon?board=Algorithm&amp;file=M.1200769543</a></p>
+			 ]]></content>
+<pubDate>2008-01-25T23:07:29+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/424</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣题：每一列中至少有一个数字0或数字9 ]]></title>
+<link>http://www.matrix67.com/blog/archives/425</link>
+<content><![CDATA[ 
+		<p>    H.W.Richmond在1921年的第10期The Mathematical Gazette里提出了这样一个问题：<br>    任意写下一个数，再在它下面写下它的2倍、3倍、4倍、……、9倍。把这些数按位对齐，每一列里恰好有9个数字（前面几行中的首位为空时该位置视作0）。证明，每一列中至少有一个数字0或者数字9。<br>  <img alt="image placeholder" >
+<p>    设我们最初写下的数为S，则这9个数分别为S, 2S, 3S, …, 9S。假如某一列里任一个数字都不等于0或者9，这也就是说该列的所有9个数字都只能取1到8里的数，于是由鸽笼原理，必定存在两个数aS和bS，该位上的数字是相同的。不妨设a&gt;b，于是，在aS-bS中，该位置上的数字必然只能是0或者9（这取决于它前面是否有借位），而aS-bS=(a-b)S显然也在这9行数里面。</p>
+<p>题目来源：http://www.cut-the-knot.org/Curriculum/Arithmetic/ZerosAndNines.shtml</p>
+			 ]]></content>
+<pubDate>2008-01-26T21:21:27+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/425</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 小游戏推荐：离线解谜游戏Abstractica ]]></title>
+<link>http://www.matrix67.com/blog/archives/426</link>
+<content><![CDATA[ 
+		<div align="center"><img alt="image placeholder" >
+<p>官方网站：http://www.abstractica.mjkgames.com/<br>demo版下载：<a target="_blank" href="http://www.abstractica.mjkgames.com/download.html">http://www.abstractica.mjkgames.com/download.html</a> (只含100多关)</p>
+<p>这个Blog里已经发过很多在线解谜游戏了，但离线的解谜游戏估计大家还是第一次见到。<br>下面是我做到的一个很有趣的题目。猜猜看答案是什么？看看有没有人猜到。</p>
+<p>   <img alt="image placeholder" >
+			 ]]></content>
+<pubDate>2008-01-27T14:36:26+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/426</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 分享：非常强大的mp3手机铃声 ]]></title>
+<link>http://www.matrix67.com/blog/archives/427</link>
+<content><![CDATA[ 
+		<p><a target="_blank" href="http://www.matrix67.com/data/ringtone.mp3">点击这里下载</a><br>推荐大家都下载来听听，非常强大，不强我不发<br>我暂时先不说音频的内容，你一定要亲自听一听，这个“剧透”了就没意思了<br>另外，我用的是自己的空间，麻烦大家转载时不要盗链</p>
+			 ]]></content>
+<pubDate>2008-01-28T00:32:19+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/427</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Atomic Model：一些奇特的物理现象 ]]></title>
+<link>http://www.matrix67.com/blog/archives/428</link>
+<content><![CDATA[ 
+		<p>Ward Fleming把很多的圆珠笔笔珠夹在两片玻璃板间，并用马达让整个装置产生震动。<br>你可以看到两片玻璃板间形成了很多有趣的图案：</p>
+<p>   <embed src="http://union.bokecc.com/flash/player.swf?videoID=27994_1882732&amp;autoStart=false&amp;share=true" width="438" height="387" type="application/x-shockwave-flash"></embed></p>
+<p>视频下载：http://www.mathpuzzle.com/Atomic_Model_1.2.mov<br>查看更多：http://pinscreens.net/gallery5.htm (貌似需要翻墙)</p>
+			 ]]></content>
+<pubDate>2008-01-30T16:01:29+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/428</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 有趣的C语言问题 测试你对C语言的熟悉程度 ]]></title>
+<link>http://www.matrix67.com/blog/archives/429</link>
+<content><![CDATA[ 
+		<p>下面这个程序输出什么？<br><code>enum {false,true};<br>int main()<br>{<br>        int i=1;<br>        do<br>        {<br>                printf("%dn",i);<br>                i++;<br>                if(i &lt; 15)<br>                        continue;<br>        }while(false);<br>        return 0;<br>}</code></p>
+<p>你相信么？下面这个程序输出的两行东西不一样！<br><code>  #include &lt;stdio.h&gt;<br>  #define f(a,b) a##b<br>  #define g(a)   #a<br>  #define h(a) g(a)</code></p>
+<p>  int main()<br>  {<br>          printf("%sn",h(f(1,2)));<br>          printf("%sn",g(f(1,2)));<br>          return 0;<br>  }</p>
+<p>下面的程序看似完全正确。你能看出它为什么通不过编译吗？<br>看出问题前不要去试着编译，不然你会后悔你没看出来这个低级的语法错误。<br><code>#include&lt;stdio.h&gt;</code></p>
+<p>void OS_Solaris_print()<br>{<br>        printf("Solaris - Sun Microsystemsn");<br>}</p>
+<p>void OS_Windows_print()<br>{<br>        printf("Windows - Microsoftn");</p>
+<p>}<br>void OS_HP-UX_print()<br>{<br>        printf("HP-UX - Hewlett Packardn");<br>}</p>
+<p>int main()<br>{<br>        int num;<br>        printf("Enter the number (1-3):n");<br>        scanf("%d",&amp;num);<br>        switch(num)<br>        {<br>                case 1:<br>                        OS_Solaris_print();<br>                        break;<br>                case 2:<br>                        OS_Windows_print();<br>                        break;<br>                case 3:<br>                        OS_HP-UX_print();<br>                        break;<br>                default:<br>                        printf("Hmm! only 1-3 :-)n");<br>                        break;<br>        }</p>
+<p>        return 0;<br>}</p>
+<p>为什么下面这个程序的输出不是NONE？看你多久才能看出来。<br><code>  #include&lt;stdio.h&gt;<br>  int main()<br>  {<br>          int a=10;<br>          switch(a)<br>          {<br>                  case '1':<br>                      printf("ONEn");<br>                      break;<br>                  case '2':<br>                      printf("TWOn");<br>                      break;<br>                  defa1ut:<br>                      printf("NONEn");<br>          }<br>          return 0;<br>  }</code></p>
+<p>下面这个程序输出什么？<br><code>#include &lt;stdio.h&gt;<br>int main()<br>{<br>        int i=43;<br>        printf("%dn",printf("%d",printf("%d",i)));<br>        return 0;<br>}</code></p>
+<p>下面这个程序输出什么？<br><code>  #include&lt;stdio.h&gt;<br>  int main()<br>  {<br>      int a=1;<br>      switch(a)<br>      {   int b=20;<br>          case 1: printf("b is %dn",b);<br>                  break;<br>          default:printf("b is %dn",b);<br>                  break;<br>      }<br>      return 0;<br>  }</code></p>
+<p>下面这个程序输出什么？<br><code>  #include &lt;stdio.h&gt;<br>  int main()<br>  {<br>      int i;<br>      i = 10;<br>      printf("i : %dn",i);<br>      printf("sizeof(i++) is: %dn",sizeof(i++));<br>      printf("i : %dn",i);<br>      return 0;<br>  }</code></p>
+<p>下面这个程序输出什么？<br><code>  #include &lt;stdio.h&gt;<br>  #include &lt;stdlib.h&gt;</code></p>
+<p>  #define SIZEOF(arr) (sizeof(arr)/sizeof(arr[0]))</p>
+<p>  #define PrintInt(expr) printf("%s:%dn",#expr,(expr))<br>  int mai<br>
+n()<br>  {<br>      /* The powers of 10 */<br>      int pot[] = {<br>          0001,<br>          0010,<br>          0100,<br>          1000<br>      };<br>      int i;</p>
+<p>      for(i=0;i&lt;SIZEOF(pot);i++)<br>          PrintInt(pot[i]);<br>      return 0;<br>  }</p>
+<p>下面这个程序输出什么？<br><code>  #include &lt;stdio.h&gt;<br>  int main()<br>  {<br>    int a=3, b = 5;</code></p>
+<p>    printf(&amp;a["Ya!Hello! how is this? %sn"], &amp;b["junk/super"]);<br>    printf(&amp;a["WHAT%c%c%c  %c%c  %c !n"], 1["this"],<br>       2["beauty"],0["tool"],0["is"],3["sensitive"],4["CCCCCC"]);<br>    return 0;<br>  }</p>
+<p>下面这个程序输出什么？<br><code>#include &lt;stdio.h&gt;<br>int main()<br>{<br>        int i=23;<br>        printf("%d %dn",i++,i++);<br>        return 0;<br>}</code></p>
+<p>为什么下面这个程序的输出不是10？我故意取消了语法高亮:)<br><code>  #include &lt;stdio.h&gt;<br>  #define PrintInt(expr) printf("%s : %dn",#expr,(expr))<br>  int main()<br>  {<br>      int y = 100;<br>      int *p;<br>      p = malloc(sizeof(int));<br>      *p = 10;<br>      y = y/*p; /*dividing y by *p */;<br>      PrintInt(y);<br>      return 0;<br>  }</code></p>
+<p>下面这个程序输出什么？<br><code>  #include &lt;stdio.h&gt;<br>  int main()<br>  {<br>      int i = 6;<br>      if( ((++i &lt; 7) &amp;&amp; ( i++/6)) || (++i &lt;= 9))<br>          ;<br>      printf("%dn",i);<br>      return 0;<br>  }</code></p>
+<p>下面这段代码是否合法？<br><code>  #include &lt;stdio.h&gt;<br>  #define PrintInt(expr) printf("%s : %dn",#expr,(expr))<br>  int max(int x, int y)<br>  {<br>      (x &gt; y) ? return x : return y;<br>  }</code></p>
+<p>  int main()<br>  {<br>      int a = 10, b = 20;<br>      PrintInt(a);<br>      PrintInt(b);<br>      PrintInt(max(a,b));<br>  }</p>
+<p>这是什么意思？有什么潜在的问题？<br><code>  #define SWAP(a,b) ((a) ^= (b) ^= (a) ^= (b))</code></p>
+<p>这是什么意思？<br><code>  #define ROUNDUP(x,n) ((x+n-1)&amp;(~(n-1)))</code></p>
+<p>一些C语言的教材上会给出一个很经典的宏定义<br><code>  #define isupper(c) (((c) &gt;= 'A') &amp;&amp; ((c) &lt;= 'Z'))</code><br>但这种宏定义的方法存在不足之处，一旦遇到下面这种情况就出问题了：<br><code>  char c;<br>  /* ... */<br>  if(isupper(c++))<br>  {<br>      /* ... */<br>  }</code><br>为了避免这种问题，应该怎样来定义isupper？</p>
+<p>怎样用printf函数打印"I can print %"？别忘了百分号是用于格式化输出的。<br>不用任何比较运算符，写一个程序找出三个数中的最小数。<br>不用+号，（用位运算）实现加法运算。</p>
+<p>最有趣的一个问题：不用分号，写一个Hello World程序。<br>这是有可能的，而且办法非常简单，只用到了最基本的语法规则。<br>实在想不出来再看答案吧（白色的）：<br><span style="color:#E5E5E5">#include &lt;stdio.h&gt;<br>int main()<br>{<br>    if (printf("Hello World")){}<br>}</span></p>
+<p>查看更多：http://www.gowrikumar.com/c/</p>
+			 ]]></content>
+<pubDate>2008-02-03T21:35:53+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/429</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 来自08年独立游戏节的创意游戏 ]]></title>
+<link>http://www.matrix67.com/blog/archives/430</link>
+<content><![CDATA[ 
+		<p><a target="_blank" href="http://www.igf.com/02finalists.html">第十届独立游戏节</a>上涌现出一些非常精彩的小游戏。发一下个人觉得最值得期待的两个游戏的预告片。</p>
+<p>Fez：2D人物在3D世界中的冒险游戏<br><embed src="http://union.bokecc.com/flash/player.swf?videoID=27994_1955163&amp;autoStart=false&amp;share=true" width="438" height="387" type="application/x-shockwave-flash"></embed></p>
+<p>World of Goo：物理解谜游戏，搭建出合适的结构完成指定任务，经典架桥游戏的加强版。<br><embed src="http://union.bokecc.com/flash/player.swf?videoID=27994_1955189&amp;autoStart=false&amp;share=true" width="438" height="387" type="application/x-shockwave-flash"></embed></p>
+<p>上面两段视频的YouTube链接：<br>http://www.youtube.com/watch?v=6FHdXl3V6kU<br>http://www.youtube.com/watch?v=FrVVIVyLx-Y</p>
+<p>独立游戏节的决赛名单上还有其它一些有趣的游戏，我比较感兴趣的有：<br><a target="_blank" href="http://www.audio-surf.com/">Audiosurf</a>：华丽的音乐+赛车游戏。你可以用任何一个你喜欢的歌曲作为关卡。<br><a target="_blank" href="http://www.globulos.com/">Globulos.com</a>：在线的双人对战策略游戏，很有意思，推荐一下。<br><a target="_blank" href="http://www.kloonigames.com/crayon/">Crayon Physics Deluxe</a>：风格独特的Incredible Machine类游戏。<br><a target="_blank" href="http://www.ookibloks.com/">OokiBloks</a>：很可爱的动作解谜游戏，主角是一只猴子。<br><a target="_blank" href="http://triachnid.com/">Tri-Achnid</a>：在线Flash游戏，控制一个三脚攀岩怪物完成指定的任务。貌似有点难。<br><a target="_blank" href="https://typo3.digipen.edu/index.php?id=988">Synaesthete</a>：音乐+动作游戏。看了半天也不知道是怎么回事，看来得亲自下下来玩玩才清楚。<br><a target="_blank" href="http://www.ithandil.net/galaxy/">Galaxy Scraper</a>：3D动作游戏，游戏场景设定在一个小得一分钟就可以环绕一周的外星球上，视觉效果类似于Super Mario Galaxy。<br><a target="_blank" href="http://www.etc.cmu.edu/projects/igf/">Polarity</a>：2D动作冒险游戏。游戏人物可以改变自身的磁性，可以结合带有磁性的物体完成指定的动作。例如，你站在一个异性磁极的地板上，突然改变自身磁极后自己会弹出去。<br><a target="_blank" href="http://www.winterbottomgame.com/">The Misadventures of P.B. Winterbottom</a>：2D动作冒险游戏。游戏场景设定在早期的无声电影胶片中，因此你具有穿越时空的能力。你可以录下你当前的行动，并用于另一个时空里。你可以和过去的自己赛跑，或者牺牲现在的自己为未来做好准备，或者与不同时空的自己协同起来完成指定的动作。有点像小游戏<a target="_blank" href="http://www.matrix67.com/blog/article.asp?id=457">Cursor*10</a>的加强版。</p>
+<p>这些游戏有的已经提供了完整版下载，有的仍处于开发阶段。<br>感兴趣的话大家可以自己进入官网查看详情。</p>
+			 ]]></content>
+<pubDate>2008-02-04T21:00:58+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/430</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 08年MIT解谜比赛结束 比赛题目已经发布 ]]></title>
+<link>http://www.matrix67.com/blog/archives/431</link>
+<content><![CDATA[ 
+		<p>    MIT每年一月份都会举行一次谜题比赛(MIT Mystery Hunt)，由上一年的获胜队伍来组织，比赛通常持续两天两夜。每年MIT的解谜比赛都会吸引数千人的到来，他们组成大大小小的队伍，共同参与到解谜游戏中来。游戏要求每支参赛队伍解决近百个谜题，而这些题目的答案又组成了新的谜题(Metapuzzle)；所有这些谜题的答案最终会领引参赛队伍寻找到隐藏在校园中的一块硬币。这些题目不是一般的BT，很多题目连个说明都没有，你要是能独立搞出一两个来你就无敌了。<br>    今年的谜题已经放在了MIT的网上，大家可以到这里去看看：http://www.mit.edu/~puzzle/08/<br>    绝大多数题目内容都不知所云，你很可能根本看不出这道题需要你干啥；但事实上，每一道谜题都有唯一的答案。你可以点击右上角的Check Answer看到答案。</p>
+			 ]]></content>
+<pubDate>2008-02-05T16:30:43+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/431</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 非传递性骰子：A比B好，B比C好，A不一定比C好 ]]></title>
+<link>http://www.matrix67.com/blog/archives/432</link>
+<content><![CDATA[ 
+		<p><img alt="image placeholder" >
+<p>    如果你不信的话，我们可以一起来算一算：<br>    A和B比时，只要A扔出4的话A就赢了，这有2/3的概率；<br>    B和C比时，只要C扔出2的话B就赢了，这有2/3的概率；<br>    C和D比时，若C扔出6则C一定能赢，若C扔出2则胜负几率对等，因此C获胜的概率是(1/3) + (2/3)*(1/2) = 2/3；<br>    D和A比时，若A扔出0则D一定能赢，若A扔出4则胜负几率对等，因此D获胜的概率是(1/3) + (2/3)*(1/2) = 2/3。</p>
+			 ]]></content>
+<pubDate>2008-02-05T23:30:17+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/432</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Menger海绵体的斜截面是什么样子的 ]]></title>
+<link>http://www.matrix67.com/blog/archives/433</link>
+<content><![CDATA[ 
+		<p>  <img alt="image placeholder" >
+<p>  <img alt="image placeholder" >
+<p>图片来源：http://flickr.com/photos/sbprzd/1432723128/</p>
+			 ]]></content>
+<pubDate>2008-02-06T00:10:46+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/433</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ David Copperfield的电视互动魔术 ]]></title>
+<link>http://www.matrix67.com/blog/archives/435</link>
+<content><![CDATA[ 
+		<p>    昨天（今天）零点时，春晚惊现多年以来我所看到的最傻B的节目，它具备了一个傻B节目所必需的所有元素：火星、做作、李咏。李咏说“蓄谋已久”这个词时差点说错，并且揭密环节的台词也很囧（什么“有600张我也全换了”之类的）。很不要脸的是，屏幕上居然打了一句魔术设计某某某，而我记得这个魔术（好象）是David Copperfield的。我小学二年级时就知道了这个经典魔术，并且变给了当时班上的一个漂亮MM看，可见这个魔术有多么火星；估计大家和我一样，很早以前也都见过这魔术，这玩意儿在网上遍地都是，其火星程度与小胖有一比。其实，David Copperfield还有很多电视互动魔术，傻B的CCTV偏偏选择了最火星的一个，实在是失败啊。<br>    下面与大家分享David Copperfield的另一个电视互动魔术，虽然原理没有那么精妙，<s>但至少不那么火星，还是比较有娱乐价值的。</s> 有网友说这个曾经上过春晚的？我咋没见过……糟了，我自己火星了</p>
+<p>    <embed src="http://union.bokecc.com/flash/player.swf?videoID=27994_1980106&amp;autoStart=false&amp;share=true" width="438" height="387" type="application/x-shockwave-flash"></embed></p>
+<p>老规矩，放个YouTube链接：http://www.youtube.com/watch?v=tDq9WaZrn70</p>
+<p>另一些互动魔术：<br>http://www.youtube.com/watch?v=GQ0IHRETnLE (类似的手法，加强为四个方向上的移动)<br>http://www.youtube.com/watch?v=Zq63Me7UqKg (Criss Angel的节目广告，关于瞬时记忆)</p>
+			 ]]></content>
+<pubDate>2008-02-07T12:52:38+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/435</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 十分钟创意小游戏 ]]></title>
+<link>http://www.matrix67.com/blog/archives/436</link>
+<content><![CDATA[ 
+		<p>最近找到几个小游戏，在这里推荐一下。它们都是Puzzle类小游戏，关卡都不多，不会耽误你太多时间，却又让你感觉意犹未尽。<br><a target="_blank" href="http://armorgames.com/play/751/shift">Shift</a>：按一下Shift键，整个世界黑白颠倒……<br><a target="_blank" href="http://www.kokoromi.org/gamma256games/mr_heart_loves_you_very_much.zip">Mr. Heart Loves You Very Much</a>：绝对有创意。zip下载解压运行，文件不大。<br><a target="_blank" href="http://mathsnet.net/geometry/solid/houses.html">Building Houses 2</a>：用指定数量的方块搭建出符合三种视图的3D图形。并不简单。<br><a target="_blank" href="http://www.skt-products.com/contents/bomb_sw_side2.html">3D版扫雷</a>：按空格键开始标雷，再按一下空格键后鼠标回到排雷状态。</p>
+<p>然后推荐几个Quiz类游戏：<br><a target="_blank" href="http://proveyourlogic.com/">Prove Your Logic</a>：新建成的一个网站。比较弱的智力趣题，个别题目有点意思。<br><a target="_blank" href="http://splapp-me-do.deviantart.com/art/The-Impossible-Quiz-Lite-50433260">The Impossible Quiz</a>：我最喜欢的Quiz游戏。<strong>非常强大，强烈推荐！</strong><br><a target="_blank" href="http://splapp-me-do.deviantart.com/art/The-Impossible-Quiz-2-63631070">The Impossible Quiz 2</a>：偶然发现上面这玩意儿出了续集。依然很强大。</p>
+			 ]]></content>
+<pubDate>2008-02-07T22:53:47+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/436</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 漫画：Möbius环上的战斗 ]]></title>
+<link>http://www.matrix67.com/blog/archives/437</link>
+<content><![CDATA[ 
+		<p>   <img alt="image placeholder" >
+<p>图片来源：http://xkcd.com/381/<br>知道最妙的是什么吗？是那句HAHAHAH。因为字母H和A恰好都是左右对称的，而且后面多加了一个H使得这句话也变成了回文串。此外，那句!#^*!*也不是随便乱写的。</p>
+			 ]]></content>
+<pubDate>2008-02-08T22:45:32+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/437</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Bayesian评分系统：解决样本数量过少引起的问题 ]]></title>
+<link>http://www.matrix67.com/blog/archives/439</link>
+<content><![CDATA[ 
+		<p>    本来还打算给这个Blog写一个日志评分系统的，现在看来估计没时间了。之前曾经找过一些关于日志评分系统的资料，偶然在我很喜欢的web 2.0站点<a target="_blank" href="http://thebroth.com">TheBroth</a>里找到了一篇<a target="_blank" href="http://www.thebroth.com/blog/118/bayesian-rating">介绍Bayesian评分系统的旧文</a>，觉得非常科学，大致翻译一下。<br>    很多网站都有用户评分功能。比如，你可以给某篇文章打分，1分表示这篇文章太烂了，10分表示你爱死这篇文章了。有些网站用加号和减号来代替评分功能。点击“+”表示你喜欢这篇文章，点击“-”表示你不喜欢这篇文章。网站很可能会在首页醒目处加一行黑体二号加粗高亮发光的字，“评价最高的10篇文章”；然后在下面放上平均得分最高的几篇文章的链接，用来吸引点击率。这时，问题就出来了：评分最高的文章不一定真的是评价最高的文章。比如说，某篇文章特别无聊，没一个人评分，然后有个人不小心点错了链接进去了，又一个不小心点到了评分栏上的最后一颗五角星，于是此网站惊现平均得分高达满分的文章；再比如说，某人刚发了一篇文章，然后趁别人还没评分前自己先给自己评几个10分，于是又一篇满分文章横空出世。事实上，可以想到绝大多数新文章刚发表时平均得分不是极高就是极低，这是这种简单的评分机制的一个很突出的问题。应该怎样解决这个问题呢？我们可以分析一下问题的根源，集中思考解决这个问题根源的办法，然后用新的公式来定义一篇文章的最终得分。<br>    问题的根源是什么？问题的根源就是，样本少了会导致结果不可靠。某篇文章的评分人数越少，其平均得分越不可靠，我们应该想办法让得分越靠近所有文章的总平均得分。事实上，评分人数少正说明这篇文章既不受欢迎也没啥争议，它的得分应该接近所有文章的总平均分才对。要是有一种东西能够实现“票少了不算”、“得的票越多对最终得分的影响越大”之类的想法就好了。于是，我们想到了加权平均数。<br>    我们希望得票越少的文章，其得分越接近所有文章的总平均分；得票越多的文章，其得分越接近它本来的平均分。于是我们为所有文章的总平均分和这篇文章的平均分各设一个权值。这篇文章的平均分的权值就是该文的评分人数，这没话说。关键是所有文章总平均分的权值。这可以根据你的喜好来设：权值越小说明你对评分要求越不严格，影响文章得分所需要的票数越少；权值越大说明你越在意样本过少所带来的负面影响，同时说明参与评分的人数一定会很多。因此，这个权值应该由你的网站的总评分人数的多少来决定，用每篇文章的平均评分人数来当权值是一个不错的选择。因此，我们可以用以下公式来算出每篇文章的最终得分：</p>
+<p><span style="font-family:宋体">                 所有文章的总平均分*每篇文章的平均评分人数 + 这篇文章的平均分*这篇文章的评分人数<br>文章最终得分 =  ———————————————————————————<br>                                  每篇文章的平均评分人数 + 这篇文章的评分人数</span></p>
+<p>    这里，总平均分的权值用的是每篇文章的平均评分人数。你也可以自己设定一个合适的权值。<br>    这种评分方法叫做Bayesian评分。很多web 2.0站点都在用这种评分系统。<br><span style="color:#E5E5E5">顺便记录一下今天的心情。今天我很开心，非常开心:) 原因嘛……秘密</span></p>
+			 ]]></content>
+<pubDate>2008-02-10T23:41:34+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/439</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣题：用奇数个相同的多联骨牌组成轴对称图形 ]]></title>
+<link>http://www.matrix67.com/blog/archives/440</link>
+<content><![CDATA[ 
+		<p><img alt="image placeholder" >
+<p>    其实，用奇数个相同的多联骨牌拼出左右轴对称的图形是完全有可能的，并且这样的情况非常之多。下面随便举几个例子。你刚才都想到了哪些？<br>  <img alt="image placeholder" >
+<p>    对于这个问题，8种非对称的五联骨牌都是有解的。下面就是这8个图形的解：<br>  <img alt="image placeholder" >
+<p>    下面我们证明，你永远不可能用奇数个h形六联骨牌排成一个左右轴对称的图形。<br>  <img alt="image placeholder" >
+<p>更多的结论可以在这里看到：http://www.monmouth.com/%7Ecolonel/oddities/index.html</p>
+			 ]]></content>
+<pubDate>2008-02-11T21:57:32+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/440</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 平面几何趣题：三角形中的四点共圆 ]]></title>
+<link>http://www.matrix67.com/blog/archives/442</link>
+<content><![CDATA[ 
+		<p>        <img alt="image placeholder" >
+<p>        <img alt="image placeholder" >
+<p>题目来源：http://www.cut-the-knot.org/Curriculum/Geometry/BalticDarij1.shtml<br>平面几何真好玩啊……怀念一下初中的美好时光。</p>
+			 ]]></content>
+<pubDate>2008-02-13T02:00:52+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/442</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 100囚犯问题、100囚犯问题加强版与选择公理（上） ]]></title>
+<link>http://www.matrix67.com/blog/archives/443</link>
+<content><![CDATA[ 
+		<p>    今后决定把较长的文章分段发布，不然大家读着太累。况且篇幅短一些的话，RSS输出也好看些:)</p>
+<p>    在讲问题的加强版之前，让我们先来回忆一下经典的100囚犯问题（不是灯泡）。<br>    100个囚犯从前往后坐成一列。坐在最后面的那个囚犯能够看到其余99个囚犯，坐在最前面的那个囚犯啥也看不见。看守给每个囚犯戴上一顶黑色的或者白色的帽子。然后，看守会从后往前依次叫这些囚犯猜测自己头顶上的帽子的颜色。如果哪个囚犯猜对了，他就自由了。坐在前面的每一个囚犯都可以听到后面的囚犯的猜测。如果这100个囚犯事先可以商量好一种策略，那么最理想的策略是什么？<br>    囚犯们可以乱猜一通，最坏情况下所有人都猜错，平均下来则会有50个人猜对。这个题有趣的地方就在于，100个囚犯事先可以商量一种策略，也就是说坐在后面的囚犯可以用他的猜测给坐在前面的囚犯透露一些信息。很显然，坐在最后面的囚犯是不可能保证自己猜对的，他猜黑猜白都只有一半的几率猜对，似乎没什么区别；但囚犯可以事先约定好一种暗号，即最后一个囚犯猜黑表示什么意思，猜白表示什么意思。比如，最后一个囚犯可以猜测和他前面的囚犯的帽子一样的颜色，这就相当于用他的猜测告诉了他前面那个囚犯该猜什么，于是坐倒数第二的囚犯可以保证被释放；此时，坐在倒数第三个位置上的囚犯面对与刚才坐最后的囚犯相同的处境，他同样可以用他的猜测提示出他前面那个人的帽子颜色。这样下去，可以保证至少50个人猜对，平均情况则有75个人猜对。这不是最佳的策略。<br>    不可思议的是，最佳策略可以保证，除了坐在最后面的囚犯以外，其余99个囚犯都能猜对。你能想出这样的策略是什么吗？继续看下去前不妨先想一下。</p>
+<p>    前面那种策略的问题在于，坐在最后面的那个人透露出的信息不多。他完全可以透露出与全局相关的一些信息，因此以后所有的人都可以用这条信息。比如，他可以数一数他前面99个人一共有多少顶白帽子，并约定他猜“黑”表示他前面共有偶数顶白帽，他猜“白”表示他前面共有奇数顶白帽。坐倒数第二的那个人也数一数他前面98个人的白帽子个数：如果他数出来的个数与先前透露出的个数一奇一偶，则他自己肯定戴的是白帽子；如果他数出来的和先前透露的结果奇偶性相同，则他自己戴的肯定是黑帽子。这样，坐倒数第二的保证可以猜对了。那接下来咋办呢？不要忘了，其他囚犯能听到刚才那人猜的是什么，并且知道他的猜测保证是对的。这相当于每个人不仅能看到坐他前面的所有人的帽子颜色，还知道他背后那些人的帽子颜色，结合最初的那个奇偶性信息，接下来的每一个人都可以猜出自己脑袋上的帽子颜色。这样下去，至少99个囚犯可以保证被释放。这种策略显然是最佳的，不可能再有什么策略能保证所有人都被释放，因为至少坐最后的那个人不可能保证自己猜对。</p>
+<p>    真正有趣的东西来了。下面提出这个问题的加强版，囚犯的数目加强到无穷个！你将看到“无穷”这个神秘的东西再一次开始作怪。</p>
+<p>最后报怨一句：刚才不小心看到莲蓬乳了</p>
+			 ]]></content>
+<pubDate>2008-02-13T22:18:35+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/443</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 100囚犯问题、100囚犯问题加强版与选择公理（下） ]]></title>
+<link>http://www.matrix67.com/blog/archives/444</link>
+<content><![CDATA[ 
+		<p>    无穷个囚犯面向数轴的正方向依次就座，第i个囚犯坐在数轴上坐标为i的地方，他可以看见所有坐标大于i的囚犯头顶上的帽子。看守给每个囚犯戴上黑色或白色的帽子，然后依次叫每个囚犯猜测自己头上的帽子颜色，猜对了的予以释放。另外一点和原来不同的是，囚犯们不能听到其他人的猜测。另外注意到，由于每个人前面都有无穷多个人，因此囚犯们无法通过数他前面的人数来判断出自己的位置，于是我们不得不加上一句：每个人都知道他后面有多少人（即他是第几个被问的）。同样地，事先所有囚犯可以商量出一个策略。你认为这下囚犯们还有什么好办法没？<br>    这下囚犯已经不能通过自己的猜测来通风报信了，似乎每个人都只能瞎猜，任何人都无法保证自己能猜对。你相信吗，居然有这样的策略，它可以保证除了有限个囚犯之外，其他囚犯全部释放！<br>    考虑所有可能的颜色序列（你可以简单地想像成01串）。我们说两个颜色序列“无穷远相等”，如果经过了有限多项之后，余下的无穷多项完全相同（即存在某个数x，使得两个串在各自的第x位后面完全重合）。这种关系显然满足自反性、对称性和传递性，是一种等价关系。因此，按照这种有限位后对应相等的关系，我们可以把所有可能的颜色序列划分为一个个等价类。它们的交集为空（两个等价类如果有交集，由传递性它们立即并成了一个更大的等价类），并集为全集（若某序列不属于任何等价类，则它自己就是一个新的等价类），是全集的一个划分。你能想象出一个等价类大致是什么样子的吗？假如把同一个等价类里的所有序列对齐并排放在一起，你从前往后走过去的时候会发现这些序列“越来越相像”。你走得越远，你会发现越来越多的序列开始变得互相重合；当你走到无穷远时，所有的序列都变成一个样了。<br>    囚犯们事先在每一个等价类中选一个代表元，然后把所有等价类的代表元背下来。到时候，每个人都能够看到他前面无穷多个人的帽子颜色，并且知道他自己在整个序列的位置，于是能立即判断出他们现在所处的颜色序列在哪个等价类里。接下来，他们只需要按照事先背好的代表元来猜就行了。由“无穷远相等”的定义，经过有限次猜测后最终这个代表元会和他们所处的序列重合，于是除了前面有限多个人以外，以后无穷多个人都可以保证猜对。</p>
+<p>    你是否觉得这种“策略”很不合理，虽然从逻辑上看每一步推理都是无懈可击的？有人认为，这是选择公理带来的悖论。选择公理是说，给你一系列的集合（可能有无穷多个），那么我们总可以在每一个集合里取出一个元素来。这并不是显然正确的。你不可以依次考虑每个集合，从里面随便取出一个元素来，因为集合个数有可能无穷多个（甚至不可数），这样的操作将永无止境，不允许出现在数学推理过程中。我们需要定义一套系统，使得它对于给定的每一个集合都适用，这样我们就可以“一下子”处理完所有的集合。换句话说，对于一组数量任意多的集合，我们需要定义一个函数f，使得对其中任一集合S，f(S)为S里的一个元素。我们称函数f为选择函数。例如，给出自然数集的所有子集，选择函数f可以定义为“集合中的最小元素”；给出实数集的所有有限长的区间，则选择函数f可以定义为“区间的中点”。但对于某些情况，目前还没有办法用之前已有的公理系统定义出合适的选择函数。比如，目前仍然不清楚，对于实数集的所有非空子集是否存在一个选择函数。但选择函数的存在是很多数学推理的前提假设。因此，我们有必要承认选择公理，构成新的公理体系（即ZFC公理体系）。于是在今后的数学推理中，我们可以假设存在这样一个超级选择函数f，它就是专门用来干这破事的。承认选择公理有可能推出一些与生活经验背道而驰的结论，最著名的就是Banach-Tarski悖论：你可以把一个三维球体分成有限多块，然后拼接组合成两个和原来一样大的球体。上面所提到的100囚犯问题加强版则是选择公理带来的另一个悖论。</p>
+<p>参考资料：http://cornellmath.wordpress.com/2007/09/13/the-axiom-of-choice-is-wrong （墙就是强）</p>
+			 ]]></content>
+<pubDate>2008-02-14T00:09:49+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/444</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 祝所有网友情人节快乐！ ]]></title>
+<link>http://www.matrix67.com/blog/archives/445</link>
+<content><![CDATA[ 
+		<p>   <img alt="image placeholder" >
+<p>图片来源：http://brownsharpie.courtneygibbons.org/?p=183<br>祝各位网友情人节快乐！有MM的干MM，没MM的找MM，本身就是MM的请在下面留下联系方式:)  <span style="color:red">(Seriously!)</span><br>另外，咒那个偷我iPod的人当一辈子处男。</p>
+<p>今天，我计划干一件很伟大的事情……我要给所有潜在的GF发一条手机短信——<br>“我给所有我认识的MM都发一条‘我爱你’，我就不信没人回我……”<br><s>详细情况今天晚上更新</s> 短信倒是都回了，但都没有正面回答，很快转移了话题。太没意思了……</p>
+			 ]]></content>
+<pubDate>2008-02-14T00:15:23+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/445</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 经典错觉版画之Portal版 ]]></title>
+<link>http://www.matrix67.com/blog/archives/446</link>
+<content><![CDATA[ 
+		<p><img alt="image placeholder" >
+<p>来源：http://digg.com/pc_games/Portal_MC_Escher_Style<br>Portal是我所玩过的最棒的游戏！！</p>
+<p>Update: 图片的原型是错觉大师M.C. Escher的版画。你在网上看到的错觉图片有一半都是他的（比如那个不可能瀑布建筑、走不完的楼梯、两只互相绘制的手、Möbius带上的蚂蚁）。这幅名为<a target="_blank" href="http://www.mcescher.com/Gallery/back-bmp/LW389.jpg">Relativity</a>的版画是M.C. Escher的代表作之一。</p>
+			 ]]></content>
+<pubDate>2008-02-15T00:09:56+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/446</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 空间想象：立方体迭代后所形成的三维分形图形 ]]></title>
+<link>http://www.matrix67.com/blog/archives/447</link>
+<content><![CDATA[ 
+		<p>    今年一月份，California的一个数学艺术展览会上出现了这样一种神奇的三维图形。放出图片之前，你能根据下面的文字描述想象出这个图形的样子吗？<br>    给定一个单位大小的立方体，在其中5个面的中心放置一个边长为1/2的小立方体；这5个小立方体中的每一个都有5个面露在外面，在这25个面中的每一个面中心再向外拼接一个边长为1/4的小立方体；然后每个1/4小立方体的5个暴露在外的面上再放置1/8大小的立方体……不断迭代下去后，最终会形成一个什么样的三维图形？</p>
+<p>      <img alt="image placeholder" >
+<p>    上图就是按照要求迭代11次的样子，里面那个斜着放的红色立方体是最初的那个单位立方体，外面拼接了5个橙色立方体，每个橙色立方体外面又拼接了5个黄绿黄绿的小立方体……最终的形状大致是一个四棱锥，上面有很多三角形的洞，这些被挖去的部分恰好组成了最经典的分形图形——<a target="_blank" href="http://www.matrix67.com/blog/article.asp?id=329">Sierpinski三角形</a>。这是由艺术家Robert Fathauer发现的，在展览上的名字叫做Fractal Crystal No.1。</p>
+<p>查看更多：http://www.bridgesmathart.org/art-exhibits/jmm08/</p>
+			 ]]></content>
+<pubDate>2008-02-15T22:50:16+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/447</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣题：构造函数使得平面上任意小的圆内均包含函数上的点 ]]></title>
+<link>http://www.matrix67.com/blog/archives/448</link>
+<content><![CDATA[ 
+		<p>    你认为是否有可能存在这样一个函数f：在平面上随便画一个圆，圆里面总能够找到函数图像上的一个点？继续看下去前，不妨先仔细思考一下。</p>
+<p>    为了说明任一圆内都包含函数上的点，我们只需要说明对于平面上任意给定点(x,y)，对于任意小的d都能在函数上找到一点，使得其横坐标落在x±d的范围内且纵坐标落在y±d内。这样的话，任意给出一个圆后，我都能保证圆的内接正方形里有点。<br>    我们构造这个函数f的基本思路是，构造一个将全体有理数映射到全体有理数的函数。注意到有理数是可数的，我们可以用<a target="_blank" href="http://www.matrix67.com/blog/article.asp?id=465">这里</a>的方法将全体有理数和自然数建立一一对应关系。也就是说，我们有了一个定义域为全体自然数、值域为全体有理数的一对一函数R(x)，它所对应的函数值是第x个有理数。下面我们开始着手定义我们要求的函数f(x)。函数f(x)的定义域是全体有理数，定义域里的每个x都可以表示成n/m的形式（化到最简），于是我们可以令f(x)=f(n/m)=R(m)。对于任意的y和d，在y±d里肯定存在一个有理数，假如按照上面的对应来看它是第m个有理数（即R(m)），下面我们就想办法说明我们总能够找到一个n，使得n/m在x±d的范围内。当然，如果运气不好m值很小的话我们就挂了，我们很自然地想到，这个m值应该越大越好，最好能重新定义一个值域为全体有理数的函数，对任一给定的有理数我们都能找出任意大的m对应到它。然后我们想到定义一个多对一的、定义域和值域都是自然数的函数H(x)：<br><span style="font-family:宋体">x    1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 …<br>H(x) 1  1  2  1  2  3  1  2  3  4  1  2  3  4  5 …</span></p>
+<p>    重新定义f(x)=f(n/m)=R(H(m))，这样的话任意给定一个有理数，我们可以找到任意大的m使得R(H(m))等于这个有理数。当m足够大时，m(x-d)和m(x+d)之间一定会出现一个整数n，则此时n/m在x±d的范围内。<br>    但我们又遇到一个问题：要是找到的那个n始终不能和m互质（表明没化到最简）咋办？我的直觉是，这种极端的情况应该是不存在的，当m充分大时，总有一个满足要求的n/m出现。但我没有严格证明它。其实，我根本不需要去证明它；这个题目有趣就有趣在，我这个函数f是可以随便构造的。你或许在想，要是分母m为质数就好了。那好，我就可以强迫分母m为质数。定义一个定义域为全体质数，值域为全体正整数的函数P(x)，它表示x是第几个质数：<br><span style="font-family:宋体">x    1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 …<br>P(x) –  1  2  –  3  –  4  –  –  –  5  –  6  –  – …</span></p>
+<p>    重新定义f(x)=f(n/m)=R(H(P(m)))，现在我们能够找到任意大的质数m使得R(H(P(m)))等于指定的有理数。当m足够大时，m(x-d)和m(x+d)之间一定会出现两个相邻的整数p和q，由于m是质数，p和q之间总有一个数与m互质（不可能都是m的整倍数），我们需要的n也就找到了。</p>
+<p>满足要求的函数有很多。这只是其中一种构造方法。大家能不能再想一些更有趣的构造来？<br>来源：http://www.douban.com/group/topic/2561708/<br>参考网友yushih的解答</p>
+<p>最近重新整理了日志Tag。如果你喜欢这篇文章，不要错过这里的<a target="_blank" href="http://www.matrix67.com/blog/default.asp?tag=%E6%83%8A%E5%A5%87%E6%95%B0%E5%AD%A6%E4%BA%8B%E5%AE%9E">惊奇数学事实</a>，你会看到更多难以置信的数学结论。</p>
+			 ]]></content>
+<pubDate>2008-02-17T22:04:03+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/448</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣味小程序Jenn3D：带你进入神奇的超球面空间 ]]></title>
+<link>http://www.matrix67.com/blog/archives/449</link>
+<content><![CDATA[ 
+		<p>  <img alt="image placeholder" >
+<p>官方网站：http://www.math.cmu.edu/~fho/jenn/<br>Windows版下载：<a target="_blank" href="http://www.math.cmu.edu/~fho/jenn/jenn3d_win_2008_01_15.zip">http://www.math.cmu.edu/~fho/jenn/jenn3d_win_2008_01_15.zip</a></p>
+<p>   想知道各种几何模型在超球面（四维球的球面）上的样子吗？这个程序可以把各种几何体映射到超球面上，然后用三维的方式展示出来。你会发现几何体的棱和面都是弯的，这是因为这些几何体是在四维球面中的。就像三维球表面上的赤道和两根经线组成的“三角形”一样，每条边都是弯的。</p>
+<p>    当然，最神奇的还是在这样的空间里下围棋！<br>    Windows版超球面围棋程序下载：<a target="_blank" href="http://www.math.cmu.edu/~fho/jenn/jenngo_win.zip">http://www.math.cmu.edu/~fho/jenn/jenngo_win.zip</a><br>    双击左键下黑子，双击右键下白子；左键拖动旋转，右键拖动遍历第四维。<br>    你会发现，这个空间在边界处与自身相交。</p>
+			 ]]></content>
+<pubDate>2008-02-19T22:41:37+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/449</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣题：七圆定理 一个非常漂亮的结论 ]]></title>
+<link>http://www.matrix67.com/blog/archives/450</link>
+<content><![CDATA[ 
+		<p>   <img alt="image placeholder" >
+<p>       <img alt="image placeholder" >
+<p>  AB/DE = PA/PE<br>  CD/FA = PC/PA<br>  EF/BC = PF/PB<br>  PC/PE = PB/PF</p>
+<p>    等式左边右边分别乘起来，结论也就证到了。<br>    引理的充分性也是类似的。假设AB·CD·EF=BC·DE·FA但三线不共点，令某两条线段（比如BE和CF）的交点为P，延长AP交圆于X，则有AB·CX·EF=BC·XE·FA，两式一比较我们就发现CX/XE=CD/DE，那只有可能是点X与点D重合。</p>
+<p>    下面我们的任务就简单了：假如已知圆C的半径为R，圆P和圆Q外切且分别与圆C内切，半径分别为p和q，我们需要想办法求出线段AB的长度。</p>
+<p>   <img alt="image placeholder" >
+<p>    现在，把这个结论同时运用到六对外切圆上。假如六个圆与圆C的切点分别为A1、A2、A3、A4、A5、A6，则有：<br>   (A1A2 · A3A4 · A5A6)^2<br>=  64R^6 · r1(R-r1)·r2(R-r2)·r3(R-r3)·r4(R-r4)·r5(R-r5)·r6(R-r6)<br>=  (A2A3 · A4A5 · A6A1)^2<br>    那么A1A2·A3A4·A5A6=A2A3·A4A5·A6A1，由前面的引理我们就知道了A1A4、A2A5、A3A6三线共点。</p>
+<p>来源：http://www.cut-the-knot.org/Curriculum/Geometry/SevenCirclesTheorem.shtml</p>
+			 ]]></content>
+<pubDate>2008-02-20T00:36:47+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/450</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 运用条件概率分析合情推理模式 ]]></title>
+<link>http://www.matrix67.com/blog/archives/451</link>
+<content><![CDATA[ 
+		<p>1. Goldbach猜想是说，任一大于等于4的偶数一定能表示成两个质数之和。关于质数，我们还有这样一个有趣的结论：对于任何整数n&gt;1，存在质数p满足n&lt;=p&lt;2n。这个结论对Goldbach猜想是很“有利”的，因为它是Goldbach猜想的一个必要条件。倘若对于某个正整数n，n和2n之间没有质数，那么偶数2n就不能表示为两个质数之和了，因为所有可以用的质数都比n小，再怎么也加不出2n来。注意，如果这个结论错了，猜想也就被推翻了；但如果这个结论对了，猜想也不一定是对的。但即使这样，我们仍然习惯性地认为，验证了推论的正确性后猜想的可靠程度也或多或少的有了些提高，换句话说猜想为真的可能性更大了。这种思维合理吗？</p>
+<p>2. 长期以来，人们都在思考：对任一给定的平面图进行染色，要想使得有公共边的区域颜色不同，最少需要多少种颜色。四色猜想（现在已经是四色定理了）认为，只需要最多四种不同的颜色就足够了。我们可以随便画一些图进行验证，每一次检验后我们都会或多或少地更加相信结论的正确性。你可以尝试寻找下面的图1、图2和图3的合法解，检验一下猜想是否正确。验证哪一个图更有价值？你或许会这样回答：验证第一个图毫无价值，因为它显然有可行的染色方案；验证第三个图最有价值，因为它看上去最像反例，证实了它确实有解后，你会更加坚信四色猜想的正确性。1975年的4月1日，杂志Scientific American的数学专栏作家Martin Gardner宣布他找到了一个四色猜想的反例（图4）。当然，这只是一个愚人节的笑话。寻找图4的解非常困难，以致于看上去几乎是不可能的。一旦你成功找出了图4的解，对四色猜想的信任程度可就不只提高一点点了。“对猜想的某个结论进行验证，结论越是不可思议，证实以后原猜想的可靠程度就提高得越多”，这种思维是合理的吗？<br>  <img alt="image placeholder" >
+<p>  <img alt="image placeholder" >
+<p>4. 关于“如果他错了，那我对的概率就更大了”的思维。A、B两人被一个实际问题难住了，双方就问题中的两个变量的变化关系争执不休。A认为，函数图像画出来应该是一个开口朝上的二次函数；B则认为，函数图像应该是一个正弦函数。注意到一个有趣的事实：这两种猜测满足矛盾率，但不满足排中率。就是说，有可能A和B都错了，但是A和B不可能都对。紧接着他们发现，这个函数存在至少一个极大值，A的猜测显然是错的。虽然这并不能表明B的猜测就是对的，但我们能不能说B猜对的概率变大了？</p>
+<p>    下面的内容是G.Pólya的Mathematics and Plausible Reasoning Vol 2里的精华：用概率来分析合情推理模式。我们可以用概率知识来描述上面这些合乎情理的推测。如果你还不知道什么叫做条件概率，建议你先看一看<a target="_blank" href="http://www.matrix67.com/blog/article.asp?id=174">这篇文章</a>。<br>    注意到P(A)*P(B|A)永远等于P(B)*P(A|B)，它们都等于P(A∩B)。如果B是A的一个推论，那么有P(B|A)=1（若A为真则B必为真）。于是我们有P(A)=P(B)*P(A|B)。这里，P(A|B)有一个形象的意义：结论B的证实可以使我们对A的信任改变多少。假如P(A|B)不变，则如果等式右边的P(B)增加了，P(A)也会增加。这也就说明了我们的第一个合情推理模式：对猜想的一个结论更加信任，对猜想本身也更加信任。<br>    这个式子还能告诉我们更多的东西。把P(B)除过去，我们有P(A|B)=P(A)/P(B)，其中等式左边的P(A|B)表示的仍然是证实了B以后A为真的概率，也就是验证B结论的价值。我们很清楚地看到，P(B)处于分母的位置。那么，结论B本身为真的概率越小，证实了B后对A的影响也就越大。<br>    注意P(B)=P(A∩B)+P(～A∩B)=P(A)*P(B|A)+P(～A)*P(B|～A)，而B是A的一个结论，即P(B|A)=1。于是，等号右边变为P(A)+[1-P(A)]*P(B|～A)。利用前面的结论，我们用P(A)/P(A|B)代替等式左边的P(B)，则有P(A|B)=P(A)/[P(A)+[1-P(A)]*P(B|～A)]。可以看到，如果P(B|～A)越小，则P(A|B)越大。这就是说，在没有A的前提下B成立可能性越小，证实了B之后A为真的可能性就越大。<br>    最后，我们看一看A和B不相容的情况。此时，P(A∩B)=0，于是<br>P(A) = P(A∩B) + P(A∩～B)<br>      = P(A∩～B)<br>      = P(～B) * P(A|～B)<br>      = [1-P(B)] * P(A|～B)<br>    把1-P(B)除过去，就有P(A|～B)=P(A)/[1-P(B)]，显然P(A|～B)是大于P(A)的，也即排除了B的猜测后A对的可能性比原来更高了。我们还可以清楚地看到，如果我们之前越相信B，则B被驳倒后A正确的可能性提高得就越多。</p>
+			 ]]></content>
+<pubDate>2008-02-23T23:24:33+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/451</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 很诡异的博弈问题分析方法 ]]></title>
+<link>http://www.matrix67.com/blog/archives/452</link>
+<content><![CDATA[ 
+		<p>    小学奥赛的经典题目：两个人轮流在黑板上写一个不大于10的正整数。规定不准把已经写过的数的约数再写出来。谁最后没写的了谁就输了。问是先写的人必胜还是后写的人必胜，必胜策略是什么。<br>    答案很巧妙。先写者有必胜策略。他可以先写下数字6，现在就只剩下4、5、7、8、9、10可以写了。把剩下的6个数分成三对，分别是(4,5)、(7,9)、(8,10)，每一对里的两个数都不成倍数关系，且它们各自的倍数（如果出现过）必然是同时出现。因此不管你写什么数，我就写它所在的数对里的另一个数，这样可以保证我总有写的。<br>    今天偶然看到一个加强版，不知大家见过没有：规则不变，可以写的数扩展到所有不大于n的正整数。对于哪些n先写者必胜？证明你的结论。</p>
+<p>    你会有一种被骗的感觉-_-b<br>    其实，不管n是多少，先写者总有必胜策略。考虑一个新的规则“不准写数字1”。如果加上这个新规则后先写者有必胜策略，那么这个策略对于原游戏同样适用（因为1是所有数的约数，本来就不能写）；如果在新规则下后写者必胜，则原游戏中的先写者写下数字1，然后他就变成了新规则下的后写者。于是不管怎么样，先写者总是有必胜策略。<br>    To 3楼：忘了提一句，只要是双方共用状态（合法的决策完全相同）的对弈游戏，其中一方肯定有必胜策略。棋局的任一状态只有两种，面对这个棋局的人要么必胜要么必败。考虑这样的一个递推关系：如果一个状态是必胜态，那至少有一种走法能走成一个必败态留给对方；如果一个状态是必败态，那它怎么走都只能走到必胜态。运用这样的关系，我们可以自底向上推出初始状态是必胜还是必败。</p>
+<p>     <img alt="image placeholder" >
+			 ]]></content>
+<pubDate>2008-02-24T01:14:55+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/452</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 用相同形状的多联骨牌拼接完全对称图形 ]]></title>
+<link>http://www.matrix67.com/blog/archives/453</link>
+<content><![CDATA[ 
+		<p>    最近，Claudio Baiocchi提出了这样一个问题：用相同形状的多联骨牌拼成完全对称图形，问对于哪些多联骨牌问题是有解的。这个问题最早出现在Erich Friedman今年一月的<a target="_blank" href="http://www.stetson.edu/~efriedma/mathmagic/0108.html">Math Magic</a>里。令人吃惊的是，所有不超过6联的骨牌都是有解的。Erich Friedman自己找到了大多数的解，Corey Plover也找出了一些解，其余的解则是<a target="_blank" href="http://www.recmath.org/PolyCur/nbaiocchi/">George Sicherman</a>发现的。<br>    单联到6联的骨牌个数分别为1, 1, 2, 5, 12, 35。它们的解分别如下：</p>
+<p><strong>Monomino:</strong><br><img alt="image placeholder" >
+<p><strong>Domino:</strong><br><img alt="image placeholder" >
+<p><strong>Trominoes:</strong><br><img alt="image placeholder" >
+<p><strong>Tetrominoes:</strong><br><img alt="image placeholder" >
+<p><strong>Pentominoes:</strong><br><img alt="image placeholder" >
+<p><strong>Hexominoes:</strong><br><img alt="image placeholder" >
+			 ]]></content>
+<pubDate>2008-02-24T12:24:22+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/453</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 操，我连向量都不是…… ]]></title>
+<link>http://www.matrix67.com/blog/archives/454</link>
+<content><![CDATA[ 
+		<p>  <img alt="image placeholder" >
+<p>– 我讨厌“快速增长5厘米”之类的垃圾邮件<br>– 操！我他妈的连向量都还不是呢！</p>
+<p>来源：http://brownsharpie.courtneygibbons.org/?p=508<br>另，可爱的<a target="_blank" href="http://kristallklareblase.spaces.live.com">叉烧妖MM</a>给我推荐了一个<a target="_blank" href="http://www.cs.cmu.edu/~johnny/">有意思的东西</a>，大家可以去看看。</p>
+			 ]]></content>
+<pubDate>2008-02-26T15:20:00+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/454</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Atropos：仍然具有可玩性的状态共用型组合游戏 ]]></title>
+<link>http://www.matrix67.com/blog/archives/455</link>
+<content><![CDATA[ 
+		<p>   <img alt="image placeholder" >
+<p>   <img alt="image placeholder" >
+<p>    这个游戏虽然属于Impartial Games，但它仍然具有可玩性。从直觉上看，这个游戏中的先手后手几乎没有区别，谁也不占优势。<a target="_blank" href="http://arxiv.org/abs/cs.GT/0702153">这篇论文</a>则严格证明了，判断Atropos游戏的最佳策略属于PSPACE-complete，这是所有使用多项式空间的问题中最难的一类，所有使用多项式空间的问题都可以（在多项式的时间内）约化到它。这说明，Atropos游戏没有什么很显然的“决窍”，即使利用计算机也很难确定最优决策。</p>
+<p>在线游戏：http://cs-people.bu.edu/paithan/spernerGame/SpernerGame.html (Java Applet)<br>查看更多：http://cs-people.bu.edu/paithan/spernerGame/</p>
+			 ]]></content>
+<pubDate>2008-02-26T22:53:33+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/455</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣题：猜帽子游戏与Hamming编码 ]]></title>
+<link>http://www.matrix67.com/blog/archives/456</link>
+<content><![CDATA[ 
+		<p>    三个人坐成一个圆圈，每个人头上戴着一顶黑色的或者白色的帽子。每个人都只能看到另外两个人头上的帽子颜色。现在，他们需要独立地猜测自己头上的帽子颜色。每个人都需要在自己的小纸条上写下“黑色”、“白色”或者“放弃”。如果说至少一个人猜对，并且没有人猜错，那他们就获胜了；只要有任何一个人猜错，或者所有人都写的“放弃”，那么他们就输了。如果在游戏开始前他们能够商量一个策略，那么最好的策略是什么？<br>    仔细想一下你会发现，要想保证他们百分之百地获胜是不可能的，因为游戏中大家不能交流信息，谁也不能保证自己能猜对。但是，有一种策略能保证他们有75%的几率获胜。事实上，当人数n=2^k-1时，我们有一种方法可以让获胜的概率达到(2^k-1)/(2^k)。你能想到这种策略吗？</p>
+<p>    设身处地地想，你会想到一个很自然的策略：如果一个人看到另外两个人的帽子颜色一黑一白，那这个人就放弃（换了你你也不敢猜）；如果另外两个人的帽子颜色一样，那你就猜相反的颜色（概率上看也要大些）。我们来看一下在哪些情况下使用这样的策略能够获胜：</p>
+<p>3个黑帽子：每个人都看到两个黑帽子，每个人都猜自己是白帽子，所有人都猜错；<br>2个黑帽子，1个白帽子：戴黑帽子的人看到一黑一白，于是放弃；戴白帽子的人看的是两个黑帽子，因此他将猜对，从而所有人都获胜；<br>2个白帽子，1个黑帽子：和上面这种情况是类似的，所有人都将获胜；<br>3个白帽子：和第一种情况是类似的，所有人都猜错。</p>
+<p>    注意到只有在第一种情况和第四种情况下才会输掉游戏，这两种情况占了所有情况的2/8。于是，使用这种策略有75%的概率获胜。</p>
+<p>    我们需要想一想，在这个看似几乎不可能获胜的游戏中，为什么这种策略会有如此高的获胜概率。最关键的就是，这种策略充分利用了胜负判断的准则：大家要错就一起错，只有一个人错怪划不来的；要获胜就只让一个人猜对，多几个人同时猜对也没用。</p>
+<p>    根据上面的讨论，我们开始尝试把游戏的人数推广到一般的n。为了叙述方便，我们把每个人头顶上的帽子颜色依次用0和1来表示，数字1表示黑帽子，数字0表示白帽子。于是所有可能的情况就是2^n个01串。游戏开始前n个人预先约定一些“保留串”。他们的策略就是，观察其余n-1个人的帽子颜色：如果和所有的保留串都不匹配里，则放弃；如果恰好符合某个保留串，就猜自己是相反的颜色。比如，当n=3时，他们可以约定两个保留串000和111。如果实际情况是001的话，前两个人看到的是?01和0?1，不属于任何一个保留串，于是放弃；第三个人看到的是00?，正好和000相符，于是他就反过来猜自己不是那个0。注意到一些有趣的事实：如果实际情况恰好就是这些保留串之一，那大家就全猜错了；如果实际情况与所有保留串都相差两个数字以上，那大家全部放弃；如果实际情况与某个保留串恰好差一个数字，那只有一个人猜对，其余人放弃，从而获得胜利。现在的问题就是，如何寻找一个保留串集合，使得和某个保留串只差一个数字的情况尽可能的多。注意，我们必须要保证，任意两个保留串之间不能只差一个数字，这样的话才能保证发现有相符保留串的人不会面临“两可”的情况。假如你找到了t个保留串，则保证获胜的情况最多有t*n个（每个串“变一位”都有n种方法）。显然，最完美的情况就是t+t*n恰好等于总的情况数2^n。当n=2^k-1时，t+t*n是有可能恰好等于总情况数2^n的，也就是说每种可能的情况要么就是一个保留串，要么与唯一的一个保留串恰好差一位。此时，t+t*n=t(n+1)=t*(2^k)=2^(2^k-1)，t应该等于2^(2^k-1-k)。下面我们说明这t个保留串是如何生成的。<br>    每个保留串都由原码和校验码两部分组成。我们把n位01串的位置编号转化为二进制，二进制里只有一个数字1的位置（即左起第1,2,4,8,…位）叫做校验码，有至少两个1的位置（3,5,6,7,9,…等其余位置）上的数字称作原码。显然，原码应该有n-k位（即2^k-1-k位）。枚举2^(n-k)种原码的01组合，对于每一组原码，定义第i个校验码的值为，除了它本身以外，所有编号的二进制表达中右起第i个数字为“1”的位置上一共有奇数个1还是偶数个1（相当于把标“x”的位置上的数异或一遍）。比如，第2个校验码是1，当且仅当有奇数个位置上的原码满足，位置编号的二进制表达形如…???1?且该位置上的数值正好也是1。所有可能的原码加上它对应校验码就是我们的保留串。</p>
+<p><span style="font-family:宋体">  01串:     a1  a2  a3  a4  a5  a6  a7<br>十进制编号:  1   2   3   4   5   6   7</span></p>
+<p>二进制编号: 001 010 011 100 101 110 111<br>校验码1(a1):         x       x       x<br>校验码2(a2):         x           x   x<br>校验码3(a4):                 x   x   x<br>保留串0:     <span style="color:red">0   0</span>   0   <span style="color:red">0</span>   0   0   0<br>保留串1:     <span style="color:red">1   1</span>   0   <span style="color:red">1</span>   0   0   1<br>保留串2:     <span style="color:red">0   1</span>   0   <span style="color:red">1</span>   0   1   0<br>保留串3:     <span style="color:red">1   0</span>   0   <span style="color:red">0</span>   0   1   1<br>保留串4:     <span style="color:red">1   0</span>   0   <span style="color:red">1</span>   1   0   0<br>   ……      ……     ……        <br>保留串14:    <span style="color:red">0   0</span>   1   <span style="color:red">0</span>   1   1   0<br>保留串15:    <span style="color:red">1   1</span>   1   <span style="color:red">1</span>   1   1   1</p>
+<p>    我们可以说明，对于任一个n位01串，只要它不是我们的保留串，我都有办法只变动一个数字让原码和校验码相符（从而变成一个保留串）。我们可以观察一下，由原码算出来的校验码和实际的校验码有哪些不同。如果只有一位校验码不同，直接把它改过来就是了；如果有多位校验码不同，那就找出改动哪一位原码可以让这些校验码同时取反。从位置编号的二进制的角度来考虑，这样的一位原码显然是唯一存在的。同时，我们可以保证任两个</p>
+			 ]]></content>
+<pubDate>2008-02-28T21:40:35+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/456</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 牛B数学教授出的牛B考题 ]]></title>
+<link>http://www.matrix67.com/blog/archives/457</link>
+<content><![CDATA[ 
+		<p>  <img alt="image placeholder" >
+<p>来自Johns Hopkins大学的一次<a target="_blank" href="http://www.math.jhu.edu/~sz/Complex/CxFS.pdf">期末考题</a>……<br>这是昨天<a target="_blank" href="http://asukanokaze.blogbus.com/">AsukaNoKaze</a>到我寝室来给我看的一个巨牛B的东西。</p>
+			 ]]></content>
+<pubDate>2008-03-02T11:13:14+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/457</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 更多有趣的声音错觉 ]]></title>
+<link>http://www.matrix67.com/blog/archives/459</link>
+<content><![CDATA[ 
+		<p>    <a target="_blank" href="http://www.matrix67.com/blog/article.asp?id=284">去年的一篇日志</a>里给大家推荐了几段非常神奇的音频，<a target="_blank" href="http://www.matrix67.com/blog/article.asp?id=401">这里</a>也有一个很不可思议的声音错觉。今天看到了另一些有趣的声音错觉，和大家分享一下。<br>    准备好一副高质量的耳机哦。</p>
+<p>语音幻象：http://philomel.com/phantom_words/example_phantom_words.php<br>    你的大脑会自动地尝试把一些无意义的声音转换为有意义的语音。在这段音频中你可能会觉得你听到了一些单词，事实上这些单词都是不存在的，这段声音没有任何意义。<br>    不同的人所感觉到的单词是不同的。大多数人认为自己听到了下面这些单词中的某一个：<br>    window, welcome, love me, run away, no brain, rainbow, raincoat, bueno, nombre, when oh when, mango, window pane, Broadway, Reno, melting, Rogaine</p>
+<p>低音在哪一边：http://philomel.com/musical_illusions/example_scale_illusion.php<br>    戴上耳机听。猜猜看低音是在左声道还是右声道？取下其中一边的耳机，只听另一个声道，你会发现实际上的声音和你预想的完全不一样。<a target="_blank" href="http://philomel.com/phantom_words/play.php?fname=Track_18&amp;s=1">这段音频</a>也有类似的效果。</p>
+<p>语流的短时诱导：http://www4.uwm.edu/APL/audioBook/11Phon_Rest_Single.mp3<br>    我们的大脑会自动填上语音间的空隙。Richard Warren发现，把一段连贯的语音中的个别音节（准确地说是音位）替换成咳嗽声，被试者仍然能够准确地复述刚才听到的句子，而且说不出究竟是哪个音节被替换了。但如果<a target="_blank" href="http://www4.uwm.edu/APL/audioBook/13Phon_Rest_NoCough.mp3">用一段空白音来代替咳嗽声</a>，则多数人都能够分辨出消失的是哪一个音节。</p>
+<p>三全音悖论：http://philomel.com/musical_illusions/play.php?fname=Tritone_paradox<br>    对于同一组音调，一些人认为后一个音比前一个音高，另一些人则认为后一个音比前一个音更低。<a target="_blank" href="http://philomel.com/musical_illusions/tritone.php">这里</a>有一些详细的解释。为什么我怎么听都觉得后一个音总是比前一个音高？</p>
+<p>混乱的旋律：http://philomel.com/musical_illusions/play.php?fname=Mysterious_melody_scrambled<br>    这段声音向我们展示了，八度音的变化将对我们的听觉造成怎样的影响。这是一段你保证听过的旋律，所有的音都是对的，只是它们随机地分布在了三个八度音里。你能听出这是什么音乐吗？</p>
+			 ]]></content>
+<pubDate>2008-03-04T17:48:22+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/459</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣题：鸽笼原理的应用 IMO 2001 Problem #3 ]]></title>
+<link>http://www.matrix67.com/blog/archives/461</link>
+<content><![CDATA[ 
+		<p>    <a target="_blank" href="http://imo.wolfram.com/problemset/index.html">IMO 2001</a>第三题：21个女生和21个男生一起参加了一场数学竞赛。结果显示，每个参赛者最多做对了6道题，并且对于任一对男生和女生，至少有一道他们都做对了的题。<br>    求证：存在这样的一道题，至少有三个女生和三个男生同时做对。</p>
+<p>    当然，这个题目背景无趣而又生硬。如果是我的话，我肯定会把题目改成下面这个样子：21个女生和21个男生参加速配游戏，每个人独立地在自己的纸上写下不超过6种兴趣爱好。结果显示，对于任一对男女，他们都写下了至少一个相同的爱好。求证，存在某一个兴趣爱好，有至少三男三女都把它写上了。</p>
+<p>    我是一个忠实于原题的好娃娃，因此还是用数学竞赛来当题目背景。对于每个问题，如果有至少3个男生答对了，就给这个问题添加一个标记“B”；如果有至少3个女生答对了，就给这个问题添加一个标记“G”。然后我们画一张21×21的表格，横行代表男生，纵列代表女生。每一个格子都代表一道对应的男女同时做对的题（不同的格子可能对应相同的题目），我们把对应的题目的“B”、“G”标记填进格子里。<br>    下面我们说明，每一横行里至少有11个格子标了“G”，每一个纵列里至少有11个格子标了“B”。考虑某一个特定的人，他（她）与每一个异性参赛者都有同时答对的题目，但他（她）自己最多只做出6道题。这6道题目需要“分配”给21个异性参赛者。我们希望知道最多有多少道题被不超过2个异性参赛者答对。显然，最极端的情况就是其中的5道题目每道分别被2个异性做对，剩下的第6道题被其余11个异性做对。反过来这也就是被至少三个人答对的题目最少的情况，因此每一行（列）里都有至少11个格子标有异性的标记。<br>    这样，我们就有了至少21*11个标有“G”的格子，和至少21*11个标有“B”的格子。但21*11*2 &gt; 21*21，因此总有一个格子被同时标上了“G”和“B”。</p>
+<p>来源：http://www.cut-the-knot.org/pigeonhole/BoysGirlsProblems.shtml</p>
+			 ]]></content>
+<pubDate>2008-03-05T23:03:50+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/461</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Phun：一个巨牛B的物理引擎 ]]></title>
+<link>http://www.matrix67.com/blog/archives/462</link>
+<content><![CDATA[ 
+		<p>    <embed src="http://union.bokecc.com/flash/player.swf?videoID=27994_2376735&amp;autoStart=false&amp;share=true" width="438" height="387" type="application/x-shockwave-flash"></embed></p>
+<p>一个很牛B的沙盒程序，可以模拟各种物理现象。适合用于物理教学。<br>很喜欢那个把东西变成水的效果:)</p>
+<p>YouTube链接：http://www.youtube.com/watch?v=0H5g9VS0ENM<br>下载：http://www.acc.umu.se/~emilk/downloads.html</p>
+			 ]]></content>
+<pubDate>2008-03-06T14:07:18+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/462</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ codepad.org：分享程序代码的最佳去处 ]]></title>
+<link>http://www.matrix67.com/blog/archives/463</link>
+<content><![CDATA[ 
+		<p>    <a target="_blank" href="http://codepad.org">codepad</a>是一个新的在线小工具，它的界面很清爽，使用方法非常简便，你甚至根本不用注册。你可以随时用它来保存、分享程序代码，提交后系统会给你一个形如codepad.org/xxxxxxxx的地址。它支持纯文本、C、C++、Python、Perl、Ruby等各种格式（不支持Pascal），并且提供了自动语法高亮功能方便大家阅读。最神奇的是，它可以显示你的程序代码的运行结果！因此这绝对是你保存和分享程序代码的最佳去处。<br>    我在http://codepad.org/my2f2wEP分享了一个IOCCC的代码。<br>    难以置信的是，这么好的东西居然在那个伟大的建筑之外！？反正我裸着是连不上的。</p>
+<p>    顺便帮忙<a target="_blank" href="http://tianyi.yo2.cn/go/625846.html">八卦</a>:)</p>
+			 ]]></content>
+<pubDate>2008-03-07T15:35:39+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/463</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 三路国际象棋：非常有创意的棋类游戏 ]]></title>
+<link>http://www.matrix67.com/blog/archives/464</link>
+<content><![CDATA[ 
+		<p>     <img alt="image placeholder" >
+<p>    想必这里应该有网友喜欢玩国际象棋吧，它非常考验人的思维能力。但是你玩过三个人同时下的国际象棋吗？最近，一种叫做三路国际象棋(3-Way Chess)的游戏渐渐流行起来。上图就是一个三路国际象棋的棋盘（操，怎么排版都不好看），非常形象地说明了游戏的玩法。游戏的三方轮流走棋，走棋的规则与传统国际象棋完全一样。第一个将死对手（不管是谁）的人获胜。注意到这个棋盘与原来一样，每个格子都只与上下左右四个格子相邻，因此横竖四个方向和对角线四个方向都很容易确定下来（对角线就是邻格的邻格）。唯一需要注意的是，在棋盘中心处的格子可能有多个对角线方向，比如下图中的皇后一共有9个方向可以走。</p>
+<p>      <img alt="image placeholder" >
+<p>    想像中这样的国际象棋应该很好玩吧。这个游戏有趣就有趣在：如果某两个人看第三个人看不顺眼，他俩可以合作起来整第三个人。而更有趣的就是，他俩互相之间还要争着先去把第三个人将死。</p>
+<p>消息来源：http://digg.com/arts_culture/3_Way_Chess<br>查看更多：http://meignorant.com/3-way_chess</p>
+			 ]]></content>
+<pubDate>2008-03-08T20:55:57+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/464</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣题：构造游戏初始状态使得后行者必胜 ]]></title>
+<link>http://www.matrix67.com/blog/archives/465</link>
+<content><![CDATA[ 
+		<p>    考虑这样一个双人对弈游戏：在一个8×8的方阵里分别填上1-64这64个正整数。然后A和B两个人轮流在格子中取数，A先取，B后取。取数的规则很简单：取过的数不能够再取，并且除了第一次以外，以后每次取的数必须与某个已经取过的格子相邻。所有数都取完后，所取数之和最大的人获胜。<br>    很显然，这个游戏对于A更有利一些。我们可以轻易构造一个初始状态，使得先取的人必胜。考虑A的这样一个策略：总是取能取的数中最大的一个。如果每次A都可以取走整个棋盘中最大的那个数，那A就赢定了（因为每次B接下来取的数都比A小）。这样的初始状态是很容易构造出来的，比如我们只需要从左往右从上至下依次填入这64个数就可以了，这可以保证如果从n到64的所有数都取走了，则n-1也可以被取走。<br>    现在的问题是，能否构造一个初始状态，使得后取的人有必胜策略？提示，解决这道题需要有超强的“整人”能力。你得想出足够多的坏点子才能找到弄死先行者的方法。你的心肠坏到足以解决这个问题吗？</p>
+<p>  <img alt="image placeholder" >
+<p>    <img alt="image placeholder" >
+<p>    我们在四个陷阱里分别填上1-2-3-61，4-5-6-62，7-8-9-63，10-11-12-64这四组数，每个多米诺骨牌里填上两个相邻的数。这样的话，A的最好策略就是从第一个陷阱里开始取数。他能从第一个陷阱里赚到(61+2)-(1+3)=59分，但他在其它陷阱里将分别丢掉(62+4)-(5+6)=55分、(63+7)-(8+9)=53分、(64+10)-(11+12)=51分。而多米诺骨牌一共只有24个，他最多只能捡24分回来，这是远远不够的。因此，先取者必输无疑。</p>
+<p>参考资料：http://www.brand.site.co.il/riddles/200802q.html</p>
+			 ]]></content>
+<pubDate>2008-03-09T17:36:02+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/465</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 几道经典的几何作图趣题 ]]></title>
+<link>http://www.matrix67.com/blog/archives/466</link>
+<content><![CDATA[ 
+		<p>    这段时间的古代汉语课和现代文学史课的时间利用得很好，我已经看完了Mathematics and Plausible Reasoning Vol.II和How to Solve It，并且已经读完了What is Mathematics的第一章。前面两本书主要是对数学思维方法的系统研究，有趣的新鲜东西并不太多。书里拿了几道比较经典的几何作图问题当作例题，比较有意思，在这里与大家分享一下。</p>
+<p>1. 顺次给出四条边a, b, c, d以及对边a与c的夹角α，作一个四边形；<br>2. 给你一个三角形，作出一个内接于此三角形的正方形（正方形的四个顶点都落在三角形的边上）；<br>3. 已知三角形的一个角α，这个角所对的边的高h，以及这个三角形的周长p。求作这个三角形。</p>
+<p>  <img alt="image placeholder" >
+<p>  <img alt="image placeholder" >
+<p>  <img alt="image placeholder" >
+			 ]]></content>
+<pubDate>2008-03-12T17:24:50+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/466</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 文字游戏之Buffalo buffalo Buffalo buffalo buffalo… ]]></title>
+<link>http://www.matrix67.com/blog/archives/467</link>
+<content><![CDATA[ 
+		<p>    上学期的英语课里学到的一个最牛B的东西就是“a moving moving moving van”。你知道短语里每个“moving”各是什么意思吗？答案如下：<br>
+</p>
+<blockquote>A truck which carries everything you own is a moving van, and it's easy to visualize a moving moving van. Can you imagine, though, being moved to tears about moving your possessions and thus seeing it as a moving moving moving van?</blockquote>
+<p>    当然，这还不算牛B。另一个经典的牛B句子包含了五个连续的“and”：<br>
+</p>
+<blockquote>The landlord of a pub called The Pig And Whistle asked a signwriter to make a new sign. When he saw it he thought that the words were too close together so he said to the signwriter "I want more space between Pig and And and And and Whistle".</blockquote>
+<p>    另外，那个关于had had had的句子也很有趣。你能给下面这句话加上合适的标点吗？<br>
+</p>
+<blockquote>John where Peter had had had had had had had had had had had the most marks in the exam</blockquote>
+<p>    加上合适的标点后，这句话的内容是完全合理的。这句话可能会出现在语法课上，可以理解如下：<br>
+</p>
+<blockquote>John, where Peter had had 'had', had had 'had had'; 'Had had' had had the most marks in the exam.</blockquote>
+<p>    这句话的另一个常见的版本是：<br>
+</p>
+<blockquote>James while John had had had had had had had had had had had a better effect on the teacher</blockquote>
+<p>    之所以写这些东西，是因为刚才在<a target="_blank" href="http://digg.com/odd_stuff/Buffalo_buffalo_Buffalo_buffalo_buffalo_buffalo_Buffalo_3">digg</a>上看到了一个类似的牛B东东。你相信吗，下面这句话在语法上是完全合理的，整句话里不再需要引号之类的其它标点：<br>
+</p>
+<blockquote>Buffalo buffalo Buffalo buffalo buffalo buffalo Buffalo buffalo.</blockquote>
+<p>    试图理解这句话之前，你可以先查一查单词buffalo有哪些意思。buffalo可以当水牛讲，而Buffalo也是美国纽约的一个城市。buffalo还可以用作动词，是恐吓、威胁的意思。因此，这句话可以这样理解：<br>
+</p>
+<blockquote>[Those] (Buffalo buffalo) [whom] (Buffalo buffalo buffalo) buffalo (Buffalo buffalo).</blockquote>
+<p>    意思是，Buffalo市里有这样一些水牛，该市的其它水牛都威吓着它们，而它们反过来也恐吓着这个城市里的其它水牛。</p>
+			 ]]></content>
+<pubDate>2008-03-13T14:12:49+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/467</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 祝所有网友节日快乐！！ ]]></title>
+<link>http://www.matrix67.com/blog/archives/468</link>
+<content><![CDATA[ 
+		<p>    <img alt="image placeholder" >
+<p>正好今天是星期五……大家有没有想过出去喝一杯，庆祝一下属于我们自己的节日呢？</p>
+			 ]]></content>
+<pubDate>2008-03-14T00:39:58+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/468</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 如果让科幻电影来参加物理考试…… ]]></title>
+<link>http://www.matrix67.com/blog/archives/469</link>
+<content><![CDATA[ 
+		<p>  <img alt="image placeholder" >
+<p>    星战系列显然考得最差。太空中传播声音，所有星球的重力都和地球一样，所有星球的气候都差不多，在太空中爆炸起火，躲避激光武器，超光速传输……星战系列几乎都占完了。</p>
+<p>来源：http://digg.com/general_sciences/Bad_Movie_Physics_A_Report_Card_Chart<br>貌似最近引用了很多digg上的东西</p>
+			 ]]></content>
+<pubDate>2008-03-15T15:49:47+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/469</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 物理方法解决数学问题（五）：一个与椭圆有关的性质 ]]></title>
+<link>http://www.matrix67.com/blog/archives/470</link>
+<content><![CDATA[ 
+		<p>    <a target="_blank" href="http://www.matrix67.com/blog/article.asp?id=471">上一次写这玩意儿</a>已经是两个月前的事了，今天突然想起这一系列的东西我还没有写完。和上次一样，我们将对另一个几何问题作出光学和力学两种解释。由于前面已经有了不少铺垫，很多东西这里就不再重复了。</p>
+<p>   <img alt="image placeholder" >
+<p>   <img alt="image placeholder" >
+			 ]]></content>
+<pubDate>2008-03-15T16:01:09+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/470</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Super Mario之量子物理学版？ ]]></title>
+<link>http://www.matrix67.com/blog/archives/472</link>
+<content><![CDATA[ 
+		<p>    <a target="_blank" href="http://www.rllmukforum.com/index.php?showtopic=167174">Kaizo Super Mario</a>本来是一个号称世界上最变态的Super Mario的ROM hack，有几段看上去非常折磨人的游戏视频在互联网上流传很广。当然，网上也有类似于XX秒快速通关之类的动画，但那看上去就太假了，显然是用SL大法搞出来的，体现不出这个hack的变态程度。<a target="_blank" href="http://msm.grumpybumpers.com/?p=20">有牛人</a>突然想到，为什么不把两者结合起来，让视频同时展示出所有的尝试（就像科幻小说《一日囚》的“时间叠加”，或者电影<s>The</s> Next的“2分钟预见”），既能反映其变态程度，看上去又没那么折磨人。于是就有了下面这段另类的动画。动画做完后，此牛人突然恍然大悟：这不就是量子物理学中不确定性原理的一个绝佳的演示么？你可以在上面那个链接里读到一大篇与“多世界解释”(Many-Worlds Interpretation)有关的理论。</p>
+<p>  <embed src="http://union.bokecc.com/flash/player.swf?videoID=27994_2564707&amp;autoStart=false&amp;share=true" width="438" height="387" type="application/x-shockwave-flash"></embed></p>
+<p>视频链接：http://www.vimeo.com/676234<br>消息来源：http://jandan.net/2008/03/16/quantum-super-mario.html</p>
+			 ]]></content>
+<pubDate>2008-03-19T00:19:26+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/472</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ eBay – 旅行商问题新解 ]]></title>
+<link>http://www.matrix67.com/blog/archives/473</link>
+<content><![CDATA[ 
+		<div align="center"><img alt="image placeholder" >
+<p>图片来源：http://xkcd.com/399/<br>号外：期待了9个多月的PSP游戏<a target="_blank" href="http://www.matrix67.com/blog/article.asp?id=302">Echochrome</a>已经发行，网上到处有下载</p>
+			 ]]></content>
+<pubDate>2008-03-21T14:50:00+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/473</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣题：量子计算机、另类编程语言和幂函数的解释 ]]></title>
+<link>http://www.matrix67.com/blog/archives/474</link>
+<content><![CDATA[ 
+		<p>    很久没有更新和信息学有关的东西了。今天和大家分享一个非常有趣的题目，我已经很久没看见如此精彩有趣的题目了。为了引入这个问题，我们先来介绍一个假想的编程语言QCPL。就像LISP一样，它是一个基于函数的语言：没有变量，没有for循环，一切东西都是用函数来表示的。另外，就像FORTRAN一样，QCPL语言不支持递归，也就是说一个函数不能递归地调用自己。QCPL的另一个有趣的特点是，<strong>所有的函数都只能返回一个Boolean值</strong>。比如说，下面这个函数的作用就是判断x+2和y+2的乘积是否等于z：<br><code>MULT_PLUS_TWO(x,y,z): (x+2)*(y+2)=z</code></p>
+<p>    QCPL也有逻辑运算符。事实上，QCPL里的合法运算符一共只有8个，其中6个分别如下：</p>
+<p><span style="font-family:宋体">运算符 |  作用  |     输入      |     输出<br>——-+——–+—————+—————<br>  +    |  相加  |  两个自然数   |  一个自然数<br>  *    |  相乘  |  两个自然数   |  一个自然数<br>  =    |  等于  |  两个自然数   | 一个Boolean值<br>  &amp;    | 逻辑和 | 两个Boolean值 | 一个Boolean值<br>  |    | 逻辑或 | 两个Boolean值 | 一个Boolean值<br>  !    | 逻辑非 | 一个Boolean值 | 一个Boolean值</span></p>
+<p>    另外两个运算符就要重点介绍了。这是QCPL语言真正牛B的地方——它是专门为量子计算机设计的！你可以让这台计算机平行地穷尽完某些变量所有可能的取值，这一切仅仅在一瞬间内就可以完成。这两个特殊的运算符（以后我们管它们叫做“定量运算符”）就是专门用来干这件牛B事的："Ex"是“存在性定量运算符”，表示让计算机找出是否存在一个满足表达式的自然数x；"Ax"是“通用性定量运算符”，用于询问计算机该表达式是否对所有的自然数x均成立。比如，运用定量运算符，我们可以立即写出素数/合数判断函数：<br><code>COMPOSITE(n): Ex,Ey,MULT_PLUS_TWO(x,y,n)<br>PRIME(n): !(COMPOSITE(n)|n=0|n=1)</code><br>    其中，Ex,Ey,MULT_PLUS_TWO(x,y,n)的意思就是说，是否存在某一对x和y，使得MULT_PLUS_TWO(x,y,n)为真。只要（某一个平行世界里的）计算机找到了任何一对满足条件的x和y，整个COMPOSITE(n)立即返回True。如果对于所有的自然数x和y，MULT_PLUS_TWO(x,y,n)都不可能为真时，整个函数才返回False。别忘了这是一台量子计算机，穷举的过程可以在一瞬间内完成。</p>
+<p>    好了，下面我们再给出几个基本的函数。函数SUM用于计算x加y是否等于z，而函数PRODUCT则用于检验x乘以y是否等于z：<br><code>SUM(x,y,z): x+y=z<br>PRODUCT(x,y,z): x*y=z</code><br>    现在，你的任务就是写出一个函数POWER(x,y,z)，当且仅当x的y次方等于z时函数才返回True。相信我，这道题没有那么容易。<br><span id="more-474"></span></p>
+<p>＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝华丽的分割线＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝</p>
+<p>    这真的是一道难题。你必须要跳出常规的编程思路，找出与这种全新的编程语言相符的“算法”。这里是没有循环结构的，但它有一个更牛B的东西，它可以在一瞬间穷举所有可能的变量。也就是说，交给这台计算机的问题最好都是“是否存在一个什么什么，使得某某东西成立”的形式。把我们的题目“翻译”过去，就是：是否存在一个数列{A_n}，满足A_0=1，且对i&gt;0都有A_i=A_(i-1)*x，并且数列中的A_y项恰好等于z？注意到QCPL里面只有加法和乘法，因此我们不得不借用数列的概念来描述x的幂。可惜的是QCPL语言又不支持数列结构，因此我们不得不把整个数列“编码”成<strong>一个</strong>数。最简单的编码方式就是使用n进制储存数列中的所有数，其中n要比所有的A_i都要大。现在问题又来了，我们如何从这个已经编码的数列中“提取”指定位置上的数？想了半天想不出办法，我们突然想到，为什么不把数列本身的序号也带进这个数列中？这样我们可以用一个存在性定量运算符来确定我们需要的数所在的位置。这样，我们可以把有序数对(x^i,i)作为数列的元素，则问题转换为检查数列中是否存在(z,y)一项。而每个有序数对(a,b)也同样可以用类似地方法进行编码：选取一个大于所有b的数m，则数对(a,b)和数a*m+b一一对应。</p>
+<p>    好了，让我们重新整理一下我们的思路。我们需要让计算机寻找一个数列，数列的元素是一个个有序数对，其中第一个元素是(1,0)，最后一个元素是(z,y)，并且(A_i, B_i)总是等于(A_(i-1) * x, B_(i-1) + 1)。为了把数列转换为QCPL可以接受的形式，我们选取一个大于y的数m，把数对(a,b)转化为a*m+b；再选取一个不小于(z+1)*(y+1)的数n，把数列转化为一个n进制的数。这样最终编码出的结果应该是Σn^i*(A_i*m+B_i)。<br>    (a,b)与a*m+b之间的转换需要用到函数DIVMOD，它用于计算n除以m的商和余数是否为a,b，定义为：<br><code>DIVMOD(n,m,a,b): LT(b,m)&amp;(n=m*a+b)</code><br>    其中，LT(b,m)返回True当且仅当b&lt;m。这些比较函数可以用下面的方式定义出来。<br><code>LE(a,b): Ex, a+x=b  /* a&lt;=b */<br>GE(a,b): LE(b,a)    /* a&gt;=b */<br>LT(a,b): !GE(a,b)   /* a&lt;b */<br>GT(a,b): !LE(a,b)   /* a&gt;b */<br>NE(a,b): !(a=b)     /* a≠b */</code></p>
+<p>    下面这个函数用于提取一个n进制数的某一位上的数字，其中参数a表示整个数列编码后的数，n表示编码所用的基数，参数v的值应为n^i，函数返回数列中的第i个数是否为x。这个x应该等于a除以v的商，再除以n的余数。这个函数定义为：<br><code>ELEMENT(a,n,v,x): Er,Ey,Eq,DIVMOD(a,v,r,y)&amp;DIVMOD(r,n,q,x)</code><br>    为了更好的理解这个函数，考虑一个十进制数12345，显然有：<br>12345 ÷ 100 = 123 … 45<br>123 ÷ 10 = 12 … 3<br>    最后的余数3就是我们想要提取出来的数。上面的例子中，100就是那个v，123和45分别是r和y，12和3分别是q和x。</p>
+<p>    但要想判断v的值是否等于n^i，问题似乎又回到了起始点。不过，不同的是，现在再来判断v=n^i要简单多了，因为我们不需要指定指数i的值（数的位置可以从数列本身中获知），并且我们可以任意取一个自己觉得用着方便的底数n。事实上，当n为一个质数p时，判断x是否为p的幂非常简单：<br><code>PRIMEPOWER(p,x): (x=1)|Aa,Ab,(!(a*b=x))|(!PRIME(a))|(p=a)</code><br>    这个函数的基本思路就是，如果p是一个质数，而x是p的幂，那么p是x的唯一一个质因子。也就是说，对于任何一个自然数a，要么它等于p，要么它不是一个质数，否则的话a*b就不可能等于x。函数用到了我们题目中引入的PRIME函数。</p>
+<p>    一切准备就绪了。下面我们需要分别写出数列的三个约束条件。首先，我们需要保证数列以(1,0)开头，即编码之后的p进制数a<br>
+的最低位上的数字为m，也即a除以p的余数为m。于是，第一个条件可以写作：<br><code>CONDITION_ONE(a,p,m): Er,DIVMOD(a,p,r,m)</code><br>    接下来，我们希望数列以(z,y)结尾，即a的最高位是m*z+y。换句话说，a除以某个p的幂后，得到的商正好等于m*z+y。于是，我们把条件二写成：<br><code>CONDITION_TWO(a,p,m,z,y): Ev,Er,En,PRIMEPOWER(p,v) &amp; DIVMOD(a,v,n,r) &amp; DIVMOD(n,m,z,y)</code><br>    最后，我们需要保证这个数列中（除最后一项外）的每一项都与它的下一个数对有“乘以x”和“加1”的递推关系。这个条件可以写成：<br><code>CONDITION_THREE(a,p,m,x):<br>Av,(!PRIMEPOWER(p,v)) |  GT(v*p,a) |    /* ignoring the last element of a */<br>(Ed,Ee,Eq,Er,Es,Et, ELEMENT(a,p,v,d) &amp; ELEMENT(a,p,v*p,e) &amp; DIVMOD(d,m,q,r) &amp; DIVMOD(e,m,s,t) &amp; (q*x=s) &amp; (r+1=t))</code></p>
+<p>    最后，我们只需要把这三个约束条件结合起来，询问计算机是否存在同时满足这三个条件的序列a。我们最终的POWER函数为：<br><code>POWER(x,y,z):<br>(!((x=0)&amp;(y=0))) &amp; /* avoiding 0^0 */<br>Ea, /* a is our "proof" sequence */<br>Ep, /* p is the prime used in decoding a */<br>Em, /* m is used in decoding tuples within a */<br>GT(m,y) &amp; PRIME(p) &amp; GT(p,m*(z+1)) &amp; CONDITION_ONE(a,p,m) &amp; CONDITION_TWO(a,p,m,z,y) &amp; CONDITION_THREE(a,p,m,x)</code></p>
+<p>参考资料：http://www.brand.site.co.il/riddles/200801q.html</p>
+			 ]]></content>
+<pubDate>2008-03-21T14:51:14+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/474</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 牛B的正则表达式：素数判定与线性方程求解 ]]></title>
+<link>http://www.matrix67.com/blog/archives/475</link>
+<content><![CDATA[ 
+		<p>    今天又学到一个牛B东西。你相信吗？正则表达式竟然可以用来判定素数，甚至可以用来解方程！下面这段正则表达式可以用来判断，一个字符串的长度是否为合数（假设这个字符串里全是字符'1'）：<br><code>^1?$|^(11+?)1+$</code><br>    不信的话，把下面这段代码复制到你浏览器的地址栏里运行一下，True表示这个数为合数，False表示这个数为素数：</p>
+<p>javascript:var st="1";for(var i=2;i&lt;100;i++)document.write(i," ",/^1?$|^(11+?)1+$/.test(st=st+"1"),"&lt;br/&gt;");document.close();</p>
+<p>    其实，它的原理很简单。加号表示匹配一次或多次（加上一个问号表示非贪婪模式），1表示引用括号里的内容，头尾的^和$则避免了部分匹配的情况。这样，^(11+?)相当于枚举除数大小，而1+$则用于检验整个字符串是否能按此大小恰好分完。如果除得尽，则匹配成功，字符串长度为合数。另外，前面的^1?$只是为了处理n=0或n=1时的特殊情况，而符号|则表示“或者”的意思。</p>
+<p>    采用同样的方法，我们还可以想出正则表达式其它一些类似的用途。比如，我们可以用这个正则表达式检查方程11x + 2y + 5z = 115是否有自然数解：<br><code>^(.*)1{10}(.*)2{1}(.*)3{4}$</code><br>    正则表达式中，{x}表示和前面的内容匹配x次。只要用这个表达式去检测一个有115个字符的字符串，匹配成功则表示有自然数解。它的原理和上面的基本一样，我就不再重复了。</p>
+<p>参考资料：http://blog.stevenlevithan.com/archives/algebra-with-regexes</p>
+			 ]]></content>
+<pubDate>2008-03-23T02:04:22+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/475</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 63岁以色列数学家Avraham成功解决公路涂色问题 ]]></title>
+<link>http://www.matrix67.com/blog/archives/476</link>
+<content><![CDATA[ 
+		<p><img alt="image placeholder" >
+<p>    这个猜想的完整证明过程可以在<a target="_blank" href="http://arxiv.org/abs/0709.0099">这篇论文</a>里找到。论文只有几页，估计我应该能看懂，看懂了的话我会更新出来的。</p>
+<p>查看更多：<a target="_blank" href="http://science.slashdot.org/article.pl?sid=08/03/21/1319250">来源1</a>  <a target="_blank" href="http://www.usatoday.com/tech/science/mathscience/2008-03-20-road-coloring-problem-solved_N.htm">来源2</a></p>
+			 ]]></content>
+<pubDate>2008-03-24T15:32:01+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/476</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 另类思维训练：你能想出这样的词吗？ ]]></title>
+<link>http://www.matrix67.com/blog/archives/477</link>
+<content><![CDATA[ 
+		<p>    我承认我确实N久没更新了，整天写那个该死的现文史论文。昨天终于写完了，休息一下，今天又来更新~~<br>    中文系里的课程也有比较科学的，我觉得现代汉语是所有中文系必修课程中最科学的课。上学期讲完语音后，这学期进入了语法部分。我一直想写一点与语言学相关的东西，骗些理科小MM来这个专业玩。这里先说一些最近几次课上比较有趣的东西，一些比较系统的汉语语言学小知识留着以后再说吧。下次课我们可能还会学到一些类似的东西，到时候我接着在这儿更新。<br>    下面是一些有趣的题目，它们可以从另一个角度来考验你的思维能力。先不忙着看答案，看你能想出多少来。</p>
+<p>1. 找一个动词，它前面不能加“不”<br>2. 找一个动词，它前面不能加“没”<br>3. 找一个动词，它前面既不能加“不”，也不能加“没”<br>4. 找一个动词，它后面不能加助词“着”、“了”、“过”<br>5. 找一个动词，它前面可以直接加“很”来修饰<br>6. 找一个形容词，它前面不能加“不”<br>7. 找一个形容词，它前面不能加“很”<br>8. 找一个形容词，它不能直接用作定语<br>9. 找一个形容词，它不能重叠使用（如“高高的”、“高高兴兴的”）<br>10. 找一个名词，它前面不能加数量词来修饰<br>11. 找一个名词，它不能用作主语<br>12. 找一个名词，它不能用作宾语<br>13. 找一个名词，它后面可以加上“地”用作状语<br>14. 找一个名词，它可以直接用作状语（不加“地”）<br>
+<span id="more-477"></span></p>
+<p>1. 找一个动词，它前面不能加“不”：有<br>2. 找一个动词，它前面不能加“没”：是<br>3. 找一个动词，它前面既不能加“不”，也不能加“没”：不顾<br>4. 找一个动词，它后面不能加助词“着”、“了”、“过”：是<br>5. 找一个动词，它前面可以直接加“很”来修饰：表示心理活动的动词，如“我很想你”、“我很崇拜你”、“我很怕你”<br>6. 找一个形容词，它前面不能加“不”：不错、有利<br>7. 找一个形容词，它前面不能加“很”：耐烦、相同<br>8. 找一个形容词，它不能直接用作定语：疼、荣幸<br>9. 找一个形容词，它不能重叠使用：伟大、美丽、勇敢<br>10. 找一个名词，它前面不能加数量词来修饰：岁数<br>11. 找一个名词，它不能用作主语：“有作为”中的“作为”<br>12. 找一个名词，它不能用作宾语：“常言道”中的“常言”<br>13. 找一个名词，它后面可以加上“地”用作状语：历史地（看待这个问题）<br>14. 找一个名词，它可以直接用作状语：“电话采访”中的“电话”、“武力镇压”中的“武力”</p>
+			 ]]></content>
+<pubDate>2008-03-28T12:58:58+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/477</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ （愚人节笑话）Stetson大学教授发现Fermat大定理反例 ]]></title>
+<link>http://www.matrix67.com/blog/archives/479</link>
+<content><![CDATA[ 
+		<p style="text-align:center; font-size:28px; margin:18px 0 18px 0;">April Fools’ Day!</p>
+<p>    Fermat大定理指出，对于任何大于等于3的整数n，a^n + b^n = c^n没有非零解。Andrew Wiles在1995年完成了这个命题的证明。昨天，美国Stetson大学的一位数学教授竟找到了一个Fermat大定理(Fermat’s last theorem)的反例。他找到了一种非常巧妙的方法来寻找，对于给定的自然数x和n，是否存在自然数y和z使得x^n + y^n = z^n。采用这种算法，他发现了若干个n&gt;=3时的自然数解，从而推翻了Fermat大定理，并且也宣告了Wiles的“证明”是错误的。这些反例的数字规模相当大，最小的一组数就有1297位，它满足x^738 + y^738 = z^738。其中，(x,y,z)=</p>
+<p>(<br>
+26757406659821805140785264680010372274498430542512150820986648726614825442628080<br>
+91409263288326737142002148749934726109139254900116220406265850072136111512929830<br>
+65198618746106622253544881885933434709673389867009228596678085502285308023374893<br>
+02467012686745009109518058010479088391269648165236867504012711060969236304159220<br>
+71430558979067304851331649552552467178281406985568026629647622220237594738159148<br>
+00043191525971232658406595766680914087737164113947666256743185572811766528273340<br>
+62674869564505398843317850004262057083707748113800290144472528953749231157766083<br>
+95401756248064445708944314033786607241345125837072843335201510179715179534760872<br>
+93128456693004621117531158137808348506442099496907211820280291824213378453221921<br>
+87763943541340276023617482914643980442283423755891918053237014787270701049209222<br>
+35075019215005156242424587588786599596477679714166845958342737936156469253351183<br>
+75093257232442272644125485043803053470811646595876045708111150554646694314437317<br>
+13347415735904949662684655124330034465272628173401723704326212964152602007685240<br>
+12178436851567696760403249281106823787338807719381042519556157268766917912043271<br>
+34895113831354288868858048316351171656992495726941884432586669961554383173727113<br>
+37747500144985002838787294776710705120216755777942955788797078395886026540711795<br>
+4162686093144623,</p>
+<p>26761730098282716803947593724260480255296034114187936403361247608951058184769844<br>
+60420976780905654792098662517637350299686500668308633704296523790793770843468344<br>
+20599038793437354280614428269764521820856869592028199317487734329415322057391948<br>
+49848606740400086083242607437880096786781347948737402572364911534937526957718260<br>
+30923982416821271366747779961821976063472798970713731648885890849905286876921929<br>
+76216599291230543157159901441920715195645671598342007979769036670028375467322902<br>
+31140789945467286971777977741826583850863700015059770083184119798302136430032350<br>
+00106306154961428942292398561494099317556431148398780181448921052476051415642488<br>
+71108619084861816219619176179712787196080135857392743061351805539054944065099162<br>
+37625184190100394708740095790423456493572281774573812955348444075379236208868477<br>
+61498994659548002628172403011686078081883295161114666757195730464535315824733031<br>
+84636364271726528464982352061238813706702831738765327394196974529586011943780616<br>
+44472101748670599333668387455579091574038012339752343697462915067355856631141857<br>
+07781168215431652936089940154093316976341655197768193613282526291356914854067698<br>
+14995717041606308592709248905451534737560186226678687871137639010679123992586406<br>
+61809452218895617192485271227366919107611356527661932203497851014861529835200408<br>
+1683209185728255,</p>
+<p>26784777783315257955569644447676409747215608969744276840107858657123815776249338<br>
+43686946157865123055266174513730298261198246882551030216647013919677418859378636<br>
+08329535747542129312286593424140038189055792635256013059196877415895651031975729<br>
+29109464228448287734340370821208692638033867373210677115808231521091420386248501<br>
+30220424586379921508186305868632421589829901476305649417244389963551163693372648<br>
+20937886061801469477823760810485575487668158022125290329209872105147770033623623<br>
+82505113501091838109263667231APRIL.FOOL!0479905083037813070526884513291104499500<br>
+96457982569706735378040161385942949385065869492641856190152837721401091093923455<br>
+58669712627971546688194013886085678610396700539278434453320045174082158548613661<br>
+11587496580214554520403476566807032038430089287258781339813590240511874399148567<br>
+46444071338703609505017025243109413770825805271369738718371414879405345006534898<br>
+18253915297691249763821775693158297518260620049867590096585369171568726812598119<br>
+90133751945268337613143003129593014812524495909490835034044823851300118037035889<br>
+14526990039773990863235526120105895868749988107895047450007297249939007063598914<br>
+51604253602524109179174240201396699819278177375598746896239386135879516490344339<br>
+17468727128717841400047373319344925109958154680265165309222845689371671299515993<br>
+26240065141385210961890495070585915837982265498697910594053796674661962946943778<br>
+45689080502901556509272617407136165053510739697236930805745912184085270273178866<br>
+7709596078031262<br>
+)</p>
+<p>    虽然这个数字巨大无比，但借助计算机我们可以很快验证其正确性。目前的问题是，Fermat大定理的反例是否有无穷多个，以及Wiles的“证明”的漏洞在哪里。</p>
+			 ]]></content>
+<pubDate>2008-04-01T15:24:52+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/479</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 又一个牛B函数：阴阳图极坐标函数 ]]></title>
+<link>http://www.matrix67.com/blog/archives/480</link>
+<content><![CDATA[ 
+		<p> <img alt="image placeholder" >
+<p>    刚才在网上发现了上面这张猛图。急着想验证一下，但不知道Mathematica如何画极坐标的隐函数，于是写了一个Free Pascal的小程序。大家也可以试着把这个小程序粘贴到Free Pascal里运行一下看看。<br>
+<span id="more-480"></span></p>
+<p><code>{$ASSERTIONS+}<br>
+uses graph,math;<br>
+ <br>
+function f(t,r:extended):extended;<br>
+begin<br>
+   exit((cos(t-r)-sin(t)) * (r**4-2*r**2*cos(2*t+2.4)+0.9)+(0.62*r)**1000);<br>
+end;<br>
+ <br>
+var<br>
+   i,j,gd,gm:integer;<br>
+   t,r:extended;<br>
+begin<br>
+   gd:=D8bit;<br>
+   gm:=m640x480;<br>
+   InitGraph(gd,gm,'');<br>
+   Assert(graphResult=grOk);<br>
+ <br>
+   for i:=0 to 1000 do<br>
+   for j:=0 to 1000 do<br>
+   begin<br>
+      t:=(2*pi)*i/1000;<br>
+      r:=2*j/1000;<br>
+      if f(t,r)&lt;0 then
+         PutPixel(round(cos(t)*r*100)+300,round(sin(t)*r*100)+200,15)
+   end;
+ 
+   readln;
+   CloseGraph;
+end.</code></p>
+<p> <br>
+    果然不出所料，下面就是程序运行的结果：</p>
+<p>      <img alt="image placeholder" >
+<p> <br>
+每一次提到这类的东西，我都有一种把原来的那些牛B东西一起列出来的冲动。大家不要说我赚PV哦。<br>
+<a href="http://www.matrix67.com/blog/archives/85">爱的方程式</a><br>
+<a href="http://www.matrix67.com/blog/archives/223">爱的方程式3D版</a><br>
+<a href="http://www.matrix67.com/blog/archives/325">数学公式生成的色情图片</a><br>
+<a href="http://www.matrix67.com/blog/archives/301">Tupper自我指涉公式</a><br>
+<a href="http://www.matrix67.com/blog/archives/407">隐藏在函数里的问候</a></p>
+			 ]]></content>
+<pubDate>2008-04-02T12:25:05+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/480</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 单位根 ]]></title>
+<link>http://www.matrix67.com/blog/archives/481</link>
+<content><![CDATA[ 
+		<p>  <img alt="image placeholder" >
+<p>图片来源：<a href="http://brownsharpie.courtneygibbons.org/?p=541">http://brownsharpie.courtneygibbons.org/?p=541</a></p>
+			 ]]></content>
+<pubDate>2008-04-03T02:50:50+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/481</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣题：对数字进行编码使其按字典序排列后仍然有序 ]]></title>
+<link>http://www.matrix67.com/blog/archives/482</link>
+<content><![CDATA[ 
+		<p>    如果你经常使用“file5.txt”、“梁静茹23.mp3”、“AdultVideo153.avi”一类的文件名，你会发现在给文件名排序时，这种命名方式存在很大的弊端。很大一部分程序直接用字典序给文件名排序，因此file10.txt会排到file2.txt前面，尽管事实上10比2大。你是否想过，有没有什么办法能给数字编码，使得它们按字典序排序后仍然保持原有的大小顺序，并且编码的方法足够简单，编码之后原来的数字仍可以一目了然？一种简单的方法就是加前缀0，这样就保证了002在010前面，file005.txt也不会排到file100.txt的后面。它有一个缺点就是，你必须预先知道需要编码的数字最多有多少位，否则一旦新添进一个位数更多的数，前面所有的数必需要全部重新编码（加更多的前缀0）。另一个比较明显的缺点就是，这种编码方式过于冗长，添加进去的数字0最多可能与最大数的位数相当，多数情况下都远远超过了待编码的数自身的长度。我们更希望，编码时添加进去的“辅助码”不要超过这个数字本身的长度。由于数字n本身的长度是log(n)，因此我们需要保证冗余部分不超过log(n)。你能找到满足这些条件的一种编码方式吗？</p>
+<p>    注意到，当数字位数相同时，数值小的数按字典序排列时也排在前面。问题的关键就是，你需要找到一种编码方式，它可以标识出数字的位数，并且这种标识可以保证数字按位数从小到大排序。于是我们想到用“一进制编码”为每一个数加上一个“位数标识”。我们在每个数前面加上和这个数字本身的位数一样多的”1″，中间用一个”0″隔开。这样，所有三位数都是1110???的形式，所有四位数都是11110????的形式，这样按字典序排序时，三位数一定都排在四位数的前面。对应的解码方法也相当简单，只需要取第一个”0″后面的数字就行了。忽略常数的话，这种编码方式的冗余长度为log(n)，和数字本身的长度相当，基本上符合我们的要求。</p>
+<p>  <span id="more-482"></span><br>
+    为了帮助大家理解这种编码方式，我们来举几个例子。比如，下面这串数字（我网站域名的ASCII码）：<br>
+  779711611410512054554699111109<br>
+    就可以编码为：<br>
+  1111111111111111111111111111110779711611410512054554699111109<br>
+    前面数字1的个数和原始数字的位数一样多，然后中间添一个数字0。</p>
+<p>    我们可以列出一张简单的表格，形象地展示出数字编码后的样子：</p>
+<p>n    Encode(n)<br>
+1     101<br>
+2     102<br>
+3     103<br>
+..    …<br>
+8     108<br>
+9     109<br>
+10    11010<br>
+11    11011<br>
+12    11012<br>
+…   …..<br>
+100   1110100<br>
+101   1110101<br>
+102   1110102<br>
+…   ….</p>
+<p>    我们所提出的问题已经完美地解决了，但我们不禁会想，还有比O(log(n))更好的算法吗？仔细思考之后，你会想到，为什么不把数字的位数加在前面作为前缀，再用上面的方法把表示位数的那几个数字进行编码？这样就可以保证数字位数从小到大排列了啊！换句还说，如果一个数是k位数，那就在它前面加上一个数k；再在数k前面加上和k的位数同样多的”1″，中间用”0″隔开。这样，前面那个30位数<br>
+  779711611410512054554699111109<br>
+    就变成了<br>
+  11030779711611410512054554699111109<br>
+    其中，”30″表示这个数有30位，11表示数字30有2位，中间用”0″把这两个标识隔开。解码时，只需要寻找到”0″第一次出现的位置，比如在左起第x位；那么，原数就应该从左起2x的位置上开始算起。我们也简单列一个表格，说明对一个k位数编码之后的样子：</p>
+<p>1位数：  101?<br>
+2位数：  102??<br>
+3位数：  103???<br>
+………..<br>
+9位数：  109?????????<br>
+10位数： 11010??????????<br>
+11位数： 11011???????????<br>
+12位数： 11012????????????<br>
+…………..<br>
+99位数： 11099????????????????…..?????<br>
+100位数：1110100????????????????…..??????<br>
+101位数：1110101????????????????…..???????<br>
+102位数：1110102????????????????…..????????</p>
+<p>    这种算法的冗余长度是数n的位数的位数的两倍，忽略常数即为log(log(n))。这个结果已经相当令人满意了。但我们还会想，有没有算法能够比O(log(log(n)))还好呢？下面我们证明，O(log(log(n)))的冗余已经是最好的了。<br>
+    为了证明这个命题，我们可以这样反过来想：假如你对每个数字编码时只允许使用不超过c个单位的冗余，那么你最多能为多少数进行编码。对于某一个正整数k，k位数一共有9*10^(k-1)个，它们都必需表示成长度在0和k+c之间的数。我们把注意力集中在所有这些编码后的数字串的长为c+1的前缀（如果字串本身的长度小于c+1，定义前缀为它本身）。对于每一个给定的前缀，最多只能产生(10^k-1)/9个数，这小于k位数的总个数，因此这些前缀不可能全部相同。那些字典序较小的前缀已经不能再用于对位数更多的数进行编码了，因此我们说，长度为k的数“消耗了”至少一个长为c+1的前缀。而长度为c+1的前缀一共只有O(10^c)个，因此在冗余长度为c的情况下，我们能够编码的数不超过O(10^(10^c))；反过来，要想给不超过n的自然数进行编码，冗余长度至少为O(log(log(n)))。</p>
+<p>题目来源：<a href="http://www.brand.site.co.il/riddles/200803q.html">http://www.brand.site.co.il/riddles/200803q.html</a></p>
+			 ]]></content>
+<pubDate>2008-04-03T22:52:00+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/482</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Map of Mathematical Structures ]]></title>
+<link>http://www.matrix67.com/blog/archives/483</link>
+<content><![CDATA[ 
+		<p>  <img alt="image placeholder" >
+<p>来源：<a href="http://space.mit.edu/home/tegmark/toe.gif">http://space.mit.edu/home/tegmark/toe.gif</a></p>
+			 ]]></content>
+<pubDate>2008-04-04T23:44:12+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/483</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 分享几个小游戏 ]]></title>
+<link>http://www.matrix67.com/blog/archives/484</link>
+<content><![CDATA[ 
+		<p>Open Doors：<a href="http://www.kongregate.com/games/soapaintnice/open-doors">http://www.kongregate.com/games/soapaintnice/open-doors</a><br>
+有点创意。后面基本上就开始乱搞了。<br>
+谁来建一个图论模型？</p>
+<p>Puzzle Boy：<a href="http://puzzle.boy.flash.fizzlebot.com/">http://puzzle.boy.flash.fizzlebot.com/</a><br>
+空格键重新开始，Shift键交换当前行动者。<br>
+华容道、推箱子等多个解谜游戏的结合体。</p>
+<p>Grid16：<a href="http://www.jmtb02.com/flash/grid16.htm">http://www.jmtb02.com/flash/grid16.htm</a><br>
+非常有创意。让我想到了Arcadia REMIX</p>
+<p>Timebot：<a href="http://www.gamerthegreat.com/GamerTheGreat/site/webgames.asp?op=playgame&amp;gameid=269">http://www.gamerthegreat.com/GamerTheGreat/site/webgames.asp?op=playgame&amp;gameid=269</a><br>
+按空格键后时间跳回到关卡开始的时候，你可以看到你过去的自己。<br>
+很像<a href="http://www.matrix67.com/blog/archives/408">Cursor*10</a>，只是关卡较多，有点难。</p>
+<p>PMOG：<a href="http://pmog.com/">http://pmog.com/</a><br>
+一款革命性的网游，安装一个Firefox插件后即可开始游戏，游戏场地就是整个互联网！</p>
+<p>ZWOK：<a href="http://zwok-game.com/en_GB/">http://zwok-game.com/en_GB/</a><br>
+Flash在线多人团队对战游戏，很像百战天虫</p>
+<p>顺便分享一个小笑话（原创），纯洁小MM请忽略：<span style="color:#E5E5E5;">每次有人看见我把手指按压在IBM的小红帽上来回揉擦，问我那个东西是啥时，我都会说“是阴蒂”。今天我突然发现，这个比喻再合适不过了，因为小红帽和阴蒂有一个绝妙的共同点：它们都在”B”上。</span></p>
+<p>加上了<a href="http://www.matrix67.com/blog/links">友情链接</a>，大家帮忙看看有没有写错的，有没有写漏的。选哪些Blog放在侧栏的Blogroll里是一件很麻烦的事。</p>
+			 ]]></content>
+<pubDate>2008-04-05T14:41:44+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/484</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Sangaku：颇具神秘色彩的几何游戏 ]]></title>
+<link>http://www.matrix67.com/blog/archives/490</link>
+<content><![CDATA[ 
+		<p><img alt="image placeholder" >
+<p>    人们陆续在日本的寺院里发现了数百个这样的木板，上面写有各种几何问题和定理。后人把这些刻有数学问题的木板叫做Sangaku。木板上的文字大都是古代汉字，这些文字多是对图案的描述，不过现在已经很难理解了。一位叫做Hidetoshi Fukagawa的日本数学教师一直致力于搜寻、翻译和研究Sangaku。最近，Fukagawa和Princeton大学的Tony Rothman合作完成了一本叫做<a href="http://www.amazon.com/exec/obidos/ISBN=069112745X/ctksoftwareincA/" target="_blank">Sacred Mathematics</a>的书，书里详细介绍了Sangaku的完整历史，还有不少的Sangaku照片第一次走出了日本。<br>
+<span id="more-490"></span><br>
+      <img alt="image placeholder" >
+    上图就是一个比较典型的Sangaku。画一个圆，随便做出一个内接多边形。从某个顶点出发，沿对角线将这个多边形剖分为三角形，作出每个三角形的内切圆。那么，所有内切圆的半径之和是一个常数，也就是说内切圆的半径之和的大小与你最初选的是哪一个顶点无关。<br>
+    绝大多数Sangaku仅仅给出了定理的描述和对应的图形，但没有给出任何证明。很多著名的Sangaku现在已经获解或得证，但仍然有一些Sangaku至今仍未解决。一个著名的Sangaku问题需要人们求解一个1024次方程。虽然不久之后有数学家把问题简化到10次方程，但次数仍然太高，人们至今还不知道应该怎样求解。<br>
+    大概从去年10月份开始吧，cut-the-knot介绍了大量的Sangaku问题。我从里面挑了两个自己认为好玩的放在下面和大家分享一下。<br>
+    <img alt="image placeholder" >
+<p>参考资料：<br>
+<a href="http://blog.sciencenews.org/mathtrek/2008/03/sacred_geometry.html">http://blog.sciencenews.org/mathtrek/2008/03/sacred_geometry.html</a><br>
+<a href="http://www.cut-the-knot.org/pythagoras/Sangaku.shtml">http://www.cut-the-knot.org/pythagoras/Sangaku.shtml</a></p>
+			 ]]></content>
+<pubDate>2008-04-10T15:08:52+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/490</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 有好吃的！自己动手做Sierpinski饼干 ]]></title>
+<link>http://www.matrix67.com/blog/archives/491</link>
+<content><![CDATA[ 
+		<p>    今天真够郁闷的。上午考高数有三道大题没做，一道题10分。有一道题错的那才叫冤。题目最后解出来应该是a和b的差值，其中a^2 = 16, b^2 = 256。大家能不能猜到我写上去的答案为什么是4？因为我写下a=4后，紧接着毫不犹豫地写下了b=8……我居然还非常仔细地验证了一下，10方是1024，256是8错不了了。高数考完后太郁闷了，以致于古汉课我一句话也没听进去。星期五下午本来没课的，现文史的老师过段时间要出差，于是今天下午集中时间补课。凭借着非凡的意志和勇气，我连续上了三个小时的现文史！自己都佩服自己了。<br>
+    最近事情很多。这周末的现汉作业很难，下星期一考线代，下星期五交古汉期中作业，然后就到了现文史第二次论文的最后期限。本来不打算更新的，网上随便逛逛又看到牛B东西了。不知道大家是否还记得那个<a href="http://www.matrix67.com/blog/archives/378">Geek的DIY饰物</a>？同一个网站上又更新了一个很可爱的东西：<a href="http://www.evilmadscientist.com/article.php/fractalcookies">Sierpinski饼干</a>。它完全仿照经典分形图形Sierpinski地毯。和其它很多分形图形一样，Sierpinski地毯也是递归地构造出来的。把单位正方形分成九宫格，挖掉中间那一块，然后对剩下的八块重复进行这样的操作，无限次操作后得到的图形就是传说中的Sierpinski地毯。</p>
+<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >
+<p>    如果哪位MM的男友是一个数学Geek，不妨学着给他做一个。其实，骗数学Geek很简单，不需要花钱买贵重的礼物，很多原创的小玩意儿就能打动他。要是我过生日时有MM送我这个东西，那我高兴死了。</p>
+			 ]]></content>
+<pubDate>2008-04-11T20:39:54+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/491</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 分享：N多国外大学的教学录像 ]]></title>
+<link>http://www.matrix67.com/blog/archives/492</link>
+<content><![CDATA[ 
+		<p>    偶然路过<a href="http://www.datawrangling.com/hidden-video-courses-in-math-science-and-engineering.html">这个地方</a>，感觉像发财了一样。你可以看到Berkeley、Stanford、MIT等各大名校的教学录像链接，包括物理、数学、计算机、生物、经济等诸多学科。向来是很喜欢国外编写的教材的，今天发现国外课堂似乎也异常的精彩，特别是MIT，实在是太牛了。要强烈推荐的是Walter Lewin的物理课，从上个月开始他的课在网上相当火爆。看看下面的视频吧，我保证你从来没有见过如此激动人心的物理课：</p>
+<p>  <object width="425" height="355"><param name="movie" value="http://www.youtube.com/v/7Zc9Nuoe2Ow&amp;hl=en">
+<param name="wmode" value="transparent">
+<embed src="http://www.youtube.com/v/7Zc9Nuoe2Ow&amp;hl=en" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed></object></p>
+<p>    你可以在<a href="http://ocw.mit.edu/OcwWeb/Physics/8-01Physics-IFall1999/VideoLectures/index.htm">这里</a>看到99年Walter Lewin的Physics I: Classical Mechanics，我这里用流媒体在线播放速度贼快。今天没事干，看了一下他的第一堂课，那是真的牛B。这40分钟完美地介绍了物理学的基本方法。引入物理单位时，Walter Lewin放映了一段经典短片<a href="http://www.youtube.com/watch?v=BBsOeLcUARw">Powers of 10</a>，如果你还没看过的话一定要去看。最精彩的部分是Walter Lewin用物理单位的量纲检验法确定了物体坠落时间与物体高度、物体质量和重力加速度的关系。假设我们有t = h^a * m^b * g^c，由于等式左边是一个时间，等式右边也必须得出一个时间单位。这足以说明b=0，c=-1/2，以及a=1/2。于是我们知道了，t应该与h的平方根成正比关系（我们无法确定他们之间是否有常数以及这个常数是多少）。最后，我们还需要用实验来验证这一结论。由于我们不知道常数是多少，结论无法直接验证；但我们可以对不同的h做两次实验，把他们的结果相除，这样的话常数就会被除掉。换句话说，假如物体坠落的高度为原来的2倍，那么落地所需时间就应该是原来的根号2倍。Walter Lewin的实验证实了这一点，成功地演绎了完整的物理研究基本方法。嗯，真的很精彩。我还要接着看下去。</p>
+<p>    <a href="http://ocw.mit.edu/OcwWeb/Electrical-Engineering-and-Computer-Science/6-046JFall-2005/LectureNotes/">这里</a>是前几年算法导论课的教学录像，同样来自于MIT。课程所用的教材就是《算法导论》。如果你正在钻研《算法导论》的话，不妨去这里看看，说不定会有意外的收获。还是要给那个跟我说想学CS的MM说一声，《算法导论》真的是个好东西。</p>
+			 ]]></content>
+<pubDate>2008-04-12T02:03:46+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/492</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ This is a triumph! ]]></title>
+<link>http://www.matrix67.com/blog/archives/493</link>
+<content><![CDATA[ 
+		<p>街头艺术家<a href="http://www.bladediary.com/index.pl?stencil=391">Posterchild</a>最近干了一件特别牛B的事情。</p>
+<p> <img alt="image placeholder" >
+<p><span id="more-493"></span><br>
+ <img alt="image placeholder" >
+<p>你或许在想，要是还有另一半的话就科学了。<br>
+牛就牛在，居然真的还有另一半！！！</p>
+<p> <img alt="image placeholder" >
+<p>仔细对比上面两张照片。Portal里面显示的图像真的是从另一端看出去的样子！！</p>
+<p>图片来源：<br>
+<a href="http://wvs.topleftpixel.com/08/03/24/">http://wvs.topleftpixel.com/08/03/24/</a><br>
+<a href="http://wvs.topleftpixel.com/08/03/25/">http://wvs.topleftpixel.com/08/03/25/</a></p>
+			 ]]></content>
+<pubDate>2008-04-17T00:21:54+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/493</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 如何把一个1:3的矩形分成若干份，然后拼成一个正方形 ]]></title>
+<link>http://www.matrix67.com/blog/archives/494</link>
+<content><![CDATA[ 
+		<p>正值期中，忙啊忙啊，忙死了……<br>
+象征性地更新一篇日志。</p>
+<p>你如何……<br>
+1. 如何把一个1:2的矩形分成若干份，然后拼成一个正方形？最少需要分成几块？<br>
+2. 如何把一个1:3的矩形分成若干份，然后拼成一个正方形？最少需要分成几块？<br>
+3. 如何把一个1:4的矩形分成若干份，然后拼成一个正方形？最少需要分成几块？<br>
+4. 如何把一个1:5的矩形分成若干份，然后拼成一个正方形？最少需要分成几块？</p>
+<p>下面是答案。<br>
+<span id="more-494"></span></p>
+<p>1. 一个简单的办法是把矩形分成这样的4块：<br>
+    <img alt="image placeholder" >
+<p>   事实上只需要分成3块就足够了：<br>
+    <img alt="image placeholder" >
+<p>2. 如下图。所有的角度都是30°的整倍数。有比5块更好的方案吗？应该没有吧……<br>
+    <img alt="image placeholder" >
+<p>3. 坏坏地笑一笑，没反应过来的人肯定不止一个 :-)</p>
+<p>4. 如下图。这个应该不算太复杂，仔细想想还是能搞出来的。<br>
+    <img alt="image placeholder" >
+<p>来源：<a href="http://www.cut-the-knot.org/pythagoras/PaperFolding/PaperFoldingSangaku.shtml">http://www.cut-the-knot.org/pythagoras/PaperFolding/PaperFoldingSangaku.shtml</a></p>
+<p>Update: 这些方案显然不是最好的。楼层为地壳的网友<a href="http://ipang.net/">伍岭</a>提供了一种更一般的解法。你可以在<a href="http://pwws.primeno.info/book/equidecomposition-of-a-rectangle-and-a-square">这里</a>下载到一个几何画板的演示。</p>
+<p>    <img alt="image placeholder" >
+			 ]]></content>
+<pubDate>2008-04-17T00:40:06+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/494</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 《什么是数学》读书笔记（一）：反证法、数学归纳法与唯一分解定理 ]]></title>
+<link>http://www.matrix67.com/blog/archives/495</link>
+<content><![CDATA[ 
+		<p>    期中告一段落。除了下下星期要交的现文史论文以外，最近似乎又清闲了不少，又有功夫在这里写点东西了。当然，我宝贵的时间也没有荒废在论文、作业和考试上。几乎每一堂古汉课和现文史课我都在读《什么是数学》，进度算是相当快了。这可能是我近几年读的所有书中给我带来的收获最大的一本。最近好几个人问我，有什么牛B一点的数学书没。我毫不犹豫地脱口而出，《什么是数学》。如果我要去一个荒岛上，只能带三本书，我会选择《算法导论》、《组合数学》和《什么是数学》。如果叫我舍弃一样，我估计会扔掉《组合数学》。如果还得再丢弃一本，我只好忍痛丢下《算法导论》了。<br>
+    读《什么是数学》的收获太多了。在这里，我只更新一些我原来不知道，又很有趣的东西。如果你希望迅速对此书有一个全面的了解，千万不要错过<a href="http://cuitianyi.com/wiki/%E4%BB%80%E4%B9%88%E6%98%AF%E6%95%B0%E5%AD%A6/%E7%AC%94%E8%AE%B0">dd牛的《什么是数学》笔记</a>。</p>
+<p>    阅读《什么是数学》的前面几章时，你经常会跟随着书中的文字重新看待一个显而易见的结论，然后对这个结论有了一个全新的认识。比如，书中曾提到，为什么数学归纳法是合理的？我已经知道n=1时结论成立，也知道若n=k成立则n=k+1结论也成立，那么对于任意一个给定的正整数t，n=t时的结论是成立的，因为经过有限次迭代后最终我们总可以到达n=t的情况。但是，为什么我们敢断言对所有这无穷多个n，结论都是成立的？显然，你不能说“我们可以迭代无穷多次”，一个有限的证明过程当然不允许有无限多个步骤。因此，为了说明对于所有正整数n结论都成立，我们不得不使用反证法把“无穷”变成“有穷”。我们假设对于某些n，这个结论是不成立的。那么，这里面一定存在一个最小的数p，它使得结论不成立。由于我们已知n=1时结论成立，因此p一定是大于1的。但n=p是“最早”使结论不成立的情形，因此n=p-1时结论一定为真。这就与我们已知的第二个条件“若n=k成立则n=k+1结论也成立”矛盾了。因此我们说，对于所有正整数n，结论都是成立的。<br>
+    这个推理过程中用到了另一个显而易见的结论：对于一个非空的正整数集C，C中一定存在一个最小的元素。这又是为什么呢？你可能会说，废话，把所有元素拿出来两个两个的比，一定能比出一个最小的数来。这种说法是错误的。注意到集合C有可能有无穷多个元素，你是比不完的。为了更清晰地认识这个结论，我们只需要注意到，如果把条件换成“有理数集C”或者“实数集C”，结论就不再成立了，因为集合{1, 1/2, 1/3, 1/4, …}显然不存在一个最小的数。可以看到，上述结论是否成立是和数的稠密性紧紧相关的。事实上，为了说明正整数集C中存在最小元素，我们任意从集合中取出一个元素n，那么1, 2, …, n这有限多个数当中一定存在一个最小的数，它在这个集合C中。它就是整个集合的最小数。对于稠密的有理数点和实数点，这个证明显然不再适用。<br>
+<span id="more-495"></span></p>
+<p>    下面将提到的一个定理也是看上去非常显然的。算术基本定理是说，任意一个大于1的正整数都能表示成若干个质数的乘积，且表示的方法是唯一的。换句话说，一个数能被唯一地分解成质因数的乘积。因此这个定理又叫做唯一分解定理。唯一分解定理是数论中最最基本的定理之一，如果连这个定理都错了，那整个算术也就不存在了。很多结论的证明过程都用到了这一事实，例如我们可以用这个定理来<a href="http://www.matrix67.com/blog/archives/156">证明根号2是无理数</a>：</p>
+<blockquote><p>    假设(p/q)^2=2，那么p^2=2q^2。我们将要证明，一个数的平方等于另一个数的平方的两倍是根本不可能的。如果对一个平方数分解质因数，它必然有偶数个因子（x^2的所有质因子就是把x的质因子复制成两份）。于是，p^2有偶数个质因子，q^2有偶数个质因子，2q^2有奇数个质因子。等号左边的数有偶数个质因子，等号右边的数有奇数个质因子，大家都知道这是不可能的，因为同一个数只有一种分解质因数的方法（唯一分解定理）。</p></blockquote>
+<p>    好，现在的问题是，为什么质因数分解的方法是唯一的。这个结论是如此的显然和易于接受，以致于有人会脱口而出：这当然是唯一的，不断使用越来越大的质数去试除，最后得到的肯定是唯一的质因数分解。不可否认，这个算法本身是没有任何问题的。根据合数的定义，试除与分解是一定能不断进行下去的，除非被除数本身变成了一个质数，而此时也标志着算法的结束。问题的关键就在于，这并不能说明原数能唯一地表示成质数的乘积：换一种试除的顺序会不会得出不同的分解方法？万一还有什么别的牛B大法也能用来分解质因数，而且结果与上面得到的完全不一样咋办？上面给出的算法只能说明我们能找出至少一种分解质因数的方法，用这种方法得到的结果是唯一的，但到底还有没有其它偏方秘籍能导出另外的分解方法来，我们就不得而知了。为了真正地证明，分解质因数的方法是唯一的，我们将再次用到反证法。假设存在某些数，它们有至少两种分解方法。那么根据上文提到的“非空正整数集里存在最小的元素”，一定有一个最小的数M，它能用至少两种方法表示成质数的乘积：<br>
+   M = P1 * P2 * … * Pr = Q1 * Q2 * … * Qs<br>
+    下面我们将看到，这种假设会推出一个多么荒谬的结果来。不妨设P1 &lt;= P2 &lt;= ... &lt;= Pr, Q1 &lt;= Q2 &lt;= ... &lt;= Qs。显然，P1是不等于Q1的，不然两边同时约掉它，我们就得到一个更小的有两种分解方法的数。不妨设P1 &lt; Q1，那么我们用P1替换掉等式最右边中的Q1，得到一个比M更小的数T = P1 * Q2 * Q3 * ... * Qs。令M' = M - T，我们得到M'的两种表达：
+   M' = (P1 * P2 * ... * Pr) - (P1 * Q2 * ... * Qs) = P1 * (P2 * .. * Pr - Q2 * ... * Qs)  ……  (1)
+   M' = (Q1 * Q2 * ... * Qs) - (P1 * Q2 * ... * Qs) = (Q1 - P1) * Q2 * ... * Qs  ………………  (2)
+    由于T比M小，因此M'是正整数。从(1)式中我们立即看到，P1是M'的一个质因子。注意到M'比M小，因此它的质因数分解方式应该是唯一的，可知P1也应该出现在表达式(2)中。既然P1比所有的Q都要小，因此它不可能恰好是(2)式中的某个Q，于是只可能被包含在因子(Q1-P1)里。但这就意味着，(Q1-P1)/P1除得尽，也就是说Q1/P1-1是一个整数，这样Q1/P1也必须得是整数。我们立即看出，P1必须也是Q1的一个因子，这与Q1是质数矛盾了。这说明，我们最初的假设是错误的。
+
+    唯一分解定理的一个重要的推论是，如果质数p是ab的因子，那么p或者是a的因子，或者是b的因子。我们刚才在证明过程中也不自觉地用到了这个推论。证明方法很简单，假如a和b里面都不含p，把a和b各自分解开来再乘到一起，我们就得到了数ab的一个没有因子p的分解方式；而按照前面提到的试除法，ab是可以表示成p与另一些质数的乘积的，这违背了唯一分解定理。连续多次使用该推论，我们可以很快将推论推广到多个数的情形。
+    事实上，假设这个推论成立，我们也能很快反过来推出唯一分解定理：写出N的两种质因数分解，在前一种分解中任取一个因子，它必然会在后一种分解方法中出现；把它们约掉之后结论继续适用，不断进行该操作直到最终两边都只余下一个1。这一系列操作说明了，两种分解方法实际上是相同的。我们看到，唯一分解定理和它的推论实际上是等价的。如果我们能够绕过唯一分解定理，用另一种方法证出这个推论，我们也就相当于找到了唯一分解定理的另一个证明。而事实上，运用扩展的辗转相除算法，我们可以飞快地完成推论的证明。我们将说明，如果质数p能整除ab，但不整除a，那它一定是b的约数。
+    质数p不能整除a，告诉我们a和p互质，于是存在整数k和l使得ka + lp = 1。等式两边同时乘以b，我们有kab + lpb = b。而ab能被p整除，也即存在整数r使得ab=pr。那么，kpr + lpb = p(kr + lb) = b，我们立即看出p是b的一个约数。
+
+做人要厚道，转贴请注明出处
+</p>
+			 ]]></content>
+<pubDate>2008-04-18T21:01:40+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/495</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 数学MM ]]></title>
+<link>http://www.matrix67.com/blog/archives/498</link>
+<content><![CDATA[ 
+		<p><img alt="image placeholder" >
+<p>昨天在<a href="http://www.deviantart.com/">deviantART</a>里逛时还淘到了这张非常漂亮的图，我特别喜欢。和大家分享一下。<br>
+图片来源：<a href="http://tenshi-no-pocky.deviantart.com/art/calculus-53880878">http://tenshi-no-pocky.deviantart.com/art/calculus-53880878</a></p>
+			 ]]></content>
+<pubDate>2008-04-19T20:59:12+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/498</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 神奇的锈规作图：单用一个只能画单位圆的圆规如何作等边三角形 ]]></title>
+<link>http://www.matrix67.com/blog/archives/497</link>
+<content><![CDATA[ 
+		<p>    从古至今，尺规作图一直是数学中备受关注的一个问题。到现在，数学家们已经比较完美的解决了尺规作图的问题，指出哪些图形可以用尺规作图完成，哪些问题不能用尺规作图解决。Mohr-Mascheroni定理告诉了我们一个非常令人吃惊的事实：所有用直尺和圆规可以解决的作图问题，只用圆规也能完成。当然，只用圆规是画不出直线的；但我们可以认为，一条直线已经由两点确定，并不需要画在图上。数学家们向我们展示了：给定四个点，如何用单规找出它们所确定的两条直线的交点；给定一段圆弧和两个点，如何找出两点确定的直线与圆弧的交点。注意到这是直尺仅有的功用，用单规全部解决了后直尺也就不需要了。数学家们还研究过单尺作图：只拿一块直尺到处作直线交过来交过去的又能完成哪些作图问题。显然，只用直尺是不能开平方的，解析几何告诉我们直线与直线的交点只可能是各系数的一个有理表达，这决定了单尺作图不能替代尺规作图。Poncelet-Steiner定理告诉我们，假如事先给定了一个圆和它的圆心，以后只用直尺足以完成任何尺规作图能够解决的问题。这些将在我今后的《什么是数学》笔记中提到。<br>
+    昨天，网友<a href="http://tsounaiq.spaces.live.com">浅海里的鱼</a>跟我提到了锈规作图问题，这是我第一次听到这个神奇的东西。现在，假设我们没有直尺，只有一把生锈的圆规。圆规已经被卡住了，只能画出单位半径的圆。在这样的条件下，哪些作图问题仍然能够被解决？锈规作图相当的困难，但并不是没有可能。1983年，D. Pedoe教授惊奇地发现，给定两个点A和B，如果它们的距离小于2，我们可以非常简单地作出点C，使得AC = BC = AB（即△ABC为等边三角形）。</p>
+<p>     <img alt="image placeholder" >
+    先以A、B为圆心分别作圆。由于它们之间的距离小于2，因此两圆必然相交。以其中一个交点P为圆心作圆，分别交圆A、圆B于点M、N。最后，圆M和圆N的交点即为所求点C。由对称性，△CAB一定是一个等腰三角形。另外，由对称性可知∠ACB=2∠BCP，而圆周角∠BCP的角度又是圆心角∠BNP的一半。由于△BNP是等边三角形，我们可以立即得到∠ACB=∠BNP=60°，△ABC是一个等边三角形。<br>
+    D. Pedoe受到启发，提出了以下问题：任给A、B两点，只用锈规是否都能作出C使得AC = BC = AB？若干年后，侯晓荣等人巧妙地解决了这个问题，并以此为基础，借用复数运算等理论，得到了一个出人意料的结论：从给定两点出发，任何尺规作图能够完成的构造，只用锈规也能完成。只用锈规作等边三角形的方法相当精彩，我在这里详细地说一下。觉得牛B的话就在下面叫个“好”。<br>
+<span id="more-497"></span></p>
+<p>     <img alt="image placeholder" >
+    首先，我们介绍锈规的第一个比较明显的用途：找出给定两点A、B的一条由单位长线段首尾相接构成的折线段。方法不用多说，看上边这个图，从圆A上的任一点出发，我们能够用锈规不断画圆找交点，作出排列成等边三角形的点阵。总有一个时候，会有某个圆与圆B相交，此时我们所需要的折线段也就找到了。<br>
+    <img alt="image placeholder" >
+    给出A、B、C三点，我们可以利用这种折线段巧妙地作出平行四边形ABDC。首先作出从A到B的折线段，再作出从A到C的折线段，然后顺次作出一个个边长为1的菱形，最终得到的点D就是所求的点。只需注意到菱形都是平行四边形，则四边形ABDC显然是一个平行四边形。</p>
+<p>      <img alt="image placeholder" >
+    好了，我们已经慢慢地接近我们的目标了。考虑这样一个作图问题：已知等边△PAB和等边△PCD，能否只用锈规找出点E，使得BDE也是一个等边三角形？事实上，这个E点恰好就是使得四边形APCE为平行四边形的那个点，借助上面的方法我们可以轻易作出E点的位置。利用最初等的平面几何知识，我们可以得出，如果APCE是平行四边形，则△BDE必然是一个等边三角形。这个证明相当简单，我们把证明的任务留给大家自己去完成。<br>
+    有人反应过来了吗？我们的问题已经圆满的解决了！！回到我们最初的问题，给定A、B两点后，我们可以作出一条由单位长线段构成的折线A – P1 – P2 – … – Pn – B，进而作出n+1个边长为1的等边三角形。然后，一次次套用作平行四边形的方法，作出T1, T2, …等一系列的点，不断将两个小的等边三角形合成一个大的三角形。最后的Tn就是我们所求的C点，它使得△ABC恰为一个等边三角形。</p>
+<p>做人要厚道 转贴请注明出处</p>
+			 ]]></content>
+<pubDate>2008-04-19T21:02:02+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/497</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 视频推荐：Outside In – 再谈Smale球面外翻问题 ]]></title>
+<link>http://www.matrix67.com/blog/archives/499</link>
+<content><![CDATA[ 
+		<p>    <a href="http://www.matrix67.com/blog/archives/354">去年的一篇日志</a>里曾经向大家提到了Smale球面外翻问题：在允许与自身相交的情况下，是否有可能无损地、平滑地、不留折痕地把一个球面的内侧翻到外面来。那篇日志里有一个视频，演示了球面外翻的其中一种解法，但没有再进行任何说明和解释。我曾在Google Video上找到了一段完整的视频，可惜Google Video不对中国大陆开放。当时我非常想看一看这段21分钟的视频，但尝试了各种方法都不行，其它地方也没有找到。今天听说中国大陆可以看Google Video的视频了，首先想到的就是去看这段视频。确实太精彩了！！你可以看到球面外翻问题有解的可能性，以及低维情形下（圆的外翻）为何反而无解。后面多个角度多种方式的动画演示足以让你完全理解这个外翻过程中的每个细节。从第11分钟开始的那个add waves则是整个视频的精华所在，太牛B了！</p>
+<p><embed id="VideoPlayback" style="width:400px;height:326px" flashvars="" src="http://video.google.com/googleplayer.swf?docid=-6626464599825291409&amp;hl=en" type="application/x-shockwave-flash"> </embed><br>
+把地址给出来吧，如果上面这个看不了可以进这里面去看：<br>
+<a href="http://video.google.com/videoplay?docid=-6626464599825291409">http://video.google.com/videoplay?docid=-6626464599825291409</a></p>
+			 ]]></content>
+<pubDate>2008-04-20T23:50:11+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/499</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 矩阵、随机化与分形图形 ]]></title>
+<link>http://www.matrix67.com/blog/archives/500</link>
+<content><![CDATA[ 
+		<p>    Stetson大学的<a href="http://kristallklareblase.spaces.live.com/">一个非常可爱的MM</a>（以后本Blog将简称她为Stetson MM）和我分享了一个很神奇的东西。她们正在做一个线性代数的课题研究，题目的大致意思是“用矩阵来构造分形图形”。Stetson MM叫我试着做下面这个实验：对于一个坐标点(x,y)，定义下面4个矩阵变换：<br>
+    <img alt="image placeholder" >
+    然后，初始时令(x,y)等于(0,0)，按照 T1 – 85%, T2 – 6%, T3 – 8%, T4 – 1% 的概率，随机选择一个变换对该点进行操作，生成的点就是新的(x,y)；把它画在图上后，再重复刚才的操作，并一直这样做下去。我心里觉得奇怪，这为什么会得到分形图形呢？于是我写了一个简单的Mathematica程序：<br>
+<code>list = {{0, 0}};<br>
+last = {{0}, {0}};<br>
+For[i = 0, i &lt; 50000, i++, r = Random[];
+   If[r &lt; 0.85, last = {{0.83, 0.03}, {-0.03, 0.86}}.last + {{0}, {1.5}},
+     If[r &lt; 0.91, last = {{0.2, -0.25}, {0.21, 0.23}}.last + {{0}, {1.5}},
+       If[r &lt; 0.99, last = {{-0.15, 0.27}, {0.25, 0.26}}.last + {{0}, {0.45}},
+         last = {{0, 0}, {0, 0.17}}.last + {{0}, {0}}
+       ]
+     ]
+   ];
+   list = Append[list, First[Transpose[last]]];
+]
+ListPlot[list, PlotStyle -&gt; PointSize[0.002]]</code></p>
+<p>    程序运行的结果真的是令我大吃一惊：竟然真的是一个分形图形！！我不禁再次对数学产生了一种崇敬和畏惧感！！</p>
+<p>   <img alt="image placeholder" >
+<p><span id="more-500"></span><br>
+    静下心来仔细研究了一下，其实这个东西的道理很简单：这些变换的实质就是把图形转移为另一个位置下的另一个尺度，经过变换以后的每个点都仍然在这个图形内。不同的变换有着不同的作用。T1的作用很明显：把该点移动到下一片小树叶上相同的位置。我们用红色的线条标注了对某个点连续三次T1变换的路径。T2, T3的作用是，把这个点在整个大叶子上的位置“投射”到最底部的叶片上对应的位置，其中T2负责投射到左边，T3负责投影到右边。我们分别用蓝色箭头和绿色箭头来演示T2和T3的轨迹。比如，对大叶片的左边第三叶的中间某个点进行T2变换，得到左边第一叶的左边第三个更小的叶片的中间；如果再进行一次变换，则就变到了左边第一叶的左边第一叶。T3的作用也基本上类似，我就不再多说了。最后， T4的作用是把某个点初始化到(0, 0.17y)，以后再经过一系列T1变换后就可以画出树叶中间的线条（的一部分）了，并等待某次T2或T3把该点变到最底层的叶片的中间线条上。有人会说，那这样变下去的话，岂不是所有点都只能在树叶中间的那根线条上？对！事实上，以后产生的每一个点都在某个“n级叶片”的中间那根线条上。</p>
+<p>   <img alt="image placeholder" >
+<p>    其实，我们之前是见过类似的东西的。例如，<a href="http://www.matrix67.com/blog/archives/280">Sierpinski三角形</a>也有相似的结论：给出三角形的三个顶点，然后从其中一个顶点出发，每次随机向任意一个顶点移动1/2的距离（走到与那个顶点的连线的中点上），并在该位置作一个标记；无限次操作后所有的标记就组成了Sierpinski三角形。</p>
+			 ]]></content>
+<pubDate>2008-04-22T04:32:24+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/500</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 分享一些有趣的面试智力题（上） ]]></title>
+<link>http://www.matrix67.com/blog/archives/501</link>
+<content><![CDATA[ 
+		<p>    偶然进了<a href="http://everything2.com/title/hard%2520interview%2520questions">这个页面</a>，看到几个原来没见过的面试智力题。顺带也翻译一些比较少见、可能有人没见过的题目写在这里。有几个题目在国内流传相当广，什么n个人怎么分饼最公平，屋里的三个灯泡分别由哪个开关控制，三架飞机环游世界，用火柴和两根绳子测量45分钟之类的题目，火星得已经可以考古了，这里就不再说了。个别题目本Blog原来有过详细的介绍，这里也不再提了。</p>
+<p>    1. 考虑一个双人游戏。游戏在一个圆桌上进行。每个游戏者都有足够多的硬币。他们需要在桌子上轮流放置硬币，每次必需且只能放置一枚硬币，要求硬币完全置于桌面内（不能有一部分悬在桌子外面），并且不能与原来放过的硬币重叠。谁没有地方放置新的硬币，谁就输了。游戏的先行者还是后行者有必胜策略？这种策略是什么？<br>
+    答案：<span style="color:#E5E5E5;">先行者在桌子中心放置一枚硬币，以后的硬币总是放在与后行者刚才放的地方相对称的位置。这样，只要后行者能放，先行者一定也有地方放。先行者必胜。</span></p>
+<p>    2. 用线性时间和常数附加空间将一篇文章的单词（不是字符）倒序。<br>
+    答案：<span style="color:#E5E5E5;">先将整篇文章的所有字符逆序（从两头起不断交换位置相对称的字符）；然后用同样的办法将每个单词内部的字符逆序。这样，整篇文章的单词顺序颠倒了，但单词本身又被转回来了。</span></p>
+<p>    3. 用线性时间和常数附加空间将一个长度为n的字符串向左循环移动m位（例如，”abcdefg”移动3位就变成了”defgabc”）。<br>
+    答案：<span style="color:#E5E5E5;">把字符串切成长为m和n-m的两半。将这两个部分分别逆序，再对整个字符串逆序。</span></p>
+<p>    4. 一个矩形蛋糕，蛋糕内部有一块矩形的空洞。只用一刀，如何将蛋糕切成大小相等的两块？<br>
+    答案：<span style="color:#E5E5E5;">注意到平分矩形面积的线都经过矩形的中心。过大矩形和空心矩形各自的中心画一条线，这条线显然把两个矩形都分成了一半，它们的差当然也是相等的。</span></p>
+<p>    5. 一块矩形的巧克力，初始时由N x M个小块组成。每一次你只能把一块巧克力掰成两个小矩形。最少需要几次才能把它们掰成N x M块1×1的小巧克力？<br>
+    答案：<span style="color:#E5E5E5;">N x M – 1次显然足够了。这个数目也是必需的，因为每掰一次后当前巧克力的块数只能增加一，把巧克力分成N x M块当然需要至少掰N x M – 1次。</span><br>
+<span id="more-501"></span><br>
+    6. 如何快速找出一个32位整数的二进制表达里有多少个”1″？用关于”1″的个数的线性时间？<br>
+    答案1（关于数字位数线性）：<span style="color:#E5E5E5;">for(n=0; b; b &gt;&gt;= 1) if (b &amp; 1) n++;</span><br>
+    答案2（关于”1″的个数线性）：<span style="color:#E5E5E5;">for(n=0; b; n++) b &amp;= b-1;</span></p>
+<p>    7. 一个大小为N的数组，所有数都是不超过N-1的正整数。用O(N)的时间找出重复的那个数（假设只有一个）。一个大小为N的数组，所有数都是不超过N+1的正整数。用O(N)的时间找出没有出现过的那个数（假设只有一个）。<br>
+    答案：<span style="color:#E5E5E5;">计算数组中的所有数的和，再计算出从1到N-1的所有数的和，两者之差即为重复的那个数。计算数组中的所有数的和，再计算出从1到N+1的所有数的和，两者之差即为缺少的那个数。</span></p>
+<p>    8. 给出一行C语言表达式，判断给定的整数是否是一个2的幂。<br>
+    答案：<span style="color:#E5E5E5;">(b &amp; (b-1)) == 0</span></p>
+<p>    9. 地球上有多少个点，使得从该点出发向南走一英里，向东走一英里，再向北走一英里之后恰好回到了起点？<br>
+    答案：<span style="color:#E5E5E5;">“北极点”是一个传统的答案，其实这个问题还有其它的答案。事实上，满足要求的点有无穷多个。所有距离南极点1 + 1/(2π)英里的地方都是满足要求的，向南走一英里后到达距离南极点1/(2π)的地方，向东走一英里后正好绕行纬度圈一周，再向北走原路返回到起点。事实上，这仍然不是满足要求的全部点。距离南极点1 + 1/(2kπ)的地方都是可以的，其中k可以是任意一个正整数。</span></p>
+<p>    10. A、B两人分别在两座岛上。B生病了，A有B所需要的药。C有一艘小船和一个可以上锁的箱子。C愿意在A和B之间运东西，但东西只能放在箱子里。只要箱子没被上锁，C都会偷走箱子里的东西，不管箱子里有什么。如果A和B各自有一把锁和只能开自己那把锁的钥匙，A应该如何把东西安全递交给B？<br>
+    答案：<span style="color:#E5E5E5;">A把药放进箱子，用自己的锁把箱子锁上。B拿到箱子后，再在箱子上加一把自己的锁。箱子运回A后，A取下自己的锁。箱子再运到B手中时，B取下自己的锁，获得药物。</span></p>
+<p>    11. 一对夫妇邀请N-1对夫妇参加聚会（因此聚会上总共有2N人）。每个人都和所有自己不认识的人握了一次手。然后，男主人问其余所有人（共2N-1个人）各自都握了几次手，得到的答案全部都不一样。假设每个人都认识自己的配偶，那么女主人握了几次手？<br>
+    答案：<span style="color:#E5E5E5;">握手次数只可能是从0到2N-2这2N-1个数。除去男主人外，一共有2N-1个人，因此每个数恰好出现了一次。其中有一个人(0)没有握手，有一个人(2N-2)和所有其它的夫妇都握了手。这两个人肯定是一对夫妻，否则后者将和前者握手（从而前者的握手次数不再是0）。除去这对夫妻外，有一个人(1)只与(2N-2)握过手，有一个人(2N-3)和除了(0)以外的其它夫妇都握了手。这两个人肯定是一对夫妻，否则后者将和前者握手（从而前者的握手次数不再是1）。以此类推，直到握过N-2次手的人和握过N次手的人配成一对。此时，除了男主人及其配偶以外，其余所有人都已经配对。根据排除法，最后剩下来的那个握手次数为N-1的人就是女主人了。</span></p>
+			 ]]></content>
+<pubDate>2008-04-25T22:56:57+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/501</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 分享一些有趣的面试智力题（下） ]]></title>
+<link>http://www.matrix67.com/blog/archives/502</link>
+<content><![CDATA[ 
+		<p>    12. 两个机器人，初始时位于数轴上的不同位置。给这两个机器人输入一段相同的程序，使得这两个机器人保证可以相遇。程序只能包含“左移n个单位”、“右移n个单位”，条件判断语句If，循环语句while，以及两个返回Boolean值的函数“在自己的起点处”和“在对方的起点处”。你不能使用其它的变量和计数器。<br>
+    答案：<span style="color:#E5E5E5;">两个机器人同时开始以单位速度右移，直到一个机器人走到另外一个机器人的起点处。然后，该机器人以双倍速度追赶对方。程序如下。</span></p>
+<p style="color:#E5E5E5;">while(!at_other_robots_start) {<br>
+  move_right 1<br>
+}<br>
+while(true) {<br>
+  move_right 2<br>
+}</p>
+<p>    13. 如果叫你从下面两种游戏中选择一种，你选择哪一种？为什么？<br>
+      a. 写下一句话。如果这句话为真，你将获得10美元；如果这句话为假，你获得的金钱将少于10美元或多于10美元（但不能恰好为10美元）。<br>
+      b. 写下一句话。不管这句话的真假，你都会得到多于10美元的钱。<br>
+    答案：<span style="color:#E5E5E5;">选择第一种游戏，并写下“我既不会得到10美元，也不会得到10000000美元”。</span></p>
+<p><span id="more-502"></span><br>
+    14. 你在一幢100层大楼下，有21根电线线头标有数字1..21。这些电线一直延伸到大楼楼顶，楼顶的线头处标有字母A..U。你不知道下面的数字和上面的字母的对应关系。你有一个电池，一个灯泡，和许多很短的电线。如何只上下楼一次就能确定电线线头的对应关系？<br>
+    答案：<span style="color:#E5E5E5;">在下面把2,3连在一起，把4到6全连在一起，把7到10全连在一起，等等，这样你就把电线分成了6个“等价类”，大小分别为1, 2, 3, 4, 5, 6。然后到楼顶，测出哪根线和其它所有电线都不相连，哪些线和另外一根相连，哪些线和另外两根相连，等等，从而确定出字母A..U各属于哪个等价类。现在，把每个等价类中的第一个字母连在一起，形成一个大小为6的新等价类；再把后5个等价类中的第二个字母连在一起，形成一个大小为5的新等价类；以此类推。回到楼下，把新的等价类区别出来。这样，你就知道了每个数字对应了哪一个原等价类的第几个字母，从而解决问题。</span></p>
+<p>    15. 某种药方要求非常严格，你每天需要同时服用A、B两种药片各一颗，不能多也不能少。这种药非常贵，你不希望有任何一点的浪费。一天，你打开装药片A的药瓶，倒出一粒药片放在手心；然后打开另一个药瓶，但不小心倒出了两粒药片。现在，你手心上有一颗药片A，两颗药片B，并且你无法区别哪个是A，哪个是B。你如何才能严格遵循药方服用药片，并且不能有任何的浪费？<br>
+    答案：<span style="color:#E5E5E5;">把手上的三片药各自切成两半，分成两堆摆放。再取出一粒药片A，也把它切成两半，然后在每一堆里加上半片的A。现在，每一堆药片恰好包含两个半片的A和两个半片的B。一天服用其中一堆即可。</span></p>
+<p>    16. 你在一个飞船上，飞船上的计算机有n个处理器。突然，飞船受到外星激光武器的攻击，一些处理器被损坏了。你知道有超过一半的处理器仍然是好的。你可以向一个处理器询问另一个处理器是好的还是坏的。一个好的处理器总是说真话，一个坏的处理器总是说假话。用n-2次询问找出一个好的处理器。<br>
+    答案：<span style="color:#E5E5E5;">给处理器从1到n标号。用符号a→b表示向标号为a的处理器询问处理器b是不是好的。首先问1→2，如果1说不是，就把他们俩都去掉（去掉了一个好的和一个坏的，则剩下的处理器中好的仍然过半），然后从3→4开始继续发问。如果1说2是好的，就继续问2→3，3→4，……直到某一次j说j+1是坏的，把j和j+1去掉，然后问j-1 → j+2；或者从j+2 → j+3开始发问，如果前面已经没有j-1了（之前已经被去掉过了）。注意到你始终维护着这样一个“链”，前面的每一个处理器都说后面那个是好的。这条链里的所有处理器要么都是好的，要么都是坏的。当这条链越来越长，剩下的处理器越来越少时，总有一个时候这条链超过了剩下的处理器的一半，此时可以肯定这条链里的所有处理器都是好的。或者，越来越多的处理器都被去掉了，链的长度依旧为0，而最后只剩下一个或两个处理器没被问过，那他们一定就是好的了。另外注意到，第一个处理器的好坏从来没被问过，仔细想想你会发现最后一个处理器的好坏也不可能被问到（一旦链长超过剩余处理器的一半，或者最后没被去掉的就只剩这一个了时，你就不问了），因此询问次数不会超过n-2。</span></p>
+<p>    17. 一个圆盘被涂上了黑白二色，两种颜色各占一个半圆。圆盘以一个未知的速度、按一个未知的方向旋转。你有一种特殊的相机可以让你即时观察到圆上的一个点的颜色。你需要多少个相机才能确定圆盘旋转的方向？<br>
+    答案：<span style="color:#E5E5E5;">你可以把两个相机放在圆盘上相近的两点，然后观察哪个点先变色。事实上，只需要一个相机就够了。控制相机绕圆盘中心顺时针移动，观察颜色多久变一次；然后让相机以相同的速度逆时针绕着圆盘中心移动，再次观察变色的频率。可以断定，变色频率较慢的那一次，相机的转动方向是和圆盘相同的。</span></p>
+			 ]]></content>
+<pubDate>2008-04-26T00:07:56+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/502</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Mathematics Version 2.12 ]]></title>
+<link>http://www.matrix67.com/blog/archives/503</link>
+<content><![CDATA[ 
+		<p><img alt="image placeholder" >
+<p><span id="more-503"></span><br>
+<strong>Mathematics Version 2.12</strong></p>
+<p>What’s new in this update?</p>
+<p>* Pi now equals exactly 3.</p>
+<p>* e now equals exactly 2.</p>
+<p>* Fixed problem where division by zero led to undefined results.</p>
+<p>* Fixed spelling mistake in description of Pythagorean theorem.</p>
+<p>* Various optimisations now mean that all problems can be solved in polynomial time.</p>
+<p>* The term “negative number” has been deemed offensive. The term “non-positive non-zero number” is now in use.</p>
+<p>* Various optimisations now mean that all problems can be solved in polynomial time.</p>
+<p>* Support is no longer offered for Imaginary Number Feature (i).</p>
+<p>* Fixed problem where 1 = .999…</p>
+<p>* Now compatible with Microsoft products (65536 &lt;&gt; 65535 &lt;&gt; 100000).</p>
+<p>* Fixed problem that lead to the Axiom of Choice being undecidable.</p>
+<p>* Implemented L’Hopital’s rule for non-indeterminate forms.</p>
+<p>* Groups are now required to be abelian; former groups will now be called groupites.</p>
+<p>* Fixed the Banach-Tarski cloning glitch.</p>
+<p>* Removed the Proof By Contradiction exploit.</p>
+<p>* Users may now enter the paradise Cantor created for us for a nominal monthly fee.</p>
+<p>* Basic arithmetic is now complete and consistent.</p>
+<p>* Fractals have been smoothed out to improve rendering.</p>
+<p>* All matrices are now invertible, former matrices are now called matrons.</p>
+<p>* Cantor’s dust has been swept from the servers.</p>
+<p>* New valid method of proof: Proof by Example.</p>
+<p>* All incompleteness theorems are now false. Anything can be proven or disproven.</p>
+<p>* The halting problem is decidable.</p>
+<p>* Anything can be written as an elementary function if we go far enough in calling something elementary.</p>
+<p>* The Riemann Hypothesis is false.</p>
+<p>* The Collatz Conjecture is false.</p>
+<p>* Calculus now consists of only addition and subtraction.</p>
+<p>* Fixed known bug where Fermat’s Last Theorem failed to hold for n=1 or n=2.</p>
+<p>* Due to customer complaints about other implementations, the natural numbers now start at -1.</p>
+<p>* After a successful beta test in category theory, proof by diagram chasing is now applicable across all of mathematics.</p>
+<p>* During extended server downtime, problems will now slowly solve themselves, simulating the progress you would have been making.</p>
+<p>* Fixed bug where large cardinals failed to show up in certain models of ZFC.</p>
+<p>* Mobius Strip fixed to have two sides.</p>
+<p>* Infinity has been nerfed to constant value of 1,000,000.</p>
+<p>* Negative numbers now use differently colored numbers to reduce confusion.</p>
+<p>* All numbers above 3 are now a suffusion of yellow.</p>
+<p>* Subtraction has been removed, however it is still available on special subtraction servers.</p>
+<p>* New Axiom: Axiom of Clarity. If after explaining a proof to someone for 5 minutes, if they still do not understand, they may use the Axiom of Clarity to assert the existence of a proof that your proof is invalid.</p>
+<p>* In response to demand, elegant proofs of certain theorems have been shortened that they may fit into the margins of books as commentary.</p>
+<p>* Research has shown that random numbers along a finite distribution were unfairly biased towards the digit one over other digits. This has been fixed.</p>
+<p>* We are proud to unveil a new kind of super-calculus, which requires twenty people to complete even the most rudimentary calculations over a period of hours of collaborative work. We feel this new math will challenge those at the higher-end of the profession.</p>
+<p>* New, epic applications of super-calculus have been implemented as well.</p>
+<p>* “Proof by Wikipedia” is now a valid form of proof.</p>
+<p>* Feature: Uniform probability measure for the real line has been added. Expect support for other spaces in subsequent versions.</p>
+<p>* For a small monthly fee, all infinite series can be summed. All users will be allowed to use that 1 + 2 + 3 + … = -1/12 for a trial period of week.</p>
+<p>* The math servers are going down soon to make way for the new BioWare math.</p>
+<p>* Russell’s Paradox fixed – sets can now include themselves and not include themselves at the same time.</p>
+<p>* For usability, numbers of the form a+bi have been made less complex.</p>
+<p>* All “maths” not involving numbers has been split off into daughter projects so that Maths 2.1.2 can now fit in one brain.</p>
+<p>* Everyone finally understands how abbreviations and number work, and now the singular word “mathematics” is properly abbreviated “math” worldwide.</p>
+<p>来源：<a href="http://icantdrawfeet.com/2008/04/14/mathematics-ver-212/">http://icantdrawfeet.com/2008/04/14/mathematics-ver-212/</a></p>
+			 ]]></content>
+<pubDate>2008-04-29T21:56:34+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/503</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣题：选取最少的质数集合构成发散的部分调和级数 ]]></title>
+<link>http://www.matrix67.com/blog/archives/504</link>
+<content><![CDATA[ 
+		<p>    调和级数是指无穷级数1 + 1/2 + 1/3 + 1/4 + …，即取遍所有正整数n所得到的Σ1/n。虽然n趋于无穷时1/n趋于0，但这个无穷级数却是发散的。一个经典的证明是，把1/3和1/4都缩小到1/4，把1/5、1/6、1/7和1/8都缩小成1/8，把1/9到1/16这8个数全部缩小为1/16，以此类推，这样就可以得到无穷多个1/2，它们的和显然是无穷大的。<br>
+    现在，让我们把所有的质数划分为若干个子集，其中质数p属于编号为floor(p/1000)的那个子集（floor()是取下整的意思）。现在，你可以用这样的方式来定义一个“部分的”调和级数：先选出一些质数集合出来，然后列出所有这样的数，它所有的质因子都落在你选的集合里。显然，这样的数有无穷多个，它们的倒数和就形成了一个部分调和级数。例如，选择子集①和子集②，我们可以得到一个无穷级数Σ1/n，其中n取所有这样的数，它可以表示为大于等于1000小于3000的质数的乘积。<br>
+    前面我们已经看到，选择所有的集合所构成的无穷级数是发散的。现在的问题是，要想得到一个发散的级数，最少需要选取多少个集合？</p>
+<p><span id="more-504"></span><br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ </p>
+<p>    答案或许会出乎你的意料：无穷多个。为了使所得的无穷级数发散，你必需选择无穷多个集合。事实上，任意选出有限个质数，由它们生成的所有数的倒数之和都是收敛的。<br>
+    首先注意到，对取出的所有质数p，分别算出p/(p-1)的值，然后把所有的p/(p-1)累乘起来（即Πp/(p-1)，p取遍选出的每个质数），最后的结果应当是有限的。而p/(p-1) = 1 + 1/p + 1/p^2 + 1/p^3 + …。容易想到（但并不严谨！），对于不同的p值，把p/(p-1)乘起来就相当于把等号右边的无穷级数乘起来，而将这些无穷级数的乘积展开来，得到的无穷级数正是由所选的质数所生成的部分调和级数。<br>
+    题目来源：<a href="http://www.brand.site.co.il/riddles/200804q.html">http://www.brand.site.co.il/riddles/200804q.html</a></p>
+			 ]]></content>
+<pubDate>2008-05-01T00:32:36+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/504</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣题：用正三角形和正四边形构成凸多边形 ]]></title>
+<link>http://www.matrix67.com/blog/archives/505</link>
+<content><![CDATA[ 
+		<p>    上个月<a href="http://domino.research.ibm.com/Comm/wwwr_ponder.nsf/Challenges/April2008.html">IBM Ponder This</a>的题目：给出足够多的正三角形和正四边形（均为单位边长），你需要用它们拼接出凸多边形。注意，你所拼出来的多边形的每条边也必须都是单位长度（因此，把两个正方形拼在一起形成的1*2长方形就不算）。你能拼出多少种不同的凸多边形？在看答案之前，大家先自己想一想，比比看谁考虑得最全面。这对思维的全面性是一个不小的挑战。</p>
+<p>    首先，注意到符合条件的方案肯定是有限的。由于最终的图形不允许出现平角，因此凸多边形的内角最大也只能到150°。显然，这样的凸多边形面积是有限的，最极端的情况就是一个正12边形（内角均为150°）。</p>
+<p><span id="more-505"></span><br>
+    如果你的答案少于11种，那你肯定还有漏掉的情况没找到。<a href="http://domino.research.ibm.com/Comm/wwwr_ponder.nsf/Solutions/April2008.html">官方答案</a>以下面这种形式给出了全部11种构造，你可以尝试着画出它们所对应的图形：<br>
+<code>Case  Perimeter Squares Triangles<br>
+  1       3       0        1<br>
+  2       4       0        2<br>
+  3       4       1        0<br>
+  4       5       1        1<br>
+  5       6       0        6<br>
+  6       6       1        2<br>
+  7       7       2        3<br>
+  8       8       2        6<br>
+  9       9       3        7<br>
+ 10      10       4        8<br>
+ 11      12       6       12</code></p>
+<p>    我把它们所对应的图形都画了出来。看一看，这些图形你都想到了吗？你漏掉了哪些情况？<br>
+  <img alt="image placeholder" >
+			 ]]></content>
+<pubDate>2008-05-02T19:12:15+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/505</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 代数曲面画廊 ]]></title>
+<link>http://www.matrix67.com/blog/archives/506</link>
+<content><![CDATA[ 
+		<p>   <img alt="image placeholder" >
+   <img alt="image placeholder" >
+   <img alt="image placeholder" >
+   <img alt="image placeholder" >
+<p>查看更多：<a href="http://www1-c703.uibk.ac.at/mathematik/project/bildergalerie/gallery.html">http://www1-c703.uibk.ac.at/mathematik/project/bildergalerie/gallery.html</a><br>
+（德语，Stetson MM快来翻译）</p>
+			 ]]></content>
+<pubDate>2008-05-04T20:35:21+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/506</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣题：空间四边形外切于给定球，求证四切点共面 ]]></title>
+<link>http://www.matrix67.com/blog/archives/507</link>
+<content><![CDATA[ 
+		<p>    多年以前，要想进入莫斯科国立大学的数学系，你必须通过四项入学考试；头两个都是数学考试，一个笔试，一个面试。在面试中，学生和考官都是一对一的，考官可以自由向学生提出任何他喜欢的问题。那时，为了筛选出他们不想要的应试者（主要是犹太人），很多考官都会出一些题目描述简单有趣、解答过程极其巧妙而又出人意料的问题。这些问题极具杀伤力，民间戏称其为“棺材问题”(coffin problems)。下面这个问题就是其中一个“棺材问题”：<br>
+    考虑一个空间四边形A1A2A3A4，它的四条边A1A2, A2A3, A3A4, A4A1都与一个给定的球相切。求证，这四个切点共面。<br>
+    为了更好地理解这个问题，考虑一个菱形的钢架沿对角线折叠，或者一个正四面体钢架去掉相对的两条棱。把这个空间四边形当成一个碗去接一个球，你会发现这个球卡在空间四边形中掉不下去了，此时它与四条边都相切。凭借我们的生活经验，我们很容易提出这个猜想：四个切点是共面的。</p>
+<p><span id="more-507"></span><br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+    这个问题最简单的解决办法竟然是借助物理学中重心的性质。我们曾经见过一道<a href="http://www.matrix67.com/blog/archives/391">用重心来解决的几何问题</a>，但这里你将看到的绝对更加经典。它们的基本方法都是一样的：给每个顶点分别挂上一个指定重量的砝码，然后利用“用部分质点的重心去替换这些质点，整个系统的重心不变”这一性质来解决问题。<br>
+    注意到球外一点向该球任意引切线，该点到所有切点的距离都是相等的。这是这个问题的核心，是整个证明过程中唯一用到了“球”这个条件的地方。假设从Ai向球引切线，Ai到切点的距离为Di。我们就在点Ai处挂上1/Di的重物。观察边A1A2，它们可以等价地用一个质量为1/D1 + 1/D2的点M代替，其中M的位置满足杠杆原理A1M / D1 = A2M / D2。考虑D1和D2的定义，这个M显然就在A1A2与球的切点位置上。我们把边AiAj与球的切点记作点Tij，于是四个切点T12, T23, T34, T41分别是对应的四条边A1A2, A2A3, A3A4, A4A1的重心。为了求出整个系统的重心，我们可以用T12代替A1和A2，用T34代替A3和A4，则整个系统的重心应该在T12和T34的连线上；但我们的“配对”方法不止这一种啊，我们为啥不用T23代替A2和A3，用T41代替A4和A1呢？这样，整个系统的重心就在T23和T41的连线上。但是，整个系统的重心是唯一的，于是T12、T34的连线和T23、T41的连线必然相交（交点即为整个系统的重心）。而相交的两条直线确定一个平面，T12, T23, T34, T41都在这个平面上。这就说明了四个切点是共面的。</p>
+<p>参考资料：<a href="http://www.cut-the-knot.org/blue/3DQuadrilateral.shtml">http://www.cut-the-knot.org/blue/3DQuadrilateral.shtml</a></p>
+			 ]]></content>
+<pubDate>2008-05-06T14:36:59+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/507</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 关于北大中文系应用语言学（上）：更多有趣的汉语语法现象 ]]></title>
+<link>http://www.matrix67.com/blog/archives/508</link>
+<content><![CDATA[ 
+		<p>    今年年初就有写这篇文章的打算，但迟迟未动键盘。我一直想给大家介绍一下北大中文系的应用语言学专业，与大家分享一下自己的亲身经历和切身体会，让更多理科生关注这个新兴专业，顺便也骗一些理科小loli到我们专业来（我喜欢的类型）。现在离高考越来越近了，再不写就不行了。其它一些废话我就不多说了，关于北大中文系应用语言学专业到底是咋回事，包括它的定位和出路，网上到处都有介绍。你可以在<a href="http://ccl.pku.edu.cn/all/">这里</a>看到一些比较正式的专业介绍，以及一份<a href="http://ccl.pku.edu.cn/all/course.html">详细的课程表</a>。其它一些如志愿填报、学习生活之类的比较杂的问题我也不谈了，<a href="http://ccl.pku.edu.cn/all/exchange.html">王婵娟师姐的文章</a>已经写的很详细了。这里主要侃一下我目前所学到的几门课程。</p>
+<p>    考虑到这篇文章可能会被到处转载，首先告诉大家，我的Blog是matrix67.com。你可以从这个Blog的内容里看到，我的思维是非常纯的理科思维，除了科幻小说和文字游戏以外，对语言文字提不起任何兴趣。因此，这里你可以看一看，一个对传统文学甚至有些抵触心理的应用语言学学生是如何看这个专业的。<br>
+    大一的专业课主要是现代汉语、古代汉语、现代文学史、计算概论和高等数学(C)。计算概论说穿了就是学C语言，高等数学说穿了就是微积分。这两个我都不说了。这里主要说一下前面三个和中文相关的专业课程。</p>
+<p><strong>现代汉语</strong></p>
+<p>    现代汉语是所有中文的专业课中最科学的课程之一，说穿了就是现代汉语语言学。我是相当喜欢这门课程的，希望你读到下面这段文字后也会对这门课产生一些兴趣。之前写了<a href="http://www.matrix67.com/blog/archives/477">这篇日志</a>，讲了汉语中某些词类的个别词语的特殊语法现象，想不到真的有人感兴趣，并期待我更新更多类似的东西。我们继续那篇日志，再选一些现代汉语课上学到的有趣的东西说说，希望大家能喜欢。</p>
+<p><span id="more-508"></span><br>
+1. 声母b和p，哪个的气流强？很多人可能以为，b的气流更强，因为它的声音更大。其实，这是错误的，p的呼出气流比b强的多，不信你拿一张纸放在嘴前面几厘米的地方，再发这两个音试试。同样地，声母t的气流也比d要大。这解释了一个语音现象：为什么“跟头”可以说成“跟dou”，为什么“糊涂”可以说成“糊du”。因为，后一个字是轻声，由于声音减轻，气流减弱，因此送气变成不送气，声母t听起来就像d了。</p>
+<p>2. 轻声的实际音高与什么有关？比较“木头”和“里头”，两个“头”字都是轻声，但它们的实际调值显然不一样，后面一个“头”的声音显然高的多。轻声的实际音高到底是由什么决定的呢？上面这个例子说明，显然不是由读轻声的这个字本身决定的。那么，和前一个字有关系？其实也不然，比较“椅子”和“李子”，两个“子”发音一模一样。但我们无意间发现，这两个“子”的音高竟然与“里头”的“头”差不多。于是我们想到，轻声的实际音高可能和它前一个字的声调有关。反复比较“珠子”、“竹子”、“主子”、“柱子”，每个词中两个字的声母、韵母和后一个字的原声调都一样，但四个“子”的实际音高各不相同，那只有可能是受到前一个字的声调的影响。一般认为，前一个字分别为一声、二声、三声、四声时，轻声字的实际音高大小分别为2、3、4、1。</p>
+<p>3. 儿化并不一定是表示小称和爱称（差点打成“爱城”了）。很多词的儿化已经失去了小称和爱称的意思，例如“100分儿”、“前边儿”、“词儿”。另外，儿化的另一个用途是区别词义。很多词儿化前后所表示的意思是不同的，例如盖（动词）和盖儿（名词），尖（形容词）和尖儿（名词）。</p>
+<p>4. 并不是只有名词才能儿化。比如，代词也能儿化，如“这儿”、“那儿”。很多量词也能儿化，比如“份儿”、“片儿”。你能想出动词、形容词、副词儿化的例子吗？先想想吧，下面是答案。<br>
+<span style="color:#E5E5E5;">动词：玩儿   形容词：蔫儿   副词：倍儿</span></p>
+<p>5. “啊”、“呀”、“哇”、“哪”是不能乱用的。我们说“天哪”、“好哇”、“你呀”，但为什么不能说“天呀”、“好哪”、“你哇”？这是因为，“天”、“好”、“你”后面本来都是一个“啊”字，但由于其韵尾分别是/n/、/u/、/i/，就把“啊”字分别“同化”为“哪”、“哇”、“呀”，产生了“天哪”、“好哇”、“你呀”的固定说法。注意，韵母ao的实际发音是/au/。</p>
+<p>6. 我们可以说“把马遛遛”，但不能说“把马骑骑”；我们可以说“把衣服洗洗”，但不能说“把衣服买买”；我们可以说“把报纸念念”，但不能说“把报纸借借”。为什么？能用这种语法结构表达的动作需要满足怎样的条件？试着举出更多的例子，找出它们的共同点。<br>
+<span style="color:#E5E5E5;">目前普遍认为，遛马、洗衣服、念报纸等动作满足“动因明确”、“带有必然结果”的条件。只有满足这个条件的动作才能进入“把+名词+动词重叠”的句子结构中</span></p>
+<p>7. 什么时候可以用“别”，什么时候可以用“甭”？我们可以说“别理他”，也可以说“甭理他”；但我们说“别感冒了”，却不能说“甭感冒了”。为什么？找出更多的例子，试着找出能加“别”但不能加“甭”的动词的规律。<br>
+<span style="color:#E5E5E5;">答案：感冒、出事、失败、病、忘、饿一类的动词都是非自主动词，这些动作不能由人主动发出，前面只用“别”，不用“甭”。</span></p>
+<p>8. 让我们把自主动词和非自主动词写成两行：<br>
+A) 走 吃 买 听 睡 洗 修 游行 讨论 打扫 学习 分析 参加 思考<br>
+B) 病 忘 醉 醒 饿 死 怕 感冒 出事 看见 失败 获得 知道 产生<br>
+我们已经知道，(A)前面一般既可以加“别”又可以加“甭”，但(B)前面决不可能用“甭”。你还能想出哪些语法现象可以区别出(A)和(B)这两类词？<br>
+<span style="color:#E5E5E5;">(A)可以单说（祈使句），如“走”；(B)单说时必须加上一个“了”，如“病了”。<br>
+(A)可以重叠，如“走走”、“讨论讨论”；(B)一般不能重叠。“醒醒”是一个例外，但此时的“醒”已经带有了自主动作的色彩。<br>
+(A)前面既可以用“马上”也可以用“立刻”；(B)前面只能用“立刻”不能用“马上”。<br>
+(A)可以作“肯”、“值得”的宾语，如“他不肯走”、“这值得学习”；(B)不能。<br>
+(A)前面可以受“不便”的修饰，如“不便走”；(B)不能。<br>
+(A)前面可以受方式副词修饰，如“亲自走”；(B)不能。</span></p>
+<p>9. 这就是语法分析的基本方法：把需要分析的词句放在各种语法环境中进行比较。考虑这样一个问题：为什么说“教室里有人做作业”、“今天有人没交作业”是主谓结构而不是状中结构？<br>
+<span style="color:#E5E5E5;">举出一些明显的主谓结构的例子，你会发现：在主谓结构中，主语和谓语间可以插入“是不是”，而在状中结构中则不能。这是主谓结构的一种常用的判断方法。“他睡了”可扩展为“他是不是睡了”；“苹果没熟”可扩展为“苹果是不是没熟”。同样的，“教室里有人做作业”可以变为“教室里是不是有人做作业”，表明这是一个主谓结构。<br>
+这种方法有局限性。当一个主谓句想强调的恰恰是主语部分时，这个主谓句是不能通过加“是不是”的检验的。例如，“我想去”可以扩展为“我是不是想去”，因为这里“想去”是句子的焦点；但“谁都想去”就没办法加“是不是”了，因为句子的焦点在主语部分上。</span></p>
+<p>10. 一些有趣的语法现象。在汉语言中，韵律竟然也对语法有影响。例如，大家可能已经注意到，很多词语搭配都是“一一”的或者“二二”的。我们可以说“重新学习”，也可以说“重学”，但一般不说“重学习”或者“重新学”。再比如，我们说“百般劝阻”而不说“百般劝”，我们说“购买书籍”而不说“购买书”，我们说“连看三遍”而不说“连阅读三遍”。有时，为了照顾韵律，我们甚至不顾语法结构，把联系更紧密的成分断开来读。例如：一衣/带水，我也/想买。</p>
+<p>11. 汉语的主谓搭配范围非常广。你觉得“我是女孩，她是男孩”这句话有问题吗？在某种场合下这种说法是成立的！！<br>
+<span style="color:#E5E5E5;">两位母亲刚生了小孩。她们抱着自己的小孩，坐在一起谈笑。一路人问，“你们生的都是女孩吗？”；一母亲笑笑说，“不，我是女孩，她是男孩。”</span></p>
+<p>12. 中文最有趣的地方就是词语的搭配有时很奇妙，令老外摸不着头脑。你相信吗，在有些主谓结构中，主语反而是动作的承受者；在动宾结构中，宾语反而是动作的发出者。你能想出这样的例子不？<br>
+<span style="color:#E5E5E5;">主谓结构中主语是受事：信写好了。苹果已经吃了。这两句话是主谓结构，它们中间可插入“是不是”。<br>
+动宾结构中宾语是施事：来客人了。住了一个人。</span><br>
+动宾结构的语义尤其丰富。“洗衣服”是对衣服发出动作，而“照镜子”的动作则与镜子本身没有任何关系，镜子只是动作的一个工具。“写一本书”也是动宾搭配，但“书”在写之前却根本不存在，它表示的是动作的结果。“写一条狗”的说法更令人摸不着头脑，没有上下文的情况下你要反应好半天才想到“一条狗”是指的文章的内容。“跳芭蕾舞”就更有趣了，“芭蕾舞”根本不是一个物体，只是用来表示“跳”的方式。而“吃食堂”、“踢后卫”一类的说法就更奇怪了，它到底是怎样的结构至今仍有争议。</p>
+<p>13. 汉语中，词序对句子意思的影响有时可能相当微妙。“在桌子上跳”表示活动的场所，“跳在桌子上”表示位移的终点。<br>
+汉语中的主语倾向于“有定”。说“客人来了”时，大家都知道客人是谁，正在等待他的到来；说“来客人了”，隐含“有人突然到访”的意思，大家还不知道来的人是谁。我们不说“一个同学站在操场上”，因为加上“一个”暗含了“无定”的意思，不适合放在主语的位置。说“操场上站着一个同学”就好多了。</p>
+<p>14. “白跑一趟”中的“白”是“没有收获”的意思。“白吃白喝”中的“白”是“没有代价”的意思。</p>
+<p>15. “突然”和“忽然”在语法上有什么区别？<br>
+<span style="color:#E5E5E5;">我们可以说“不突然”、“很突然”，但不能说“不忽然”、“很忽然”。这是因为，“突然”是形容词，而“忽然”是副词。形容词和副词都可以作状语，但副词一般是不能受“不”和“很”的修饰的。这是判断词类的基本方法。</span></p>
+<p>16. “白”和“雪白”看似相同，说“衣服是白的”和“衣服是雪白的”没什么两样。但它们的语法功能却有很大的不同。我们可以说“不白”、“很白”、“白得很”、“白一点”，但不能在“雪白”前面加“不”和“很”，也不能说“雪白得很”、“雪白一点”。与“雪白”的语法功能相似的词不止一个，“通红”、“笔直”、“众多”、“干干净净”、“灰不溜秋”等词都有这类现象。它们并不表示程度，只能表示状态，所以它们被称为“状态词”。</p>
+<p>17. 另一类形容词更怪，它们只能用作定语，“很…”、“不…”、“…得很”之类的一律不能加，甚至连“某某是…的”这种结构都不能说。你能想出这样的词吗？<br>
+<span style="color:#E5E5E5;">比较“大”和“大型”两个词，差别立即就出来了。很多地方都可以说“大”，但“大型”一词几乎只能放在名词前面用作定语，连“这台机器很大型”都不能说。类似的词还有男、公、金、高级、民用、固有、彩色、野生……<br>
+这种形容词的使用范围比状态词更窄，它表示物体的某一种属性，其作用就是依据这种属性对事物进行分类。因此这种词语往往成对出现。我们把这种词称作“区别词”。在《现代汉语词典》里，这类词被称作“属性词”。</span></p>
+			 ]]></content>
+<pubDate>2008-05-07T21:41:00+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/508</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 两个与无穷级数有关的悖论 ]]></title>
+<link>http://www.matrix67.com/blog/archives/509</link>
+<content><![CDATA[ 
+		<p>    我们想要计算无穷级数Σ(1/n)*(-1)^(n+1) = 1 – 1/2 + 1/3 – 1/4 + 1/5 – 1/6 …。首先我们需要说明，这个无穷级数是收敛的。注意到，从1的后面开始，每减去一个数后紧接着都会加上一个比它小的数，因此不管你加到哪儿，它的和始终不会超过1；另外，从1-1/2之后开始，每加一个数紧接着都会减去一个比它小的数，因此无论加到什么位置，整个和始终大于1/2。这说明，这个级数是收敛的，并且它收敛到1/2和1之间的某个数（事实上这个数是ln(2) ）。</p>
+<p>    好了，令这个无穷级数为S，现在对S进行这样的变换：</p>
+<p>S = 1 – 1/2 + 1/3 – 1/4 + 1/5 – 1/6 + …<br>
+  = (1 + 1/3 + 1/5 + 1/7 + …) – (1/2 + 1/4 + 1/6 + 1/8 + …)<br>
+  = (1 + 1/3 + 1/5 + 1/7 + …) – (1/2 + 1/4 + 1/6 + 1/8 + …) + (1/2 + 1/4 + 1/6 + 1/8 + …) – (1/2 + 1/4 + 1/6 + 1/8 + …)<br>
+  = (1 + 1/2 + 1/3 + 1/4 + …) – 2 * (1/2 + 1/4 + 1/6 + 1/8 + …)<br>
+  = (1 + 1/2 + 1/3 + 1/4 + …) – (1 + 1/2 + 1/3 + 1/4 + …)<br>
+  = 0</p>
+<p>    但刚才不是说了S是大于1/2的么？这怎么可能呢？</p>
+<p><span id="more-509"></span><br>
+    刚看到这个问题后，立即想起<a href="http://www.eaglefantasy.cn">Eagle Fantasy</a>也提到过一个<a href="http://www.eaglefantasy.cn/archives/86">类似的问题</a>。同样令</p>
+<p>  S =   1 – 1/2 + 1/3 – 1/4 + 1/5 – 1/6 + 1/7 – 1/8 + …  ①</p>
+<p>    ①式两边同时乘以1/2，有</p>
+<p>S/2 = 1/2 – 1/4 + 1/6 – 1/8 + 1/10 – …  ②</p>
+<p>    ①式和②式相加有：</p>
+<p>(3/2)*S = 1 + 1/3 – 1/2 + 1/5 + 1/7 – 1/4 + 1/9 + 1/11 – 1/6 + …  ③</p>
+<p>    比较①式和③式，它们的项竟是完全相同的，①中的所有项在③里都有，③里的每一个项也在①中出现过。你会惊奇地发现，仅仅是交换了项的顺序，整个无穷级数居然变成了原来的3/2倍！</p>
+<p>    这两个例子告诉我们，在无穷级数里，加法的交换律和结合率是不能乱用的。无穷级数的“和”不是一个普通的和，本质上是一个极限，是一系列“部分和”S1, S2, S3, …, Sn, …的极限，这显然已经超出了交换律和结合率的适用范围。最近我们高数正好学到无穷级数，我仔细看了一下一些无穷级数基本性质的叙述和证明。整个体系是相当严密的，每一步证明过程都充分利用到级数和极限的定义。</p>
+			 ]]></content>
+<pubDate>2008-05-08T23:19:13+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/509</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 记08年北大ACM选拔赛 ]]></title>
+<link>http://www.matrix67.com/blog/archives/510</link>
+<content><![CDATA[ 
+		<p>    早晨7:40的闹铃。到36楼下面见到了我的两个队友后，随便吃了点东西就出发了。<br>
+    计算中心门前特别热闹，N多人围在一张大桌子前，好像是在签到。我挤进去找了半天发现没我的名字，名单上全是信科的人。我抬头问，中文的在哪儿呢。一个美女姐姐用手指了远处的一个几乎没人的地方说“中文的在那边”，并说了一句“哇，中文的呀，太牛B了”。我顺着她手指的方向望过去，另一张小桌子前面贴了“中文”二字，桌子后面没有人，估计是交给了旁边负责数院和元培的人，让他们顺便管一下。从我目前所了解的情况来看，那张桌子应该是特别为我准备的，它在历史上很可能是第一次出现。</p>
+<p>      <img alt="image placeholder" >
+    第四题是做得最顺利的一道题。我把所有题粗略看了一遍后，首先决定就想这道题。题目描述巨简单，就是问你沿对角线把一个正n边形剖分成三角形和四边形有多少种方法。上图显示了n=5时所有的10种方法。熟悉组合数学的人都知道，三角形剖分方案对应的是Catalan数列，其递推公式的推导相当经典。设C(n)表示凸n+2边形的剖分方案数，枚举底边和哪一个点相连（下图左），容易看出C(n) = C(0)*C(n-1) + C(1)*C(n-2) + … + C(n-1)*C(0)。<br>
+     <img alt="image placeholder" >
+    现在，如果剖分中允许有四边形的出现，又该怎么办呢？看看数据规模n≤5000，估计应该是叫我们寻找类似的递推公式。容易想到，我们可以枚举底边与哪一个点相连构成三角形，统计出底边属于某个三角形的剖分方案T(n)=ΣC(i)C(j), i+j=n-1；再枚举底边和哪两个点相连构成四边形，统计底边在一个四边形上的剖分数Q(n)=ΣC(i)C(j)C(k), i+j+k=n-2。但是，枚举四边形需要O(n^2)的时间，这样的话整个程序就是O(n^3)的了，n=5000绝对超时。那怎么办呢？两分钟后，我想到了一个具有决定意义的点子：计算Q(n)可以直接利用以前算过的T(i)。枚举四边形的两个顶点时，固定四边形的左边那个顶点，你会惊奇地发现右半部分的所有情况加起来正好就是一个T(i) （上图右）。因此，ΣC(i)T(n-i-1)就是我们所需要的Q(n)。<br>
+    一个有趣的细节是，这道题要求选手输出结果除以2^64的余数，不知道会不会有人想不到这个该怎么处理；事实上只需要直接用64位无符号类型来运算就可以了，超界了后计算机储存的本来就已经是2^64的余数了。</p>
+<p><span id="more-510"></span><br>
+    Hanoi塔那道题也是一个有趣的数学问题。题目大意是说，如果允许Hanoi塔上有相同大小的盘子，最优解又是多少。输入数据给出盘子大小的种数和每种盘子的个数，叫你输出最优解的步数。我的第一想法就是，大小相同的盘子始终要在一起，移动时就排着队啪啪啪地挨个移动，总是保证大家一起行动。其实说穿了就相当于把大小相同的盘子当成一个整体，只是移动的时候有一个权值。这样，只需要考虑经典Hanoi塔中每个盘子需要移动几次就行了。但很快我们发现，这连样例都过不了。为什么就只有两个一样大的盘子时，输出会是3呢？再仔细看了一遍题目，发现麻烦了：一样大的盘子也是可以区别的，目标状态的盘子顺序必须与初始时一模一样。但我们很快发现，加上这个条件后对我们的原始想法影响并不大。在经典Hanoi塔中，第i大的盘子需要移动2^(i-1)次，除了最大的盘子只需要移动一次以外，其它盘子都要移动偶数次。而对大小相同的几个盘子整体转移一次后，盘子的次序正好完全颠倒，因此移动偶数次后次序不变。于是，我们只需要集中考虑最大的那种盘子该怎么处理。队友leimiaos做出了一个大胆的猜想，事实证明他是对的：把最底下那个盘子加大一号（最大的那种盘子就变成第二大的了，并且少了一个），这样就巧妙避开了多个最大号盘子的问题；这样做的结果显然是合法解，并且应该是最优的。</p>
+<p>    第一题是所有题目中最科学的一道。给你一个有向图，给定它的起点和终点。每一条边都有且只有一段开放时间，其它时间里这条边是不允许通过的。给出每条边的开放起始时间、关闭时间和通过这条边所需要耗费的时间，问你从起点到终点最少需要多少时间。我和leimiaos同时想到，在这道题目中我们要尽可能早地到每一个点，可以用直接套用Dijkstra算法更新到每个点的最早时间。反正你早到了也不亏，如果接下来要走的边还没开放的话我等一下就是了。leimiaos很快写完了这道题，但连样例都过不了。仔细研究了一下样例，我们发现问题严重了：我们要求的不是到终点的最早时间，而是从起点到终点全程所需的最少时间。换句话说，我可以先在起点处等着不走，看着时机成熟后再出发，虽然到终点时间更晚，但路上花的时间更少。怎么办呢？枚举出发时间是一个好办法，但时间的范围很大，肯定会超时；二分出发时间？显然不行，这个问题不具有单调性（考虑从起点直接连到终点的多重边，且所有边的开放时间都不相交）。十分钟后，我一拍大腿说，至少存在一个最优解，使得整个路程在某条边上正好卡着时间进去或者卡着时间出来。如果整个路程中所有边上的实际通过时间都是“松”的，就把整个行程时间安排挪动一下，直到某条边上的通行时间正好碰到开放时段的端点。这样的话，我们只需要枚举整个行程时间卡在哪条边上，然后用刚才的算法顺着推出从这儿走完剩下的路到终点的最早时间，并且反着推出从这儿往回走能够得到的最晚出发时间。这道题太精彩了！！可惜后来时间不够，算法的代码没有完成，算法的正确性和效率也不得而知了。</p>
+<p>    第二题是一道很难的数学题，很少有人做出来。因此我非常得意:) 说一个n阶的满Steiner树是指一个有2n-2个节点的无根树，其中n个叶子节点从1到n标号，另外n-2个节点（叫做Steiner顶点）连通了那n个点，并且每个Steiner节点的度都为3。你可以在<a href="http://acm.pku.edu.cn/JudgeOnline/problem?id=3595">这里</a>看到n=3时的惟一一个满Steiner树，以及n=4时的所有三个满Steiner树。输入一个n(3≤n≤10^7)，输出n阶的满Steiner树有多少个。要求用8.687E36这样的格式输出。<br>
+    随便把一个叶子节点砍掉，剩下的就是一棵正宗的二叉树，我们的问题实际上就变成了“有n-1个叶子节点的二叉树有多少个”，其中叶子节点带标号，并且二叉树不分左右。依据这个思路得到的递推公式就是( ΣC(n,i)F(i)F(n-i) )/2，那个C是组合数的意思，F(n)表示n阶满Steiner树的个数。但是n可能达到10^7，绝对不可能直接用我这个递推公式。我开始计算n=3, 4, 5, 6的情况，想看看有什么数学规律没。算出来的数是1, 3, 15, 105。然后牛B的事情就发生了，我眼睛突然一亮，发现它们间的比正好是3, 5, 7，也就是说F(n)=(2n-5)!!！（前两个叹号是双阶乘的意思，末一个感叹号是感叹号）。我立即写下一个程序，按这个公式计算F(30)，发现它果然得出8.687E36，和样例一模一样！<br>
+    真正戏剧性的事情发生了：暴力计算双阶乘超时了。怎么办？注意到，(2n-1)!!=(2n)!/(2^n*n!)。leimiaos突然想到，在这个精度要求下完全可以用Stirling近似公式。我们可以让n到了一定大时利用Stirling近似公式直接输出结果。n的阶乘约等于根号下(2πn)乘以(n/e)^n，在比赛中我们发现这个公式的精确程度令人瞠目结舌。非常神奇地，π和e居然出现在了阶乘的近似公式中！</p>
+<p>    发现Problem I是一道水题已经是很晚的事了，最后仍然没来得及把它调试完，太可惜了。前40名队伍中就只有我们没做这道题。Problem G据说也是水题，很多队伍都做了。Problem E也是一道相当科学的题目，我发现了一个nlogn的算法，但没时间写代码了。还有一道题目就是Zen Puzzle Garden游戏求解，一看就是BT的搜索，没一个参赛队伍做了那道题。Zen Puzzle Garden真的是个电脑游戏，就和尚扫地那个，网上都有下载的，还不错。另外两道题分别是一道简单的计算几何和一道简单的图论题。leimiaos顺利完成了那道图论题，计算几何那道题我们都不敢写。所有的题目都可以在<a href="http://acm.pku.edu.cn/JudgeOnline/showcontest?contest_id=1291">这里</a>看到。</p>
+<p>    最后的结果，我们只AC了10道题中的4道。ACM果然是拼时间的，好多题目我们都会，就是没时间写了。我N多年没写过代码了，昨天绝大多数代码都是leimiaos写的。也好嘛，这次就是抱着玩玩的心态来的，也长了一些经验。明年赛前我可能真的会认真准备一下。还有三年的机会呢，慢慢来吧。<br>
+    整场比赛的第一名AC了8道题，其中5道都是一次通过。你们猜这个队伍是哪三个人？告诉你，牛大B了，真的牛大B了。三个人分别是唐文斌、郭华阳、王栋。这次比赛是允许外校队伍报名参加的。</p>
+<p>    最后，非常感谢网友dahe_1984请我吃饭喝酒！昨晚的聊天非常愉快，喝得也很尽兴。</p>
+			 ]]></content>
+<pubDate>2008-05-11T18:12:44+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/510</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣题：寻找出现了奇数次的数 ]]></title>
+<link>http://www.matrix67.com/blog/archives/511</link>
+<content><![CDATA[ 
+		<p>1. 给你n个数，其中有且仅有一个数出现了奇数次，其余的数都出现了偶数次。用线性时间常数空间找出出现了奇数次的那一个数。<br>
+2. 给你n个数，其中有且仅有两个数出现了奇数次，其余的数都出现了偶数次。用线性时间常数空间找出出现了奇数次的那两个数。</p>
+<p> <br>
+ </p>
+<p style="color:#E5E5E5;">1. 从头到尾异或一遍，最后得到的那个数就是出现了奇数次的数。这是因为异或有一个神奇的性质：两次异或同一个数，结果不变。再考虑到异或运算满足交换律，先异或和后异或都是一样的，因此这个算法显然正确。</p>
+<p style="color:#E5E5E5;">2. 从头到尾异或一遍，你就得到了需要求的两个数异或后的值。这两个数显然不相等，异或出来的结果不为0。我们可以据此找出两个数的二进制表达中不同的一位，然后把所有这n个数分成两类，在那一位上是0的分成一类，在那一位上是1的分到另一类。对每一类分别使用前一个问题的算法。</p>
+<p>题目来源：<a href="http://groups.google.com/group/pongba/browse_frm/thread/f4a080edbe3ce0e1">http://groups.google.com/group/pongba/browse_frm/thread/f4a080edbe3ce0e1</a></p>
+<p><span id="more-511"></span><br>
+    来自<a href="http://groups.google.com/group/pongba">TopLanguage</a>的朋友们，你们好！！<br>
+    经常看网站的来路分析是一件很有意义的事情。很多牛B东西都是我在回访来路时找到的。牛人<a href="http://blog.csdn.net/pongba">Pongba</a>从03年开始就在CSDN上写Blog，每一篇文章都是经典的原创牛文，访问量巨大无比。他在Google Groups里建了一个group叫做TopLanguage，里边真是<a href="http://groups.google.com/group/pongba/web/toplanguagers">牛人</a>如云。如果你对程序设计一类的东西感兴趣，你会喜欢这个group的。<br>
+    向Pongda和TopLanguage的牛人们表示深深的膜拜。</p>
+			 ]]></content>
+<pubDate>2008-05-12T12:31:38+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/511</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 幽灵、吸血鬼与僵尸：有创意的推理解谜游戏 ]]></title>
+<link>http://www.matrix67.com/blog/archives/512</link>
+<content><![CDATA[ 
+		<p>   <img alt="image placeholder" >
+<p>    游戏的规则很简单。一个谜题由一个方阵和周围给出的数字组成。方阵中有的地方放有镜子，有的地方是空地。方阵外的数字表示站在这个地方的人可以看到多少个鬼怪。你需要把指定数量的幽灵、吸血鬼和僵尸放到空格中，每个空地必须且只能放一个鬼怪，并且要求最终的布局与方阵外的数字相符。这个游戏真正好玩的地方在于它的一个机智而有趣的设定：吸血鬼在镜子里看不到，幽灵只能从镜子里才能看到；而无论是直接看还是通过镜子看，僵尸都能被看到。看了上面这句话，喜欢看恐怖电影的网友多半都会会心一笑。这些设定大大增加了游戏的乐趣，也给推理解谜带来比数独更多的变化。比如，同样都是只能看到最左上角的那一个格子，直接看的人能看到鬼怪，透过镜子看的人什么也看不到，于是我们可以立即判断出最左上角的空地只能是吸血鬼。再比如，左下角有两个被镜子分开的格子，从两种方向看过去都只能看到一个鬼，于是这两个格子要么都是幽灵，要么都是吸血鬼。<br>
+    <a href="http://www.janko.at/Raetsel/Spukschloss/index.htm">这个网页</a>（德文）里给了20个谜题，有兴趣的话可以去试一试。</p>
+			 ]]></content>
+<pubDate>2008-05-13T17:36:09+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/512</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Foldit：全球玩家都来为生物科学做贡献！ ]]></title>
+<link>http://www.matrix67.com/blog/archives/513</link>
+<content><![CDATA[ 
+		<p><object width="425" height="355"><param name="movie" value="http://www.youtube.com/v/lGYJyur4FUA&amp;hl=en">
+<param name="wmode" value="transparent">
+<embed src="http://www.youtube.com/v/lGYJyur4FUA&amp;hl=en" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed></object></p>
+<p>    蛋白质结构一直是透析人体、了解病毒、制造药物的关键。然而，从无数多种可能的蛋白质结构中寻找最佳结构是一个相当困难的问题，即使利用高性能的计算机也需要耗费大量的时间和资金。受到SETI@home计划的启发，一些科学小组建立了Rosetta@home计划，让分布在世界各地的个人计算机一起来参与蛋白质三维形状的计算。对于千变万化的蛋白质形状来说，这仍然是一个相当庞大的工程。一些科学家注意到，在某些最优化问题上，人类的直觉远远强于一大堆计算机算法。<a href="http://fold.it/portal/info/science">Foldit</a>就是这样一个程序，它打算用人类的解谜思维来代替计算机算法中的一部分决策，把确定蛋白质的最佳三维形状设计成一个游戏，使得人们在游戏过程中也能对生物科学做出贡献。在这个游戏中你可以不断调整蛋白质的三维形状，上传最高分和所得的三维体，参与世界排名，并且还能与游戏参与者进行即时聊天。</p>
+			 ]]></content>
+<pubDate>2008-05-13T23:14:45+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/513</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣题：在指定形状的棋盘内放置n个相同的图形 ]]></title>
+<link>http://www.matrix67.com/blog/archives/514</link>
+<content><![CDATA[ 
+		<p>上个月Erich Friedman的<a href="http://www.stetson.edu/~efriedma/mathmagic">Math Magic</a>提出了这样的问题：<br>
+给定一个指定形状的棋盘，给定一个大于2的整数n，找出一个面积最大的图形S使得n个S能够不重叠地装进这个棋盘里。<br>
+问题提出之后得到了不少有趣的构造，这些构造是否为最优解还有待进一步证明。</p>
+<p> <br>
+由三个格子组成的棋盘共有两种本质不同的形状。“长条形”已经不用多考虑，“拐角形”中n=2, 3, 6时的最优解也是非常显然的。拐角形棋盘是可以分成四等分的。但是，在这个棋盘中放置5个相同的图形就没那么容易了。已知的最优方案占据了整个棋盘约0.959的面积。放置7个相同的图形研究起来更困难一些。已知最优解为0.956。</p>
+<p><img alt="image placeholder" >
+<p><span id="more-514"></span> <br>
+由四个格子组成的棋盘中，L形和T字形在n=2时各有一个15/16的解；</p>
+<p><img alt="image placeholder" >
+<p>Károly Hajba找到了n=5的L形棋盘目前已知的最优解，它占据棋盘约0.972的面积。</p>
+<p><img alt="image placeholder" >
+<p> <br>
+五个格子组成的棋盘变化更多，构造也更有趣。<br>
+n=2时有一些非常巧妙的构造，它们都是由Dick Hess发现的，面积分别为棋盘的0.928、9/10、9/10、0.871和0.864：</p>
+<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >
+<p> <br>
+Károly Hajba找到了拐角形在n=3时目前已知的最优解0.917。</p>
+<p><img alt="image placeholder" >
+<p> <br>
+大家可以到<a href="http://www.stetson.edu/~efriedma/mathmagic/0408.html">这里</a>查看一些更复杂的情况。</p>
+			 ]]></content>
+<pubDate>2008-05-15T14:48:53+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/514</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 分形生活之三：分形抽屉 ]]></title>
+<link>http://www.matrix67.com/blog/archives/515</link>
+<content><![CDATA[ 
+		<p>     <img alt="image placeholder" >
+<p>这是<a href="http://www.tmiyakawadesign.com/fractal-2.html">Takeshi Miyakawa</a>工作室设计的一款抽屉式储物柜，有一种分形的感觉，颇具Geek的味道。<br>
+图片来源：<a href="http://ffffound.com/image/36beab19234c8db955a7843f2712e8e2b3996f40">http://ffffound.com/image/36beab19234c8db955a7843f2712e8e2b3996f40</a></p>
+<p>只要有足够的想象力，你也能亲手制作一个生活中的分形小玩意儿。之前本Blog曾经介绍过<a href="http://www.matrix67.com/blog/archives/378">分形小饰物</a>和<a href="http://www.matrix67.com/blog/archives/491">分形饼干</a>。</p>
+			 ]]></content>
+<pubDate>2008-05-15T15:10:21+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/515</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ We can all make a difference! ]]></title>
+<link>http://www.matrix67.com/blog/archives/518</link>
+<content><![CDATA[ 
+		<p>   <img alt="image placeholder" >
+<p>图片来源：<a href="http://brownsharpie.courtneygibbons.org/?p=580">http://brownsharpie.courtneygibbons.org/?p=580</a></p>
+			 ]]></content>
+<pubDate>2008-05-18T02:22:11+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/518</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 牛！Mathematica还能这样用！自己制作马赛克拼图 ]]></title>
+<link>http://www.matrix67.com/blog/archives/519</link>
+<content><![CDATA[ 
+		<p>    <a href="http://blog.wolfram.com/2008/05/02/making-photo-mosaics/">Wolfram的Blog</a>上更新了一段非常牛的Mathematica代码，真的让我大开眼界。只需要三行代码，你就可以自己做一个马赛克拼图。<br>
+<code>imagePool = Map[With[{i = Import[#]}, {i, Mean[Flatten[N[i[[1, 1]]], 1]]}] &amp;, FileNames["Pool/*.jpg"]];<br>
+closeMatch[c_] := RandomChoice[Take[SortBy[imagePool, Norm[c - #[[2]]] &amp;], 20]][[1]];<br>
+Grid[Reverse[Map[closeMatch, Import["MasterImage.tif"][[1, 1]], {2}]], Spacings -&gt; {0, 0}]</code></p>
+<p>    其中，”Pool/*.jpg”是你的图库，我估计最少也得有几百张吧。我用Photoshop把我的collection全部处理成了35×35的小图；为了让最终效果更佳，我特地把它们全部处理成单色的，并且减小了对比度。”MasterImage.tif”是你的目标图片，Mathematica会把这个图片中的每一个像素用图库中一个合适的图来代替。我把我的照片剪裁了一下，然后压成19×22的大小。Mathematica首先把所有照片以及每个照片的RGB值的中位数存成一个list，函数closeMatch将图片按照RGB值的均方根排序，然后随机从头20个中选出一个。第三行用Grid函数输出我们所要的马赛克拼图。最后我们就得到了——由众MM图所组成的Matrix67的肖像画！！如果你还看不出来的话，站远点儿眯着眼睛就能看出来了。</p>
+<p><span id="more-519"></span><br>
+<img alt="image placeholder" >
+<p>    Mathematica 5.0貌似没有SortBy和Grid等函数，因此这段代码在5.0下面不能用。为此我专门把Mathematica升到了6.0，改进不小，建议还在用5.x的朋友都去试一试。起初在网上找Mathematica 6.0的下载找了半天，结果在北大数院的FTP里找到了，下载速度贼快。</p>
+			 ]]></content>
+<pubDate>2008-05-19T01:03:28+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/519</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Follow the Whitespaces 一个诡异的解谜网站 ]]></title>
+<link>http://www.matrix67.com/blog/archives/520</link>
+<content><![CDATA[ 
+		<p>    最近网上出现了一系列非常诡异的解谜网站。最早出现的是一个叫做<a href="http://www.aladygma.com/">aladygma</a>的网站，看上去相当诡异。屏幕中间几个大字“00|11|22|88”，右下角写有“follow the whitespaces”。按一下Ctrl+A后，你会发现满屏幕到处是由一个空格所构成的链接，有不少的链接地址本身也全是空格。一些链接所指向的页面仅仅是把屏幕中间的数字调了个个儿，另一些链接指向一些非常怪异的图片，不少图片都是与人体结构有关的，有些图片里的人体结构图所描述的明显不是人类。最神秘的页面则是一个要求输入登录密码的地方。网站似乎想向我们传递这样一个信息：2008年2月11日的211房间会出现外星人！？<br>
+    与此相关的一个网站是<a href="http://www.thewhitespaces.com/">thewhitespaces.com</a>，里面除了一段视频其它啥都没有。视频由一段外星人解剖和其它一些毫无联系的画面拼接而成，其诡异程度和<a href="http://www.matrix67.com/blog/archives/155">Lost的Brainwashing Scene</a>有的一拼。查看页面源代码，里面的注释占了起码3/4，注释里全是“FOLLOW THE WHITESPACES”。<br>
+    据说这是一个独立电影的宣传网站，看样子这个病毒式推广搞得非常到位，至少其科幻+神秘色彩已经吊足了我的胃口。根据上次<a href="http://www.matrix67.com/blog/archives/258">Cloverfield的宣传方式</a>，很多网友相信这一系列网站是<a href="http://www.imdb.com/title/tt1179933/">Cloverfield的未名续集</a>的宣传网站。Cloverfield是我近段时间看的最好看的电影，我打了9分。SPOILER WARNING -&gt; <span style="color:#E5E5E5;">那种独特的视角能带给人非常强烈的震撼，特别是片尾时在瓦砾深处传出一句”I love you”让人感觉特别真实，差点让我哭出来了</span> 
+			</p> ]]></content>
+<pubDate>2008-05-20T23:39:12+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/520</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 推荐视频：10 Optical Illusions in 2 Minutes ]]></title>
+<link>http://www.matrix67.com/blog/archives/521</link>
+<content><![CDATA[ 
+		<p>  来自Samsung的一段精彩的视频，你可以在短短两分钟的时间内看到10个经典的错觉演示。</p>
+<p>  <object width="425" height="355"><param name="movie" value="http://www.youtube.com/v/URLRdcnU6Hk&amp;hl=en">
+<param name="wmode" value="transparent">
+<embed src="http://www.youtube.com/v/URLRdcnU6Hk&amp;hl=en" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed></object></p>
+			 ]]></content>
+<pubDate>2008-05-21T03:36:00+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/521</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 8’s Imaginary Friend ]]></title>
+<link>http://www.matrix67.com/blog/archives/523</link>
+<content><![CDATA[ 
+		<p><img alt="image placeholder" >
+<p>来源：<a href="http://digg.com/general_sciences/Imaginary_Numbers">http://digg.com/general_sciences/Imaginary_Numbers</a></p>
+			 ]]></content>
+<pubDate>2008-05-22T19:47:57+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/523</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 《什么是数学》读书笔记（二·上）：从自然数到实数 ]]></title>
+<link>http://www.matrix67.com/blog/archives/524</link>
+<content><![CDATA[ 
+		<p>    今天，我们将从一系列公理开始，从自然数的产生一直说到实数理论的完善。你或许会对数学的“科学性”有一个新的认识。注意，本文的很大一部分内容并非直接来源《什么是数学》，这篇文章可以看作是《什么是数学》中有关章节的一个扩展。</p>
+<p>    自然数是数学界中最自然的数，它用来描述物体的个数，再抽象一些就是集合的元素个数。在人类文明的最早期，人们就已经很自然地用到了自然数。可以说，自然数是天然产生的，其余的一切都是从自然数出发慢慢扩展演变出来的。数学家Kronecker曾说过，上帝创造了自然数，其余的一切皆是人的劳作。 (God made the natural numbers; all else is the work of man.)<br>
+    随着一些数学理论的发展，我们迫切地希望对自然数本身有一个数学描述。从逻辑上看，到底什么是自然数呢？历史上对自然数的数学描述有过很多的尝试。数学家Giuseppe Peano提出了一系列用于构造自然数算术体系的公理，称为Peano公理。Peano公理认为，自然数是一堆满足以下五个条件的符号：<br>
+   1. 0是一个自然数；<br>
+   2. 每个自然数a都有一个后继自然数，记作S(a)；<br>
+   3. 不存在后继为0的自然数；<br>
+   4. 不同的自然数有不同的后继。即若a≠b，则S(a)≠S(b)；<br>
+   5. 如果一个自然数集合S包含0，并且集合中每一个数的后继仍在集合S中，则所有自然数都在集合S中。（这保证了数学归纳法的正确性）</p>
+<p>    形象地说，这五条公理规定了自然数是一个以0开头的单向有序链表。<br>
+    自然数的加法和乘法可以简单地使用递归的方法来定义，即对任意一个自然数a，有：<br>
+a + 0 = a<br>
+a + S(b) = S(a+b)<br>
+a · 0 = 0<br>
+a · S(b) = a + (a·b)</p>
+<p>    其它运算可以借助加法和乘法来定义。例如，减法就是加法的逆运算，除法就是乘法的逆运算，“a≤b”的意思就是存在一个自然数c使得a+c=b。交换律、结合率和分配率这几个基本性质也可以从上面的定义出发推导出来。<br>
+    Peano公理提出后，多数人认为这足以定义出自然数的运算，但Poincaré等人却开始质疑Peano算术体系的相容性：是否有可能从这些定义出发，经过一系列严格的数学推导，最后得出0=1之类的荒谬结论？如果一系列公理可以推导出两个互相矛盾的命题，我们就说这个公理体系是不相容的。Hilbert的23个问题中的第二个问题就是问，能否证明Peano算术体系是相容的。这个问题至今仍有争议。</p>
+<p><span id="more-524"></span>————————–^_^ 我是可爱的分割线 ^_^————————–</p>
+<p>    在数学发展史上，引进负数的概念是一个重大的突破。我们希望当a&lt;b时a-b能够继续成立，并让此时的a-b参与运算。现在我们还不知道当a&lt;b时a-b应该如何参与运算，但请注意到(a-b)与(c-d)总是满足下面两个看上去很符合常理的式子：<br>
+<em>(a-b)</em> + <em>(c-d)</em> = (a+c) – (b+d)<br>
+<em>(a-b)</em> · <em>(c-d)</em> = (ac + bd) – (ad + bc)<br>
+    我们可以非常自然地把上面的规则扩展到a&lt;b或c&lt;d时的情况。现在，我们可以把自然数扩展到全体整数：把符号<em>(a-b)</em>直接当作一个数来处理。如果a&gt;=b，符号<em>(a-b)</em>描述的是一个自然数；如果a&lt;b，符号<em>(a-b)</em>描述的就是一个“负数”。当a+d=b+c时，<em>(a-b)</em>和<em>(c-d)</em>属于同一个等价类（可以证明它们同时加上或乘上一个<em>(e-f)</em>的结果相同），我们认为它们是同一个数（正如1/2和2/4是同一个数一样）。注意到<em>(a-b)</em>–<em>(b-a)</em> = (a+b)-(b+a) = 0，也就是说<em>(a-b)</em> = 0-<em>(b-a)</em>。而<em>(a-b)</em>和<em>(b-a)</em>两个数中，至少有一个在原来我们的自然数范围内。受这个的启发，我们想到了用这两个数中的其中一个去描述另一个：当a&lt;b时，我们把<em>(a-b)</em>记作0-(b-a)；或者干脆不写那个0了，直接简记作-(b-a)。例如，我们可以把<em>(3-5)</em>直接写成-2。另外，注意到<em>(a-b)</em>+<em>(c-d)</em> = (a+c)-(b+d) = (c+a)-(d+b) = <em>(c-d)</em>+<em>(a-b)</em>，于是我们可以立即看出，引进负数后原有的加法交换律仍然成立。类似地，可以证明在上面的定义下，其它几个算术运算基本性质依然保持不变，因此从逻辑上看负数运算是合理的。</p>
+<p>————————–^_^ 我是可爱的分割线 ^_^————————–</p>
+<p>    生活中遇到的另一个问题就是“不够分”、“不够除”一类的情况。三个人分六个饼，一个人两个饼；但要是三个人分五个饼咋办？此时，一种存在于两个相邻整数之间的数不可避免的产生了。为了更好地表述这种问题，我们用一个符号a/b来表示b个单位的消费者均分a个单位的物资。真正对数学发展起到决定性作用的一个步骤是把由两个数构成的符号a/b当成一个数来看待，并且定义一套它所服从的运算规则。借助“分饼”这类生活经验，我们可以看出，对于整数a, b, c，有(ac)/(bc)=a/b，并且(a/b)+(c/d) = (ad+bc)/(bd), (a/b)·(c/d)=(ac)/(bd)。为了让新的数能够用于度量长度、体积、质量，这种定义是必要的。但在数学历史上，数学家们经过了很长的时间才意识到：从逻辑上看，新的符号的运算规则只是我们的定义，它是不能被“证明”的，没有任何理由要求我们必须这么做。正如我们定义0的阶乘是1一样，这么做仅仅是为了让排列数A(n,n)仍然有意义并且符合原有的运算法则，但我们绝对不能“证明”出0!=1来。事实上，我们完全可以定义(a/b) + (c/d) = (a+c)/(b+d)，它仍然满足基本的算术规律；虽然在我们看来，这种定义所导出的结果非常之荒谬，但没有任何规定强制我们不能这么定义。只要与原来的公理和定义没有冲突，这种定义也是允许的，它不过是一个不适用于度量这个世界的绝大多数物理量的、不被我们熟知和使用的、另一种新的算术体系罢了。<br>
+    我们称所有形如a/b的数叫做有理数。有理数的出现让整个数系变得更加完整，四则运算在有理数的范围内是“封闭”的了，也就是说有理数与有理数之间加、减、乘、除的结果还是有理数，可以没有限制地进行下去。从这一角度来看，我们似乎不大可能再得到一个“在有理数之外”的数了。<br>
+    当我们的数系扩展到有理数时，整个数系还出现了一个本质上的变化，这使我们更加相信数系的扩展已经到头了。我们说，有理数在数轴上是“稠密”的，任何两个有理数之间都有其它的有理数（比如它们俩的算术平均值）。事实上，在数轴上不管多么小的一段区间内，我们总能找到一个有理数（分母m足够大时，总有一个时刻1/m要比区间长度小，此时该区间内至少会出现一个分母为m的有理数）。这就使得人们会理所当然地认为，有理数已经完整地覆盖了整个数轴，所有的数都可以表示成a/b的形式。</p>
+<p>————————-^_^ 我是可爱的分割线 ^_^————————–</p>
+<p>    难以置信的是，这样的数竟然不能覆盖整个数轴；除了形如a/b的数以外，数轴上竟然还有其它的数！这是早期希腊数学最重要的发现之一。那时，古希腊人证明了，不存在一个数a/b，使得其平方恰好等于2。平方之后等于2的数不是没有（可以用二分法找出这个数），只是它不能表示成两个整数之比罢了。用现在的话说就是，根号2不是有理数。你可以在<a href="http://www.matrix67.com/blog/article.asp?id=196">这里</a>看到至少5种证明根号2不能表示成整数与整数之比的方法。根号2这种数并不是凭空想象出来的没有实际意义的数，从几何上看它等于单位正方形的对角线长。我们现有的数竟然无法表达出单位正方形的对角线长这样一个简单的物理量！因此，我们有必要把我们的数系再次进行扩展，使其能够包含所有可能出现的量。我们把所有能写成整数或整数之比的数叫做“有理数”，而数轴上其它的数就叫做“无理数”。它们合在一起就是“实数”，代表了数轴上的每一个点。</p>
+<p>    其实，构造一个无理数远没有那么复杂。我们可以非常轻易地构造出一个无理数，从而说明无理数的存在性。把所有自然数串起来写在一起所得到的Champernowne常数0.12345678910111213141516…显然是个无理数。考虑用试除法把有理数展开成小数形式的过程，由于余数的值只有有限多种情况，某个时刻除出来的余数必然会与前面重复，因此其结果必然是一个循环小数；而Champernowne常数显然不是一个循环小数（不管你宣称它的循环节是什么，我都可以构造一个充分长的数字串，使得你的循环节中的某个数字根本没在串中出现，并且显然这个串将在Champernowne常数中出现无穷多次）。这个例子说明，数轴上还存在有大量的无理数，带根号的数只占无理数中微不足道的一部分。这个例子还告诉我们，不是所有的无理数都像pi一样可以用来测试人的记忆力和Geek程度。</p>
+<p>    在定义无理数的运算法则中，我们再次遇到了本文开头介绍自然数时所面临的问题：究竟什么是无理数？无理数的运算该如何定义？长期以来，数学家们一直受到这个问题的困惑。19世纪中期，德国数学家Richard Dedekind提出了Dedekind分割，巧妙地定义了无理数的运算，使实数理论得到了进一步的完善。<br>
+    在此之前，我们一直是用有序数对来定义一种新的数，并定义出有序数对之间的等价关系和运算法则。但Champernowne常数这种让人无语的无理数的存在使得这种方法能继续用于无理数的定义的希望变得相当渺茫。Dedekind不是用两个或多个有理数的数组来定义无理数，而是用全体有理数的一个分割来定义无理数。我们把全体有理数分成两个集合A和B，使得A中的每一个元素都比B中的所有元素小。显然，满足这个条件的有理数分割有且仅有以下三种情况：</p>
+<p>   1. A中有一个最大的元素a*。例如，定义A是所有小于等于1的有理数，B是所有大于1的有理数。<br>
+   2. B中有一个最小的元素b*。例如，定义A是所有小于1的有理数，B是所有大于等于1的有理数。<br>
+   3. A中没有最大的元素，且B中没有最小的元素。例如，A由0、所有负有理数和所有平方后小于2的正有理数组成，B由所有平方后大于2的正有理数组成。每一次出现这种情况，我们就说这个分割描述了一个无理数。</p>
+<p>    注意，“A中有最大元素a*且B中有最小元素b*”这一情况是不可能出现的，这将违背有理数的稠密性。a*和b*都是有理数，它们之间一定存在其它的有理数，而这些有理数既不属于集合A，也不属于集合B，因此不是一个分割。<br>
+    为什么每一种情况3都描述了一个确定的无理数呢？其实这非常的形象。由于A里面没有最大的元素，因此我们可以永不停息地从A里面取出越来越大的数；同样地，我们也可以不断从B里面取出越来越小的数。这两边的数将越来越靠近，它们中间夹着的那段区间将越来越小，其极限就是数轴上的一个确定的点，这个点大于所有A里的数且小于所有B里的数。但集合A和B已经包含了所有的有理数，因此这个极限一定是一个无理数。因此从本质上看，Dedekind分割的实质就是用一系列的有理数来逼近某个无理数。<br>
+    你也许想到了，现在我们可以很自然地定义出无理数的运算。我们把一个无理数所对应的Dedekind分割记作(A,B)，则两个无理数(A,B)和(C,D)相加的结果就是(P,Q)，其中集合P中的元素是由A中的每个元素与C中的每个元素相加而得到，余下的有理数则都属于集合Q。我们也可以用类似的办法定义出无理数的乘法。另外，我们能够很快地验证，引入无理数后我们的运算仍然满足交换律、结合率等基本规律，这里就不再多讲了。</p>
+<p>哦对了，差点忘了：<br>
+Matrix67原创，转贴请注明出处</p>
+			 ]]></content>
+<pubDate>2008-05-22T23:14:23+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/524</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Google Treasure Hunt 2008开始啦！ ]]></title>
+<link>http://www.matrix67.com/blog/archives/525</link>
+<content><![CDATA[ 
+		<p>    一个迟到的消息：<a href="http://treasurehunt.appspot.com/">Google Treasure Hunt 2008</a>已经开始了，这是<a href="http://www.google.com/events/treasurehunt2008/index.html">Google Sydney</a>为了挖掘出新的工程师而精心设置的一个活动。现在已经有两道题目了，在以后几周的时间里Google将陆陆续续地发布更多的题目。第一个答对所有问题的人将成为这次Treasure Hunt的获胜者。<br>
+    有兴趣的朋友赶快去试一试。</p>
+			 ]]></content>
+<pubDate>2008-05-24T02:06:01+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/525</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Ubigraph：强大而易用的图论动画生成软件 ]]></title>
+<link>http://www.matrix67.com/blog/archives/526</link>
+<content><![CDATA[ 
+		<p><embed src="http://union.bokecc.com/flash/player.swf?videoID=27994_3342863&amp;autoStart=false" width="438" height="387" allowfullscreen="true" type="application/x-shockwave-flash"></embed></p>
+<p>    <a href="http://www.ubietylab.net/ubigraph/index.html">Ubigraph</a>是一个全新的图论动画生成软件，利用它你可以快速生成图论模型的图形和动画，直观地展示出各种图论模型的三维结构，演示各种图论算法的过程，非常适合用于研究和教学。之前本Blog曾经介绍过一个类似的软件<a href="http://www.matrix67.com/blog/archives/160">graphviz</a>，但这里提到的Ubigraph显然更强大一些。上面的动画就是由Ubigraph生成的二叉查找树演示动画（高清版<a href="http://www.ubietylab.net/ubigraph/content/Demos/random_binary_tree.html">here</a>），看上去相当的酷。值得一提的是，Ubigraph也是相当易用的。graphviz有它自己的语法规则，而Ubigraph则直接支持Python, Ruby, PHP, Java, C, C++等几乎所有主流语言，因此不管你原先使用的是什么语言，你都可以很快地融入到Ubigraph来。例如，在C语言中包含一个头文件UbigraphAPI.h，你便可以像往常一样用循环语句“画”一个环。</p>
+<p><code>#include &lt;UbigraphAPI.h&gt;<br>
+ <br>
+int main(int const argc, const char ** const argv)<br>
+{<br>
+  int i;<br>
+  for (i=0; i &lt; 10; ++i)
+    ubigraph_new_vertex_w_id(i);
+ 
+  for (i=0; i &lt; 10; ++i)
+    ubigraph_new_edge(i, (i+1)%10);
+ 
+  sleep(2);
+ 
+  ubigraph_clear();
+}</code></p>
+<p>    你可以在<a href="http://www.ubietylab.net/ubigraph/content/Downloads/index.php">这里</a>下载这个软件。目前该软件暂时没有Windows版。</p>
+			 ]]></content>
+<pubDate>2008-05-25T00:47:33+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/526</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ Curta：神奇的纯机械计算器 ]]></title>
+<link>http://www.matrix67.com/blog/archives/527</link>
+<content><![CDATA[ 
+		<p><object width="425" height="355"><param name="movie" value="http://www.youtube.com/v/HYsOi6L_Pw4&amp;hl=en">
+<param name="wmode" value="transparent">
+<embed src="http://www.youtube.com/v/HYsOi6L_Pw4&amp;hl=en" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed></object></p>
+<p>老古董了，现在找都找不到。真想要一个。<br>
+不知道有没有人见到过。<br>
+来源：<a href="http://jandan.net/2008/05/24/curta-calculator.html">http://jandan.net/2008/05/24/curta-calculator.html</a></p>
+			 ]]></content>
+<pubDate>2008-05-27T15:00:21+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/527</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣题：直尺不够长时如何作出连接两点的直线？ ]]></title>
+<link>http://www.matrix67.com/blog/archives/528</link>
+<content><![CDATA[ 
+		<p>    射影几何太科学了！太科学了！以后我要慢慢写进Blog里。这里说一个《什么是数学》中射影几何章节中的一个小插曲，和射影几何本身没太大关系：纸上两点A和B，它们之间的距离大于直尺的长度。你如何只用直尺作出过这两点的连线？注意，你只能使用笔和直尺，不能借助圆规等其它工具。</p>
+<p> <br>
+ <br>
+  <img alt="image placeholder" >
+<p>    首先让我们回顾一下射影几何中的Desargues定理。Desargues定理描述了一个由简单的点和线所构成的美妙的关系：平面上的两个三角形的对应顶点的连线共点，则对应边的交点共线。你可以多画几个图来验证这一结论，这里不再介绍完整的证明了。另外，虽然题目中的直尺不能连接距离太远的两点，但别忘了直尺可以无限延长一条已有的线段，你只需要不断重复“延长 – 描新点”的步骤就可以了。</p>
+<p><span id="more-528"></span><br>
+   <img alt="image placeholder" >
+    从A点出发，向任意两个方向作射线。两条射线的夹角应该尽可能小，因为一会儿要连接射线上的两点，太远了当心直尺够不着。对B点作相同的处理。画出这两对射线的交点M和N。连接并延长MN，在MN上任意找一点X。从点X出发，向任意两个方向作射线（这两条射线的夹角也是越小越好，原因同上），其中一条射线与从A出发的两条射线交于P1,Q1，另外一条射线与以B为端点的两条射线交于P2,Q2。注意，△NP1P2和△MQ1Q2两个三角形构成了一个满足Desargues定理的图形，因此P1P2和Q1Q2的交点必然与点A、点B共线。此时，我们就找到了所求直线上的一个新的点C。接下来，我们只需要将C点和已有的A或者B相连，并且延长直到贯穿A、B两点。<br>
+    当然，这么做的前提是C的位置离A和B中的某个点足够近才行。要是C点离A和B仍然很远咋办？起初M和N的距离，P1和P2的距离，以及Q1和Q2的距离，我们都是可以控制的，这可以保证我们的直尺够得着；但鬼知道这样作出来的C点跑哪儿去了呢？这怎么办呢？多试几次直到作出一个合适的C来？其实解决办法很简单，稍微调整一下射线X-P1-Q1的角度，我们又能作出一个新的点C’，显然C和C’的距离可以达到任意小，并且C和C’两点都在AB上。连接C和C’后，我们就可以无限延长直线AB了。</p>
+			 ]]></content>
+<pubDate>2008-05-27T15:32:46+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/528</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 排序算法、时间复杂度与信息熵 ]]></title>
+<link>http://www.matrix67.com/blog/archives/529</link>
+<content><![CDATA[ 
+		<p>    在<a href="http://www.matrix67.com/blog/archives/172">这篇文章</a>里，我们从信息论的角度证明了，基于比较的排序算法需要的比较次数（在最坏情况下）至少为log2(n!)，而log(n!)=Θ(nlogn)，这给出了比较排序的一个下界。但那里我们讨论的只是最理想的情况。一个事件本身所含的信息量是有大小之分的。看到<a href="http://users.aims.ac.za/~mackay/sorting/sorting.html">这篇文章</a>之后，我的思路突然开阔了不少：信息论是非常强大的，它并不只是一个用来分析理论最优决策的工具。从信息论的角度来分析算法效率是一件很有趣的事，它给我们分析排序算法带来了一种新的思路。</p>
+<p>    假如你手里有一枚硬币。你希望通过抛掷硬币的方法来决定今天晚上干什么，正面上网反面看电影。投掷硬币所产生的结果将给你带来一些“信息”，这些信息的多少就叫做“信息量”。如果这个硬币是“公正”的，正面和反面出现的概率一样，那么投掷硬币后不管结果咋样，你都获得了1 bit的信息量。如果你事先就已经知道这个硬币并不是均匀的，比如出现正面的概率本来就要大得多，这时我们就说事件结果的不确定性比刚才更小。如果投掷出来你发现硬币果然是正面朝上，这时你得到的信息量就相对更小（小于1 bit）；反之如果投掷出来居然反面朝上了，那你就得到了一个相对较大的信息量（大于1 bit）。但平均下来，我们得到的信息量是小于1 bit的，因为前者发生的可能性毕竟要大一些。最极端的情况就是，这是一枚被捣了鬼的魔术硬币，你怎么投都是正面。此时，你投了硬币等于没投，反正结果都是正面朝上，你得到的信息量永远为0。<br>
+    这个理论是很符合生活实际的。昨天晚上我出去吃饭时，坐在我后面的那个人是男的还是女的？这种问题就比较有价值，因为大家都猜不到答案究竟是什么；但要问我昨天跟谁一起出去上自习去了，问题的答案所含的信息量就变小了，因为大家都知道如果我破天荒地跑去自习了的话多半是有MM陪着一起去的。如果有网友问我是男的还是女的，那就更不可思议了，因为我不但多次在这个Blog里提到我一直想找一个合适的MM，还在AboutMe里面发了我的照片。如果某人刚操完一个MM，突然扭过头去问“对了，你是男的还是女的呀”，那这个人绝对是一个不折不扣的大傻B，因为这个问题所能带来的信息量几乎为0。<br>
+    总之，当每种结果出现的概率都相等，事件的不确定性达到最大，其结果最难预测时，事件的发生将会给我们带来最大的信息量。我们把一个事件的不确定程度叫做“熵”，熵越大表明这个事件的结果越难以预测，同时事件的发生将给我们带来越多的信息。如果在排序算法里每次比较的熵都是最大的，理论上来说这种（基于比较的）排序算法就应当是最优的。但我们一会儿将看到，我们已知的排序算法总是不完美的，每种算法都会或多或少地存在一些价值明显不大的比较。</p>
+<p><span id="more-529"></span>    首先我们来看三种经典的平方复杂度算法。它们的效率并不高，原因就在于算法过程中会出现越来越多概率严重不均的比较。随着冒泡排序的进行，整个序列将变得越来越有序，位置颠倒的泡泡将越来越少；选择排序的每一趟选择中，你都会不断得到越来越大的数，同时在以后的比较中找到更大的数的概率也越来越低；在插入排序中，你总是把新的数与已经排好的数按从大到小的顺序依次进行比较，可以想到新的数一开始就比前面所有的数中最大的那个还大的概率是相当小的。受此启发，我们可以很自然地想到一个插入排序的改进：处理一个新的数时，为何不一开始就与前面处理过的数中的中位数进行比较？这种比较的熵显然更大，能获取的信息量要大得多，明显更有价值一些。这就是插入排序的二分查找改进。</p>
+<p>    下面我们再来看一看几种O(nlogn)的排序算法。在快速排序算法中，比较的信息熵不会因为排序算法的进行而渐渐减小，这就是快速排序比上面几个排序算法更优秀的根本原因。仔细回顾快速排序算法的过程，我们立即看出，每次比较的两种结果出现的概率完全由这一趟划分过程所选择的基准关键字决定：选择的基准关键字刚好是当前处理的数字集合的中位数，则比较结果的不确定性达到最大；如果选择的基准关键字过大或过小，都会出现比较产生的结果不均等的情况，这使得每次比较平均带来的信息量大大减少。因此，快速排序算法是很看人品的：如果基准选的好，算法完全有可能达到理论上的最优；如果基准选的不好，复杂度很容易退化到O(n^2)。<br>
+    堆排序所需要的比较次数更多，因为在堆的删除操作中有一种明显不平衡的比较。在删除操作中，我们把根节点用整个堆的最末一个节点来代替，然后不断下沉直到它的儿子都比它大。判断它的两个儿子是否比它大，其信息熵是相当小的，因为这个节点本身就来自堆的底部，除非这个节点已经沉到很底下了，否则儿子比它大的概率是很小的。因此，我们想到了一个堆排序的优化：反正堆建好了以后不需要再插入新元素了，为何不舍弃堆的完全二叉树性质？我们可以直接把根元素改成无穷大，让它沉到底，不用再考虑儿子比它大的问题了，也不再顾及堆的形状。这样的话，堆排序是否就完美了呢？仔细想想你会发现，改进之后的比较操作仍然是不对称的。这种不对称主要来自两个方面：左子树和右子树的节点个数不同，以及被删除的根节点原先是来自左子树还是右子树。比方说，根节点原本就是从右子树提上来的，现在删除了根节点后，左子树的最小值比右子树的最小值更小的概率就偏大一些；此时万一右子树节点本来就比左边少，这样的话这个比较的熵就更小了。<br>
+    最后看一下归并排序。在有序队列的合并操作中，绝大多数情况下的比较操作都是比较平衡的。左边一半中的最小值和右边一半中的最小值进行比较，结果显然是等概率的。当然，随后将发生其中一边的最小值与另一边的次小值进行比较，这时的比较操作略微有了一些不平衡，并存在较小的可能使得比较操作变得更加不平衡（最小值与第三小的值相比）。有趣的是，比较越是不平衡，重新归于平衡的概率就越大，就好像归并排序中的信息熵会自动调整一样。这就是归并排序比平方复杂度的排序算法效率更高的原因。当然，完全有可能出现这样的情况：右边的数奇小无比，左边的最小值比右边的所有值都大。结果最后右边的队列都处理完了左边还没开始取数，此时合并操作提前结束，所花费的比较次数出人意料地少。从信息熵的角度来看，这种“比较提前结束”的现象是非常自然的：这种情况毕竟是“出人意料”的，事实越出人意料，获得的信息量就越大，因此算法就提前结束了。但这种情况毕竟是相当罕见的，平均情况下每次比较的信息量仍然不足1 bit。</p>
+<p>    最后，为什么线性排序的算法可以达到O(n)的复杂度？这是因为，线性排序算法并不是基于比较的。一次比较事件（假设没有相等的情况）所能产生的信息量最多1 bit，而一次Hash分类可以获得的信息量远远超过了1 bit，因为它可以一次确定出n种等概率的可能情况。</p>
+<p>Matrix67原创，转贴请注明出处~~</p>
+			 ]]></content>
+<pubDate>2008-05-30T13:23:49+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/529</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 祝所有网友六一儿童节快乐！ ]]></title>
+<link>http://www.matrix67.com/blog/archives/530</link>
+<content><![CDATA[ 
+		<p><strong>小学四年级数学 第二学期期末测试题</strong><br>
+(时间：90分钟   总分：100分)</p>
+<p><strong>一、直接写得数(每题0.5分，共10分)</strong></p>
+<p>32.8＋19＝           0.51÷17＝              240÷30＝            1000×0.8＝</p>
+<p>3.06＋0.2＝          0.67＋1.24＝            8×125＝             7－6.28＝</p>
+<p>8.2－0.01＝          99×23＝                50×4＝              5÷1000＝</p>
+<p>0.42＋9.5＝          65×25×4＝             0.08÷100＝          10×0.5＝</p>
+<p>1.82－0.63＝         4.5＋1.5＝              1－0.63＝            231－99＝</p>
+<p><strong>二、填空(每空1分，共15分)</strong></p>
+<p>1．一个数，亿位上是6，百万位上是4，十万位上是5，千位上是8，其余各位上都是0，这个数写作(    )，读作(    )，最高位的计数单位是(    )．</p>
+<p>2．三百二十三亿六千八百七十万，写作(    )，改写成用“亿”作单位的数约是(    )．</p>
+<p>3．25米60毫米＝(    )毫米</p>
+<p>4．3.45平方米＝(    )平方米(    )平方分米</p>
+<p>5．150分＝(    )时(    )分</p>
+<p>6．15吨60千克＝(    )千克</p>
+<p>7．自然数和0都是(    )数．</p>
+<p>8．在<img alt="image placeholder" >
+<p><span id="more-530"></span><strong>三、判断（正确的在括号里划“√”，错误的在括号里划“×”）(每题1分，共10分)</strong></p>
+<p>1．小数加法的意义与整数加法的意义完全相同．                       (    )</p>
+<p>2．不相交的两条直线叫做平行线．                                   (    )</p>
+<p>3．在有余数的除法里，除数一定比余数大．                           (    )</p>
+<p>4．0.47扩大10倍等于470缩小100倍．                                 (    )</p>
+<p>5．角的大小与边的长短有关．                                       (    )</p>
+<p>6．小数一定比整数小．                                             (    )</p>
+<p>7．最大的四位数比最小的五位数多1．                                (    )</p>
+<p>8．有二个角是锐角的三角形叫锐角三角形．                           (    )</p>
+<p>9．57×101的简便算法是57×100＋57＝5757．                         (    )</p>
+<p>10．a×b的积一定大于a．                                           (    )</p>
+<p><strong>四、计算题(共33分)</strong></p>
+<p>1．计算下面各题并验算．(每题2分，共4分)</p>
+<p>① 802×11     ② 329÷48</p>
+<p>2．求未知数x．(每题2分，共8分)</p>
+<p>① x×123＝1845     ② x＋0.05＝3.528</p>
+<p>③ x－3.6＝7.89     ④ 8064÷x＝144</p>
+<p>3．计算下面各题，能用简便算法的用简便算法(每题3分，共21分)</p>
+<p>① 3871－(1080－740)×7     ② 5175÷207＋102×9</p>
+<p>③ 0.9＋1.08＋0.92＋0.1     ④ 13.59－6.91－0.09</p>
+<p>⑤ 983×(3.8＋2.2)＋0.237×1000</p>
+<p>⑥ 0.8×(35＋65)×5÷100</p>
+<p>⑦ 30－[17.8＋(6.2＋38÷10)]</p>
+<p><strong>五、列式计算(每题3分，共12分)</strong></p>
+<p>1．10减去5.6与1.4的和，所得的差去除246，商是多少？</p>
+<p>2．6.2减去2.4与1.3的和，所得的差乘以100，积是多少？</p>
+<p>3．21乘以32与88的积，所得的积再减去9136，差是多少？</p>
+<p>4．357除以7的商，加上1000与0.875的积，和是多少？</p>
+<p><strong>六、应用题(每题5分，共20分)</strong></p>
+<p>1．某小学三年级和四年级要给620棵树浇水，三年级每天浇40棵，浇了8天；剩下的由四年级来浇，5天浇完，平均每天浇多少棵？</p>
+<p>2．3台织布机4小时织布336米，照这样计算，1台织布机8小时织布多少米？</p>
+<p>3．甲乙两地相距560千米，一辆汽车从甲地开往乙地，每小时行48千米，另一辆汽车从乙地开往甲地，每小时行32千米．两车从两地相对开出5小时后，两车相距多少千米？</p>
+<p>4．一段公路原计划20天修完．实际每天比原计划多修45米，提前5天完成任务．原计划每天修路多少米？</p>
+<p> <br>
+ <br>
+<strong>参考答案</strong></p>
+<p>一、(略)</p>
+<p>二、<br>
+1．604508000，六亿零四百五十万八千，亿．<br>
+2．32368700000，324亿．<br>
+3．25060<br>
+4．3，45<br>
+5．2，30<br>
+6．15060<br>
+7．整<br>
+8．<img alt="image placeholder" >
+<p>三、1．√   2．×   3．√   4．√   5．×   6．×   7．×  8．×   9．√   10．×</p>
+<p>四、<br>
+1．计算下面各题并验算<br>
+①8822   ②6……41</p>
+<p>2．求未知数x<br>
+① x=15   ② x=3.479   ③ x=11.49   ④ x=56</p>
+<p>3．计算下面各题，能用简便算法的用简便算法<br>
+① 1491   ② 943   ③ 3   ④ 6.59   ⑤ 6135   ⑥ 4   ⑦ 2.2</p>
+<p>五、1．82   2．250   3．50000   4．926</p>
+<p>六、1．60棵   2．224米   3．160千米  4．45×(20－5)÷5=135(米)</p>
+<p>转自<a href="http://www.mathcn.com/Article_D/2005-11/777435621134125.htm">http://www.mathcn.com/Article_D/2005-11/777435621134125.htm</a></p>
+			 ]]></content>
+<pubDate>2008-06-01T03:02:06+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/530</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ xkcd：每一个该死的早晨（深有同感） ]]></title>
+<link>http://www.matrix67.com/blog/archives/533</link>
+<content><![CDATA[ 
+		<p>   <img alt="image placeholder" >
+<p><span id="more-533"></span><br>
+    好多次，我和朋友走在去上课的路上，突然眼睛一亮，说“我昨晚做了一个梦，特别牛B”。但我也就只记得我做了一个牛B梦，打死我也想不起梦到了什么。我甚至能记起我梦到了谁，梦里的一些特别的数字，但就是想不出梦见了啥。据说起床后10秒钟内如果你没记起你的梦，你就记不起来了。几年前的一天里我有过一次很特别的经历，那天起床后我立即记起梦里的各个细节，并且立刻拿笔记录了下来。其它时间里我做的梦几乎都已经是模糊的了。梦这个东西真的很神奇，你觉得呢？<br>
+    最近两次xkcd的漫画让我觉得特别有同感。上面这个是其中之一。另一个在<a href="http://xkcd.com/429">xkcd.com/429</a>，特别有Geek的感觉，或许只有Geek才有这么想过。图片太宽了，我就不放在Blog上了。</p>
+			 ]]></content>
+<pubDate>2008-06-02T18:59:56+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/533</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 趣题：构造1到n-1的排列使得前缀和模n仍为一个排列 ]]></title>
+<link>http://www.matrix67.com/blog/archives/532</link>
+<content><![CDATA[ 
+		<p>对于哪些n，存在一个1到n-1的排列S_1, S_2, …, S_n-1，使得T_1, T_2, …, T_n-1也是一个1到n-1的排列，其中，</p>
+<p>T_1 = S_1 mod n,<br>
+T_2 = (S_1 + S_2) mod n,<br>
+T_3 = (S_1 + S_2 + S_3) mod n,<br>
+…….<br>
+T_n-1 = (S_1 + S_2 + … + S_n-1) mod n.</p>
+<p><span id="more-532"></span><br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+    首先，当n为奇数时，这样的排列永远不可能出现，因为T_n-1 = (1 + 2 + … + (n-1)) mod n = 0，而我们的排列是不包含0的。<br>
+    当n为偶数时，这样的排列是一定存在的。事实上，当n为偶数时，n-1, 2, n-3, 4, n-5, 6, …, 3, n-2, 1就是一个合法的解。比如说，当n=10时，9, 2, 7, 4, 5, 6, 3, 8, 1就是一个解。<br>
+    为什么这一定是一个满足题目要求的解呢？因为，<span style="color:#E5E5E5;">它们除以n的余数分别是-1, 2, -3, 4, -5, 6, …，其前缀和恰为-1, +1, -2, +2, -3, +3, …</span>。</p>
+<p>题目来源：<a href="http://www.brand.site.co.il/riddles/200805q.html">http://www.brand.site.co.il/riddles/200805q.html</a></p>
+			 ]]></content>
+<pubDate>2008-06-02T19:13:06+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/532</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 再给大家推荐一些小游戏 ]]></title>
+<link>http://www.matrix67.com/blog/archives/534</link>
+<content><![CDATA[ 
+		<p>    每过一段时间我都会推荐一些自认为有创意的小游戏，后来发现这种游戏推荐日志似乎很受大家欢迎。今天再推荐一些新鲜的小游戏，希望大家同样喜欢。期末考试来临，好多东西要背，接下来几天的更新速度会稍微慢一些。大家暂时靠这些科学的小游戏打发一下时间，折磨一下大脑吧。</p>
+<p><a href="http://www.caravelgames.com/Articles/Games.html">http://www.caravelgames.com/Articles/Games.html</a><br>
+首先重点推荐相当科学的系列解谜游戏DROD。这是一款棋盘回合策略解谜游戏，难度非常大。相当多的人宣称，这个游戏是他们“最喜欢的解谜游戏”。我是从<a href="http://www.caravelgames.com/Articles/Games_2/JtRH.html">Journey to Rooted Hold</a>开始玩的。从官网上下载下来后，一口气玩到了游戏的牛B程度的一阶导数达到最大值的时候，居然试玩结束了，于是不得不在网上苦苦地搜寻完整版。接下来好几天我把能跷的课都跷了，没了命地玩这个游戏。玩到Level 7或者Level 8的时候，一些谜题已经足以让人傻盯着屏幕苦思冥想半个钟头了。印象最深的是某一个房间乍看之下显然无解，我都开始怀疑是不是游戏本身的问题。我把游戏屏幕截下来打印出来，拿到古代汉语课上去接着想。然后看着看着有一瞬间我恍然大悟，一下子全想通了，心里大叫“真妙！真绝！思维定势果然害人不浅啊”。现在我已经打到Level 12了，又引进了好多新的元素，关卡设计相当巧妙，一些房间的解法让人拍案叫绝。DROD: Journey to Rooted Hold一共有25个Level，每个Level里都有十几二十个房间（包括不少的隐藏房间）。游戏中的各种怪物有着不同的性质和行为，让整个谜题更加变化多端。<br>
+完整版网上很难找。我非常艰难地从国外BT资源上弄到一个完整版，但是怎么和大家分享呢？</p>
+<p><span id="more-534"></span><br>
+<a href="http://magic.pen.fizzlebot.com/">http://magic.pen.fizzlebot.com/</a><br>
+Magic Pen，物理系统暴强的The Incredible Machine类游戏，和Crayon Physics如出一辙。<br>
+令人期待已久的Crayon Physics Deluxe还没出，先在这儿过一过瘾吧。</p>
+<p><a href="http://armorgames.com/play/964/shift-2">http://armorgames.com/play/964/shift-2</a><br>
+<a href="http://www.matrix67.com/blog/archives/436">上次推荐</a>的Flash小游戏Shift出2了。本以为能过足瘾的，没想到游戏流程还是这么短。</p>
+<p><a href="http://armorgames.com/play/1642/epsilon">http://armorgames.com/play/1642/epsilon</a><br>
+又一个有创意的游戏构想，结合了多个游戏元素。期待牛人做一个PC Deluxe版。</p>
+<p><a href="http://www.kongregate.com/games/Scarybug/chronotron">http://www.kongregate.com/games/Scarybug/chronotron</a><br>
+2D动作类时间悖论解谜游戏，关卡貌似很多。<br>
+自从那个<a href="http://www.matrix67.com/blog/archives/408">Cursor*10</a>火了之后，与时间悖论有关的游戏越来越多了。</p>
+<p><a href="http://shygypsy.com/farm/p.cgi">http://shygypsy.com/farm/p.cgi</a><br>
+有趣的英文猜词游戏。技术含量不高，有点想自己做一个中文的。</p>
+			 ]]></content>
+<pubDate>2008-06-05T03:03:41+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/534</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+<item>
+<title><![CDATA[ 经典证明：Cantor-Bernstein-Schroeder定理 ]]></title>
+<link>http://www.matrix67.com/blog/archives/536</link>
+<content><![CDATA[ 
+		<p>    明天考英语，单词还没背。先冒死更新一个^_^<br>
+    我们称一个从集合A到集合B的映射是“单射”的，如果A中的任两个相异元素都不会映射到B里的同一个元素。如果一个A→B的映射是单射的，并且B里的所有元素都被射了（满射），那么这个映射就是“双射”的。Cantor-Bernstein-Schroeder定理是说，假如存在一个从集合A到集合B的单射函数f，以及一个从集合B到集合A的单射函数g，那么A与B之间一定存在一个双射函数（即能建立起一一对应的关系，两个集合有相等的势）。这个结论并不是显然的。对于无穷集合，我们可以构造出很多这样的例子，两个映射A→B和B→A都是单射，但都不是满射的。例如，给定一个正方形和正方形外的一条直线，把正方形放到直线上滚一圈所形成的对应关系是一个从正方形上的所有点到直线上的点的一个单射函数，而连接直线上的点和正方形一边中点后与正方形的另一个交点构成了一个从直线到正方形的单射关系（如图）。那么，根据Cantor-Bernstein-Schroeder定理，我们一定可以找到一种函数，使得直线上的所有点和正方形上的所有点有一一对应的关系。</p>
+<p>  <img alt="image placeholder" >
+<p><span id="more-536"></span>    首先，让我们来证明这样一个引理：如果B是A的子集，且存在单射f: A→B，则一定存在A到B的双射函数。换句话说，假如存在一个集合到它自身的某个子集的单射函数，则这两个集合的势一定是相等的。<br>
+    令集合Y为A有B没有的元素，即Y=A-B。令集合X为集合Y经过任意次函数f的迭代所能得到的所有元素，即X=Y∪f(Y)∪f(f(Y))∪f(f(f(Y)))∪… 为了方便起见，我们用f_k(t)来表示对t的元素进行k次迭代所得到的元素。一个有趣的事实是，对于任何a≠b，f_a(Y)和f_b(Y)都没有公共元素。这可以用数学归纳法来说明。为了说明f_a(Y)和f_b(Y)没有公共元素，我们只需说明f_a-1(Y)和f_b-1(Y)之间没有公共元素即可（因为f是单射的），这样又把问题归结为证明f_a-2(Y)和f_b-2(Y)的交集为空。这样一直递归下去，最终就归结为Y和f_k(Y)交集是否为空的问题，其中k为a和b的差值。但f_k(Y)显然是B的子集，而集合Y的定义是集合A中除去B后剩下的部分，它们之间显然没有公共元素。<br>
+    回到上面对X的定义，注意到f(X)等于f(Y)∪f_2(Y)∪f_3(Y)∪…，于是X=Y∪f(X)。同时，我们还有A=B∪Y，于是A-X = [B∪Y] – [Y∪f(X)] = B-f(X)。这样，我们就可以把映射A→B拆成X→f(X)和A-X → B-f(X)两个部分，函数f在前者的范围内是双射的，而后一部分的象和原象是A和B的同一子集，本身就是一一对应的。于是，我们可以定义一个新的函数α(z)：当元素z在集合X中时定义α(z)为f(z)，否则α(z)就等于z。显然，函数α(z)是双射的。</p>
+<p>    重新回到本文最初所提到的结论：若有单射f: A→B和单射g: B→A，则一定存在A和B之间的双射。如何用上面的引理来证明这个结论呢？首先，注意到g(B)是一个A的子集。由于A→B有一个单射函数，B到g(B)有一个双射函数，那么A→g(B)也有一个单射函数。套用前面的引理，我们知道了A和g(B)间存在一个双射函数。但是g(B)和B之间也是双射的，于是我们立即得到：这两个双射函数的复合函数就是A和B之间的双射函数。</p>
+<p> <br>
+    另一个有趣的证明由Julius König给出。把A和B以及两个单射函数f和g想像成一个二分图，只不过里面的边是有向的。对于A里的任何一个节点a，或者B里的任何一个节点b，我们总能够永无止境地往下走，并且（由于函数是单射的）可以倒着往回走。最后呢，要么到了某个时候倒着走走不动了，要么就走出一个圈。注意，由于函数是单射的，每一个元素都必须且只能在其中一条链（或环）上出现，于是这些链（或环）形成了一组并集为全集、交集为空的“分割”。对于任一个环上的所有顶点，函数f（或者g）显然是一个双射函数（注意由于这是二分图，环的长度必然为偶数）；对于任一条链上的所有顶点，f和g中的某一个函数一定是一个双射函数（这取决于链的“起点”属于A还是B）。把它们全部合起来，最终仍然是一个双射函数。</p>
+<p>参考资料：<br>
+<a href="http://www.cut-the-knot.org/WhatIs/Infinity/Bernstein.shtml">http://www.cut-the-knot.org/WhatIs/Infinity/Bernstein.shtml</a><br>
+<a href="http://en.wikipedia.org/wiki/Cantor%E2%80%93Bernstein%E2%80%93Schroeder_theorem">http://en.wikipedia.org/wiki/Cantor–Bernstein–Schroeder_theorem</a></p>
+			 ]]></content>
+<pubDate>2008-06-11T01:33:18+00:00</pubDate>
+<guid>http://www.matrix67.com/blog/archives/536</guid>
+<author><![CDATA[ 顾森 ]]></author>
+</item>
+</channel>
+</rss>
