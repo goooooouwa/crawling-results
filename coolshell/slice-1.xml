@@ -4,7 +4,7 @@
 <title>酷 壳 – CoolShell</title>
 <description>享受编程和技术所带来的快乐 – Coding Your Ambition</description>
 <link>https://coolshell.cn</link>
-<pubDate>2021-11-25T19:30:07+08:00</pubDate>
+<pubDate>2021-11-25T21:00:59+08:00</pubDate>
 <!-- other elements omitted from this example -->
 <item>
 <title><![CDATA[ 不要拯救那些职场上的“无可救药” ]]></title>
@@ -42,9 +42,6 @@
 Marshall</p>
 </blockquote>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-05-03T18:06:26+08:00</pubDate>
 <guid>https://coolshell.cn/articles/753.html</guid>
@@ -59,9 +56,6 @@ Marshall</p>
 <p>需要注意的是，如果你选中了太多的浏览器，可能整个速度就有些慢了，而系统设置是30分钟过期，而可能有很多浏览器的任务却高于这个时间。所以，你需要过会就去点击一下“Extend”按钮，以告诉系统延长过期时间。</p>
 <p>下面是“酷壳”的一些抓图链接如下：<br>
 <a href="http://browsershots.org/https://coolshell.cn/">http://browsershots.org/https://coolshell.cn/</a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-05-04T14:57:24+08:00</pubDate>
 <guid>https://coolshell.cn/articles/757.html</guid>
@@ -130,9 +124,6 @@ t1.join
 </pre>
 <p>如果你以这种方式编译Ruby，那么，你的程序的性能在同等条件下可能会有30%左右的提升。</p>
 <p>文章：<a href="http://timetobleed.com/fix-a-bug-in-rubys-configurein-and-get-a-30-performance-boost/" target="_blank">来源</a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-05-05T23:44:55+08:00</pubDate>
 <guid>https://coolshell.cn/articles/766.html</guid>
@@ -142,7 +133,7 @@ t1.join
 <title><![CDATA[ 一个在线的画UML图的网站 ]]></title>
 <link>https://coolshell.cn/articles/776.html</link>
 <content><![CDATA[ 
-<p style="TEXT-ALIGN: center"><a href="http://yuml.me/"><img alt="image placeholder" >
+<p style="TEXT-ALIGN: center"><a href="http://yuml.me/"><img alt="image placeholder" ></a></p>
 <p style="TEXT-ALIGN: center"><a href="http://yuml.me/">http://yuml.me/</a></p>
 <p style="TEXT-ALIGN: left">这个网站可以允许你在线地，通过一些UML的语法，生成相应的图片。</p>
 <p style="TEXT-ALIGN: left">比如，如果你输入：</p>
@@ -152,24 +143,21 @@ t1.join
 <br>
 <span id="more-776"></span><br>
 那么，你就可以得到下面的图片：
-<p style="TEXT-ALIGN: center"><img alt="image placeholder" >
+<p style="TEXT-ALIGN: center"><img alt="image placeholder" ></p>
 <p style="TEXT-ALIGN: left">如果，我们输入：</p>
 <p style="TEXT-ALIGN: left"></p>
 <pre data-enlighter-language="html" class="EnlighterJSRAW">&lt;img src="http://yuml.me/diagram/class/
 [User|+Forename+;Surname;+HashedPassword;-Salt|+Login();+Logout()]" alt="" /&gt;
 </pre>
-<p style="text-align: center;"><img alt="image placeholder" >
+<p style="text-align: center;"><img alt="image placeholder" ></p>
 <p style="text-align: left;"> </p>
 <p style="text-align: left;">还有Use Case：</p>
 <p style="text-align: left;"></p>
 <pre data-enlighter-language="html" class="EnlighterJSRAW">&lt;img src="http://yuml.me/diagram/usecase/[Customer]-(Login), [Customer]-(Logout)"/&gt;
 </pre>
-<p style="text-align: center;"><img alt="image placeholder" >
+<p style="text-align: center;"><img alt="image placeholder" ></p>
 <p style="text-align: left;">还是挺不错的吧，呵呵。大家可以上去试试。</p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-05-06T16:16:48+08:00</pubDate>
 <guid>https://coolshell.cn/articles/776.html</guid>
@@ -206,9 +194,6 @@ t1.join
 <p><code><strong>"Google Frontend" 字符串<br>
 </strong></code><code>  curl -s -D - http://www.example.com/ | egrep '^Server:'</code></p>
 <p>请注意，头两个条件在一些时候对于运行在Blogspot 的主机也是成立的，估计Blogspot就是运行在GAE上的一个站点。但第三个条件就不一样了。GAE上的是”Google Frontend”，而 Blogspot上的则是 “GFE/2.0″。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-05-06T16:33:52+08:00</pubDate>
 <guid>https://coolshell.cn/articles/780.html</guid>
@@ -231,9 +216,6 @@ t1.join
 9.  垃圾邮件问题将在两年内得到解决。 <span style="color: #808080;"><em>Bill Gates, 2004.</em></span><br>
 10. 事实将证明，X射线不过是一个骗局。  <span style="color: #808080;"><em>Lord Kelvin, </em>英国皇家学会会长<em>, 1883.</em></span></p>
 <p><span style="color: #808080;">原文链接: <a href="http://www.t3.com/news/sugar-ipod-error-is-worst-tech-prediction?=37516"><span style="color: #5588aa;">http://www.t3.com/news/sugar-ipod-error-is-worst-tech-prediction?=37516</span></a> </span></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-05-10T14:45:05+08:00</pubDate>
 <guid>https://coolshell.cn/articles/783.html</guid>
@@ -274,9 +256,6 @@ print fibpy(30)
 print fibc(30)
 </pre>
 <p>源代码这里下载：<a href="https://coolshell.cn/wp-admin/cinpy-0.10.tar.gz">cinpy-0.10.tar.gz</a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-05-10T15:22:15+08:00</pubDate>
 <guid>https://coolshell.cn/articles/786.html</guid>
@@ -502,9 +481,6 @@ sshd      10735      root    3u     IPv6  160731956    TCP 
 sshd      10767     hchen    3u     IPv6  160731956    TCP 210.51.0.232:ssh-&gt;123.117.239.68:31810 (ESTABLISHED)
 vsftpd    11095      root    3u     IPv4  152157957    TCP *:ftp (LISTEN)
 </pre>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-05-10T19:26:09+08:00</pubDate>
 <guid>https://coolshell.cn/articles/790.html</guid>
@@ -528,9 +504,6 @@ vsftpd    11095      root    3u     IPv4  152157957    TCP *:
 <p>如果你想一些中世纪的武器，那么这个站点会给你提供很多这类的玩意。质量非常好，而且所有的模型现在还在免费。如果你给上 $50-$100 美金，他们会给你制作你想要的东西，这些人的确非常不错。</p>
 <p>希望你觉得这5个站点对你的游戏编程的工作很有用。</p>
 <p>文章：<a href="http://www.omahagamedev.com/?p=12" target="_blank">来源</a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-05-11T22:14:47+08:00</pubDate>
 <guid>https://coolshell.cn/articles/796.html</guid>
@@ -544,9 +517,6 @@ vsftpd    11095      root    3u     IPv4  152157957    TCP *:
 <p>Basics of Compiler Design<br>
 <a href="http://www.diku.dk/hjemmesider/ansatte/torbenm/Basics/">http://www.diku.dk/hjemmesider/ansatte/torbenm/Basics/</a></p>
 <p><a href="http://www.diku.dk/hjemmesider/ansatte/torbenm/Basics/basics_lulu.pdf"><strong>PDF下载</strong></a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-05-11T22:20:24+08:00</pubDate>
 <guid>https://coolshell.cn/articles/799.html</guid>
@@ -577,9 +547,6 @@ vsftpd    11095      root    3u     IPv4  152157957    TCP *:
 <p><a title="[17] How can I handle a constructor that fails?" href="http://www.parashift.com/c++-faq-lite/ctors.html#faq-10.17">[17] 如果构造函数出错了怎么办？</a></p>
 <p><a title='[18] What is the "Named Parameter Idiom"?' href="http://www.parashift.com/c++-faq-lite/ctors.html#faq-10.18">[18] 什么是“命名参数惯用法”（Named Parameter Idiom）？</a></p>
 <p><a title="[19] Why am I getting an error after declaring a Foo object via Foo x(Bar())?" href="http://www.parashift.com/c++-faq-lite/ctors.html#faq-10.19">[19] 为什么我通过<tt>Foo x(Bar())</tt>声明一个<tt>Foo</tt> 对象会得到一个错误？</a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-05-13T22:38:36+08:00</pubDate>
 <guid>https://coolshell.cn/articles/804.html</guid>
@@ -662,9 +629,6 @@ vsftpd    11095      root    3u     IPv4  152157957    TCP *:
 <em>– Fred Brooks</em></p>
 <p style="text-align: left;">文章：<a href="http://www.storm-consultancy.com/blog/other/classic-programming-quotes/" target="_blank">来源</a></p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-05-15T12:25:49+08:00</pubDate>
 <guid>https://coolshell.cn/articles/808.html</guid>
@@ -701,9 +665,6 @@ perl -ne '                 #使用Perl来处理 K M 和 G 单位
   }
 '
 </pre>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-05-15T16:41:29+08:00</pubDate>
 <guid>https://coolshell.cn/articles/822.html</guid>
@@ -924,9 +885,6 @@ int main()
 <p>上面两段话的意思就是：foobar1(void)是没有参数，而foobar1()等于forbar1(…)等于参数类型未知。</p>
 <p><strong>总结</strong><br>
 看到这些C语言的题目，不禁让我想起了巴别塔，计算机语言作为如此严谨的语言都有可能带来如此多的歧义，更何况自然语言，更何况相互不通的自然语言。要杜绝歧义，我们就必须清晰的了解计算机语言每一个指令的语义。就如同人类，人类要和平就要相互了解各自的文化。愿世界上人们清晰了解别人的语言的语义，愿世界不再因为文化的不同而战争，原世界和平。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-05-17T15:57:59+08:00</pubDate>
 <guid>https://coolshell.cn/articles/830.html</guid>
@@ -978,131 +936,128 @@ int main()
 <h4>
 <span class="ez-toc-section" id="Photoshop_CS3_%E5%BF%AB%E6%8D%B7%E9%94%AE%E9%80%9F%E6%9F%A5%E5%8D%A1"></span><a title="Trevor Morris Photographics - Adobe Photoshop Keyboard Shortcuts" href="http://morris-photographics.com/photoshop/shortcuts/#pscs3">Photoshop CS3 快捷键速查卡</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ><span class="figure-caption">Downloads: <a title="PDF Download - For Windows" href="http://morris-photographics.com/photoshop/shortcuts/downloads/PSCS3_Keyboard_Shortcuts_PC.pdf">PDF (Windows)</a>, <a title="PDF Download - for Mac" href="http://morris-photographics.com/photoshop/shortcuts/downloads/PSCS3_Keyboard_Shortcuts_Mac.pdf">PDF (Mac)</a></span></p>
 <p><span class="figure-caption"><span id="more-870"></span></span></p>
 <p> </p>
 <h4>
 <span class="ez-toc-section" id="%E5%85%B3%E4%BA%8E%E8%B0%83%E8%89%B2%E6%9D%BF%E7%9A%84%E4%B8%80%E4%BA%9B%E7%83%AD%E9%94%AE_HTML"></span><a title="Adobe - Keys for using the Layers palette" href="http://livedocs.adobe.com/en_US/Photoshop/10.0/help.html?content=WS7D245964-27B4-403e-82D5-DDD1CB19A82B.html">关于调色板的一些热键</a> (HTML)<span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h4>
 <span class="ez-toc-section" id="Photoshop_%E5%B7%A5%E5%85%B7%E6%A0%8F%E9%80%9F%E6%9F%A5_HTML"></span><a href="http://simplephotoshop.com/photoshop_tools/index.htm">Photoshop 工具栏速查</a> (HTML)<span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h4>
 <span class="ez-toc-section" id="Photoshop_%E5%A5%97%E7%B4%A2%E5%B7%A5%E5%85%B7%E9%80%9F%E6%9F%A5"></span><a title="CreativeIQ - Staging: Photoshop Lasso Tool Cheatsheet." href="http://www.creativetechs.com/iq-staging/photoshop_lasso_tool_cheatshee.html">Photoshop 套索工具速查</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ><span class="figure-caption">Download: <a title="PDF Download - Photoshop Lasso Tool Cheatsheet" href="http://creativetechs.com/tips/tip_resources/cheatsheets/Photoshop-Lasso-Cheatsheet.pdf">PDF</a></span></p>
 <h4>
 <span class="ez-toc-section" id="Photoshop_%E7%AC%94%E5%88%B7%E5%B7%A5%E4%BD%9C%E9%80%9F%E6%9F%A5"></span><a title="CreativeTechs - Photoshop Brush Tool Cheatsheet" href="http://www.creativetechs.com/iq/photoshop_brush_tool_cheatsheet.html">Photoshop 笔刷工作速查</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ><span class="figure-caption">Download: <a title="PDF Download - Photoshop Brush Tool Cheatsheet" href="http://creativetechs.com/tips/tip_resources/cheatsheets/Photoshop-Brush-Cheatsheet.pdf">PDF</a></span></p>
 <h3> </h3>
 <h3>颜色</h3>
 <h4>
 <span class="ez-toc-section" id="RGB_%E5%8D%81%E5%85%AD%E8%BF%9B%E5%88%B6%E8%A1%A8"></span><a title="Added Bytes - RGB Hex Colour Chart" href="http://www.addedbytes.com/cheat-sheets/colour-chart/">RGB 十六进制表</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ><span class="figure-caption">Downloads: <a title="PDF Download" href="http://www.addedbytes.com/download/rgb-hex-cheat-sheet-v1/pdf/">PDF</a>, <a title="PNG Download" href="http://www.addedbytes.com/download/rgb-hex-cheat-sheet-v1/png/">PNG</a></span></p>
 <h4>
 <span class="ez-toc-section" id="%E9%A2%9C%E8%89%B2%E9%80%9F%E6%9F%A5_PDF"></span><a href="http://www.veign.com/downloads/guides/qrg0006.pdf">颜色速查</a> (PDF)<span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h4>
 <span class="ez-toc-section" id="Web%E8%AE%BE%E8%AE%A1%E9%A2%9C%E8%89%B2"></span><a title="Visibone - Web Designer's Color Reference Hexagon Mouse Pad" href="http://www.visibone.com/color/hexagon3x.html">Web设计颜色</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ><span class="figure-caption">Download: <a title="GIF Download - Hexagon_800.gif" href="http://www.visibone.com/color/hexagon_800.gif">GIF</a></span></p>
 <h4>
 <span class="ez-toc-section" id="Web_%E5%AE%89%E5%85%A8%E9%A2%9C%E8%89%B2%E8%A1%A8_HTML"></span><a title="Page Tutor - 216 color chart" href="http://www.pagetutor.com/common/bgcolors216.html">Web 安全颜色表</a> (HTML)<span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h4>
 <span class="ez-toc-section" id="%E5%8D%81%E5%85%AD%E8%BF%9B%E5%88%B6%E9%A2%9C%E8%89%B2%E8%A1%A8_HTML"></span><a href="http://www.funky-chickens.com/hex.html">十六进制颜色表</a> (HTML)<span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h4>
 <span class="ez-toc-section" id="_%E6%B5%8F%E8%A7%88%E5%99%A8%E9%A2%9C%E8%89%B2%E8%A1%A8_HTML"></span><a href="http://www.cookwood.com/html4_4e/examples/appendices/colorcharthex.html"> 浏览器颜色表</a> (HTML)<span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h3> </h3>
 <h3>排版</h3>
 <h4>
 <span class="ez-toc-section" id="VisiBone_Font_Card"></span><a title="Visibone - VisiBone Font Card" href="http://www.visibone.com/font/">VisiBone Font Card</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ><span class="figure-caption">Download: <a href="http://www.visibone.com/font/fcht_874.gif">GIF</a></span></p>
 <h4>
 <span class="ez-toc-section" id="%E5%B8%B8%E7%94%A8%E5%AD%97%E4%BD%93%E8%A1%A8_HTML"></span><a href="http://www.ampsoft.net/webdesign-l/WindowsMacFonts.html">常用字体表 </a> (HTML)<span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h4>
 <span class="ez-toc-section" id="%E6%B7%B7%E5%90%88%E5%AD%97%E4%BD%93_PDF"></span><a title="PDF Download - Mixing Typefaces" href="http://www.as8.it/handouts/mixing-typefaces_U&amp;lc1992.pdf">混合字体</a> (PDF)<span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h3>单元/尺寸</h3>
 <h4>
 <span class="ez-toc-section" id="Points_%E5%92%8CPixels%E8%BF%91%E4%BC%BC%E8%BD%AC%E6%8D%A2%E8%A1%A8_HTML"></span><a title="Reed Design - Approximate Conversion from Points to Pixels" href="http://www.reeddesign.co.uk/test/points-pixels.html">Points 和Pixels近似转换表</a> (HTML)<span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h4>
 <span class="ez-toc-section" id="Megapixels_%E8%A1%A8"></span><a title="Design215 - megapixels comparison and maximum print size charts" href="http://www.design215.com/toolbox/megapixels.php">Megapixels 表</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ><span class="figure-caption">Download: <a title="GIF Download - Megapixels Chart" href="http://www.design215.com/toolbox/images/megapixels.gif">GIF</a></span></p>
 <h3>CSS/CSS 框架</h3>
 <h4>
 <span class="ez-toc-section" id="Blueprint_CSS_%E9%80%9F%E6%9F%A5%E5%8D%A1"></span><a title="The Montoya Herald - Blueprint CSS Cheat Sheet" href="http://www.christianmontoya.com/2007/11/12/blueprint-css-cheat-sheet/">Blueprint CSS 速查卡</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ><span class="figure-caption">Download: <a title="PDF Download - Blueprint CSS Cheat Sheet" href="http://www.digitart.net/blueprintcss/bluebrintcss.pdf">PDF</a></span></p>
 <h4>
 <span class="ez-toc-section" id="YUI_Library_CSS_Reset_Base_Fonts_and_Grids_PDF"></span><a title="YUI Library - CSS Reset, Base, Fonts, and Grids" href="http://yuiblog.com/assets/pdf/cheatsheets/css.pdf">YUI Library: CSS Reset, Base, Fonts, and Grids</a> (PDF)<span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h4>
 <span class="ez-toc-section" id="CSS_%E9%80%9F%E6%9F%A5%E5%8D%A1_PDF"></span><a href="http://www.eddiewelker.com/wp-content/uploads/2007/09/csscheatsheet.pdf">CSS 速查卡</a> (PDF)<span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h4>
 <span class="ez-toc-section" id="Apples_CSS_%E9%80%9F%E6%9F%A5%E5%8D%A1_Mac_Dashboard_Widget"></span><a title="Apple Dashboard Widgets - CSS Cheat Sheet" href="https://www.apple.com/downloads/dashboard/developer/csscheatsheet.html">Apple’s CSS 速查卡</a> (Mac Dashboard Widget)<span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h3>HTML/XHTML</h3>
 <h4>
 <span class="ez-toc-section" id="HTML_XHTML_%E6%A0%87%E8%AF%86%E9%80%9F%E6%9F%A5_PDF"></span><a href="http://home.uchicago.edu/~gan/file/html.pdf">HTML &amp; XHTML 标识速查</a> (PDF)<span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h4>
 <span class="ez-toc-section" id="HTMLXHTML_%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6%E8%A1%A8"></span><a href="http://www.html.su/entities.html">HTML/XHTML 特殊字符表</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h4>
 <span class="ez-toc-section" id="XHTML_%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6_HTML"></span><a href="http://www.digitalmediaminute.com/reference/entity/index.php">XHTML 特殊字符</a> (HTML)<span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h3>Dreamweaver</h3>
 <h4>
 <span class="ez-toc-section" id="Dreamweaver_%E5%BF%AB%E9%80%9F%E7%B4%A2%E5%BC%95_PDF"></span><a href="http://www.uwsp.edu/it/ApplicationSupport/appSuppDocsImages/referenceGuides/dreamweaver-quick-reference-cs3.pdf">Dreamweaver 快速索引</a> (PDF)<span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h4>
 <span class="ez-toc-section" id="Dreamweaver_CS3_for_Mac_Quick_Reference_Card_PDF"></span><a href="http://daviddiskin.com/documents/Dreamweaver%20CS3%20for%20Mac.pdf">Dreamweaver CS3 for Mac Quick Reference Card</a> (PDF)<span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h3>Illustrator</h3>
 <h4>
 <span class="ez-toc-section" id="Adobe_Illustrator_CS2_%E7%83%AD%E9%94%AE-_MAC"></span><a href="http://www.nobledesktop.com/shortcuts-illustratorcs2-mac.html">Adobe Illustrator CS2 热键– MAC</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ><span class="figure-caption">Download: <a href="http://www.nobledesktop.com/download/shortcut_guides/illustrator_cs2_shortcuts_mac.pdf">PDF</a></span></p>
 <h3>Browsers</h3>
 <h4>
 <span class="ez-toc-section" id="%E6%B5%8F%E8%A7%88%E5%99%A8%E5%85%BC%E5%AE%B9%E6%80%A7%E8%A1%A8_HTML"></span><a href="http://centricle.com/ref/css/filters/?highlight_columns=true">浏览器兼容性表</a> (HTML)<span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h4>
 <span class="ez-toc-section" id="W3C_DOM_%E5%85%BC%E5%AE%B9%E6%80%A7%E8%A1%A8_HTML"></span><a href="http://www.quirksmode.org/dom/compatibility.html#t00">W3C DOM 兼容性表</a> (HTML)<span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>文章：<a href="http://sixrevisions.com/resources/cheat_sheets_for_web_designers/" target="_blank">来源</a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-05-19T21:43:19+08:00</pubDate>
 <guid>https://coolshell.cn/articles/870.html</guid>
@@ -1233,9 +1188,6 @@ int main() {
 </ol>
 <p class="li-enumerate">是的，这样使用C语言可能很奇怪，不过我们可以从另一方面了解C语言的很多我们不常注意的特性。C语言其实并不容易。</p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-05-19T22:10:25+08:00</pubDate>
 <guid>https://coolshell.cn/articles/873.html</guid>
@@ -1290,9 +1242,6 @@ int main(int argc, char *argv[]) {
 <br>
 更详细的使用说明请看其文档：<br>
 <a href="http://tpl.sourceforge.net/userguide.html">http://tpl.sourceforge.net/userguide.html</a>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-05-21T22:54:21+08:00</pubDate>
 <guid>https://coolshell.cn/articles/878.html</guid>
@@ -1318,13 +1267,13 @@ int main(int argc, char *argv[]) {
 <span class="ez-toc-section" id="%E8%BD%AF%E4%BB%B6Bug%E5%92%8C%E8%BD%AF%E4%BB%B6Feature%E7%9A%84%E5%B7%AE%E5%88%AB"></span>软件Bug和软件Feature的差别<span class="ez-toc-section-end"></span>
 </h4>
 <p>注释：有时候bug和feature的差别就是bug长得难看了一些。</p>
-<p><a href="https://coolshell.cn/wp-content/uploads/2009/05/bug-feature.jpg"><img alt="image placeholder" >
+<p><a href="https://coolshell.cn/wp-content/uploads/2009/05/bug-feature.jpg"><img alt="image placeholder" ></a></p>
 <p><span id="more-880"></span></p>
 <p> </p>
 <h4>
 <span class="ez-toc-section" id="%E4%B8%80%E4%B8%AA%E7%90%86%E8%A7%A3%E6%B5%81%E7%A8%8B%E5%9B%BE%E7%9A%84%E6%8C%87%E5%8D%97"></span>一个理解流程图的指南<span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="https://coolshell.cn/wp-content/uploads/2009/05/flow_charts.png"><img alt="image placeholder" >
+<p><a href="https://coolshell.cn/wp-content/uploads/2009/05/flow_charts.png"><img alt="image placeholder" ></a></p>
 <h4>
 <span class="ez-toc-section" id="%E4%BB%80%E4%B9%88%E5%8F%AB%E6%9E%81%E9%99%90%E7%BC%96%E7%A8%8B"></span>什么叫极限编程<span class="ez-toc-section-end"></span>
 </h4>
@@ -1332,16 +1281,13 @@ int main(int argc, char *argv[]) {
 <p>1）程序员：我不能在第一个版本给你所有的的功能。<br>
 2）程序员：并且，每个功能需要有一个所谓的“用户案例（User Story）”<br>
 3）用户：好吧，我告诉你一个“用户案例”——我要所有的功能，不然我就毁了你的生活。</p>
-<p><a href="https://coolshell.cn/wp-content/uploads/2009/05/extreme-programming.gif"><img alt="image placeholder" >
+<p><a href="https://coolshell.cn/wp-content/uploads/2009/05/extreme-programming.gif"><img alt="image placeholder" ></a></p>
 <p><a href="https://coolshell.cn/wp-content/uploads/2009/05/bug-feature.jpg"></a><a href="https://coolshell.cn/wp-content/uploads/2009/05/bug-feature.jpg"></a></p>
 <h4>
 <span class="ez-toc-section" id="%E5%A6%82%E4%BD%95%E8%A1%A1%E9%87%8F%E5%A5%BD%E7%9A%84%E4%BB%A3%E7%A0%81"></span>如何衡量好的代码<span class="ez-toc-section-end"></span>
 </h4>
 <p>注释：下图中用“代码审核”流程中的每分钟出现“脏话”的个数来衡量代码的质量。（WTF is stand for “What the F**K”）</p>
-<p><a href="https://coolshell.cn/wp-content/uploads/2009/05/measurement-of-code-quality.jpg"><img alt="image placeholder" >
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
+<p><a href="https://coolshell.cn/wp-content/uploads/2009/05/measurement-of-code-quality.jpg"><img alt="image placeholder" ></a></p>
  ]]></content>
 <pubDate>2009-05-21T23:07:47+08:00</pubDate>
 <guid>https://coolshell.cn/articles/880.html</guid>
@@ -1927,9 +1873,6 @@ public static void main (String[] args) {  
 }
 </pre>
 <p><strong>(全文完)</strong></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-05-23T15:09:36+08:00</pubDate>
 <guid>https://coolshell.cn/articles/889.html</guid>
@@ -1946,19 +1889,16 @@ public static void main (String[] args) {  
 <p>我经常收到来自于读者的邮件，他们希望能找到一种方式使得vim变得对开发者更友好。一个常见的抱怨是vim并不是自身就带有IDE的特性，并且如何来通过配置能得到等价IDE功能也不是很清晰。而揭开vim真正神奇的秘密就是利用强大的vim插件系统和对vim自身功能的改善和增强的第三方脚本。在阅你读本文之前，我已经整理好了一个vim的有用tips和插件列表，这些列表中的内容将会使那些用惯IDE功能的人们在vim上感到宾至如归的感觉。</p>
 <p><span id="more-894"></span></p>
 <p>虽然vim主要是设计给基于字符方式的文本编辑器，并且它有可能是这类编辑器中最高效的工具，但是现在在vim上也存在一些更适合新手使用的基于图形的外壳。不像运行在终端窗口上的vim，你可以尝试使用一下gvim,一个基于GUI的vim版本。gvim拥有可配置的的菜单和工具条，因此可以通过鼠标直接访问到vim的编程上的最本质的特性。gvim可以让你使用操作系统自带的文件对话框，并允许你通过鼠标点击拖拉编辑面板的能力。gvim有windows和linux的版本，等价的Mac OS X的版本是MacVim，MacVim提供了Mac机的本地Cocoa用户接口，包括菜单集成的功能。<br>
-<a rel="attachment wp-att-896" href="https://coolshell.cn/?attachment_id=896"><img alt="image placeholder" >
+<a rel="attachment wp-att-896" href="https://coolshell.cn/?attachment_id=896"><img alt="image placeholder" ></a></p>
 <p>我听到来自vim用户最经常被抱怨的功能是vim的编辑区列表非常麻烦，并且没有一种简单的方式可以明了的看到什么文件是打开的。在vim上有几个插件可以解决这个问题，并提供了一个额外的编辑区列表用于方便在打开文件中切换。我最喜欢的一个插件是<a href="https://www.vim.org/scripts/script.php?script_id=159">MiniBufExplorer</a>，它将列表显示在窗口的头上。当MiniBufExplorer被激活时，你可以通过tab键来在列表的这些项中循环，然后通过回车键或双击鼠标来选择在编辑区显示和你要处理的文件。<br>
-<a rel="attachment wp-att-898" href="https://coolshell.cn/?attachment_id=898"><img alt="image placeholder" >
+<a rel="attachment wp-att-898" href="https://coolshell.cn/?attachment_id=898"><img alt="image placeholder" ></a></p>
 <p>许多的IDE工具都有用于显示你程序项目结构和允许你通过鼠标在特定的类和方法间跳转的代码导航区。你可以通过使用流行的<a href="http://vim-taglist.sourceforge.net/installation.html">Tag List 插件</a>来得到这个特性。这个插件需要<a href="http://ctags.sourceforge.net/">Exuberant Ctags</a>实用工具，这个工具用于分析你的代码。TagList可以通过命令:Tlist来激活，并将你的类和方法显示在激活的区域，当你打开其他的文件或切换到其他打开文件时，新的类或方法会被加到代码导航区。在gvim中你可以通过单击方法名跳到对应方法定义。如果要使用键盘，那么通过光标键上下移光标到你希望的方法处，单击回车即可达到目标。</p>
-<p><a rel="attachment wp-att-895" href="https://coolshell.cn/?attachment_id=895"><img alt="image placeholder" >
+<p><a rel="attachment wp-att-895" href="https://coolshell.cn/?attachment_id=895"><img alt="image placeholder" ></a></p>
 <p>自动文本完成(<strong>译者注</strong>：就是eclipse，visual studio中常见的输入前几个字符后面的内容通过列表显示的功能)是另外一种在IDE工具中常用特性，并且很多用户都希望在vim中有这些特性。这个特性已经在vim7中通过<a href="http://vim.wikia.com/wiki/Omni_completion">Omnicompletion system</a>被引入进来。它是可编程，这就意味着你可以通过定制，使的这个功能能在各种个样的编程语言中使用，在vim中甚至存在对动态语言python或ruby生效的自动文本完成功能。现在，自动文本完成的配置已经变成了vim包中的一个部分，所以现在你可以什么都不做就能让这个功能生效。要调出自动完成菜单(列表)，你需要敲下ctrl+x和ctrl+o键，接着你可以用ctrl+n和ctrl+p在可能完成列表中进行上下选择，当你移动到一个选项，vim将为你在另外一个Scratch区域显示带方法说明和属性的上下文帮助信息。<br>
-<a rel="attachment wp-att-897" href="https://coolshell.cn/?attachment_id=897"><img alt="image placeholder" >
+<a rel="attachment wp-att-897" href="https://coolshell.cn/?attachment_id=897"><img alt="image placeholder" ></a></p>
 <p>你可以多种方式来改善你的vim体验，<a href="http://vim.wikia.com/wiki/Main_Page">vim维基vim wiki</a>和<a href="https://www.vim.org/scripts/index.php">脚本库script repository</a>为你提供了可用于增强功能的第三方增强扩展集合。这些插件实现sinppet system，outlining tools，项目管理工具，和大量的其他的特性。同时还有大量的脚本实现了对某些特定编程语言和框架的增强。例如有一个<a href="https://www.vim.org/scripts/script.php?script_id=1567">非常流行的脚本</a>，这个脚本将会改善你Ruby的语法高亮，并且为你Ruby on Rail的部署提供了非常方便的导航特性</p>
 <p>同时也有一些<a href="http://cream.sourceforge.net/">面向新手的脚本集合</a>，这个集合使得vim的行为变得更像一个带有简单菜单和快捷键的传统的文本编辑器。如果你对vim那些神秘键盘命名感到不舒服的话，你可以选择这个作为你使用vim的开始。</p>
 <p>vim的多样性使得它满足不同的用户使用。对于那些没有时间，能力，和爱好去通过自己去建立一个完美vim配置的人来说，无数的第三方脚本和插件为你提供了一种简单的方式，通过这种方式你可以付出很少的努力就能得到你想要的功能和特性。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-05-23T16:32:05+08:00</pubDate>
 <guid>https://coolshell.cn/articles/894.html</guid>
@@ -1971,7 +1911,7 @@ public static void main (String[] args) {  
 <p>如果你正在开发一个WEB应用，需要一个不错的强大的文件管理器，并且可以简单的定制，那么，下面的这七个免费开源的文件管理器你一会喜欢的。这些文件管理器都很强大，他们全部都支持PHP，Javascript和Ajax，有几个还支持别的WEB开发语言。这些管理理可以让你完成目录文件浏览，搜索，上传/下载，编辑，拷贝，移动，删除等等文件操作功能。</p>
 <h3 class="title">1. <a href="http://www.ajaxplorer.info/">AjaXplorer</a>
 </h3>
-<p class="img"><img alt="image placeholder" >
+<p class="img"><img alt="image placeholder" ></p>
 <p>AjaXplorer 是一个免费的 Ajax 文件管理器，其很容易安装。而且它的布局很丰富，可以用于多种应用，比如：文件管理，文件共享，图片库，代码库等等。不过它只支持(4 呀 5) ，不支持数据库。</p>
 <p><span id="more-909"></span></p>
 <ul>
@@ -1999,7 +1939,7 @@ public static void main (String[] args) {  
 </div>
 <h3 class="title">2. <a href="http://filenice.com/">fileNice</a>
 </h3>
-<p class="img"><img alt="image placeholder" >
+<p class="img"><img alt="image placeholder" ></p>
 <p>fileNice 是一个免费的PHP文件浏览器。</p>
 <p><strong>链接：</strong></p>
 <ul>
@@ -2016,7 +1956,7 @@ public static void main (String[] args) {  
 </div>
 <h3 class="title">3. <a href="http://www.solitude.dk/filethingie/">File Thingie</a>
 </h3>
-<p class="img"><img alt="image placeholder" >
+<p class="img"><img alt="image placeholder" ></p>
 <p>File Thingie 是一个小型的文件管理器。由PHP写成。他主要的目的是提示一个WEB界面的文件管理器（如果你不能使用或是不会使用FTP）。通过File Thingie你可以完成下面这些事：</p>
 <ul>
 <li>安装简单— 只有一个文件</li>
@@ -2046,7 +1986,7 @@ public static void main (String[] args) {  
 </div>
 <h3 class="title">4. <a href="http://og5.net/christoph/article/MooTools_based_FileManager">MooTools based FileManager</a>
 </h3>
-<p class="img"><img alt="image placeholder" >
+<p class="img"><img alt="image placeholder" ></p>
 <p>MooTools based File-Manager 提供了预览，上传和修改文件和目录的功能。其主要功能如下：</p>
 <ul>
 <li>浏览文件和目录</li>
@@ -2071,7 +2011,7 @@ public static void main (String[] args) {  
 </div>
 <h3 class="title">5. <a href="http://ecosmear.com/relay/">Relay</a>
 </h3>
-<p class="img"><img alt="image placeholder" >
+<p class="img"><img alt="image placeholder" ></p>
 <p>Relay 是一个极牛的Ajax 文件管理器。在上传和下载文件它做得相当出色。下面是它的一些功能：</p>
 <ul>
 <li>可以随意拖放文件和目录</li>
@@ -2094,7 +2034,7 @@ public static void main (String[] args) {  
 </div>
 <h3 class="title">6. <a href="http://kfm.verens.com/">Kae’s File Manager</a>
 </h3>
-<p class="img"><img alt="image placeholder" >
+<p class="img"><img alt="image placeholder" ></p>
 <p>KFM 是一个在线的文件管理器，它可以单独使用或是以一个插件的方式给一些编辑器使用。比如这些编辑器：FCKeditor 或TinyMCE。KFM 是一个开源的免费的项目，下面是它的一些特性：</p>
 <ul>
 <li>鼠标拖放功能</li>
@@ -2123,7 +2063,7 @@ public static void main (String[] args) {  
 </div>
 <h3 class="title">7. <a href="http://extplorer.sourceforge.net/">eXtplorer</a>
 </h3>
-<p class="img"><img alt="image placeholder" >
+<p class="img"><img alt="image placeholder" ></p>
 <p>eXtplorer 特性如下：</p>
 <ul>
 <li>文件目录浏览</li>
@@ -2145,9 +2085,6 @@ public static void main (String[] args) {  
 <a class="livedemo" href="http://extplorer.sourceforge.net/extplorer.png" target="_blank"></a>文章：<a href="http://devsnippets.com/article/ajax/7-free-powerful-file-managers.html" target="_blank">来源</a>
 </div>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-05-24T20:46:56+08:00</pubDate>
 <guid>https://coolshell.cn/articles/909.html</guid>
@@ -2291,9 +2228,6 @@ public static void main (String[] args) {  
 </pre>
 <br>
 （全文完）
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-05-25T19:21:24+08:00</pubDate>
 <guid>https://coolshell.cn/articles/914.html</guid>
@@ -2308,98 +2242,95 @@ public static void main (String[] args) {  
 <h3>1. <a href="http://greengeckodesign.com/projects/menumatic.aspx" target="_blank">MenuMatic</a>
 </h3>
 <p>这个示例主要是展示了一个排序的纵向或横向的下拉式菜单导航条。</p>
-<p><a href="http://greengeckodesign.com/projects/menumatic/examples/vertical/"><img alt="image placeholder" >
+<p><a href="http://greengeckodesign.com/projects/menumatic/examples/vertical/"><img alt="image placeholder" ></a></p>
 <p><a href="http://greengeckodesign.com/projects/menumatic/examples/vertical/">演示页面</a></p>
 <p><span id="more-918"></span></p>
 <h3>2. <a href="http://www.shopdev.co.uk/blog/animated-menus-using-jquery/">JQuery制作的动画按钮菜单</a>
 </h3>
 <p>当鼠标经过的时候，按钮会有下压的感觉。</p>
-<p><a href="http://www.shopdev.co.uk/blog/menuDemo.html"><img alt="image placeholder" >
+<p><a href="http://www.shopdev.co.uk/blog/menuDemo.html"><img alt="image placeholder" ></a></p>
 <p><a href="http://www.shopdev.co.uk/blog/menuDemo.html">演示页面</a></p>
 <h3>3. <a href="http://www.gayadesign.com/diy/jquery-convertion-garagedoor-effect-using-javascript/" target="blank">jQuery 卷帘门特效导航条</a>
 </h3>
 <p><a href="http://www.gayadesign.com/about/" target="_blank">Gaya Kessler</a> 设计了这样一种卷帘门式导航条，相当的酷。</p>
-<p><a href="http://www.gayadesign.com/scripts/jquerygaragedoor/"><img alt="image placeholder" >
+<p><a href="http://www.gayadesign.com/scripts/jquerygaragedoor/"><img alt="image placeholder" ></a></p>
 <p><a href="http://www.gayadesign.com/scripts/jquerygaragedoor/" target="_blank">演示页面</a></p>
 <h3>4. <a href="http://sonicradish.com/labs/jGlideMenu/current/?src=ASL_LAB" target="_blank">JGlide 菜单</a>
 </h3>
 <p>一个独特的平面式菜单，整个菜单可以被随意拖动。</p>
-<p><a href="http://sonicradish.com/labs/jGlideMenu/current/static_demo.html"><img alt="image placeholder" >
+<p><a href="http://sonicradish.com/labs/jGlideMenu/current/static_demo.html"><img alt="image placeholder" ></a></p>
 <p><a href="http://sonicradish.com/labs/jGlideMenu/current/static_demo.html" target="_blank">演示页面</a></p>
 <h3>5. <a href="http://hv-designs.co.uk/2009/02/17/sliding-jquery-menu/" target="_blank">jQuery 纵向滑动式菜单</a>
 </h3>
 <p><a href="http://hv-designs.co.uk/" target="_blank">HVDesigns</a> 设计这个下拉式滑动式菜单。</p>
-<p><a href="http://www.hv-designs.co.uk/tutorials/sliding_menu/sliding_menu.html"><img alt="image placeholder" >
+<p><a href="http://www.hv-designs.co.uk/tutorials/sliding_menu/sliding_menu.html"><img alt="image placeholder" ></a></p>
 <p><a href="http://www.hv-designs.co.uk/tutorials/sliding_menu/sliding_menu.html" target="_blank">演示页面</a></p>
 <h3>6. <a href="http://www.mattweltman.com/sliding_tabs.html">Perspective Tabs</a>
 </h3>
 <p>这个技术很酷了，有点类似于iPhone，通过鼠标可以滚动导航条。</p>
-<p><a href="http://www.mattweltman.com/sliding_tabs.html"><img alt="image placeholder" >
+<p><a href="http://www.mattweltman.com/sliding_tabs.html"><img alt="image placeholder" ></a></p>
 <p><a href="http://www.mattweltman.com/sliding_tabs.html">演示页面</a></p>
 <h3>7. <a href="https://woork.blogspot.com/2008/01/simple-css-vertical-menu-digg-like.html">Digg.com式的下拉菜单</a>
 </h3>
 <p>这个digg.com式的下拉菜单只使用了非常小的Javascript代码。</p>
-<p><a href="https://woork.blogspot.com/2008/01/simple-css-vertical-menu-digg-like.html"><img alt="image placeholder" >
+<p><a href="https://woork.blogspot.com/2008/01/simple-css-vertical-menu-digg-like.html"><img alt="image placeholder" ></a></p>
 <h3>8. <a href="http://www.gmarwaha.com/blog/2007/08/23/lavalamp-for-jquery-lovers/">LavaLamp</a>
 </h3>
 <p>当鼠标经过的时候，菜单项上会有一个小阴影尾随着。以前，这样的技术基本上通过Flash完成的。</p>
-<p><a href="http://www.gmarwaha.com/blog/2007/08/23/lavalamp-for-jquery-lovers/"><img alt="image placeholder" >
+<p><a href="http://www.gmarwaha.com/blog/2007/08/23/lavalamp-for-jquery-lovers/"><img alt="image placeholder" ></a></p>
 <h3>9. <a href="http://marcgrabanski.com/pages/code/fisheye-menu" target="_blank">鱼眼菜单</a>
 </h3>
 <p>鼠标经过的时候，图标会变得大起来。这个技术相当不错。</p>
-<p><a href="http://marcgrabanski.com/pages/code/fisheye-menu"><img alt="image placeholder" >
+<p><a href="http://marcgrabanski.com/pages/code/fisheye-menu"><img alt="image placeholder" ></a></p>
 <h3>10. <a href="http://www.dezinerfolio.com/2007/07/19/simple-javascript-accordions/" target="_blank">简单的JavaScript折叠式菜单</a>
 </h3>
 <p>相当不错的一相折叠式菜单。</p>
-<p><a href="http://www.dezinerfolio.com/wp-content/uploads/accordemo/01.html"><img alt="image placeholder" >
+<p><a href="http://www.dezinerfolio.com/wp-content/uploads/accordemo/01.html"><img alt="image placeholder" ></a></p>
 <p><a href="http://www.dezinerfolio.com/wp-content/uploads/accordemo/01.html" target="_blank">演示页面</a></p>
 <h3>11. <a href="http://www.leigeber.com/2008/05/sliding-javascript-menu-highlight-1kb/">高亮滑动式菜单</a>
 </h3>
 <p>这个特效和第8个很类似。</p>
-<p><a href="http://www.leigeber.com/2008/05/sliding-javascript-menu-highlight-1kb/"><img alt="image placeholder" >
+<p><a href="http://www.leigeber.com/2008/05/sliding-javascript-menu-highlight-1kb/"><img alt="image placeholder" ></a></p>
 <h3>12. <a href="https://css-tricks.com/learning-jquery-fading-menu-replacing-content/" target="_blank">高亮式菜单</a>
 </h3>
 <p>鼠标经过的时候，菜单项会高亮起来。而没有鼠标的经过的时候，其是暗淡的。</p>
-<p><a href="https://css-tricks.com/examples/MenuFader/"><img alt="image placeholder" >
+<p><a href="https://css-tricks.com/examples/MenuFader/"><img alt="image placeholder" ></a></p>
 <p><span style="text-decoration: underline;"><span style="color: #0000ff;"> <a href="https://css-tricks.com/examples/MenuFader/" target="_blank">演示页面</a></span></span></p>
 <h3>13. <a href="http://javascript-array.com/scripts/simple_drop_down_menu/" target="_blank">简单的多级下拉菜单</a>
 </h3>
 <p>这是一个教程，教你怎么做这个菜单。</p>
-<p><a href="http://javascript-array.com/scripts/simple_drop_down_menu/"><img alt="image placeholder" >
+<p><a href="http://javascript-array.com/scripts/simple_drop_down_menu/"><img alt="image placeholder" ></a></p>
 <h3>14. <a href="http://snook.ca/archives/javascript/jquery-bg-image-animations/" target="_blank">jQuery 制作的背景图动画菜单</a>
 </h3>
-<p><a href="http://snook.ca/technical/jquery-bg/"><img alt="image placeholder" >
+<p><a href="http://snook.ca/technical/jquery-bg/"><img alt="image placeholder" ></a></p>
 <p><span style="text-decoration: underline;"><span style="color: #0000ff;"> <a href="http://snook.ca/technical/jquery-bg/">演示页面</a></span></span></p>
 <h3>15. <a href="http://www.chromasynthetic.com/blog/mootools-demo-redux/57/">Mootools Redux</a>
 </h3>
 <p>使用MooTools 制作的一个“鱼眼”式的导航条。</p>
-<p><a href="http://www.chromasynthetic.com/blog/uploads/mootools_nav_example.html"><img alt="image placeholder" >
+<p><a href="http://www.chromasynthetic.com/blog/uploads/mootools_nav_example.html"><img alt="image placeholder" ></a></p>
 <p><span style="text-decoration: underline;"><span style="color: #0000ff;"> <a href="http://www.chromasynthetic.com/blog/uploads/mootools_nav_example.html" target="_blank">演示页面</a></span></span></p>
 <h3>16. <a href="http://berndmatzner.de/jquery/hoveraccordion/">折叠式边栏菜单</a>
 </h3>
-<p><a href="http://berndmatzner.de/jquery/hoveraccordion/"><img alt="image placeholder" >
+<p><a href="http://berndmatzner.de/jquery/hoveraccordion/"><img alt="image placeholder" ></a></p>
 <h3>17. <a href="http://tools.uvumi.com/dropdown.html">UvumiTools 式的下拉菜单</a>
 </h3>
 <p>另一个基于MooTools 制作的下拉菜单。</p>
-<p><a href="http://tools.uvumi.com/dropdown.html"><img alt="image placeholder" >
+<p><a href="http://tools.uvumi.com/dropdown.html"><img alt="image placeholder" ></a></p>
 <h3>18. <a href="http://stilbuero.de/jquery/tabs_3/" target="_blank">jQuery UI Tabs</a>
 </h3>
 <p>使用jQuery制作的Tab页.</p>
-<p><a href="http://stilbuero.de/jquery/tabs_3/"><img alt="image placeholder" >
+<p><a href="http://stilbuero.de/jquery/tabs_3/"><img alt="image placeholder" ></a></p>
 <p><span style="text-decoration: underline;"><span style="color: #0000ff;"> <a href="http://stilbuero.de/jquery/tabs_3/" target="_blank">演示页面</a></span></span></p>
 <h3>19. <a href="http://yura.thinkweb2.com/scripting/contextMenu/" target="_blank">右键菜单Proto.Menu </a>
 </h3>
 <p>使用Prototype 框架制作的右键菜单。</p>
-<p><a href="http://yura.thinkweb2.com/scripting/contextMenu/"><img alt="image placeholder" >
+<p><a href="http://yura.thinkweb2.com/scripting/contextMenu/"><img alt="image placeholder" ></a></p>
 <h3>20. <a href="http://www.456bereastreet.com/archive/200705/accessible_expanding_and_collapsing_menu/" target="_blank">展开/收起式菜单</a>
 </h3>
 <p>一个支持两层的有点类似于树形的菜单。</p>
-<p><a href="http://www.456bereastreet.com/lab/accessible-expanding-collapsing-menu/"><img alt="image placeholder" >
+<p><a href="http://www.456bereastreet.com/lab/accessible-expanding-collapsing-menu/"><img alt="image placeholder" ></a></p>
 <p><a href="http://www.456bereastreet.com/lab/accessible-expanding-collapsing-menu/" target="_blank">演示页面</a></p>
 <p>文章：<a href="http://sixrevisions.com/javascript/20-excellent-javascript-navigation-techniques-and-examples/" target="_blank">来源</a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-05-26T11:33:01+08:00</pubDate>
 <guid>https://coolshell.cn/articles/918.html</guid>
@@ -2864,9 +2795,6 @@ LANGUAGE 'plpgsql' STABLE;
 </pre>
 <p> </p>
 <p>文章：<a href="http://www.microshell.com/database/sql/comparing-data-from-2-database-tables/" target="_blank">来源</a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-05-27T23:02:14+08:00</pubDate>
 <guid>https://coolshell.cn/articles/925.html</guid>
@@ -3051,9 +2979,6 @@ int main() {
 }
 </pre>
 <p>程序到这里应该差不多了。还是那句话——“<strong>每一个程序员都有把源代码弄复杂的潜质</strong>”，大家好自为之。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-05-30T15:30:05+08:00</pubDate>
 <guid>https://coolshell.cn/articles/933.html</guid>
@@ -3063,7 +2988,7 @@ int main() {
 <title><![CDATA[ 最完美的Linux桌面软件 ]]></title>
 <link>https://coolshell.cn/articles/936.html</link>
 <content><![CDATA[ 
-<p><strong><a href="http://lunduke.com/wp-content/uploads/2009/05/ubuntu-logo1.jpg"><img alt="image placeholder" >
+<p><strong><a href="http://lunduke.com/wp-content/uploads/2009/05/ubuntu-logo1.jpg"><img alt="image placeholder" ></a></strong><br>
 下面是关于Linux桌面环境下，目前为止最完美的部分。之所以说他们完美，是因为他们不但很养眼，而且也使用最好的多媒体技术，有最好的可用性。在某些方面，他们甚至超过了Windows和Mac-OS。</p>
 <p> <br>
 <a href="http://lunduke.com/wp-content/uploads/2009/05/ubuntu-logo1.jpg"></a></p>
@@ -3072,7 +2997,7 @@ int main() {
 <p><span id="more-936"></span></p>
 <h2><strong>软件包管理器</strong></h2>
 <p>因为我们使用debian……所以<a href="https://en.wikipedia.org/wiki/Advanced_Packaging_Tool"><span style="color: #000000;">apt</span></a> 必然是软件包管理器中最不错的一个。</p>
-<h2><strong><a href="http://lunduke.com/wp-content/uploads/2009/05/gnome2.png"><img alt="image placeholder" >
+<h2><strong><a href="http://lunduke.com/wp-content/uploads/2009/05/gnome2.png"><img alt="image placeholder" ></a>桌面环境</strong></h2>
 <p>这可能是最难的一个了。</p>
 <p><a href="https://www.kde.org/"><span style="color: #000000;">KDE4</span></a> 是出色的，相当的出色。</p>
 <p><a href="http://www.qtsoftware.com/products/"><span style="color: #000000;">QT</span></a>, 基于Gnome建造，也非常出色。</p>
@@ -3084,12 +3009,12 @@ int main() {
 <p>也许你并不喜欢docks，不过其的确可以帮你更方便地使用图形界面。</p>
 <p><a href="http://www.cairo-dock.org/index.php"><span style="color: #000000;">CairoDock</span></a>吗？ 当然，非常不错。那么  <a href="http://wiki.awn-project.org/"><span style="color: #000000;">AWN</span></a> 呢？  也不错。它们都有不同的很不错的功能。</p>
 <p>但是，因为我们选择了Gnome桌面，所以<a href="http://do.davebsd.com/"><span style="color: #000000;">Gnome-Do</span></a> 在这其中则是最完美的。</p>
-<p><a href="http://lunduke.com/wp-content/uploads/2009/05/docky1.jpg"><img alt="image placeholder" >
+<p><a href="http://lunduke.com/wp-content/uploads/2009/05/docky1.jpg"><img alt="image placeholder" ></a></p>
 <h2><strong>字体</strong></h2>
 <p>Linux默认的字体必需要被改变。你可以从 <a href="https://www.blambot.com/"><span style="color: #000000;">Blambot</span></a>获得一些相当不错的字体。</p>
 <p> </p>
 <p> </p>
-<p><a href="http://lunduke.com/wp-content/uploads/2009/05/jupiteroneioss3.png"><img alt="image placeholder" >
+<p><a href="http://lunduke.com/wp-content/uploads/2009/05/jupiteroneioss3.png"><img alt="image placeholder" ></a><strong>风格/ 图标</strong></p>
 <p>这里有一些 <a href="https://www.gnome-look.org/"><span style="color: #000000;">怪异的但令人惊叹</span></a> 的风格和图标可以装典你的桌面。你可以挑选几个来美化你的桌面，的确很不错哦。</p>
 <p>在这样漂亮的桌面和背景下工作，你的心情都会变得轻松起来。</p>
 <p> </p>
@@ -3103,7 +3028,7 @@ int main() {
 <h2>音频/ 视频框架</h2>
 <p>让我们站在高山之上大喊这句话：  <a href="http://www.gstreamer.net/"><span style="color: #000000;">GStreamer</span></a> 是王中之王。</p>
 <p> <br>
-<a href="http://lunduke.com/wp-content/uploads/2009/05/screenshot-miro.png"><img alt="image placeholder" >
+<a href="http://lunduke.com/wp-content/uploads/2009/05/screenshot-miro.png"><img alt="image placeholder" ></a></p>
 <h2><strong>视频播放器</strong></h2>
 <p>有一个令人惊讶的播放器叫 <a href="http://www.getmiro.com/"><span style="color: #000000;">Miro</span></a> （原来叫做 Democracy Player）</p>
 <p>如果你的Linux安装了它，那么你的Linux就会变成一个最Cool的桌面系统，你可以相当轻松地找到并查看在线的视频。</p>
@@ -3115,7 +3040,7 @@ int main() {
 <p>不过，我们依然有一些选择。</p>
 <p>我的选择是 <a href="http://www.moovida.com/"><span style="color: #000000;">Moovida</span></a> （正式的：Elisa）  它是有商业资助的，使用GStreamer。它比Apple的 Front Row更为强大。而且，其看上去很不错。</p>
 <p> <br>
-<a href="http://lunduke.com/wp-content/uploads/2009/05/banshee-slide-dap.png"><img alt="image placeholder" >
+<a href="http://lunduke.com/wp-content/uploads/2009/05/banshee-slide-dap.png"><img alt="image placeholder" ></a></p>
 <h2>音频播放器</h2>
 <p><a href="http://banshee-project.org/"><span style="color: #000000;">Banshee</span></a>，看看它到底有多简单。</p>
 <p>是的，是的，我知道。  <a href="https://amarok.kde.org/"><span style="color: #000000;">Amarok</span></a> 相当的不错。而且 <a href="https://projects.gnome.org/rhythmbox/"><span style="color: #000000;">Rhythmbox</span></a> 也很不错.</p>
@@ -3125,14 +3050,14 @@ int main() {
 <p>目前看下来，在音频编辑方面，Linux并不是很优秀，不过我们依然可以看到<a href="https://ardour.org/"><span style="color: #000000;">Ardour</span></a> 这样令人惊叹的软件，即使其功能还不是那么的强大。</p>
 <p>不过你可以试试<a href="http://www.jokosher.org/"><span style="color: #000000;">Jokosher</span></a>。这是一个很简单的但比较平常的音频编辑器。</p>
 <p> <br>
-<img alt="image placeholder" >
+<img alt="image placeholder" ></p>
 <h2><strong>视频编辑器</strong></h2>
 <p><a href="http://www.pitivi.org/wiki/Main_Page"><span style="color: #000000;">Pitivi</span></a>. 商业资助的。一个绝对超前的。可以用于Gstreamer 的。如果让其和 <a href="https://en.wikipedia.org/wiki/IMovie"><span style="color: #000000;">iMovie</span></a>来比较的话，Pitivi依然是超前的… 不过，如果我们关注于其它关键应用，那么，这两个编辑器就难分高下了。</p>
 <h2><strong>图片管理器</strong></h2>
 <p><a href="http://f-spot.org/Main_Page"><span style="color: #000000;">F-Spot</span></a>. 不多说了，你试试就知道了。</p>
 <p> </p>
 <p> <br>
-<a href="http://lunduke.com/wp-content/uploads/2009/05/yofrankie10.jpg"><img alt="image placeholder" >
+<a href="http://lunduke.com/wp-content/uploads/2009/05/yofrankie10.jpg"><img alt="image placeholder" ></a></p>
 <h2>游戏</h2>
 <p>几乎所有的Linux发行版都会带有一堆游戏，当然这些游戏几乎没人去玩。</p>
 <p>下面是几个非常不错的游戏，值得你去试试。</p>
@@ -3140,7 +3065,7 @@ int main() {
 <p>而<a href="http://www.hedgewars.org/"><span style="color: #000000;">Hedgewars</span></a> 游戏则相当搞笑的。如果你和几个有一些联网的话，这个游戏也是非常搞笑的。</p>
 <p> <a href="http://www.frozen-bubble.org/"><span style="color: #000000;">Frozen Bubble</span></a> 可能是另一个有些意思的游戏。你可以去试试。</p>
 <p> <br>
-<a href="http://lunduke.com/wp-content/uploads/2009/05/empathy-chat-theme.png"><img alt="image placeholder" >
+<a href="http://lunduke.com/wp-content/uploads/2009/05/empathy-chat-theme.png"><img alt="image placeholder" ></a></p>
 <h2><strong>聊天</strong></h2>
 <p>这个领域绝对不是 <a href="https://www.pidgin.im/"><span style="color: #000000;">Pidgin</span></a>.  Pidgin 已经出局了。</p>
 <p>如果是 <a href="https://live.gnome.org/Empathy"><span style="color: #000000;">Empathy</span></a>，它有更好一些的设计。</p>
@@ -3156,15 +3081,12 @@ int main() {
 <h2><strong>开发环境</strong></h2>
 <p>Windows 程序员有 <a href="https://en.wikipedia.org/wiki/Microsoft_Visual_Studio"><span style="color: #000000;">Visual Studio</span></a>.  Mac 程序员有 <a href="https://en.wikipedia.org/wiki/Xcode"><span style="color: #000000;">XCode</span></a>.</p>
 <p>当然，Linux下也有很多。挑选一个很不错的开发环境，我们当然需要有一些标准的规则。有一个“标准”是，开发工具应该是和操作系统紧密结合的，而且需要有一堆可用的工具，这样可以避免程序员再重新发明轮子。</p>
-<p><a href="http://lunduke.com/wp-content/uploads/2009/05/ss-stetic.png"><img alt="image placeholder" >
+<p><a href="http://lunduke.com/wp-content/uploads/2009/05/ss-stetic.png"><img alt="image placeholder" ></a>Linux下有太多这样的开发工具了。  <a href="https://en.wikipedia.org/wiki/Qt_Creator"><span style="color: #000000;">QT Creator</span></a> 可能是其中最好的，但是它只能在 Gnome 桌面环境下使用。</p>
 <p>那么，最容易得到和有丰富功能的IDE又是什么呢？</p>
 <p><a href="http://monodevelop.com/"><span style="color: #000000;">MonoDevelop</span></a>.</p>
 <p>是的， 我知道有人说过 “Mono is bad cuz of teh Microsoft.” 不过，如果你确实地相信这句话，那么你自然也就不是一个专业的程序员，而且，你可能在很多地方都在焦虑着一些事情。</p>
 <p>MonoDevelop 是一个很不错的IDE开发工具。希望你能试试。</p>
 <p>文章：<a href="http://lunduke.com/?p=616" target="_blank">来源</a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-05-31T12:12:44+08:00</pubDate>
 <guid>https://coolshell.cn/articles/936.html</guid>
@@ -3470,9 +3392,6 @@ int main()
 <p>在<a title="http://vim.runpaint.org/ " href="http://vim.runpaint.org/" target="_blank"> http://vim.runpaint.org/ </a>你可以获得一本关于vim的cookbook 《Vim Recipes》</p>
 <p>如果你非常喜欢vim编辑器，千万不要错过这本书，使用这本书，你将会发现你在vim遇到问题都可以迎刃而解。</p>
 <p>此书还在更新过程中，更多内容请关注<a title="http://vim.runpaint.org/ " href="http://vim.runpaint.org/" target="_blank">http://vim.runpaint.org/</a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-06-01T15:45:54+08:00</pubDate>
 <guid>https://coolshell.cn/articles/956.html</guid>
@@ -3510,7 +3429,7 @@ int main()
 <h4>
 <span class="ez-toc-section" id="Visual_Web_Developer"></span><a href="https://www.microsoft.com/express/vwd/"><span style="color: #468175;">Visual Web Developer</span></a><span class="ez-toc-section-end"></span>
 </h4>
-<div class="tutorial_image"><span style="color: #468175;"><img alt="image placeholder" >
+<div class="tutorial_image"><span style="color: #468175;"><img alt="image placeholder" ></span></div>
 <ul>
 <li>免费</li>
 </ul>
@@ -3519,7 +3438,7 @@ int main()
 <h4>
 <span class="ez-toc-section" id="phpDesigner"></span><a href="http://www.mpsoftware.dk/phpdesigner.php"><span style="color: #468175;">phpDesigner</span></a><span class="ez-toc-section-end"></span>
 </h4>
-<div class="tutorial_image"><span style="color: #468175;"><img alt="image placeholder" >
+<div class="tutorial_image"><span style="color: #468175;"><img alt="image placeholder" ></span></div>
 <ul>
 <li>75€ (~$105)</li>
 </ul>
@@ -3527,7 +3446,7 @@ int main()
 <h4>
 <span class="ez-toc-section" id="PHPEdit"></span><a href="http://www.phpedit.com/"><span style="color: #468175;">PHPEdit</span></a><span class="ez-toc-section-end"></span>
 </h4>
-<div class="tutorial_image"><span style="color: #468175;"><img alt="image placeholder" >
+<div class="tutorial_image"><span style="color: #468175;"><img alt="image placeholder" ></span></div>
 <ul>
 <li>179€ (~$248)</li>
 </ul>
@@ -3535,7 +3454,7 @@ int main()
 <h4>
 <span class="ez-toc-section" id="Visual_Studio_2008"></span><a href="https://www.microsoft.com/visualstudio/en-us/products/standard/default.mspx"><span style="color: #468175;">Visual Studio 2008</span></a><span class="ez-toc-section-end"></span>
 </h4>
-<div class="tutorial_image"><span style="color: #468175;"><img alt="image placeholder" >
+<div class="tutorial_image"><span style="color: #468175;"><img alt="image placeholder" ></span></div>
 <ul>
 <li>$299 (标准版)</li>
 </ul>
@@ -3543,7 +3462,7 @@ int main()
 <h4>
 <span class="ez-toc-section" id="Expression_Web"></span><a href="https://www.microsoft.com/expression/products/overview.aspx?key=web"><span style="color: #468175;">Expression Web</span></a><span class="ez-toc-section-end"></span>
 </h4>
-<div class="tutorial_image"><span style="color: #468175;"><img alt="image placeholder" >
+<div class="tutorial_image"><span style="color: #468175;"><img alt="image placeholder" ></span></div>
 <ul>
 <li>$299</li>
 </ul>
@@ -3552,7 +3471,7 @@ int main()
 <h4>
 <span class="ez-toc-section" id="PhpEd"></span><a href="http://www.nusphere.com/products/phped.htm"><span style="color: #468175;">PhpEd</span></a><span class="ez-toc-section-end"></span>
 </h4>
-<div class="tutorial_image"><span style="color: #468175;"><img alt="image placeholder" >
+<div class="tutorial_image"><span style="color: #468175;"><img alt="image placeholder" ></span></div>
 <ul>
 <li>$299</li>
 </ul>
@@ -3561,7 +3480,7 @@ int main()
 <h4>
 <span class="ez-toc-section" id="BlueFish"></span><a href="http://bluefish.openoffice.nl/"><span style="color: #468175;">BlueFish</span></a><span class="ez-toc-section-end"></span>
 </h4>
-<div class="tutorial_image"><span style="color: #468175;"><img alt="image placeholder" >
+<div class="tutorial_image"><span style="color: #468175;"><img alt="image placeholder" ></span></div>
 <ul>
 <li>免费</li>
 </ul>
@@ -3570,7 +3489,7 @@ int main()
 <h4>
 <span class="ez-toc-section" id="Dreamweaver_CS4"></span><a href="https://www.adobe.com/products/dreamweaver/"><span style="color: #468175;">Dreamweaver CS4</span></a><span class="ez-toc-section-end"></span>
 </h4>
-<div class="tutorial_image"><span style="color: #468175;"><img alt="image placeholder" >
+<div class="tutorial_image"><span style="color: #468175;"><img alt="image placeholder" ></span></div>
 <ul>
 <li>$399</li>
 </ul>
@@ -3579,7 +3498,7 @@ int main()
 <h4>
 <span class="ez-toc-section" id="Eclipse"></span><a href="https://www.eclipse.org/"><span style="color: #468175;">Eclipse</span></a><span class="ez-toc-section-end"></span>
 </h4>
-<div class="tutorial_image"><span style="color: #468175;"><img alt="image placeholder" >
+<div class="tutorial_image"><span style="color: #468175;"><img alt="image placeholder" ></span></div>
 <ul>
 <li>免费</li>
 </ul>
@@ -3587,7 +3506,7 @@ int main()
 <h4>
 <span class="ez-toc-section" id="Aptana_Studio"></span><a href="http://aptana.com/"><span style="color: #468175;">Aptana Studio</span></a><span class="ez-toc-section-end"></span>
 </h4>
-<div class="tutorial_image"><span style="color: #468175;"><img alt="image placeholder" >
+<div class="tutorial_image"><span style="color: #468175;"><img alt="image placeholder" ></span></div>
 <ul>
 <li>免费</li>
 </ul>
@@ -3595,7 +3514,7 @@ int main()
 <h4>
 <span class="ez-toc-section" id="Netbeans"></span><a href="https://netbeans.org/"><span style="color: #468175;">Netbeans</span></a><span class="ez-toc-section-end"></span>
 </h4>
-<div class="tutorial_image"><span style="color: #468175;"><img alt="image placeholder" >
+<div class="tutorial_image"><span style="color: #468175;"><img alt="image placeholder" ></span></div>
 <ul>
 <li>免费</li>
 </ul>
@@ -3603,7 +3522,7 @@ int main()
 <h4>
 <span class="ez-toc-section" id="Nvu"></span><a href="http://net2.com/nvu/"><span style="color: #468175;">Nvu</span></a><span class="ez-toc-section-end"></span>
 </h4>
-<div class="tutorial_image"><span style="color: #468175;"><img alt="image placeholder" >
+<div class="tutorial_image"><span style="color: #468175;"><img alt="image placeholder" ></span></div>
 <ul>
 <li>免费</li>
 </ul>
@@ -3611,7 +3530,7 @@ int main()
 <h4>
 <span class="ez-toc-section" id="Spket_IDE"></span><a href="http://spket.com/"><span style="color: #468175;">Spket IDE</span></a><span class="ez-toc-section-end"></span>
 </h4>
-<div class="tutorial_image"><span style="color: #468175;"><img alt="image placeholder" >
+<div class="tutorial_image"><span style="color: #468175;"><img alt="image placeholder" ></span></div>
 <ul>
 <li>$29.90 (免费的非商业使用)</li>
 </ul>
@@ -3619,7 +3538,7 @@ int main()
 <h4>
 <span class="ez-toc-section" id="IntlliJ_IDEA"></span><a href="http://www.jetbrains.com/idea/features/index.html"><span style="color: #468175;">IntlliJ IDEA</span></a><span class="ez-toc-section-end"></span>
 </h4>
-<div class="tutorial_image"><span style="color: #468175;"><img alt="image placeholder" >
+<div class="tutorial_image"><span style="color: #468175;"><img alt="image placeholder" ></span></div>
 <ul>
 <li>$249 (个人版)</li>
 </ul>
@@ -3627,7 +3546,7 @@ int main()
 <h4>
 <span class="ez-toc-section" id="Komodo_IDE"></span><a href="https://www.activestate.com/komodo/"><span style="color: #468175;">Komodo IDE</span></a><span class="ez-toc-section-end"></span>
 </h4>
-<div class="tutorial_image"><span style="color: #468175;"><img alt="image placeholder" >
+<div class="tutorial_image"><span style="color: #468175;"><img alt="image placeholder" ></span></div>
 <ul>
 <li>$295</li>
 </ul>
@@ -3635,15 +3554,12 @@ int main()
 <h4>
 <span class="ez-toc-section" id="Zend_Studio"></span><a href="http://www.zend.com/en/products/studio/"><span style="color: #468175;">Zend Studio</span></a><span class="ez-toc-section-end"></span>
 </h4>
-<div class="tutorial_image"><span style="color: #468175;"><img alt="image placeholder" >
+<div class="tutorial_image"><span style="color: #468175;"><img alt="image placeholder" ></span></div>
 <ul>
 <li>$399</li>
 </ul>
 <p>Zend Studio 是Eclipse 的插件，当然，它也可以独立成为一个IDE。它主要面对的是PHP开发者。并有一个Zend Framework提供了一堆功能。是个非常成熟的PHP开发的IDE，相当的强大。</p>
 <p>文章：<a href="http://net.tutsplus.com/articles/web-roundups/18-ides-for-windows-mac-linux/" target="_blank">来源</a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-06-04T23:24:17+08:00</pubDate>
 <guid>https://coolshell.cn/articles/968.html</guid>
@@ -3736,9 +3652,6 @@ connect by prior D.column_id = D.VFA
 </pre>
 <p>————————————————————————<br>
 （<strong>本文版权由whl所，转载时请注明作者和出处</strong>）</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-06-05T00:03:13+08:00</pubDate>
 <guid>https://coolshell.cn/articles/962.html</guid>
@@ -3768,9 +3681,6 @@ connect by prior D.column_id = D.VFA
 <p><strong>8. 互惠互利:</strong> “一个团队中的各个部门或各个子团队虽然是在功能上是独立的，但是，一个互惠互利的局面可以增强整个团队或公司的整体能力并创建更大的价值。”</p>
 <p><span>对此，我们需要一个健康的团队之间的关系。好的沟通只能让团队获益一时，而只有建立一个长期互惠互利关系或局面，才是长期。</span></p>
 <p><span>（全文完）</span></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-06-06T21:41:59+08:00</pubDate>
 <guid>https://coolshell.cn/articles/971.html</guid>
@@ -3784,18 +3694,15 @@ connect by prior D.column_id = D.VFA
 <p><a href="http://shootout.alioth.debian.org/">计算机语言评测基准</a>是一个由429个程序组成的集合，它评测了33个程序语言的13的重复实现的基准程序。如果你想量化的比较不同语言，那么这个是一个非常不错的资源。</p>
 <p>在计算机评测基准中，评测者为了尽量让评测准确，非常谨慎的选择了13个基准程序，这13个基准程序并不针对某以特定语言有特殊的优化。对于评测选择33中语言都实现了13个基准程序。当然，除了速度这个指标外，程序基准评测同时也为每一个基准测试程序发布一个编码大小指标。非常感谢基准评测让我们看到程序设计中非常重要的一个方面：程序语言的性能和程序语言灵活性之间的矛盾。正是这个矛盾给所谓“高级编程语言”带上一个含蓄的轻蔑的意思。即，当你在使用这些高级语言编码时，你也许可以编写出漂亮的代码，但是你是如此的远离了硬件，你不可能获得更好的性能，是这样的吗？</p>
 <p><span id="more-973"></span></p>
-<p><a rel="attachment wp-att-976" href="https://coolshell.cn/?attachment_id=976"><img alt="image placeholder" >
+<p><a rel="attachment wp-att-976" href="https://coolshell.cn/?attachment_id=976"><img alt="image placeholder" ></a><br>
 如果我们将基准测试程序的结果放在一张XY的图表上，那么我们就可以为这张表的4个角命名。快速而复杂的语言应积聚在图表的左上角。我们把这类语言称为系统语言。简洁但慢速的语言应该聚集在右下角，我们称之为脚本语言。在右上角，应该是过时的语言。除非这些语言具有非常吸引人的特性，否则语言已经被新出现的语言所淘汰。最后在左下角，基本上找不到对应的语言，因为在这一区域的语言是理想状态的语言。在这个区域的语言是又快又短又利于使用的语言。</p>
 <p>图中每一个小点就代表一种语言的一个基准程序实现，因此这图里面共有429个点，每个点的XY轴分别代表了其和最好的语言实现差距的倍数(从语言的复杂性和语言执行性能来说)，其中一些点比较分散，我们就没有在图中画出。从上面这个图我们可以看到这些粉红色点沿着Y轴(复杂性)比X轴(执行性能)分布更统一，这是不是意味着，人类在提升语言表达的灵活性上还在稳步的不断进步，而在提升语言性能方面却遇到了很多的麻烦呢：）</p>
 <p>针对每一个种语言，比如说scala语言，我们用下面的图来描述：图的中心点，是这个语言测试结果的平均值，然后做每一个评测结果的具体值到这个均值的连线就够成了一个星型图。这个图说明了scala一些特性，在X轴性能上来说，大部分点都分布在靠近左边，说明scala的性能是不错的，如果优化JVM的话，scala可以大部分提高性能，但是scala性能分布并不一致，其中的一个点甚至到了最右边。就语言复杂性(Y轴)来说，scala的表现也不错，不过有时候为了获得高性能，也会导致语言复杂提高，比如scala的其中一个点就在最顶端。</p>
-<p><a rel="attachment wp-att-974" href="https://coolshell.cn/?attachment_id=974"><img alt="image placeholder" >
+<p><a rel="attachment wp-att-974" href="https://coolshell.cn/?attachment_id=974"><img alt="image placeholder" ></a></p>
 <p>通过为每一种语言形成如上的一个图，我们最后可以为这33种语言评的测结果形成了如下的一个图，这是一个6*6的图。其中每一个小图具有同样的轴和同样的精度。这张图的目的是为了方便的比较每一个语言的星型。这些图按语言的平均性能来组织列，最左边的语言的性能最好，最右边的语言性能最差，在每一列中的语言又按照平均的语言代码量(复杂程度)进行排列，代码量最小的语言在最低端，代码量最大的在最顶端。</p>
-<figure id="attachment_975" aria-describedby="caption-attachment-975" style="width: 275px" class="wp-caption aligncenter"><a title="点击看大图" href="https://coolshell.cn/wp-content/uploads/2009/06/size-vs-speed-vs-depandability-2009.png"><img alt="image placeholder" >
+<figure id="attachment_975" aria-describedby="caption-attachment-975" style="width: 275px" class="wp-caption aligncenter"><a title="点击看大图" href="https://coolshell.cn/wp-content/uploads/2009/06/size-vs-speed-vs-depandability-2009.png"><img alt="image placeholder" ></a><figcaption id="caption-attachment-975" class="wp-caption-text">点击看大图</figcaption></figure>
 <p>在图的最左边的性能是最好的，又高又瘦的星型，我们可以看到，除了GCC和G++外，其他的性能都显示了惊人的一致性(每一个基准测试程序的性能都非常接近)。而JAVA也非常骄傲的出现在一组中，这说明经过了10年的优化后，Java运行时的性能已经得到长足的提高(要用Java做大系统的人是否还会犹豫呢：）)。<br>
 在图的右边，我们看到了一些又胖又矮的星型，这些是一些脚本语言，从图中可以看出，这些脚本语言社区的人们当他们在不断改善他们语言的表达性的同时并没有花大力气在性能的改善上。然而也有例外，Lua这门脚本语言就有很好的执行性能。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-06-06T22:50:49+08:00</pubDate>
 <guid>https://coolshell.cn/articles/973.html</guid>
@@ -3899,9 +3806,6 @@ Good:          mail.VerifyAddress();<br>
                mail.SendStatus();<br>
 </code></p>
 <p>这是一篇非常优秀的文章，我用我的语言在组织了一下，如果喜欢英文的读者可以点击<a href="http://journal.stuffwithstuff.com/2009/06/05/naming-things-in-code/">这里</a>阅读原文</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-06-07T16:36:49+08:00</pubDate>
 <guid>https://coolshell.cn/articles/990.html</guid>
@@ -3912,7 +3816,7 @@ Good:          mail.VerifyAddress();<br>
 <link>https://coolshell.cn/articles/1007.html</link>
 <content><![CDATA[ 
 <h2>1.- DRY: Don’t repeat yourself.</h2>
-<p><a href="https://coolshell.cn/wp-content/uploads/2009/06/10commandements.jpg"><img alt="image placeholder" >
+<p><a href="https://coolshell.cn/wp-content/uploads/2009/06/10commandements.jpg"><img alt="image placeholder" ></a>DRY 是一个最简单的法则，也是最容易被理解的。但它也可能是最难被应用的（因为要做到这样，我们需要在泛型设计上做相当的努力，这并不是一件容易的事）。它意味着，当我们在两个或多个地方的时候发现一些相似的代码的时候，我们需要把他们的共性抽象出来形一个唯一的新方法，并且改变现有的地方的代码让他们以一些合适的参数调用这个新的方法。</p>
 <p><a href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself" target="_blank">DRY</a> 这一法则可能是编程届中最通用的法则了，目前为止，应该没有哪个程序员对这一法则存有异议。但是，我们却能发现，一些程序在编写单元测试（unit testing）时忘记了这一法则：让我们相像一下，当你改变一个类的若干接口，如果你没有使用DRY，那么，那些通过调用一系例类的接口的unit test的程序，都需要被手动的更改。比如：如果你的unit test的诸多test cases中没有使用一个标准共有的构造类的方法，而是每个test case自己去构造类的实例，那么，当类的构造函数被改变时，你需要修改多少个test cases啊。这就是不使用DRY法则所带来的恶果。</p>
 <p><span id="more-1007"></span></p>
 <h2>2.- 短小的方法.</h2>
@@ -3955,9 +3859,6 @@ Good:          mail.VerifyAddress();<br>
 </ul>
 <p>（<strong>我以我个人的语言叙述本文，并加入了我个人的经历，所以，请你在转载时请注意作者和出处，并且，请勿用于商业用途</strong>）</p>
 <p>文章：<a href="http://makinggoodsoftware.com/2009/06/04/10-commandments-for-creating-good-code/" target="_blank">来源</a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-06-07T19:20:56+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1007.html</guid>
@@ -3987,7 +3888,7 @@ Good:          mail.VerifyAddress();<br>
 <p>显然，他们做到了，Unix的确成为了IT领域中的一块基石，被广泛地部署到了大学，政府和企业的服务器和工作站上。并且，Unix的影响力开发迅速地传播开来，这恐怕超出了所有人的估计，正如ACM在1983年给Thompson 和 Ritchie颁发最具价值的图灵奖（计算机领域的诺贝尔奖）所记录的那样–“Unix系统的模式已经在以一种全新的编程思想领导着新一代的软件开发”。</p>
 <h2 style="MARGIN: auto 0in">
 <a name="early"></a>Unix早期</h2>
-<p style="TEXT-ALIGN: center"> <img alt="image placeholder" >
+<p style="TEXT-ALIGN: center"> <img alt="image placeholder" ></p>
 <p style="TEXT-ALIGN: center">Thompson 和 Ritchie.</p>
 <p>当然，Unix的成功不是一蹴而就的。 在1971年，它首先被移植到了PDP-11微机（一个比PDP-7更强的微机）。文本格式和文本编译程序在这时被加入进了Unix。并且，当时的实验室专利部门已经开始用这些文本编译器，这也是Unix系统除开发团队之外的第一个用户。</p>
 <p>在1972年，Ritchie引入了一个更高级的语言–C语言（基于Thompson的B语言），此后，Thompson用C语言重写了Unix，这极大地增加了Unix的可移植跨平台性。然后，他们为这个操作系统命名Unics(Uniplexed Information and Computing Service)，这是和Multics玩的一个文字游戏。但最后，Unix成了最终的名字。（<strong style="mso-bidi-font-weight: normal">陈皓注</strong>：Unix下的经常出现缩写，如usr 是 user, ed是edit，gp是group，这也是Unix的文化。Unix的更名可能也是因为这个吧）</p>
@@ -4002,7 +3903,7 @@ Good:          mail.VerifyAddress();<br>
 <p>Korn，一个今天还在AT&amp;T工作的员工，上世纪70年代曾是Bell 实验室的一个程序员。”Unix的一个特点是，一个小工具刚被完成，就被另一个更好的工具所代替”，他回忆起来说，”如果你觉得不好的话，你完全可以开完一个更好的版本”。Korn当时为Unix开发了一个很具影响力的<a href="https://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9133574#korn">Korn shell</a>，本质上来说，当年的Unix就像今天的开源软件。</p>
 <p>Salus，作为一个作家和技术历史家，回忆起，他上世纪70年代在多伦多大学时当教授时，在IBM System/360大机上使用APL编程语言工作时的情景–那并不很好用，但是自从1978年圣诞节以后，一个哥伦比亚大学的朋友给我演示了一下在微机上运行的Unix，”我说，’我的上帝啊’，我彻底被你征服了”。</p>
 <p>他说，Unix最关键的优势是他有一个”管道”特性（1973年引入），这么我们可以把上一个程序的输出轻松地传给下一个程序。”管道”的概念，由Bell实验室的McIlroy发明，随后”管道”这个东西被其它几乎所有的操作系统复制，包括所有的Unix， Linux，DOS和Windows。</p>
-<p style="TEXT-ALIGN: center"><img alt="image placeholder" >
+<p style="TEXT-ALIGN: center"><img alt="image placeholder" ></p>
 <p style="TEXT-ALIGN: center">位于新泽西Murray Hill 的Bell 实验室总部</p>
 <p style="TEXT-ALIGN: center"><em>Credit: Alcatel-Lucent/Bell Labs</em></p>
 <p> </p>
@@ -4020,7 +3921,7 @@ Good:          mail.VerifyAddress();<br>
 <p>1982年，Joy创建了Sun Microsystems公司并提供了工作站–Sun-1，运行在当一个BSD的版本，叫SunOS（Solaris以之后的十年出现）。而AT&amp;T则在随后的几年中发布了Unix System V的第一版，一个具有强大影响力的操作系统，最终造就了IBM的AIX和HP的HP-UX。</p>
 <p style="MARGIN: 0in 0in 0pt"><a href="https://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9133696"></a></p>
 <p style="MARGIN: 0in 0in 0pt"> </p>
-<p style="MARGIN: 0in 0in 0pt; TEXT-ALIGN: center"><img alt="image placeholder" >
+<p style="MARGIN: 0in 0in 0pt; TEXT-ALIGN: center"><img alt="image placeholder" ></p>
 <p style="MARGIN: 0in 0in 0pt; TEXT-ALIGN: center">Unix 家谱. <em>Credit: Eraserhead1 (<a href="https://creativecommons.org/licenses/by-sa/3.0/" target="new">cc-by-sa-3.0</a>, <a href="https://en.wikipedia.org/wiki/GNU_Free_Documentation_License" target="new">GFDL</a>)</em><br>
 <a href="https://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9133696">点击这里下载大图</a></p>
 <p style="MARGIN: 0in 0in 0pt"> </p>
@@ -4066,9 +3967,6 @@ Good:          mail.VerifyAddress();<br>
 <p style="MARGIN: 0in 0in 0pt"><strong style="mso-bidi-font-weight: normal">关于更为详细的历史，可以参考我的《Unix</strong><strong style="mso-bidi-font-weight: normal">传奇》<a href="http://blog.csdn.net/haoel/archive/2007/03/27/1542340.aspx">上篇</a></strong><strong style="mso-bidi-font-weight: normal">，<a href="http://blog.csdn.net/haoel/archive/2007/03/27/1542353.aspx">下篇</a></strong></p>
 <p style="MARGIN: 0in 0in 0pt"><strong style="mso-bidi-font-weight: normal">以及一篇CSDN</strong><strong style="mso-bidi-font-weight: normal">对我的采访《<a href="http://blog.csdn.net/haoel/archive/2007/07/13/1688006.aspx">Unix的现状与未来</a></strong><strong style="mso-bidi-font-weight: normal">》</strong></p>
 <p><strong style="mso-bidi-font-weight: normal">（本文由陈皓翻译，在转载时请注明作者和出处）</strong></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-06-11T23:01:39+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1023.html</guid>
@@ -4132,7 +4030,7 @@ Good:          mail.VerifyAddress();<br>
 </h4>
 <p><strong>三月 — </strong>AT&amp;T旗下的 Bell 实验室从操作系统项目Multics (Multiplexed Information and Computing Service)研发中撤出，这是一个前沿但很复杂的分时操作系统。一些重要的Multics理念以后来被用于Unix操作操作系统中。</p>
 <p><span id="more-1032"></span></p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ><br>
 Unix 从 PDP-7 小型机上开始了它的历程<br>
 Credit: Toresbe (<a href="https://creativecommons.org/licenses/sa/1.0/" target="new">cc-by-sa 1.0</a>)</p>
 <p><strong>八月 – </strong>Bell实验室的Ken Thompson 写了第一个版本的操作系统，这时，这个操作系统还没有名字，这个操作系统是用DEC PDP-7 小型机的汇编语言写成。</p>
@@ -4146,7 +4044,7 @@ Credit: Toresbe (<a href="https://creativecommons.org/licenses/sa/1.0/" target="
 <p><strong>二月. — </strong>Unix 移植到DEC PDP-11 小型机上。</p>
 <p><strong>十一月. – </strong>写一版本的 “Unix Programmer’s Manual”（Unix程序员手册） 由Ken Thompson 和 Dennis Ritchie完成并出版。</p>
 <h4>
-<span class="ez-toc-section" id="1972"></span>1972<img alt="image placeholder" >
+<span class="ez-toc-section" id="1972"></span>1972<img alt="image placeholder" ><span class="ez-toc-section-end"></span>
 </h4>
 <p>Dennis Ritchie 开发了C 编程语言。</p>
 <h4>
@@ -4174,7 +4072,7 @@ Credit: Toresbe (<a href="https://creativecommons.org/licenses/sa/1.0/" target="
 <span class="ez-toc-section" id="1980"></span>1980<span class="ez-toc-section-end"></span>
 </h4>
 <p>4BSD，由美国国防部高级计划研究署 DARPA 资助，成为了世界上第一个支持TCP/IP的Unix。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" > <br>
 Bill Joy 发起了Unix的 BSD 分枝 并成立了Sun公司<br>
 Credit: SqueakBox (<a href="https://creativecommons.org/licenses/by/2.0/" target="new">cc-by-sa 2.0</a>)</p>
 <h4>
@@ -4203,7 +4101,7 @@ Credit: SqueakBox (<a href="https://creativecommons.org/licenses/by/2.0/" target
 <h4>
 <span class="ez-toc-section" id="1987"></span>1987<span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" > <br>
 Andrew Tanenbaum 写了 Minix, 一个 Unix 的克隆仅用于教学目的。<br>
 Credit: GerardM (<a href="https://en.wikipedia.org/wiki/GNU_Free_Documentation_License" target="new">GNU FDL</a>)</p>
 <p>AT&amp;T Bell 实验室和Sun Microsystems 宣布计划一同开发一个操作系统以便统一两个主要的Unix分枝。</p>
@@ -4226,7 +4124,7 @@ Credit: GerardM (<a href="https://en.wikipedia.org/wiki/GNU_Free_Documentation_L
 </h4>
 <p>Sun Microsystems 宣布了 Solaris，一个基于 SVR4的操作系统。</p>
 <p>同年Linux Torvalds 写了 Linux，解一个开源的操作系统内核（由Minix产生的灵感）</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" > <br>
 Linus Torvalds</p>
 <h4>
 <span class="ez-toc-section" id="1992"></span>1992<span class="ez-toc-section-end"></span>
@@ -4245,7 +4143,7 @@ Linus Torvalds</p>
 <span class="ez-toc-section" id="1996"></span>1996<span class="ez-toc-section-end"></span>
 </h4>
 <p>X/Open 和 Open Software Foundation 合并形成了 The Open Group.</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" > <br>
 Clinton 总统授予Thompson 和 Ritchie国家科技勋章</p>
 <h4>
 <span class="ez-toc-section" id="1999"></span>1999<span class="ez-toc-section-end"></span>
@@ -4274,9 +4172,6 @@ Clinton 总统授予Thompson 和 Ritchie国家科技勋章</p>
 <li><em>其它</em></li>
 </ul>
 <p>原文：<a href="https://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;taxonomyName=Operating+Systems&amp;articleId=9133628&amp;taxonomyId=89&amp;pageNumber=1" target="_blank">链接</a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-06-12T15:32:54+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1032.html</guid>
@@ -4372,9 +4267,6 @@ Require valid-user</span></p>
 RewriteEngine On<br>
 RewriteRule ^(.*)$ </span><a href="http://www.yourdomain.com/%241"><span style="COLOR: #ff6600">http://www.yourdomain.com/$1</span></a><span style="COLOR: #ff6600"> [R=301,L]</span></p>
 <p><span style="color: #000000;">文章：<a href="https://rafeekphp.wordpress.com/2009/06/06/16-great-htaccess-tricks-and-hacks/" target="_blank">来源</a></span></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-06-14T12:27:09+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1035.html</guid>
@@ -4746,9 +4638,6 @@ HWND        hCtl;      CComboBox*  pComboBox;
 
 （全文完）</pre>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-06-15T22:36:17+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1038.html</guid>
@@ -5795,9 +5684,6 @@ EOF</span></td>
 </tbody>
 </table>
 <p>(全文完)</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-06-16T10:42:39+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1044.html</guid>
@@ -6275,9 +6161,6 @@ System.out.println(coll.contains(pAnon)); // 打印 true</pre>
 <p>canEqual方法的一个潜在的争论是它是否违背了Liskov替换准则(LSP)。例如，通过比较运行态的类来实现的比较技术(<strong>译者注：</strong> canEqual的前一版本，使用.getClass()的那个版本)，将导致不能定义出一个子类，这个子类的实例可以和其父类进行比较，因此就违背了LSP。这是因为，LSP原则是这样的，在任何你能使用父类的地方你都可以使用子类去替换它。在之前例子中，虽然cp的x,y坐标匹配那些在集合中的点，然而”coll.contains(cp)”仍然返回false，这看起来似乎违背得了LSP准则，因为你不能这里能使用Point的地方使用一个ColoredPointed。但是我们认为这种解释是错误的，因为LSP原则并没有要求子类和父类的行为一致，而仅要求其行为能一种方式满足父类的规范。</p>
 <p>通过比较运行态的类来编写equals方法(<strong>译者注：</strong> canEqual的前一版本，使用.getClass()的那个版本)的问题并不是违背LSP准则的问题，但是它也没有为你指明一种创建派生类的实例能和父类实例进行对比的的方法。例如，我们使用这种运行态比较的技术在之前的”coll.contains(pAnon)”将会返回false，并且这并不是我们希望的。相反我们希望“coll.contains(cp)”返回false，因为通过在ColoredPoint中重载的equals，我基本上可以说，一个在坐标1，2上着色点和一个坐标1，2上的普通点并不是一回事。然而，在最后的例子中，我们能传递Point两种不同的子类实例到集合中contains方法，并且我们能得到两个不同的答案，并且这两个答案都正确。</p>
 <p><strong>–全文完–</strong></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-06-18T11:14:41+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1051.html</guid>
@@ -6287,7 +6170,7 @@ System.out.println(coll.contains(pAnon)); // 打印 true</pre>
 <title><![CDATA[ Linux/Unix 新手和专家教程 ]]></title>
 <link>https://coolshell.cn/articles/1042.html</link>
 <content><![CDATA[ 
-<p><em><img alt="image placeholder" >
+<p><em><img alt="image placeholder" ></em>你正在找一些高质量的Linux 和 UNIX 的教程吗？如果是，这篇文章会告诉你到哪去找到这些教程。这里我们将给出超过30个相当的不错的 Linux 和 UNIX 在线的教程。</p>
 <p>需要大家注意的是，他们都是英文的，也许有一些也经被翻译到了中文社区，你可以搜索一下。但不管怎么样，我的建议是应该尽可能的去阅读英文。</p>
 <p> <span id="more-1042"></span></p>
 <h2 id="section--LinuxAndUNIXTrainingForBeginners">Linux 和UNIX 的新手培训教程</h2>
@@ -6376,9 +6259,6 @@ System.out.println(coll.contains(pAnon)); // 打印 true</pre>
 <a href="http://heather.cs.ucdavis.edu/~matloff/UnixAndC/Unix/CShellII.pdf">Advanced C Shell Programming</a> – 这是UC Davis 的教程，主要教使用如何使用C shell 和tcsh 进行脚本编程。</li>
 </ul>
 <p>文章：<a href="http://educhoices.org/articles/Useful_Tutorials_on_Linux_and_UNIX_for_Beginners_and_Experts_Alike.html" target="_blank">来源</a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-06-21T10:37:53+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1042.html</guid>
@@ -6432,7 +6312,6 @@ System.out.println(coll.contains(pAnon)); // 打印 true</pre>
 <p>记得以前的一个经历，一位英语很不错的程序员加入公司，本来对我们这些英语二把刀来说，我们喜欢看到的是简单和易读的英文文档，然后，那位老兄为了展示他的英语如何牛，使用了很多GRE中比较生僻的短语和词汇。让大家阅读得很艰苦。最有讽刺意味的是，有一位native的美国人后来在其邮件中询问他某个单词的意思。呵呵。</p>
 <p>你是一个糟糕的程序员吗？欢迎你分享你的经历。</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2009-06-24T23:02:36+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1081.html</guid>
@@ -6449,44 +6328,44 @@ System.out.println(coll.contains(pAnon)); // 打印 true</pre>
 <h2>迄今最有前途的框架</h2>
 <h3>1. <a title="Zend Framework" href="http://framework.zend.com/" target="_blank">Zend Framework</a>
 </h3>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ><br>
 Zend Framework 是一个面向对象的，由PHP5写成的框架。其基于一个简洁和友好的许可证协议，并基于了一个经过了相当严酷测试的代码库开发而来。这是一个松散的几乎没有耦合架构设计，你可以方便地把其和其它框架混合使用。</p>
 <h3>2. <a title="Symfony" href="http://www.symfony-project.org/" target="_blank">Symfony</a>
 </h3>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ><br>
 Symfony 是一个基于PHP 5 的框架，其提供了一个架构，组件和工具集，可以让你更快地创造你的应用。在其官网上提供了一些入门教程。</p>
 <p><span id="more-575"> </span></p>
 <h3>3. <a title="CodeIgniter" href="https://codeigniter.com/" target="_blank">CodeIgniter</a>
 </h3>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ><br>
 CodeIgniter 这个框架有一个wiki可以让你容易的查找相关的文档。其支持的是PHP4。</p>
 <h3>4. <a title="CakePHP" href="http://cakephp.org/" target="_blank">CakePHP</a>
 </h3>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ><br>
 这个框架使用了一些流行的设计模式比如： MVC  和ORM  ， CakePHP 可以有效地减少开发成本和帮助开发人员少写代码。</p>
 <h3>5. <a title="Prado PHP Framework" href="http://www.xisc.com/" target="_blank">Prado</a>
 </h3>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>Prado 需要PHP5 及以上版本才能运行，这是基于组件和事件驱动编程的一个程序框架。</p>
 <h3>6. <a title="Kohana" href="http://www.kohanaphp.com/" target="_blank">Kohana</a>
 </h3>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ><br>
 Kohana 是一个基于 PHP 5 的框架，其也是使用MVC—— Model View Controller 架构模式。其面对的是安全，轻量级，和易用性。由于Kohana 原来基于 CodeIgniter开发，因为其限制了PHP5 的OOP能力，所以这个框架更合适用在一些中小型的应用。</p>
 <h3>7. <a title="Solar Framework" href="http://solarphp.com/" target="_blank">Solar Framework</a>
 </h3>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ><br>
 Solar 是一个 PHP 5 的框架，其可以用做企业级的应用，而且有内建的语言集和配置。</p>
 <h3>8. <a title="Fuse" href="http://www.phpfuse.net/" target="_blank">Fuse</a>
 </h3>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ><br>
 FUSE 也是一个MVC的PHP框架。其注是要受到了Ruby on Rails 和CakePHP的影响，其有定制和直接的设计。FUSE 是一个功能完整，相当稳定的使用面向对像开发的MVC框架。</p>
 <h3>9. <a title="Yii PHP Framework" href="http://www.yiiframework.com/" target="_blank">Yii PHP Framework</a>
 </h3>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ><br>
 Yii 是一个高性能的组件式的PHP框架，对于那些大型的Web应用来说，这是最好的框架，全面的功能。但需要PHP5及以上版的支持。</p>
 <h3>10. <a title="Akelos PHP Framework" href="http://www.akelos.org/" target="_blank">Akelos PHP Framework</a>
 </h3>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ><br>
 Akelos PHP 框架也是基于 MVC (Model View Controller) 设计模式的框架。</p>
 <h2>其它可选的 PHP 框架</h2>
 <p>11. <a title="Recess" href="http://www.recessframework.org/" target="_blank">Recess</a><br>
@@ -6502,9 +6381,6 @@ Akelos PHP 框架也是基于 MVC (Model View Controller) 设计模式的框架�
 21. <a title="Lion" href="http://www.lionframework.org/" target="_blank">Lion</a><br>
 22. <a title="Flow3" href="http://flow3.typo3.org/" target="_blank">Flow3</a></p>
 <p>文章：<a href="http://www.webdesignbooth.com/22-open-source-php-frameworks-to-shorten-your-development-time/" target="_blank">来源</a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-06-25T11:57:39+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1086.html</guid>
@@ -7932,9 +7808,6 @@ Akelos PHP 框架也是基于 MVC (Model View Controller) 设计模式的框架�
 </tbody>
 </table>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-06-30T10:39:49+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1092.html</guid>
@@ -7956,9 +7829,6 @@ Akelos PHP 框架也是基于 MVC (Model View Controller) 设计模式的框架�
 </li>
 </ul>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-06-30T10:53:44+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1097.html</guid>
@@ -7968,10 +7838,7 @@ Akelos PHP 框架也是基于 MVC (Model View Controller) 设计模式的框架�
 <title><![CDATA[ 漫画：程序员的一生 ]]></title>
 <link>https://coolshell.cn/articles/1103.html</link>
 <content><![CDATA[ 
-<p><a href="https://coolshell.cn/wp-content/uploads/2009/06/programmer-life.jpg"></a> <a href="https://coolshell.cn/wp-content/uploads/2009/06/programmer-life.jpg"><img alt="image placeholder" >
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
+<p><a href="https://coolshell.cn/wp-content/uploads/2009/06/programmer-life.jpg"></a> <a href="https://coolshell.cn/wp-content/uploads/2009/06/programmer-life.jpg"><img alt="image placeholder" ></a></p>
  ]]></content>
 <pubDate>2009-06-30T16:57:30+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1103.html</guid>
@@ -8053,7 +7920,6 @@ Akelos PHP 框架也是基于 MVC (Model View Controller) 设计模式的框架�
 </ul>
 <p>最后，需要向大家推荐一本书，Joshua Bloch 和 Neal Gafter 写的 <a href="https://www.amazon.com/gp/product/032133678X?ie=UTF8&amp;tag=billthelizard-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=032133678X">Java Puzzlers: Traps, Pitfalls, and Corner Cases</a>，中文版《<a href="http://www.china-pub.com/28310&amp;ref=ps" target="_blank"><span>JAVA</span>解惑</a>》。</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2009-07-03T14:31:49+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1106.html</guid>
@@ -8064,7 +7930,7 @@ Akelos PHP 框架也是基于 MVC (Model View Controller) 设计模式的框架�
 <link>https://coolshell.cn/articles/1113.html</link>
 <content><![CDATA[ 
 <p>2009年6月23日，Martin Fowler到公司访问，与我们开了一个小型座谈会并顺便拜访了他在ThoughtWorks的同事们。</p>
-<p style="text-align: center;"><img alt="image placeholder" >
+<p style="text-align: center;"><img alt="image placeholder" ></p>
 <p>以下是座谈的内容：</p>
 <p><span id="more-1113"></span></p>
 <p><strong>1、如何在常规业务中应用敏捷方法？ </strong></p>
@@ -8080,9 +7946,6 @@ Akelos PHP 框架也是基于 MVC (Model View Controller) 设计模式的框架�
 <p><strong>6、选择和运用框架 </strong></p>
 <p>“It is like you buying a new PC every 2 years” 当Martin被问道“这么多的应用框架层出不穷，我们该如何选择？”的时候如是回答。每几年我们都会换一台新电脑，是因为新的电脑内存更大，处理速度更快，应用软件也更复杂，要求的系统资源也更多。我们使用框架的目的也是解决业务相关的问题，只要是对业务有利的框架，都值得花一点时间去关注。 Martin鼓励公司允许开发人员占用一定的工作时间来实验新的框架，因为不这样如何能够知道它是否对提升业务价值有帮助。当然框架在生产环境（Production Environment）中的表现是衡量的一个重要标准，因为不经过生产环境中各种复杂情况的检验，很难最终确定框架是否适用。</p>
 <p><strong>（<strong>本文系作者原创，请勿用于商业用途</strong>，如转载请注明出自酷壳www.cocre.com）</strong></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-07-05T10:15:01+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1113.html</guid>
@@ -8104,9 +7967,6 @@ Akelos PHP 框架也是基于 MVC (Model View Controller) 设计模式的框架�
 <strong>4 – 让你的代码可读</strong></p>
 <p>你的代码并不只是让编译器去阅读的，你的代码更应该是让你的同事和其它人阅读的。所以，一定要遵守团队内部的那些最中规中矩的编程规范或代码风格，千万不要在代码中使你的小聪明或是偷懒或是hack代码，那样做的结果只会有两个，一个是你的代码会被后人骂得一无是处，另一个就是当你在以后维护你的代码时无异于搬起石头砸了自己的脚。编码坚持最基本的两个原则—— <a href="https://en.wikipedia.org/wiki/Keep_it_simple_stupid"><span style="color: #5588aa;">KISS</span></a> 和<a href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself"><span style="color: #5588aa;">DRY</span></a>，剩下的就是顺从于自然。</p>
 <p>（全文完）<a href="https://tiagofernandez.blogspot.com/2009/06/4-tips-for-clean-code.html" target="_blank"></a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-07-05T22:09:01+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1095.html</guid>
@@ -8401,9 +8261,6 @@ KTHXBYE</pre>
 <p style="padding-left: 60px;">官网：<a href="http://www.chinesepython.org/cgi_bin/cgb.cgi/home.html">http://www.chinesepython.org/</a></p>
 <p>差不多了，该结束了，再次说明，这是一篇很严肃的文章。</p>
 <p>(<strong>全文完</strong>)</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-07-12T11:07:03+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1142.html</guid>
@@ -8430,9 +8287,6 @@ KTHXBYE</pre>
 <li>Chrome OS会不会和Android合并?短时间不会，就像地线电话和手机一样，但是又有多大差别呢？</li>
 </ol>
 <p>两个可能赢的赛马，两个都赌的话……</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-07-13T01:04:14+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1152.html</guid>
@@ -8487,9 +8341,6 @@ KTHXBYE</pre>
 <dd><span style="font-size: 10px;"><span style="font-size: 12px;">12. <a style="color: navy !important; outline-style: none; outline-width: initial; outline-color: initial;" href="https://nltk.googlecode.com/svn/trunk/doc/book/ch12.html">Afterword: Facing the Language Challenge</a></span></span></dd>
 </dl>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-07-15T22:41:56+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1157.html</guid>
@@ -8522,9 +8373,6 @@ KTHXBYE</pre>
 <div id="_mcePaste" style="overflow: hidden; position: absolute; left: -10000px; top: 108px; width: 1px; height: 1px;">本书是以前98年一个经典书的扩充和更新：Modern Information Retrieval, Baeza-Yates and Ribeiro-Neto (Eds.), Addison Wesley</div>
 </blockquote>
 <p>本书是以前98年一个经典书的扩充和更新：<em>Modern Information Retrieval</em>, Baeza-Yates and Ribeiro-Neto (Eds.), Addison Wesley</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-07-16T21:23:39+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1163.html</guid>
@@ -8604,7 +8452,6 @@ KTHXBYE</pre>
 </h4>
 <p>程序员总是喜欢去研究一些新的或自己感兴趣的东西，但对于软件工程来说，我们更需要知道所有事情的轻重缓急，要学会如何了解事情的优先级，这样才会让我们的工作事半功倍，而我们的工作也会更有效。比如，当用户的站点出现问题的时候，有些时候，我们的程序员过试地关注于问题的重现和原因，而忘记了用户的站点正在流血，无法进行生产。所以，一般来说，最重要的事情首先是恢复用户站点，然后才是去重现和调查问题。在我们的日常工作中，我们要处理很多事情，只有了解到了所有事情的轻重缓急，处理最重要最紧急的事情，我们才能够更好的安排自己的工作，才能够更好的完成我们的事情。不要以为这是一件很简单的事情，这需要我们不断地和别人沟通来了解事情的轻重缓急，事实证明，如果我们不懂工作中的轻重缓急，本来只有一件紧急的事情，如果处理不当，最后可能会演变成多件紧急事情，其它本来不紧急的事，后来也会变得很紧急，最终程序员们顾此失彼，苦不堪言。希望大家切记。</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2009-07-21T22:24:23+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1145.html</guid>
@@ -8649,9 +8496,6 @@ KTHXBYE</pre>
 <li>就算是程序有问题，那又怎么样？</li>
 </ol>
 <p>呵呵，是这样的吗？希望你能分享你所经历的程序员的解释。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-07-24T11:32:35+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1174.html</guid>
@@ -8662,11 +8506,8 @@ KTHXBYE</pre>
 <link>https://coolshell.cn/articles/1178.html</link>
 <content><![CDATA[ 
 <p>点击图片看大图</p>
-<p style="text-align: center;"><a href="https://coolshell.cn/wp-content/uploads/2009/07/Internet.jpg"><img alt="image placeholder" >
+<p style="text-align: center;"><a href="https://coolshell.cn/wp-content/uploads/2009/07/Internet.jpg"><img alt="image placeholder" ></a></p>
 <p><a href="https://coolshell.cn/wp-content/uploads/2009/07/Internet.jpg"></a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-07-24T11:51:32+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1178.html</guid>
@@ -8680,67 +8521,64 @@ KTHXBYE</pre>
 <h3>1. <a title="FCKeditor" href="http://www.fckeditor.net/" target="_blank">FCKeditor</a>
 </h3>
 <p>FCKeditor 这些在线编辑器中最著名的一个，其功能相当的强大，很像一个Web的Word软件。它可以方便地和ASP, ASP.NET, PHP, Java, Perl, Phyton 等Web开发语言所集成。并支持皮肤，拼写检查。其还可以配置成一个轻量级的编辑器。而且，它还有很多相当酷的功能。<br>
-<img alt="image placeholder" >
+<img alt="image placeholder" ></p>
 <p><span id="more-1183"></span></p>
 <h3>2. <a title="NicEdit" href="http://nicedit.com/" target="_blank">NicEdit</a>
 </h3>
-<p>NicEdit 是一个基于Javascript 编辑器，它可以很容易地被集成到任意的网页中。它还可以把网页上任何的element/div 转成可以编辑的标准的控件。<img alt="image placeholder" >
+<p>NicEdit 是一个基于Javascript 编辑器，它可以很容易地被集成到任意的网页中。它还可以把网页上任何的element/div 转成可以编辑的标准的控件。<img alt="image placeholder" ></p>
 <p><span id="more-967"> </span></p>
 <h3>3. <a title="TinyMCE" href="http://tinymce.moxiecode.com/" target="_blank">TinyMCE</a>
 </h3>
 <p>TinyMCE 是另一个很有名的所见即所得的编辑器，其受LGPL license控制。Wordpress的编辑器用的就是TinyMCE的。<br>
-<img alt="image placeholder" >
+<img alt="image placeholder" ></p>
 <h3>4. <a title="jwysiwyg" href="https://code.google.com/p/jwysiwyg/" target="_blank">jwysiwyg</a>
 </h3>
 <p>jwysiwyg 是一个基于 jQuery 的WYSIWYG 插件，相当小，只有7kb的大小，而且相当的简单易用。但功能不多。<br>
-<img alt="image placeholder" >
+<img alt="image placeholder" ></p>
 <h3>5. <a title="Yahoo! UI Library: Rich Text Editor" href="https://developer.yahoo.com/yui/editor/" target="_blank">Yahoo! UI Library: Rich Text Editor</a>
 </h3>
 <p>这个富文本编辑器是 Yahoo YUI 库中的一部分，用户或以非常简单的扩展它。这对于那些对YUI库很熟悉的人来说是最好的了。<br>
-<img alt="image placeholder" >
+<img alt="image placeholder" ></p>
 <h3>6. <a title="Xinha" href="http://xinha.webfactional.com/" target="_blank">Xinha</a>
 </h3>
-<p>Xinha 也是一个相当强大的WYSIWYG HTML 编辑器，它可以兼容于所有的浏览器，并被开源社区所支持。<img alt="image placeholder" >
+<p>Xinha 也是一个相当强大的WYSIWYG HTML 编辑器，它可以兼容于所有的浏览器，并被开源社区所支持。<img alt="image placeholder" ></p>
 <h3>7. <a title="Openwysiwyg" href="http://www.openwebware.com/" target="_blank">Openwysiwyg</a>
 </h3>
 <p>Openwysiwyg 也是另一个开源的跨浏览器的 WYSIWYG 编辑器，别看他外表长得不怎么样，但他有很多的功能，特别是表格编辑的功能。<br>
-<img alt="image placeholder" >
+<img alt="image placeholder" ></p>
 <h3>8. <a title="Free Rich Text Editor" href="http://freerichtexteditor.com/" target="_blank">Free Rich Text Editor</a>
 </h3>
 <p>Free Rich Text Editor 是一个超级简单并且是免费的WYSIWYG 编辑器，它非常容易用来实现和管理基于XHTML的文本。<br>
-<img alt="image placeholder" >
+<img alt="image placeholder" ></p>
 <h3>9. <a title="WMD: The Wysiwym Markdown Editor" href="http://wmd-editor.com/" target="_blank">WMD: The Wysiwym Markdown Editor</a>
 </h3>
 <p>WMD 是一个简单和轻量级的编辑器，它主要用于Blog的评论系统或是论坛回贴系统。<br>
-<img alt="image placeholder" >
+<img alt="image placeholder" ></p>
 <h3>10. <a title="TTW HTML Editor" href="http://koivi.com/WYSIWYG-Editor/" target="_blank">TTW HTML Editor</a>
 </h3>
 <p>TTW HTML Editor 也是一个很简单轻量级的WYSIWYG编辑器，其主要由Javascripts编写，其拼写检查由SpellerPages编写。这是一个很容易被调用的编辑器。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h3>11. <a title="Free Text Box" href="http://freetextbox.com/" target="_blank">Free Text Box</a>
 </h3>
 <p>FreeTextBox 也是一个很常用的HTML editor，只不过它只支持ASP.NET。它可以兼容于所有的IE，Mozilla和Firefox。<br>
-<img alt="image placeholder" >
+<img alt="image placeholder" ></p>
 <h3>12. <a title="WYMeditor" href="http://www.wymeditor.org/" target="_blank">WYMeditor</a>
 </h3>
 <p>WYMeditor 是一个 XHTML 的编辑器。WYMeditor 可以创建并生成非常完美的XHTML 结构的源码，并完全严格遵守W3C XHTML 规范。<br>
-<img alt="image placeholder" >
+<img alt="image placeholder" ></p>
 <h3>13. <a title="BlueShoes Wysiwyg Editor" href="http://www.blueshoes.org/en/javascript/editor/" target="_blank">BlueShoes Wysiwyg Editor</a>
 </h3>
 <p>这是一个DHTML 和Javascript 开发的编辑器，它有很多非常酷的功能。例如：用户可以动态的改变编辑器的大小，选取特殊字符，以及选取颜色的功能。<br>
-<img alt="image placeholder" >
+<img alt="image placeholder" ></p>
 <h3>14. <a title="markItUp" href="http://markitup.jaysalvat.com/home/" target="_blank">markItUp</a>
 </h3>
 <p>markItUp! 是一个jQuery 的JavaScript 插件。它非常的轻量，可以非常容易的定制。你甚至可以定义你最喜欢的键盘热键，以及添加额外的功能。<br>
-<img alt="image placeholder" >
+<img alt="image placeholder" ></p>
 <h3>15. <a title="SPAW Editor" href="http://spaweditor.com/en/disp.php/en_products/en_spaw/en_spaw_intro" target="_blank">SPAW Editor</a>
 </h3>
 <p>这个WYSIWYG 编辑器是一个多页的编辑器，浮动式的工具条和很酷的用户接口，目前只有PHP 和.NET 版本。<br>
-<img alt="image placeholder" >
+<img alt="image placeholder" ></p>
 <p>文章：<a href="http://www.webdesignbooth.com/15-really-useful-web-based-html-editors/" target="_blank">来源</a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-07-24T14:32:09+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1183.html</guid>
@@ -8786,9 +8624,6 @@ else alert("CSS3 not supported.");<br>
 &lt;/script&gt;</p>
 <p>[/javascript]</p>
 <p>文章：<a href="http://www.geocities.com/seanmhall2003/css3/detect.html" target="_self">来源</a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-07-24T15:00:02+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1186.html</guid>
@@ -8826,9 +8661,6 @@ else alert("CSS3 not supported.");<br>
 <p>Bryan 有超过 <a href="http://www.bryancook.net/2008/06/test-naming-conventions-guidelines.html">一打的建议</a>。</p>
 <p>最后，有些人建议大家读一下 Gerard Meszaros的书： “<a href="https://www.amazon.com/xUnit-Test-Patterns-Refactoring-Addison-Wesley/dp/0131495054/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1248380993&amp;sr=8-1">xUnit Test Patterns: Refactoring Test Code</a>”</p>
 <p>文章：<a href="http://www.infoq.com/news/2009/07/Better-Unit-Tests" target="_blank">链接</a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-07-27T16:24:57+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1192.html</guid>
@@ -8839,7 +8671,7 @@ else alert("CSS3 not supported.");<br>
 <link>https://coolshell.cn/articles/1194.html</link>
 <content><![CDATA[ 
 <p>新闻来源：<a href="https://www.computerworld.com/s/article/9135958/Sun_s_JRuby_team_jumps_ship_to_Engine_Yard?taxonomyId=57&amp;pageNumber=1">Computer World</a></p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >Sun公司的JRuby团队正在离开他们的老东家Sun，投奔Engine Yard公司。他们声称这是因为Oracle并购Sun后的前途不明朗的原因。Sun的新闻发言人已确定了这一消息的真实性。</p>
 <p>在两年半前，Sun招募了Charles Nutter 和Thomas Enebo，这两人叫“the JRuby Guys”，他们主要实现在Java虚似机上运行Ruby，后来Sun又招了一个叫Nick Sieger的人。今天，这三个核心开发人员会在下周一的时候到新公司上班。他们认为Oracle可能会不支持他们继续在JVM上运行Ruby这个事情，而JRuby又是他们的未来。</p>
 <p><a href="https://www.engineyard.com/">Engine Yard</a>。成立仅两年、总部设在旧金山的Engine Yard，主要业务是为使用开放原始码开发环境Ruby on Rails的开发者处理系统布署和作业等事项。该公司协助开发者透过所谓的云计算，或第三方数据中心，执行应用软件。Engine Yard曾经从New Enterprise Associates和Amazon.com两家公司募得投资1500万美元。该公司正在进行云计算平台上的Rails计划。</p>
 <p><span id="more-1194"></span></p>
@@ -8848,7 +8680,6 @@ else alert("CSS3 not supported.");<br>
 <p>JRuby 的第四个核心开发者 Ola Bini，自从去年被ThoughtWorks招募后，还在那里工作。</p>
 <p>Nutter说，JRuby的下一个版本是1.4，会在今年9月份发布，在这个版本，他们会让JRuby成为JVM上的一等公民，并让其成为JVM上最好的语言。当然，也会处理一些和Engine Yard相关的东西。</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2009-07-28T16:46:36+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1194.html</guid>
@@ -8858,15 +8689,14 @@ else alert("CSS3 not supported.");<br>
 <title><![CDATA[ GPLv3的在开源社区中的占有量 ]]></title>
 <link>https://coolshell.cn/articles/1197.html</link>
 <content><![CDATA[ 
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >2007年7月，GPLv3 发布，当时有164个项目加入，一年后，有大约两千个项目使用GPLv3协议，今天，Google开源programs office manager <a href="https://sites.google.com/a/dibona.com/dibona-wiki/Home/Biographies-and-Photos">Chris DiBona</a>向大家 <a href="https://twitter.com/dhohndel/status/2800839235">宣布</a> 在Google 开源项目中，使用GPLv3的项目至少有 56,000个。当然，这只是计算了在 <a href="https://code.google.com/">Google Code</a> 中的项目。</p>
 <p>对于今天有 225,000 项目的 Google Code，这四分之一的 GPLv3 也是一个不小的数目了。如果我们假设Sourceforge.net 和 Codehaus 也有和Google Code相似的 GPLv3 比率的话，那么，今天使用 GPLv3 的项目将是一个很大的数量。</p>
 <p><span id="more-1197"></span></p>
 <p>这个数据是有意义的，尤其对于那些还在激活的项目，因为Google Code上的活跃的项目比Sourceforge要高得多，在Sourceforge上，估计只有12%的项目还处理激活状态（剩下的88%都是处理长期没有更新，当然也就一直在使用老版本的协议）。虽然和GPLv2比起，GPLv3还很少，但数量已经很大了。</p>
 <p>以前写过一篇关于GPLv3的文章《<a href="http://blog.csdn.net/haoel/archive/2007/07/17/1696333.aspx">GPLv3：大教堂和集市的新一轮对抗</a>》，有兴趣的读者不妨一读。</p>
 <p>下面是开源license的一个比例（时间：2009年7月），仅供参考：</p>
-<p><a href="https://coolshell.cn/wp-content/uploads/2009/07/GPL.png"><img alt="image placeholder" >
+<p><a href="https://coolshell.cn/wp-content/uploads/2009/07/GPL.png"><img alt="image placeholder" ></a></p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2009-07-28T17:46:21+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1197.html</guid>
@@ -8876,7 +8706,7 @@ else alert("CSS3 not supported.");<br>
 <title><![CDATA[ Python也Spring了 ]]></title>
 <link>https://coolshell.cn/articles/1204.html</link>
 <content><![CDATA[ 
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >没想到啊，Python也有Spring的框架了，看看SpringPython项目主页（<a href="http://springpython.webfactional.com/">http://springpython.webfactional.com/</a>）。这个项目的Leader是这样说的：Spring Python是基于Java的Spring框架（Spring Framework）和Spring安全（Spring Security）的一个分支，它以Python语言为目标。Spring提供了许多有用的特征功能，同样地这些特征功能在Python下也应当有效。– Greg Turnquist</p>
 <p><span id="more-1204"></span></p>
 <p>从这个项目的主页可以看到有下面这些Key features：</p>
 <ul>
@@ -8908,9 +8738,6 @@ else alert("CSS3 not supported.");<br>
 </ul>
 <p>看上去好像不错，不过细想一下，是不是有点多余，有点画蛇添足啊？反正我有一种比较怪怪的感觉。不过10年前有人问我搜索引擎怎么样？我当时也觉得那个东西很无聊，呵呵。让我们看看未来这个东西是否真的能够进入企业级的解决方案。不过目前我们的Python社区好像几乎没有什么反应。</p>
 <p>欢迎你留下你的看法。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-07-30T20:43:12+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1204.html</guid>
@@ -8921,7 +8748,7 @@ else alert("CSS3 not supported.");<br>
 <link>https://coolshell.cn/articles/1202.html</link>
 <content><![CDATA[ 
 <p><a href="https://coolshell.cn/wp-content/uploads/2009/07/Question.jpg"></a>据说，这是Google的面试题。面试题目如下：</p>
-<p style="padding-left: 30px; text-align: left;"><span style="color: #008000;"><strong><a href="https://coolshell.cn/wp-content/uploads/2009/07/Question.jpg"><img alt="image placeholder" >
+<p style="padding-left: 30px; text-align: left;"><span style="color: #008000;"><strong><a href="https://coolshell.cn/wp-content/uploads/2009/07/Question.jpg"><img alt="image placeholder" ></a>一共有25匹马，有一个赛场，赛场有5个赛道，就是说最多同时可以有5匹马一起比赛。假设每匹马都跑的很稳定，不用任何其他工具，只通过马与马之间的比赛，试问，最少得比多少场才能知道跑得最快的5匹马？（</strong>不能使用撞大运的算法<strong>）</strong></span></p>
 <p>很明显这是一个算法题，网上有很多贴子在讨论这个问题，不过都没有给出一个明确的答案。我想了想，想到下面的一个算法：</p>
 <p style="padding-left: 30px;">1）分成5组A，B，C，D，E，比五场。然后根据每场结果分别给这五组内的五匹马排序（从快到慢）。<br>
 2）每组的头名再赛一场，取走第一名，然后该组第二名顶上。<br>
@@ -8946,9 +8773,6 @@ E组 E1</p>
 <p>那么，对于这个题，聪明的你知道最少要比赛几场了吗？</p>
 <p>举一反三，如果有64匹马，8个赛道呢？不失一般性，如果有N匹马，M个赛道呢？N = M*M，那么公式是什么呢？</p>
 <p>期待你的答案！</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-07-30T22:35:35+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1202.html</guid>
@@ -9010,9 +8834,6 @@ Wirth定律，软件把性能变慢的速度要快于硬件把性期变快的速
 <p>　</p>
 <p>如果你想看更多这样的引言，你可以浏览下面这个网页：<br>
 <a href="http://www.comp.nus.edu.sg/~damithch/pages/SE-quotes.htm">http://www.comp.nus.edu.sg/~damithch/pages/SE-quotes.htm</a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-07-31T18:27:55+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1212.html</guid>
@@ -9022,19 +8843,19 @@ Wirth定律，软件把性能变慢的速度要快于硬件把性期变快的速
 <title><![CDATA[ 简单实用的Code Review工具 ]]></title>
 <link>https://coolshell.cn/articles/1218.html</link>
 <content><![CDATA[ 
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >Code Review中文应该译作“代码审查”或是“代码评审”，这是一个流程，当开发人员写好代码后，需要让别人来review一下他的代码，这是一种有效发现BUG的方法。由此，我们可以审查代码的风格、逻辑、思路……，找出问题，以及改进代码。因为这是代码刚刚出炉的时候，所以，这也是代码重构，代码调整，代码修改的最佳时候。所以，Code Review是编码实现中最最重要的一个环节。</p>
 <p>长时间以来，Code Review需要有一些有效的工具来支持，这样我们就可以更容易，更有效率地来进行代码审查工作。下面是5个开源的代码审查工具，他们可以帮助你更容易地进行这项活动。</p>
 <p><strong>1. <a href="http://www.review-board.org/" target="_blank">Review board</a>:</strong><br>
 <a href="http://www.review-board.org/" target="_blank">Review board</a> 是一个 基于web 的工具，是由 <a href="https://www.djangoproject.com/" target="_blank">django</a> 和<a href="https://www.python.org/" target="_blank">python</a>设计的。 <a href="http://www.review-board.org/" target="_blank">Review board</a> 可以帮助我们追踪待决代码的改动，并可以让Code-Review更为容易和简练。尽管<a href="http://www.review-board.org/" target="_blank">Review board</a> 最初被设计在<a href="https://www.vmware.com/" target="_blank">VMware</a>项目中使用，但现在其足够地通用。当前，其支持这些代码版本管理软件： <a href="http://subversion.tigris.org/" target="_blank">SVN</a>, CVS, <a href="http://www.perforce.com/" target="_blank">Perforce</a>, <a href="https://git-scm.com/" target="_blank">Git</a>, <a href="http://bazaar-vcs.org/" target="_blank">Bazaar</a>, 和<a href="http://www.selenic.com/mercurial/wiki/" target="_blank">Mercurial</a>.</p>
 <p><span id="more-1218"></span></p>
 <p>Yahoo 是<a href="http://www.review-board.org/" target="_blank">review-board</a>的其中一个用户。</p>
 <p style="padding-left: 30px;">“<a href="http://www.review-board.org/" target="_blank">Review board</a> 已经改变了代码评审的方式，其可以强迫高质量的代码标准和风格，并可以成为程序员编程的指导者。每一次，当你访问search.yahoo.com 时，其代码都是使用 <a href="http://www.review-board.org/" target="_blank">Review board</a>工具Review过的。 We’re great fans of your work!” – Yahoo! Web Search</p>
-<h3><a href="http://www.review-board.org/media/screenshots/2009/02/02/review-requests.png"><img alt="image placeholder" >
-<div><a href="http://www.review-board.org/media/screenshots/2009/02/02/diffviewer.png"><img alt="image placeholder" >
+<h3><a href="http://www.review-board.org/media/screenshots/2009/02/02/review-requests.png"><img alt="image placeholder" ></a></h3>
+<div><a href="http://www.review-board.org/media/screenshots/2009/02/02/diffviewer.png"><img alt="image placeholder" ></a></div>
 <p><strong>2. <a href="http://codestriker.sourceforge.net/" target="_blank">Codestriker</a>:</strong><br>
 <a href="http://codestriker.sourceforge.net/" target="_blank">Codestriker</a> 也是一个基于Web的应用，其主要使用 GCI-Perl 脚本支持在线的代码审查。<a href="http://codestriker.sourceforge.net/" target="_blank">Codestriker</a> 可以集成于CVS, <a href="http://subversion.tigris.org/" target="_blank">Subversion</a>, <a href="https://www-01.ibm.com/software/awdtools/clearcase/" target="_blank">ClearCase</a>, <a href="http://www.perforce.com/" target="_blank">Perforce</a> 和Visual SourceSafe。并有一些插件可以提供支持其它的源码管理工具。</p>
 <p>David Sitsky 是 <a href="http://codestriker.sourceforge.net/" target="_blank">Codestriker</a> 的作者，并也是最活跃的开发人员之一。 Jason Remillard 是另一个活路的开发者，并给这个项目提供了最深远最有意义的贡献。大量的程序员贡献他们的代码给 <a href="http://codestriker.sourceforge.net/" target="_blank">Codestriker</a> 项目，导致了这个项目空前的繁荣。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p><strong>3. <a href="http://groogle.sourceforge.net/" target="_blank">Groogle</a>:</strong><br>
 <a href="http://groogle.sourceforge.net/" target="_blank">Groogle</a> 是一个基于WEB的代码评审工具。 <a href="http://groogle.sourceforge.net/" target="_blank">Groogle</a> 支持和 <a href="http://subversion.tigris.org/" target="_blank">Subversion</a> 集成。它主要提供如下的功能：</p>
 <ul>
@@ -9044,10 +8865,10 @@ Wirth定律，软件把性能变慢的速度要快于硬件把性期变快的速
 <li>邮件通知所有的Reivew的人当前的状态。</li>
 <li>认证机制。</li>
 </ul>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p><strong>4. <a href="https://code.google.com/p/rietveld/" target="_blank">Rietveld</a>:</strong><br>
 <a href="https://code.google.com/p/rietveld/" target="_blank">Rietveld</a> 由Guido van Rossum 开发（他是Python的创造者，现在是Google的员工），这个工具是基于Mondrian 工具，作者一开始是为了Google 开发的，并且，它在很多方面和<a href="http://www.review-board.org/" target="_blank">Review board</a> 很像。它也是一个基于Web的应用，并在<a href="https://code.google.com/appengine/" target="_blank">Google App Engine</a> 上。它使用了目前最流行的Web开发框架 <a href="https://www.djangoproject.com/" target="_blank">django</a> 并支持 <a href="http://subversion.tigris.org/" target="_blank">Subversion</a> 。当前，任何一个使用 Google Code 的项目都可以使用 <a href="https://code.google.com/p/rietveld/" target="_blank">Rietveld</a> 并且使用 <a href="https://www.python.org/" target="_blank">python</a> <a href="http://subversion.tigris.org/" target="_blank">Subversion</a> 服务器。当然，它同样支持其它的Subversion服务器。</p>
-<p><span style="position: relative;"><a href="javascript:dyn.onClickNextTbn()"><img alt="image placeholder" >
+<p><span style="position: relative;"><a href="javascript:dyn.onClickNextTbn()"><img alt="image placeholder" ></a></span></p>
 <p><span style="position: relative;"> </span></p>
 <p><strong>5.<a href="http://jcodereview.sourceforge.net/" target="_blank"> JCR</a></strong><br>
 <a href="http://jcodereview.sourceforge.net/" target="_blank">JCR</a> 或者叫做 JCodeReview 也是一个基于WEB界面的最初设计给Reivew Java 语言的一个工具。当然，现在，它可以被用于其它的非Java的代码。</p>
@@ -9063,12 +8884,9 @@ Wirth定律，软件把性能变慢的速度要快于硬件把性期变快的速
 <strong>架构师和开发者</strong>。 这个系统也可以让我们查看属于单个文件的评语，这样有利于我们重构代码。</li>
 </ul>
 <p><a href="http://jcodereview.sourceforge.net/" target="_blank">JCR</a> 主要面对的是大型的项目，或是非常正式的代码评审，从这方面看来，他并不像上面的那些工具。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p><strong><a href="https://code.google.com/p/jupiter-eclipse-plugin/" target="_blank">Jupiter</a></strong>：最后我们要提一下<a href="https://code.google.com/p/jupiter-eclipse-plugin/" target="_blank">Jupiter</a>，这是另一个代码review的工具你可以去考虑使用的，它是一个Eclipse IDE 的插件。</p>
 <p>文章：<a href="http://open-tube.com/easy-code-review-tools/" target="_blank">来源</a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-08-04T17:09:13+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1218.html</guid>
@@ -9079,16 +8897,13 @@ Wirth定律，软件把性能变慢的速度要快于硬件把性期变快的速
 <link>https://coolshell.cn/articles/1231.html</link>
 <content><![CDATA[ 
 <p>一般说来，使用HTTP协议是不加密的，所有的数据都是以纯文本方式提交的，就算是你提交数据时，也是使用纯文本的方式发送。只有HTTPS协议会有SSL加密数据，但一般来说，HTTPS需要服务器端进行SSL设置，并有些麻烦。而jCryption这个jQuery插件能够加密由Forms提交的POST/GET数据。jCryption使用RSA公钥密码算法加密，另外，该项目还提供一个PHP文件来处理数据的解密。</p>
-<p><a href="http://www.jcryption.org/"><img alt="image placeholder" >
+<p><a href="http://www.jcryption.org/"><img alt="image placeholder" ></a></p>
 <p><span id="more-1231"></span></p>
 <p>这个库是一个开源库，也是一个同时使用MIT和GPL协议的项目。</p>
 <p>你需要注意的是，这个库无法取代SSL，使用这个库，你依然可能受到<a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack" target="_blank">MITM攻击</a><a href="http://www.jcryption.org/"></a>（中间人攻击 Man-in-the-middle-attacks）</p>
 <p>主页：<a href="http://www.jcryption.org/">http://www.jcryption.org/</a><br>
 下载：<a href="https://code.google.com/p/jcryption/downloads/list">http://code.google.com/p/jcryption/downloads/list</a><br>
 示例：<a href="http://www.jcryption.org/demo/">http://www.jcryption.org/demo/</a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-08-10T18:16:29+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1231.html</guid>
@@ -9099,23 +8914,22 @@ Wirth定律，软件把性能变慢的速度要快于硬件把性期变快的速
 <link>https://coolshell.cn/articles/1234.html</link>
 <content><![CDATA[ 
 <p style="text-align: left;">下面的图片告诉你——行销，广告，公关，品牌有什么差别。</p>
-<p style="text-align: center;"><img alt="image placeholder" >
+<p style="text-align: center;"><img alt="image placeholder" ><br>
 <strong>市场营销</strong></p>
 <p style="text-align: left;"><span id="more-1234"></span></p>
-<p style="text-align: center;"><img alt="image placeholder" >
+<p style="text-align: center;"><img alt="image placeholder" ><br>
 <strong>公共关系(软文)</strong></p>
-<p style="text-align: center;"><img alt="image placeholder" >
+<p style="text-align: center;"><img alt="image placeholder" ><br>
 <strong>广告</strong></p>
-<p style="text-align: center;"><img alt="image placeholder" >
+<p style="text-align: center;"><img alt="image placeholder" ><br>
 <strong>品牌</strong></p>
 <p style="text-align: left;">那么，Apple，Google和你的公司的差别是什么呢？</p>
-<p style="text-align: center;"><img alt="image placeholder" >
+<p style="text-align: center;"><img alt="image placeholder" ></p>
 <p style="text-align: left;"> </p>
 <p style="text-align: left;">最后，让我们来看一个“真人版”的眼神跟着鼠标走的FLASH吧，单击下面的图片访问网站：<a href="http://cubo.cc/" target="_blank">http://cubo.cc/</a></p>
-<p style="text-align: center;"><a href="http://cubo.cc/" target="_blank"><img alt="image placeholder" >
+<p style="text-align: center;"><a href="http://cubo.cc/" target="_blank"><img alt="image placeholder" ></a></p>
 <p> </p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2009-08-10T18:44:10+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1234.html</guid>
@@ -9130,11 +8944,11 @@ Wirth定律，软件把性能变慢的速度要快于硬件把性期变快的速
 <p>当然，也有人有不同的意见……</p>
 <p><span id="more-1242"></span></p>
 <p>排名第二个贴子(仅有排名第一的零头 67 votes)发表了不同的意见，贴主说，VISA报道说当时全球在那个星期内发生了大约13000起这样的事情，而且，全世界在报道相似的事情（<a rel="nofollow" href="http://www.credit.com/news/personal-finance/2009-07-18/customers-see-erroneous-credit-card-charges-of-23-quadrillion.html">报道一</a>，<a href="http://www.1010wins.com/Visa-Accidentally-Bills-New-York-Teen--23-Quadrill/4867372" target="_self">报道二</a>），但所有的报道都是相同的数字——23,148,855,308,184,500。如果前面是空格，那么最后的一个字节是，0x1250怎么可能会是一样的呢？所以，他并不认为空格被解释了，他觉得一定是某个地方出错了，并不像一楼所说的那么简单。</p>
-<p><img alt="image placeholder" >
-<p><img alt="image placeholder" >
-<p><img alt="image placeholder" >
-<p><img alt="image placeholder" >
-<img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
+<p><img alt="image placeholder" > </p>
+<p><img alt="image placeholder" ></p>
+<p><img alt="image placeholder" ><br>
+<img alt="image placeholder" ></p>
 <p>为什么说这个事呢？主要有两个目的：</p>
 <ul>
 <li>其一、软件总是会有很多Bug要我们去debug，bug的症状并不代表着那就是Bug的原因，但通过Bug的症状推理出Bug的原因，有时候真是很像一个侦探要做的事情，从上面的这个故事中，我们可以看出这样的能力的重要性。要有这样的推理能力，需要有很强的基础知识，以及丰富的经验。</li>
@@ -9143,9 +8957,6 @@ Wirth定律，软件把性能变慢的速度要快于硬件把性期变快的速
 <p>最后，大家可以看看这个贴子后面的一些人的相法，各种说法都有，包括一个灌水的，来轻松一下：</p>
 <p style="padding-left: 30px;">That’s the exact amount I intend leaving to my children after I’m dead.</p>
 <p>呵呵。（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-08-11T17:22:10+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1242.html</guid>
@@ -9155,7 +8966,7 @@ Wirth定律，软件把性能变慢的速度要快于硬件把性期变快的速
 <title><![CDATA[ IE的CSS相关的BUG ]]></title>
 <link>https://coolshell.cn/articles/1245.html</link>
 <content><![CDATA[ 
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >这个网页（<a href="http://haslayout.net/css/index">http://haslayout.net/css/index</a>）上例举了所有的IE和CSS相关的BUG。如果你在开发网页的时候，你需要看看。</p>
 <p>目前，这个网站上包含了 <strong>28 个“普通的Bug”</strong> ， <strong>4 个“布局方面的Bug”</strong> ， <strong>6 个“可以绕开的Bug”</strong> 以及 <strong>1 个“IE崩溃的Bug”</strong>，所有的这些Bug有39个指南和48个解决方法。这个列表目前更新到 <strong>2009年8月11日，19:50:22 </strong></p>
 <p>下面是所有的bug列表，你可以点击每个BUG名的链接查看更详细的说明。</p>
 <div id="ez-toc-container" class="ez-toc-v2_0_17 counter-hierarchy counter-decimal ez-toc-grey">
@@ -9427,9 +9238,6 @@ Wirth定律，软件把性能变慢的速度要快于硬件把性期变快的速
 </tbody>
 </table>
 <p>(全文完)</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-08-12T18:47:43+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1245.html</guid>
@@ -9519,9 +9327,6 @@ Wirth定律，软件把性能变慢的速度要快于硬件把性期变快的速
 </ul>
 <p>文章：<a href="http://java.sun.com/javase/technologies/hotspot/gc/g1_intro.jsp" target="_blank">来源</a></p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-08-13T21:54:26+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1252.html</guid>
@@ -9532,7 +9337,7 @@ Wirth定律，软件把性能变慢的速度要快于硬件把性期变快的速
 <link>https://coolshell.cn/articles/1256.html</link>
 <content><![CDATA[ 
 <p><a href="https://coolshell.cn/wp-content/uploads/2009/08/photo_gimp.png"></a><a href="https://coolshell.cn/wp-content/uploads/2009/08/photo_gimp.png"></a>想一想，如果你要把一个图片的尺寸改小一点，你会怎么办？当然，我一定会启动一个图形编辑软件，然后，打开图片文件，从菜单上选择相关的工具选项，更改大小，然后保存文件。就算是在Linux下，我可能也是这么干的，比如Ubuntu下也是这样，如下图：</p>
-<p style="text-align: center;"><a href="https://coolshell.cn/wp-content/uploads/2009/08/photo_gimp.png"><img alt="image placeholder" >
+<p style="text-align: center;"><a href="https://coolshell.cn/wp-content/uploads/2009/08/photo_gimp.png"><img alt="image placeholder" ></a><a href="https://coolshell.cn/wp-content/uploads/2009/08/photo_gimp.png"></a></p>
 <p>但其实，如果你用命令行来更改图片大小的话，一条语句就可以搞定了。如：</p>
 <pre style="padding-left: 30px; text-align: left;"><strong>convert -resize 300 profile.jpg profile_small.jpg</strong></pre>
 <p>当然，如果你要使用这样的命令，你需要安装<a href="https://www.imagemagick.org/script/index.php">Imagemagick</a>，你可通过apt-get install imagemagick来安装一下。</p>
@@ -9544,7 +9349,7 @@ Wirth定律，软件把性能变慢的速度要快于硬件把性期变快的速
 \( +clone -background black -shadow 60×5+0+5 \)
 +swap -background white -layers merge +repage shadow.jpg</strong></pre>
 <p>效果如下：</p>
-<p><a href="https://coolshell.cn/wp-content/uploads/2009/08/photo_gimp.png"></a><a href="https://coolshell.cn/wp-content/uploads/2009/08/photo_gimp.png"></a><a href="https://coolshell.cn/wp-content/uploads/2009/08/screenshot-suse.jpg"><img alt="image placeholder" >
+<p><a href="https://coolshell.cn/wp-content/uploads/2009/08/photo_gimp.png"></a><a href="https://coolshell.cn/wp-content/uploads/2009/08/photo_gimp.png"></a><a href="https://coolshell.cn/wp-content/uploads/2009/08/screenshot-suse.jpg"><img alt="image placeholder" ></a><a href="https://coolshell.cn/wp-content/uploads/2009/08/shadow.png"><img alt="image placeholder" ></a> <a href="https://coolshell.cn/wp-content/uploads/2009/08/screenshot-suse.jpg"></a></p>
 <p><strong>2）把两个MP3拼起来</strong></p>
 <pre style="padding-left: 30px; text-align: left;"><strong>cat 1.mp3 2.mp3 &gt; combined.mp3</strong></pre>
 <p><strong>3）克隆一个硬盘设备</strong></p>
@@ -9563,7 +9368,6 @@ ffmpeg -i video_origine.mpg video_finale.avi</strong></pre>
 <p>如果你非常喜欢命令行的话，那么你一定要看一下下面这本书（免费在线）</p>
 <p>GNU/Linux命令行介绍：<a href="https://flossmanuals.net/gnulinux">http://en.flossmanuals.net/gnulinux</a></p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2009-08-14T00:19:58+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1256.html</guid>
@@ -9657,7 +9461,6 @@ ffmpeg -i video_origine.mpg video_finale.avi</strong></pre>
 <span style="font-weight: bold;">1)使用 debugfs: ls -d 找到被删除文件的inode号。</span><br style="font-weight: bold;"><span style="font-weight: bold;">2)使用 debugfs:logdump找到文件的数据块地址。</span><br style="font-weight: bold;"><span style="font-weight: bold;">3)使用dd 命令把数据取出来存成文件。</span></p>
 <p>网上有很其它不同的方法来恢复文件，基本上也是使用debugfs这个命令，有的还使用到了lsdel，其实大同小异，这个教程是我在网上看到的，虽然他说只是针对Ext3文件系统的，但我总感觉应该可以用于Ext2文件系统，不过我没有试过。也许Ext2和Ext3被debugfs输出的信息不一样吧。大家可以去试试。</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2009-08-14T10:31:48+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1265.html</guid>
@@ -9667,7 +9470,7 @@ ffmpeg -i video_origine.mpg video_finale.avi</strong></pre>
 <title><![CDATA[ 操作系统航空公司 ]]></title>
 <link>https://coolshell.cn/articles/1272.html</link>
 <content><![CDATA[ 
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" > 我们知道，不同的操作系统有不同的系统，不同的风格，那么，如果操作系统和航空公司，会是怎么样的一种情况？让我们尝试地来做这样一个幽默的类比，把操作系统的特点带到航空公司，让我们看看会是怎么样的一个情况。</p>
 <p><strong>UNIX Airways</strong></p>
 <p>Unix航空公司需要每一个人在乘机的时候带上一个飞机零件，他们会在飞机跑道上把飞机的这些零件一片一片地组装起来，然后，在不停地争论着倒底是要建造什么样的飞机。是AIX，还是Solaris？是FreeBSD还是HP-UX？……</p>
 <p><strong>Air DOS</strong></p>
@@ -9692,7 +9495,6 @@ ffmpeg -i video_origine.mpg video_finale.avi</strong></pre>
 <p>对其它所有航空公司都不满的员工决定离开他们自己的航空公司。他们开始自己建造飞机，机票柜台，以及自己铺设飞机跑道。他们只用很少的费用给你提供可打印的机票，但你完全可以自己下载下来打印机票。</p>
 <p>当你登机的时候，会有人递给你一个座位，四个螺栓，一个扳手和一本“安装座位-HOWTO.html”手册。一但安装好了，可随意调整或更改的座位可能让你相当地舒服，从飞机离开到目的地，其几乎不会发生一个错误，而且，飞机过程中的飞行餐非常不错。你会想去告诉选乘别的航空公司的乘客你那完美的经历，但你所能得到的回答是一句反问，“乘座飞机还要自己去安装自己的座位？”。</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2009-08-16T12:54:24+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1272.html</guid>
@@ -9736,7 +9538,6 @@ ffmpeg -i video_origine.mpg video_finale.avi</strong></pre>
 <p>更多的视频，你可以上Linux基金会的网站上看看，也一样地非常地有创意。</p>
 <p><a href="http://video.linuxfoundation.org/category/video-category/-linux-foundation-video-contest" target="_blank">http://video.linuxfoundation.org/category/video-category/-linux-foundation-video-contest</a></p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2009-08-16T14:00:48+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1283.html</guid>
@@ -9746,7 +9547,7 @@ ffmpeg -i video_origine.mpg video_finale.avi</strong></pre>
 <title><![CDATA[ Linus Torvalds 语录 Top 10 ]]></title>
 <link>https://coolshell.cn/articles/1278.html</link>
 <content><![CDATA[ 
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >下面是Linux的创始人Linus Torvalds的一些言论，这是我个人认为最有意思的10句。如果你想看更多的Linus Torvalds说过的话，你可以看看他在维基百科上的词条：<a href="https://en.wikiquote.org/wiki/Linus_Torvalds" target="_blank">Linux Torvalds</a>。我们在下面给出中英文对照，希望你能喜欢。</p>
 <blockquote><p>“Really, I’m not out to destroy Microsoft. That will just be a completely unintentional side effect ” （真的，我并不是想要干掉Microsoft，如果真是那样了，那完全是一个无意的副作用）——”The Way We Live Now: Questions for Linus Torvalds”, 接受《New York Times》的采访， 2003-09-28.</p></blockquote>
 <blockquote><p>“Only wimps use tape backup: _real_ men just upload their important stuff on ftp, and let the rest of the world mirror it”（只有愚昧的人才会用磁带来做备份，真正聪明的人会上传他们最重要的东西到FTP服务器上，而剩下事情是，让世界各地的人来镜像这些东西）——(1996-07-20). <a title="http://groups.google.com/groups?selm=Pine.LNX.3.91.960720095713.20645F-100000%40linux.cs.Helsinki.FI" rel="nofollow" href="https://groups.google.com/groups?selm=Pine.LNX.3.91.960720095713.20645F-100000%40linux.cs.Helsinki.FI">在linux.dev.kernel 新闻组上的一个贴子</a></p></blockquote>
 <p><span id="more-1278"></span></p>
@@ -9759,9 +9560,6 @@ ffmpeg -i video_origine.mpg video_finale.avi</strong></pre>
 <blockquote><p>“Those that can, do. Those that can’t, complain.”（那些能做的人就做，不能做的人就只会抱怨）——2003-09-23， <a title="http://kerneltrap.org/node/901" rel="nofollow" href="http://kerneltrap.org/node/901">给Linux Kernel 邮件列表</a> （注意：Linus只是借用了一下这个句型，这个引言的原创在<a href="https://shlomif.livejournal.com/39215.html" target="_blank">这里</a>）</p></blockquote>
 <blockquote><p>“You see. I don’t think any new thoughts. I think thoughts that other people have thought, and I rearrange them. But Sara, she thinks thoughts that never were before.”（您看，我没有任何新的想法。我的想法都是别人已经想过的，而我只是去重新组织一下别人的想法。但是莎拉不一样，她的想法是从来没有人想过的）—— 这是Linus给和他的母亲说起他的姐姐Sara。</p></blockquote>
 <p>维基百科上的“<a href="https://en.wikiquote.org/wiki/Linus_Torvalds" target="_blank">Linus Torvald 词条</a>”上有很多他的语录，你不妨去看看，你喜欢哪些呢？</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-08-16T14:56:25+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1278.html</guid>
@@ -9771,7 +9569,7 @@ ffmpeg -i video_origine.mpg video_finale.avi</strong></pre>
 <title><![CDATA[ 科技公司十大最愚蠢的错误 ]]></title>
 <link>https://coolshell.cn/articles/1295.html</link>
 <content><![CDATA[ 
-<p><span><img alt="image placeholder" >
+<p><span><img alt="image placeholder" ></span>有一些史上最大的高科技公司的交易没有发生。有一些最有前途的产品和服务也没出现。为什么？因为这其中的人和公司当时都没有意识到是什么样的东西滑过了他们的手指，或者，他们只是简单地不能预知未来会发生什么。</p>
 <p>如果事情还能再来一次，也许今天我们就不会看到Apple和Microsoft了，而且，Yahoo可能会成为世界上最大的搜索引擎，Google只能成为后者。你也许只能从施乐电脑上读这篇文章，从RealPod上听你最喜欢的频道。</p>
 <p>人们都说“事后诸葛亮”（ hindsight is 20-20，20/20是最好的视力），如果真是这样的话，那么，我们的分析就是最精确的。下面是我们挑选的历史上十大科技类公司丢失机会的案例。</p>
 <h2>1. Yahoo 错过 Facebook</h2>
@@ -9781,54 +9579,51 @@ ffmpeg -i video_origine.mpg video_finale.avi</strong></pre>
 <p>今天，Facebook已经扩大到了2亿5千万的注册用户，并且，它目前 <a href="https://coolshell.cn/article/165524/update_facebook_gets_200_million_in_cash.html">值大约从 50亿美金 到100亿美金间的一个价格</a> （主要看谁来计算） 。而我们的Yahoo三年过去了，换了两个CEO，今天还在生存线上挣扎。</p>
 <p> </p>
 <h2>2. Real Networks 丢弃 iPod</h2>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >人们以为Steve Jobs 发明了iPod，但实际他没有，这是真的。Steve Jobs 只不过对一个因为<a href="http://www.historyofthings.com/history-of-the-ipod" target="_blank">Real Network没有采纳想法</a>的而离职的工程师Tony Fadell 说了“Yes”，而这个想法就是2000年秋天的一种全新音乐播放器（Tony Fadell 以前的同事 Philips 同样拒绝了Tony的这个新想法）。</p>
 <p>虽然 MP3 播放器已经出现很多看了，但是 <a href="https://coolshell.cn/article/167123-4/fathers_of_technology_10_unsung_heroes.html">Fadell 的理念</a> 有一些小小的不同，他注重的是：更小，更精巧，并且专注于一个音乐的内容系统，这样，能够让音乐爱好者们很容易的填满他们的播放器——“pods” （Steve Jobs 则是最著名的驱动 iPod设计的人）</p>
 <p>今天，那个专注于音乐内容的系统叫iTunes，并且，Apple公司控制了80%的数字音乐的市场。 Fadell 在Apple的 iPod 事业部工作，不过最终于2008年11月离开了那里。Real Networks 今天还在继续他的流媒体，但它的利润已被被iTunes冲得肢离破碎了。（照片是Tony Fadell)</p>
 <h2>3. 索尼和东芝HD 的纷争</h2>
-<p><span><img alt="image placeholder" >
+<p><span><img alt="image placeholder" >为了争夺一个新的 <a href="https://coolshell.cn/article/142584/hd_dvd_vs_bluray_disc_a_history.html">高清晰光盘标准</a>，几年来，在格式上的这场争夺战中，参与者各方已付出了很昂贵的成本。在拳击台上的一角落里，站着Sony支持的蓝光</span>（Blu-ray），而另一个角落，站着Toshiba支持的 HD DVD。</p>
 <p>自从2002 开始，双方就开始争夺不休，各自的所签署的联盟阵营也只支持自己的互不兼容的格式。在2008 年，Sony 的刀刃插入了Toshiba的胸膛，让Toshiba停止了HD DVD的生产，2009年8月12日宣布正式加入蓝光阵营，Toshiba 反而成了蓝光这边最大的一个支持者之一， <a href="http://blogs.pcworld.com/staffblog/archives/006159.html">华纳兄弟也花费了4亿美金宣布放弃HD DVD并加入蓝光阵营</a>。</p>
 <p>有趣的是，在上世纪90年代中期，这对冤家同样为电影的HR格式争斗，那个时候，当时双方搁置争议，把两边的最好的东西整合起来，成为了一个叫做 Digital Versatile Disc的东西，被人们简称DVD。</p>
 <p>这样一个事情，让多年参与HD格式之争的公司门损失惨重。如果在2002年，两边联手，HD光盘可能会在今天的电影和电视节目光盘中占有统治地位，然而，双方的争斗导致了成本的上升，和在市场上错失良机，今天，DVD卖得比蓝光还要多，基本上是10:1的样子，但是未来将会属于流媒体的视频点播。</p>
 <h2>4. Digital Research：另一个Microsoft</h2>
-<p><span><img alt="image placeholder" >
+<p><span><img alt="image placeholder" >这是一个经典案例。在</span> 1980 年，当时的IBM正在寻找一些人为IBM的PC机做一个操作系统，当时的 Microsoft 并不是第一选择。当初的比尔·盖茨(Bill Gates)建议IBM与Digital Research的加里·基尔代尔(Gary Kildall)合作，后者也是 CP/M 操作系统的作者。</p>
 <p>传说，Kildall甩了IBM要单飞。但实际上是kildall接了另一个客户的订单去做另一个产品，仅让他自己的妻子和IBM谈判。 <a href="http://www.cadigital.com/kildall.htm" target="_blank">Dorothy Kildall ——他的妻子并不喜欢IBM的一些条款</a>，所以和IBM的合作也流产了。</p>
 <p>蓝色巨人只好回头找了Bill Gates和他的搭档Paul Allen，他们开发了MS-DOS，这是基于 Tim Paterson 的 QDOS （全称是the Quick and Dirty Operating System）, QDOS则是基于Gary Kildall的CP/M操作系统。 最后IBM提供了 Microsoft 的 DOS (售价$60) 和某版本的CP/M (售价$240) 给IBM PC的买家做选择，最后，便宜的产品获得了胜利。</p>
 <p>在DOS以前，Microsoft 最大的产品是 BASIC 编程工具。而在 DOS以后，是的，你知道这个公司干了什么。Microsoft 今天的成就是否和IBM的那个合同有关？我们永远也无法知道。也许，像Bill这样的人始终都能把握住这样的机会，而Gary则不能。</p>
 <h2>5. Xerox 错失 Alto 良机</h2>
-<p><span><img alt="image placeholder" >
+<p><span><img alt="image placeholder" >这也是另一个经典的故事。二十年前，在</span>Macintosh 和Windows PC之前，甚至在MITS Altair之前，已经存于 Alto，这是这个世界上第一个基于窗口图形界面的电脑（关于图形化的操作系统，大家可以看看这篇文章《<a title="操作系统图形界面发展史(1981-2009) - 1,632 次浏览" href="https://coolshell.cn/articles/105.html">操作系统图形界面发展史(1981-2009)</a>》）， 由<a href="https://coolshell.cn/article/115194/meet_the_movers_behind_the_first_pc.html">Xerox PARC</a>发明， Alto 有鼠标，支持以太网络，以及所见即所得的WYSIWYG文本处理器。</p>
 <p>但是1973 年的“个人电脑”市场并不存在，所以 Xerox 并不知道Alto的潜力，也不知道如何处理它。这个公司制造了几千个这要电脑并把它们分发到了各个大学中。江湖上传闻，1979年的时候，当 Steve Jobs 参观Xerox PARC的时候，看到了Alto，回去后，把那些 <a href="https://coolshell.cn/article/114418/the_mac_turns_20.html">许许多多的 Alto 的特性</a> 集成到了 Apple 的 Lisa 和Mac 电脑上。从那以后， Xerox 终于意识到了它的错误，然后把开始了 Xerox Star 的市场营销，Xerox Star是一个图形工作站，其基于Alto的技术。但是已经太晚了，太晚了。</p>
 <p> </p>
 <h2>6. 唱片业的一错再错</h2>
-<p><span><img alt="image placeholder" >
+<p><span><img alt="image placeholder" ></span>也许，没有哪个产业比音乐产业更能错过机会。</p>
 <p>在1999年，Shawn Fanning 的 Napster 创造了一个难以置信的一个让大容易共享音乐的在线平台。然后， <a href="https://coolshell.cn/article/17839/judge_in_napster_case_finds_in_favor_of_music_companies.html">唱片公司们开始集体控诉Napster</a> ，侵害了他们的版权。然后，Napster 的 CEO Hank Barry 提倡音乐产业 <a href="http://iml.jou.ufl.edu/projects/Spring01/Burkhalter/hank's%20statement.html" target="_blank">采用那种电台广播的许可证协议</a> ，对通过网络传播音乐的人征收版税，可是他的这个倡议遇到了聋子的耳朵——无人响应。</p>
 <p>于是，Napster 的粉丝们非常快地跑到了其它的P2P的文件共享网络，如Gnutella 和Grokster，于是盗版音乐也成了RIAA（<span>美国唱片业协会</span>）的头号敌人。</p>
 <p>在2000年，MP3.com 启动了一个服务可以允许会员们上传歌曲到自己的私有的CD收集中，并且可以以流的方式传播到每一个PC上。再次， <a href="https://coolshell.cn/article/35165/mp3com_faces_new_litigation_days_after_settlement.html">唱片行业控告 MP3.com 侵权</a>， 最终导致了 MP3.com 被迫出售，并被迫更改了其商业模式。</p>
 <p>再加上 <a href="https://coolshell.cn/article/64546/filesharing_services_sued.html">RIAA 对 Grokster, Morpheus,</a> Kazaa, 和其它30,000 盗版单曲的指控，其它唱片行业损失了很多商业机会。</p>
 <p>当然，今天的音乐订阅业务和流媒体服务，诸如 Pandora 支配了数字音乐界，唱片公司也开始和网络公司签了协议。试想一样，如果唱片公司们和 Napster， MP3.com，或是其它一些网络共享者合作，而不是去指控他们，也许，这些唱片公司今天将会控制着数字音乐——而且不会有任何盗版的问题。</p>
 <h2>7. Compuserve 错过了主宰网络的机会</h2>
-<p><span><img alt="image placeholder" >
+<p><span><img alt="image placeholder" >看看今天的交互式应用，社区媒体式的，用户原创内容驱动式的（UGC），你看到了什么？一个1994年几乎完美版本的</span> CompuServe。但是，几乎主宰在线世界的 CompuServe 的屁股被AOL仅以AOL有500亿的免费CD踢得开了花。</p>
 <p>在上世纪90年代初， Compuserve Information Service 有着“令人难以置信的优势：一个坚定的客户基础，难以置信的对客户的使用模式分析的数据，一个难以复制的知识仓库，几乎没有竞争的环境”， Kip Gregory，一个管理顾问， <a href="http://www.winningclients.com/" target="_blank">Winning Clients in a Wired World</a> 一书的作者，说，“可能缺少的是……把这些优势都转变成可持续的领先的投入”。</p>
 <p>于是，AOL 来了，提供了一种“不限时的”统一费用，而 CompuServe 则是按小时充值，AOL提供了一个简单的界面，以及大规模，地毯式轰炸营销活动——为每位用户提供一张免费的CD。在CompuServe论坛上早期出现的组织纷纷转到了AOL的Web上，而CompuServe论坛对Web支持的不是很好。1997年，<a href="https://coolshell.cn/article/4512/aol_buying_compuserve_users_voice_opinions_about_possible_takeover.html">AOL 获得了 CompuServe</a>, 并且，<a href="https://coolshell.cn/businesscenter/article/167903/farewell_compuserve_rip.html">“CompuServe classic” 服务最终在同年6月安息了</a> 。</p>
 <p>CompuServe 失败不是错过了一个机会，而是错过了一堆， Gregory说，“我真的相信 CompuServe是一个非常重要的示例，这也是一个非常重要的教训——永远不要因为优势就裹足不前”。</p>
 <h2>8. 报业错过网络分类广告业务–Craigslist</h2>
-<p><span><img alt="image placeholder" >
+<p><span><img alt="image placeholder" >报纸正在死亡，并且，几乎的所有的帐户（当然，所有的报纸帐户），</span> Craigslist 的的触角却延伸到各个地方的触角却延伸到各个地方，甚至可以在所有的犯罪现场被找到。 大家认为报纸的衰落是因为在线的免费的分类广告服务，这让很多行业的利润都极大的缩水，其中一个就是新闻报纸行业的那些“现金牛”(指现金净收入极大的项目,如沃尔玛超市)。</p>
 <p>2005年，全美报业分类广告的年收入总额为173亿美元。。从那以后，像Craigslist 这样使用分类广告的网站（如：Amazon, eBay, 和Google）几乎番了一番，根据 <a href="http://pewinternet.org/Reports/2009/7--Online-Classifieds.aspx?r=1" target="_blank">Pew研究中心</a>的报告，报业的分类广告的利润却减少了一半。</p>
 <p>如果回到2005年，那段报业分类广告利润很高的时候，如果某个报业集团收买了Craigslist，那么今天可能会非常地不一样。当然，首先他们将不得不说服Craigslist的创始人Craig Newmark出售。</p>
 <p>在<a href="https://coolshell.cn/article/141991/craigslist_founder_talks_about_open_source_banner_ads.html">2008 年1月InfoWorld的采访中</a>，Newmark 说他的公司的角色在报纸行业瓦解中被报纸行业大大地夸大了，“我认为报纸最大的问题是需要去检查他们自己”他注解道。</p>
 <h2>9. Google 之前的 Google</h2>
-<p><span><img alt="image placeholder" >
+<p><span><img alt="image placeholder" >在上世纪90年代中期，最热的搜索引擎不是Yahoo，不是</span> Alta Vista，不是 Lycos，也不是 Hot Wired，而是Open Text Web 索引。它和今天的Google 非常像，Open Text 以其速度，准确性和全面性著称，这个搜索引擎于1995 年由Open Text 公司宣称，其<a href="https://www.allbusiness.com/technology/software-services-applications-search-engines/7135767-1.html" target="_blank">索引了当时Web上大约5百万个页面上的每一个单词 </a>。那年 Yahoo 在其目录中集成了Open Text 的搜索技术。</p>
 <p>但是其和Yahoo合作两看后， Open Text 放弃了搜索而转移到企业级的内容管理方向上。一年以后，<a href="https://www.google.com/corporate/history.html" target="_blank">Google 才初次登场</a>。Open Text又是和机遇错过了，没有意识到搜索会变得有多大。</p>
 <p>“如果 Open Text 有什么事是比较特殊的，那就是他们比任何人都有和Google很相近的技术”， Steve Parker（一个帮助Yahoo启动Open Text搜索技术的通讯顾问）说， “它比Google早三年进入市场，所以Google不得不为了以更快的速度发展而使劲烧钱，并且，Google也不一定有足够的时间去成为市场的领导者。如果当初不是那样，也许，今天的山大王将会是Open Text ”。</p>
 <h2>10. Microsoft 拯救正在腐烂的苹果</h2>
-<p><span><img alt="image placeholder" >
+<p><span><img alt="image placeholder" >10年前，当Apple正处理严重的危机中。</span> Mac 的销售正在被Power Computing 和 Radius更便宜的山寨机复制时。整个公司动作在非常低的现金流中，苹果的股票跌到每股$5，并且，他们正在寻找新的CEO来取代 Gil Amelio。</p>
 <p>后来，Apple 收到了一大笔急需的现金注入——1亿5千万美金——从一个看上去不可能的源头： <a href="https://coolshell.cn/article/5156/microsoft_to_invest_in_apple_jobs_ellison_on_board.html">Microsoft，还承诺继续开发Mac Office 套件</a>。这个交易由Apple的顾问Steve Jobs 和Microsoft商议而成，这一宣布曾经在Macworld Expo 博览会上被苹果的铁杆粉丝们暴以嘘声。这后，Steve Jobs成为了Apple的实习CEO。后面，我们都知道发生了什么。</p>
 <p>如果Microsoft 当时没有 <a href="https://coolshell.cn/businesscenter/article/169752/1997_steve_jobs_was_wrong_and_microsoft_saved_apple.html">错过让苹果凋谢的这个机会</a>？我们可能会要在WinPhones上使用WinTunes而苦苦挣扎。在线的音乐和视频可能会停滞，或是更坏，被好莱坞控制着。而且，我们会因为没有Windows的另一个选择而长期地失望下去。这恐怕是唯一一个大家受益的“失误”了。</p>
-<p style="TEXT-ALIGN: center"><img alt="image placeholder" >
+<p style="TEXT-ALIGN: center"><img alt="image placeholder" >   <br>
 年青的Steve Jobs</p>
 <p>文章：<a href="https://www.pcworld.com/article/170337/the_10_stupidest_tech_company_blunders.html" target="_blank">来源</a>（PCWorld）</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-08-19T23:17:20+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1295.html</guid>
@@ -9838,7 +9633,7 @@ ffmpeg -i video_origine.mpg video_finale.avi</strong></pre>
 <title><![CDATA[ Code Review中的几个提示 ]]></title>
 <link>https://coolshell.cn/articles/1302.html</link>
 <content><![CDATA[ 
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >Code Review应该是软件工程最最有价值的一个活动，之前，本站发表过《<a href="https://coolshell.cn/articles/1218.html" rel="bookmark">简单实用的Code Review工具</a>》，那些工具主要是用来帮助更有效地进行这个活动，这里的这篇文章，我们主要想和大家分享一下Code Review代码审查的一些心得。</p>
 <p>首先，我们先来看看Code Reivew的用处：</p>
 <ol>
 <li>Code reviews 中，可以通过大家的建议增进代码的质量。</li>
@@ -9915,7 +9710,6 @@ ffmpeg -i video_origine.mpg video_finale.avi</strong></pre>
 </h4>
 <p>这可能是最重要的一个提示了，如果你到了一个人人都喜欢Code Reivew的团阿，那么，你会进入到一个生机勃勃的地方，在那里，每个人都能写出质量非常好的代码，在那里，你不需要经理的管理，团队会自适应一切变化，他们相互学习，相互帮助，不仅仅是写出好的代码，而且团队和其中的每个人都会自动进化，最关键的是，这个是一个团队。</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2009-08-20T23:49:49+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1302.html</guid>
@@ -9931,12 +9725,9 @@ ffmpeg -i video_origine.mpg video_finale.avi</strong></pre>
 <p><span id="more-1310"></span></p>
 <p>目前这个网站支持下面这样语言——C，C++，D，Haskell，Lua，OCaml，PHP，Perl，Plain Text，Python，Ruby，Scheme，Tcl。（没有Java）</p>
 <p>当我打开这个网页的时候，我立马想到了《<a title="作者：耗子  --  521 次点击" href="https://coolshell.cn/articles/914.html">6个变态的C语言Hello World程序</a>》，然后就取了其中一个上去试了一下，果然方便啊。的确是相当的省事啊，不需要打开编译器或IDE，不需要建工程，不需要存成文件，太方便了。</p>
-<p style="text-align: center;"><a href="https://coolshell.cn/wp-content/uploads/2009/08/codepad2.jpg"><img alt="image placeholder" >
+<p style="text-align: center;"><a href="https://coolshell.cn/wp-content/uploads/2009/08/codepad2.jpg"><img alt="image placeholder" ></a></p>
 <p>。</p>
 <p>(全文完)</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-08-23T20:14:44+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1310.html</guid>
@@ -10012,9 +9803,6 @@ if not _stream: break
     # send to port as Standart OUT
     sys.stdout.write("%s\n" % (outString,))
     sys.exit(0)</pre>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-08-24T22:30:49+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1313.html</guid>
@@ -10096,9 +9884,6 @@ td,td {width:50px;height:50px;text-align:center;vertical-align:center;font-size:
 </table>
 <p>还有很多更奇怪的字符，你可以上去看看。如果你访问不了了，你可以通过本站下载这个文件：《<a href="https://coolshell.cn/wp-content/uploads/2009/08/Unicode-table.htm" target="_blank">Unicode 字符集预览表</a>》</p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-08-24T23:45:36+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1331.html</guid>
@@ -10108,7 +9893,7 @@ td,td {width:50px;height:50px;text-align:center;vertical-align:center;font-size:
 <title><![CDATA[ Unix Pipes 管道原稿 ]]></title>
 <link>https://coolshell.cn/articles/1351.html</link>
 <content><![CDATA[ 
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>40年前，Unix操作系统横空出世，Unix不仅仅带来了一个操作系统，还创造C语言，Socket，开源，黑客等等文化，这些文化影响着整个计算机世界的文明，直到今天。</p>
 <p>如果说Unix是计算机文明中最伟大的发明，那么，Unix下的Pipe管道就是跟随Unix所带来的另一个伟大的发明。管道的出现，解决的就是让不同功能的程序可以互相连通通讯，从而可以让软件开发，程序开发更加的“高内聚，低耦合”，从而可以让程序“Do one thing, Do it well”，从而可以让程序“Keep it Simple Stupid”等等，这一哲学引影了一代又一代的软件架构，直到今天的云计算。</p>
 <p>管道的发名者叫，<a href="https://en.wikipedia.org/wiki/Douglas_McIlroy" target="_blank"><strong>Malcolm Douglas McIlroy</strong></a>，他也是Unix的创建者，是Unix文化的缔造者之一。他归纳的Unix哲学如下：</p>
@@ -10116,7 +9901,7 @@ td,td {width:50px;height:50px;text-align:center;vertical-align:center;font-size:
 <p><span id="more-1351"></span></p>
 <p>下面是管道在1964年10月11日，出现的第一个打印稿，下面是扫描件。</p>
 <p><a href="https://coolshell.cn/wp-content/uploads/2009/08/pipe.png"></a></p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>全文如下：</p>
 <pre><code>                        - 10 -
             Summary--what's most important.
@@ -10138,7 +9923,6 @@ switching.
 </code></pre>
 <p>我就不翻译了，因为这段文字足够的简单，就像连接花园中浇花用的软管一样，相信你不但能够读懂它，还能从中收益。</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2009-08-25T00:17:11+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1351.html</guid>
@@ -10148,7 +9932,7 @@ switching.
 <title><![CDATA[ 谁写了Linux ]]></title>
 <link>https://coolshell.cn/articles/1360.html</link>
 <content><![CDATA[ 
-<p><a href="https://www.linuxfoundation.org/sites/www.linuxfoundation.org/themes/opensourcery/images/linux-foundation.png" target="_blank"><img alt="image placeholder" >
+<p><a href="https://www.linuxfoundation.org/sites/www.linuxfoundation.org/themes/opensourcery/images/linux-foundation.png" target="_blank"><img alt="image placeholder" ></a>2009年8月，<a href="https://www.linuxfoundation.org/" target="_blank">Linux软件基金会</a>发布了一份叫《<a href="https://www.linuxfoundation.org/publications/whowriteslinux.pdf" target="_blank">Who Writes Linux and Who Supports It</a>》(PDF)的报告。这份报告主要对Linux 2.6.x的开发进行了全方位的统计。看了以后才知道，原来Linux的开发的生产率竟是这样的惊人，而且相当的的令人振奋，所以，在第一时间转过来给大家看看。让人不得不惊叹，这不可思议的具有非凡活力的社区。（注意，我们这里说的是Linux，不是GNU的那些东西，所谓Linux就是Linux的Kernel）</p>
 <p>下面是一个导读，希望每一个看到这篇文章的朋友都能看看原文的报告：《<a href="https://www.linuxfoundation.org/publications/whowriteslinux.pdf" target="_blank">Who Writes Linux and Who Supports It</a>》(PDF)</p>
 <p>这份报告的一开始就对Linux的开发进行了总结：</p>
 <ul>
@@ -10167,7 +9951,7 @@ switching.
 <p>然后，这份文档中给出了大量的开发编译数据。</p>
 <h4>统计数据</h4>
 <p>下面的统计数据是从版本2.6.11开始的，我把源文件中的表格合并成一个大表，如下所示。</p>
-<p style="text-align: center;"><img alt="image placeholder" >
+<p style="text-align: center;"><img alt="image placeholder" ></p>
 <p style="text-align: left;">从上图我们可以看到下面这些东西：</p>
 <ul>
 <li>
@@ -10178,15 +9962,15 @@ switching.
 </li>
 </ul>
 <p style="text-align: left;">下面是几个统计图表：</p>
-<p style="text-align: center;"><img alt="image placeholder" >
+<p style="text-align: center;"><img alt="image placeholder" ><br>
 平均每天的修改</p>
-<p style="text-align: center;"><img alt="image placeholder" >
+<p style="text-align: center;"><img alt="image placeholder" ><br>
 代码修改统计</p>
-<p style="text-align: center;"><img alt="image placeholder" >
+<p style="text-align: center;"><img alt="image placeholder" ><br>
 开发人员</p>
 <h4 style="text-align: left;">谁写了Linux</h4>
 <p style="text-align: left;">最后我们进入主题——谁写了Linux，首先，我们先来看一下进入代码修改的Top 30的开发人员列表：</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>我们可以看到，Linus Torvalds （729 总修改，自2.6.24版来254 修改）无法进入前30名。当然，对Linux的贡献绝对不能通过代码行来表示，Linus对Linux就算是在今天也是至关紧要的。</p>
 <p>好，让我们再来看看那些公司对Linux的贡献。根据这份报告所说，知道每个developer所在的公司，主要是通过了下面的几种方法：</p>
 <ul>
@@ -10195,7 +9979,7 @@ switching.
 <li>直接询问得到的。</li>
 </ul>
 <p>所以，这些数据只能算得上的近似，不过也能看到一个总体的样子了。下图中“None”代表没有职业无业游民，“Unknown”代表无名氏或是英雄不知出处。</p>
-<p style="text-align: center;"><img alt="image placeholder" >
+<p style="text-align: center;"><img alt="image placeholder" ></p>
 <p>我们可以看到，Top 10公司，为Linux贡献了近70%的代码。包括了None和Unknown，而且，那些是拿着公司报酬给Linux作开发的程序员。</p>
 <p>那么，为什么这些公司要支持Linux的内核开发呢？</p>
 <ul>
@@ -10206,7 +9990,6 @@ switching.
 </ul>
 <p>看来，Linux的势头是越来越无法阻挡了，你也想加入这个阵营吗？点下面的链接吧：<a href="https://ldn.linuxfoundation.org/book/how-participate-linux-community">http://ldn.linuxfoundation.org/book/how-participate-linux-community</a></p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2009-08-25T19:36:19+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1360.html</guid>
@@ -10354,9 +10137,6 @@ s.Replace("amazing", "awful");
 <pre data-enlighter-language="csharp" class="EnlighterJSRAW">s = s.Replace("amazing", "awful");
 </pre>
 <p>文章：<a href="http://dev-the-web.com/blog/2009/08/27/top-csharp-programming-mistakes/" target="_blank">来源</a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-08-31T12:15:05+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1375.html</guid>
@@ -10366,7 +10146,7 @@ s.Replace("amazing", "awful");
 <title><![CDATA[ 如何调试bash脚本 ]]></title>
 <link>https://coolshell.cn/articles/1379.html</link>
 <content><![CDATA[ 
-<p><a href="https://en.wikipedia.org/wiki/Bash"><img alt="image placeholder" >
+<p><a href="https://en.wikipedia.org/wiki/Bash"><img alt="image placeholder" >Bash</a> 是Linux操作系统的默认Shell脚本。Shell是用来处理操作系统和用户交互的一个程序。Shell的脚本可以帮助用户自动化地和操作系统进行交互。你也可以理解为一种脚本式的编程。即然有编程，那么，程序的编译器，解释器，调试器就必不可少了，Bash也一样，但在调试方面可能会有一些和编程语言不一样的东西和技术，所以，下面这篇文章主要是说明调试bash脚本的各种技术。</p>
 <h4 id="Tracing_script_execution">跟踪脚本的执行</h4>
 <p>你可以让bash打印出你脚本执行的过程中的所有语句。这很简单，只需要使用bash的-x选项就可以做到，下面让我们来看一下。</p>
 <p><span id="more-1379"></span></p>
@@ -10455,7 +10235,6 @@ $ _DEBUG=true ./example_script.sh
 <h4 id="Using_the_Bash_debugger">使用Bash专用调试器</h4>
 <p>如果你在写一个相当复杂的脚本，并且，你需要一个完整的像调试别的语言一样的调试器，那么你可以试着用用这个开源软件—— <a href="http://bashdb.sourceforge.net/">bashdb</a>， 一个Bash的专用调试器。这个调试器很强大，你想得到的功能，他都有，比如，设置断点，单步跟踪，跳出函数，等等。它的用户接口很想GDB，这是他的<a href="http://bashdb.sourceforge.net/bashdb.html">文档</a> 。</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2009-08-31T15:53:40+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1379.html</guid>
@@ -10498,7 +10277,6 @@ $ _DEBUG=true ./example_script.sh
 <em style="PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt">is for</em>functionality</div>
 </div>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2009-08-31T17:18:41+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1387.html</guid>
@@ -10686,7 +10464,6 @@ public class NegatableZeroInteger extends NegatableInteger {
 <p><a href="http://us.php.net/manual/en/function.abs.php#58508" target="_blank">http://us.php.net/manual/en/function.abs.php#58508</a></p>
 <p>又是一个长贴，还带着很多性能分析，真的很好很强大！</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2009-09-03T22:24:57+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1391.html</guid>
@@ -10702,33 +10479,33 @@ public class NegatableZeroInteger extends NegatableInteger {
 <h3>1. 在成功执行的命令上增加一个笑脸符号</h3>
 <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 2px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; line-height: 20px;">这个命令提示行可能是这个命令行提示列表中最有趣的一个，但是它也依然有使用的价值。这个提示的想法是基于当你命令被成功执行，你将会得到一个笑脸作为你的命令行提示，一旦的命令执行失败，命令行提示将会换成一个哭脸。</p>
 <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 2px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; line-height: 20px;">例子：</p>
-<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 2px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; line-height: 20px; text-align: center;"><img alt="image placeholder" >
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 2px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; line-height: 20px; text-align: center;"><img alt="image placeholder" ></p>
 <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 2px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; line-height: 20px;">代码：</p>
 <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 2px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; line-height: 20px;">PS1=”\`if [ \$? = 0 ]; then echo \[\e[33m\]^_^\[\e[0m\]; else echo \[\e[31m\]O_O\[\e[0m\]; fi\`[\<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="f481b4">[email protected]</a>\h:\w]\\$ “</p>
 <h3><strong>2.更改失败命令的颜色</strong></h3>
 <p><span style="color: #000000;">下面这个命令行提示是我最喜欢的命令行之一。和上一个相似，这个命令行提示的颜色会在你最后一个命令运行失败后改变，而且这个命令行长路径会缩短输入命令的空间，这个命令提示还包含了bash 每个历史命令的命令号，以方便重新提取运行。</span></p>
 <p><span style="color: #000000;">例子：</span></p>
-<p style="text-align: center;"><span style="color: #000000;"><img alt="image placeholder" >
+<p style="text-align: center;"><span style="color: #000000;"><img alt="image placeholder" ></span></p>
 <p><span style="color: #000000;">代码：</span></p>
 <p><span style="color: #000000;">PS1=”\[\033[0;33m\][\!]\`if [[ \$? = “0” ]]; then echo “\\[\\033[32m\\]”; else echo “\\[\\033[31m\\]”; fi\`[\u.\h: \`if [[ `pwd|wc -c|tr -d ” “` &gt; 18 ]]; then echo “\\W”; else echo “\\w”; fi\`]\$\[\033[0m\] “; echo -ne “\033]0;`hostname -s`:`pwd`\007″‘</span></p>
 <h3 style="padding-top: 10px; padding-right: 0px; padding-bottom: 10px; padding-left: 0px; font-size: 18px; font-weight: 700; color: #333333; margin: 0px;">3. 多行提示</h3>
 <p>如果你是喜欢命令行提示中包含完整信息的那一类人，那么下边就有一个适合于你的命令行提示。这个命令行提示信息中包含日期/时间，全路径，用户，主机，活动终端，甚至包含文件数和占用空间等。</p>
 <p>例子：</p>
-<p style="TEXT-ALIGN: center"><br style="padding: 0px; margin: 0px;"><img alt="image placeholder" >
+<p style="TEXT-ALIGN: center"><br style="padding: 0px; margin: 0px;"><img alt="image placeholder" ></p>
 <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 2px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; line-height: 20px;">代码：</p>
 <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 2px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; line-height: 20px;">PROMPT_COMMAND=’PS1=”\n\[\033[35m\]\$(/bin/date)\n\[\033[32m\]\w\n\[\033[1;31m\]\<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="176257">[email protected]</a>\h: \[\033[1;34m\]\$(/usr/bin/tty | /bin/sed -e ‘s:/dev/::’): \[\033[1;36m\]\$(/bin/ls -1 | /usr/bin/wc -l | /bin/sed ‘s: ::g’) files \[\033[1;33m\]\$(/bin/ls -lah | /bin/grep -m 1 total | /bin/sed ‘s/total //’)b\[\033[0m\] -&gt; \[\033[0m\]”‘</p>
 <p><span style="font-family: 'Lucida Grande'; line-height: normal;"> </span></p>
 <h3 style="padding-top: 10px; padding-right: 0px; padding-bottom: 10px; padding-left: 0px; font-size: 18px; font-weight: 700; color: #333333; margin: 0px;">4. 多颜色提示</h3>
 <p>这个命令行提示除了使用了不同颜色来区别不同信息外，它并没有很特别的地方。就像你看到的那样，它提供了时间，用户名，主机名，当前目录。相当少的信息，但是非常地实用。</p>
 <p>例子：</p>
-<p style="TEXT-ALIGN: center; PADDING-BOTTOM: 2px; LINE-HEIGHT: 20px; MARGIN: 0px 0px 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 2px"><img alt="image placeholder" >
+<p style="TEXT-ALIGN: center; PADDING-BOTTOM: 2px; LINE-HEIGHT: 20px; MARGIN: 0px 0px 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 2px"><img alt="image placeholder" ></p>
 <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 2px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; line-height: 20px;"><span style="line-height: 20px;">代码：</span></p>
 <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 2px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; line-height: 20px;"><span style="line-height: 20px;">PS1=”\[\033[35m\]\t\[\033[m\]-\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ “</span></p>
 <p><span style="font-family: 'Lucida Grande'; line-height: normal;"> </span></p>
 <h3 style="padding-top: 10px; padding-right: 0px; padding-bottom: 10px; padding-left: 0px; font-size: 18px; font-weight: 700; color: #333333; margin: 0px;">5.显示完整路径</h3>
 <p>这是一个良好，简洁，最小的2行提示(加上顶上的空行)。在第一行你能得到一个全路径信息，在第二行是一个用户名。如果你对每个命令提示行的空行不爽的话，你只要移走第一个\n就OK了</p>
 <p>例子：</p>
-<p style="TEXT-ALIGN: center"><img alt="image placeholder" >
+<p style="TEXT-ALIGN: center"><img alt="image placeholder" ></p>
 <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 2px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; line-height: 20px;">代码：</p>
 <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 2px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; line-height: 20px;"><span style="line-height: 20px;">PS1=”[\[\033[32m\]\w]\[\033[0m\]\n\[\033[1;36m\]\u\[\033[1;33m\]-&gt; \[\033[0m\]”</span></p>
 <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 2px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; line-height: 20px;"><span style="line-height: 20px;"> </span></p>
@@ -10736,7 +10513,7 @@ public class NegatableZeroInteger extends NegatableInteger {
 <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 2px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; line-height: 20px;">这是另外的一个两行提示，但是这个两行提示具有更多的之前我们没有的信息。第一行是显示通常的<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="611412041321090e1215">[email protected]</a>和全路径等信息。在第二行我们可以得到命令执行历史序号和一个后台运行任务个数信息。</p>
 <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 2px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; line-height: 20px;">例子：</p>
 <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 2px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; line-height: 20px;"> </p>
-<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 2px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; line-height: 20px; text-align: center;"><img alt="image placeholder" >
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 2px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; line-height: 20px; text-align: center;"><img alt="image placeholder" ></p>
 <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 2px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; line-height: 20px;">代码：</p>
 <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 2px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; line-height: 20px;">PS1=’\[\e[1;32m\]\<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="fa8fba">[email protected]</a>\H:\[\e[m\] \[\e[1;37m\]\w\[\e[m\]\n\[\e[1;33m\]hist:\! \[\e[0;33m\] \[\e[1;31m\]jobs:\j \$\[\e[m\] ‘</p>
 <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 2px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; line-height: 20px;"> </p>
@@ -10744,13 +10521,13 @@ public class NegatableZeroInteger extends NegatableInteger {
 <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 2px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; line-height: 20px;">这是一个非常眩的设计。我们可以从这个命令行提示信息的第一行中获取到用户/主机，运行任务数，和时间日期等信息。在第二行我们可以得到当前目录的文件数和他们占用的磁盘空间。</p>
 <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 2px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; line-height: 20px;">例子：</p>
 <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 2px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; line-height: 20px;"> </p>
-<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 2px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; line-height: 20px; text-align: center;"><img alt="image placeholder" >
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 2px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; line-height: 20px; text-align: center;"><img alt="image placeholder" ></p>
 <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 2px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; line-height: 20px;">代码:</p>
 <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 2px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; line-height: 20px;">PS1=”\n\[\e[30;1m\]\[\016\]l\[\017\](\[\e[34;1m\]\<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="3a4f7a">[email protected]</a>\h\[\e[30;1m\])-(\[\e[34;1m\]\j\[\e[30;1m\])-(\[\e[34;1m\]\@ \d\[\e[30;1m\])-&gt;\[\e[30;1m\]\n\[\016\]m\[\017\]-(\[\[\e[32;1m\]\w\[\e[30;1m\])-(\[\e[32;1m\]\$(/bin/ls -1 | /usr/bin/wc -l | /bin/sed ‘s: ::g’) files, \$(/bin/ls -lah | /bin/grep -m 1 total | /bin/sed ‘s/total //’)b\[\e[30;1m\])–&gt; \[\e[0m\]”</p>
 <h3>8. My Prompt</h3>
 <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 2px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; line-height: 20px;">最后这个命令提示行是我个人最喜欢的使用的命令提示行。它是#7的一个修改，这个命令提示行只包含我最希望知道的信息，因此节省了它的占用空间。我偏爱两行风格，因为这样不仅可以让我看到全路径信息，而且不影响我命令输入的可视空间。</p>
 <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 2px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; line-height: 20px;">例子:</p>
-<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 2px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; line-height: 20px; text-align: center;"><img alt="image placeholder" >
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 2px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; line-height: 20px; text-align: center;"><img alt="image placeholder" ></p>
 <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 2px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; line-height: 20px;">代码:</p>
 <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 2px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; line-height: 20px;">PS1=”\n\[\e[32;1m\](\[\e[37;1m\]\u\[\e[32;1m\])-(\[\e[37;1m\]jobs:\j\[\e[32;1m\])-(\[\e[37;1m\]\w\[\e[32;1m\])\n(\[\[\e[37;1m\]! \!\[\e[32;1m\])-&gt; \[\e[0m\]”</p>
 <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 2px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; line-height: 20px;">如果你愿意共享你的命令提示行，请在将这些命令提示代码加在下面的评论中。</p>
@@ -10759,9 +10536,6 @@ public class NegatableZeroInteger extends NegatableInteger {
 <p>-e ‘s:/dev/::’): \[\033[1;36m\]\$(/bin/ls -1 | /usr/bin/wc -l | /bin/sed ‘s: ::g’) files \[\033[1;33m\]\$(/bin/ls -lah | /bin/grep -m 1 total | /bin/sed ‘s/total //’)b\[\033[0m\] -&gt; \[\033[0m\]”</p>
 </div>
 <p><a title="原文出处" href="https://maketecheasier.com/8-useful-and-interesting-bash-prompts/2009/09/04" target="_blank"> 出处</a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-09-07T17:44:22+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1399.html</guid>
@@ -10771,11 +10545,8 @@ public class NegatableZeroInteger extends NegatableInteger {
 <title><![CDATA[ Oracle的战书！ ]]></title>
 <link>https://coolshell.cn/articles/1426.html</link>
 <content><![CDATA[ 
-<p style="text-align: center;"><a href="http://www.oracle.com/features/suncustomers.html">http://www.oracle.com/features/suncustomers.html</a><img alt="image placeholder" >
+<p style="text-align: center;"><a href="http://www.oracle.com/features/suncustomers.html">http://www.oracle.com/features/suncustomers.html</a><img alt="image placeholder" ></p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-09-11T16:24:47+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1426.html</guid>
@@ -10803,9 +10574,6 @@ set tenc=utf-8<br>
 set fenc=utf-8<br>
 set fencs=utf-8,usc-bom</p></blockquote>
 <p>其实整个问题都很简单。 但是我发现搜索引擎里的资料 不是通过直观的关键字搜出来的。 所以这里做下一个记录，希望对以后的朋友有所帮助。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-09-19T08:47:04+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1432.html</guid>
@@ -10864,9 +10632,6 @@ set fencs=utf-8,usc-bom</p></blockquote>
 <p>Alice 转过身去，看到了那只蛤蟆，她微笑着。“你总是说着这些古怪发音的单词”，她说，“但至少我知道他们是什么意思”。</p>
 <p>“chkdsk”， 蛤蟆说到。</p>
 <p>—–By Lincoln Spector TEXAS COMPUTER CURRENTS SEPTEMBER 1989</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-09-19T10:33:00+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1439.html</guid>
@@ -10883,9 +10648,6 @@ set fencs=utf-8,usc-bom</p></blockquote>
 <p>bash-2.05b# uname -a<br>
 Linux (none) 2.6.18 #2 Mon Dec 29 19:47:06 UTC 2008 i686 GNU/Linux</p>
 <p>命令支持的不多，好像只是一个单机版的虚拟机，一但你打开网页时就起动一个。当然，也不排除其完全是假的，因为太简单了，一切都可以fake出来。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-09-19T10:56:09+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1441.html</guid>
@@ -10978,9 +10740,6 @@ ref = 'y';
 <p>另外：上述例子是在linux环境下编译的，使用STL是GNU的STL。windows上我用的是vs2003，但是非常明显vs2003一点都不支持COW。</p>
 <p>这篇文章出自<a href="http://ridiculousfish.com/blog/archives/2009/09/17/i-didnt-order-that-so-why-is-it-on-my-bill-episode-2/" target="_blank">http://ridiculousfish.com/blog/archives/2009/09/17/i-didnt-order-that-so-why-is-it-on-my-bill-episode-2/</a> 这里，我使用了它的例子。但是我重新自己组织了内容。</p>
 <p>编写这篇文章的同时，我还参考了耗子的<a href="http://blog.csdn.net/haoel/archive/2004/06/23/24058.aspx">《标准C＋＋类string的Copy-On-Write技术》</a>一文</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 - CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-09-19T21:19:33+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1443.html</guid>
@@ -11014,9 +10773,6 @@ ref = 'y';
 <p style="padding-top: 0px; padding-right: 0px; padding-bottom: 10px; padding-left: 0px; outline-width: 0px; outline-style: initial; outline-color: initial; font-size: 13px; margin: 0px;">Google is already working on an update to its current search engine.</p>
 <p style="padding-top: 0px; padding-right: 0px; padding-bottom: 10px; padding-left: 0px; outline-width: 0px; outline-style: initial; outline-color: initial; font-size: 13px; margin: 0px;">Nicknamed “Caffeine” the new version is still in the testing phase and will replace the current engine once tests are complete.</p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-09-22T23:01:50+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1457.html</guid>
@@ -11035,9 +10791,6 @@ ref = 'y';
 <p>于是想了下 把Apache脱离SeLinux是一个最恰当的办法，于是执行</p>
 <p>[bash]sudo  setsebool -P httpd_disable_trans 1 &amp;&amp; sudo   /etc/init.d/httpd restart[/bash]</p>
 <p>这样就能保证在SeLinux的光环下,Web服务器行为不受控制。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-09-26T09:00:54+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1462.html</guid>
@@ -11083,9 +10836,6 @@ print "Serving HTTP on", sa[0], "port", sa[1], "…"<br>
 httpd.serve_forever()<br>
 [/py]</p>
 <p>注意：所有的这些东西都可以在 Windows 或 <a href="https://www.cygwin.com/">Cygwin</a> 下工作。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-09-27T11:34:10+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1480.html</guid>
@@ -11098,13 +10848,10 @@ httpd.serve_forever()<br>
 <p>TCP共有11个网路状态，其中涉及到关闭的状态有5个。</p>
 <p>在我们编写网络相关程序的时候，这5个状态经常出现。因为这5个状态相互关联，相互纠缠，而且状态变化触发都是由应用触发，但是又涉及操作系统和网络，所以正确的理解TCP 在关闭时网络状态变化情况，为我们诊断网络中各种问题，快速定位故障有着非常重要的作用和意义。</p>
 <p style="text-align: left;">下是是根据W.Richard Stevens的《TCP/IP详解》一书的TCP状态转换图。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p style="text-align: left;"><span id="more-1484"></span></p>
-<p style="text-align: center;"><img alt="image placeholder" >
+<p style="text-align: center;"><img alt="image placeholder" > <img alt="image placeholder" > <img alt="image placeholder" > <img alt="image placeholder" ></p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-09-27T16:11:19+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1484.html</guid>
@@ -11117,13 +10864,10 @@ httpd.serve_forever()<br>
 <p>我们知道，在编程的世界里，主要就是两个事，用一定的算法去处理一定的数据。算法可以理解为业务逻辑流程，而数据自然一定是按某种结构来存放，这就是数据结构。我们知道，数据结构的修改一定会导致算法的修改，我们也知道，数据结构直接关系到了整个程序的繁简性，高效性。而算法则是关系到数据处理的时间、空间性能，以及日后的扩展和维护。这两个东西是计算机科班出生的人或是需要学习编程的人必需要注意的两件头等大事。</p>
 <p>下面这个网站，由 <a href="http://www.itl.nist.gov/div897/">Software and Systems Division</a>, <a href="http://www.itl.nist.gov/">Information Technology Laboratory</a> 创建。</p>
 <p style="text-align: center;"><a href="http://www.itl.nist.gov/div897/sqg/dads/terms.html" target="_blank"><strong></strong></a><strong><a href="http://xlinux.nist.gov/dads/" target="_blank">http://xlinux.nist.gov/dads/</a></strong><strong> </strong></p>
-<p style="text-align: center;"><img alt="image placeholder" >
+<p style="text-align: center;"><img alt="image placeholder" ></p>
 <p style="text-align: left;"><span id="more-1499"></span></p>
 <p>这是一个关于算法，算法技术，数据结构，系统架构等相关问题的一个词典。其中，算法包括了一些常见的算法，比如： <a href="http://xlinux.nist.gov/dads/HTML/ackermann.html" target="_blank">Ackermann’s function</a> ，一些算法问题包括了 <a href="http://xlinux.nist.gov/dads/HTML/travelingSalesman.html" target="_blank">traveling salesman</a>（销售员出差问题） and <a href="http://xlinux.nist.gov/dads/HTML/byzantine.html" target="_blank">Byzantine generals</a>（拜占庭将军问题），还有一些关于这些问题，算法的 <a href="http://xlinux.nist.gov/dads/termsImpl.html" target="_blank">实现链表</a> 以及更多的信息。而索引页包括 <a href="http://xlinux.nist.gov/dads/termsArea.html" target="_blank">领域索引</a> 和 <a href="http://xlinux.nist.gov/dads/termsType.html" target="_blank">类型索引</a>.</p>
 <p>希望这个网站对有你用。当然，这个网站是英文的。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-09-28T11:33:35+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1499.html</guid>
@@ -11152,9 +10896,6 @@ httpd.serve_forever()<br>
 <p><span id="more-1502"></span></p>
 <p>在网上查了一下，发现VS2010好像也准备要支持这个东西，微软叫这个东西为“<a href="https://blogs.msdn.com/ianhu/archive/2009/05/13/historical-debugging-in-visual-studio-team-system-2010.aspx" target="_blank">Historical Debugging</a>”。</p>
 <p>这个东西，对于我这个老家伙来说比较新鲜，而且还有点诡异。我有点没跟上这个技术，不知道这个技术主要是用来干什么？对于程序的运行的回滚？这样一来，如果，我某条语句创建了一个线程，或是一个文件，逆向执行回去，莫非它还能把这些程序创建出来的资源回收啦？就算是能回收，要是我的某个程序向网络发了些数据出去，莫非它还能给我再收回来？也许我想得太极端了，不过好像目前对这个技术的原始需求的说明不是很多，所以真不知道这个技术除了很酷，还有什么？也许是我理解错了，希望大家指点一下。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-09-28T17:14:08+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1502.html</guid>
@@ -11201,9 +10942,6 @@ mochiweb_headers:to_list(Headers)).</p>
 类似<span style="color: #ffcc00">Req:get_header_value(Key)</span></p>
 <div><span style="font-family: 'Lucida Grande', Verdana, Arial, 'Bitstream Vera Sans', sans-serif"><span>最近搜了下，发现用mochiweb的挺多的。但自己用的时候发现来不少疑难。以上文档皆由litaocheng总结提供。感谢所带来的帮助。希望这个对国内使用mochiweb的朋友们带来帮助。</span></span></div>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-09-30T20:00:34+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1516.html</guid>
@@ -11213,7 +10951,7 @@ mochiweb_headers:to_list(Headers)).</p>
 <title><![CDATA[ GDB 7.0 发布 ]]></title>
 <link>https://coolshell.cn/articles/1525.html</link>
 <content><![CDATA[ 
-<p><a href="https://www.gnu.org/software/gdb/mascot/"><img alt="image placeholder" >
+<p><a href="https://www.gnu.org/software/gdb/mascot/"><img alt="image placeholder" ></a>2009年10月06日，GDB7.0正式发布，新的版本你可以在<a href="https://www.gnu.org/software/gdb/download/" target="_blank">这里下载</a>。本次版本，不但有大家所关注的《GDB<a href="https://coolshell.cn/articles/1502.html" target="_blank">回溯调试技术</a>》，同样还有其它大量的新特性，和对新平台的支持。</p>
 <p>新版的GDB7.0支持如下新的平台或配置：</p>
 <ul>
 <li>x86/x86_64 Darwin</li>
@@ -11255,9 +10993,6 @@ mochiweb_headers:to_list(Headers)).</p>
 * 一个新的命令，当有系统调用发生时可以停止正在运行的程序</p>
 <p style="TEXT-ALIGN: left">(全文完)</p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-10-09T16:39:16+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1525.html</guid>

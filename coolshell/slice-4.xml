@@ -4,7 +4,7 @@
 <title>酷 壳 – CoolShell</title>
 <description>享受编程和技术所带来的快乐 – Coding Your Ambition</description>
 <link>https://coolshell.cn</link>
-<pubDate>2021-11-25T19:30:07+08:00</pubDate>
+<pubDate>2021-11-25T21:00:59+08:00</pubDate>
 <!-- other elements omitted from this example -->
 <item>
 <title><![CDATA[ JDK里的设计模式 ]]></title>
@@ -204,7 +204,6 @@
 <li>javax.lang.model.type.TypeMirror 和javax.lang.model.type.TypeVisitor</li>
 </ul>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2010-11-26T08:44:37+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3320.html</guid>
@@ -216,7 +215,7 @@
 <content><![CDATA[ 
 <p>在<a href="https://www.reddit.com/r/todayilearned/comments/ed39q/til_how_to_make_google_beatbox_for_you/" target="_blank">Reddit</a>上有人发布了怎么使用Google的翻译来玩beat box，很有趣，转过来。</p>
 <p style="text-align: center;">
-<img alt="image placeholder" >
+<img alt="image placeholder" ></p>
 <p>下面是相关步骤：</p>
 <p style="text-align: left; padding-left: 30px;">1) Go to <a href="https://translate.google.com/" target="_self">Google Translate</a></p>
 <p style="text-align: left; padding-left: 30px;">2) 把翻译语言设置成从 German 翻译到 German。（德语）</p>
@@ -226,9 +225,6 @@ pv zk pv pv zk pv zk kz zk pv pv pv zk pv zk zk pzk pzk pvzkpkzvpvzk kkkkkk bsch
 <p>另，如果你在Google里以 “Google beatbox” 作为关键词搜索，你会看到 Google Translate出现在最前面的搜索结果中。</p>
 <div></div>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-12-01T10:21:44+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3331.html</guid>
@@ -284,9 +280,6 @@ pv zk pv pv zk pv zk kz zk pv pv pv zk pv zk zk pzk pzk pvzkpkzvpvzk kkkkkk bsch
 <strong>Third</strong>: Implementing a dynamic language (Groovy) in a static language (Java) on a type less virtual machine (JVM) is hard. Every language has their work arounds. We generated some code so that we had something to link against. At one point, JRuby was generating reams of interfaces (IIRC) and have you seen the implementation of OpenJDK? Ever notice now many methods are overloaded for all the primitives plus Object. These are all workarounds to get the end user a good programming experience while still running on the JVM.</li>
 </ul>
 <p>大意是：这个类对于Groovy的使用者是不会用到的，也不会被调用到，因为在JVM下实现动态语言是有一定的难度，这算是一个work around。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-12-01T14:08:53+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3335.html</guid>
@@ -297,7 +290,7 @@ pv zk pv pv zk pv zk kz zk pv pv pv zk pv zk zk pzk pzk pvzkpkzvpvzk kkkkkk bsch
 <link>https://coolshell.cn/articles/3345.html</link>
 <content><![CDATA[ 
 <p>来源：<a href="http://blog.seattleinterviewcoach.com/2009/02/140-google-interview-questions.html" target="_blank">http://blog.seattleinterviewcoach.com/2009/02/140-google-interview-questions.html</a>（墙）<br>
-<img alt="image placeholder" >
+<img alt="image placeholder" ></p>
 <div>某猎头收集了140多个Google的面试题，都张到他的Blog中了，主要是下面这些职位的，因为被墙，且无任何敏感信息，所以，我原文搬过来了。</div>
 <div>
 <ul>
@@ -544,7 +537,6 @@ pv zk pv pv zk pv zk kz zk pv pv pv zk pv zk zk pzk pzk pvzkpkzvpvzk kkkkkk bsch
 </div>
 </div>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2010-12-02T08:44:24+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3345.html</guid>
@@ -571,28 +563,25 @@ pv zk pv pv zk pv zk kz zk pv pv pv zk pv zk zk pzk pzk pvzkpkzvpvzk kkkkkk bsch
 <h4>
 <span class="ez-toc-section" id="Orange"></span>Orange<span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="http://www.ailab.si/orange"><img alt="image placeholder" >
+<p><a href="http://www.ailab.si/orange"><img alt="image placeholder" ></a><a href="http://www.ailab.si/orange">Orange</a> 是一个基于组件的数据挖掘和机器学习软件套装，它的功能即友好，又很强大，快速而又多功能的可视化编程前端，以便浏览数据分析和可视化，基绑定了Python以进行脚本开发。它包含了完整的一系列的组件以进行数据预处理，并提供了数据帐目，过渡，建模，模式评估和勘探的功能。其由C++ 和 Python开发，它的图形库是由跨平台的Qt框架开发。</p>
 <h4>
 <span class="ez-toc-section" id="RapidMiner"></span>RapidMiner<span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="https://rapidminer.com/" target="_blank"><img alt="image placeholder" >
+<p><a href="https://rapidminer.com/" target="_blank"><img alt="image placeholder" ></a><a href="https://rapidminer.com/" target="_blank">RapidMiner</a>, 以前叫 YALE (Yet Another Learning Environment), 其是一个给机器学习和数据挖掘和分析的试验环境，同时用于研究了真实世界数据挖掘。它提供的实验由大量的算子组成，而这些算子由详细的XML 文件记录，并被RapidMiner图形化的用户接口表现出来。RapidMiner为主要的机器学习过程提供了超过500算子，并且，其结合了学习方案和Weka学习环境的属性评估器。它是一个独立的工具可以用来做数据分析，同样也是一个数据挖掘引擎可以用来集成到你的产品中。</p>
 <p><span id="more-3356"></span></p>
 <h4>
 <span class="ez-toc-section" id="Weka"></span>Weka<span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="http://www.cs.waikato.ac.nz/~ml/weka/" target="_blank"><img alt="image placeholder" >
+<p><a href="http://www.cs.waikato.ac.nz/~ml/weka/" target="_blank"><img alt="image placeholder" ></a>由Java开发的 <a href="http://www.cs.waikato.ac.nz/~ml/weka/" target="_blank">Weka</a> (Waikato Environment for Knowledge Analysis) 是一个知名机器学机软件，其支持几种经典的数据挖掘任务，显著的数据预处理，集群，分类，回归，虚拟化，以及功能选择。其技术基于假设数据是以一种单个文件或关联的，在那里，每个数据点都被许多属性标注。 Weka 使用Java的数据库链接能力可以访问SQL数据库，并可以处理一个数据库的查询结果。它主要的用户接品是Explorer，也同样支持相同功能的命令行，或是一种基于组件的知识流接口。</p>
 <h4>
 <span class="ez-toc-section" id="JHepWork"></span>JHepWork<span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="http://jwork.org/jhepwork/" target="_blank"><img alt="image placeholder" >
+<p><a href="http://jwork.org/jhepwork/" target="_blank"><img alt="image placeholder" ></a>为科学家，工程师和学生所设计的 <a href="http://jwork.org/jhepwork/" target="_blank">jHepWork</a> 是一个免费的开源数据分析框架，其主要是用开源库来创建 一个数据分析环境，并提供了丰富的用户接口，以此来和那些收费的的软件竞争。它主要是为了科学计算用的二维和三维的制图，并包含了用Java实现的数学科学库，随机数，和其它的数据挖掘算法。 jHepWork 是基于一个高级的编程语言 Jython，当然，Java代码同样可以用来调用 jHepWork 的数学和图形库。</p>
 <h4>
 <span class="ez-toc-section" id="KNIME"></span>KNIME<span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="http://www.knime.org/" target="_blank"><img alt="image placeholder" >
+<p><a href="http://www.knime.org/" target="_blank"><img alt="image placeholder" ></a><a href="http://www.knime.org/" target="_blank">KNIME</a> (Konstanz Information Miner) 是一个用户友好，智能的，并有丰演的开源的数据集成，数据处理，数据分析和数据勘探平台。它给了用户有能力以可视化的方式创建数据流或数据通道，可选择性地运行一些或全部的分析步骤，并以后面研究结果，模型 以及 可交互的视图。 KNIME 由Java写成，其基于 Eclipse 并通过插件的方式来提供更多的功能。通过以插件的文件，用户可以为文件，图片，和时间序列加入处理模块，并可以集成到其它各种各样的开源项目中，比如：R语言，Weka， Chemistry Development Kit, 和 LibSVM.</p>
 <p>源文：<a href="http://www.junauza.com/2010/11/free-data-mining-software.html">http://www.junauza.com/2010/11/free-data-mining-software.html</a>（墙）</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-12-13T08:41:11+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3356.html</guid>
@@ -603,11 +592,8 @@ pv zk pv pv zk pv zk kz zk pv pv pv zk pv zk zk pzk pzk pvzkpkzvpvzk kkkkkk bsch
 <link>https://coolshell.cn/articles/3385.html</link>
 <content><![CDATA[ 
 <p>下面是一个关于编程语言流行度的图（以前本站也有一篇<a href="https://coolshell.cn/articles/706.html" target="_blank">编程语言流行度的文章</a>）。其X轴是从Github中取来的数据（项目数），而Y轴是从StackOverflow取来的（tag数）。注意：Github提供了语言流行度：<a href="https://github.com/languages">https://github.com/languages</a>，而本图的原始数据在<a href="http://www.dataists.com/wp-content/uploads/2010/12/language_ranks1.csv" target="_blank">这里</a>。</p>
-<figure id="attachment_3386" aria-describedby="caption-attachment-3386" style="width: 581px" class="wp-caption aligncenter"><a href="https://coolshell.cn/wp-content/uploads/2010/12/rank_scatter1.png"><img alt="image placeholder" >
+<figure id="attachment_3386" aria-describedby="caption-attachment-3386" style="width: 581px" class="wp-caption aligncenter"><a href="https://coolshell.cn/wp-content/uploads/2010/12/rank_scatter1.png"><img alt="image placeholder" ></a><figcaption id="caption-attachment-3386" class="wp-caption-text">编程语言流行度（点击看大图）</figcaption></figure>
 <p>来源：<a href="http://www.dataists.com/2010/12/ranking-the-popularity-of-programming-langauges/" target="_blank">http://www.dataists.com/2010/12/ranking-the-popularity-of-programming-langauges/</a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-12-13T09:12:56+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3385.html</guid>
@@ -618,13 +604,10 @@ pv zk pv pv zk pv zk kz zk pv pv pv zk pv zk zk pzk pzk pvzkpkzvpvzk kkkkkk bsch
 <link>https://coolshell.cn/articles/3396.html</link>
 <content><![CDATA[ 
 <p><a href="https://www.facebook.com/paulgb">Paul Butler</a> 是Facebook的Data Infrastructure Engineering Team的一个实习生，他把Facebook 5亿用户的人际关系网给图示了出来（见下图，<a href="https://sphotos.ak.fbcdn.net/hphotos-ak-snc4/hs1382.snc4/163413_479288597199_9445547199_5658562_14158417_n.jpg" target="_blank">源图片</a>）挺赞的。从中我们可以看到，某些地方是一片漆黑……</p>
-<p style="text-align: center;"><a href="https://coolshell.cn/wp-content/uploads/2010/12/Visualizing-Friendships-on-Facebook.png"><img alt="image placeholder" >
+<p style="text-align: center;"><a href="https://coolshell.cn/wp-content/uploads/2010/12/Visualizing-Friendships-on-Facebook.png"><img alt="image placeholder" ></a>Facebook全球关系网<br>
 (点击看大图，3.8M)</p>
 <p style="text-align: left;">关于Paul是如何产生这个图的，你可以参看：<a href="https://www.facebook.com/notes/facebook-engineering/visualizing-friendships/469716398919" target="_blank">http://www.facebook.com/notes/facebook-engineering/visualizing-friendships/469716398919</a> （墙）</p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-12-15T08:47:15+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3396.html</guid>
@@ -646,7 +629,7 @@ pv zk pv pv zk pv zk kz zk pv pv pv zk pv zk zk pzk pzk pvzkpkzvpvzk kkkkkk bsch
 <p><span id="more-3363"></span></p>
 <p>在 2000年代的上半段，《时代》采访了这四个程序员。那个时候，看起来他们要以数字化动乱把整个复杂的传统媒体娱乐平台给拆除，而对有版权的电影，音乐和电视的收费则变得困难和不可能，那些艺术家也将无法从他们作品得到报酬，整个娱乐业包括时代华纳也将被炸为平地。而盗版业则借着这四个程员的软件侵袭了美国公司。</p>
 <p>“毕竟”，我们在2003年报道到：“在整个信息经济中，不可能所有的信息都是免费的”。如果毁灭正在来临，那么， Fanning, Johansen, Frankel 和 Cohen 将是那“<a href="https://zh.wikipedia.org/zh-cn/%E5%90%AF%E7%A4%BA%E5%BD%95%E4%B8%AD%E7%9A%84%E5%9B%9B%E9%AA%91%E5%A3%AB" target="_blank">四骑士</a>”（译注：启示录中的四骑士传统上被解释为瘟疫、战争、饥荒和死亡）。</p>
-<p style="text-align: center;"><img alt="image placeholder" >
+<p style="text-align: center;"><img alt="image placeholder" >Shawn Fanning（左） 和 Bram Cohen（右）</p>
 <div id="ez-toc-container" class="ez-toc-v2_0_17 counter-hierarchy counter-decimal ez-toc-grey">
 <div class="ez-toc-title-container">
 <p class="ez-toc-title">目录</p>
@@ -664,7 +647,7 @@ pv zk pv pv zk pv zk kz zk pv pv pv zk pv zk zk pzk pzk pvzkpkzvpvzk kkkkkk bsch
 </h4>
 <p><strong></strong>毁灭并没有发生。但是整个娱乐业因此而改变，而这些改变的复杂性和逐渐演进超出了我们的期望。这些发生的故事，海盗王们的事，对于今天数字化世界正在发生的事情有非常高的参考和教育价值。Fanning, Johansen, Frankel 和 Cohen 现在都硅谷运作着自己的小的，合法的软件公司。他们现在没有在做和盗版有干系的事情——当然，如果他们真的没有。</p>
 <p>Fanning，四个人中唯一一个没有回复我们的采访请求的人，他较早地退出了毁灭传统唱片业的事业。在2001年，Napster因为不堪众多关于其协助并煽动版权侵权的法律诉论的重压，而不得不关闭。2002年，Fanning 创办了新的服务 Snocap —— 他尝试把文件共享合法化，在和相关的唱片公司合作下，Snocap 赋予消费者对其下载作品给于创作者报酬的权利。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>但是，到那个时候，免费自由的文件共享程序像病毒一样的增涨，而用户则热衷于更换他们的音乐硬盘。他们仅在2001年8月一个月内就交换了30亿个文件。而要从这些文件交易中收到钱是根本不可能的。是的，要和免费竞争是很难的一件事。 Fanning 创造了一个连他自己都搞不定的怪物。</p>
 <p>所以，他停止继续尝试Snocap下去。 Fanning 的下一个项目是给游戏玩家的社交网络叫 Rupture，最终，他在2008年时以1500万美金把其卖给了电子艺界Electronic Arts ——这是他的第一次发薪日。他现在又于2008年11月开了一个公司 Path， 其主要提供给iPhone手机进行照片分享的服务。</p>
 <p>而Napster呢？今天他还在。这个商标在破产拍卖时被卖了，然后再被卖了，但其再也没有被 重建。现在其被  Best Buy 运营，其是 iTunes 的竞争者，其口号是—— “More than just a music store.” （不仅仅只是音乐商店）</p>
@@ -672,17 +655,17 @@ pv zk pv pv zk pv zk kz zk pv pv pv zk pv zk zk pzk pzk pvzkpkzvpvzk kkkkkk bsch
 <span class="ez-toc-section" id="%E6%B2%A1%E6%9C%89%E7%9B%97%E7%89%88%E7%9A%84%E4%BA%BA"></span>没有盗版的人<span class="ez-toc-section-end"></span>
 </h4>
 <p><strong></strong><br>
-<img alt="image placeholder" >
+<img alt="image placeholder" >作为 Gnutella 的作者， Justin Frankel 是 Fanning 合法的继任者。不像 Fanning，他很早就收获了他的第一桶金。在1999年，当WinAmp大放光芒的时候，AOL买了WinAmp和他的公司——Nullsoft，价格应该在1亿美金左右。这让 Frankel 在20岁的时候就非常富有。当然，他也成了AOL的员工。</p>
 <p>但这并不是很匹配，在Nullsoft, Frankel的做法是把软件开发到极致，然后免费发布出去。而在 AOL，软件的商业销售威胁并压倒了软件本身。“我致力于的产品，就像这样，我们不愿意金钱的掺入，我们正和其它公司做这笔交易，所以，产品也只能是这样的结果”，他回忆到，“没有人真正地去关心用户的体验是怎么样的”。</p>
 <p>与此同时，Frankel 用他的业余时间开发 Gnutella 。这是一个很有才的软件，不像Napster，其是真正的分布式，没有中心服务器，这样，也没有那个“关闭按钮”让那些律师按。在2000年3月的时候，Gnutella上线，其发了一个贴子：“看见没？AOL也能给你一些好的东西！”，但是就算是这样，也没有换来AOL对其忠爱，而一大堆互联网公司在那时试图并入大的媒体公司，在Napster被诉讼的中期，2004年，他离开了AOL。</p>
-<p>然后，他开始干了些有趣的事：他离开了他的成功地，他不用 Gnutella，也没有花一毛钱，就算是10年以后也是这样。 LimeWire —— 最流行的 Gnutella 客户端 —— 号称有 5千万用户。“当我开发它的时候，我最初主要是想用其在验证一下是否可行。所以我也不想从其中获益”，他说，“所以，甚至我和它一点关系也没有也说得通，其就是一个概念”。<img alt="image placeholder" >
+<p>然后，他开始干了些有趣的事：他离开了他的成功地，他不用 Gnutella，也没有花一毛钱，就算是10年以后也是这样。 LimeWire —— 最流行的 Gnutella 客户端 —— 号称有 5千万用户。“当我开发它的时候，我最初主要是想用其在验证一下是否可行。所以我也不想从其中获益”，他说，“所以，甚至我和它一点关系也没有也说得通，其就是一个概念”。<img alt="image placeholder" ></p>
 <p>Frankel 他最近从旧金山搬到了纽约城，现在全心打理自己的公司 Cockos (别问为什么叫这名)，这是一个关于音频产品套件，叫 Reaper。他坚持不懈地改进着它，并且他和他的用户保持着很近的关系，其用户数大约是几万人。“当前的策略我们并不想发展用户数量”，他说，“我们只是在享受目前的过程，并在做正确的事情”。他并不同意他是这个世界上最危险的geek，而滚石在2004年时对他则是这么认为的。“我不觉得盗版是很危险的”，他说，“根本上来说，大众的商业模式总是依赖于对所有事情的强控制——尤其是那些有瑕疵的模式。而作为一个软件开发者来说，多少会产生一定程度的盗版”， Gnutella 对他来说已是远古的事情了。“数字化盗版：它毁了唱片业了吗？没有。唱片业适应了吗？当然，很多人会说得更好。你应该更关注质量，以及更小一些乐队，等等这类的事”。</p>
 <p>“至于音乐流行和排行这么大的市场，这点盗版算什么？” 他边说边笑道， “我希望就是这样。”</p>
 <h4>
 <span class="ez-toc-section" id="%E5%9B%9B%E7%9C%BC%E6%80%AA%E5%85%BD"></span><strong>四眼怪兽</strong><span class="ez-toc-section-end"></span>
 </h4>
 <p><strong></strong>在这四骑士中，只有 Bram Cohen他现在还在致力于其10年前的那个项目。他是 BitTorrent的创始人和首席科学家，而一个令人敬佩的旧金山的公司希望能把Cohen的这个令人瞠目的高效的内容分布式技术变成商业化应用。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>这是一个奇特的公司：其合法的业务建立在一种仍然可能被用来进行大规模版权侵权的技术上。即使像 BitTorrent这样被8千万用户安装了的东西，其看上去还是像刚刚开始创业一样。 在BitTorrent上有相对较小的一部分是完全合法的 —— 最近的一个研究表明完全合法的部分占11%。而在这11%中，有更少的一部分产生了BitTorrent的收入。</p>
 <p>就像 Fanning 的 Snocap 一样，Cohen 试图把其BitTorrent从大量的盗版领域转移到合法的领域，这样才能挣到钱。2007年是BT发展最震动的一年，BitTorrent成为了20世纪福克斯、派拉蒙、华纳兄弟 和 米高梅 影业公司的合作伙伴，和他们一起共同形成了 Torrent Entertainment Network，主要提供电影，电视，电子游戏的购买和零售。</p>
 <p>就像 Fanning一样， Cohen 明了要摆脱盗版并不像看上去的那么容易。“所有的和它有关的事都是灾难”，他说到。Torrent Entertainment Network 于2008年底关闭。回想起来，你能明白这为什么不行。 BitTorrent在用户友好上做得还不够，并且，在其底层也不够有效率。它可以很快地像病毒一样地移动大量的数据。然后，当你要在上面算钱的时候，你不得不把速度给降下来，然后跟踪并控制其下载流，还和使用一些很扯淡的诸如“数字版权管理（DRM）”之流的技术，其大量地限制了用户那些是可以干的，哪些是要买的。</p>
@@ -697,10 +680,10 @@ pv zk pv pv zk pv zk kz zk pv pv pv zk pv zk zk pzk pzk pvzkpkzvpvzk kkkkkk bsch
 <p>另外一个重要的原因是唱片业的灾难是不会发生的。Steve Jobs 在 2003年4月28日，那段时间是互联网文件共享井喷的时候，Apple揭开了iTunes Music Store的面纱。在那个时候，我们都觉得iTunes不可能成功，就像<a href="https://en.wikipedia.org/wiki/SNOCAP" target="_blank">Snocap</a>以及他和它类似的项目都以失败告终。这是因为，你怎么可以可能和免费竞争呢？</p>
 <p>但是iTunes 确实成功了。Apple无情地强调着简单和有魅力的用户接口，以及有乔布斯对唱片业的那强有力的谈判，造就了一个最新型的专业的服务，其可以让你放心地下载并传输音乐。的确是做到了，尽管其是收费的，而且我们的购买需要和DRM（数字版权管理）扯上关系并限制我们。</p>
 <p>于是，我们看到了可以和免费竞争的东西——简单（译注：个人以为可能还需要加上一点时尚）。Napster, Gnutella 和 BitTorrent 从来没有在用户友好度上到达像Apple那样的境界。从来没有人在网上检查并整理那些文件内容，所以，当那些众多的文件被共享时，我们可以看到，很多文件加杂时广告，色情，木马，病毒以及其它一些垃圾。当乔布斯为我们提供了那条简单之路，我们接受了。很明显，自由太过头——至少数字媒体是这样的。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >这是一个让那些年轻的海盗王们认真学习的教训。就像 Fanning, Frankel 和 Cohen一样， 其实，Jon Lech Johansen 并不能算得上是一个真正的海盗。他没有因为想把好莱坞搞破产而去帮助破解DVD，他这样做是因为他想在他的电脑上看电影。他的电脑安装的是Linux操作系统，而1999年，在Linux上根本没有可以用来播放DVD的程序，所以，他和他的伙伴们决定自己写一个，所以，他们不得不先把DVD给解密了。</p>
 <p>当美国电影协会（ Motion Picture Association of America）发现了DVD被破解的这个事，其向挪威政府控告 Johansen，并拘留了他。 他在奥斯陆(挪威的首都)受审两次，不过两次都被宣告无罪。因为他解密的DVD是他付费购买的。</p>
 <p>但Johansen真正的明白消费者对其购买的数字媒体的权利，这就好像一本书一样——我们可以不断的使用这本书，或是把这本书借出去，这是我们的权利。2005年， Johansen 去了加利福尼亚，在那里，他逆向工程了 FairPlay，这是苹果公司的用来保护其多媒体文件的DRM类软件（译注：这是苹果公司用来加密iPod的工具）。之后，他注意到了苹果公司产品的用户体验是多么的迷人，所以，他在想，应该把这些东西带给全世界给那些更为无序的非苹果的产品。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>“我们看到这世上有很多很多的产品，但其并没有像他们那样良好地运作”，Johansen说，那时他26岁的程序员。“所以，我们应该开发一个系统，其可以让这些设备的整合起来并给消费者他一个相当不错的用户体验”。</p>
 <p>所谓的 “我们”，就是 Johansen 自己的公司—— doubleTwist，这个公司于2007年创建。 doubleTwist 软件是免费的，是一种像<a href="https://zh.wikipedia.org/zh-cn/%E7%BE%85%E5%A1%9E%E5%A1%94%E7%9F%B3%E7%A2%91" target="_blank">罗塞塔石</a>一样的为数字多媒体软件文件开发的软件——它是可以翻译，和谐并组织大约500种不同设备的文件，把他们放在一起并提供一个相当漂亮的接口。其6月份， doubleTwist 摧出 Android App，当时就有超过50万的用户下载了（译注：大家可以<a href="https://www.google.com/search?q=doubleTwist+android+app" target="_blank">Google一下</a>，好评如潮）。去年， doubleTwist 开始了他的政变打出了这样的广告：“The Cure for iPhone Envy. Your iTunes library on any device. In seconds.”（嫉妒iPhone的对策。你的iTunes库可以在任何设备上，只需几秒钟。）它这个条幅挂在了苹果在旧金山的旗舰店的外墙上。</p>
 <p>Johansen 拒绝承认他和盗版有关系。“至于我被所指责的，真的和我没有什么关系”，他说。“我支持公平使用，意思是你的确是需要合法地获得内容，但你应该有权利使用任何一款设备或是应用程序来查看那些内容”。 Johansen 像所有的海盗王一样，他总是能写好的代码，而这些好的代码给了人民使用的权力。这才是盗版灾难不会发生的真正原因。<strong>盗版永远不希望所有的音乐和电影或是其它的东西成为免费的，他们想要的“free”其实是自由！</strong></p>
@@ -717,7 +700,6 @@ pv zk pv pv zk pv zk kz zk pv pv pv zk pv zk zk pzk pzk pvzkpkzvpvzk kkkkkk bsch
 <p>其实细想一下，不单单是我国的计算机文化都是那些肤浅的大公司的文化。</p>
 <p>最后还是送给大家那句话——<strong>真正让我们成为局域网的不是那个墙，而是我们自己的肤浅</strong>。</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2010-12-16T08:39:52+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3363.html</guid>
@@ -729,7 +711,7 @@ pv zk pv pv zk pv zk kz zk pv pv pv zk pv zk zk pzk pzk pvzkpkzvpvzk kkkkkk bsch
 <content><![CDATA[ 
 <p>某人用Java搞了一个流体力学的演示。</p>
 <p><a href="http://grantkot.com/MPM/Liquid.html" target="_blank">http://grantkot.com/MPM/Liquid.html</a></p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>不过，这仅仅是个开始。某同学将其发布上了reddit.com，于是，全世界的同学们开始给力了——</p>
 <p><span id="more-3421"></span></p>
 <p>Flash的开发者首先不服，搞了个 flash版（带源码）：</p>
@@ -745,9 +727,6 @@ pv zk pv pv zk pv zk kz zk pv pv pv zk pv zk zk pzk pzk pvzkpkzvpvzk kkkkkk bsch
 <p>——————</p>
 <p>短短几天里，被人重写成各种语言。这个程序写起来真的很简单吗？是我out了吗？</p>
 <p><strong>更新- iPhone和iPad版的</strong>： <a href="http://www.infi.nl/blog/view/id/98/Liquid_on_iPhone_and_iPad">http://www.infi.nl/blog/view/id/98/Liquid_on_iPhone_and_iPad</a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-12-21T08:49:35+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3421.html</guid>
@@ -758,25 +737,22 @@ pv zk pv pv zk pv zk kz zk pv pv pv zk pv zk zk pzk pzk pvzkpkzvpvzk kkkkkk bsch
 <link>https://coolshell.cn/articles/3429.html</link>
 <content><![CDATA[ 
 <p>程序员Román Cortés用1021个字节写了一个<a style="font-weight: bold;" href="http://js1k.com/2010-xmas/demo/856" target="_blank">3D 的圣诞树</a>，很强大。（请使用Chrome浏览器查看），还记得<a href="https://coolshell.cn/articles/2785.html" target="_blank">本站介绍的那个叫js1k.com的网站</a>吗？</p>
-<p style="text-align: center;"><a title=" 3D Christmas tree" href="http://js1k.com/2010-xmas/demo/856" target="_blank"><img alt="image placeholder" >
+<p style="text-align: center;"><a title=" 3D Christmas tree" href="http://js1k.com/2010-xmas/demo/856" target="_blank"><img alt="image placeholder" ></a></p>
 <p style="text-align: left;">其原理如下所示：</p>
 <p style="text-align: left;"><span id="more-3429"></span></p>
 <p style="text-align: left;"><a href="http://www.romancortes.com/blog/how-i-did-the-1kb-christmas-tree/" target="_blank">http://www.romancortes.com/blog/how-i-did-the-1kb-christmas-tree/</a></p>
-<p style="text-align: center;"><img alt="image placeholder" >
-<p style="text-align: center;"><img alt="image placeholder" >
-<p style="text-align: center;"><img alt="image placeholder" >
-<p style="text-align: center;"><img alt="image placeholder" >
-<p style="text-align: center;"><img alt="image placeholder" >
-<p style="text-align: center;"><img alt="image placeholder" >
+<p style="text-align: center;"><img alt="image placeholder" ></p>
+<p style="text-align: center;"><img alt="image placeholder" ></p>
+<p style="text-align: center;"><img alt="image placeholder" ></p>
+<p style="text-align: center;"><img alt="image placeholder" ></p>
+<p style="text-align: center;"><img alt="image placeholder" ></p>
+<p style="text-align: center;"><img alt="image placeholder" ></p>
 <p style="text-align: left;">——————————————</p>
 <p style="text-align: left;">还有另外一个叫Dustin DeWeese程序员，也做了一个贺卡给大家（请点下面的链接）。这个贺卡需要向下滚动网页才能看得出效果来，no Javascript。</p>
 <p style="text-align: center;"><a href="http://www.hackerfoo.com.nyud.net/christmas/christmas.html" target="_blank">http://www.hackerfoo.com.nyud.net/christmas/christmas.html</a></p>
 <p style="text-align: left;">这种使用遮罩而产生的动画的东西确实很有意思：<a href="http://blogoscoped.com/files/stripes.html" target="_blank">http://blogoscoped.com/files/stripes.html</a>，有一个小工具可以用来创建这样的东西：<a href="https://dl.dropbox.com/u/15095913/Scanimation_Creation_v1.1.zip" target="_blank">http://dl.dropbox.com/u/15095913/Scanimation_Creation_v1.1.zip</a></p>
 <p style="text-align: left;">呵呵。挺有意思的吧。</p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-12-27T08:43:32+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3429.html</guid>
@@ -868,9 +844,6 @@ GROUP BY table_schema ;
 </pre>
 <p>希望对你有帮助。</p>
 <p>文章：<a href="http://www.codeforest.net/6-useful-mysql-queries" target="_blank">来源</a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-12-31T08:29:35+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3433.html</guid>
@@ -891,7 +864,7 @@ GROUP BY table_schema ;
 <ul>
 <li>如果你想把你的Windows蓝屏改成红屏或是绿屏，你可以看看这篇教程：<a href="http://blogs.technet.com/b/markrussinovich/archive/2010/12/14/3374820.aspx" target="_blank">http://blogs.technet.com/b/markrussinovich/archive/2010/12/14/3374820.aspx</a>，还是挺Cool的。</li>
 </ul>
-<p style="text-align: center;"><a href="http://blogs.technet.com/cfs-file.ashx/__key/CommunityServer-Blogs-Components-WeblogFiles/00-00-00-52-36-metablogapi/4745.image_5F00_thumb47_5F00_0847D56E.png"><img alt="image placeholder" >
+<p style="text-align: center;"><a href="http://blogs.technet.com/cfs-file.ashx/__key/CommunityServer-Blogs-Components-WeblogFiles/00-00-00-52-36-metablogapi/4745.image_5F00_thumb47_5F00_0847D56E.png"><img alt="image placeholder" ></a></p>
 <p><span id="more-3437"></span></p>
 <ul>
 <li>如果你想使用HTML5+Javascript做一个游戏，就像制作<a href="https://coolshell.cn/articles/2998.html" target="_blank">这些HTML5的小游戏</a>一样，你不妨考虑使用一下这个游戏框架：<a href="http://www.propulsionjs.com/" target="_blank">http://www.propulsionjs.com/</a>
@@ -901,7 +874,7 @@ GROUP BY table_schema ;
 <li>如果你想学习Emacs，而又不害怕这样的学习曲线，那么，这里有一篇相当不错的教程供你参考：<a href="http://textmate2.com/" target="_blank">http://textmate2.com/</a>
 </li>
 </ul>
-<p style="text-align: center;"><a href="http://textmate2.com/" target="_blank"><img alt="image placeholder" >
+<p style="text-align: center;"><a href="http://textmate2.com/" target="_blank"><img alt="image placeholder" ></a></p>
 <p style="text-align: center;">
 </p>
 <ul>
@@ -936,7 +909,6 @@ GROUP BY table_schema ;
 </ul>
 <p><strong>祝大家新年快乐！！</strong></p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2010-12-31T13:00:00+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3437.html</guid>
@@ -1096,9 +1068,6 @@ int main(){
 }
 </pre>
 <p>本文来自: <a href="https://stackoverflow.com/q/4568645/89806" target="_blank">http://stackoverflow.com/q/4568645/89806</a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-01-07T08:55:32+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3445.html</guid>
@@ -1126,9 +1095,6 @@ pub: C2 D4 AA F3 19 35 50 19 AF 99 D4 4E 2B 58 CA 29 25 2C 89 12 3D 11 D6 21 8F 
 <p>不过之前黑客集团表示除非Sony出新硬件否则无法修正这一情况，Sony应该会接受这一事实。</p>
 <p>而最新的<a href="http://www.ps3-hacks.com/2011/01/04/ps3-custom-firmware-creator-released-permanently-add-install-pkgs-to-the-xmb/" target="_blank">PS3 Custom Firmware Creator</a>应该是把PS3送上断头台了。而且已经证实，3.55的玩友可以安装3.55的CFW自制系统，安裝之后可以正常运行正版游戏，可以通过选项菜单中多出的pkg安裝功能，安裝u盘里通过电脑下载的游戏更新补丁或是游戏的试玩版。<strong>现在的PS3就像一个PC机，等待着各种不受Sony控制的软件的到来……</strong></p>
 <p>（另：Freebsd<a href="https://lists.freebsd.org/pipermail/freebsd-current/2011-January/022104.html">宣布</a>支持索尼的游戏机PS3，支持的型号是索尼Playstation 3 Fat版，固件版本号&lt; 3.21 （最新的固件版本是<a href="https://us.playstation.com/support/systemupdates/ps3/index.htm">3.55版</a>），必须能网络启动。不过，因为黑客已经破译了root key，并允许创作自制固件，因此未来Freebsd或能支持所有版本的PS3。）</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-01-10T09:02:28+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3453.html</guid>
@@ -1170,7 +1136,7 @@ id  name       id   name
 <p><strong>Inner join</strong><br>
 产生的结果集中，是A和B的交集。</p>
 </td>
-<td><img alt="image placeholder" >
+<td><img alt="image placeholder" ></td>
 </tr>
 <tr>
 <td>
@@ -1188,7 +1154,7 @@ id    name       id    name
 <span style="color: gray;">null</span>  <span style="color: gray;">null</span>       3     Darth Vader</pre>
 <p><strong>Full outer join</strong> 产生A和B的并集。但是需要注意的是，对于没有匹配的记录，则会以null做为值。</p>
 </td>
-<td><img alt="image placeholder" >
+<td><img alt="image placeholder" ></td>
 </tr>
 <tr>
 <td>
@@ -1204,7 +1170,7 @@ id  name       id    name
 4   Spaghetti  <span style="color: gray;">null</span>  <span style="color: gray;">null</span></pre>
 <p><strong>Left outer join</strong> 产生表A的完全集，而B表中匹配的则有值，没有匹配的则以null值取代。</p>
 </td>
-<td><img alt="image placeholder" >
+<td><img alt="image placeholder" ></td>
 </tr>
 <tr>
 <td>
@@ -1219,7 +1185,7 @@ id  name       id     name
 4   Spaghetti  <span style="color: gray;">null</span>   <span style="color: gray;">null</span></pre>
 <p>产生在A表中有而在B表中没有的集合。</p>
 </td>
-<td><img alt="image placeholder" >
+<td><img alt="image placeholder" ></td>
 </tr>
 <tr>
 <td>
@@ -1237,7 +1203,7 @@ id    name       id    name
 <span style="color: gray;">null</span>  <span style="color: gray;">null</span>       3     Darth Vader</pre>
 <p>产生A表和B表都没有出现的数据集。</p>
 </td>
-<td><img alt="image placeholder" >
+<td><img alt="image placeholder" ></td>
 </tr>
 </tbody>
 </table>
@@ -1246,11 +1212,8 @@ id    name       id    name
 <strong>CROSS JOIN</strong> TableB</pre>
 <p>这个笛卡尔乘积会产生 4 x 4 = 16 条记录，一般来说，我们很少用到这个语法。但是我们得小心，如果不是使用嵌套的select语句，一般系统都会产生笛卡尔乘积然再做过滤。这是对于性能来说是非常危险的，尤其是表很大的时候。</p>
 <p><em><strong>更新:2014年3月30日</strong></em></p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>(全文完)</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-01-11T08:44:09+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3463.html</guid>
@@ -1271,7 +1234,7 @@ id    name       id    name
 <li>还允许你记一些notes – 医生建议你服用一些荷尔蒙避孕药（hormonal contraceptive）</li>
 </ul>
 <p>下面是屏幕截图 ——</p>
-<p style="text-align: center;"><a href="http://cycle.sourceforge.net/scr1.png"><img alt="image placeholder" >
+<p style="text-align: center;"><a href="http://cycle.sourceforge.net/scr1.png"><img alt="image placeholder" ></a></p>
 <p style="text-align: left;">注意以下的免责条款：</p>
 <ul>
 <li>本程序并不能成为一种避孕的方法。</li>
@@ -1279,7 +1242,6 @@ id    name       id    name
 <li>本程序更不能取代你的妇科医生。</li>
 </ul>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2011-01-17T08:42:09+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3489.html</guid>
@@ -1294,7 +1256,7 @@ id    name       id    name
 <li>首先是<a href="https://online.wsj.com/article/SB10001424052748704723104576062173458318658.html?mod=WSJ_hps_sections_careerjournal#articleTabs%3Darticle" target="_blank">华尔街的一篇报道</a>，2011年最好和最不好的工作，其引用了<a href="http://careercast.com/" target="_blank">CareerCast.com</a>的数据，其列出了<a href="https://online.wsj.com/public/resources/documents/st_BESTJOBS0104_20110105.html" target="_blank">100个工作种类</a>，并根据薪资、工作环境、工作鸭梨、体力消耗和就业前景做了一个排序。结果<strong>排第一位的是“软件工程师”</strong>，其理由是：高科技产品的需求呈爆炸式增长，以及人们对iPod、平板电脑、和其它科技产品应用软件的喜好，软件工程师被评为最佳职业。软件工程师有弹性工作时间，可以在家办公，而且每个月都有猎头找来。而最差是的则是码头工人。</li>
 </ul>
 <div>
-<div style="text-align: center;"><a href="https://online.wsj.com/public/resources/documents/st_BESTJOBS0104_20110105.html"><img alt="image placeholder" >
+<div style="text-align: center;"><a href="https://online.wsj.com/public/resources/documents/st_BESTJOBS0104_20110105.html"><img alt="image placeholder" ></a></div>
 </div>
 <ul>
 <li>接下来是一个叫<a href="http://www.theserverside.com/news/thread.tss?track=NL-461&amp;ad=808081&amp;thread_id=61622&amp;asrc=EM_NLN_13145929&amp;uid=2780877" target="_blank">“Java pass by value”的长贴</a>，楼主说有一天在LinkedIn.com上看到了Java Group里有人讨论Java是pass by value的，长达240+贴子。贴子里说，如果你使用Java的原始类型如int, long，就是传值，如果你用object, array，其实传的是一个引用的拷贝，所以，Java是传值的。呵呵，你觉得有道理吗？于是，成就了这个大讨论战。<a href="https://www.reddit.com/r/programming/comments/f1d7r/huge_war_over_whether_java_is_pass_by_reference/" target="_blank">reddit.com上也有N多的回贴</a>。有空可以看看。</li>
@@ -1308,7 +1270,7 @@ id    name       id    name
 </ul>
 </li>
 </ul>
-<p style="text-align: center;"><a href="https://coolshell.cn/wp-content/uploads/2011/01/msdos_website.jpg"><img alt="image placeholder" >
+<p style="text-align: center;"><a href="https://coolshell.cn/wp-content/uploads/2011/01/msdos_website.jpg"><img alt="image placeholder" ></a> <a href="https://coolshell.cn/wp-content/uploads/2011/01/Javascript_ipad.jpg"></a></p>
 <ul>
 <li>
 <ul>
@@ -1317,7 +1279,7 @@ id    name       id    name
 </ul>
 </li>
 </ul>
-<p style="text-align: center;"><img alt="image placeholder" >
+<p style="text-align: center;"><img alt="image placeholder" ></p>
 <p style="padding-left: 60px;">如果以后的上网设备必然是以移动为主，那么Web开发中的HTML+ Javascript将有可能成为最所有应用都需要去支持的东西。</p>
 <ul>
 <li>说到Web开发，表单提交功能是每个网站都会最到的事情。这里有一篇文章告诉你了如何增强表单的可用性。非常不错，Web程序员可以前往一读：<a href="http://sixrevisions.com/user-interface/10-tips-for-optimizing-web-form-submission-usability/" target="_blank">http://sixrevisions.com/user-interface/10-tips-for-optimizing-web-form-submission-usability/</a>
@@ -1338,27 +1300,24 @@ id    name       id    name
 <ul>
 <li>相试着写一个最简单的操作系统吗？这里有<a href="http://mikeos.berlios.de/write-your-own-os.html" target="_blank">一篇教程</a>教你用x86的汇编做一个操作系统，如果你想走得更远，可以看看<a href="http://mikeos.berlios.de/" target="_blank">MikeOS project</a>。</li>
 </ul>
-<p style="text-align: center;"><a href="http://mikeos.berlios.de/"><img alt="image placeholder" >
+<p style="text-align: center;"><a href="http://mikeos.berlios.de/"><img alt="image placeholder" ></a></p>
 <ul>
 <li>下面是一个HTML5 Canvas Cheat Sheet（点击看大图），关于更多的Cheat Sheet，你可以看看《<a href="https://coolshell.cn/articles/1566.html" target="_blank">程序员小抄大全</a>》《<a rel="bookmark" href="https://coolshell.cn/articles/2964.html" target="_blank">25个jQuery的编程小抄</a>》</li>
 </ul>
-<figure id="attachment_3492" aria-describedby="caption-attachment-3492" style="width: 300px" class="wp-caption aligncenter"><a href="https://coolshell.cn/wp-content/uploads/2011/01/HTML5_Canvas_Cheat_Sheet.png"><img alt="image placeholder" >
+<figure id="attachment_3492" aria-describedby="caption-attachment-3492" style="width: 300px" class="wp-caption aligncenter"><a href="https://coolshell.cn/wp-content/uploads/2011/01/HTML5_Canvas_Cheat_Sheet.png"><img alt="image placeholder" ></a><figcaption id="caption-attachment-3492" class="wp-caption-text">HTML5 Canvas Cheat Sheet</figcaption></figure>
 <ul>
 <li>
 <a href="http://monodroid.net/" target="_blank">Mono开始支持Android</a>。Mono是一个由Novell公司（先前是Ximian）主持的项目。该项目的目标是创建一系列符合ECMA标准（Ecma-334和Ecma-335）的.NET工具，包括C#编译器和共通語言執行平臺。与微软的.NET Framework不同，Mono项目不仅可以运行于Windows系统上，还可以运行于Linux，FreeBSD，Unix，Mac OS X和Solaris。这个项目叫MonoDroid。</li>
 </ul>
-<p style="text-align: center;"><a href="http://monodroid.net/"><img alt="image placeholder" >
+<p style="text-align: center;"><a href="http://monodroid.net/"><img alt="image placeholder" ></a></p>
 <p style="text-align: center;"> </p>
 <ul>
 <li>最后来一个给力的教程吧，这是一个关于教你如何制作一个<a href="http://daid.mine.nu/instructabliss/?url=http://www.instructables.com/id/Led-Cube-8x8x8/" target="_blank">3D的LED显示的教程</a>，相当的详细，甚至教你如何上ebay采购相关的电子元件和设备，还有如何编程，有兴趣的朋友可以一读。</li>
 </ul>
-<p style="text-align: center;"><a href="http://daid.mine.nu/instructabliss/?url=http://www.instructables.com/id/Led-Cube-8x8x8/"><img alt="image placeholder" >
+<p style="text-align: center;"><a href="http://daid.mine.nu/instructabliss/?url=http://www.instructables.com/id/Led-Cube-8x8x8/"><img alt="image placeholder" ></a></p>
 <p style="text-align: center;"> </p>
 <p style="text-align: left;">这回就这么多，希望你喜欢。</p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-01-18T08:53:24+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3480.html</guid>
@@ -1656,9 +1615,6 @@ id    name       id    name
    ORDER BY History.TRDateTime"
 /&gt; </pre>
 <p>来源：<a href="http://thedailywtf.com/Articles/All-In-The-Config.aspx" target="_blank">文章一</a>，<a href="http://thedailywtf.com/Articles/XMLd-XML.aspx" target="_blank">文章二</a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-01-19T08:49:48+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3498.html</guid>
@@ -1676,7 +1632,6 @@ id    name       id    name
 <p>因此，Google的这些欺诈信息和垃圾信息就像是寄生在人体上的寄生体一样，它们已经非常适应Google的搜索引擎。（译注：百度上的寄生体则像是百度自己养的宠物）</p>
 <p>我不知道“搜索引擎的性爱”会是什么样的，但是很明显，Google需要一些。</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2011-01-19T12:43:00+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3510.html</guid>
@@ -2273,9 +2228,6 @@ id    name       id    name
 <a href="http://playtomic.com/">playtomic</a> – Commercial service providing analytics, leaderboards etc. services for games. Provides HTML5/JS API in addition to AS2/AS3 ones.</li>
 </ul>
 <p>(全文完)</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-01-20T10:43:08+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3516.html</guid>
@@ -2345,9 +2297,6 @@ id    name       id    name
 <a href="http://www.viva64.com/en/l/0028/">Lesson 28</a>. Estimating the cost of 64-bit migration of C/C++ applications.</li>
 </ul>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-01-21T08:50:49+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3512.html</guid>
@@ -2357,10 +2306,10 @@ id    name       id    name
 <title><![CDATA[ HTML5 logo 发布 ]]></title>
 <link>https://coolshell.cn/articles/3561.html</link>
 <content><![CDATA[ 
-<p style="text-align: left;">2011年1月19日，W3C发布了HTML5的log，打开<a href="https://www.w3.org/html/logo/" target="_blank">W3C的页面</a>，下在的图片印入眼前。我的第一感觉，就像是看到了小时候看的八一电影制片产的电影。这分明是号召全世界的无产Web程序员们团结起来，不畏艰难，不怕牺牲，一定要把HTML5的革命事业进行到底！<img alt="image placeholder" >
+<p style="text-align: left;">2011年1月19日，W3C发布了HTML5的log，打开<a href="https://www.w3.org/html/logo/" target="_blank">W3C的页面</a>，下在的图片印入眼前。我的第一感觉，就像是看到了小时候看的八一电影制片产的电影。这分明是号召全世界的无产Web程序员们团结起来，不畏艰难，不怕牺牲，一定要把HTML5的革命事业进行到底！<img alt="image placeholder" ></p>
 <p style="text-align: left;">所以，请各位Web程序员不但在你们的HTML5的网页上加上下面的徽章（关于各个徽章的含义，请参看<a href="http://www.elviscai.com/view/html5-logo-released/" target="_blank">这里</a>）</p>
 <p style="text-align: left;"><span id="more-3561"></span></p>
-<p style="text-align: center;"><a title="W3C HTML5 Logo" href="https://www.w3.org/html/logo/" target="_blank"><img alt="image placeholder" >
+<p style="text-align: center;"><a title="W3C HTML5 Logo" href="https://www.w3.org/html/logo/" target="_blank"><img alt="image placeholder" ></a></p>
 <p style="text-align: left;">更重要的是，在你们的代码里加上这样的注释：</p>
 <p style="text-align: left;">
 </p>
@@ -2400,9 +2349,6 @@ id    name       id    name
   ...     ............ .  . .. .  . .. .
 --&gt;
 </pre>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-01-23T08:47:19+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3561.html</guid>
@@ -2464,9 +2410,6 @@ id    name       id    name
 </ul>
 <p>苹果公司给出了一个很不错的商业模式。</p>
 <p>（完）</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-01-24T08:39:50+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3549.html</guid>
@@ -2513,9 +2456,6 @@ id    name       id    name
 <p>——————————————正文分割线——————————————</p>
 <p>P.S. 有的朋友说我是C/C++出生，就是看不起Java。这样说我太小看我了，我的文章风格从来都是以一种调侃的方式，因为我觉得这样的文章会比那些枯燥的技术文章更有意思。我调侃C++和程序员的文章不比调侃Java要少，我对C++的观点从来都是C++是一门很不成熟的半成品语言！Java则要比它成熟的多得多，不过Java的跨平台和性能上的确是有很多东西可以调侃。</p>
 <p><strong>（请勿将本文用于商业用途，转载时注明作者和出处）</strong></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-01-25T08:46:45+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3589.html</guid>
@@ -2604,9 +2544,6 @@ id    name       id    name
 <p>等价于<br>
 alert(1)</p>
 <p>就是这样！于是这段代码可能绕过你的一些对Javascript的检查。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-01-26T08:39:39+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3540.html</guid>
@@ -2660,9 +2597,6 @@ a=b^a; </pre>
 <p>或者更为简单的：</p>
 <p><code data-enlighter-language="c" class="EnlighterJSRAW">a^=b^=a^=b;</code></p>
 <p>(全文完)</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-01-26T13:38:20+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3572.html</guid>
@@ -2753,9 +2687,6 @@ a=b^a; </pre>
 <p><strong>SOAP专家</strong>: 下面让我来告诉你什么是 UDDI。</p>
 <p>（注：我以前还认真地学过SOAP，不过真是学不懂。）</p>
 <p>原文：<a href="http://harmful.cat-v.org/software/xml/soap/simple" target="_blank">来源</a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-01-27T08:47:56+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3585.html</guid>
@@ -2802,9 +2733,6 @@ document.write(“&lt;n uers=\"znvygb:<a href="/cdn-cgi/l/email-protection" clas
 function(c){return String.fromCharCode((c&lt;=”Z”?90:122)&gt;=(c=c.charCodeAt(0)+13)?c:c-26);}));<br>
 &lt;/script&gt;陈皓的电子邮件&lt;/a&gt;[/javascript]</p>
 <p>这些方法还是很有效果的。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-01-27T13:03:06+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3595.html</guid>
@@ -2827,9 +2755,6 @@ function(c){return String.fromCharCode((c&lt;=”Z”?90:122)&gt;=(c=c.charCodeA
 <p>我觉得作者的话说的很中肯。然而，作者的这篇博文后面很多回复，你都可以去看看。那些回复中，我看到的是那些“不服输”的中国人（这是不是我们从小那种“争第一”的教育培养出来人呢？）。</p>
 <p>看完以后，我觉得让我思考的已经不是网页设计了，而是我们的教育和文化。</p>
 <p><strong>你呢？是在反思呢，还是准备去作者的 blog上debate呢？</strong></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-01-28T08:47:14+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3605.html</guid>
@@ -2893,7 +2818,6 @@ function(c){return String.fromCharCode((c&lt;=”Z”?90:122)&gt;=(c=c.charCodeA
 <p><strong>Test Driven Design (TDD)</strong> – 从测试案例开始写程序这可能是很多程序员都不习惯的方法。其实这是一种比较好的编程方法，保证了代码怎么改动都不会break其它没有改动的代码，代码可以在一种持续集成中保证质量。但是，我们需要知道TDD的一些副作用（在<a title="十条不错的编程观点 " href="https://coolshell.cn/articles/2424.html">十条不错的编程观点</a>里也提到过TDD的弊端）：1）TDD可能会让程序员敷衍了事，以为test case 没有错就正确了。2）TDD可能会让你忽略了软件设计和架构以及程序的扩展性和重用性。T<strong>DD只是一种方法，并不是程序的核心</strong>。当然，TDD近几年的炒作也有点过头，已经出现了“TDD是一种Design方法”等“神乎其技”的论调，我对此表示质疑中。</p>
 <p>[更新 2011/02/13] 关于TDD，请参看我另一篇文章《<a rel="bookmark" href="https://coolshell.cn/articles/3649.html" target="_blank">TDD并不是看上去的那么美</a>》</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2011-01-28T10:00:52+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3609.html</guid>
@@ -2904,7 +2828,7 @@ function(c){return String.fromCharCode((c&lt;=”Z”?90:122)&gt;=(c=c.charCodeA
 <link>https://coolshell.cn/articles/3630.html</link>
 <content><![CDATA[ 
 <p>以前发布过《<a href="https://coolshell.cn/articles/551.html" target="_blank">C语言的错误处理</a>》一文，不过今天想说的是Egypt的“错误处理”。埃及的事闹得挺大的，国外和中文twitter上更是炸了锅。不要以为程序员就只会写程序——看看程序员举出来的标语吧。呵呵。</p>
-<figure id="attachment_3631" aria-describedby="caption-attachment-3631" style="width: 600px" class="wp-caption aligncenter"><a href="https://coolshell.cn/wp-content/uploads/2011/02/Error-handling-in-Egypt.jpg"><img alt="image placeholder" >
+<figure id="attachment_3631" aria-describedby="caption-attachment-3631" style="width: 600px" class="wp-caption aligncenter"><a href="https://coolshell.cn/wp-content/uploads/2011/02/Error-handling-in-Egypt.jpg"><img alt="image placeholder" ></a><figcaption id="caption-attachment-3631" class="wp-caption-text">Error handling in Egypt</figcaption></figure>
 <p>当然，作为程序员来说，这段代码显然还需要重构：<br>
 <span id="more-3630"></span></p>
 <p></p>
@@ -2926,9 +2850,6 @@ function(c){return String.fromCharCode((c&lt;=”Z”?90:122)&gt;=(c=c.charCodeA
 finally {
     Security.shootProtesters();
 }</pre>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-02-09T08:45:03+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3630.html</guid>
@@ -3067,7 +2988,6 @@ End with a line saying just "end".
 (gdb)</pre>
 <p>当我们的断点到达时，自动执行command中的三个命令，把func的三个参数值打出来。</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2011-02-10T09:34:08+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3643.html</guid>
@@ -3129,9 +3049,6 @@ End with a line saying just "end".
 <p style="padding-left: 30px;">另外，某些Test Case并不一定那么好写，你可能80%的编程时间需要花在某个Test Case的设计和实现上（比如：测试并发），然后，需求一变，你又得重写Test Case。有时候，你会发现写Test Case其实和做实际设计没有差别，你同样要考虑你Test Case的正确性，扩展性，易读性，易维护性，甚至重用性。<strong>如果说我们开发的Test Case是用来保证我们代码实现的正确性，那么，谁又来保证我们的Test Case的正确性呢</strong>？编写Test Case也需要结对或是Code review吗？软件开发有点像长跑，如果把能量花在了前半程，后半程在发力就能难了。</p>
 <p>也许，TDD真是过度炒作的，不过，我还真是见过使用TDD开发的不错的项目，只不过那个项目比较简单了。更多的情况下，我看到的是教条式的生硬的TDD，所以，不奇怪地听到了程序员们的抱怨——“自从用了TDD，工作量更大了”。当然，这也不能怪他们，TDD本来就是很难把控的方法。这里送给软件开发管理者们一句话——“<strong>当你的软件开发出现问题的时候，就像bug-fix一样，首要的事是找到root cause，然后再case by case的解决，千万不要因为有问题就要马上换一种新的开发方法</strong>”。相信我，大多数的问题是人和管理者的问题，不是方法的问题。</p>
 <p>（<strong>全文完，转载请注明作者和出处，请勿用于商业用途</strong>）</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-02-12T08:48:16+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3649.html</guid>
@@ -3141,7 +3058,7 @@ End with a line saying just "end".
 <title><![CDATA[ 为啥搞电脑的会有这么多空闲时间？ ]]></title>
 <link>https://coolshell.cn/articles/3672.html</link>
 <content><![CDATA[ 
-<p><a href="https://coolshell.cn/wp-content/uploads/2011/02/reasons_why_people_who_work_with_computers_seem_to_have_a_lot_of_spare_time.png"><img alt="image placeholder" >
+<p><a href="https://coolshell.cn/wp-content/uploads/2011/02/reasons_why_people_who_work_with_computers_seem_to_have_a_lot_of_spare_time.png"><img alt="image placeholder" ></a></p>
 <p>解释一下：</p>
 <p><span id="more-3672"></span></p>
 <ul>
@@ -3153,9 +3070,6 @@ End with a line saying just "end".
 <li>程序员——“正在编译中……”</li>
 </ul>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-02-12T18:03:11+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3672.html</guid>
@@ -3167,7 +3081,7 @@ End with a line saying just "end".
 <content><![CDATA[ 
 <p>无论你是多牛的程序员，你都无法记住所有的东西。而很多时候，查找某些知识又比较费事。所以，网上有很多Cheat Sheets，翻译成小抄也好 ，速查卡也好，总之就是帮你节省 时间的。之前给大家介绍过<a rel="bookmark" href="https://coolshell.cn/articles/870.html" target="_blank">Web设计的速查卡</a>、<a rel="bookmark" href="https://coolshell.cn/articles/2964.html" target="_blank">25个jQuery的编程小抄</a>，还有<a rel="bookmark" href="https://coolshell.cn/articles/1566.html" target="_blank">程序员小抄大全</a>，今天转一篇开发人员的速查卡，<a href="http://www.topdesignmag.com/all-the-cheat-sheets-that-a-web-developer-needs/" target="_blank">源文在这里</a>。下面的文章我就不翻译了。</p>
 <h2>HTML Cheat Sheet</h2>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <ul>
 <li><a href="http://www.html.su/" target="_blank">HTML/XTML in one page</a></li>
 <li><a href="http://refcardz.dzone.com/refcardz/html5-new-standards-web-interactivity" target="_blank">HTML5: The Evolution of Web Standards by James Sugrue</a></li>
@@ -3179,7 +3093,7 @@ End with a line saying just "end".
 <p><span id="more-3684"></span></p>
 <p><strong> </strong></p>
 <h2>CSS Cheat Sheets</h2>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <ul>
 <li><a href="http://www.css.su/" target="_blank">CSS in one page</a></li>
 <li><a href="http://www.elizabethcastro.com/html/extras/cssref.html" target="_blank">CSS Properties and Values</a></li>
@@ -3188,14 +3102,14 @@ End with a line saying just "end".
 <li><a href="https://www.gosquared.com/liquidicity/archives/1010" target="_blank">GoSquared CSS Help Sheet</a></li>
 </ul>
 <h2>Adobe Flash Cheat Sheets</h2>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <ul>
 <li><a href="http://michaeldoyle.eu/blog/wp-content/uploads/2009/10/flash-cheat-sheet.pdf" target="_blank">Flash Cheat Sheet</a></li>
 <li><a href="http://edutechwiki.unige.ch/en/Flash_CS3_keyboard_shortcuts" target="_blank">Flash CS3 Keyboard Shortcuts</a></li>
 </ul>
 <p><strong> </strong></p>
 <h2><strong>ASP Cheat Sheets</strong></h2>
-<h2><strong><img alt="image placeholder" >
+<h2><strong><img alt="image placeholder" ><br>
 </strong></h2>
 <ul>
 <li><a href="http://refcardz.dzone.com/refcardz/core-aspnet" target="_blank">Core ASP.NET</a></li>
@@ -3203,7 +3117,7 @@ End with a line saying just "end".
 <li><a href="http://www.newdrp.com/Posters/Development/tabid/67/id/286/Default.aspx" target="_blank">ASP.NET MVC View Cheat Sheet</a></li>
 </ul>
 <h2>PHP Cheat Sheets</h2>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <ul>
 <li><a href="http://www.dreamincode.net/forums/topic/35660-php-quick-reference-cheat-sheet/" target="_blank">PHP Basics Quick Reference Sheet</a></li>
 <li><a href="http://www.digilife.be/quickreferences/QRC/PHP%20Cheat%20Sheet.pdf" target="_blank">PHP Cheat Sheet</a></li>
@@ -3212,46 +3126,45 @@ End with a line saying just "end".
 <li><a href="http://downloads.gosquared.com/help_sheets/08/PHP-Help-Sheet-01.jpg" target="_blank">GoSquared PHP Help Sheet</a></li>
 </ul>
 <h2>MySQL Cheat Sheets</h2>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <ul>
 <li><a href="http://www.addedbytes.com/cheat-sheets/mysql-cheat-sheet/" target="_blank">MySQL Cheat Sheet by Dave Child</a></li>
 <li><a href="http://www.cheat-sheets.org/saved-copy/MySQL_QuickRef.pdf" target="_blank">MySQL Database Quick Reference</a></li>
 <li><a href="http://www.sqltutorial.org/sql-cheat-sheet.aspx" target="_blank">SQL Statements Cheat Sheet</a></li>
 </ul>
 <h2>JavaScript Cheat Sheets</h2>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <ul>
 <li><a href="http://www.javascript.su/" target="_blank">JavaScript in one page</a></li>
 <li><a href="http://www.addedbytes.com/cheat-sheets/javascript-cheat-sheet/" target="_blank">JavaScript Cheat Sheet</a></li>
 <li><a href="http://wps.aw.com/wps/media/objects/2234/2287950/javascript_refererence.pdf" target="_blank">Addison-Wesley’s JavaScript Reference Card</a></li>
 </ul>
 <h2>jQuery Cheat Sheets</h2>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <ul>
 <li><a href="http://colorcharge.com/jquery/" target="_blank">jQuery Cheatsheet</a></li>
 <li><a href="https://woork.blogspot.com/2009/09/jquery-visual-cheat-sheet.html" target="_blank">jQuery 1.3 Visual Cheat Sheet by Antonio Lupetti</a></li>
 <li><a href="http://refcardz.dzone.com/refcardz/jquery-selectors" target="_blank">jQuery Selectors by Bear Bibeault &amp; Yehuda Katz</a></li>
 </ul>
 <h2>Unicode Cheat Sheets</h2>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <ul>
 <li><a href="http://www.utf.ru/" target="_blank">The Unicode Character Code</a></li>
 <li><a href="http://www.visibone.com/htmlref/char/cer.htm" target="_blank">HTML Characters, Numeric Codes, 0-65535 by Bob Stein</a></li>
 </ul>
 <h2>XML Cheat Sheets</h2>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <ul>
 <li><a href="http://www.xml.su/" target="_blank">XML in one page</a></li>
 <li><a href="http://www.mulberrytech.com/quickref/XMLquickref.pdf" target="_blank">XML 1.0 Syntax Quick Reference by Mulberry Technologies</a></li>
 </ul>
 <h2>mod_rewrite and .htaccess Cheat Sheets</h2>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <ul>
 <li><a href="http://www.addedbytes.com/cheat-sheets/mod_rewrite-cheat-sheet/" target="_blank">mod_rewrite Cheat Sheet by Dave Child</a></li>
 <li><a href="http://www.thejackol.com/htaccess-cheatsheet/" target="_blank">htaccess Cheatsheet</a></li>
 </ul>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2011-02-16T18:59:06+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3684.html</guid>
@@ -3282,9 +3195,6 @@ End with a line saying just "end".
 <p>所以，<strong>黑客同学，你即不能从这里获利，也不能阻止大家看文章，更不能左右大家的想法。而且黑客行为是刑事犯罪，你即得不到任何好处，还要背上那么大的风险，何必呢？</strong>（我相信黑客同学既然有智商能够使用黑客技术，那一定有智商搞清楚这个问题）</p>
 </blockquote>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-02-17T10:03:28+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3686.html</guid>
@@ -3337,9 +3247,6 @@ End with a line saying just "end".
 <p>上面提到那篇文章中,提倡用部署脚本来管理部署过程.这是很好的解决方法,但如果你暂时缺乏系统脚本编程能力.分门别类把每次环境配置过程记录清楚吧,就当这项工作要在你不在场的情况下被别人重复执行.</p>
 </div>
 <p>别人说我们是”码农”,我们要把自己当工程师.</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-02-20T15:28:59+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3709.html</guid>
@@ -3404,7 +3311,6 @@ End with a line saying just "end".
 <span style="font-size: 11pt;"><strong>质疑</strong></span>。质疑精神很重要。质疑通常会导致不同意见甚至反对意见。也许你会质疑错，也许你会被质疑，但是你的认知也会因为不同的观点而变得完整。有所同有所不同（“同”为同意及相同），<strong>观点因为不同才能迸发出火花，事物也此而发展，世界因为不同而精彩</strong>。</li>
 </ul>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2011-02-21T08:31:03+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3698.html</guid>
@@ -3443,7 +3349,6 @@ End with a line saying just "end".
 <li>不要过早下结论。比如：“我这边的程序不转了，我觉得是你那边的问题，你什么时候能fix？”，或是“太难调试了，gdb怎么这么烂？！”。当你这么做的时候，你一定要有足够的信息和证据，否则，你就显得很自大。好的问题应该是，“我和你的接口的程序有问题，我输入了这样的合法的参数，但是XX函数却总是返回失败，我们能一起看看吗？”，“我看了一下gdb的文档，发现我在用XXX命令调试YYY的时候，有这样ZZZ的问题，是不是我哪里做错了？”</li>
 </ul>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2011-02-22T08:40:49+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3713.html</guid>
@@ -3478,7 +3383,6 @@ End with a line saying just "end".
 <p>——————————</p>
 <p>我个人觉得Blog的用户群其实对Blog的需求其实并不多，只需要可以发布文章，有评论，可以在边栏上添加一些小饰件，可以改变一下样式，最好自己的文章有人帮着做做推广什么的，基本上就是这个样子。所以，像新浪，搜狐这样提供商其实更好。更多的用户是不会去搭建自己的专有的blog的。所以，能自己搭建自己的blog的这群人，还是以技术人员偏多，而WordPress正好满足了技术人员的胃口。（老实说，WordPress的后台操作对于非技术人员的电脑用户来说还是很不够友好——太复杂，性能上好像也不是很好，插件多是多，但好的插件就那么几个）</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2011-02-23T08:25:32+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3716.html</guid>
@@ -3569,9 +3473,6 @@ End with a line saying just "end".
 <li>2 系统管理员</li>
 </ul>
 <p><span>（全文完）</span></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-02-23T13:31:04+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3721.html</guid>
@@ -3596,7 +3497,7 @@ End with a line saying just "end".
 <p>所以，我认为TDD的理念Specification by Example没错，但Test First即“在实现之前把需求和外部接口设计转化成测试用例”的理念错了。真正符合实际开发情况的理念是“需求是在实际运行过程中根据效果不断探索调整得来的，不可能脱离实际运行写出真正符合最终需求的测试用例来”。所以，<strong>我们真正应该做的是尽快看到实际运行的效果</strong>，而测试作为固化的需求和设计是在看到效果之后。<strong>过度的TDD只会导致迟迟看不到实际运行效果，看到效果需要调整需求又会废掉或改掉一大堆的测试用例。</strong>实际上，越是外部的需求其变更带来的影响和代价越大，越是需要尽早明确。从宏观上看，<strong>TDD所谓的快速反馈实际上是加快内部反馈，延迟了外部反馈，这无异于本末倒置</strong>。而大量需要修改或作废的测试用例其实是一种很大的浪费，这和消除浪费的精益思想也是矛盾的！</p>
 <div>
 <p><span id="quote_66167"> </span></p>
-<div><img alt="image placeholder" >
+<div><img alt="image placeholder" ></div>
 </div>
 </div>
 <p><span id="quote_66167" style="font-size: 10pt;">上面这幅cost/length_of_feedback_cycle图是我们常见的用于说明敏捷方法比传统方法具有更短的反馈周期，更小代价的应对变化。从图中我们可以清晰的看到在验收测试中发现的需求错误导致的代价是最高的。如果验收测试往后推迟一点，发现错误的代价将按非线性地增长。上面我们已经论述了，任何方法都不可能消除验收测试后对需求的调整，因为这是需求产生的正常过程。我们唯一可以做的是尽可能地缩短验收测试的反馈周期，但是很不幸TDD大量的内部测试只会导致推迟验收测试的时间，从而大大增加代价。<br>
@@ -3608,9 +3509,6 @@ End with a line saying just "end".
 </div>
 <p><span id="quote_66167" style="font-size: 10pt;">当然，我不是全盘否定TDD。TDD在某些需求特别固定的场合是适用的，尤其是与具体业务关系不大的需求，比如：写一个通用的数据结构，实现一个通用算法。TDD的先关注需求和思考外部接口设计的理念也对促进开发人员的抽象思维有很大益处。另外，TDD通常也具有较高的代码覆盖率。本文的主要观点在于：实际项目中，不要期望可以在实现之前完全明确需求，需求是在实际运行看到效果之后才逐步明确的；我们的开发过程必须能够敏捷地适应需求的变化，而TDD的Test First理念恰好与之矛盾。所以，对于TDD不了解的朋友，我建议应该学习和实践TDD，从而获得其益处；同时我也提醒TDD存在理论上的缺陷，这是在实践中需要特别留意的。</span></p>
 <p><span style="font-size: 10pt;">(全文完)</span></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-02-24T15:41:24+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3766.html</guid>
@@ -3746,9 +3644,6 @@ Date: Tue, 15 Feb 2011 21:45:51 +0800</span></p>
 <p style="text-align: center;"><span style="font-size: 12pt;"><strong>我的观点就是我的观点，无论你同不同意，喜不喜欢，都是我的观点，</strong></span></p>
 <p style="text-align: center;"><strong><span style="font-size: 16px;">他就在那里，不卑不亢，不多不少</span></strong></p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-02-24T18:23:26+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3745.html</guid>
@@ -3792,7 +3687,6 @@ Date: Tue, 15 Feb 2011 21:45:51 +0800</span></p>
 <p><strong>水管工</strong>1：先生，我开始怀疑你根本没有一个Fackbook社交平台策略（Facebook Social Platform Strategy）用来做解决方案？</p>
 <p>————————————————</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2011-02-25T08:39:44+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3778.html</guid>
@@ -3808,7 +3702,7 @@ Date: Tue, 15 Feb 2011 21:45:51 +0800</span></p>
 <tr>
 <td width="120">
 <a title="1: Introduction and Goals; Data Types, Operators, and Variables" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-1"> 
-<p></p></a><a title="1: Introduction and Goals; Data Types, Operators, and Variables" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-1"><img alt="image placeholder" >
+<p></p></a><a title="1: Introduction and Goals; Data Types, Operators, and Variables" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-1"><img alt="image placeholder" ></a>
 </td>
 <td>
 <p class="mediatitle">1: Introduction and Goals; Data Types, Operators, and Variables</p>
@@ -3823,7 +3717,7 @@ Date: Tue, 15 Feb 2011 21:45:51 +0800</span></p>
 <tr>
 <td width="120">
 <a title="2: Branching, Conditionals, and Iteration" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-2"> 
-<p></p></a><a title="2: Branching, Conditionals, and Iteration" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-2"><img alt="image placeholder" >
+<p></p></a><a title="2: Branching, Conditionals, and Iteration" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-2"><img alt="image placeholder" ></a>
 </td>
 <td>
 <p class="mediatitle">2: Branching, Conditionals, and Iteration</p>
@@ -3838,7 +3732,7 @@ Date: Tue, 15 Feb 2011 21:45:51 +0800</span></p>
 <tr>
 <td width="120">
 <a title="3: Common Code Patterns: Iterative Programs" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-3"> 
-<p></p></a><a title="3: Common Code Patterns: Iterative Programs" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-3"><img alt="image placeholder" >
+<p></p></a><a title="3: Common Code Patterns: Iterative Programs" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-3"><img alt="image placeholder" ></a>
 </td>
 <td>
 <p class="mediatitle">3: Common Code Patterns: Iterative Programs</p>
@@ -3854,7 +3748,7 @@ Date: Tue, 15 Feb 2011 21:45:51 +0800</span></p>
 <tr>
 <td width="120">
 <a title="4: Abstraction through Functions; Introduction to Recursion" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-4"> 
-<p></p></a><a title="4: Abstraction through Functions; Introduction to Recursion" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-4"><img alt="image placeholder" >
+<p></p></a><a title="4: Abstraction through Functions; Introduction to Recursion" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-4"><img alt="image placeholder" ></a>
 </td>
 <td>
 <p class="mediatitle">4: Abstraction through Functions; Introduction to Recursion</p>
@@ -3869,7 +3763,7 @@ Date: Tue, 15 Feb 2011 21:45:51 +0800</span></p>
 <tr>
 <td width="120">
 <a title="5: Floating Point Numbers, Successive Refinement, Finding Roots" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-5"> 
-<p></p></a><a title="5: Floating Point Numbers, Successive Refinement, Finding Roots" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-5"><img alt="image placeholder" >
+<p></p></a><a title="5: Floating Point Numbers, Successive Refinement, Finding Roots" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-5"><img alt="image placeholder" ></a>
 </td>
 <td>
 <p class="mediatitle">5: Floating Point Numbers, Successive Refinement, Finding Roots</p>
@@ -3884,7 +3778,7 @@ Date: Tue, 15 Feb 2011 21:45:51 +0800</span></p>
 <tr>
 <td width="120">
 <a title="6: Bisection Methods, Newton/Raphson, Introduction to Lists" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-6"> 
-<p></p></a><a title="6: Bisection Methods, Newton/Raphson, Introduction to Lists" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-6"><img alt="image placeholder" >
+<p></p></a><a title="6: Bisection Methods, Newton/Raphson, Introduction to Lists" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-6"><img alt="image placeholder" ></a>
 </td>
 <td>
 <p class="mediatitle">6: Bisection Methods, Newton/Raphson, Introduction to Lists</p>
@@ -3899,7 +3793,7 @@ Date: Tue, 15 Feb 2011 21:45:51 +0800</span></p>
 <tr>
 <td width="120">
 <a title="7: Lists and Mutability, Dictionaries, Introduction to Efficiency" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-7"> 
-<p></p></a><a title="7: Lists and Mutability, Dictionaries, Introduction to Efficiency" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-7"><img alt="image placeholder" >
+<p></p></a><a title="7: Lists and Mutability, Dictionaries, Introduction to Efficiency" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-7"><img alt="image placeholder" ></a>
 </td>
 <td>
 <p class="mediatitle">7: Lists and Mutability, Dictionaries, Introduction to Efficiency</p>
@@ -3914,7 +3808,7 @@ Date: Tue, 15 Feb 2011 21:45:51 +0800</span></p>
 <tr>
 <td width="120">
 <a title="8: Complexity: Log, Linear, Quadratic, Exponential Algorithms" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-8"> 
-<p></p></a><a title="8: Complexity: Log, Linear, Quadratic, Exponential Algorithms" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-8"><img alt="image placeholder" >
+<p></p></a><a title="8: Complexity: Log, Linear, Quadratic, Exponential Algorithms" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-8"><img alt="image placeholder" ></a>
 </td>
 <td>
 <p class="mediatitle">8: Complexity: Log, Linear, Quadratic, Exponential Algorithms</p>
@@ -3929,7 +3823,7 @@ Date: Tue, 15 Feb 2011 21:45:51 +0800</span></p>
 <tr>
 <td width="120">
 <a title="9: Binary Search, Bubble and Selection Sorts" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-9"> 
-<p></p></a><a title="9: Binary Search, Bubble and Selection Sorts" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-9"><img alt="image placeholder" >
+<p></p></a><a title="9: Binary Search, Bubble and Selection Sorts" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-9"><img alt="image placeholder" ></a>
 </td>
 <td>
 <p class="mediatitle">9: Binary Search, Bubble and Selection Sorts</p>
@@ -3944,7 +3838,7 @@ Date: Tue, 15 Feb 2011 21:45:51 +0800</span></p>
 <tr>
 <td width="120">
 <a title="10: Divide and Conquer Methods, Merge Sort, Exceptions" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-10"> 
-<p></p></a><a title="10: Divide and Conquer Methods, Merge Sort, Exceptions" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-10"><img alt="image placeholder" >
+<p></p></a><a title="10: Divide and Conquer Methods, Merge Sort, Exceptions" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-10"><img alt="image placeholder" ></a>
 </td>
 <td>
 <p class="mediatitle">10: Divide and Conquer Methods, Merge Sort, Exceptions</p>
@@ -3959,7 +3853,7 @@ Date: Tue, 15 Feb 2011 21:45:51 +0800</span></p>
 <tr>
 <td width="120">
 <a title="11: Testing and Debugging" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-11"> 
-<p></p></a><a title="11: Testing and Debugging" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-11"><img alt="image placeholder" >
+<p></p></a><a title="11: Testing and Debugging" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-11"><img alt="image placeholder" ></a>
 </td>
 <td>
 <p class="mediatitle">11: Testing and Debugging</p>
@@ -3974,7 +3868,7 @@ Date: Tue, 15 Feb 2011 21:45:51 +0800</span></p>
 <tr>
 <td width="120">
 <a title="12: Debugging, Knapsack Problem, Introduction to Dynamic Programming" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-12"> 
-<p></p></a><a title="12: Debugging, Knapsack Problem, Introduction to Dynamic Programming" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-12"><img alt="image placeholder" >
+<p></p></a><a title="12: Debugging, Knapsack Problem, Introduction to Dynamic Programming" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-12"><img alt="image placeholder" ></a>
 </td>
 <td>
 <p class="mediatitle">12: Debugging, Knapsack Problem, Introduction to Dynamic Programming</p>
@@ -3989,7 +3883,7 @@ Date: Tue, 15 Feb 2011 21:45:51 +0800</span></p>
 <tr>
 <td width="120">
 <a title="13: Dynamic Programming: Overlapping Subproblems, Optimal Substructure" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-13"> 
-<p></p></a><a title="13: Dynamic Programming: Overlapping Subproblems, Optimal Substructure" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-13"><img alt="image placeholder" >
+<p></p></a><a title="13: Dynamic Programming: Overlapping Subproblems, Optimal Substructure" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-13"><img alt="image placeholder" ></a>
 </td>
 <td>
 <p class="mediatitle">13: Dynamic Programming: Overlapping Subproblems, Optimal Substructure</p>
@@ -4004,7 +3898,7 @@ Date: Tue, 15 Feb 2011 21:45:51 +0800</span></p>
 <tr>
 <td width="120">
 <a title="14: Introduction to Object-oriented Programming" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-14"> 
-<p></p></a><a title="14: Introduction to Object-oriented Programming" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-14"><img alt="image placeholder" >
+<p></p></a><a title="14: Introduction to Object-oriented Programming" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-14"><img alt="image placeholder" ></a>
 </td>
 <td>
 <p class="mediatitle">14: Introduction to Object-oriented Programming</p>
@@ -4019,7 +3913,7 @@ Date: Tue, 15 Feb 2011 21:45:51 +0800</span></p>
 <tr>
 <td width="120">
 <a title="15: Abstract Data Types, Classes and Methods" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-15"> 
-<p></p></a><a title="15: Abstract Data Types, Classes and Methods" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-15"><img alt="image placeholder" >
+<p></p></a><a title="15: Abstract Data Types, Classes and Methods" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-15"><img alt="image placeholder" ></a>
 </td>
 <td>
 <p class="mediatitle">15: Abstract Data Types, Classes and Methods</p>
@@ -4034,7 +3928,7 @@ Date: Tue, 15 Feb 2011 21:45:51 +0800</span></p>
 <tr>
 <td width="120">
 <a title="16: Encapsulation, Inheritance, Shadowing" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-16"> 
-<p></p></a><a title="16: Encapsulation, Inheritance, Shadowing" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-16"><img alt="image placeholder" >
+<p></p></a><a title="16: Encapsulation, Inheritance, Shadowing" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-16"><img alt="image placeholder" ></a>
 </td>
 <td>
 <p class="mediatitle">16: Encapsulation, Inheritance, Shadowing</p>
@@ -4049,7 +3943,7 @@ Date: Tue, 15 Feb 2011 21:45:51 +0800</span></p>
 <tr>
 <td width="120">
 <a title="17: Computational Models: Random Walk Simulation" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-17"> 
-<p></p></a><a title="17: Computational Models: Random Walk Simulation" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-17"><img alt="image placeholder" >
+<p></p></a><a title="17: Computational Models: Random Walk Simulation" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-17"><img alt="image placeholder" ></a>
 </td>
 <td>
 <p class="mediatitle">17: Computational Models: Random Walk Simulation</p>
@@ -4064,7 +3958,7 @@ Date: Tue, 15 Feb 2011 21:45:51 +0800</span></p>
 <tr>
 <td width="120">
 <a title="18: Presenting Simulation Results, Pylab, Plotting" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-18"> 
-<p></p></a><a title="18: Presenting Simulation Results, Pylab, Plotting" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-18"><img alt="image placeholder" >
+<p></p></a><a title="18: Presenting Simulation Results, Pylab, Plotting" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-18"><img alt="image placeholder" ></a>
 </td>
 <td>
 <p class="mediatitle">18: Presenting Simulation Results, Pylab, Plotting</p>
@@ -4079,7 +3973,7 @@ Date: Tue, 15 Feb 2011 21:45:51 +0800</span></p>
 <tr>
 <td width="120">
 <a title="19: Biased Random Walks, Distributions" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-19"> 
-<p></p></a><a title="19: Biased Random Walks, Distributions" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-19"><img alt="image placeholder" >
+<p></p></a><a title="19: Biased Random Walks, Distributions" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-19"><img alt="image placeholder" ></a>
 </td>
 <td>
 <p class="mediatitle">19: Biased Random Walks, Distributions</p>
@@ -4094,7 +3988,7 @@ Date: Tue, 15 Feb 2011 21:45:51 +0800</span></p>
 <tr>
 <td width="120">
 <a title="20: Monte Carlo Simulations, Estimating pi" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-20"> 
-<p></p></a><a title="20: Monte Carlo Simulations, Estimating pi" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-20"><img alt="image placeholder" >
+<p></p></a><a title="20: Monte Carlo Simulations, Estimating pi" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-20"><img alt="image placeholder" ></a>
 </td>
 <td>
 <p class="mediatitle">20: Monte Carlo Simulations, Estimating pi</p>
@@ -4109,7 +4003,7 @@ Date: Tue, 15 Feb 2011 21:45:51 +0800</span></p>
 <tr>
 <td width="120">
 <a title="21: Validating Simulation Results, Curve Fitting, Linear Regression" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-21"> 
-<p></p></a><a title="21: Validating Simulation Results, Curve Fitting, Linear Regression" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-21"><img alt="image placeholder" >
+<p></p></a><a title="21: Validating Simulation Results, Curve Fitting, Linear Regression" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-21"><img alt="image placeholder" ></a>
 </td>
 <td>
 <p class="mediatitle">21: Validating Simulation Results, Curve Fitting, Linear Regression</p>
@@ -4124,7 +4018,7 @@ Date: Tue, 15 Feb 2011 21:45:51 +0800</span></p>
 <tr>
 <td width="120">
 <a title="22: Normal, Uniform, and Exponential Distributions" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-22"> 
-<p></p></a><a title="22: Normal, Uniform, and Exponential Distributions" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-22"><img alt="image placeholder" >
+<p></p></a><a title="22: Normal, Uniform, and Exponential Distributions" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-22"><img alt="image placeholder" ></a>
 </td>
 <td>
 <p class="mediatitle">22: Normal, Uniform, and Exponential Distributions</p>
@@ -4139,7 +4033,7 @@ Date: Tue, 15 Feb 2011 21:45:51 +0800</span></p>
 <tr>
 <td width="120">
 <a title="23: Stock Market Simulation" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-23"> 
-<p></p></a><a title="23: Stock Market Simulation" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-23"><img alt="image placeholder" >
+<p></p></a><a title="23: Stock Market Simulation" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-23"><img alt="image placeholder" ></a>
 </td>
 <td>
 <p class="mediatitle">23: Stock Market Simulation</p>
@@ -4154,7 +4048,7 @@ Date: Tue, 15 Feb 2011 21:45:51 +0800</span></p>
 <tr>
 <td width="120">
 <a title="24: Course Overview; What Do Computer Scientists Do?" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-24"> 
-<p></p></a><a title="24: Course Overview; What Do Computer Scientists Do?" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-24"><img alt="image placeholder" >
+<p></p></a><a title="24: Course Overview; What Do Computer Scientists Do?" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-24"><img alt="image placeholder" ></a>
 </td>
 <td>
 <p class="mediatitle">24: Course Overview; What Do Computer Scientists Do?</p>
@@ -4165,9 +4059,6 @@ Date: Tue, 15 Feb 2011 21:45:51 +0800</span></p>
 </tbody>
 </table>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-02-28T08:25:07+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3723.html</guid>
@@ -4314,7 +4205,6 @@ struct printPrimes&lt;N, N&gt; {
 <p>不过，相信这种玩法会启动你很多的编程思路。</p>
 <p>当然，还有以前说过的那个——《<span style="font-weight: bold;"><a title="检查素数的正则表达式" rel="bookmark" href="https://coolshell.cn/articles/2704.html" target="_blank">检查素数的正则表达式</a></span>》</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2011-02-28T09:14:10+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3738.html</guid>
@@ -4388,7 +4278,6 @@ COMPILE.c=cc -Ifoo -Ibar -O -Wall   -c
 <li><span style="font-family: 'Courier New';"><a href="https://www.gnu.org/software/make/manual/make.html#Flavor-Function">$(flavor)</a>：有两个值，simple表示是一般展开的变量，recursive表示递归展开的变量。</span></li>
 </ul>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2011-03-01T08:34:38+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3790.html</guid>
@@ -4399,15 +4288,12 @@ COMPILE.c=cc -Ifoo -Ibar -O -Wall   -c
 <link>https://coolshell.cn/articles/3801.html</link>
 <content><![CDATA[ 
 <p>在网上看到一张口令破解的表格，如下所示（第一列是口令长度，第二列是全小写的口令，第三列是有大写字母的口令，第四列是又加上了数字和其它字符的口令）</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>如果你想知道自己的口令花多少时间可以被破确，你可以访问下面这个网站：（<strong><em>更新2011/3/2晚10点15</em></strong>）</p>
 <p style="text-align: center;"><strong><a href="https://howsecureismypassword.net/" target="_blank">http://howsecureismypassword.net/</a></strong></p>
 <p>这里先说一个这里说的口令破解。一般来说用户的口令都是以MD5编码加密放在数据库里的，MD5是不可逆的，所以，当你拿到你一串被MD5后的字串，你可以使用暴力破解——穷举所有的可能口令的MD5字串，然后和数据库里的对比，比对了你就知道口令了。当然，你一定要清楚，在某些审查很严重的地方，互联网内容提供商不一定会把你的口令以MD5加密，甚至就是明文（Plain Text）保存，所以你还需要小心，关于如何设计你的口令，<a title="如何设计你的口令" href="https://coolshell.cn/articles/2428.html" target="_blank">请参看这篇文章</a>。</p>
 <p>从上面这表格我们可以看到，你的口令最好是在8个长度以上，而且一定要有在小写和数字，最好再加上其它字符，这样你的口令被破解的时候最需要463年，这样就比较安全了。当然，如果你的口令使用了一些常用的单词，那就另说了，现在破解口令一般都不会使用暴力破解，都是用一个尝用口令字典表来尝试——比如<a title="Twitter的禁用口令" href="https://coolshell.cn/articles/2451.html" target="_blank">这篇文章所说的字典表</a>。</p>
 <p>但我提醒一下，这张表里中的时间忽略了一个问题，那就是并行，<strong>可以使用多台电脑多个进程并行破解口令</strong>，这样一来，上表中的时间就可大打折扣了。你只需要愿意花2000美刀，你就能够找到一个地方，1秒种计算7亿个口令，因为MD5，SHA这类的算法性能太好了。所以，你可能需要使用新的算法来加密你的口令，这种算法最好加上时间，也就是在算法的计算时间加长。呵呵，慢也有慢的好处。可能你需要考虑一下bcrypt算法，你<a title="如何防范密码被破解" href="https://coolshell.cn/articles/2078.html" target="_blank">可以查看本站的这篇文章</a>。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-03-02T08:35:48+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3801.html</guid>
@@ -4418,15 +4304,12 @@ COMPILE.c=cc -Ifoo -Ibar -O -Wall   -c
 <link>https://coolshell.cn/articles/3820.html</link>
 <content><![CDATA[ 
 <p style="text-align: left;">C2C不是电了商务里的C2C，而是Copy to China的缩写，以前，我们以Made in China著称，现在我们会以C2C著称。toxicat制作了下面这个图片(<a href="https://9gag.com/gag/83592" target="_blank">源图</a>)，大家慢慢欣赏，我相信，如果要把所有的C2C都列上去的话，那么，可能会上很长的一个图片。还记得那篇<a title="为什么中国的网页设计那么烂？" href="https://coolshell.cn/articles/3605.html" target="_blank">为什么中国的网页设计那么烂？</a>吗？呵呵。何止是互联网，其它东西不也是C2C吗？</p>
-<p style="text-align: center;"><img alt="image placeholder" >
-<p style="text-align: left;"><span id="more-3820"></span><img alt="image placeholder" >
+<p style="text-align: center;"><img alt="image placeholder" ></p>
+<p style="text-align: left;"><span id="more-3820"></span><img alt="image placeholder" ></p>
 <p style="text-align: left;">————————————————</p>
 <p style="text-align: left;">与此同时，<a href="https://cn.reuters.com/article/CNTopGenNews/idCNCHINA-3878520110301" target="_blank">路透社报道</a>: 美国将百度列入“恶名市场”名单 – 美国政府周一再次将中国最大网络搜索引擎百度列入假冒和盗版产品的年度“恶名市场”名单。美国企业界希望此名单能促使美国国会对这些“流氓网站”采取行动。（<a href="https://www.bbc.co.uk/zhongwen/simp/world/2011/03/110301_china_usa_trade_piracy.shtml" target="_blank">BBC</a>：与百度一同被列入此名单的还有淘宝、北京秀水街、北京海龙电脑市场、上海杨浦颐高数码城、深圳罗湖市场、香港女人街、义务小商品市场、<a href="http://91.com/" target="_blank">91.com</a>，以及TV Ants）</p>
 <p style="text-align: left;">（全文完）</p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-03-02T08:58:17+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3820.html</guid>
@@ -4440,17 +4323,14 @@ COMPILE.c=cc -Ifoo -Ibar -O -Wall   -c
 <p>下面是新浪的在IE9下没有开启过滤的样子，我们要吧看到满天飞的flash，广告，还有视频……</p>
 <div class="mceTemp mceIEcenter" style="text-align: left;">
 <dl class="wp-caption aligncenter" style="width: 575px;">
-<dt class="wp-caption-dt"><a href="http://ie.microsoft.com/testdrive/IEBlog/2011/Feb/affc-image1.png"><img alt="image placeholder" >
+<dt class="wp-caption-dt"><a href="http://ie.microsoft.com/testdrive/IEBlog/2011/Feb/affc-image1.png"><img alt="image placeholder" ></a></dt>
 <dd class="wp-caption-dd">新浪网站没有使用IE9的过滤功能</dd>
 </dl>
 </div>
 <p style="text-align: left;">下面是开启了过滤功能后的新浪网页（个人感觉还是那么乱，没办法底子太差了）</p>
 <p style="text-align: left;"><span id="more-3872"></span></p>
-<figure style="width: 565px" class="wp-caption aligncenter"><a href="http://ie.microsoft.com/testdrive/IEBlog/2011/Feb/affc-image2.png"><img alt="image placeholder" >
+<figure style="width: 565px" class="wp-caption aligncenter"><a href="http://ie.microsoft.com/testdrive/IEBlog/2011/Feb/affc-image2.png"><img alt="image placeholder" ></a><figcaption class="wp-caption-text">IE9开启了ActiveX过滤功能后的新浪网页</figcaption></figure>
 <p>(全文完)</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-03-03T08:30:49+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3872.html</guid>
@@ -4470,7 +4350,6 @@ COMPILE.c=cc -Ifoo -Ibar -O -Wall   -c
 <input id="test" style="font-size: 25px;" type="password"></p>
 <p>这个例子和<a title="用户界面和用户体验的差别" href="https://coolshell.cn/articles/3142.html" target="_blank">以前的那个例子</a>一样，告诉你UX设计是重要性。</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2011-03-03T09:26:41+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3877.html</guid>
@@ -4598,7 +4477,6 @@ COMPILE.c=cc -Ifoo -Ibar -O -Wall   -c
 </ul>
 <p>就这么多吧，也许没什么意思，那也请你见谅了。</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2011-03-04T08:25:39+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3903.html</guid>
@@ -4609,11 +4487,8 @@ COMPILE.c=cc -Ifoo -Ibar -O -Wall   -c
 <link>https://coolshell.cn/articles/3806.html</link>
 <content><![CDATA[ 
 <p>周五了，来轻松一下。如果你在Google的图片搜索里搜索“C String”，你会看到很多相当Sexy的图片，C String真是很性感，丁字裤（T String）已经算不了什么了，看了一下图片，才发现原来还有男士了，太猛了。</p>
-<p><a href="https://www.google.com.hk/images?hl=zh-cn&amp;newwindow=1&amp;safe=strict&amp;q=C%20String&amp;um=1&amp;ie=UTF-8&amp;source=og&amp;sa=N&amp;tab=wi&amp;biw=1280&amp;bih=677"><img alt="image placeholder" >
+<p><a href="https://www.google.com.hk/images?hl=zh-cn&amp;newwindow=1&amp;safe=strict&amp;q=C%20String&amp;um=1&amp;ie=UTF-8&amp;source=og&amp;sa=N&amp;tab=wi&amp;biw=1280&amp;bih=677"><img alt="image placeholder" ></a></p>
 <p>如果C String是这个样子，那么，其尾部应该有null终止符，而且最危险的是缓冲区溢出（Buffer Overflow）。哈哈。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-03-04T12:40:40+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3806.html</guid>
@@ -4626,13 +4501,10 @@ COMPILE.c=cc -Ifoo -Ibar -O -Wall   -c
 <p>“IE6于10年前诞生，现在应该是我们同IE6告别的时候了。”微软公司日前推出IE6倒计时网站（the Internet Explorer 6 Countdown，网址为<span style="color: #0066cc;"><a href="http://www.ie6countdown.com/" target="_blank">www.ie6countdown.com</a></span>），旨在尽早淘汰IE6，让用户升级到新版IE浏览器。</p>
 <p>值得注意一点的是，在这张百分比图上所显示的目前仍在使用IE6浏览器上网的百分比第一的是中国——34.5%，这个符合我国国情——什么都要争第一。我国人口世界第一占全世界1/4，网民也是世界第一，还在使用IE6的网民占全世界的1/3，可以我国网民的严重落后。根据<a href="https://www.cnnic.net.cn/dtygg/dtgg/201101/t20110118_20250.html" target="_blank">CNNIC今年的报告</a>，我国现有4.5亿网民，34%也就是1.5亿用户，也就是说你身边每三个人中就有一个在用IE6。而中国的IE6网民占全世界使用IE6网民的一半。</p>
 <p>另外，我发现亚洲是重灾区啊，包括中日韩台印都很猛啊，看来微软在亚洲的营销的确不错。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>我查看了一下Coolshell.cn的2011年到今天为止访问统计，排名第一是的Chrome(41.5%)，第二位的是Firefox(23.22%)，第三位的是IE8(10.7%)，第四位的是IE6(4.8%)。IE6的IP数有6400+。</p>
 <p>看来，在我国程序员这个人群中，越来越多的人使用Chrome+Firefox，挺喜人的，但是IE6还有4.8%，还不如土耳其，马来西亚，印尼等国家。<br>
 </p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-03-10T08:41:05+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3921.html</guid>
@@ -4647,7 +4519,7 @@ COMPILE.c=cc -Ifoo -Ibar -O -Wall   -c
 <li>正常的生活是，10点到17点上课，17点到22点是放松和work（chill相当于relax），22点到凌晨1点是社交活动，然后睡8小时。</li>
 <li>计算机专业的学生的生活是，只要你脑子还在转就work，脑子不转了，就睡2小时。（<del>原来，国外的计算机大学的同学们在大学时就已在疯狂工作了，课都不上</del>）（work是在校的学术作业项目（谢谢网友rho指正））</li>
 </ul>
-<figure style="width: 584px" class="wp-caption aligncenter"><a href="https://i.imgur.com/4kQAz.jpg" target="_blank"><img alt="image placeholder" >
+<figure style="width: 584px" class="wp-caption aligncenter"><a href="https://i.imgur.com/4kQAz.jpg" target="_blank"><img alt="image placeholder" ></a><figcaption class="wp-caption-text">计算机专业学生的大学生活</figcaption></figure>
 <p>不过，看了一下上面的代码，我发现了两个问题：</p>
 <ol>
 <li>sleep(2)，在posix下是秒，在windows下是毫秒。</li>
@@ -4656,9 +4528,6 @@ COMPILE.c=cc -Ifoo -Ibar -O -Wall   -c
 <p>当然，我们并不能下结论——该同学的在学校里并没有学好编程。因为，你不知道Sleep 和 &amp;&amp; 有没有被重载了。（你要把&amp;&amp;在某些情况下重载成||的行为也不是不可能 。<strong>注：在c++中，你无法重载内建类型的操作符</strong>）</p>
 <p>——————</p>
 <p><span style="color: #008000;">最后说明一下，最近事太多（一个项目要上线，另一个项目需求分析和设计、招聘、酷壳服务器迁移、带孩子、申请签证、给人做培训），所以没有更新，大家见谅</span>。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-03-17T17:55:38+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3928.html</guid>
@@ -4672,9 +4541,6 @@ COMPILE.c=cc -Ifoo -Ibar -O -Wall   -c
 <p align="center"><iframe loading="lazy" src="https://jsrun.it/norahiko/oxIy" width="630" height="320" frameborder="0"><br>
 </iframe></p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-03-18T08:42:56+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3933.html</guid>
@@ -4724,7 +4590,6 @@ for(int i = 0; i + n; i--)
 <li>通过修改、增加一个字符，让其不输出减号</li>
 </ul>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2011-03-21T08:28:31+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3961.html</guid>
@@ -4761,9 +4626,6 @@ for(int i = 0; i + n; i--)
 <p style="padding-left: 30px;"><strong>后来：</strong>这个事后，我的那个同事，把rm命令改了名，并自己写了一个rm命令，把删除的文件先放到一个临时目录下。而我也因为这个事情，到今天，每次当我在root目录下使用rm时，敲击回车的手都是抖的。（另，rm时永远使用绝对路径）这里，我想告诉大家——<strong>犯错不可怕，可怕的是不会从中总结教训，同一个错犯两次</strong>。</p>
 <p>欢迎分享发生在你身上那些悲催的事。</p>
 <p><strong>（本文请勿用于商业用途，转载时请注明作者和出处）</strong></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-03-22T08:55:30+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3980.html</guid>
@@ -4853,7 +4715,6 @@ for(int i = 0; i + n; i--)
 <p>没关系，现在你只需要GOTO 第一个阶段。</p>
 <p>此外，作为一个工作中的程序员，你会永远经历这些烂事，直到你——死亡，退休，或是被升到管理层。</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2011-03-24T08:34:43+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4045.html</guid>
@@ -4934,9 +4795,6 @@ for(int i = 0; i + n; i--)
 </ul>
 <p>各位程序员——Windows是很危险的，你们还是回火星去吧。</p>
 <p>（<strong>全文完，转载时请注明作者和出处</strong>）</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-03-28T08:42:10+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4077.html</guid>
@@ -4993,9 +4851,6 @@ for(int i = 0; i + n; i--)
 <li>不要肤浅地去思考问题。比如，不要以为一个DBA就不会考虑数据库引擎的内存页面的问题。也不要以为Web程序员就不需要了解后台的服务器和脚本的运行性能以及TCP/IP的问题。</li>
 </ul>
 <p><strong>高手往往都是有很强的系统的基础知识的，表面的东西永远是肤浅的。</strong></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-03-29T10:25:20+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4102.html</guid>
@@ -5053,9 +4908,6 @@ for(int i = 0; i + n; i--)
 <li>4）这类的文章在网上有很多很多，我不是第一个写这样的文章，我也不是写得最好的，我并不希望用长篇大论来谈论什么。只是想给大家了解一下大概的学习样子。毕竟，C++博大精深，任何一篇文章都无法说好。不如就简单一些。</li>
 </ul>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-03-30T08:50:17+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4119.html</guid>
@@ -5073,9 +4925,6 @@ for(int i = 0; i + n; i--)
 <p>我的翻译版本以word形式提供，请要转载的同学们别把酷壳logo去掉的，转载请注明出处。</p>
 <p>由于个人水平有限，翻译难免出现错误。还请读者海涵。</p>
 <p>下载：<a href="https://coolshell.cn/wp-content/uploads/2011/03/WSDL-%E4%B8%AD%E6%96%87%E8%A7%84%E8%8C%831.1.doc">WSDL 中文规范1.1</a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-04-01T08:30:21+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4131.html</guid>
@@ -5115,9 +4964,6 @@ for (i=0; i&lt;N; ++i){
 <p>刚才在twitter上与人讨论，发现又有一种情况，case 2要比case 1要快。比如，A, B, C分别访问是不同的内存块（数组），那么case 1就得在不同的内存块上来回切换寻址，而case2则可以连续地访问内存块。访问连续的内存效率要高。尤其是三块大内存。</p>
 <p><strong>—-更新 2—</strong></p>
 <p>正如本贴评论中所说的，CPU的cache也是其中一个因素。大家对底层知识了解的都很不错啊。赞一个。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-04-02T11:22:03+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4162.html</guid>
@@ -5128,7 +4974,7 @@ for (i=0; i&lt;N; ++i){
 <link>https://coolshell.cn/articles/4170.html</link>
 <content><![CDATA[ 
 <p>在StackOverflow上有这样<a href="https://stackoverflow.com/questions/5508110/why-is-this-program-erroneously-rejected-by-three-c-compilers" target="_blank">一个贴子</a>，楼主说，我有下面这样的一个C++程序，为什么编译不通过啊。其让我想起了以前的这两个帖子《<a title="编程真难啊" href="https://coolshell.cn/articles/1391.html" target="_blank">编程真难啊</a>》和《<a title="给我一个序列号" href="https://coolshell.cn/articles/1693.html" target="_blank">给我一个序列号</a>》。<strong>仅以此篇文章祝大家假期快乐吧</strong>。</p>
-<figure style="width: 535px" class="wp-caption aligncenter"><img alt="image placeholder" >
+<figure style="width: 535px" class="wp-caption aligncenter"><img alt="image placeholder" ><figcaption class="wp-caption-text">hello world 程序</figcaption></figure>
 <p style="text-align: left;">楼主还给出了相关的编译出错的信息（相信你一看就明白问题在哪里了，你应该还会发出一声“靠”！！！）</p>
 <p>先是用Visual C++ 2010编译</p>
 <p></p>
@@ -5149,11 +4995,8 @@ collect2: ld returned 1 exit status
 clang++: error: linker (via gcc) command failed with exit code 1 (use -v to see invocation)</pre>
 <p style="text-align: left;">不过，最强大的，有人居然给出了一个fix，靠！<br>
 （下面的图片是一个4M大的gif动画，演示了整个过程，下载可能需要一定的时间。）</p>
-<figure style="width: 570px" class="wp-caption aligncenter"><a href="https://i.imgur.com/QlGpd.gif"><img alt="image placeholder" >
+<figure style="width: 570px" class="wp-caption aligncenter"><a href="https://i.imgur.com/QlGpd.gif"><img alt="image placeholder" ></a><figcaption class="wp-caption-text">hello world 的解决方案 （图片有点大4M，请耐心等待下载）</figcaption></figure>
 <p>真是BT啊，呵呵。<strong>仅以此篇文章祝大家假期快乐吧</strong>。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-04-02T14:33:57+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4170.html</guid>
@@ -5227,7 +5070,6 @@ clang++: error: linker (via gcc) command failed with exit code 1 (use -v to see 
 </ul>
 <p>好的，就这么多，也欢迎你分享你所看到的和听到的东西。</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2011-04-06T08:47:40+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4220.html</guid>
@@ -5416,7 +5258,6 @@ Message message[] = folder.getMessages();</pre>
 }
 </pre>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2011-04-06T23:05:39+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4261.html</guid>
@@ -5428,7 +5269,7 @@ Message message[] = folder.getMessages();</pre>
 <content><![CDATA[ 
 <p>有朋友（网友never）在酷壳Coolshell.cn的<a href="https://coolshell.cn/guestbook#comment-40758" target="_blank">留言版上问我</a>，为什么关注了这很多的东西，我想我可以用下文来回答这位网友，因为我和作者的观点几乎一致。这篇文章由 ALAN SKORKIN写的 “<a href="http://www.skorks.com/2011/02/the-greatest-developer-fallacy-or-the-wisest-words-youll-ever-hear/" target="_blank">The Greatest Developer Fallacy Or The Wisest Words You’ll Ever Hear?</a>” ，我把其全文翻译如下，我很喜欢这篇文章，希望你也喜欢。（翻译的也许不好，欢迎指正）</p>
 <p>—————————————————正文分隔线——————————————————</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>“<span style="color: #cc0000;"><strong><em>I will learn it when I need it – </em>我会在我需要的时候再学</strong></span>“！我听到这句已经很多年了。这对于一个高速变化的软件行业环境来说，这似乎是一个非常实用的态度。 在某些方面这的确很实用主义，不过在其它的方面，我为这句话感到很不爽。这句话变成了整个软件行业的福音，但却没有让我们的软件行业变得更好。其问题在于，<strong>这句话伪装在于其听上去像是一个智慧的有经验的开发者说的，但是人们只是以此为借口而随波逐流</strong>。实在是有太多的东西需要我们去了解，我们也的确需要在工作当中来学习这些东西。但是， “在工作中学习”和“根据遇到的问题捡知识”这两者有着巨大的不同。</p>
 <ul>
 <li>另外，目前整个软件行业越来越需要一堆多面手，也许现在已经是这样了，只是我还没有注意到。当然，我也不喜欢这种情。现在，好像没有人愿意花更多的时间来把某一个东西学好学深学扎实，比如 <a href="http://www.skorks.com/2010/04/on-the-value-of-fundamentals-in-software-development/" target="_blank">计算机科学的基础知识</a>，或是最新的你正在使用的技术，甚至你在最近几年内每天都在使用其编码的程序语言（参考：<a href="http://blog.tmorris.net/java-is-pass-by-value/" target="_blank">Java is passed by value</a>）（<strong>译注：</strong>我在<a title="如何学好C++语言" href="https://coolshell.cn/articles/4119.html" target="_blank">如何学好C++一文</a>的回复中已经看到一些这样的人）。何苦呢？你会在你的学习路途中看到这些东西被更新，被废弃，并可能变得小众化。我和很多不同的人讨论过很多次，但是好像没有人意识到这是一个问题。 “<strong>哥们，做个实用主义的人吧</strong>”。</li>
@@ -5466,7 +5307,7 @@ Message message[] = folder.getMessages();</pre>
 <h4>
 <span class="ez-toc-section" id="%E4%BD%A0%E5%AD%A6%E5%BE%97%E8%B6%B3%E5%A4%9F%E5%BF%AB%E5%90%97%EF%BC%9F"></span>你学得足够快吗？<span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>有些东西你需要花很长的时间才能学会。我对自己有信心不需跳跃性的就能把一个我从没有见过的ORM框架学会，因为我以前用过相似的东西，它们在概念上是相同的。但是，如果你需要做一个把演讲转成文本的东西呢，这并不简单，因为你没有足够多的背景知识。你可以希望通过Google给你提供一些东西让你Copy/Paste，但这是一个很不好的做法，只有大学里的做研究的研究员干这种烂事。如果是要创建一个网站呢，我们都知道怎么去创建一个网站，但是有多少人会知道如何架构一个每天有一千万用户访问的网站？那么我们需要去学的就是怎么做扩容扩展，<strong>我相信你的用户需要等你一到两个月才能把速度提上去</strong> :)。是的，我太笨了，所有我需要做的就是去招一个专家，然后……嗯……哦等一下，我们的啤酒和三明治都不够了。</p>
 <h4>
 <span class="ez-toc-section" id="%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E5%BA%94%E8%AF%A5%E5%85%B3%E5%BF%83"></span>为什么我应该关心<span class="ez-toc-section-end"></span>
@@ -5485,9 +5326,6 @@ Message message[] = folder.getMessages();</pre>
 <li>最后echo一下作者的话——“很多时候，你缺少的不是知识而是热情”！</li>
 </ol>
 <p>谢谢大家又花了一点看我的唠叨。呵呵。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-04-07T10:08:59+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4235.html</guid>
@@ -5525,13 +5363,13 @@ Android的免费开发工具可以让你以0成本开始编写你的软件。当
 <li>进入 Android Development Tools 的<em>Name</em>输入框, 在Location 输入框输入https://dl-ssl.google.com/android/eclipse/</li>
 <li>检查可用软件中有Developer Tools并点击OK按钮。这将安装Android Development Tools 和DDMS, Android的调试工具。</li>
 </ul>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <ul>
 <li>点击Next和Finish按钮以完成安装，安装完成后，你需要重启你的Eclipse一次。</li>
 <li>在Eclipse重启后，选择Window-&gt;Preference 后你可以在分类列表中看到Android这一项了。</li>
 <li>现在需要告诉Eclipse，你的Android SDK安装在什么地方。点击Android项后浏览选择你解压后的Android SDK所在的路径。例如/opt/local/android-sdk。</li>
 </ul>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <ul>
 <li>点击OK按钮，保存信息。</li>
 </ul>
@@ -5543,7 +5381,7 @@ Android的免费开发工具可以让你以0成本开始编写你的软件。当
 <li>点击左栏中的<em>Available Packages</em> 并选择选择Respository中有效的Android SDK平台。</li>
 <li>你可以选择列表中所需要的平台，或全选下载所有有效的平台。当你选择完毕，单击<em>Install Selected </em>并完成安装。</li>
 </ul>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ><br>
 一旦成功的下载所有的平台后，你就可以准备开始开发Android应用程序了。</p>
 <h3>创建一个新的Android项目</h3>
 <p>Eclipse的新建项目向导能为你创建一个新的Android项目，并生成可以开始运行的文件和代码。通过向导生成代码，可以让你马上得到一个Android程序运行的直观映像并为你提供了一个帮助你快速入门的方法：</p>
@@ -5562,7 +5400,7 @@ Package Name: com.example.brewclock<br>
 Create Activity: BrewClockActivity<br>
 Min SDK Version: 4<br>
 [/code]</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>在点击了完成按钮之后，Eclipse将为你创建一个新的可以运行的Android项目。注意，你通知了Eclipse生成了一个叫做BrewClockActivity的Activity。这个Activity的代码用于运行你的应用程序。生成的代码将在程序运行时非常简单地显示一条“Hello World”消息。</p>
 <div id="ez-toc-container" class="ez-toc-v2_0_17 counter-hierarchy counter-decimal ez-toc-grey">
 <div class="ez-toc-title-container">
@@ -5598,7 +5436,7 @@ Min SDK Version: 4<br>
 <li>选择<em>Android Application</em> 并点击 <em>OK </em>按钮.</li>
 </ul>
 <p>Eclipse 将会在一个Android设备上运行一个应用程序。在这个时候，由于你没有任何Android设备，因此在运行时一定会返回一个失败，并且询问你是否要新建一个Android的虚拟设备。（AVD）<br>
-<img alt="image placeholder" >
+<img alt="image placeholder" ></p>
 <h4>
 <span class="ez-toc-section" id="Android_%E8%99%9A%E6%8B%9F%E8%AE%BE%E5%A4%87"></span>Android 虚拟设备<span class="ez-toc-section-end"></span>
 </h4>
@@ -5622,13 +5460,13 @@ Skin Built In: Default (HVGA)<br>
 <li>单击 <em>Create AVD</em> 让Android为你创建一个新虚拟设备。</li>
 <li>关闭the <em>Android SDK and AVD Manager</em> 对话框.</li>
 </ul>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h4>
 <span class="ez-toc-section" id="%E8%BF%90%E8%A1%8C%E4%BB%A3%E7%A0%81"></span>运行代码<span class="ez-toc-section-end"></span>
 </h4>
 <p>再次运行你的应用程序（<em>Ctrl+F11</em>）。 Eclipse 将build 你的项目并运行一个新的AVD。记住，AVD模拟了一个完全的Android系统，因此你需要有耐心来等待这个缓慢的启动过程，就如同你重启真实的Android设备一样。一个好的做法是不要关闭你的AVD，直到你完成了你一天的工作。<br>
 当你的模拟器启动后，Eclipse自动地安装并运行你的应用程序。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h3>开发你第一个Android应用</h3>
 <p>生成的代码能良好的运行，但是你真正想要的是开发一个真实的应用程序。为此，我们首先果一个咸蛋的设计流程，并开始创建一个可以让你部署在Android设备上的应用。</p>
 <p>大部分的开发者（包括我自己）都喜欢每天一杯咖啡或茶。在下一节中，你将开发一个简单的泡茶计数器应用程序来记录用户泡了多少杯茶，并为泡每杯茶做一个定时器。</p>
@@ -5637,7 +5475,7 @@ Skin Built In: Default (HVGA)<br>
 <span class="ez-toc-section" id="%E8%AE%BE%E8%AE%A1%E7%94%A8%E6%88%B7%E7%95%8C%E9%9D%A2"></span>设计用户界面<span class="ez-toc-section-end"></span>
 </h4>
 <p>在开发任何Android应用程序之前的第一步就是设计和开发用户界面。下面是一个我们这个应用程序的用户界面的一个概览。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>用户将能通过+和-按钮设置一个泡茶的定时器。当单击开始按钮，定时器将开始按指定的时间递减。除非用户再次点击按钮以取消计时，否则当定时器为0的时候，累计的泡茶计数brew将增加1。</p>
 <h4>
 <span class="ez-toc-section" id="%E5%BC%80%E5%8F%91%E7%94%A8%E6%88%B7%E7%95%8C%E9%9D%A2"></span>开发用户界面<span class="ez-toc-section-end"></span>
@@ -5917,15 +5755,12 @@ brewLabel.setText(R.string.brew_up_label);<br>
 <span class="ez-toc-section" id="%E8%BF%90%E8%A1%8CBrew_Clock"></span>运行Brew Clock<span class="ez-toc-section-end"></span>
 </h4>
 <p>代码完成之后，现在是试运行程序的时候了。单击<em>Run</em> 或 <em>Ctrl+F11</em> 在模拟器中启动我们的应用. 所有都运行良好，你将会看到你创建的用户界面在准备时间一到就可以喝你所泡的茶了！试着设置不同的时间，并点击<em>Start</em> 观看倒计时。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h3>总结</h3>
 <p>在这个关于Android的简单介绍中，你已学会如何安装Android SDK和Eclipse的Android 开发工具插件（ADT）。你也学会如何创建一个模拟设备，并通过这个设备来测试你的应用程序。你还学会了如何开发Android应用程序。上面了那些作为标题的关键概念在以后你自己开发Android应用程序的时候将会经常用到。</p>
 <p>我们希望，这个教程能激发你的开发移动应用程序的欲望，并步入这个令人激动的领域。Android为当前和即将到来的移动设备应用程序开发提供了一条宽广的道路。如果你已经开发你自己的移动应用，请在评论中告诉我们。</p>
 <p><em>(ik), (vf)</em></p>
 <p><em>（全文完）</em></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-04-07T16:40:36+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4270.html</guid>
@@ -5939,7 +5774,7 @@ brewLabel.setText(R.string.brew_up_label);<br>
 原文：<a href="http://www.smashingmagazine.com/2011/03/28/get-started-developing-for-android-with-eclipse-reloaded/">http://www.smashingmagazine.com/2011/03/28/get-started-developing-for-android-with-eclipse-reloaded/</a></p>
 <p>在我们教程系列的<a href="https://coolshell.cn/articles/4270.html">第一部分</a>中，我们使用Android和Eclipse开发了一个简单的饮茶计时器的应用程序。在第二部分，我们将继续开发这个程序，并给它增加一些其他的额外的功能。在开发的过程中，我们将给你介绍更多重要而强大的Android SDK特性，包括持久化数据存储，Activity和Intent，和共享用户首选项（译者注：类似于windows 的注册表的一种机制）。</p>
 <p>跟着本教程，你需要上一篇教程中的代码，如果你想直接使用代码，你可以使用如下的指令从<a href="https://github.com/cblunt/BrewClock">GitHub</a>上check out出tutorial_par_1标记的代码：</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ><br>
 [code]<br>
 $ git clone git://github.com/cblunt/BrewClock.git<br>
 $ cd BrewClock<br>
@@ -6002,7 +5837,7 @@ Please fix project properties.<br>
 </h4>
 <p>为了确保数据库的代码容易被维护，我们用一个单独的类TeaData来抽象所有处理数据库创建，插入，和查询的代码。如果你熟悉模型-试图-控制(译者注：MVC)方法的话，这个你也应该熟悉。所有数据库代码与我们的BrewClockActitvity类隔离开来。Actitvity可以初始化一个新的TeaData实例（这个实例将连接数据库）并完成它所需要的工作。以这种方式工作保证了我们可以方便的更改我们所使用的数据库而不用修改其他那些和数据库不相关部分的代码。</p>
 <p>通过菜单File → New → Class.在BrewClock项目中创建一个TeaData的新类。确保TeaData扩展于android.database.sqlite.SQLiteOpenHelper 类，并选中“Constructors from superclass”复选框。<br>
-<img alt="image placeholder" >
+<img alt="image placeholder" ></p>
 <p>TeaData 类将为你自动地处理SQLite数据库的创建和版本。我们需要增加一些方法来作为其他代码到数据库的接口。</p>
 <p>增加两个常量来存储数据库的名字和版本,增加表名和表中列名。我们使用Android提供的常类BaseColumns._ID来做为表的唯一id列：</p>
 <p></p>
@@ -6158,7 +5993,7 @@ public void onCreate(Bundle savedInstanceState) {
 }
 </pre>
 <p>运行你的程序以确保新的界面正确地生效。你应该在泡茶计数器下看见一个空白的弹出式菜单（或者是Spinner)。如果点击spinner，Android将显示一个弹出式的菜单并为你提供选择列表。在这时，菜单的内容因该是空的，现在让我们来绑定Spinner和我们的茶叶数据库。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h4>
 <span class="ez-toc-section" id="%E6%95%B0%E6%8D%AE%E7%BB%91%E5%AE%9A"></span>数据绑定<span class="ez-toc-section-end"></span>
 </h4>
@@ -6212,7 +6047,7 @@ public void onCreate(Bundle savedInstanceState) {
 </pre>
 <br>
 现在再次运行你的应用程序。你将会发现茶叶Spinner有了一条选择。点击Spinner让你可以从数据库选择你要的茶叶。
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>恭喜你！你已经成功关联了你的界面和代码。这是任何软件开发过程中一个非常重要的方面。正如你所看见的，Android将这一步简化的非常容易，但是功能有是非常的NB。使用游标和适配器，你可以将数据源（丛简单的字符串数组到复杂的数据库查询）绑定到任何类型的视图：spinner或列表，设置是类似iTunes cover-flow gallery!</p>
 <p>虽然现在已经可以开始泡茶了，但是我们工作还远没有结束。当你从Spinner选择了不同的茶，这个选择却不会发生任何作用。我们需要根据用户所选茶叶的种类取更新我们的泡茶时间。</p>
 <h4>
@@ -6253,7 +6088,7 @@ public void onCreate() {
 <br>
 大功告成！再次运行你的程序，并从Spinner选择不同的茶叶。每次你所选的茶叶它所对应的泡茶时间都回显示对应的界面上。我们余下的代码中已经可以处理从当前时间开始递减计数。所以在有预先设置的茶叶种类下，我们已经可以完成我们所想要的功能。
 <p>你当然可以，回到之前的代码中去增加一些茶叶种类你满足你的口味。但是如果你发布BrewClock程序到Android Market，每当有人向增加新的茶叶数据到数据库中，我就需要去手动的取更新数据中的内容并重新发布它；这样所有的人就必须去更新它，并且所有的人都有一个同样的列表。这听起来非常的不灵活，因此我们还有很多的工作需要完成！</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>如果用户自己有方法新增茶叶种类到数据库里面，将会非常的不错的做法。因此我们将在下一章继续。。。</p>
 <h3>Activity 介绍</h3>
 <p>和你应用程序中每个屏幕关联的代码就是Activity。每次当你从一屏切换到另外一屏，Android就会创建一个新的Activity。在真实世界中，虽然一个应用程序经常由多个屏幕/Activity构成，Andriod却将每个屏幕看作独立的个体。多个Activity工作在一起形成一种关联的体验，这是因为Android让你非常容易地在屏幕/Activity之间传递数据。</p>
@@ -6282,7 +6117,7 @@ public void onCreate() {
 <p>下一步，让我们创建一个新文件完成选项菜单的定义，如果字符串和布局一样，菜单也使用XML来定义。因此我们将在Eclipse中川建一个新的XML文件：</p>
 <p>通过选择File → New → Other, 并选择“Android XML File.”在Eclipse中创建一个新的XML文件。</p>
 <p>选择资源的类型为 “Menu”，保存文件名为main.xml。Eclipse将为你自动的创建一个目录<em>res/menu</em>, 来存放你的菜单文件。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>打开<em>res/menus/main.xml</em> 文件, 通过窗口底部的“main.xml”选项页来切换到XML视图。</p>
 <p>增加菜单项， add_tea。<br>
 </p>
@@ -6310,13 +6145,13 @@ public boolean onCreateOptionsMenu(Menu menu) {
 <br>
 当用户点击他设备上的“Menu”按键时，Android将调用onCreateOptionsMenu。在这个方法中，我们创建了一个MenuInflater, 这个对象将从你的应用程序包中装载你的菜单资源。就如同按钮和文本域组成你的应用程序布局一样，main.xml资源也是通过全局对象R来生效的，因此我们将此对象提交给MenuInflater对象。
 <p>为了测试菜单，保存并在模拟器中并运行应用程序。当程序运行起来使，点击“Menu”按键，你将会看到一个弹出式的菜单显示了一个“Add Tea”选项。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>如果你点击“Add Tea”选项，Android自动地检测到点击并关闭菜单。在后台，Android将会提醒应用程序选项已经被点击。</p>
 <h4>
 <span class="ez-toc-section" id="%E5%A4%84%E7%90%86%E8%8F%9C%E5%8D%95%E7%82%B9%E5%87%BB"></span>处理菜单点击<span class="ez-toc-section-end"></span>
 </h4>
 <p>当用户点击 “Add Tea” 菜单选项，我们想要显示一个新的Activity以便我们能进入增加新茶叶种类的界面。通过选择File → New → Class来创建一个的Activiy。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>将新类命名为 AddTeaActivity,并确保它继承于android.app.Activity类。这个类也放在com.example.brewclock包中:<br>
 </p>
 <pre data-enlighter-language="java" class="EnlighterJSRAW">// src/com/example/brewclock/AddTeaActivity.java
@@ -6360,7 +6195,7 @@ public boolean onOptionsItemSelected(MenuItem item) {
 <p>让我们运行我们的应用程序，以测试我们的“Add Tea”屏幕。</p>
 <p>运行你的项目，按下Menu按键，并点击 “Add Tea.”。</p>
 <p>不如你预期的，你并没有看到 “Add Tea” Activity，出现在你面前的是一个Android开发者经常看到的对话框：</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>虽然我们创建了一个Intent并告诉Android启动我们的AddTeaActivity Activity, 由于我们没有将这个Activity注册到Android系统中，我们的应用程序最终还是crash掉了。系统不知道从哪里去找到我们试图运行的Activity（应该还记得Intent可以启动安装在设备上的任何Activity吧）。让我们在应用程序的mainfest文件来注册这些Acitivity。</p>
 <p>打开应用的manifest文件，在Eclipse中的AndroidManifest.xml。通过窗口底部的“AndroidManifest.xml”选项页切换到xml视图</p>
 <p>应用程序的mainfest文件是保存你应用程序全局设置和信息的地方。你将会看见里面已经有一个.BrewClockActivity 的Activity声明，并且这个Activity在程序运行的时候启动。</p>
@@ -6378,7 +6213,7 @@ public boolean onOptionsItemSelected(MenuItem item) {
 <h3>开发茶叶编辑器界面</h3>
 <p>开发一个增加茶叶界面和上一个教程中开发的BrewClock主界面是非常相似的。首先要创建一个布局文件，然后在按照下面的讲解添加适合的XML内容。</p>
 <p>和主界面开发所有不同的是，你可以使用Android最近改进的Eclipse布局编辑器来开界面。创建一个新的XML文件来定义你的布局。从菜单File → New然后选择 “Android XML File,” 选择 “Layout”类型。并将文件命令为<em>add_tea.xml</em>。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>用下面的布局内容替换<em>add_tea.xml</em> 文件的内容：<br>
 </p>
 <pre data-enlighter-language="xml" class="EnlighterJSRAW">&lt;!-- res/layouts/add_tea.xml --&gt;
@@ -6447,7 +6282,7 @@ public void onCreate(Bundle savedInstanceState) {
 </pre>
 <br>
 现在通过运行项目来测试你的应用程序，按下“Menu”按键，并点击“Add Tea”菜单。
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>你将从“Add Tea”屏幕上看到你的新界面。你可以在文本域中输入文字和从左到右拖动SeekBar。但是由于我们没有增加相关代码，这个界面并没有实现什么具体的功能。</p>
 <p>在AddTeaActivity中增加下面这些属性，并关联到我们界面上元素：<br>
 </p>
@@ -6520,7 +6355,7 @@ public void onCreate(Bundle savedInstanceState) {
 </pre>
 <br>
 现在运行你的程序，并拖动SeekBar,泡茶时间标签的内容将会同步更新为正确地值：
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h4>
 <span class="ez-toc-section" id="%E4%BF%9D%E5%AD%98%E6%96%B0%E5%A2%9E%E8%8C%B6%E5%8F%B6"></span>保存新增茶叶<span class="ez-toc-section-end"></span>
 </h4>
@@ -6607,7 +6442,7 @@ public boolean saveTea() {
 <p>如果茶名称合法，我们通过TeaData类创建一个到茶叶数据库的临时连接。这里又一次的显示出把数据库访问抽象成一个独立文件的好处：你可以从任何地方完成对数据库（译者注：其实应该是对TeaData 类）的访问。</p>
 <p>当调用完teaData.insert() 来增加记录到数据库后，我们不再需要数据库连接，因此在我们返回成功前，我们关闭了连接。</p>
 <p>在模拟器中运行你的程序，按下“Menu”按键，点击屏幕上的“Add Tea”。试图通过在此按下“Menu”和点击屏幕的 “Save Tea.”来保存空茶叶名的茶叶数据。由于是没有茶叶名，一条错误消息将出现在你的面前：</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>下一步，试着键入你的茶叶名，并选择合适的泡茶时间，再次从菜单选择 “Save Tea” 。这一次，你将不在看到错误的消息。事实上，你什么都看消息不到。</p>
 <h4>
 <span class="ez-toc-section" id="%E6%94%B9%E8%BF%9B%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8C"></span>改进用户体验<span class="ez-toc-section-end"></span>
@@ -6634,7 +6469,7 @@ switch(item.getItemId()) {
 </pre>
 <br>
 现在，重新运行应用程序，并增加和保存一些新茶叶。你将会看到弹出式的Toast并让你知道你的茶叶信息已经被保存成功。getString()方法用于连接存在XML文件中的String和茶叶名称，并将%s替换成茶叶的名称。
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>按下“Back”按键，返回应用程序的主屏幕，点击茶叶spinner。你新增的在数据库中的茶叶已近可以显示在spinner的选项中！</p>
 <h3>用户首选项</h3>
 <p>现在BrewClock已经完成了所有的功能。用户可以增加他们喜爱的茶叶和各自不同的泡茶时间到数据库中，并且他们可以快速的从选择他们并开始泡上一杯新茶。任何新增的茶叶信息都被保存在数据库中，因此，即使你退出你的程序，这些茶叶信息在你下次启动程序时仍然可以从spinner列表中找到。</p>
@@ -6698,7 +6533,7 @@ public void onCreate() {
 <li>使用内建的“共享首选项”数据库来保存和提取简单用户数据。</li>
 </ul>
 <p>无论你要开发神马样类型的应用程序，数据存储和持久化是一个重要的主题。从工具程序和业务工具到3-D游戏，几乎每个应用程序都需要使用到Android提供的数据工具类。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h4>
 <span class="ez-toc-section" id="Activities"></span>Activities<span class="ez-toc-section-end"></span>
 </h4>
@@ -6718,9 +6553,6 @@ public void onCreate() {
 我希望你喜欢这个教程，希望这个教程能帮助你设计和开发更棒的Android应用程序。请通过在下面的回复让我知道你的建议和意见，当然我也欢迎你将你建议写在email中并发送给我。</p>
 <p><em>感谢<a href="http://blog.anselmbradford.com/">Anselm</a>的建议和反馈！ </em></p>
 <p><em>（全文完）</em></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-04-08T08:30:09+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4334.html</guid>
@@ -6730,7 +6562,7 @@ public void onCreate() {
 <title><![CDATA[ 面试题：火车运煤问题 ]]></title>
 <link>https://coolshell.cn/articles/4429.html</link>
 <content><![CDATA[ 
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >这个可能是一个比较经典的智力题了，和以前的那个《<a title="面试题：赛马问题" href="https://coolshell.cn/articles/1202.html" target="_blank">赛马问题</a>》很相似，其题目如下：</p>
 <p style="padding-left: 30px;"><strong><span style="color: #008000;">你是山西的一个煤老板，你在矿区开采了有3000吨煤需要运送到市场上去卖，从你的矿区到市场有1000公里，你手里有一列烧煤的火车，这个火车最多只能装1000吨煤，且其能耗比较大——每一公里需要耗一吨煤。请问，作为一个懂编程的煤老板的你，你会怎么运送才能运最多的煤到集市？</span></strong></p>
 <p>这道题一开始看上去好像是无解的，因为你的火车每一公里就要消耗一吨煤，而到目的地有1000公里，而火车最多只能装1000吨媒。如果你的火车可以全部装下，到目的地也会被全部烧光，一丁点也不剩。所以，很多人的第一反应都是觉得这个不太可能。</p>
 <p>如果你一开始就觉得不太可能的话，这是很正常的。不过我不知道你还会不会继续思考下去，如果你不想思考下去了，那么我很为你担忧，因为你可能并不是一个不善于思考的人，而是一个畏难的人，还有可能是一个容易放弃的人。这对于你做好 一个需要大量思考的工作的程序员来说可能并不适合。</p>
@@ -6753,9 +6585,6 @@ function showAnswer(){
 <p>好像这样很不错的了，不过还有更好的方法能运更多的媒过去。你知道这个方法吗？可以提示的是，就是以上述这个方法的思路。我先暂时不把答案放上来，你可以自己想想。过两天我把答案放上来。</p>
 <p> </p>
 <p><strong>更新（2011年4月17日）</strong>：大家都很聪明，533是应该是最优解，大家用了很多种方法阐述了这一过程，我最初的想法和朋友<a href="https://coolshell.cn/articles/4429.html#comment-44698" target="_blank">xPacificCoolShell</a>的一致！很高兴看到有更为科学的解法，受教了。另外，还有一些朋友提出火车不能随时随地调头的实际情况，非常不错，所以，以后这题不能用火车运煤了，可能是用马运草更好一点了。;)</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-04-11T09:01:31+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4429.html</guid>
@@ -6980,9 +6809,9 @@ EPRINTONE</pre>
 </h4>
 <p>David Morgan-Mar 发明的用位图编程的<a href="http://www.dangermouse.net/esoteric/piet.html" target="_blank">Piet语言</a>也是BT到了极致，你还记得前两的那个“<a title="我有一个Hello World的C++程序编译不过" href="https://coolshell.cn/articles/4170.html" target="_blank">我的hello world编不过去</a>”文章中的那个强人用windows的画图程序编程的例子吗？呵呵Piet完全是用位图编程的语言。</p>
 <p>下面这个图片就是其Hello World的示例：</p>
-<p style="text-align: center;"><a href="http://www.topdesignmag.com/wp-content/uploads/2011/04/Piet_hello_big.png"><img alt="image placeholder" >
+<p style="text-align: center;"><a href="http://www.topdesignmag.com/wp-content/uploads/2011/04/Piet_hello_big.png"><img alt="image placeholder" ></a></p>
 <p style="text-align: left;">再看看斐波拉契数列的程序示例:</p>
-<p style="text-align: center;"><a href="http://www.dangermouse.net/esoteric/piet/fibbig.gif"><img alt="image placeholder" >
+<p style="text-align: center;"><a href="http://www.dangermouse.net/esoteric/piet/fibbig.gif"><img alt="image placeholder" ></a></p>
 <p>这里还有更多的示例：<a href="http://www.dangermouse.net/esoteric/piet/samples.html">http://www.dangermouse.net/esoteric/piet/samples.html</a></p>
 <h4>
 <span class="ez-toc-section" id="Malbolge"></span><strong>Malbolge</strong><span class="ez-toc-section-end"></span>
@@ -7139,9 +6968,6 @@ use Lingua::Sinica::PerlYuYan;
 <p>看过这些，我我还有什么好说的呢，什么C/C++/Java，神马都是浮云了……</p>
 <div><span style="font-family: Simsun; line-height: normal; font-size: medium;">(全文完) </span></div>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-04-13T08:34:50+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4458.html</guid>
@@ -7237,7 +7063,6 @@ use Lingua::Sinica::PerlYuYan;
 <p>这位有很不错的技术能力的人，看来并不适合做一个面试官，因为他面试的东西都只在知识层次，而且这位面试官有强烈的喜好和倾向，所以，他必然会错过那些有能力但并不合他口味的人。</p>
 <p>哎，面对这样的面试官，大家伤不起啊！</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2011-04-20T08:35:07+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4490.html</guid>
@@ -7264,7 +7089,7 @@ use Lingua::Sinica::PerlYuYan;
 <h4>操作，知识，经验，能力</h4>
 <p>我们有很多的面试官似乎分不清，什么是操作能力，什么是知识，什么是经验，什么是能力，这导致了我们的面试官经常错误地对面试者下结论，我认为分不清这些事的人是没有资格做面试官的。所以，我有必要在这里把这个问题先讲清楚。</p>
 <p><span id="more-4506"></span></p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <ul>
 <li>
 <strong>操作</strong>。我们的面试官分不清楚什么是操作技能，什么是知识，他们甚至认为操作技能就是知识甚至经验。比如他们会 问如下的问题，请问Java中的 final是什么意思？怎么查看进程的CPU利用率？怎么编写一个管道程序？怎么查看进程的程序路径？VI中的拷贝粘贴命令是什么？包括面向对象的XX模 式是什么。等等。我以为，<strong>这些能够通过查况相关操作手册或是能够google到的东西只能说明这个人的操作技术，并不能说明他有知识或有经验</strong>。</li>
@@ -7327,9 +7152,6 @@ use Lingua::Sinica::PerlYuYan;
 <p>（末完，<a title="再谈“我是怎么招聘程序员的”（下）" href="https://coolshell.cn/articles/4490.html" target="_blank">请参看下篇</a>）</p>
 <p style="text-align: right;"><a title="再谈“我是怎么招聘程序员的”（下）" href="https://coolshell.cn/articles/4490.html" target="_blank"><strong>再谈“我是怎么招聘程序员的”（下）&gt;&gt;&gt;</strong></a></p>
 <p><span style="color: #ff0000;"><strong>（请勿用于商业用途，转载时请注明作者和出处）</strong></span></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-04-20T08:36:55+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4506.html</guid>
@@ -7561,7 +7383,6 @@ use Lingua::Sinica::PerlYuYan;
 </ol>
 <p>我相信可能还会有其实一些原则，欢迎大家提供。</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2011-04-25T08:24:18+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4535.html</guid>
@@ -7634,7 +7455,6 @@ use Lingua::Sinica::PerlYuYan;
 <p><strong>参考引用</strong></p>
 <p>[1] <em style="margin: 0px; padding: 0px;">HipHop for PHP</em>: <a href="https://developers.facebook.com/blog/post/358">http://developers.facebook.com/blog/post/358</a><br style="margin: 0px; padding: 0px;">[2] <em style="margin: 0px; padding: 0px;">Thrift</em>: <a href="https://thrift.apache.org/">http://thrift.apache.org/</a><br style="margin: 0px; padding: 0px;">[3] <em style="margin: 0px; padding: 0px;">Memcached</em>: <a href="https://memcached.org/">http://memcached.org/</a><br style="margin: 0px; padding: 0px;">[4] <em style="margin: 0px; padding: 0px;">Cassandra</em>: <a href="https://cassandra.apache.org/">http://cassandra.apache.org/</a><br style="margin: 0px; padding: 0px;">[5] <em style="margin: 0px; padding: 0px;">HBase</em>: <a href="https://hbase.apache.org/">http://hbase.apache.org/</a><br style="margin: 0px; padding: 0px;">[6] <em style="margin: 0px; padding: 0px;">Scribe</em>: <a href="https://github.com/facebook/scribe">https://github.com/facebook/scribe</a><br style="margin: 0px; padding: 0px;">[7] <em style="margin: 0px; padding: 0px;">Scribe-HDFS</em>: <a href="https://hadoopblog.blogspot.com/2009/06/hdfs-scribe-integration.html">http://hadoopblog.blogspot.com/2009/06/hdfs-scribe-integration.html</a><br style="margin: 0px; padding: 0px;">[8] <em style="margin: 0px; padding: 0px;">BigPipe</em>: <a href="https://www.facebook.com/notes/facebook-engineering/bigpipe-pipelining-web-pages-for-high-performance/389414033919">http://www.facebook.com/notes/facebook-engineering/bigpipe-pipelining-web-pages-for-high-performance/389414033919</a><br style="margin: 0px; padding: 0px;">[9] <em style="margin: 0px; padding: 0px;">Varnish Cache</em>: <a href="https://www.varnish-cache.org/">http://www.varnish-cache.org/</a><br style="margin: 0px; padding: 0px;">[10] <em style="margin: 0px; padding: 0px;">Facebook goes for Varnish</em>: <a href="https://www.varnish-software.com/customers/facebook">http://www.varnish-software.com/customers/facebook</a><br style="margin: 0px; padding: 0px;">[11] <em style="margin: 0px; padding: 0px;">Needle in a haystack</em>: efficient storage of billions of photos: <a href="https://www.facebook.com/note.php?note_id=76191543919">http://www.facebook.com/note.php?note_id=76191543919</a><br style="margin: 0px; padding: 0px;">[12] <em style="margin: 0px; padding: 0px;">Scaling the Messages Application Back End</em>: <a href="https://www.facebook.com/note.php?note_id=10150148835363920">http://www.facebook.com/note.php?note_id=10150148835363920</a><br style="margin: 0px; padding: 0px;">[13] <em style="margin: 0px; padding: 0px;">The Underlying Technology of Messages</em>: <a href="https://www.facebook.com/note.php?note_id=454991608919">https://www.facebook.com/note.php?note_id=454991608919</a><br style="margin: 0px; padding: 0px;">[14] <em style="margin: 0px; padding: 0px;">The Underlying Technology of Messages Tech Talk</em>: <a href="https://www.facebook.com/video/video.php?v=690851516105">http://www.facebook.com/video/video.php?v=690851516105</a><br style="margin: 0px; padding: 0px;">[15] <em style="margin: 0px; padding: 0px;">Facebook’s typeahead search architecture</em>: <a href="https://www.facebook.com/video/video.php?v=432864835468">http://www.facebook.com/video/video.php?v=432864835468</a><br style="margin: 0px; padding: 0px;">[16] <em style="margin: 0px; padding: 0px;">Facebook Chat</em>: <a href="https://www.facebook.com/note.php?note_id=14218138919">http://www.facebook.com/note.php?note_id=14218138919</a><br style="margin: 0px; padding: 0px;">[17] <em style="margin: 0px; padding: 0px;">Who has the most Web Servers?</em>: <a href="http://www.datacenterknowledge.com/archives/2009/05/14/whos-got-the-most-web-servers/">http://www.datacenterknowledge.com/archives/2009/05/14/whos-got-the-most-web-servers/</a><br style="margin: 0px; padding: 0px;">[18] B<em style="margin: 0px; padding: 0px;">uilding Efficient Data Centers with the Open Compute Project</em>: <a href="https://www.facebook.com/note.php?note_id=10150144039563920">http://www.facebook.com/note.php?note_id=10150144039563920</a><br style="margin: 0px; padding: 0px;">[19] <em style="margin: 0px; padding: 0px;">Open Compute Project</em>: <a href="http://opencompute.org/">http://opencompute.org/</a><br style="margin: 0px; padding: 0px;">[20] <em style="margin: 0px; padding: 0px;">Facebook’s architecture presentation at Devoxx 2010</em>: <a href="http://www.devoxx.com">http://www.devoxx.com</a><br style="margin: 0px; padding: 0px;">[21] <em style="margin: 0px; padding: 0px;">Scaling Facebook to 500 millions users and beyond</em>: <a href="https://www.facebook.com/note.php?note_id=409881258919">http://www.facebook.com/note.php?note_id=409881258919</a></p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2011-04-25T13:39:26+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4549.html</guid>
@@ -7729,9 +7549,6 @@ use Lingua::Sinica::PerlYuYan;
 <p>把自己对待遇和职位的那个目标放在心里，踏踏实实做好今天的事，炼好自己的内功，注重经验的积累和总结，等待一个能让你量变引发质变的机会，用你的能力抓住它不要放手，你会发现你的路就在前方，通往这条路的门不知不觉已经开了。功到自然成，水到渠成。</p>
 <p>以上是我的一些建议，不一定对，其可能因为我的个人经历有局限，还希望听道大家的讨论和指点。</p>
 <p><span style="color: #cc0000; font-size: 14px;"><strong>（请勿用于商业用途，转载时请注明作者和出处）</strong></span></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-04-26T13:29:44+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4561.html</guid>
@@ -7822,9 +7639,6 @@ index 86d1ad4..3b6a9d5 100644
 <p style="text-align: left;"> </p>
 <p style="text-align: left;"><span style="color: #cc0000; font-size: 14px;"><strong>（请勿用于商业用途，转载时请注明作者和出处）</strong></span></p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-04-27T08:39:26+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4576.html</guid>
@@ -8005,7 +7819,6 @@ index 86d1ad4..3b6a9d5 100644
 <a href="http://cloudharmony.com/b/2011/04/unofficial-ec2-outage-postmortem-sky-is.html">An unofficial EC2 outage postmortem – the sky is not falling</a> from CloudHarmony</li>
 </ul>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2011-04-27T22:49:07+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4601.html</guid>
@@ -8017,11 +7830,11 @@ index 86d1ad4..3b6a9d5 100644
 <content><![CDATA[ 
 <p>最近，Amazon的新闻比较多，除了<a title="关于Amazon云宕机的网贴收集" href="https://coolshell.cn/articles/4601.html" target="_blank">Amazon的云平台宕机</a>外，还有一个被热炒的新闻是在Amazon的书店里，有一本书要买$23,698,655.93美元，相当于1亿5千万人民币（如下图所示），这个事情是由UC Berkeley的生物学家Michael Eisen发现的，然后他在他的博客上写了<a title="Amazon’s $23,698,655.93 book about flies" href="http://www.michaeleisen.org/blog/?p=358" target="_blank">一篇文章来说明这个事情</a>。</p>
 <p>这本书是1992年，现在绝版了，生物学家决定上Amazon找一下，结果看到了有两本新书，还有一些二手的，二手书价比较正常，但是那两个新书的价都上了百万。这个生物学家还写了邮件给原作者和原作者开了玩笑。呵呵。</p>
-<p style="text-align: center;"><img alt="image placeholder" >
+<p style="text-align: center;"><img alt="image placeholder" ></p>
 <p>一般人可能就把这个事当成个笑话了，不过，教授就是教授，它还认真的研究了一下为什么会这样。</p>
 <p><span id="more-4605"></span></p>
 <p>首先，这个不是Amazon的订价的问题，这是Amazon的第三方商户平台两个商户报价，一个商户叫profnath，另一个商户叫bordeebook。我们的生物学教授观察这两个商户的书价了几天，看到了下面的结果：</p>
-<p style="text-align: center;"><img alt="image placeholder" >
+<p style="text-align: center;"><img alt="image placeholder" ></p>
 <p>从上面的表中，我们可以看到，profnath商户的价格总是bordeebook的99.83%，而bordeebook的总是比profnath的高27.059%，很明显，这两个商户用的是程序在自动定价——“自动竞价”。</p>
 <ul>
 <li>profnath商户想把书买出去，所以，其订价要比最高价要低一些（99.83%），这个很容易理解。</li>
@@ -8041,7 +7854,6 @@ index 86d1ad4..3b6a9d5 100644
 </ul>
 <p>最后，这本书的网址在这里《<a href="https://www.amazon.com/gp/offer-listing/0632030488/ref=dp_olp_0?ie=UTF8&amp;redirect=true&amp;qid=1303712892&amp;sr=8-1&amp;condition=all" target="_blank">The Making of a Fly: The Genetics of Animal Design</a>》，你可以看到价格又在攀升了，昨天我看的是200多美，我写这篇文章此时的价格是近1000美金了。呵呵。</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2011-04-28T12:41:41+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4605.html</guid>
@@ -8069,7 +7881,6 @@ index 86d1ad4..3b6a9d5 100644
 <p>在兼容老代码这一头，我们已经有了一些行动。微软在 Windows 7 中提供一个称为<a href="https://msdn.microsoft.com/en-us/library/dd627187%28v=vs.85%29.aspx" target="_blank">用户模式调度 </a>(UMS) 的功能。UMS 可以将内核模式的线程转换为用户模式线程，而应用程序可以自己提供一个 UMS 调度器来调度它们。这意味着，我们现在有机会重载掉系统调度器的默认行为，而根据应用自身的特点给出更合理的调度安排来。这个功能可以用在构造更容易使用的并发模型上，这样开发的模型可以与老代码兼容（但 UMS 有一个让人迷惑的限制：只能用在64bit 的Windows 7 版本上）。</p>
 <p>同样地，在推广新技术方面，现在也有了很多成果。除了角色模型外，事务性内存(这又是一种避免竞争条件，从而避免加锁的方法)正在研究中；CSP 已经有了数个实现（如由 Kent 大学开发，针对 Java 的 <a href="http://www.cs.kent.ac.uk/projects/ofa/jcsp/" target="_blank">JCSP</a>），同时还有针对 CSP 的模型检证工具；至于 FP，最近因为人们认为 Web 系统的建模可以在函数式编程范式中更好的表达，FP 正在唤起人们的注意。我们缺的只剩下新技术的成功应用范例（实际上，前面的技术并不是没有成功范例，我们缺的是经验能够大规模运用的范例 ），以及一支理解这些技术的程序员大军了。对于这后一条，我甚至想，既然多线程编程唯一”容易”的事情是写代码，何不做出一种工具来让程序员们可以用写顺序程序的思维来在这些新模型中编写程序呢？这样的工具会帮助程序员利用线性程序的思维来理解代码，但是同时又让人注意到自己的改动正在影响系统的哪一部分。如果新模型的代码变得好理解了，也许更多的人会使用它们。</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2011-05-03T10:23:27+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4626.html</guid>
@@ -8081,10 +7892,10 @@ index 86d1ad4..3b6a9d5 100644
 <content><![CDATA[ 
 <p>你知道这个世上有多少种开源软件的许可证吗？GPL，BSD，MIT，Apache？GNU上有个网页，上面<a href="https://www.gnu.org/licenses/license-list.html" target="_blank">记录了几乎所有的开源软件的许可证</a>，真TMD的多，有开源的，有商用的，有软件的，有文档的，多得你都不想看了，天杀的，程序员们还真能鼓捣啊。不过，主流的也就几种——<a href="https://www.gnu.org/licenses/gpl.html" target="_blank">GPL</a><a href="https://coolshell.cn/wp-content/uploads/2011/05/OSS-License.jpg"></a>、<a href="https://en.wikipedia.org/wiki/BSD_licenses">BSD</a>、<a href="https://en.wikipedia.org/wiki/MIT_License">MIT</a>、<a href="https://www.mozilla.org/MPL/">Mozilla</a>、<a href="https://www.apache.org/licenses/LICENSE-2.0">Apache</a>等等。</p>
 <p>那么，你知道怎么区别他们吧？怎么选择他们吗？这里有一张比较复杂的图，在调侃这些纷繁的许可证（我不翻译了，这个图属于是发泄不满）</p>
-<p style="text-align: center;"><a href="https://coolshell.cn/wp-content/uploads/2011/05/OSS-License.jpg"><img alt="image placeholder" >
+<p style="text-align: center;"><a href="https://coolshell.cn/wp-content/uploads/2011/05/OSS-License.jpg"><img alt="image placeholder" ></a></p>
 <p>下面是另一个图，这个图<a href="http://pbagwl.com/post/5078147450/description-of-popular-software-licenses" target="_blank">来自这里</a><a href="https://coolshell.cn/wp-content/uploads/2011/05/Infographic-of-popular-software-licenses.jpg"></a>，这个图并不恶搞，但其非常简单地说明了如何选择一个开源的许可证：</p>
 <p><span id="more-4657"></span></p>
-<p style="text-align: center;"><a href="https://coolshell.cn/wp-content/uploads/2011/05/Infographic-of-popular-software-licenses.jpg"><img alt="image placeholder" >
+<p style="text-align: center;"><a href="https://coolshell.cn/wp-content/uploads/2011/05/Infographic-of-popular-software-licenses.jpg"><img alt="image placeholder" ></a></p>
 <p style="text-align: left;">最后，正如<a title="BT雷人的程序语言（大全）" href="https://coolshell.cn/articles/4458.html" target="_blank">那些BT雷人的程序语言</a>一样，我想介绍两个比较独特的开源软件许可证给你，以辉映本文的标题——</p>
 <h4 style="text-align: left;">1、WTFPL</h4>
 <p style="text-align: left;"><a href="http://sam.zoy.org/wtfpl/COPYING" target="_blank">WTFPL</a>全称 What The Fuck Public License，这个许可证单从名字上就那么NB了，其许可证如下，相当的短，完全的自由，你的开源软件有自信用这个许可证吗？</p>
@@ -8110,9 +7921,6 @@ index 86d1ad4..3b6a9d5 100644
 <p style="text-align: left;">也就是项目中扯淡的人。这个许可证最NB的地方在于其不限制软件的版权，而是限制了软件开发中的人的行为。我真是太喜欢这个许可证了。（请参看其第四节Limitation ）</p>
 <p style="text-align: left;">（全文完）</p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-05-04T08:25:17+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4657.html</guid>
@@ -8237,7 +8045,6 @@ index 86d1ad4..3b6a9d5 100644
 <li>Huffman Coding 哈夫曼编码 ( <a href="http://www.cs.usfca.edu/~galles/visualization/java/visualization.html">java</a> 版本演示)</li>
 </ul>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2011-05-04T14:26:46+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4671.html</guid>
@@ -8284,12 +8091,12 @@ index 86d1ad4..3b6a9d5 100644
 <tr>
 <td>
 <a href="http://cs.simpson.edu/?q=pygame_base_template.py">pygame_base_template.py</a> – 开启一个黑的 pygame 窗口。当你要写一个新的代码时，你可以使用这个示例的代码初始化你的程序。</td>
-<td><a href="http://cs.simpson.edu/files/python_examples/screenshots/pygame_base_template.png"><img alt="image placeholder" >
+<td><a href="http://cs.simpson.edu/files/python_examples/screenshots/pygame_base_template.png"><img alt="image placeholder" ></a></td>
 </tr>
 <tr>
 <td>
 <a href="http://cs.simpson.edu/?q=simple_graphics_demo.py">simple_graphics_demo.py</a> – 作图，画一些简单的图形。</td>
-<td><a href="http://cs.simpson.edu/files/python_examples/screenshots/simple_graphics_demo.png"><img alt="image placeholder" >
+<td><a href="http://cs.simpson.edu/files/python_examples/screenshots/simple_graphics_demo.png"><img alt="image placeholder" ></a></td>
 </tr>
 </tbody>
 </table>
@@ -8299,12 +8106,12 @@ index 86d1ad4..3b6a9d5 100644
 <tr>
 <td>
 <a href="http://cs.simpson.edu/?q=functions_and_graphics.py">functions_and_graphics.py</a> – 图一些雪人。</td>
-<td><a href="http://cs.simpson.edu/files/python_examples/screenshots/functions_and_graphics.png"><img alt="image placeholder" >
+<td><a href="http://cs.simpson.edu/files/python_examples/screenshots/functions_and_graphics.png"><img alt="image placeholder" ></a></td>
 </tr>
 <tr>
 <td>
 <a href="http://cs.simpson.edu/?q=animating_snow.py">animating_snow.py</a> – 下雪动画。</td>
-<td><a href="http://cs.simpson.edu/files/python_examples/screenshots/animating_snow.png"><img alt="image placeholder" >
+<td><a href="http://cs.simpson.edu/files/python_examples/screenshots/animating_snow.png"><img alt="image placeholder" ></a></td>
 </tr>
 <tr>
 <td>
@@ -8312,17 +8119,17 @@ index 86d1ad4..3b6a9d5 100644
 <p><a href="http://cs.simpson.edu/?q=move_mouse.py">move_mouse.py</a> – 使用鼠标移动一个图形</p>
 <p><a href="http://cs.simpson.edu/?q=move_game_controller.py">move_game_controller.py</a> – 使用游戏手柄移动一个图形</p>
 </td>
-<td><a href="http://cs.simpson.edu/files/python_examples/screenshots/move_keyboard.png"><img alt="image placeholder" >
+<td><a href="http://cs.simpson.edu/files/python_examples/screenshots/move_keyboard.png"><img alt="image placeholder" ></a></td>
 </tr>
 <tr>
 <td>
 <a href="http://cs.simpson.edu/?q=bitmapped_graphics.py">bitmapped_graphics.py</a> – 显示一些图片（png, jpb），并加入一些声音。</td>
-<td><a href="http://cs.simpson.edu/files/python_examples/screenshots/bitmapped_graphics.png"><img alt="image placeholder" >
+<td><a href="http://cs.simpson.edu/files/python_examples/screenshots/bitmapped_graphics.png"><img alt="image placeholder" ></a></td>
 </tr>
 <tr>
 <td>
 <a href="http://cs.simpson.edu/?q=array_backed_grid.py">array_backed_grid.py</a> – 一个网格，可以用来开发一些棋类的游戏。</td>
-<td><a href="http://cs.simpson.edu/files/python_examples/screenshots/array_backed_grid.png"><img alt="image placeholder" >
+<td><a href="http://cs.simpson.edu/files/python_examples/screenshots/array_backed_grid.png"><img alt="image placeholder" ></a></td>
 </tr>
 </tbody>
 </table>
@@ -8334,17 +8141,17 @@ index 86d1ad4..3b6a9d5 100644
 <tr>
 <td>
 <a href="http://cs.simpson.edu/?q=sprite_collect_blocks.py">sprite_collect_blocks.py</a> – 使用鼠标移动一个小点</td>
-<td><a href="http://cs.simpson.edu/files/python_examples/screenshots/sprite_collect_blocks.png"><img alt="image placeholder" >
+<td><a href="http://cs.simpson.edu/files/python_examples/screenshots/sprite_collect_blocks.png"><img alt="image placeholder" ></a></td>
 </tr>
 <tr>
 <td>
 <a href="http://cs.simpson.edu/?q=sprite_collect_circle.py">sprite_collect_circle.py</a> – 和上面的示例一样，只不过是圆点。</td>
-<td><a href="http://cs.simpson.edu/files/python_examples/screenshots/sprite_collect_circle.png"><img alt="image placeholder" >
+<td><a href="http://cs.simpson.edu/files/python_examples/screenshots/sprite_collect_circle.png"><img alt="image placeholder" ></a></td>
 </tr>
 <tr>
 <td>
 <a href="http://cs.simpson.edu/?q=sprite_collect_graphic.py">sprite_collect_graphic.py</a> – 和上面的示例一样，只不过是图片。</td>
-<td><a href="http://cs.simpson.edu/files/python_examples/screenshots/sprite_collect_graphic.png"><img alt="image placeholder" >
+<td><a href="http://cs.simpson.edu/files/python_examples/screenshots/sprite_collect_graphic.png"><img alt="image placeholder" ></a></td>
 </tr>
 <tr>
 <td>
@@ -8353,12 +8160,12 @@ index 86d1ad4..3b6a9d5 100644
 <p><a href="http://cs.simpson.edu/?q=move_sprite_keyboard_smooth.py">move_sprite_keyboard_smooth.py</a> – 用键盘移动一个点（平滑式的）.</p>
 <p><a href="http://cs.simpson.edu/?q=move_sprite_game_controller.py">move_sprite_game_controller.py</a> – 用游戏手柄移动一个点</p>
 </td>
-<td><a href="http://cs.simpson.edu/files/python_examples/screenshots/move_sprite_mouse.png"><img alt="image placeholder" >
+<td><a href="http://cs.simpson.edu/files/python_examples/screenshots/move_sprite_mouse.png"><img alt="image placeholder" ></a></td>
 </tr>
 <tr>
 <td>
 <a href="http://cs.simpson.edu/?q=move_with_walls_example.py">move_with_walls_example.py</a> – 移动一个点，但是会被墙阻止。</td>
-<td><a href="http://cs.simpson.edu/files/python_examples/screenshots/move_with_walls_example.png"><img alt="image placeholder" >
+<td><a href="http://cs.simpson.edu/files/python_examples/screenshots/move_with_walls_example.png"><img alt="image placeholder" ></a></td>
 </tr>
 </tbody>
 </table>
@@ -8370,23 +8177,23 @@ index 86d1ad4..3b6a9d5 100644
 <tr>
 <td>
 <a href="http://cs.simpson.edu/?q=bounce_ball_with_paddle.py">bounce_ball_with_paddle.py</a> – 两个玩家玩对碰球游戏，需要两个手柄。</td>
-<td><a href="http://cs.simpson.edu/files/python_examples/screenshots/bounce_ball_with_paddle.png"><img alt="image placeholder" >
+<td><a href="http://cs.simpson.edu/files/python_examples/screenshots/bounce_ball_with_paddle.png"><img alt="image placeholder" ></a></td>
 </tr>
 <tr>
 <td>
 <a href="http://cs.simpson.edu/?q=breakout_simple.py">breakout_simple.py</a> – 一个简单的游戏，显示 “Game Over” 信息.</td>
-<td><a href="http://cs.simpson.edu/files/python_examples/screenshots/breakout_simple.png"><img alt="image placeholder" >
+<td><a href="http://cs.simpson.edu/files/python_examples/screenshots/breakout_simple.png"><img alt="image placeholder" ></a></td>
 </tr>
 <tr>
 <td>一个学生的作业. <a href="http://cs.simpson.edu/?q=node/62">Spring 2011</a>
 </td>
-<td><a href="http://cs.simpson.edu/?q=node/62"><img alt="image placeholder" >
+<td><a href="http://cs.simpson.edu/?q=node/62"><img alt="image placeholder" ></a></td>
 </tr>
 <tr>
 <td>另一个学生的作业.<a href="http://cs.simpson.edu/21"> Fall 2010</a>
 <p><a href="http://cs.simpson.edu/?q=node/23">Download games</a> – .</p>
 </td>
-<td><a href="http://cs.simpson.edu/?q=node/21"><img alt="image placeholder" >
+<td><a href="http://cs.simpson.edu/?q=node/21"><img alt="image placeholder" ></a></td>
 </tr>
 </tbody>
 </table>
@@ -8424,7 +8231,6 @@ index 86d1ad4..3b6a9d5 100644
 <a href="http://www.pygame.org/docs/">Pygame Documentation</a> – Pygame 文档</li>
 </ul>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2011-05-18T08:43:58+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4710.html</guid>
@@ -8454,9 +8260,6 @@ index 86d1ad4..3b6a9d5 100644
 <li>真是Techno-Geek。</li>
 </ol>
 <p> </p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-05-19T08:35:08+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4722.html</guid>
@@ -8475,7 +8278,7 @@ index 86d1ad4..3b6a9d5 100644
 </ol>
 <p>我把文章节选了一些，也并没有完全翻译，简译一下，也加入了一些自己的调侃。对于有下面这些编程习惯的朋友，请大家对号入座。另外，维护程序的朋友们，你们死定了！！</p>
 <blockquote>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >If builders built buildings the way programmers write programs, then the first woodpecker that came along would destroy civilization. （如果建筑师盖房子就像程序员写程序一样，那么，第一只到来的啄木鸟就能毁掉我们的文明）</p>
 <p>~ Gerald Weinberg (born: 1933-10-27 age: 77) <a href="http://www.geraldmweinberg.com/Site/Home.html">Weinberg’s Second Law</a></p>
 </blockquote>
 <div id="ez-toc-container" class="ez-toc-v2_0_17 counter-hierarchy counter-decimal ez-toc-grey">
@@ -8743,7 +8546,6 @@ void g(std::string str);
 <span class="ez-toc-section" id="Write_Everywhere_Read_Nowhere"></span>Write Everywhere, Read Nowhere<span class="ez-toc-section-end"></span>
 </h4>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2011-06-03T08:52:42+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4758.html</guid>
@@ -8767,7 +8569,7 @@ void g(std::string str);
 <p>为什么需要幂等性呢？我们先从一个例子说起，假设有一个从账户取钱的远程API（可以是HTTP的，也可以不是），我们暂时用类函数的方式记为</p>
 <p><code data-enlighter-language="c" class="EnlighterJSRAW">bool withdraw(account_id, amount); </code></p>
 <p>withdraw的语义是从account_id对应的账户中扣除amount数额的钱；如果扣除成功则返回true，账户余额减少amount；如果扣除失败则返回false，账户余额不变。值得注意的是：和本地环境相比，我们不能轻易假设分布式环境的可靠性。一种典型的情况是withdraw请求已经被服务器端正确处理，但服务器端的返回结果由于网络等原因被掉丢了，导致客户端无法得知处理结果。如果是在网页上，一些不恰当的设计可能会使用户认为上一次操作失败了，然后刷新页面，这就导致了withdraw被调用两次，账户也被多扣了一次钱。如图1所示：</p>
-<p style="text-align: center;"><a href="https://images.cnblogs.com/cnblogs_com/weidagang2046/201106/201106042051027575.png"><img alt="image placeholder" >
+<p style="text-align: center;"><a href="https://images.cnblogs.com/cnblogs_com/weidagang2046/201106/201106042051027575.png"><img alt="image placeholder" ></a></p>
 <p style="text-align: center;"><a href="https://images.cnblogs.com/cnblogs_com/weidagang2046/201106/201106042051027575.png"></a>图1</p>
 <p>这个问题的解决方案一是采用分布式事务，通过引入支持分布式事务的中间件来保证withdraw功能的事务性。分布式事务的优点是对于调用者很简单，复杂性都交给了中间件来管理。缺点则是一方面架构太重量级，容易被绑在特定的中间件上，不利于异构系统的集成；另一方面分布式事务虽然能保证事务的ACID性质，而但却无法提供性能和可用性的保证。</p>
 <p>另一种更轻量级的解决方案是幂等设计。上面的withdraw显然不满足幂等性，但我们可以一些技巧将它变成幂等的，比如：</p>
@@ -8777,7 +8579,7 @@ void g(std::string str);
 bool idempotent_withdraw(ticket_id, account_id, amount);</pre>
 <p>create_ticket的语义是获取一个服务器端生成的唯一的处理号ticket_id，它将用于标识后续的操作。idempotent_withdraw和withdraw的区别在于关联了一个ticket_id，一个ticket_id表示的操作至多只会被处理一次，每次调用都将返回第一次调用时的处理结果。这样，idempotent_withdraw就符合幂等性了，客户端就可以放心地多次调用。</p>
 <p>基于幂等性的解决方案中一个完整的取钱流程被分解成了两个步骤：1.调用create_ticket()获取ticket_id；2.调用idempotent_withdraw(ticket_id, account_id, amount)。虽然create_ticket不是幂等的，但在这种设计下，它对系统状态的影响可以忽略，加上idempotent_withdraw是幂等的，所以任何一步由于网络等原因失败或超时，客户端都可以重试，直到获得结果。如图2所示：</p>
-<p><a href="https://images.cnblogs.com/cnblogs_com/weidagang2046/201106/201106042051059820.png"><img alt="image placeholder" >
+<p><a href="https://images.cnblogs.com/cnblogs_com/weidagang2046/201106/201106042051059820.png"><img alt="image placeholder" ></a></p>
 <p style="text-align: center;">图2</p>
 <p><strong> </strong></p>
 <p>和分布式事务相比，幂等设计的优势在于它的轻量级，容易适应异构环境，以及性能和可用性方面。在某些性能要求比较高的应用，幂等设计往往是唯一的选择。</p>
@@ -8801,9 +8603,6 @@ bool idempotent_withdraw(ticket_id, account_id, amount);</pre>
 <p><strong>参考</strong></p>
 <p><a href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html">RFC 2616, Hypertext Transfer Protocol — HTTP/1.1, Method Definitions</a></p>
 <p><a href="http://devhawk.net/2007/11/09/the-importance-of-idempotence/">The Importance of Idempotence</a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-06-07T08:49:01+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4787.html</guid>
@@ -8843,7 +8642,7 @@ bool idempotent_withdraw(ticket_id, account_id, amount);</pre>
 <h4>
 <span class="ez-toc-section" id="%E5%AD%A6%E4%B9%A0HTML_5%E7%BC%96%E7%A8%8B%E5%92%8C%E8%AE%BE%E8%AE%A1"></span>学习HTML 5编程和设计<span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <ul>
 <li>★ <a href="https://www.html5rocks.com/" target="_blank"><strong>HTML5 Rocks</strong></a> : Major Feature Groups  的学习 HTML5 的资源 (HTML5 演示, 教程 ). <a href="https://code.google.com/p/html5rocks/" target="_blank">源码</a>
 </li>
@@ -8868,7 +8667,7 @@ bool idempotent_withdraw(ticket_id, account_id, amount);</pre>
 <h4>
 <span class="ez-toc-section" id="%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AB%AF%E7%9A%84%E8%BD%AF%E4%BB%B6"></span>服务器端的软件<span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <ul>
 <li>★ <a href="https://nodejs.org/" target="_blank"><strong>Node.js</strong></a> 是服务器端的 JavaScript 环境，其使用了异步事件驱动模式。其让Node.js在很多互联网应用体系结构下获得非常不错的性能。 <a href="https://github.com/joyent/node/" target="_blank">源码</a> 和 <a href="http://jsapp.us/" target="_blank">实时演示</a>。</li>
 <li>
@@ -8885,7 +8684,7 @@ bool idempotent_withdraw(ticket_id, account_id, amount);</pre>
 <h4>
 <span class="ez-toc-section" id="PHP_%E6%A1%86%E6%9E%B6%E5%92%8C%E5%B7%A5%E5%85%B7"></span>PHP 框架和工具<span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <ul>
 <li>★ <a href="https://wordpress.org/download/" target="_blank"><strong>WordPress</strong></a> 是一个基于博客系统的开源软件。参看《<a title="WordPress是怎么赢的？" href="https://coolshell.cn/articles/3716.html" target="_blank">WordPress是怎么赢的？</a>》</li>
 <li>
@@ -8908,7 +8707,7 @@ bool idempotent_withdraw(ticket_id, account_id, amount);</pre>
 <h4>
 <span class="ez-toc-section" id="%E6%95%B0%E6%8D%AE%E5%BA%93"></span>数据库<span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <ul>
 <li>★ <a href="https://couchdb.apache.org/" target="_blank"><strong>Apache CouchDB</strong></a> 是一个面向文档的数据库管理系统。它提供以JSON 作为数据格式的REST 接口来对其进行操作，并可以通过视图来操纵文档的组织和呈现。.<a href="https://github.com/apache/couchdb" target="_blank">源码</a>.</li>
 <li>
@@ -8922,7 +8721,7 @@ bool idempotent_withdraw(ticket_id, account_id, amount);</pre>
 <h4>
 <span class="ez-toc-section" id="API_%E5%92%8C_%E5%9C%A8%E7%BA%BF%E6%95%B0%E6%8D%AE"></span>API 和 在线数据<span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <ul>
 <li>
 <a href="http://www.programmableweb.com/apis/directory" target="_blank"><strong>ProgrammableWeb</strong></a>, 最流行的Web Services 和 API 目录大全。</li>
@@ -8937,7 +8736,7 @@ bool idempotent_withdraw(ticket_id, account_id, amount);</pre>
 <h4>
 <span class="ez-toc-section" id="%E5%9C%A8%E7%BA%BF%E4%BB%A3%E7%A0%81%E5%92%8C%E5%AA%92%E4%BD%93%E7%BC%96%E8%BE%91%E5%99%A8"></span>在线代码和媒体编辑器<span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <ul>
 <li>★ <a href="http://www.coderun.com/" target="_blank"><strong>CodeRun Studio</strong></a>一个基于JavaScript语言开发的跨平台的集成开发环境，它立足于云计算的设计思路，方便开发者在浏览器端便可以轻松开发、调试和部署网络应用程序。（参看《<a rel="bookmark" href="https://coolshell.cn/articles/1883.html" target="_blank">Coderun.com 在线开发IDE</a>》）</li>
 <li>
@@ -8965,7 +8764,7 @@ bool idempotent_withdraw(ticket_id, account_id, amount);</pre>
 <h4>
 <span class="ez-toc-section" id="%E4%BB%A3%E7%A0%81%E8%B5%84%E6%BA%90%E5%92%8C%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6"></span>代码资源和版本控制<span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <ul>
 <li>★ <a href="https://github.com/" target="_blank"><strong>GitHub</strong></a> 是一个用于使用Git版本控制系统的项目的基于互联网的存取服务。</li>
 <li>
@@ -8980,7 +8779,7 @@ bool idempotent_withdraw(ticket_id, account_id, amount);</pre>
 <h4>
 <span class="ez-toc-section" id="JavaScript_%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8%E6%A1%86%E6%9E%B6"></span>JavaScript 桌面应用框架<span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <ul>
 <li>★ <a href="https://jquery.com/" target="_blank"><strong>jQuery</strong></a> 是一个快速、简单的JavaScript library， 它简化了HTML 文件的traversing，事件处理、动画、Ajax 互动，从而方便了网页制作的快速发展。  <a href="https://github.com/jquery/jquery" target="_blank">源码</a>, <a href="https://api.jquery.com/" target="_blank">API</a>, <a href="https://api.jquery.com/browser/" target="_blank">API浏览</a>, <a href="http://interface.eyecon.ro/docs/animate" target="_blank">很不错的文档</a>.</li>
 <li>★ 官方的 <a href="https://jqueryui.com/" target="_blank"><strong>jQuery User Interface (UI) library</strong></a> (演示和文档). <a href="https://github.com/jquery/jquery-ui%20" target="_blank">源码</a>,<a href="https://jqueryui.com/themeroller/" target="_blank">Themes Roller</a>, <a href="https://jqueryui.com/download" target="_blank">Download</a>.</li>
@@ -8999,7 +8798,7 @@ bool idempotent_withdraw(ticket_id, account_id, amount);</pre>
 <h4>
 <span class="ez-toc-section" id="JavaScript_%E7%A7%BB%E5%8A%A8%E5%92%8C%E8%A7%A6%E6%91%B8%E6%A1%86%E6%9E%B6"></span>JavaScript 移动和触摸框架<span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <ul>
 <li>★ <a href="https://jquerymobile.com/" target="_blank"><strong>jQuery Mobile</strong></a> : 是 jQuery 在手机上和平板设备上的版本。jQuery Mobile 不仅会给主流移动平台带来jQuery核心库，而且会发布一个完整统一的jQuery移动UI框架。支持全球主流的移动平台。jQuery Mobile开发团队说：能开发这个项目，我们非常兴奋。移动Web太需要一个跨浏览器的框架，让开发人员开发出真正的移动Web网站。我们将尽全力去满足这样的需求。 <a href="https://github.com/jquery/jquery-mobile" target="_blank">Sources</a>.</li>
 <li>
@@ -9016,7 +8815,7 @@ bool idempotent_withdraw(ticket_id, account_id, amount);</pre>
 <h4>
 <span class="ez-toc-section" id="jQuery_%E6%8F%92%E4%BB%B6"></span>jQuery 插件<span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <ul>
 <li>
 <a href="https://imakewebthings.github.com/jquery-waypoints/" target="_blank"><strong>Waypoints</strong></a> 是一个jQuery 用来实现捕获各种滚动事件的插件，例如实现无翻页的内容浏览，或者固定某个元素不让滚动等等。支持主流浏览器版本。</li>
@@ -9073,7 +8872,7 @@ bool idempotent_withdraw(ticket_id, account_id, amount);</pre>
 <h4>
 <span class="ez-toc-section" id="HTML5_%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8"></span>HTML5 视频播放器<span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <ul>
 <li>★ <a href="https://github.com/webmademovies/popcorn-js" target="_blank"><strong>Popcorn.js</strong></a> 是一个HTML5 Video框架，它提供了易于使用的API来同步交互式内容，让操作HTML5 Video元素的属性，方法和事件变得简单易用。 (来自Mozilla)</li>
 <li>
@@ -9084,7 +8883,7 @@ bool idempotent_withdraw(ticket_id, account_id, amount);</pre>
 <h4>
 <span class="ez-toc-section" id="JavaScript_%E9%9F%B3%E9%A2%91%E5%A4%84%E7%90%86%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96%E6%95%88%E6%9E%9C"></span>JavaScript 音频处理与可视化效果<span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <ul>
 <li>★ 使用HTML5 和 Flash, <a href="http://www.schillmania.com/projects/soundmanager2/" target="_blank"><strong>SoundManager V2</strong></a> 只用单一API的提供了可靠，简单和强大的跨平台的音频处理。</li>
 <li>
@@ -9096,7 +8895,7 @@ bool idempotent_withdraw(ticket_id, account_id, amount);</pre>
 <h4>
 <span class="ez-toc-section" id="JavaScript_%E5%9B%BE%E5%BD%A2_%E5%92%8C_3D"></span>JavaScript 图形 和 3D<span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <ul>
 <li>★ <a href="http://processingjs.org/" target="_blank"><strong>Processing.js</strong></a>是一个开放的编程语言，在不使用Flash或Java小程序的前提下, 可以实现程序图像、动画和互动的应用。其使用Web标准，无需任何插件。</li>
 <li>★ Javascript 3D 引擎: <a href="https://github.com/mrdoob/three.js" target="_blank"><strong>ThreeJS</strong></a> 由 Mr Doob 开发，一个轻量级的 3D 引擎，不需要了解细节，傻瓜都能使用。这个引擎可以使用&lt;canvas&gt;, &lt;svg&gt; 和 WebGL.</li>
@@ -9126,7 +8925,7 @@ bool idempotent_withdraw(ticket_id, account_id, amount);</pre>
 <h4>
 <span class="ez-toc-section" id="JavaScript_%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8E%A5%E5%8F%A3_HTML5"></span>JavaScript 浏览器接口 (HTML5)<span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <ul>
 <li>★ <a href="http://www.modernizr.com/" target="_blank"><strong>Modernizr</strong></a> – 是一个专为HTML5 和CSS3 开发的功能检测类库，可以根据浏览器对HTML5 和CSS3 的支持程度提供更加便捷的前端优化方案.<a href="https://github.com/Modernizr/Modernizr" target="_blank">Sources</a>. 一个有用的列表 <a href="https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-browser-Polyfills" target="_blank">cross-browser Polyfills</a>
 </li>
@@ -9146,7 +8945,7 @@ bool idempotent_withdraw(ticket_id, account_id, amount);</pre>
 <h4>
 <span class="ez-toc-section" id="JavaScript_%E5%B7%A5%E5%85%B7"></span>JavaScript 工具<span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <ul>
 <li>★  {{<a href="https://mustache.github.com/" target="_blank"><strong>mustaches</strong></a>}} 小型的 JavaScript 模板引擎。</li>
 <li>
@@ -9167,7 +8966,7 @@ bool idempotent_withdraw(ticket_id, account_id, amount);</pre>
 <h4>
 <span class="ez-toc-section" id="%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%92%8C%E6%A8%A1%E6%8B%9F%E5%99%A8"></span>客户端和模拟器<span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <ul>
 <li>
 <a href="http://browsershots.org/" target="_blank"><strong>BrowserShot</strong></a>, 检查浏览器的兼容性，跨浏览器平器的测试</li>
@@ -9182,7 +8981,7 @@ bool idempotent_withdraw(ticket_id, account_id, amount);</pre>
 <li>★ <a href="https://getfirebug.com/whatisfirebug" target="_blank"><strong>Firebug</strong></a> 与 <strong><a href="https://www.mozilla.com/fr/firefox/" target="_blank">Firefox</a></strong> 集成，可以查看和调试你的Web页面。</li>
 </ul>
 <h3>CSS3 和 字库</h3>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <ul>
 <li>★ <a href="http://www.css3maker.com/" target="_blank"><strong>CSS3 Maker</strong></a> CCS3的生成器</li>
 <li>容易地创建 <strong><a href="http://www.sencha.com/products/animator/" target="_blank">CSS3 animations</a>。</strong> Sencha Animator 是一个桌面应用可以为WebKit浏览器和触摸式移动设备创建 CSS3 animations 。</li>
@@ -9203,7 +9002,7 @@ bool idempotent_withdraw(ticket_id, account_id, amount);</pre>
 <h4>
 <span class="ez-toc-section" id="Website_FULL_%E6%A8%A1%E6%9D%BF"></span>Website (FULL) 模板<span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <ul>
 <li>★ <a href="http://html5boilerplate.com/" target="_blank"><strong>HTML5 Boilerplate</strong></a> 是一个<a href="http://www.mhtml5.com/">HTML5 </a>/ CSS / js模板，是实现跨浏览器正常化、性能优化，稳定的可选功能如跨域Ajax和Flash的最佳实践。 项目的开发商称之为技巧集合，目的是满足您开发一个跨浏览器，并且面向未来的网站的需求。 <a href="https://github.com/paulirish/html5-boilerplate" target="_blank">Sources</a>.</li>
 <li>
@@ -9218,7 +9017,6 @@ bool idempotent_withdraw(ticket_id, account_id, amount);</pre>
 <a href="https://code.google.com/p/gtv-resources/" target="_blank"><strong>Google TV Optimized Templates</strong></a>, 传统电视已经开始和网路融合，但现阶段产业仍然正在摸索之中，为此将来的网页亦会有结构上的改变。<a href="https://code.google.com/p/gtv-resources/">Google TV Optimized Templates</a>是一个用HTML/JavaScript制成的开源软体，一如其名是一个对Google TV作出了最佳化的的网页范本，其特色是以遥控器作为操作的前提，令使用者无需输入任何文字就可以进行控制。未来除了会有专用遥控器外，还会采用智能手机透过W-iFi控制Google TV的方法。Optimized Templates的界面中左方会展示分类，右方会显示该分类下的影片截图，影片播放、切换、全画面表示都可透过键盘上的方向键、Backspace或Enter等键完成，方便今后的网站开发人员借镜。HTML5 版的模板使用了 <a href="https://code.google.com/p/gtv-ui-lib" target="_blank">Google TV UI library</a>, jQuery  和 Closure 。</li>
 </ul>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2011-06-08T08:28:52+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4795.html</guid>
@@ -9290,9 +9088,6 @@ bool idempotent_withdraw(ticket_id, account_id, amount);</pre>
 </ul>
 <p>挺好的，相信你对软件开发又学到了一些东西。</p>
 <p><span style="color: #cc0000;"><strong>（转载时请勿用于商业目的，并请注明作者和出处）</strong></span></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-06-10T08:45:17+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4811.html</guid>
@@ -9304,11 +9099,11 @@ bool idempotent_withdraw(ticket_id, account_id, amount);</pre>
 <content><![CDATA[ 
 <p>一个葡萄牙的学生写了一篇文章 《<a href="http://pedrocr.net/text/how-much-gnu-in-gnu-linux" target="_blank">How much GNU is there in GNU/Linux?</a>》 – GNU/Linux下有多少是GNU的。他的这篇文章主要分布了今年4月份的Ubuntu Natty的Linux分发包。其主要是用代码行来做的分析，其给了两个饼图。</p>
 <p>第一个饼图如下，其指明了各种主流的开源项目组的分布情况。可见GNU只占了8%，当然，GNome也是GNU的，加起来也只有13%，只占整个分发包很少的比重。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>第二个图，作者把GNU的部分拿了出来，再进行了分析：</p>
 <p><span id="more-4826"></span></p>
 <p>在下面这个图中，我们可以看到主要是四大块——gcc, gdb, binutils 和 glibc，所以，作者说，这些东西都不是最终用户需要的，不是每一个用户都是需要搞开发的。所以，如果去除这些，再去除Gnome（这个桌面UI也不是很力），那么GNU的东西几乎没有了。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>所以，作者以此来挑战Richard Stallman提到的 GNU/Linux的这个说法。好像更为好的说法应该叫——</p>
 <p style="text-align: center;"><strong>GNU/KDE/java/xorg/Linux</strong></p>
 <p>我对这篇文章有下述一些感觉：</p>
@@ -9320,7 +9115,6 @@ bool idempotent_withdraw(ticket_id, account_id, amount);</pre>
 <p>老实说，其实叫什么不重要，是GNU/Linux也好，是Ubuntu 也好，还是Android也好，无所谓。Linux的各种分发包中都存在着全世界黑客文化的和开源文化的结晶，每当我看到这样的分布图时（例如：<a title="谁写了Linux" href="https://coolshell.cn/articles/1360.html" target="_blank">是谁写的Linux?</a>），我心中都有一种说不出来的豪情，这难道不真是一种壮举吗？（<a title="Unix传奇(上篇)" href="https://coolshell.cn/articles/2322.html" target="_blank">Unix黑客文化的真正延伸</a>）。</p>
 <p>不管这种方式的软件有没有市场，能不能得到“最终用户”的认可，但这已成为了软件开发的一种精神——那种不分彼此，相互协作的精神，不是吗？</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2011-06-13T08:25:42+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4826.html</guid>
@@ -9519,9 +9313,6 @@ Ailments of Unsuitable Project-Disoriented Software<br>
 <p style="text-align: left;"><span style="font-size: x-small;"> </span></p>
 <div style="text-align: left;"><span style="font-size: x-small;">（全文完）</span></div>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-06-16T08:46:28+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4844.html</guid>
@@ -9546,38 +9337,35 @@ Ailments of Unsuitable Project-Disoriented Software<br>
 <p><span id="more-4875"></span></p>
 <p style="text-align: center;"><a href="https://github.com/MrMEEE/bumblebee/commit/a047be85247755cdbe0acce6#diff-1">https://github.com/MrMEEE/bumblebee/commit/a047be85247755cdbe0acce6#diff-1</a></p>
 <p style="text-align: left;">重点是其中的很多图片——下面的图片众多。</p>
-<p style="text-align: center;"><a href="http://pic003.cnblogs.com/2011/34358/201106/20110620115950761.gif"><img alt="image placeholder" >
-<p style="text-align: center;"><img alt="image placeholder" >
+<p style="text-align: center;"><a href="http://pic003.cnblogs.com/2011/34358/201106/20110620115950761.gif"><img alt="image placeholder" ></a></p>
+<p style="text-align: center;"><img alt="image placeholder" ></p>
 <p style="text-align: center;"><a href="http://pic003.cnblogs.com/2011/34358/201106/20110620115950761.gif"><br>
 </a></p>
-<p style="text-align: center;"><img alt="image placeholder" >
-<p style="text-align: center;"><a href="http://pic003.cnblogs.com/2011/34358/201106/20110620115951580.jpg"><img alt="image placeholder" >
-<p style="text-align: center;"><img alt="image placeholder" >
-<p style="text-align: center;"><img alt="image placeholder" >
-<p style="text-align: center;"><img alt="image placeholder" >
-<p style="text-align: center;"><img alt="image placeholder" >
-<p style="text-align: center;"><a href="http://pic003.cnblogs.com/2011/34358/201106/20110620115954514.jpg"><img alt="image placeholder" >
-<p style="text-align: center;"><a href="http://pic003.cnblogs.com/2011/34358/201106/20110620115958341.jpg"><img alt="image placeholder" >
-<p style="text-align: center;"><a href="http://pic003.cnblogs.com/2011/34358/201106/20110620115958163.jpg"><img alt="image placeholder" >
-<p style="text-align: center;"><a href="http://pic003.cnblogs.com/2011/34358/201106/20110620115959641.jpg"><img alt="image placeholder" >
-<p style="text-align: center;"><img alt="image placeholder" >
-<p style="text-align: center;"><a href="http://pic003.cnblogs.com/2011/34358/201106/20110620120001777.gif"><img alt="image placeholder" >
-<p style="text-align: center;"><img alt="image placeholder" >
-<p style="text-align: center;"><img alt="image placeholder" >
-<p style="text-align: center;"><img alt="image placeholder" >
-<p style="text-align: center;"><img alt="image placeholder" >
-<p style="text-align: center;"><a href="http://pic003.cnblogs.com/2011/34358/201106/20110620120002899.jpg"><img alt="image placeholder" >
-<p style="text-align: center;"><img alt="image placeholder" >
-<p style="text-align: center;"><img alt="image placeholder" >
-<p style="text-align: center;"><a href="http://pic003.cnblogs.com/2011/34358/201106/20110620120002666.jpg"><img alt="image placeholder" >
-<p style="text-align: center;"><a href="http://pic003.cnblogs.com/2011/34358/201106/20110620120003129.jpg"><img alt="image placeholder" >
-<p style="text-align: center;"><a href="http://pic003.cnblogs.com/2011/34358/201106/2011062012000453.jpg"><img alt="image placeholder" >
-<p><img alt="image placeholder" >
+<p style="text-align: center;"><img alt="image placeholder" ></p>
+<p style="text-align: center;"><a href="http://pic003.cnblogs.com/2011/34358/201106/20110620115951580.jpg"><img alt="image placeholder" ></a></p>
+<p style="text-align: center;"><img alt="image placeholder" ></p>
+<p style="text-align: center;"><img alt="image placeholder" ></p>
+<p style="text-align: center;"><img alt="image placeholder" ></p>
+<p style="text-align: center;"><img alt="image placeholder" ></p>
+<p style="text-align: center;"><a href="http://pic003.cnblogs.com/2011/34358/201106/20110620115954514.jpg"><img alt="image placeholder" ></a></p>
+<p style="text-align: center;"><a href="http://pic003.cnblogs.com/2011/34358/201106/20110620115958341.jpg"><img alt="image placeholder" ></a></p>
+<p style="text-align: center;"><a href="http://pic003.cnblogs.com/2011/34358/201106/20110620115958163.jpg"><img alt="image placeholder" ></a></p>
+<p style="text-align: center;"><a href="http://pic003.cnblogs.com/2011/34358/201106/20110620115959641.jpg"><img alt="image placeholder" ></a></p>
+<p style="text-align: center;"><img alt="image placeholder" ></p>
+<p style="text-align: center;"><a href="http://pic003.cnblogs.com/2011/34358/201106/20110620120001777.gif"><img alt="image placeholder" ></a></p>
+<p style="text-align: center;"><img alt="image placeholder" ></p>
+<p style="text-align: center;"><img alt="image placeholder" ></p>
+<p style="text-align: center;"><img alt="image placeholder" ></p>
+<p style="text-align: center;"><img alt="image placeholder" ></p>
+<p style="text-align: center;"><a href="http://pic003.cnblogs.com/2011/34358/201106/20110620120002899.jpg"><img alt="image placeholder" ></a></p>
+<p style="text-align: center;"><img alt="image placeholder" ></p>
+<p style="text-align: center;"><img alt="image placeholder" ></p>
+<p style="text-align: center;"><a href="http://pic003.cnblogs.com/2011/34358/201106/20110620120002666.jpg"><img alt="image placeholder" ></a></p>
+<p style="text-align: center;"><a href="http://pic003.cnblogs.com/2011/34358/201106/20110620120003129.jpg"><img alt="image placeholder" ></a></p>
+<p style="text-align: center;"><a href="http://pic003.cnblogs.com/2011/34358/201106/2011062012000453.jpg"><img alt="image placeholder" ></a></p>
+<p><img alt="image placeholder" ></p>
 <p style="text-align: left;">(全文完)</p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-06-20T08:26:34+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4875.html</guid>
@@ -9674,7 +9462,6 @@ document.body.innerHTML += args[index] + ‘, ‘;<br>
 &gt;++,&gt;,&gt;++++++++[&lt;------&lt;------&gt;&gt;-]<br>
 &lt;&lt;</code></p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2011-06-23T08:43:18+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4883.html</guid>
@@ -9732,7 +9519,6 @@ document.body.innerHTML += args[index] + ‘, ‘;<br>
 <li>相当BS——上不谈业务，下不谈技术，只谈方法论的人和公司，这是绝对的扭曲。</li>
 </ul>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2011-06-27T08:41:23+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4891.html</guid>
@@ -9786,9 +9572,6 @@ int main()
     b();
 }</pre>
 <p>真是可爱的C/C++。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-06-28T11:35:52+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4907.html</guid>
@@ -9807,7 +9590,7 @@ int main()
 <li>21:02，新浪漏洞修补完毕</li>
 </ul>
 <p style="text-align: center;"> </p>
-<figure id="attachment_4915" aria-describedby="caption-attachment-4915" style="width: 583px" class="wp-caption aligncenter"><img alt="image placeholder" >
+<figure id="attachment_4915" aria-describedby="caption-attachment-4915" style="width: 583px" class="wp-caption aligncenter"><img alt="image placeholder" ><figcaption id="caption-attachment-4915" class="wp-caption-text">新浪微博XSS事件</figcaption></figure>
 <p style="text-align: left;"> </p>
 <p style="text-align: left;">在这里，想和大家介绍一下XSS攻击，XSS攻击又叫跨站脚本式攻击，你Google一下可以搜到很多很多的文章。我在这里就简单地说一下。</p>
 <p style="text-align: left;"><span id="more-4914"></span></p>
@@ -9834,9 +9617,6 @@ int main()
 </ul>
 <p style="text-align: left;">（全文完）</p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-06-28T23:10:18+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4914.html</guid>
@@ -10033,9 +9813,6 @@ xml.langs(type:"current"){
 <span class="ez-toc-section" id="%E6%80%BB%E7%BB%93"></span><strong><span style="font-family: 'Lucida Console';">总结</span></strong><span class="ez-toc-section-end"></span>
 </h4>
 <p><span style="font-family: 'Lucida Console';">到这里为止本文篇幅已经很长了，只能列举二进制字节块格式、文本格式和结构化文本格式3种典型的数据格式。实际上，数据亲和力的话题还有很多值得探讨的，比如C#的Linq。本文的探讨算是抛砖引玉，目的在于引起大家注意在比较语言的时候不要忽略了数据亲和力这样一个重要方面。本文的错误或不足，敬请指正，谢谢！</span></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-06-29T08:10:44+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4905.html</guid>
@@ -10073,14 +9850,14 @@ xml.langs(type:"current"){
 </h4>
 <p>Quora只能搜索问题，主题标签，用户名，和主题标题。没有全文搜索，所以，你无法搜索问题和答案的内容。而搜索中使用前缀搜索方式，比如你输入mi，则Microsoft会马上出来。其搜索还会有一些非常简单的模糊匹配的算法。另外，如果有重复的问题，其中一个问题会自动跳转到另一个问题，但是在搜索中还是会出现。搜索中没有拼写检查。</p>
 <p>一开始，他们使用的是一个开源的搜索服务器，叫<a href="http://sphinxsearch.com/">Sphinx</a>。其支持上述的那些功能。现在他们不用这个技术了，因为<a href="https://www.quora.com/What-is-the-best-open-source-solution-for-implementing-fast-auto-complete" target="_blank">受到了一些限制</a>。他们做了一个比较新的解决方案，这个算法由Python实现。</p>
-<p><strong>参看</strong>：<a href="https://www.quora.com/What-libraries-does-Quora-use-for-search"><img alt="image placeholder" >
+<p><strong>参看</strong>：<a href="https://www.quora.com/What-libraries-does-Quora-use-for-search"><img alt="image placeholder" >What libraries does Quora use for search?</a></p>
 <h4>
 <span class="ez-toc-section" id="%E5%AE%9E%E6%97%B6%E6%9F%A5%E8%AF%A2"></span>实时查询<span class="ez-toc-section-end"></span>
 </h4>
 <p>Quora的查询是非常高速的，其查询请求是通过AJAX的GET请求发送的，结果返回用的是JSON数据格式，但他们解析JSON是在服务器端，而不是通过浏览器的javascript。这么做的原因可能是他们想高亮搜索关键词，似乎使用Client端的Javascript非常不好做。</p>
 <p>Quora的即时搜索好像比较暴力，如果你输入Microsoft（一共9个字符），你会看到其会像后端发送9次查询——每按一个键一次，无论你敲这个单词的速底有多快，每输入一个字符都会发一个请求给后台。对于这样的看上去没有效率的对后台的请求，后台的服务器端会来控制相关的前台请求，所以，就算是前台这样做，也不会增加服务器端的负载，因为后台会做相关的处理。</p>
 <p>Quora的搜索使用HTTP长连接，当你开始敲查询的时候，连接就建立了，这个连接会持续在那里，你下次搜索的时候会继续使用这个连接，除非你60秒没有动作了。</p>
-<p><strong>参看</strong>：<a href="https://www.quora.com/Quora-product/Is-Quora-going-to-implement-full-text-search"><img alt="image placeholder" >
+<p><strong>参看</strong>：<a href="https://www.quora.com/Quora-product/Is-Quora-going-to-implement-full-text-search"><img alt="image placeholder" >Is Quora going to implement full-text search?</a></p>
 <p><span id="more-4939"></span></p>
 <h4 id="webnode2-and-livenode">
 <span class="ez-toc-section" id="Webnode2_%E5%92%8C_LiveNode"></span>Webnode2 和 LiveNode<span class="ez-toc-section-end"></span>
@@ -10090,7 +9867,7 @@ xml.langs(type:"current"){
 <p><a href="https://www.quora.com/What-is-LiveNode-written-in">LiveNode 由这些东西写成：</a>Python, C++, and JavaScript. <a href="https://jquery.com/">jQuery</a> ，<a href="http://cython.org/">Cython</a>也用到了。</p>
 <p>因为Quora <a href="https://www.quora.com/Is-Quora-planning-on-open-sourcing-LiveNode">想要对他们的LiveNode开源</a> 并准备把他们的代码分开，做这个事可能需要太多的工作和时间。</p>
 <p>Charlie Cheever 指出 WebNode2 和 <a href="https://www.quora.com/Quora-Infrastructure/What-is-webnode2">有一个叫做 “free and easy website builder” 的 Webnode 的 webnode.com</a> 没有任何的关系。</p>
-<p><strong>参考</strong>：<a href="https://www.quora.com/Quora-product/Is-Quora-going-to-implement-full-text-search"><img alt="image placeholder" >
+<p><strong>参考</strong>：<a href="https://www.quora.com/Quora-product/Is-Quora-going-to-implement-full-text-search"><img alt="image placeholder" ></a> <a href="https://www.quora.com/Shreyes-Seshasai/Tech-Talk-Webnode2-and-LiveNode" target="_blank">Tech Talk – Webnode2 and LiveNode</a></p>
 <h4>
 <span class="ez-toc-section" id="Amazon_Web_Service"></span>Amazon Web Service<span class="ez-toc-section-end"></span>
 </h4>
@@ -10112,7 +9889,7 @@ xml.langs(type:"current"){
 <span class="ez-toc-section" id="Thrift"></span>Thrift<span class="ez-toc-section-end"></span>
 </h4>
 <p><a href="https://incubator.apache.org/thrift/">Thrift</a> 用于后端服务器间的通讯。Thrift  服务由 C++开发。<a href="https://coolshell.cn/articles/4549.html" target="_blank">Facebook同样使用了这个技术</a>。</p>
-<p><strong>参考</strong>：<a href="https://www.quora.com/Why-would-you-write-a-Thrift-service-in-C"><img alt="image placeholder" >
+<p><strong>参考</strong>：<a href="https://www.quora.com/Why-would-you-write-a-Thrift-service-in-C"><img alt="image placeholder" >Why would you write a Thrift service in C++?</a></p>
 <h4 id="tornado">
 <span class="ez-toc-section" id="Tornado"></span>Tornado<span class="ez-toc-section-end"></span>
 </h4>
@@ -10125,13 +9902,13 @@ xml.langs(type:"current"){
 <p>对于long-polling 的最好的地方是，可以降低浏览器和客户端间来来回回的次数。让服务器端来控制时间，所以，内容更新可能会只是几个毫秒，或是几十秒。 服务器端也可以积攒一堆更新后，一次发给浏览器。这样做会更有效率。</p>
 <p>但是，这个方法的黑暗面是——这会让服务器端出现大量的TCP链接，想一想，Quora也是百万级用户的应用了，只需要10%的在线用户，你就需要一个可以处理10万并发量的架构。注意，如果一个用户在其浏览器里打开了多个Quora网页的话，那么，这个链接器会是非常致命的。</p>
 <p>当然，好的消息是已经有一些技术专门为Long Polling设计，这些技术可以让你在那些等待的连接中只会消耗非常非常少的内存（因为那些等待连接并不需要所有的资源）。例如：Nginx 是一个单线程的事件驱动的小型服务器，每一个链接只花非常小的内存。每一个Nginx的进程只会在一个时候处理一个连接。这意味着其很容易扩展成一个可以处理成千上的并发量的服务架构。</p>
-<p><strong>参考</strong>：<a href="https://www.quora.com/How-do-you-push-messages-back-to-a-web-browser-client-through-AJAX-Is-there-any-way-to-do-this-without-having-the-client-constantly-polling-the-server-for-updates"><img alt="image placeholder" >
+<p><strong>参考</strong>：<a href="https://www.quora.com/How-do-you-push-messages-back-to-a-web-browser-client-through-AJAX-Is-there-any-way-to-do-this-without-having-the-client-constantly-polling-the-server-for-updates"><img alt="image placeholder" >How do you push messages back to a web-browser client through AJAX? Is there any way to do this without having the client constantly polling the server for updates?</a></p>
 <h4 id="mysql">
 <span class="ez-toc-section" id="MySQL"></span>MySQL<span class="ez-toc-section-end"></span>
 </h4>
 <p>就像Adam D’Angelo 的老东家facebook一样，，Quora重度使用MySQL。对于，把数据库里的数据分区是最需要做的事。他们的行事原则是，尽可能的把数据放在一台机器上，使用hash主键把大规模的数据存放到多个数据库中。坚决不用表连接。Adam参考了FriendFeed的一篇文章<a href="https://bret.appspot.com/entry/how-friendfeed-uses-mysql">How FriendFeed uses MySQL to store schema-less data</a>，<a href="https://www.quora.com/NoSQL/In-what-parts-of-a-social-site-with-concert-listings-should-one-use-a-NoSQL-DB-versus-a-SQL-DB">并说</a>你不应该在你的社区还没有100万用户的时候使用NoSQL 数据库。</p>
 <p>并不只是Quora和FriendFeed使用MySQL，Google，Twitter，Facebook都在使用MySQL.</p>
-<p>参考：<a href="https://www.quora.com/How-does-one-evaluate-if-a-database-is-efficient-enough-to-not-crash-as-its-put-under-increasing-load"><img alt="image placeholder" >
+<p>参考：<a href="https://www.quora.com/How-does-one-evaluate-if-a-database-is-efficient-enough-to-not-crash-as-its-put-under-increasing-load"><img alt="image placeholder" >How does one evaluate if a database is efficient enough to not crash as it’s put under increasing load?</a></p>
 <h4 id="memcached">
 <span class="ez-toc-section" id="Memcached"></span>Memcached<span class="ez-toc-section-end"></span>
 </h4>
@@ -10151,7 +9928,7 @@ xml.langs(type:"current"){
 <blockquote><p>“One resource we used as a guide is Steve Souders’ list of rules for high performance websites:<a href="http://stevesouders.com/hpws/rules.php">http://stevesouders.com/hpws/rules.php</a>”<br>
 <small><a href="https://www.quora.com/Why-is-the-Quora-website-so-fast">– Charlie Cheever, Quora</a></small></p></blockquote>
 <div>
-<div>Steve Souders的14条规则是——<a href="https://www.amazon.com/gp/product/0596529309?ie=UTF8&amp;tag=getafil-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0596529309"><img alt="image placeholder" >
+<div>Steve Souders的14条规则是——<a href="https://www.amazon.com/gp/product/0596529309?ie=UTF8&amp;tag=getafil-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0596529309"><img alt="image placeholder" ></a><a href="https://www.amazon.com/gp/product/0596522304?ie=UTF8&amp;tag=getafil-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0596522304"><br>
 </a> 
 <ul>
 <li>Make Fewer HTTP Requests</li>
@@ -10161,7 +9938,7 @@ xml.langs(type:"current"){
 <li>Put Stylesheets at the Top</li>
 <li>Put Scripts at the Bottom</li>
 <li>
-<a href="https://www.amazon.com/gp/product/0596522304?ie=UTF8&amp;tag=getafil-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0596522304"><img alt="image placeholder" >
+<a href="https://www.amazon.com/gp/product/0596522304?ie=UTF8&amp;tag=getafil-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0596522304"><img alt="image placeholder" ></a>Avoid CSS Expressions</li>
 <li>Make JavaScript and CSS External</li>
 <li>Reduce DNS Lookups</li>
 <li>Minify JavaScript</li>
@@ -10173,7 +9950,6 @@ xml.langs(type:"current"){
 </div>
 </div>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2011-07-04T08:35:37+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4939.html</guid>
@@ -10213,9 +9989,6 @@ xml.langs(type:"current"){
 <li>著名的Thoughtworks中国公司，Agile的倡导者，其实是外包公司，他们的开发团队中也有PM和BA。</li>
 </ol>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-07-06T08:36:43+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4951.html</guid>
@@ -10249,7 +10022,6 @@ xml.langs(type:"current"){
 </ul>
 <p>最后，和大家说一下公司的实习生招聘。这个事情其实是毕业生招聘的一个组成部分，也就是说，因为我国教育的问题，再加上学生自己的问题，导致毕业生量多质次的情况很严重，对于公司，其很难从学校招到一个比较不错的毕业生，这种情况已经不是新问题了，所以，也有很多公司都不招刚毕业的学生。因此，通过实习机会了解并招聘毕业生成了很多公司的毕业生招聘的手段。所以，在这里想告诉在校的同学们，千万不要以为实习计划就是字面上的实习。其实，这和正式的招聘没有什么差别，同样也要看你的能力的。</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2011-07-12T08:37:49+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4976.html</guid>

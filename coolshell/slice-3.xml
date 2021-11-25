@@ -4,7 +4,7 @@
 <title>酷 壳 – CoolShell</title>
 <description>享受编程和技术所带来的快乐 – Coding Your Ambition</description>
 <link>https://coolshell.cn</link>
-<pubDate>2021-11-25T19:30:07+08:00</pubDate>
+<pubDate>2021-11-25T21:00:59+08:00</pubDate>
 <!-- other elements omitted from this example -->
 <item>
 <title><![CDATA[ MSDN中的两个命名 ]]></title>
@@ -17,9 +17,6 @@
 <p><a href="https://msdn.microsoft.com/en-us/library/bb775507(VS.85).aspx">http://msdn.microsoft.com/en-us/library/bb775507(VS.85).aspx</a></p>
 <p>Initialize Common Control Sex ??? 真是淫者见淫啊。呵呵</p>
 <p>不知道还有没有其它有趣的？欢迎大家跟贴。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-04-19T08:45:12+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2363.html</guid>
@@ -57,9 +54,6 @@
 <li><a href="http://en.highscore.de/cpp/boost/castoperators.html">Chapter 16: Cast Operators</a></li>
 </ul>
 <p>这个教程可能是写得比较不错的了，不过是英文的。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-04-19T09:17:19+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2365.html</guid>
@@ -70,7 +64,7 @@
 <link>https://coolshell.cn/articles/2367.html</link>
 <content><![CDATA[ 
 <p>谷歌下一个版本的Chrome浏览器软件将缺少一个在近20年来一直是浏览器的一个特点的功能：在地址栏中的“http://”。目前开发人员版本的Chrome浏览器已经做了这种改变。这个变化虽然看起来很小，但是，已经在Chrome网站引起了程序员们很大的争议。</p>
-<p><a href="https://coolshell.cn/wp-content/uploads/2010/04/URL-BAR.png"><img alt="image placeholder" >
+<p><a href="https://coolshell.cn/wp-content/uploads/2010/04/URL-BAR.png"><img alt="image placeholder" ></a></p>
 <p>在Google Chrome的开发站点上，又有了一个很热的BUG——<a href="https://code.google.com/p/chromium/issues/detail?id=41467" target="_blank">Issue  41467</a>（上一次的一热议的BUG是的《<a rel="bookmark" href="https://coolshell.cn/articles/1781.html" target="_blank">Go语言更名Issue 9</a>》），这个BUG目前已被关闭。不过在其它地方还在热议中，如：<a href="https://www.reddit.com/r/programming/comments/bt0oh/issue_41467_url_bar_no_longer_shows_http/" target="_blank">Reddit.com</a>。基本上来说，90%以上的程序员反对的，他们希望Google的Chrome可以给一个设置关闭或打开这一功能。</p>
 <p>一些程序员觉得这是违反了RFC，并且觉得这是在向End User传播一种很不好的东西，那就是网址可以不用http://，这样一来会给程序员增加很多麻烦，比如：他们的程序无法使用http://这一关键字来检查用户的输出，等等。</p>
 <p>iPhone浏览器的也是这样的， 不过当你把光标放到地址栏中，其会显示http://，广大程序员希望Chrome也实现这一方案。然而，<a href="https://code.google.com/p/chromium/issues/detail?id=41467" target="_blank">Issue  41467</a>目前的状态是“WontFix”，呵呵。</p>
@@ -78,9 +72,6 @@
 <p>有人说，既然你要省，不如也把www.和后面的.com加上/也省了，因为这些都是默认的嘛。直接打google就OK了。Chrome开发团队说，没有www.和.com/只能算是一个主机名，不能算是DNS域名。呵呵。</p>
 <p>还有人说，搞这种隐藏的最恶心的就是Windows，隐藏文件后缀名，隐藏系统文件，太扯了，于是，像sexy_girls.jpg.exe，huge-tits.jpg.src这样玩意儿让某些电脑知识薄弱意志不坚定的人深受其害。</p>
 <p>如果有空，请留下你的观点。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-04-22T11:12:24+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2367.html</guid>
@@ -97,9 +88,6 @@
 Undetermined clean error, OAS denied access and continued.
 Detected using Scan engine version 5400.1158 DAT version 5958.0000.</pre>
 <p>其实，可能大家都误解了，McAfee把svchost.exe识别为一个恶意程序，我觉得这是一种“实事求是”的态度啊，svchost.exe难道不是Windows下的万恶之源吗？多少年来，svchost.exe成为了多少病毒，木马和流氓程序的温床，这么多年过去了，Windows用户们默默地承受着svchost.exe所带来的痛苦，经过这么长的时间，只有McAfee不惧M$的淫威第一个站出来把svchost.exe揪出来办了，这是一种什么样的精神啊……</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-04-23T08:45:21+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2376.html</guid>
@@ -622,9 +610,6 @@ function my_shutdown() {
 }
 </pre>
 <p>文章：<a href="http://net.tutsplus.com/tutorials/php/9-useful-php-functions-and-features-you-need-to-know/" target="_blank">来源</a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-05-06T08:37:49+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2394.html</guid>
@@ -683,9 +668,6 @@ function my_shutdown() {
 <li>如果你想成为一个像春哥或犀利哥一样真正的男人：Brainfuck （<a rel="bookmark" href="https://coolshell.cn/articles/1142.html" target="_blank">BT雷人的程序语言</a>）</li>
 </ul>
 <p>呵呵，欢迎留下你的回答！</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-05-10T08:46:42+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2402.html</guid>
@@ -774,9 +756,6 @@ function my_shutdown() {
 </li>
 </ul>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-05-11T08:18:19+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2406.html</guid>
@@ -810,9 +789,6 @@ function my_shutdown() {
 </p>
 <p style="text-align: left;">还有很多，大家自己去看吧，这个网站经常更新的。总体感觉下来，IE和Firefox的安全问题都在伯仲之间，Safari貌似是问题最少的。</p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-05-12T08:57:38+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2416.html</guid>
@@ -898,7 +874,6 @@ function my_shutdown() {
 <p>2）要解决这个问题，你需要先观察输出，然后找到其规律，算法总是去描述一些有规律的事情。关于你的这个程序，很明显，你可以分成两个部分，一个正三角，一个倒三角，每一行的星号都是连续的奇数，1，3，5，7，9，而前面的空格又是顺序的自然数：4，3，2，1，你看这样的规律用程序来干不是正合适吗？</p>
 <p>从这两个例子，我们可以看到，老手应该如何去教新手，那就是，a）让其独立思考，b）步步为营的引导，c）教一种方法而不是直接给答案。希望与大家共勉。</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2010-05-13T08:43:19+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2420.html</guid>
@@ -932,9 +907,6 @@ function my_shutdown() {
 <p>准确地说，我们可以认为这是Test-Driven开发，其实，这种开发就是先写unit test case，这样的开发方式的主要目的是，为了防止你不会因为一个改动而引入Bug，但这并不会让你能写出更好的代码。这只会让你写出不会出错的代码。同第一点，这样的方法，只不过是防止<a href="https://coolshell.cn/articles/1081.html" target="_blank">糟糕的程序员</a>，而并不是让程序员或代码质量更有长进。反而，通过Unit Test会为程序员的为自己代码做辩解的一种托辞。</p>
 <p>最后，顺便说一下，以前去那个敏捷的公司面试，发现那个公司的某些技术人员中毒不浅，具体表现在上述的1）9）10）观点上。</p>
 <p><strong>（转载本文请注明作者和出处，请勿用于商业用途）</strong></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-05-14T08:50:24+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2424.html</guid>
@@ -971,9 +943,6 @@ function my_shutdown() {
 <p>相信这样的规则会让你的口令即不重复，又好记，而且又足够复杂。不然，你真的要去下载一个软件来记你的口令了。</p>
 <p>大家不妨也说说你的口令的设计或管理方法。</p>
 <p>(全文完)</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-05-18T08:42:41+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2428.html</guid>
@@ -987,9 +956,6 @@ function my_shutdown() {
 <p>今日读到一篇加州伯克利大学的文章 <a href="http://ist-socrates.berkeley.edu/~keltner/publications/kraus.huang.keltner.2010.pdf">touch, cooperation, and performance</a>, 用科学的研究方法解释了为什么NBA球员们为什么要“high five（击掌）”，并用统计方法论证了碰触行为可以导致更好的比赛成绩。其实想想，其实人们握手，鼓励式地拍肩膀，引导别人进门的时候好客地推别人的背，道理都是一样。身体接触（符合社交礼仪范围的）是建立信任的一种微妙行为。这些大多不会写在领导力的书里。</p>
 <p>猴子之间互相捉虱子梳理毛发不是为了营养，而是增进群体的凝聚力。人类口头上的语言的第一功能不是为了表达知识，而是为了促进社会联系，其内容并不需要都是重要信息。这就是为什么我们一天之内说话内容的80%其实都是扯淡，八卦和闲聊。</p>
 <p>（注意：职场上有社交礼仪，此方法需要适度）</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-05-19T08:40:39+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2440.html</guid>
@@ -1200,7 +1166,6 @@ Information <em>deserves</em> to be free.<br>
 <p>+++The Mentor+++</p>
 <p>署名：导师</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2010-05-19T08:50:50+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2439.html</guid>
@@ -2043,9 +2008,6 @@ Information <em>deserves</em> to be free.<br>
 </table>
 <p>打开twitter注册页看到的禁用口令</p>
 <p>//&lt;![CDATA[ twttr.BANNED_PASSWORDS = [“000000”, “111111”, “11111111”, “112233”, “121212”, “123123”, “123456”, “1234567”, “12345678”, “123456789”, “131313”, “232323”, “654321”, “666666”, “696969”, “777777”, “7777777”, “8675309”, “987654”, “aaaaaa”, “abc123”, “abc123”, “abcdef”, “abgrtyu”, “access”, “access14”, “action”, “albert”, “alberto”, “alexis”, “alejandra”, “alejandro”, “amanda”, “amateur”, “america”, “andrea”, “andrew”, “angela”, “angels”, “animal”, “anthony”, “apollo”, “apples”, “arsenal”, “arthur”, “asdfgh”, “asdfgh”, “ashley”, “asshole”, “august”, “austin”, “badboy”, “bailey”, “banana”, “barney”, “baseball”, “batman”, “beatriz”, “beaver”, “beavis”, “bigcock”, “bigdaddy”, “bigdick”, “bigdog”, “bigtits”, “birdie”, “bitches”, “biteme”, “blazer”, “blonde”, “blondes”, “blowjob”, “blowme”, “bond007”, “bonita”, “bonnie”, “booboo”, “booger”, “boomer”, “boston”, “brandon”, “brandy”, “braves”, “brazil”, “bronco”, “broncos”, “bulldog”, “buster”, “butter”, “butthead”, “calvin”, “camaro”, “cameron”, “canada”, “captain”, “carlos”, “carter”, “casper”, “charles”, “charlie”, “cheese”, “chelsea”, “chester”, “chicago”, “chicken”, “cocacola”, “coffee”, “college”, “compaq”, “computer”, “cookie”, “cooper”, “corvette”, “cowboy”, “cowboys”, “crystal”, “cumming”, “cumshot”, “dakota”, “dallas”, “daniel”, “danielle”, “debbie”, “dennis”, “diablo”, “diamond”, “doctor”, “doggie”, “dolphin”, “dolphins”, “donald”, “dragon”, “dreams”, “driver”, “eagle1”, “eagles”, “edward”, “einstein”, “erotic”, “estrella”, “extreme”, “falcon”, “fender”, “ferrari”, “firebird”, “fishing”, “florida”, “flower”, “flyers”, “football”, “forever”, “freddy”, “freedom”, “fucked”, “fucker”, “fucking”, “fuckme”, “fuckyou”, “gandalf”, “gateway”, “gators”, “gemini”, “george”, “giants”, “ginger”, “golden”, “golfer”, “gordon”, “gregory”, “guitar”, “gunner”, “hammer”, “hannah”, “hardcore”, “harley”, “heather”, “helpme”, “hentai”, “hockey”, “hooters”, “horney”, “hotdog”, “hunter”, “hunting”, “iceman”, “iloveyou”, “internet”, “iwantu”, “jackie”, “jackson”, “jaguar”, “jasmine”, “jasper”, “jennifer”, “jeremy”, “jessica”, “johnny”, “johnson”, “jordan”, “joseph”, “joshua”, “junior”, “justin”, “killer”, “knight”, “ladies”, “lakers”, “lauren”, “leather”, “legend”, “letmein”, “letmein”, “little”, “london”, “lovers”, “maddog”, “madison”, “maggie”, “magnum”, “marine”, “mariposa”, “marlboro”, “martin”, “marvin”, “master”, “matrix”, “matthew”, “maverick”, “maxwell”, “melissa”, “member”, “mercedes”, “merlin”, “michael”, “michelle”, “mickey”, “midnight”, “miller”, “mistress”, “monica”, “monkey”, “monkey”, “monster”, “morgan”, “mother”, “mountain”, “muffin”, “murphy”, “mustang”, “naked”, “nascar”, “nathan”, “naughty”, “ncc1701”, “newyork”, “nicholas”, “nicole”, “nipple”, “nipples”, “oliver”, “orange”, “packers”, “panther”, “panties”, “parker”, “password”, “password”, “password1”, “password12”, “password123”, “patrick”, “peaches”, “peanut”, “pepper”, “phantom”, “phoenix”, “player”, “please”, “pookie”, “porsche”, “prince”, “princess”, “private”, “purple”, “pussies”, “qazwsx”, “qwerty”, “qwertyui”, “rabbit”, “rachel”, “racing”, “raiders”, “rainbow”, “ranger”, “rangers”, “rebecca”, “redskins”, “redsox”, “redwings”, “richard”, “robert”, “roberto”, “rocket”, “rosebud”, “runner”, “rush2112”, “russia”, “samantha”, “sammy”, “samson”, “sandra”, “saturn”, “scooby”, “scooter”, “scorpio”, “scorpion”, “sebastian”, “secret”, “sexsex”, “shadow”, “shannon”, “shaved”, “sierra”, “silver”, “skippy”, “slayer”, “smokey”, “snoopy”, “soccer”, “sophie”, “spanky”, “sparky”, “spider”, “squirt”, “srinivas”, “startrek”, “starwars”, “steelers”, “steven”, “sticky”, “stupid”, “success”, “suckit”, “summer”, “sunshine”, “superman”, “surfer”, “swimming”, “sydney”, “tequiero”, “taylor”, “tennis”, “teresa”, “tester”, “testing”, “theman”, “thomas”, “thunder”, “thx1138”, “tiffany”, “tigers”, “tigger”, “tomcat”, “topgun”, “toyota”, “travis”, “trouble”, “trustno1”, “tucker”, “turtle”, “twitter”, “united”, “vagina”, “victor”, “victoria”, “viking”, “voodoo”, “voyager”, “walter”, “warrior”, “welcome”, “whatever”, “william”, “willie”, “wilson”, “winner”, “winston”, “winter”, “wizard”, “xavier”, “xxxxxx”, “xxxxxxxx”, “yamaha”, “yankee”, “yankees”, “yellow”, “zxcvbn”, “zxcvbnm”, “zzzzzz”];</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-05-20T08:58:44+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2451.html</guid>
@@ -2056,7 +2018,7 @@ Information <em>deserves</em> to be free.<br>
 <link>https://coolshell.cn/articles/2466.html</link>
 <content><![CDATA[ 
 <p>这两天，Google的logo换成了那个经典的吃豆游戏，很强大，也引发了大众的热议。如果你想要其源代码的话，你可以到这里下载：<span style="font-family: Consolas, Monaco, 'Courier New', Courier, monospace; line-height: 18px; font-size: 14px; white-space: pre;"><a href="https://github.com/macek/google_pacman" target="_blank"><strong>http://github.com/macek/google_pacman</strong></a></span>。而在线演示在这里：<span style="font-family: Consolas, Monaco, 'Courier New', Courier, monospace; line-height: 18px; font-size: 12px; white-space: pre;"><a href="https://macek.github.com/google_pacman/">http://macek.github.com/google_pacman/</a>。</span></p>
-<figure id="attachment_2467" aria-describedby="caption-attachment-2467" style="width: 554px" class="wp-caption aligncenter"><img alt="image placeholder" >
+<figure id="attachment_2467" aria-describedby="caption-attachment-2467" style="width: 554px" class="wp-caption aligncenter"><img alt="image placeholder" ><figcaption id="caption-attachment-2467" class="wp-caption-text">Google 吃豆游戏 Logo</figcaption></figure>
 <p>需要注意的是，那个源程序在你的本机是不会有声音的，因为这跟flash的设置有关系，如果你需要有游戏声音，你还需要有以下的设置：</p>
 <pre>  1. 打开 Adobe Flash Control Panel:
      <a href="https://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager04.html" target="_blank">http://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager04.html</a>
@@ -2065,9 +2027,6 @@ Information <em>deserves</em> to be free.<br>
   4. 浏览你的 `google_pacman` 目录
   5. 点击 `Add`</pre>
 <p>需要注意的是，这个源程序并不是Google官方发布的，只不过是某些好事者的网友发布的，不知道在日后的<a href="https://www.google.com/logos/index.html" target="_blank">Google的Logo归档</a>中是否会见到这个Logo。顺便说一下，根据 <a href="https://googleblog.blogspot.com/2010/05/celebrating-pac-mans-30th-birthday.html" target="_blank">Google官方BLOG</a>，这个程序是由 Marcin Wichary 和 Ryan Germick做的。真是又应了那句话——“如果一个应用能被Javascript实现，那么其最终会被Javascript实现”。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-05-22T23:42:10+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2466.html</guid>
@@ -2086,9 +2045,6 @@ Information <em>deserves</em> to be free.<br>
 </blockquote>
 <p>麻省理工开放课程里有很多计算机科学的宝贝。不仅有一流的教程，还有习题和答案。适合英语不错的程序员平时充电。</p>
 <p><a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-088-introduction-to-c-memory-management-and-c-object-oriented-programming-january-iap-2010/index.htm#features" target="_blank">课程地址</a>（英文）</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-05-23T08:15:05+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2474.html</guid>
@@ -2098,7 +2054,7 @@ Information <em>deserves</em> to be free.<br>
 <title><![CDATA[ 说服他人的5种技巧 – Guy Kawasaki ]]></title>
 <link>https://coolshell.cn/articles/2460.html</link>
 <content><![CDATA[ 
-<p>硅谷传奇创业者+精神领袖 Guy Kawasaki最近写了一篇新文章总结了以下5种说服他人的技巧。希望对大家对付老外有帮助。摘要如下：<img alt="image placeholder" >
+<p>硅谷传奇创业者+精神领袖 Guy Kawasaki最近写了一篇新文章总结了以下5种说服他人的技巧。希望对大家对付老外有帮助。摘要如下：<img alt="image placeholder" ></p>
 <ol>
 <li>
 <strong>先给予，后索取 </strong>(Be the first to give )。研究表明，我们容易被给我们帮过忙的人说服：有些服务员给我们结账的时候带来口香糖，我们一般给他们的小费多些。工作中我们更倾向于给帮助过我们的人更多支持…</li>
@@ -2117,9 +2073,6 @@ Information <em>deserves</em> to be free.<br>
 </li>
 </ol>
 <p>原文<a href="http://www.openforum.com/idea-hub/topics/the-world/article/5-ways-to-be-persuasive-guy-kawasaki">link</a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-05-23T08:20:17+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2460.html</guid>
@@ -2129,13 +2082,10 @@ Information <em>deserves</em> to be free.<br>
 <title><![CDATA[ 四个流行的Java连接池 ]]></title>
 <link>https://coolshell.cn/articles/2483.html</link>
 <content><![CDATA[ 
-<p><strong><img alt="image placeholder" >
+<p><strong><img alt="image placeholder" >C3P0</strong>是一个开放源代码的JDBC连接池，它在lib目录中与Hibernate一起发布,包括了实现jdbc3和jdbc2扩展规范说明的Connection 和Statement 池的DataSources 对象。（主页：<a href="https://sourceforge.net/projects/c3p0/" target="_blank">http://sourceforge.net/projects/c3p0/</a>）</p>
 <p><strong>BoneCP </strong>是一个开源的快速的 JDBC 连接池。BoneCP很小，只有四十几K（运行时需要<a href="https://logging.apache.org/log4j/1.2/index.html" target="_blank">log4j</a>和<a href="https://code.google.com/p/google-collections/" target="_blank">Google Collections</a>的支持，这二者加起来就不小了），而相比之下 <a href="https://sourceforge.net/projects/c3p0/" target="_blank">C3P0</a> 要六百多K。另外个人觉得 BoneCP 有个缺点是，JDBC驱动的加载是在连接池之外的，这样在一些应用服务器的配置上就不够灵活。当然，体积小并不是 BoneCP 优秀的原因，BoneCP 到底有什么突出的地方呢，请看看<a href="http://jolbox.com/benchmarks.html" target="_blank">性能测试报告</a>。（主页：<a href="http://jolbox.com/" target="_blank">http://jolbox.com/</a>）</p>
 <p><strong>DBCP</strong> （<strong>D</strong>ata<strong>b</strong>ase <strong>C</strong>onnection <strong>P</strong>ool）是一个依赖Jakarta commons-pool对象池机制的数据库连接池，Tomcat的数据源使用的就是DBCP。目前 DBCP 有两个版本分别是 1.3 和 1.4。1.3 版本对应的是 JDK 1.4-1.5 和 JDBC 3，而1.4 版本对应 JDK 1.6 和 JDBC 4。因此在选择版本的时候要看看你用的是什么 JDK 版本了，功能上倒是没有什么区别。（主页：<a href="https://commons.apache.org/dbcp/" target="_blank">http://commons.apache.org/dbcp/</a>）</p>
 <p><strong>Proxool</strong>是一个Java SQL Driver驱动程序，提供了对你选择的其它类型的驱动程序的连接池封装。可以非常简单的移植到现存的代码中。完全可配置。快速，成熟，健壮。可以透明地为你现存的JDBC驱动程序增加连接池功能。（主页：<a href="http://proxool.sourceforge.net/" target="_blank">http://proxool.sourceforge.net/</a>）</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-06-02T09:31:12+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2483.html</guid>
@@ -2159,9 +2109,6 @@ Information <em>deserves</em> to be free.<br>
 1 + / + / + / + 1 // =&gt; ?<br>
 [/javascript]</p>
 <p>如果不知道的话，你可以到这个<a href="http://mir.aculo.us/2010/05/28/valid-javascript-or-not/" target="_blank">网页上去讨论讨论</a>。当然，如果你不懂也没有什么关系，因为Javascript本身就是一个很怪异的语言，再加上浏览器的种种不是，所以，<a href="https://coolshell.cn/articles/1850.html" target="_blank">Javascript程序员也是很郁闷的</a>。在以前的“<a rel="bookmark" href="https://coolshell.cn/articles/2053.html" target="_blank">最为奇怪的程序语言的特性</a>”中也说过一些。Javascript最怪异的特性导致了<a href="http://wtfjs.com/">wtfjs.com</a>这样的一个网站，还有一个<a href="https://github.com/brianleroux/wtfjs" target="_blank">WTF JS的开源站点</a>。呵呵。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-06-02T09:51:49+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2492.html</guid>
@@ -2171,12 +2118,9 @@ Information <em>deserves</em> to be free.<br>
 <title><![CDATA[ 把Flash转成Javascript/HTML5 ]]></title>
 <link>https://coolshell.cn/articles/2497.html</link>
 <content><![CDATA[ 
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ><a href="http://smokescreen.us/" target="_blank">SmokeScreen</a>是这样一个开源软件，它可以把Flash的swf文件转成Javascript/HTML5，它的口号是：Flash without plugin。为什么要这样做呢？它说主要是因主Apple的iPhone/iPod/iPad不支持flash，而且看似Steve Jobs也不愿意在以后支持flash。所以，他们搞了这样一个玩意。目前，这个开源软件还在开发阶段，在其主页上，你可以看到一些<a href="http://smokescreen.us/demo/" target="_blank">Demo</a>，在Chrome上看上去很不错，虽然还有一些小问题，不过已经很不错了。</p>
 <p>HTML5几乎颠覆了原来的HTML，其可以让你用HTML不单单只是做网页布局，而且还让你可以开发更强的东西，比如：<a href="https://dev.w3.org/html5/websockets/" target="_blank">WebSockets</a>，使用这项技术，已经有人在搞Web版的Quake 2了（<a href="https://code.google.com/p/quake2-gwt-port/" target="_blank">http://code.google.com/p/quake2-gwt-port/</a>），还有<a href="https://coolshell.cn/articles/599.html" target="_blank">Google的3D Javascript API</a>，所以，把swf完美地转成Javscript/HTML5可能也只是一个时间问题。</p>
 <p>虽然，HTML5还在<a href="https://dev.w3.org/html5/spec/Overview.html" target="_blank">draft阶段</a>，而且很多东西都和flash重复了。所以，加上iPhone的推波助澜，发生这样的事情也不奇怪，不知道adobe会怎么想？也许adobe目前对其AIR或是Actionscript还抱有希望，虽然有这样<a href="http://infoworld.com/d/developer-world/html5-vs-flash-the-case-flash-721" target="_blank">一篇文章</a>力挺Flash，但未来真的不好说，adobe会使用HTML5/Javascript来作为其flash的引擎吗？如果不这样的话，我相信总有一天，会有人开发出HTML5/Javascript的IDE。而且，有理由相信，一旦在未来所有的浏览全面支持HTML5，那么我们可以想像，这个世界可能几乎所有的桌面应用都会被Web所取代，这个进程可能会越来越快。让我们拭目以待。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-06-03T08:29:18+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2497.html</guid>
@@ -2296,9 +2240,6 @@ Information <em>deserves</em> to be free.<br>
    &lt;address_110&gt;3881 N 4th Ave. #5D&lt;/address_110&gt;
 &lt;/rootNode&gt;</pre>
 <p>相信你一定有比这更牛X的例子，欢迎与我们分享！</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-06-09T08:27:42+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2504.html</guid>
@@ -2309,7 +2250,7 @@ Information <em>deserves</em> to be free.<br>
 <link>https://coolshell.cn/articles/2507.html</link>
 <content><![CDATA[ 
 <p>以前本站发过“<a rel="bookmark" href="https://coolshell.cn/articles/410.html" target="_blank">1980年和2009年的1GB电脑内存的比较</a>”，下面是2000年的iMac和2010年的iPhone的比较。</p>
-<p><strong><img alt="image placeholder" >
+<p><strong><img alt="image placeholder" >2000 – iMac</strong></p>
 <p style="text-align: left;">操作系统 – Mac OS 9.0.4<br>
 处理器 – 500 MHz PowerPC G3 CPU, 128MB Memory<br>
 显示卡 – ATI Rage 128 Pro, 8MB of memory (8 million triangles)<br>
@@ -2322,7 +2263,7 @@ Information <em>deserves</em> to be free.<br>
 <p style="text-align: left;"><strong><span style="font-weight: normal;"><br>
 </span></strong></p>
 <p style="text-align: left;"><strong>2010 – iPhone 4</strong><br>
-<img alt="image placeholder" >
+<img alt="image placeholder" >操作系统 – iOS 4.0<br>
 处理器 – 1 Ghz ARM A4 CPU, 512MB Memory<br>
 显示卡 – PowerVR SGX 535, uses system memory (28 million triangles)<br>
 屏幕 – 614K pixels<br>
@@ -2331,9 +2272,6 @@ Information <em>deserves</em> to be free.<br>
 显示器 – 4.5 x 2.31 x .31 inches<br>
 重量 – 136克</p>
 <p>那么，2020年的产品会是怎么样的？</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-06-22T08:22:01+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2507.html</guid>
@@ -2347,16 +2285,13 @@ Information <em>deserves</em> to be free.<br>
 <p style="text-align: left;">这是个很有意思的网站，其数据是通过伦敦政府发布的<a href="http://data.london.gov.uk/apibeta" target="_blank">TfL API</a>获得的，然后再加上Google Maps的API，于是就有了这样的一个页面。很不错哦。</p>
 <div class="mceTemp" style="text-align: center;">
 <dl id="attachment_2521" class="wp-caption alignnone" style="width: 567px;">
-<dt class="wp-caption-dt" style="text-align: center;"><a href="http://traintimes.org.uk:81/map/tube/"><img alt="image placeholder" >
+<dt class="wp-caption-dt" style="text-align: center;"><a href="http://traintimes.org.uk:81/map/tube/"><img alt="image placeholder" ></a></dt>
 <dd class="wp-caption-dd">伦敦地铁实时图</dd>
 </dl>
 </div>
 <p style="text-align: left;">
 </p>
 <p>从这个事情，我们可以得到，英国的信息化的发达，首先地铁部门有实时监控的数据，然后以Web API的方式发布，从这点看来，我国的信息化水平还很差。主要是钱都投到G/F/W上去了。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-06-23T08:24:06+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2520.html</guid>
@@ -2408,9 +2343,6 @@ Information <em>deserves</em> to be free.<br>
 
 return howManyBooleansAreTrue &gt;= 2;</pre>
 <p>欢迎你留下你的想法。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-06-23T08:50:24+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2514.html</guid>
@@ -2446,9 +2378,6 @@ return howManyBooleansAreTrue &gt;= 2;</pre>
 <li><a rel="nofollow" href="https://developer.apple.com/safaridemos/MovieTrailers/">Movie trailers</a></li>
 </ul>
 <p>如果大家也有一些相似的资源，不妨一起来分享。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-06-24T08:35:32+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2524.html</guid>
@@ -2459,7 +2388,7 @@ return howManyBooleansAreTrue &gt;= 2;</pre>
 <link>https://coolshell.cn/articles/2529.html</link>
 <content><![CDATA[ 
 <p>不知道大家有没有注意到StakeOverflow的<a href="https://stackoverflow.com/404" target="_blank">404错误页面</a>？其显示了下面的这个图片：</p>
-<p style="text-align: center;"><img alt="image placeholder" >
+<p style="text-align: center;"><img alt="image placeholder" ></p>
 <p style="text-align: left;">这个是一个很有意思的图片，不知道你看懂了吗？看上去像Python，又像 Ruby，还像 Perl，当然也有 C的影子，还有<a href="https://coolshell.cn/articles/1142.html" target="_blank">Brainfuck</a>。是的，这是一个杂交程序，杂交了Python，Ruby，Perl，C，还有Brainfuck（注意其中的#号），所有的语句都是输出“404”字符串。</p>
 <p style="text-align: left;">关于这种杂交程序，本站以前也发布过《<a rel="bookmark" href="https://coolshell.cn/articles/1824.html" target="_blank">C语言和sh脚本的杂交代码</a>》，大家可以前往一看。这样的有趣的玩法叫“<a rel="nofollow" href="https://en.wikipedia.org/wiki/Polyglot_%28computing%29" target="_blank">Polyglot</a>”，也就是说，把N种语言写在一个文件中，然后，该文件在任何编译器下都可以运行，上述的那段代码在Python，Ruby，Perl，Brainfuck下都可以正常运行，也可以被C和的编译器编译通过，并被运行。</p>
 <p style="text-align: left;">下面是这个图片的字符码，以供各位试试。</p>
@@ -2472,9 +2401,6 @@ print(202*2);exit();
 <p style="text-align: left;">欢迎你留下你的看法。</p>
 <p style="text-align: left;">（全文完）</p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-06-25T08:35:41+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2529.html</guid>
@@ -2496,9 +2422,6 @@ print(202*2);exit();
 <p>Uncle Bob 本人的大作。</p>
 <p>我的一位同事将这位 Uncle Bob 视为软件开发领域中的上帝，Uncle Bob 这位大师在当下各类编程语言和平台层出不穷的时候，在我们为该学什么语言买什么书举棋不定的时候，推荐给读者这几本经典，也许是煞费苦心地想让我们参透软件开发的本质吧。不过会不会也是因为我们都在慢慢变老，许多旧的东西如今又变成了新鲜有趣的事情啦？（出自采访记者之口）</p>
 <p><a href="https://vimeo.com/12957619"><em>文章来源</em></a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-07-05T08:30:29+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2539.html</guid>
@@ -2511,24 +2434,21 @@ print(202*2);exit();
 <p>2010年6月23日 Eclipse 3.6 Helios 正式发布，对 Java 程序员来说有哪些新特性值得关注？</p>
 <p>1、检查并报告是否有缺失的 @Override 注解，此功能仅对 Java 1.6 版本适用。在以前版本中，当我们为一个方法加上 @Override  注解，但是这个方法实际上并没有过载（override）任何父类的方法时，将会得到警告信息。在新版本中，如果我们忘记为一个过载方法加上 @Override 注解，同样也会得到警告信息。</p>
 <p>2、变量视图中新增了一个列用于显示当前变量类型的实例数（Layout -&gt; Select Column）。</p>
-<p><a href="https://coolshell.cn/wp-content/uploads/2010/07/Eclipse-3.6-6.bmp"><img alt="image placeholder" >
+<p><a href="https://coolshell.cn/wp-content/uploads/2010/07/Eclipse-3.6-6.bmp"><img alt="image placeholder" ></a></p>
 <p>3、Java 视图中的包名称可以用自定义的规则来显示（Window –&gt; Preferences –&gt; Java –&gt; Appearance）。</p>
-<p><a href="https://coolshell.cn/wp-content/uploads/2010/07/Eclipse-3.6-3.png"><img alt="image placeholder" >
+<p><a href="https://coolshell.cn/wp-content/uploads/2010/07/Eclipse-3.6-3.png"><img alt="image placeholder" ></a></p>
 <p><span id="more-2554"></span></p>
 <p>4、用户可以选择在关闭 Eclipse 时不清除本地更改历史（local history），这样可以加快关闭的速度，但同时本地更改历史记录将会无限制地增大。</p>
 <p>5、查看实现代码（Open Implementation）。此功能在 Navigate 菜单中能够找到，目前没有缺省的快捷键，用户可以为其自定义一个（Windows –&gt; Preferences –&gt; General –&gt; Keys）。例如，用户可以查看一个抽象方法的具体实现，如果有多个实现， Eclipse 会显示一个弹出窗口。</p>
-<p><a href="../wp-content/uploads/2010/07/Eclipse-3.6-2.png"><img alt="image placeholder" >
+<p><a href="../wp-content/uploads/2010/07/Eclipse-3.6-2.png"><img alt="image placeholder" ></a></p>
 <p>6、虚拟文件夹（Virtual Folders）。用户可以在 workspace 中创建文件夹，这些文件夹只对 Eclipse 可见，对操作系统不可见。并且它们只能包含其他的虚拟文件夹和外部链接资源。</p>
-<p><a href="../wp-content/uploads/2010/07/Eclipse-3.6-4.png"><img alt="image placeholder" >
+<p><a href="../wp-content/uploads/2010/07/Eclipse-3.6-4.png"><img alt="image placeholder" ></a></p>
 <p>7、安装配置比较（Compare Configurations）。通过此功能用户可以查看那些组件在哪一时间被安装，还可以选择卸载无用的安装以节省空间。</p>
-<p><a href="../wp-content/uploads/2010/07/Eclipse-3.6-5.png"><img alt="image placeholder" >
+<p><a href="../wp-content/uploads/2010/07/Eclipse-3.6-5.png"><img alt="image placeholder" ></a></p>
 <p>8、提供了对 JSF 2.0，Apache Tomcat 7，和 Aapache CXF 的支持，新增了 JAX-RS project facet。</p>
 <p>9、Eclipse 市场客户端（Eclipse Market Place Client）。在以前的版本中安装插件（plugins）一直都不能说是一件简单的事情，用户需要搜索相应的 update site URL。新版本引入了和 Apple 的应用商店类似的概念，用户可以在 Eclipse IDE 内搜索和安装插件了，此功能在 Help 菜单中可以找到。</p>
-<p><a href="../wp-content/uploads/2010/07/Eclipse-3.6-1.png"><img alt="image placeholder" >
+<p><a href="../wp-content/uploads/2010/07/Eclipse-3.6-1.png"><img alt="image placeholder" ></a></p>
 <p><em><a href="http://www.techsagar.com/2010/07/10-new-features-which-i-liked-the-most-in-eclipse-helios-3-6-2/">文章来源一</a>，<a href="https://rajakannappan.blogspot.com/2010/05/new-features-in-eclipse-36-helios.html">文章来源二</a></em></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-07-07T08:30:14+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2554.html</guid>
@@ -2542,12 +2462,9 @@ print(202*2);exit();
 <p>如果我们开发的是局域网 Web 应用的话，可能没有必要这样做。但如果我们的 Web 应用面向的是互联网上的成千上万的用户，这样做就很必要了。因为在现实世界中并不是所有的用户都有高数率的网络连接，也许用户使用的是拨号接入，移动设备，3G，或者是 USB 网络加密狗。如果我们没有在低数率的网络环境中测试过我们 Web 应用，极有可能在上线后收到一些意想不到的关于系统性能方面的抱怨。这个时候无论我们的 Web 应用界面多么地 Web 2.0，功能多么地强大，对于用户来说都失去了使用价值。</p>
 <p>目前有很多工具能够模拟慢速网络，值得一提的是 <a href="https://addons.mozilla.org/en-US/firefox/addon/5917/">Firefox Throttle</a>，这是一个 Firefox 插件，你可以设置上载和下载的数率，并且监控当前带宽的使用情况。另一个非常有用的特性是它可以控制你的 localhost 的连接数率，对本地测试很有用。</p>
 <p>Firefox Throttle 的截图</p>
-<p><a href="https://coolshell.cn/wp-content/uploads/2010/07/Firefox-Throttle.png"><img alt="image placeholder" >
+<p><a href="https://coolshell.cn/wp-content/uploads/2010/07/Firefox-Throttle.png"><img alt="image placeholder" ></a></p>
 <p>另一个工具是 <a href="http://www.dallaway.com/sloppy/">Sloppy</a>，它是一个 Java Web Start application。</p>
 <p><em><a href="http://www.devcurry.com/2010/07/simulate-slow-internet-connections.html">文章来源</a></em></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-07-09T08:00:14+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2574.html</guid>
@@ -2558,11 +2475,8 @@ print(202*2);exit();
 <link>https://coolshell.cn/articles/2593.html</link>
 <content><![CDATA[ 
 <p>想在Web上远程控制远端的电脑吗？<a href="http://guacamole.sourceforge.net/" target="_blank">Guacamole</a>开源项目提供了这样的解决方案，其主要使用了HTML5和Ajax。下面是一个载图。如果你能够访问Youtube的话，你可以看看这个<a href="https://www.youtube.com/watch?v=Oag4EUlpL4c&amp;feature=player_embedded" target="_blank">视频</a>。</p>
-<figure style="width: 564px" class="wp-caption aligncenter"><a href="http://guacamole.sourceforge.net/"><img alt="image placeholder" >
+<figure style="width: 564px" class="wp-caption aligncenter"><a href="http://guacamole.sourceforge.net/"><img alt="image placeholder" ></a><figcaption class="wp-caption-text">Guacamole 一个 HTML5 + JavaScript (AJAX) 的 VNC 客户端</figcaption></figure>
 <p>是啊，HTML5强大了，什么都能干了，<a href="https://coolshell.cn/articles/2497.html" target="_blank">连Flash也要取代了</a>。现如今，什么事都在往Web上移植了，Chrome也OS了。可以预见在HTML5出来后，未来这样的事情会越来越多，以后的一些移动和掌上设备真的只需要一个Web Browsers.</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-07-11T12:18:19+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2593.html</guid>
@@ -2641,9 +2555,6 @@ print(202*2);exit();
 <p>。</p>
 </div>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-07-12T08:27:38+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2583.html</guid>
@@ -2653,7 +2564,7 @@ print(202*2);exit();
 <title><![CDATA[ 十个免费的Web压力测试工具 ]]></title>
 <link>https://coolshell.cn/articles/2589.html</link>
 <content><![CDATA[ 
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >两天，jnj在本站发布了《<a rel="bookmark" href="https://coolshell.cn/articles/2574.html" target="_blank">如何在低速率网络中测试 Web 应用</a>》，那是测试网络不好的情况。而下面是十个免费的可以用来进行Web的负载/压力测试的工具，这样，你就可以知道你的服务器以及你的WEB应用能够顶得住多少的并发量，以及你的网站的性能。我相信，北京奥组委的订票网站的开发团队并不知道有这样的测试工具。</p>
 <p><strong><a href="http://grinder.sourceforge.net/" target="_blank">Grinder</a></strong> –  Grinder是一个开源的JVM负载测试框架，它通过很多负载注射器来为分布式测试提供了便利。 支持用于执行测试脚本的Jython脚本引擎HTTP测试可通过HTTP代理进行管理。根据项目网站的说法，Grinder的 主要目标用户是“理解他们所测代码的人——Grinder不仅仅是带有一组相关响应时间的‘黑盒’测试。由于测试过程可以进行编码——而不是简单地脚本 化，所以程序员能测试应用中内部的各个层次，而不仅仅是通过用户界面测试响应时间。</p>
 <p><strong><a href="http://www.pylot.org/" target="_blank">Pylot</a></strong> -Pylot是一款开源的测试web service性能和扩展性的工具，它运行HTTP 负载测试，这对容量计划，确定基准点，分析以及系统调优都很有用处。Pylot产生并发负载（HTTP Requests），检验服务器响应，以及产生带有metrics的报表。通过GUI或者shell/console来执行和监视test suites。</p>
 <p><a href="http://www.iis.net/community/default.aspx?tabid=34&amp;i=1466&amp;g=6" target="_blank"><strong>Web Capacity Analysis Tool (WCAT)</strong></a> – 这是一种轻量级负载生成实用工具，不仅能够重现对 Web 服务器（或负载平衡服务器场）的脚本 HTTP 请求，同时还可以收集性能统计数据供日后分析之用。WCAT 是多线程应用程序，并且支持从单个源控制多个负载测试客户端，因此您可以模拟数千个并发用户。该实用工具利用您的旧机器作为测试客户端，其中每个测试客户端又可以产生多个虚拟客户端（最大数量取决于客户端机器的网络适配器和其他硬件）。您可以选择使用 HTTP 1.0 还是 HTTP 1.1 请求，以及是否使用 SSL。并且，如果测试方案需要，您还可以使用脚本执行的基本或 NTLM 身份验证来访问站点的受限部分。（如果您的站点使用 cookie、表单或基于会话的身份验证，那您可以创建正确的 GET 或 POST 请求来对测试用户进行身份验证。）WCAT 还可管理您站点可能设置的任何 cookie，所以配置文件和会话信息将永久保存。</p>
@@ -2666,9 +2577,6 @@ print(202*2);exit();
 <p><strong><a href="http://www.web-polygraph.org/" target="_blank">Web Polygraph</a></strong> – Web Polygraph这个软件也是一个用于测试WEB性能的工具，这个工具是很多公司的标准测试工具，包括微软在分析其软件性能的时候，也是使用这个工具做为基准工具的。很多招聘测试员的广告中都注明需要熟练掌握这个测试工具。</p>
 <p><strong><a href="http://opensta.org/" target="_blank">OpenSTA</a></strong> – OpenSTA是一个免费的、开放源代码的web性能测试工具，能录制功能非常强大的脚本过程，执行性能测试。例如虚拟多个不同的用户同时登陆被测试网站。其还能对录制的测试脚本进行,按指定的语法进行编辑。在录制完测试脚本后，可以对测试脚本进行编辑，以便进行特定的性能指标分析。其较为丰富的图形化测试结果大大提高了测试报告的可阅读性。OpenSTA 基于CORBA 的结构体系，它通过虚拟一个proxy，使用其专用的脚本控制语言，记录通过proxy 的一切HTTP/S traffic。通过分析OpenSTA的性能指标收集器收集的各项性能指标，以及HTTP 数据，对系统的性能进行分析。</p>
 <p>欢迎您留下你认为不错的WEB应用性能测试的工具。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-07-13T08:50:40+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2589.html</guid>
@@ -2679,15 +2587,12 @@ print(202*2);exit();
 <link>https://coolshell.cn/articles/2608.html</link>
 <content><![CDATA[ 
 <p>Google 本周一发布了一个新的工作可以让任何人创建Android手机应用。这个工具叫<a href="http://appinventor.googlelabs.com/" target="_blank"><strong>Google App Inventor</strong></a>。（目前， App Inventor好像只对教育者开放）Google说：“你不必是一个专业开发人员就能轻松使用App Inventor。使用App Inventor无须掌握编程知识。因为你根本就不需要编写代码，你只需在可视化界面上设计应用的界面，并使用“blocks”指定应用的行为（behavior）。”</p>
-<figure id="attachment_2610" aria-describedby="caption-attachment-2610" style="width: 552px" class="wp-caption aligncenter"><a href="http://appinventor.googlelabs.com/"><img alt="image placeholder" >
+<figure id="attachment_2610" aria-describedby="caption-attachment-2610" style="width: 552px" class="wp-caption aligncenter"><a href="http://appinventor.googlelabs.com/"><img alt="image placeholder" ></a><figcaption id="caption-attachment-2610" class="wp-caption-text">Google Android App Inventor</figcaption></figure>
 <p>注意，Google说的是任何人，也就是包括那些不会编程的人。这个工具可以将枯燥的代码变成了一块一块的拼图，你需要做的只是把这些零散的拼图按照你自己的意思组合在一起，点击生成，你的第一个 Android 程序就诞生了。这里有一篇来自 <a href="https://www.nytimes.com/2010/07/12/technology/12google.html" target="_blank">纽约时代的报道</a>，《纽约时代》报道称，App Inventor已经在六年级的孩子们中完成测试，他们能够使用App Inventor制作简单的应用。如果你可以访问Youtube的话，你可以看看这个<a href="https://www.youtube.com/watch?v=8ADwPLSFeY8" target="_blank">视频</a>。</p>
 <p><span id="more-2608"></span></p>
 <p>这个想法，这会让 Android 市场不仅对程序开放，而且我们可能看到还有一大批很有创意但不懂编程的人为这个平台添砖加瓦，当然，这也可能会出现很多垃圾应用，正如不会做网页的人用所见即所得的编辑器做出的那些相当ugly劣质网页一样。瑕不蔽玉，就算是有大量的劣质应用的出现，我也相信，同样会涌现出更多更好的应用，那些都是技术人员无法做到的。</p>
 <p>当然，这种想法以前也有，不过仅仅是当玩具玩玩，这回，做这个事的是Google，我不知道他能把这个事情做成什么样？但觉得可能会比较专业。如果只是整成另一个VB的翻版嘛，那就很囧了。</p>
 <p>让我们看看，最终这个玩意，<span style="color: #000000;"><strong>会成为像Dreamweaver或Flash那样把网页开发变成傻瓜化，还是会像VB那样把程序员变成傻瓜</strong></span>。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-07-13T16:37:06+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2608.html</guid>
@@ -2721,9 +2626,6 @@ print(202*2);exit();
 <p>如果要举一个反例，那么就是预编译器的模块化系统。C使用<code>#include</code> 而 C++ 更痛苦，因为模板需要写一个大的头文件，而且其会被包含在几乎所有的其它文件中。而一个真正的模块化的系统是不需要使用 <code>extern</code> 关键字，也不需要程序的链接，而应该是直接使用。</p>
 <h2></h2>
 <p>文章：<a href="http://beza1e1.tuxen.de/articles/proglang_mistakes.html" target="_blank">来源</a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-07-14T08:38:34+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2598.html</guid>
@@ -2760,7 +2662,6 @@ print(202*2);exit();
 </ul>
 <p>上面这些五个观点都是可能让你在不完美的工作环境中可以工作得更好，更快，更高效，希望能够对你有用。另外，也欢迎你留下你的观点！</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2010-07-15T07:53:16+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2606.html</guid>
@@ -2773,7 +2674,7 @@ print(202*2);exit();
 <p><em><a href="http://universite-du-si.com/en/conferences/6/sessions/909">文章来源 – Martin Fowler 和 Neal Ford 在 Paris – USI 2010 的演讲</a></em></p>
 <p>有很多的书籍讨论敏捷方法是怎样工作的（How it works？），在这个主题演讲中，Martin Fowler 和他的同事 Neal Ford 讨论了敏捷方法能够在软件开发项目中行之有效的原因（Why it works？）。作为敏捷方法的发起人和传道者，Martin Fowler 和 ThoughtWorks 一直试图从理论层面证明敏捷方法的可行性，同时不厌其烦地解答着客户们的各种困惑，正如他们所说，敏捷方法中的很多概念不是特别的直观，除非人们真正实践过一段时间，否则有些概念很难从字面上去完全理解。</p>
 <p>Martin Fowler 谈到一个有意思的现象，那就是今天许多人们口中谈论的敏捷方法，和最初的敏捷方法大相径庭，他把这种现象称为“语义扩散（Semantic Diffusion）”，大意是某种思想在传播的过程中，在逐渐扩散的同时，其语义也渐渐变得模糊。在敏捷开发领域里，“语义扩散”导致的一个问题是，在一些使用敏捷方法的项目或者公司中，我们甚至无法辨别出敏捷方法的影子，原因是很多人没有真正地理解敏捷方法，也就不能够正确地运用和实践，从而也就无法真正了解自己是否能够从敏捷方法中获益。</p>
-<p style="text-align: center;"><a href="https://coolshell.cn/wp-content/uploads/2010/07/Martin-Flower1.jpg"><img alt="image placeholder" >
+<p style="text-align: center;"><a href="https://coolshell.cn/wp-content/uploads/2010/07/Martin-Flower1.jpg"><img alt="image placeholder" ></a></p>
 <p>以下是为什么敏捷方法行之有效的原因：</p>
 <p><span id="more-2622"></span></p>
 <h4><span style="color: #000000;"><strong>1. 敏捷方法和传统的计划驱动方法的两个主要区别</strong></span></h4>
@@ -2785,9 +2686,6 @@ print(202*2);exit();
 <p>Neal Ford 让我们回顾或想象一下失败的软件开发项目，它们的失败是由于技术因素还是人的因素呢？《人件》的作者认为都是人的因素。人类的社会性决定了沟通的重要。Neal 举了几个有趣的例子，如：监狱里的犯人宁愿和其他人渣待在一起也不愿被关禁闭。很多国家禁止驾驶员驾驶时打移动电话，那为什么和乘客聊天就没有问题呢？原因是直接对话是最为有效和便捷的沟通方式，信息的传递在对话过程中非常顺畅和完整。虽然现在的移动通讯已经非常先进，信号质量也很高，但是我们的通话过程仍然是有损的，我们的大脑这个时候就需要努力地试图将通话信息拼凑得更完整以便能够理解对方的意思，因此才会分散驾驶的注意力。随后，Martin Fowler 举了另一个例子，拿他做水果蛋糕的方法和他在酒店的浴室中冲凉的方法来进行比较。因为做水果蛋糕的整个流程和配料都是非常固定的，所以他只需要按步照搬地烹饪即可做出味道非常一致（地好或者差）的水果蛋糕。而在酒店中冲凉就有些不同，因为每一个酒店浴室的开关设计几乎都是不一样的，所以他需要不断地调整开关来获得一个理想的水温，也就是需要不断地重复“调整开关”（输入），“用手试温”（输出）这个过程。相对于做水果蛋糕，在酒店浴室冲凉更好地反应了软件开发的特征，这就是在软件开发领域中，如果我们善于根据用户反馈的信息来做出新的判断和调整，就有可能提高产品的质量和用户的满意度。</p>
 <p>沟通的确是一个非常重要的环节，它是敏捷方法的核心。在敏捷方法中，单元测试是程序员和代码组件的沟通，功能测试是程序员以及QA和系统的沟通，故事墙（Story Wall）和回顾（Retrospective）是团队和成员之间的沟通，功能演示（Showcase 或者 Demo）是团队通过产品和最终用户的沟通，持续集成（Continuous Integration）是产品和企业计算环境的沟通。沟通好了，什么事情都可以妥善解决，沟通得不好，好事也会变坏事。和广大技术爱好者交流沟通也是酷壳存在的目的和意义。</p>
 <p>整个演讲时长一个小时，本文只是节选了我认为比较有意思的观点加上本人的理解写成，如有错误之处欢迎指正，不同看法欢迎交流。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-07-18T10:28:25+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2622.html</guid>
@@ -2885,7 +2783,6 @@ print(202*2);exit();
 </table>
 <p>其它一些JVM的脚本语言也我们可以关注一下，如：<a href="http://clojure.org/" target="_blank"><strong>Clojure</strong></a>, <a href="http://javafx.com/" target="_blank"><strong>JavaFX</strong></a>, 和IBM的 <a href="https://www.ibm.com/software/awdtools/netrexx/" target="_blank"><strong>NetRexx</strong></a>。</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2010-07-19T19:40:42+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2631.html</guid>
@@ -2898,15 +2795,12 @@ print(202*2);exit();
 <p>以前本站介绍过一个在线的《<a rel="bookmark" href="https://coolshell.cn/articles/1830.html" target="_blank">正则表达式生成器</a>》，下面是两个在浏览器中检查正则表达式的插件，Firefox的和Chrome的，希望对你有用。</p>
 <h3>1）Firefox：<a href="https://addons.mozilla.org/en-US/firefox/addon/2077/" target="_blank">Regular Expressions Tester</a>
 </h3>
-<figure style="width: 448px" class="wp-caption aligncenter"><img alt="image placeholder" >
+<figure style="width: 448px" class="wp-caption aligncenter"><img alt="image placeholder" ><figcaption class="wp-caption-text">Firefox正规则表达式检查插件Regular Expressions Tester</figcaption></figure>
 <h3></h3>
 <h3>2）Chrome：<a href="https://chrome.google.com/extensions/detail/pgnkpcgniljiolidjmodgfljeomjjiha" target="_blank">Regular Expression Checker</a>
 </h3>
 <p><span id="more-2667"></span></p>
-<p><figure style="width: 544px" class="wp-caption aligncenter"><img alt="image placeholder" >
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
+<p><figure style="width: 544px" class="wp-caption aligncenter"><img alt="image placeholder" ><figcaption class="wp-caption-text">Chrome正规则表达式检查插件Regular Expression Checker</figcaption></figure></p>
  ]]></content>
 <pubDate>2010-07-20T08:10:40+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2667.html</guid>
@@ -2927,9 +2821,6 @@ print(202*2);exit();
 </ul>
 <p>老实说，我并不太清楚这些工具有什么用，看似很useless。难道是为了用来学习新的语言？就像Google的Translator的一样？就像一个并不懂中文的老外可以用Google Translator在其Facebook中整点中文耍耍酷一样，难道说，一个C#的程序员可以用这样的工具和一个Python的程序员也耍耍酷？各位看客觉得这个东西有意义吗？</p>
 <p>不过，有一点我可以确定，如果有工具把Unix/Linux下的C源码和Windows下的C源码相互自动转换，估计这会是相当划时代的，因为，这应该会让那些什么Wine或Cygwin之类的东西都统统会成为历史了。不过，这样的东西在实现上又将会有多么大的难度（OS系统API的相互转换），这个事会有可行性吗？</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-07-20T10:24:22+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2672.html</guid>
@@ -2954,9 +2845,6 @@ print(202*2);exit();
 &lt;/script&gt;
 </pre>
 <p>你对此事怎么看？欢迎留下你的看法。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-07-21T08:17:39+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2688.html</guid>
@@ -2977,9 +2865,6 @@ Kent：“很多程序员仅仅是拷贝和粘贴测试代码，但并不理解�
 Kent：“我最近谈论的一个主题是 Software G Forces，是关于软件产品的部署频率（Frequency of Deployment），这里的部署是指面向最终用户的部署或者说发布，是生产环境而非测试环境。从前的软件产品每年（或数年）发布一个新的版本，而现在的软件产品发布频率越来越快，从每季度，每月，每周，每天，直至每小时。Kent 提及有一些非常复杂的软件产品的发布频率甚至是每天 40 到 50 次。此时 Roy 提出了一个非常好的问题：“产品发布得如此频繁，我们如何能够在这么短的时间间隔内获得用户反馈呢？”，Kent 回答道：“持续部署（Continuous Deployment）确实需要一些基础设施建设来支持，比如：自动版本回滚，自动错误检测，系统同时运行多个版本的能力，比如一个服务器集群中不同的服务器上可以运行产品的不同版本。”</p>
 <p>Roy 问道：“当你在开发一个产品的时候，你在为客户创造价值，而持续部署创造的则是一种内在的价值，并且实施过程也是非常复杂的，你怎样投入时间去实施它呢？是否需要从产品设计的一开始就考虑这些问题呢？”，Kent 答道：“5 年之内市场上可能会有许多持续部署的产品出现，目前我们可能需要自己来寻求解决方案，因为现在它还是一个较新的领域。持续部署的重点之一是及时捕获系统错误，不仅仅是技术层面上的错误，同时也包括业务层面。以 Amazon.com 为例，他们评价系统运行的良好程度是以业务运营状况为依据的，如果销售额出现不明原因的下降，系统也会发出错误警告。”</p>
 <p>注：为了不让文章过长，下半部分的面向初创企业的精益方法（Lean Startups）将在后面发布。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-07-22T08:00:23+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2681.html</guid>
@@ -2990,7 +2875,7 @@ Kent：“我最近谈论的一个主题是 Software G Forces，是关于软件�
 <link>https://coolshell.cn/articles/2704.html</link>
 <content><![CDATA[ 
 <p>一般来说，我们会使用正规表达式来做字符串匹配，今天在网上浏览的时候，看到了有人用正则表达式来检查一个数字是否为素数（质数），让我非常感兴趣，这个正则表达式如入所示：</p>
-<figure id="attachment_2705" aria-describedby="caption-attachment-2705" style="width: 450px" class="wp-caption aligncenter"><img alt="image placeholder" >
+<figure id="attachment_2705" aria-describedby="caption-attachment-2705" style="width: 450px" class="wp-caption aligncenter"><img alt="image placeholder" ><figcaption id="caption-attachment-2705" class="wp-caption-text">检查素数与否的正则表达式 </figcaption></figure>
 <p>要使用这个正规则表达式，你需要把自然数转成多个1的字符串，如：2 要写成 “11”， 3 要写成 “111”, 17 要写成“11111111111111111”，这种工作使用一些脚本语言可以轻松的完成。</p>
 <p>一开始我对这个表达式持怀疑态度，但仔细研究了一下这个表达式，发现是非常合理的，下面，让我带你来细细剖析一下是这个表达式的工作原理。</p>
 <p>首先，我们看到这个表达式中有“|”，也就是说这个表达式可以分成两个部分：/^1?$/ 和 /^(11+?)\1+$/</p>
@@ -3018,7 +2903,6 @@ Kent：“我最近谈论的一个主题是 Software G Forces，是关于软件�
 </ul>
 <p>大家不妨自己做做练习，为什么上述的两个正则表达式可以判断方程是否有解。如果无法参透其中的奥妙的话，你可以读读这篇<a href="http://blog.stevenlevithan.com/archives/algebra-with-regexes" target="_blank">英文文章</a>。</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2010-07-23T08:22:27+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2704.html</guid>
@@ -3037,10 +2921,7 @@ Kent：“我最近谈论的一个主题是 Software G Forces，是关于软件�
 <li>多版本编译。这个功能可以让你在IDE中编译两个版本的代码，而且可以和Subversion或Git集成。</li>
 </ul>
 <p>你可以访问 <a href="https://developer.apple.com/technologies/tools/whats-new.html" target="_blank">What’s New</a> 来看看具体的细节。</p>
-<p><figure style="width: 651px" class="wp-caption aligncenter"><a href="https://developer.apple.com/technologies/tools/whats-new.html"><img alt="image placeholder" >
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
+<p><figure style="width: 651px" class="wp-caption aligncenter"><a href="https://developer.apple.com/technologies/tools/whats-new.html"><img alt="image placeholder" ></a><figcaption class="wp-caption-text">苹果开发工具Xcode 4 Preview 2</figcaption></figure></p>
  ]]></content>
 <pubDate>2010-07-23T17:40:00+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2719.html</guid>
@@ -3057,13 +2938,10 @@ Kent：“我最近谈论的一个主题是 Software G Forces，是关于软件�
 </ul>
 <p>什么也不说了，直接上图（图片比较大，单击图片看大图）</p>
 <hr>
-<figure id="attachment_2726" aria-describedby="caption-attachment-2726" style="width: 409px" class="wp-caption aligncenter"><a href="https://coolshell.cn/wp-content/uploads/2010/07/aboutprogramming04.eng_.jpg"><img alt="image placeholder" >
+<figure id="attachment_2726" aria-describedby="caption-attachment-2726" style="width: 409px" class="wp-caption aligncenter"><a href="https://coolshell.cn/wp-content/uploads/2010/07/aboutprogramming04.eng_.jpg"><img alt="image placeholder" ></a><figcaption id="caption-attachment-2726" class="wp-caption-text">计算机编程简史图（英文版） </figcaption></figure>
 <hr>
 <p><span id="more-2724"></span></p>
-<p><figure id="attachment_2725" aria-describedby="caption-attachment-2725" style="width: 409px" class="wp-caption aligncenter"><a href="https://coolshell.cn/wp-content/uploads/2010/07/aboutprogramming04_cn.jpg"><img alt="image placeholder" >
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
+<p><figure id="attachment_2725" aria-describedby="caption-attachment-2725" style="width: 409px" class="wp-caption aligncenter"><a href="https://coolshell.cn/wp-content/uploads/2010/07/aboutprogramming04_cn.jpg"><img alt="image placeholder" ></a><figcaption id="caption-attachment-2725" class="wp-caption-text">计算机编程简史图（中文版） </figcaption></figure></p>
  ]]></content>
 <pubDate>2010-07-26T07:54:16+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2724.html</guid>
@@ -3137,9 +3015,6 @@ Kent：“我最近谈论的一个主题是 Software G Forces，是关于软件�
 <li><a href="http://www.webhostingsecretrevealed.com/featured-articles/learn-html5-10-must-read-lessons/">Learn HTML5: 10 must read lessons</a></li>
 </ul>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-07-27T08:00:04+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2735.html</guid>
@@ -3279,9 +3154,6 @@ Kent：“我最近谈论的一个主题是 Software G Forces，是关于软件�
 <p><strong>原文</strong>：当你在初始化一个项目的时候，TODO注释是非常有用的。但是，如果这样的注释在你的产品源码中出现了N多年，那就有问题了。如果有BUG要被fix，那就Fix吧，没有必要整一个TODO。</p>
 <p><strong>陈皓</strong>：是的，TODO是一个好的标志仅当存在于还未release的项目中，如果你的软件产品都release了，你的代码里还有TODO，这个就不对了。也许你会争辩说，那是你下一个版本要干的事。OK，那你应该使用项目管理，或是需求管理来管理你下一个版本要干的事，而不是使用代码注释。通常，在项目release的前夕，你应该走查一下你代码中的TODO标志，并且做出决定，是马上做，还是以后做。如果是以后做，那么，你应该使用项目管理或需求管理的流程。</p>
 <p>上述是你应该避免使用的注释，以及我个人的一些观点，也欢迎你留下你的观点！</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-07-28T08:48:15+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2746.html</guid>
@@ -3291,7 +3163,7 @@ Kent：“我最近谈论的一个主题是 Software G Forces，是关于软件�
 <title><![CDATA[ 最佳编程语录 ]]></title>
 <link>https://coolshell.cn/articles/2753.html</link>
 <content><![CDATA[ 
-<p>以前本站发布过《<a rel="bookmark" href="https://coolshell.cn/articles/808.html" target="_blank">22条经典的编程引言</a>》、《<a rel="bookmark" href="https://coolshell.cn/articles/1212.html" target="_blank">编程引言补充</a>》、《<a rel="bookmark" href="https://coolshell.cn/articles/1278.html" target="_blank">Linus Torvalds 语录</a>》还有《<a href="https://coolshell.cn/articles/2424.html" target="_blank">十条不错的编程观点</a>》。今天向大家介绍“最佳编程语录”，条条都是很不错的语录，如同我们的太阳，照亮了我们的方向（所以我们选用了一个红色的图片，希望能够通过五毛们的网络审查）。<img alt="image placeholder" >
+<p>以前本站发布过《<a rel="bookmark" href="https://coolshell.cn/articles/808.html" target="_blank">22条经典的编程引言</a>》、《<a rel="bookmark" href="https://coolshell.cn/articles/1212.html" target="_blank">编程引言补充</a>》、《<a rel="bookmark" href="https://coolshell.cn/articles/1278.html" target="_blank">Linus Torvalds 语录</a>》还有《<a href="https://coolshell.cn/articles/2424.html" target="_blank">十条不错的编程观点</a>》。今天向大家介绍“最佳编程语录”，条条都是很不错的语录，如同我们的太阳，照亮了我们的方向（所以我们选用了一个红色的图片，希望能够通过五毛们的网络审查）。<img alt="image placeholder" >其中只有一两条在以前本站发布过的文章中出现过。这篇<a href="http://www.linfo.org/q_programming.html" target="_blank"><strong>文章的出处在这里</strong></a>，下面是“<a href="https://coolshell.cn/?author=4" target="_blank">Neo</a>”和“<a href="https://coolshell.cn/?author=2" target="_blank">陈皓</a>”的翻译，我们的翻译水平有限，所以，我们提供了中英文对照，有不当之处，还请各位指正。</p>
 <blockquote>
 <p>A good programmer is someone who looks both ways before crossing a one-way street. — Doug Linder, systems administrator</p>
 <p>好的程序员这样一类人，这类人在横穿一条单行道前都要先看一下路两边。– Doug Linder, 系统管理员</p>
@@ -3420,9 +3292,6 @@ Kent：“我最近谈论的一个主题是 Software G Forces，是关于软件�
 <p>当程序语言被设计成允许程序以很简单的英语来编程的时候，人们将会发现编写程序的程序员都来自不会说英语的地方。 –匿名</p>
 </blockquote>
 <p>（全文完，翻译水平有限，如果有误，还请批评指正！）</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-08-02T08:15:45+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2753.html</guid>
@@ -3750,9 +3619,6 @@ Kent：“我最近谈论的一个主题是 Software G Forces，是关于软件�
 <li><a rel="nofollow" href="http://www.swaroopch.com/notes/Vim">A Byte of Vim</a></li>
 </ul>
 <p>你有和我们分享的计算机电子书列表吗？欢迎在回复中和我们分享。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-08-04T18:37:59+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2775.html</guid>
@@ -3764,13 +3630,10 @@ Kent：“我最近谈论的一个主题是 Software G Forces，是关于软件�
 <content><![CDATA[ 
 <p>以前，本站介绍过一些<a href="https://coolshell.cn/articles/1907.html" target="_blank">Ugly的UI</a>，今天我们来看看微软Windows里的“画笔”程序，看看微软的某个功能干了什么样的囧事。</p>
 <p>我打开了一个比较大的图片，有点太大了，我想缩小一下看看，很好，微软在菜单项里供了Zoom选项，其中有一个Custom（自定义），挺不错的。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>但是，当我看到这个自定义的对话框后，我彻底无语了，大哥你是怎么想的啊……</p>
 <p><span id="more-2792"></span></p>
-<p><img alt="image placeholder" >
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
+<p><img alt="image placeholder" ></p>
  ]]></content>
 <pubDate>2010-08-09T08:36:47+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2792.html</guid>
@@ -3796,9 +3659,6 @@ f=Math; _=document.body; _.style.background="#000"; e=_.children[0]; e.width=w=i
 with(document.body.style){margin="0px";overflow="hidden";}var w=window.innerWidth;var h=window.innerHeight;var ca=document.getElementById("c");ca.width=w;ca.height=h;var c=ca.getContext("2d");m=Math;fs=m.sin;fc=m.cos;fm=m.max;setInterval(d,30);function p(x,y,z){return{x:x,y:y,z:z};}function s(a,z){r=w/10;R=w/3;b=-20*fc(a*5+t);return p(w/2+(R*fc(a)+r*fs(z+2*t))/z+fc(a)*b,h/2+(R*fs(a))/z+fs(a)*b);}function q(a,da,z,dz){var v=[s(a,z),s(a+da,z),s(a+da,z+dz),s(a,z+dz)];c.beginPath();c.moveTo(v[0].x,v[0].y);for(i in v)c.lineTo(v[i].x,v[i].y);c.fill();}var Z=-0.20;var t=0;function d(){t+=1/30.0;c.fillStyle="#000";c.fillRect(0,0,w,h);c.fillStyle="#f00";var n=30;var a=0;var da=2*Math.PI/n;var dz=0.25;for(var z=Z+8;z&gt;Z;z-=dz){for(var i=0;i&lt;n;i++){fog=1/(fm((z+0.7)-3,1));if(z&lt;=2){fog=fm(0,z/2*z/2);}var k=(205*(fog*Math.abs(fs(i/n*2*3.14+t))))&gt;&gt;0;k*=(0.55+0.45*fc((i/n+0.25)*Math.PI*5));k=k&gt;&gt;0;c.fillStyle="rgb("+k+","+k+","+k+")";q(a,da,z,dz);if(i%3==0){c.fillStyle="#000";q(a,da/10,z,dz);}a+=da;}}Z-=0.05;if(Z&lt;=dz)Z+=dz;}<br>
 [/javascript]</p>
 <p>你可以前往一看更多的<a href="http://js1k.com/demos" target="_blank">演示</a>。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-08-09T13:51:37+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2785.html</guid>
@@ -3846,9 +3706,6 @@ untitled: 42</p></blockquote>
   myfunc((struct mystru){.number = argc, .name = "argc",});
   myfunc((struct mystru){.number = 42});
 </pre>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-08-10T08:24:52+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2801.html</guid>
@@ -3859,11 +3716,8 @@ untitled: 42</p></blockquote>
 <link>https://coolshell.cn/articles/2806.html</link>
 <content><![CDATA[ 
 <p>现在“凡客诚品”的PS风已经成为了一场运动，详见这里：<a href="http://bigfools.com/2010/08/6634.html" target="_blank">http://bigfools.com/2010/08/6634.html</a>。这两天，公司内部要出期刊，正好下班没事，于是跟着这股网风，为公司的期刊做了一个插图，那些语句着实花了我很多时间。用PPT乱做的，希望大家喜欢。呵呵。</p>
-<p><a href="https://coolshell.cn/wp-content/uploads/2010/08/coolshell.programmer.jpg"><img alt="image placeholder" >
+<p><a href="https://coolshell.cn/wp-content/uploads/2010/08/coolshell.programmer.jpg"><img alt="image placeholder" ></a></p>
 <p>欢迎你留下你的版本，尤其是那些语句。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-08-12T15:24:48+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2806.html</guid>
@@ -3873,13 +3727,10 @@ untitled: 42</p></blockquote>
 <title><![CDATA[ 两个教程：Socket和HTML5 ]]></title>
 <link>https://coolshell.cn/articles/2829.html</link>
 <content><![CDATA[ 
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >给大家介绍两个教程，一个是关于Socket编程的，一个是关于HTML5的。</p>
 <p>关于Socket，相信大家都知道这个是用来做TCP/IP网络编程的，其由FreeBSD引入，现在，只要你相做网络编程，你必然会使用到它。这里有一个叫<strong><a href="https://beej.us/guide/bgnet/" target="_blank">Beej’s Guide to Network Programming</a><span style="font-weight: normal;"> 的网站</span></strong>，非常不错的一个教程。在其主页上显示有<a href="http://docs.chinalinuxpub.com/doc/pro/is.html" target="_blank">中译版</a>，不过很可惜，打不开。好像网络有很多转载，你可以<a href="https://www.google.com.hk/search?hl=zh-CN&amp;source=hp&amp;q=beej+%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B&amp;btnG=Google+%E6%90%9C%E7%B4%A2" target="_blank">Google一下</a>。</p>
 <p>另一个是关于HTML5的众多标签，大家可以访问这个叫做“<a href="http://diveintohtml5.org/peeks-pokes-and-pointers.html" target="_blank"><strong>HTML5 Peeks, Pokes and Pointers</strong></a>”的网站，其就像一个速查手册一样，你可要查阅HTML5的那些BT的tag，比如：多媒体，画布，地理，表单，等等。</p>
 <p>希望大家喜欢，不妨你也说说你知道的相关的一些教程。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-08-23T10:47:28+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2829.html</guid>
@@ -3891,11 +3742,8 @@ untitled: 42</p></blockquote>
 <content><![CDATA[ 
 <p>啥也不说了，自己访问一下吧，F是跳，D是加速，回车的是开始，还挺好玩，简单是简单了点，但好歹也是用Java写的，也是Web的，呵呵。</p>
 <p style="text-align: center;"><a href="http://meatfighter.com/mario/mario.html" target="_blank">http://meatfighter.com/mario/mario.html</a></p>
-<p><a href="http://meatfighter.com/mario/mario.html"><img alt="image placeholder" >
+<p><a href="http://meatfighter.com/mario/mario.html"><img alt="image placeholder" ></a></p>
 <p>你还见过更烂的吗？</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-08-23T15:20:21+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2834.html</guid>
@@ -3917,9 +3765,6 @@ untitled: 42</p></blockquote>
 </ul>
 <p>如果你幸运的话，你就可以看到被恢复的内容了。这正是Unix的简单哲学（详见《<a href="https://coolshell.cn/articles/2324.html" target="_blank">Unix传奇下篇</a>》）——<strong> 所有的设备都是文件</strong>。</p>
 <p>当然，我还是建议你把root用户的rm的命令用alias换成别一个脚本，那个脚本会帮你把删除的文件放到某个地方。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-08-24T08:56:24+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2822.html</guid>
@@ -3939,14 +3784,14 @@ untitled: 42</p></blockquote>
 <li><a href="http://speckyboy.com/2010/04/12/mobile-web-and-app-development-testing-and-emulation-tools/">Mobile Web and App Development Testing and Emulation Tools →</a></li>
 <li><a href="http://speckyboy.com/2010/03/08/14-free-mobile-app-development-icon-sets/">14 Free Mobile Application Development Icon Sets →</a></li>
 </ul>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p><span id="more-2853"></span></p>
 <h3><a href="http://andbook.anddev.org/">免费的Android开发人员电子书:andbook</a></h3>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>如果你刚步入Android的开发，那么对于第一次开发Android应用程序的你来说，这本书是非常适合的。这本只有62页的PDF电子书里，有简单易懂的入门教程，帮助你在没有任何Android开发知识的背景下，教你开发Android应用程序。<br>
 <a href="http://andbook.anddev.org/">Free Android Developer Ebook: andbook! →</a></p>
 <h3><a href="http://kronox.org/documentacion/Professional_Android_Application_Development.pdf">免费的Android开发人员电子书:专业Android应用程序开发</a></h3>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>专业Android应用程序开发PDF电子书，是一本创建移动手机应用程序的上手指南，这本书特点简洁，还有着能帮助你快速构建真实Android移动电话应用程序的典型的例子。本书覆盖了Android手机所有本质特性，并同时展示了Android手机的高级特性。<br>
 <a href="http://kronox.org/documentacion/Professional_Android_Application_Development.pdf">Free Android Developer Ebook: Professional Android Application Development →</a></p>
 <h3>免费和开源的应用程序</h3>
@@ -3976,31 +3821,31 @@ untitled: 42</p></blockquote>
 </a>Android Snippets 是一个Android的实用代码段库，这个库是用来分享实用和优秀的Android应用程序代码；如果没有特别的需求，我们可以大量的重用这些代码库。</li>
 </ul>
 <h3><a href="http://www.addictivetips.com/windows-tips/download-google-android-emulator/">Windows上的Android</a></h3>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>对于那些想测试驱动Android的开发者，可以使用这个Android模拟器，这个模拟器以单独的应用程序的形式独立运行在Windows PC之上，使用这个模拟器不用下载和完全安装复杂的Android开发包。你甚至可以在这个模拟器上安装和测试Android系统兼容的应用程序。<br>
 <a href="https://developer.android.com/guide/developing/tools/emulator.html">Android Emulator on Windows →</a></p>
 <h3><a href="https://developer.android.com/guide/developing/tools/emulator.html">来自应用程序开发入门的Android模拟器</a></h3>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>Android的开发包中包含了一个移动设备模拟器。这个模拟器模仿了典型移动设备的硬件和软件特性(当然，不包含打电话)。这个模拟器提供各种个样的导航和控制按键，可以使用你的鼠标和键盘来“按”下这些按键为你的应用程序生成事件。这个模拟器也提供一个屏幕为你显示应用程序。同时，SDK中提供了很多能在模拟器上运行的应用程序。<br>
 <a href="https://developer.android.com/guide/developing/tools/emulator.html">Android Emulator from The Developer’s Guide →</a></p>
 <h3><a href="http://www.openintents.org/en/node/23">感应模拟器</a></h3>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>感应模拟器是一个JAVA独立应用程序，感应模拟器模拟感应数据并把数据传给Android模拟器。这个感应模拟器可以让你模拟加速度仪器，指南针，和方向感应，这些数据可以用于Android应用程序，并通过感应器进行控制。<br>
 <a href="http://www.openintents.org/en/node/23">SensorSimulator →</a></p>
 <h3><a href="https://github.com/commonsguy/droidex">DroidEx:大（巨）屏上的Android项目</a></h3>
 <p>DroidEx 可以让你附加的Android设备的显示屏内容复制一份到你的开发机屏幕。使用DroidEx来做演示是非常有用的。因为你可以把你的Android设备连接到你的笔记本电脑上或投影仪上，你的客户就可以通过这些设备来看你Android设备上的内容。DroidEx还可以用来演示那些用模拟器不方便演示的内容，比如说GPS或加速度仪器等内容。<br>
 <a href="https://github.com/commonsguy/droidex">DroidEx: Projecting Android on the Big(ger) Screen →</a></p>
 <h3><a href="http://appinventor.googlelabs.com/about/">Android的App Inventor</a></h3>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ><br>
 Android 的App Inventor是来自Google为非开发人员准备的新工具，通过这个工具，非开发人员可以非常容易地在里面创建应用程序。可以通过网站的视屏来预览这个工具的功能特性。(你可以参看酷壳的<a href="https://coolshell.cn/articles/2608.html" target="_blank">这篇文章</a>)</p>
 <p>(<strong>译者注：</strong>这里还有一个youtube视屏，可惜也墙掉了）<br>
 <a href="https://developer.android.com/guide/appendix/faq/commontasks.html"></a></p>
 <h3><a href="https://developer.android.com/guide/appendix/faq/commontasks.html">如何开发Android中的常用任务</a></h3>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>这是一个关于Android开发可能遇到的常用任务列表集合，并提供了一个快速、 how-to方式的帮助，来帮助你完成这些任务。</p>
 <p><a href="https://developer.android.com/guide/appendix/faq/commontasks.html">Common Tasks and How to Do Them in Android→</a></p>
 <h3><a href="http://andblogs.net/fastboot/">快速启动小抄</a></h3>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>快速启动小抄是一个非常实用和快速的列表，这个列表中罗列一些关于快速启动的相关任务。<br>
 <a href="http://andblogs.net/fastboot/">Fastboot Cheat Sheet →</a></p>
 <h3><a href="https://developer.android.com/guide/practices/ui_guidelines/index.html">UI指导原则</a></h3>
@@ -4029,18 +3874,18 @@ Android 的App Inventor是来自Google为非开发人员准备的新工具，通
 </li>
 </ol>
 <h3><a href="http://www.androidpatterns.com/">Android UI模式</a></h3>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p><a href="http://www.androidpatterns.com/">Android UI Patterns →</a></p>
 <h3><a href="http://www.droiddraw.org/" target="_blank">DroidDraw:Android用户接口图形编辑器</a></h3>
-<p style="text-align: left;"><a href="https://coolshell.cn/wp-content/uploads/2010/08/android_dev_19.jpg"><img alt="image placeholder" >
+<p style="text-align: left;"><a href="https://coolshell.cn/wp-content/uploads/2010/08/android_dev_19.jpg"><img alt="image placeholder" ></a></p>
 <p>DroidDraw是一个为Android创建图形用户界面的UI设计器。它是一个独立的可执行程序，可以运行在Mac OS X，Windows和Linux上。</p>
 <p><a href="http://www.droiddraw.org/">DroidDraw : Graphical User Interface Editor for Android →</a></p>
 <h3><a href="http://www.smashingmagazine.com/2009/08/18/android-gui-psd-vector-kit/">Android GUI PSD 向量包</a></h3>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>Android GUI Starter Kit包里面包含了多个按钮元素和不同接口选项的AndroidGUI内容。这些元素是基于Android1.5 GUI的，并且这些包里面的被提供给开源社区的Android应用程序模型。大部分的GUI元素和手机图例都是使用向量路径制成，所以他们非常地容易被缩放。对于文本AndroidSans包被使用。<br>
 <a href="http://www.smashingmagazine.com/2009/08/18/android-gui-psd-vector-kit/">Android GUI PSD Vector Kit →</a></p>
 <h3><a href="http://unitid.nl/2009/11/fireworks-template-for-android/">Android的Firworks Template</a></h3>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>在Fireworks模板中，Android的各种元素被以向量图形的方式被重绘。在目录中，这些元素的名称大多根据Android词汇表被命名。<br>
 <a href="http://unitid.nl/2009/11/fireworks-template-for-android/">Fireworks Template for Android →</a></p>
 <h3><a href="http://www.tomhume.org/2010/01/android-wireframe-templates.html">Android线框模板 </a></h3>
@@ -4055,9 +3900,6 @@ Android 的App Inventor是来自Google为非开发人员准备的新工具，通
 <li><a href="http://speckyboy.com/2009/09/15/45-cool-google-android-apps-the-perfect-iphone-replacement/">45+ Cool Google Android Apps – The Perfect iPhone Replacement →</a></li>
 </ul>
 <p><strong>（全文完）</strong></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-08-26T08:43:01+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2853.html</guid>
@@ -4096,7 +3938,6 @@ Android 的App Inventor是来自Google为非开发人员准备的新工具，通
 <li>编程是一个辛苦的工作。其是一个巨烈的脑力劳动。好的程序员24×7地在思考他们的工作，他们一般都在在洗澡和梦中编写软件中最重要的代码。因为最重要的工作只能在键盘之外完成，软件项目不可能因为加班或是<a href="https://en.wikipedia.org/wiki/Brooks's_law" target="_blank">加人</a>来加快进度。</li>
 </ul>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2010-09-03T08:55:37+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2909.html</guid>
@@ -4108,28 +3949,28 @@ Android 的App Inventor是来自Google为非开发人员准备的新工具，通
 <content><![CDATA[ 
 <div>
 <p>原文：<a href="http://theoatmeal.com/blog/apps">http://theoatmeal.com/blog/apps</a></p>
-<p style="text-align: center;"><img alt="image placeholder" >
+<p style="text-align: center;"><img alt="image placeholder" ></p>
 <blockquote>
 <p><strong>星巴克</strong>：这是你的venti-soy-whipped-frappa-lardy-lattechino，也就$7.15，你需要加点糖吗？只需要再加$1.95。</p>
 <p><strong>消费者</strong>：绝对要加。让我们的血糖值高到月亮上！</p>
 </blockquote>
 <p><span id="more-2913"></span></p>
-<p style="text-align: center;"><img alt="image placeholder" >
+<p style="text-align: center;"><img alt="image placeholder" ></p>
 <blockquote>
 <p><strong>票房</strong>：先生，想看“断背3D吗”？一张票只要$13！</p>
 <p><strong>消费者</strong>：没问题！另外，有优惠吗？我想花$20再买点爆米花和碳酸饮料。</p>
 </blockquote>
-<p style="text-align: center;"><img alt="image placeholder" >
+<p style="text-align: center;"><img alt="image placeholder" ></p>
 <blockquote>
 <p><strong>Apple</strong>：新的iPhone 4G，加上税要$425.19</p>
 <p><strong>消费者</strong>：只要$425？！这仅相当于我老婆把背上的毛给去掉价格的1/10！拿钱！花这点钱连想不用想。</p>
 </blockquote>
-<p style="text-align: center;"><img alt="image placeholder" >
+<p style="text-align: center;"><img alt="image placeholder" ></p>
 <blockquote>
 <p><strong>Apple</strong>：iPad 3GS 加一个保护盒，一共$875.24</p>
 <p><strong>消费者</strong>：$875？这就些？啊，我要两个，一个给我，一个给我身边这个有毛的朋友。</p>
 </blockquote>
-<p style="text-align: center;"><a href="http://theoatmeal.com/"><img alt="image placeholder" >
+<p style="text-align: center;"><a href="http://theoatmeal.com/"><img alt="image placeholder" ></a></p>
 <blockquote>
 <p><strong>网站</strong>：下载应用：HorseHunter Extreme！点击OK确认你想花$0.99买这个应用。</p>
 <p><strong>消费者</strong>：什么？什么？什么？！99美分？！靠，我不知道……这么多钱啊！我应该把我的会技师找来，或是明天再说吧。</p>
@@ -4137,9 +3978,6 @@ Android 的App Inventor是来自Google为非开发人员准备的新工具，通
 <p>（完）</p>
 </div>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-09-03T17:13:43+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2913.html</guid>
@@ -4162,9 +4000,6 @@ Android 的App Inventor是来自Google为非开发人员准备的新工具，通
 <param name="src" value="http://player.youku.com/player.php/sid/XMTQxODYxMjMy/v.swf">
 <param name="quality" value="high">
 <embed type="application/x-shockwave-flash" width="480" height="400" src="http://player.youku.com/player.php/sid/XMTQxODYxMjMy/v.swf" quality="high" align="middle"></embed></object></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-09-06T23:08:53+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2917.html</guid>
@@ -4183,13 +4018,10 @@ Android 的App Inventor是来自Google为非开发人员准备的新工具，通
 <li>第二块说明了各种浏览器对HTML5的支持，从图中我们可以看到Chrome是支持的最好的。</li>
 <li>第三块从价格，功能，应用和效率上比较了HTML5和Flash，可参看本站的《<a title="HTML5 和 Flash 之争" href="https://coolshell.cn/articles/2735.html" target="_blank">HTML5 和 Flash 之争</a>》。</li>
 </ul>
-<figure id="attachment_2932" aria-describedby="caption-attachment-2932" style="width: 274px" class="wp-caption aligncenter"><a href="https://coolshell.cn/wp-content/uploads/2010/09/WTF_HTML51.jpg"><img alt="image placeholder" >
+<figure id="attachment_2932" aria-describedby="caption-attachment-2932" style="width: 274px" class="wp-caption aligncenter"><a href="https://coolshell.cn/wp-content/uploads/2010/09/WTF_HTML51.jpg"><img alt="image placeholder" ></a><figcaption id="caption-attachment-2932" class="wp-caption-text">为什么HTML什么都要干？（点击看大图）</figcaption></figure>
 <p>比较方面，关于价格，虽然Flash Player是免费的，但是开发工具是收费的，最重要的是，HTML5不是公司的产品，不存在垄断。在功能方面，目前当然是Flash很强，因为其图形处理能力很强，这点HTML5不如。在通用性方面，Flash是以插件的方式，而HTML5是浏览器支持的。当然，在性能方面，Javascript的方式对于CPU消耗地太猛了，这点Flash优势就很大了。</p>
 <p>HTML5还是Flash，你觉得哪个会更好呢？<br>
 </p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-09-09T14:27:06+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2926.html</guid>
@@ -4203,10 +4035,7 @@ Android 的App Inventor是来自Google为非开发人员准备的新工具，通
 <p>这个Bug的标题是这样的：“Buy cots for the JS interns” （为JS实习生买一些轻便小床），并说明“This bug is not actually a joke.”，这个BUG估计是在抱怨在Mozilla工作的实习生太辛苦了。在后面的跟贴中，很多人都提到了V8，呵呵。看来，大家还是在嘲笑Mozilla更多一些，大家不妨前往一看。</p>
 <p>Mozilla的firefox还是很让人失望的，作为一个Linux下默认的浏览器，其居然让Firefox的Windows版比Linux版更强大，在firefox 4.0 beta中居然出现了Windows Only的东东，着着实实地伤了很多firefox的粉丝的心，正因为这个，整个社区都开始BS并嘲笑Mozilla，并转投Chrome阵营。</p>
 <p>当然，最后这个BUG被fix了，有图为证：</p>
-<p><figure id="attachment_2937" aria-describedby="caption-attachment-2937" style="width: 560px" class="wp-caption aligncenter"><img alt="image placeholder" >
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
+<p><figure id="attachment_2937" aria-describedby="caption-attachment-2937" style="width: 560px" class="wp-caption aligncenter"><img alt="image placeholder" ><figcaption id="caption-attachment-2937" class="wp-caption-text">Mozilla的Bug fixing</figcaption></figure></p>
  ]]></content>
 <pubDate>2010-09-14T07:57:12+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2936.html</guid>
@@ -4218,32 +4047,29 @@ Android 的App Inventor是来自Google为非开发人员准备的新工具，通
 <content><![CDATA[ 
 <p>《Royce, Winston (1970), <a rel="nofollow" href="http://www.cs.umd.edu/class/spring2003/cmsc838p/Process/waterfall.pdf" target="_blank">“Managing the Development of Large Software Systems”</a>, <em>Proceedings of IEEE WESCON</em> <strong>26</strong> (August): 1–9. 》，这篇文章向你说明了软件工程鼻祖“Waterfall”的工程模型，这是40年前的论文，其中的十张插图很有强大，抽出来，让我们来看看什么叫Waterfall软件工程。</p>
 <p>首先，让我先看一下小的程序是怎么做的，呵呵，很简单，两步。</p>
-<p><a href="https://coolshell.cn/wp-content/uploads/2010/09/01.Small_.jpg"><img alt="image placeholder" >
+<p><a href="https://coolshell.cn/wp-content/uploads/2010/09/01.Small_.jpg"><img alt="image placeholder" ></a></p>
 <p>接下来，就是我们最经典的Waterfall软件工程模型了，用户需求，软件需求，需求分析，设计，编码，测试，运维。</p>
-<p><a href="https://coolshell.cn/wp-content/uploads/2010/09/02.Large_.jpg"><img alt="image placeholder" >
+<p><a href="https://coolshell.cn/wp-content/uploads/2010/09/02.Large_.jpg"><img alt="image placeholder" ></a></p>
 <p><span id="more-2941"></span>为了保证每个步骤都能正确实施，于是，每个步骤之间需要有一定的交互，这是我们所希望的样子。</p>
 <p><a href="https://coolshell.cn/wp-content/uploads/2010/09/02.Large_.jpg"><br>
-</a> <a href="https://coolshell.cn/wp-content/uploads/2010/09/03.Iteraction.jpg"><img alt="image placeholder" >
+</a> <a href="https://coolshell.cn/wp-content/uploads/2010/09/03.Iteraction.jpg"><img alt="image placeholder" ></a></p>
 <p>然后，不幸的是，我们总是在测试的时候发现了设计甚至需求的问题，因此，不得不让我们返工。</p>
-<p><a href="https://coolshell.cn/wp-content/uploads/2010/09/04.Design.jpg"><img alt="image placeholder" >
+<p><a href="https://coolshell.cn/wp-content/uploads/2010/09/04.Design.jpg"><img alt="image placeholder" ></a></p>
 <p>为了解决上面的“返工”问题，我们可以使用下面的几步来解决。</p>
 <p>第一步，叫Preliminary Design，程序设计先行，确定在进入需求分析之前，我们的概要设计要完整。</p>
-<p><a href="https://coolshell.cn/wp-content/uploads/2010/09/05.01.Preliminary.Design.jpg"><img alt="image placeholder" >
+<p><a href="https://coolshell.cn/wp-content/uploads/2010/09/05.01.Preliminary.Design.jpg"><img alt="image placeholder" ></a></p>
 <p>第二步，我们叫Document Design，书写设计文档，确认我们的设计是完整的。看到了吧，总共6个文档，1）软件需求，2）概要设计，3）接口设计，4）各种最终设计，5）测试设计/计划，6）测试结果。流程开始变得复杂了。</p>
-<p><a href="https://coolshell.cn/wp-content/uploads/2010/09/05.02.Documentation.jpg"><img alt="image placeholder" >
+<p><a href="https://coolshell.cn/wp-content/uploads/2010/09/05.02.Documentation.jpg"><img alt="image placeholder" ></a></p>
 <p>第三步，我们叫“Do it Twice”，双保险，把文档了的东西试着预先走一遍，看看能否成为最终产品。</p>
-<p><a href="https://coolshell.cn/wp-content/uploads/2010/09/05.03.Double.Work_.jpg"><img alt="image placeholder" >
+<p><a href="https://coolshell.cn/wp-content/uploads/2010/09/05.03.Double.Work_.jpg"><img alt="image placeholder" ></a></p>
 <p>第四步，计划，控制和监控测试。哇，流程很乱了。</p>
-<p style="text-align: center;"><a href="https://coolshell.cn/wp-content/uploads/2010/09/05.04.Test_.jpg"><img alt="image placeholder" >
+<p style="text-align: center;"><a href="https://coolshell.cn/wp-content/uploads/2010/09/05.04.Test_.jpg"><img alt="image placeholder" ></a></p>
 <p>第五步，用户介入，全程review各个环节。</p>
-<p style="text-align: center;"><a href="https://coolshell.cn/wp-content/uploads/2010/09/05.05.Involve.Customer.jpg"><img alt="image placeholder" >
+<p style="text-align: center;"><a href="https://coolshell.cn/wp-content/uploads/2010/09/05.05.Involve.Customer.jpg"><img alt="image placeholder" ></a> <a href="https://coolshell.cn/wp-content/uploads/2010/09/06.Summary.jpg"></a></p>
 <p>好了，问题解决了，让我们看看最终的“无比强大的”——Waterfall软件工程模型！</p>
-<p style="text-align: center;"><a href="https://coolshell.cn/wp-content/uploads/2010/09/06.Summary.jpg"><img alt="image placeholder" >
+<p style="text-align: center;"><a href="https://coolshell.cn/wp-content/uploads/2010/09/06.Summary.jpg"><img alt="image placeholder" ></a></p>
 <p>现在，当你在使用waterfall开发软件的时候，知道为什么痛苦了吧，40年前就已经如此了。</p>
 <p>下面是《<a href="http://confreaks.net/events/lsrc2010">Lone Star Ruby Conference 2010</a>》的一个演讲叫《<a href="http://confreaks.net/videos/282-lsrc2010-real-software-engineering" target="_blank">Real Software Engineer</a>》，没有字幕，但我个人感觉英文很容易听懂，英文好的同学不妨看看。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-09-15T08:42:42+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2941.html</guid>
@@ -4256,68 +4082,65 @@ Android 的App Inventor是来自Google为非开发人员准备的新工具，通
 <p>以前本站向大家介绍过“<a rel="bookmark" href="https://coolshell.cn/articles/1566.html" target="_blank">程序员小抄大全</a>”，这里是25个jQuery的小抄（有一些在墙外），有的还可以设置成你的电脑桌面。这些东西可以让你很快速地记得一些常用的东西，就好像软件的快捷键一样。希望它们对你会有帮助。</p>
 <h3>
 <a href="http://colorcharge.com/jquery/" target="_blank">1. jQuery 1.2 Cheat-sheet</a> [PNG]</h3>
-<p><a href="http://colorcharge.com/jquery/"><img alt="image placeholder" >
+<p><a href="http://colorcharge.com/jquery/"><img alt="image placeholder" ></a></p>
 <p><span id="more-2964"></span></p>
 <h3>
 <a href="http://www.gscottolson.com/weblog/2008/01/11/jquery-cheat-sheet/" target="_blank">2. jQuery 1.2 Cheat Sheet v1.0</a> [PDF]</h3>
-<p><a href="http://www.gscottolson.com/weblog/2008/01/11/jquery-cheat-sheet/"><img alt="image placeholder" >
+<p><a href="http://www.gscottolson.com/weblog/2008/01/11/jquery-cheat-sheet/"><img alt="image placeholder" ></a></p>
 <h3>
 <a href="http://blog.acodingfool.com/cheatsheets/jquery-1-3-cheatsheet/" target="_blank">3. jQuery 1.3 Cheatsheet</a> [PDF]</h3>
-<p><a href="http://blog.acodingfool.com/cheatsheets/jquery-1-3-cheatsheet/"><img alt="image placeholder" >
+<p><a href="http://blog.acodingfool.com/cheatsheets/jquery-1-3-cheatsheet/"><img alt="image placeholder" ></a></p>
 <h3>
 <a href="https://api.jquery.com/" target="_blank">4. jQuery API Browser</a> [Adobe AIR, HTML]</h3>
-<p><a href="https://api.jquery.com/"><img alt="image placeholder" >
+<p><a href="https://api.jquery.com/"><img alt="image placeholder" ></a></p>
 <h3>5. <a href="http://n-bp.com/jquery_cheat_sheet/v11/" target="_blank">jQuery1.1 Cheat Sheet</a> [HTML]</h3>
-<p><a href="http://n-bp.com/jquery_cheat_sheet/v11/"><img alt="image placeholder" >
+<p><a href="http://n-bp.com/jquery_cheat_sheet/v11/"><img alt="image placeholder" ></a></p>
 <h3>6. <a href="http://jtouch.colorcharge.com/" target="_blank">jTouch – jQuery Cheat Sheet for iPhone</a> [HTML]</h3>
-<p><a href="http://jtouch.colorcharge.com/"><img alt="image placeholder" >
+<p><a href="http://jtouch.colorcharge.com/"><img alt="image placeholder" ></a></p>
 <h3>7.<a href="http://www.futurecolors.ru/jquery/" target="_blank"> jQuery 1.4 API Cheat Sheet</a> [HTML, PDF, PNG]</h3>
-<p><a href="http://www.futurecolors.ru/jquery/"><img alt="image placeholder" >
+<p><a href="http://www.futurecolors.ru/jquery/"><img alt="image placeholder" ></a></p>
 <h3>8. <a href="http://refcardz.dzone.com/refcardz/jquery-selectors" target="_blank">jQuery Selectors</a> [PDF]</h3>
-<p><a href="http://refcardz.dzone.com/refcardz/jquery-selectors"><img alt="image placeholder" >
+<p><a href="http://refcardz.dzone.com/refcardz/jquery-selectors"><img alt="image placeholder" ></a></p>
 <h3>9.<a href="http://oscarotero.com/jquery/" target="_blank"> jQuery 1.3 Quick API Reference</a> [ HTML]</h3>
-<p><a href="http://oscarotero.com/jquery/"><img alt="image placeholder" >
+<p><a href="http://oscarotero.com/jquery/"><img alt="image placeholder" ></a></p>
 <h3>10.<a href="http://oscarotero.com/jquery/ui.html"> </a><a href="http://oscarotero.com/jquery/ui.html" target="_blank">jQuery UI 1.7 Quick API Reference</a> [ HTML]</h3>
-<p><a href="http://oscarotero.com/jquery/ui.html"><img alt="image placeholder" >
+<p><a href="http://oscarotero.com/jquery/ui.html"><img alt="image placeholder" ></a></p>
 <h3>11. <a href="http://www.javascripttoolbox.com/jquery/cheatsheet/" target="_blank">jQuery 1.3.2 Cheat Sheet</a> [Microsoft Excel (XLS), PDF, PNG]</h3>
-<p><a href="http://www.javascripttoolbox.com/jquery/cheatsheet/"><img alt="image placeholder" >
+<p><a href="http://www.javascripttoolbox.com/jquery/cheatsheet/"><img alt="image placeholder" ></a></p>
 <h3>12. <a href="http://www.javascripttoolbox.com/jquery/cheatsheet/" target="_blank">jQuery 1.1.3 Cheat Sheet</a> [Microsoft Excel (XLS), PDF, PNG]</h3>
-<p><a href="http://www.javascripttoolbox.com/jquery/cheatsheet/"><img alt="image placeholder" >
+<p><a href="http://www.javascripttoolbox.com/jquery/cheatsheet/"><img alt="image placeholder" ></a></p>
 <h3>13. <a href="https://woork.blogspot.com/2009/09/jquery-visual-cheat-sheet.html" target="_blank">jQuery 1.3 Visual Cheat Sheet</a> [PDF]</h3>
-<p><a href="https://woork.blogspot.com/2009/09/jquery-visual-cheat-sheet.html"><img alt="image placeholder" >
+<p><a href="https://woork.blogspot.com/2009/09/jquery-visual-cheat-sheet.html"><img alt="image placeholder" ></a></p>
 <h3>14.<a href="http://woorkup.com/2010/06/13/jquery-1-4-2-visual-cheat-sheet/" target="_blank"> jQuery 1.4.2 Visual Cheat Sheet</a> [JPEG, PDF]</h3>
-<p><a href="http://woorkup.com/2010/06/13/jquery-1-4-2-visual-cheat-sheet/"><img alt="image placeholder" >
+<p><a href="http://woorkup.com/2010/06/13/jquery-1-4-2-visual-cheat-sheet/"><img alt="image placeholder" ></a></p>
 <h3>15. <a href="http://remysharp.com/jquery-api/" target="_blank">jQuery API</a> [HTML]</h3>
-<p><a href="http://remysharp.com/jquery-api/"><img alt="image placeholder" >
+<p><a href="http://remysharp.com/jquery-api/"><img alt="image placeholder" ></a></p>
 <h3>16. <a href="http://labs.impulsestudios.ca/jquery-cheat-sheet" target="_blank">jQuery 1.4 Cheat Sheet</a> [PDF]</h3>
-<p><a href="http://labs.impulsestudios.ca/jquery-cheat-sheet"><img alt="image placeholder" >
+<p><a href="http://labs.impulsestudios.ca/jquery-cheat-sheet"><img alt="image placeholder" ></a></p>
 <h3>17.<a href="https://chris4403.blogspot.com/2008/01/jquery-cheatsheet-wallpaper.html" target="_blank"> jQuery cheatsheet Wallpaper</a>
 </h3>
-<p><a href="https://chris4403.blogspot.com/2008/01/jquery-cheatsheet-wallpaper.html"><img alt="image placeholder" >
+<p><a href="https://chris4403.blogspot.com/2008/01/jquery-cheatsheet-wallpaper.html"><img alt="image placeholder" ></a></p>
 <h3>18. <a href="http://carlos.bueno.org/jq-yui.html" target="_blank">jQuery – YUI3 Rosetta Stone</a> [HTML]</h3>
-<p><a href="http://carlos.bueno.org/jq-yui.html"><img alt="image placeholder" >
+<p><a href="http://carlos.bueno.org/jq-yui.html"><img alt="image placeholder" ></a></p>
 <h3>19. <a href="http://www.cheat-sheets.org/#jQuery" target="_blank">jQuery 1.2 by Adrien Gibrat</a> [PDF]</h3>
-<p><a href="http://www.cheat-sheets.org/#jQuery"><img alt="image placeholder" >
+<p><a href="http://www.cheat-sheets.org/#jQuery"><img alt="image placeholder" ></a></p>
 <h3>20. <a href="http://acodingfool.typepad.com/blog/2009/01/jquery-13-cheat-sheet.html" target="_blank">jQuery 1.3 Cheat Sheet</a>
 </h3>
-<p><a href="http://acodingfool.typepad.com/blog/2009/01/jquery-13-cheat-sheet.html"><img alt="image placeholder" >
+<p><a href="http://acodingfool.typepad.com/blog/2009/01/jquery-13-cheat-sheet.html"><img alt="image placeholder" ></a></p>
 <h3>21. <a href="http://www.gmtaz.com/index.php/jquery-13-cheatsheet-wallpaper/" target="_blank">jQuery 1.3 Cheatsheet Wallpaper </a>[1920×1200, 1680×1050 and 1440×900]</h3>
-<p><a href="http://www.gmtaz.com/index.php/jquery-13-cheatsheet-wallpaper/"><img alt="image placeholder" >
+<p><a href="http://www.gmtaz.com/index.php/jquery-13-cheatsheet-wallpaper/"><img alt="image placeholder" ></a></p>
 <h3>
 <a href="http://www.cheat-sheets.org/saved-copy/jQuery.1.3.Visual.Cheat.Sheet.by.WOORK.pdf" target="_blank">22. jQuery 1.3 Visual Cheat Sheet by Antonio Lupetti</a> [PDF]</h3>
-<p><a href="http://www.cheat-sheets.org/saved-copy/jQuery.1.3.Visual.Cheat.Sheet.by.WOORK.pdf"><img alt="image placeholder" >
+<p><a href="http://www.cheat-sheets.org/saved-copy/jQuery.1.3.Visual.Cheat.Sheet.by.WOORK.pdf"><img alt="image placeholder" ></a></p>
 <h3>
 <a href="http://codylindley.com/jqueryselectors/" target="_blank">23. jQuery Selectors Cheatsheet</a> [HTML]</h3>
-<p><a href="http://codylindley.com/jqueryselectors/"><img alt="image placeholder" >
+<p><a href="http://codylindley.com/jqueryselectors/"><img alt="image placeholder" ></a></p>
 <h3>
 <a href="http://jn.orz.hm/jquery/ui_effect.html" target="_blank">24. jQuery UI – Effects Cheatsheet</a> [HTML]</h3>
-<p><a href="http://jn.orz.hm/jquery/ui_effect.html"><img alt="image placeholder" >
+<p><a href="http://jn.orz.hm/jquery/ui_effect.html"><img alt="image placeholder" ></a></p>
 <h3>25. <a href="http://elegantcode.com/wp-content/uploads/2010/03/Jquery-Validator-Cheat-sheet.pdf" target="_blank">jQuery Validator Cheatsheet </a>– Elegant Code [PDF]</h3>
-<p><a href="http://elegantcode.com/wp-content/uploads/2010/03/Jquery-Validator-Cheat-sheet.pdf"><img alt="image placeholder" >
+<p><a href="http://elegantcode.com/wp-content/uploads/2010/03/Jquery-Validator-Cheat-sheet.pdf"><img alt="image placeholder" ></a></p>
 <p>文章：<a href="http://technologytosoftware.com/most-useful-jquery-cheat-sheets.html" target="_blank">http://technologytosoftware.com/most-useful-jquery-cheat-sheets.html</a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-09-19T08:14:12+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2964.html</guid>
@@ -4350,9 +4173,6 @@ Android 的App Inventor是来自Google为非开发人员准备的新工具，通
 <p>细节因为CPU的种类而不同，但这就是其如何工作的。有时候，我们甚至都不需要细节，只需要看看汇编码的长啥样，然后和源代码比一比，你就可以知道汇编代码很多很多了。 那么，这又如何帮助代码优化？举个例子，我几年前认识一个程序员认为他应该去发现一个新的更快的算法。他有一个benchmark来证明这个算法，并且其写了一篇非常漂亮的文章关于他的这个算法。但是，有人看了一下其原来算法以及新算法的汇编，发现了他的改进版本的算法允许其编译器把两个除法操作变成了一个。这和算法真的没有什么关系。我们知道除法操作是一个很昂贵的操作，并且在其算法中，这俩个除法操作还在一个内嵌循环中，所以，他的改进版的算法当然要快一些。但，只需要在原来的算法上做一点点小的改动——使用一个除法操作，那么其原来的算法将会和新的一样快。而他的新发现什么也不是。 下一个例子，一个D用户张贴了一个 benchmark 来显示 dmd (Digital Mars D 编译器)在整型算法上的很糟糕，而ldc (LLVM D 编译器) 就好很多了。对于这样的结果，其相当的有意见。我迅速地看了一下汇编，发现两个编译器编译出来相当的一致，并没有什么明显的东西要对2：1这么大的不同而负责。但是我们看到有一个对long型整数的除法，这个除法调用了运行库。而这个库成为消耗时间的杀手，其它所有的加减法都没有速度上的影响。出乎意料地，benchmark 和算法代码生成一点关系也没有，完全就是long型整数的除法的问题。这暴露了在dmd的运行库中的long型除法的实现很差。修正后就可以提高速度。所以，这和编译器没有什么关系，但是如果不看汇编，你将无法发现这一切。 查看汇编代码经常会给你一些意想不到的东西让你知道为什么程序的性能是那样。一些意想不到的函数调用，预料不到的自傲，以及不应该存在的东西，等等其实所有的一切。但也不需要成为一个汇编代码的黑客才能干的事。</p>
 <h4>结论</h4>
 <p>如果你觉得需要程序有更好的执行速度，那么，最基本的方法就是使用一个profiler和愿意去查看一下其汇编代码以找到程序的瓶颈。只有找到了程序的瓶颈，此时才是真正在思考如何去改进的时候，比如思考一个更好的算法，使用更快的语言优化，等等。 常规的做法是制胜法宝是挑选一个最佳的算法而不是进行微优化。虽然这种做法是无可异议的，但是有两件事情是学校没有教给你而需要你重点注意的。第一个也是最重要的，如果你优化的算法没没有参与到你程序性能中的算法，那么你优化他只是在浪费时间和精力，并且还转移了你的注意力让你错过了应该要去优化的部分。第二点，算法的性能总和处理的数据密切相关的，就算是冒泡排序有那么多的笑柄，但是如果其处理的数据基本是排好序的，只有其中几个数据是未排序的，那么冒泡排序也是所有排序算法里性能最好的。所以，担心没有使用好的算法而不去测量，只会浪费时间，无论是你的还是计算机的。 就好像赛车零件的订购速底是不会让你更靠进冠军（就算是你正确安装零件也不会），没有Profiler，你不会知道问题在哪里，不去看汇编，你可能知道问题所在，但你往往不知道为什么。 (全文完)</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-09-20T08:22:31+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2967.html</guid>
@@ -4367,9 +4187,6 @@ Android 的App Inventor是来自Google为非开发人员准备的新工具，通
 <param name="src" value="http://player.youku.com/player.php/sid/XMTE1MzgwNjI0/v.swf">
 <param name="quality" value="high">
 <embed type="application/x-shockwave-flash" width="480" height="400" src="http://player.youku.com/player.php/sid/XMTE1MzgwNjI0/v.swf" quality="high" align="middle"></embed></object></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-09-20T17:03:27+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2987.html</guid>
@@ -4380,17 +4197,14 @@ Android 的App Inventor是来自Google为非开发人员准备的新工具，通
 <link>https://coolshell.cn/articles/2990.html</link>
 <content><![CDATA[ 
 <p>下面是一个程序员coding的时间分配图，原图在<a href="https://graphjam.files.wordpress.com/2010/09/8463a94d-0945-43b6-9adf-db795bbc14b9.png" target="_blank">这里</a>。</p>
-<figure id="attachment_2991" aria-describedby="caption-attachment-2991" style="width: 535px" class="wp-caption aligncenter"><img alt="image placeholder" >
+<figure id="attachment_2991" aria-describedby="caption-attachment-2991" style="width: 535px" class="wp-caption aligncenter"><img alt="image placeholder" ><figcaption id="caption-attachment-2991" class="wp-caption-text">编程时间分配图</figcaption></figure>
 <p>思考会是一个很重要的过程，当然耽搁拖沓也有可能也是因为没有想好，抽烟/喝咖啡应该也是一种思考，吃点东西是为了让脑子转得更快一点，上网搜索一下灵感可以借鉴一下其它人的想法，抱怨写注释只是一个例子，更多的应该是抱怨加班或是公司的老板。</p>
 <p>如果需要加上点什么的话，我觉得应该加点“重构”，“编译”，“调试”，当然，他们都可以算在coding里。不过，我觉得更应该还有：“开会”，“争吵/解释”，“打断”，这些比重也是很大的。</p>
 <p>所以，下面是我个人认为比较实际的版本：</p>
 <p><span id="more-2990"></span></p>
-<p style="text-align: center;"><img alt="image placeholder" >
+<p style="text-align: center;"><img alt="image placeholder" ></p>
 <p style="text-align: center;">编程时间图（酷壳版）</p>
 <p>你的编程时间分配图是怎么样的？</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-09-21T08:19:49+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2990.html</guid>
@@ -4433,101 +4247,100 @@ Android 的App Inventor是来自Google为非开发人员准备的新工具，通
 <span class="ez-toc-section" id="Sinuous"></span><a rel="nofollow" href="http://hakim.se/experiments/html5/sinuous/01/" target="_blank">Sinuous</a><span class="ez-toc-section-end"></span>
 </h4>
 <p>小心被红点撞上。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h4>
 <span class="ez-toc-section" id="%E8%B6%85%E7%BA%A7%E7%8E%9B%E4%B8%BD%E5%8D%A1%E4%B8%81%E8%BD%A6"></span><a rel="nofollow" href="http://www.nihilogic.dk/labs/mariokart/" target="_blank">超级玛丽卡丁车</a><span class="ez-toc-section-end"></span>
 </h4>
 <p>A small but fun racing game built in html5 canvas and javascript.</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p><span id="more-2998"></span></p>
 <h4>
 <span class="ez-toc-section" id="%E5%90%83%E8%B1%86"></span><a rel="nofollow" href="http://arandomurl.com/2010/07/25/html5-pacman.html" target="_blank">吃豆</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h4>
 <span class="ez-toc-section" id="%E5%9C%86%E7%8E%AF%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97"></span><a rel="nofollow" href="http://www.benjoffe.com/code/games/torus/" target="_blank">圆环俄罗斯方块</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h4>
 <span class="ez-toc-section" id="Asteroids"></span><a rel="nofollow" href="http://www.kevs3d.co.uk/dev/asteroids/" target="_blank">Asteroids</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h4>
 <span class="ez-toc-section" id="Berts_Breakdown"></span><a rel="nofollow" href="http://www.paulbrunt.co.uk/bert/" target="_blank">Bert’s Breakdown</a><span class="ez-toc-section-end"></span>
 </h4>
 <p>很不错的游戏，漂亮的界面以及不错的关卡设置。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h4>
 <span class="ez-toc-section" id="TWITCH"></span><a rel="nofollow" href="http://reas.com/twitch/" target="_blank">TWITCH</a><span class="ez-toc-section-end"></span>
 </h4>
 <p>TWITCH是一个解题性质的游戏。试试看你有多快。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h4>
 <span class="ez-toc-section" id="JS_Wars"></span><a rel="nofollow" href="http://29a.ch/jswars/" target="_blank">JS Wars</a><span class="ez-toc-section-end"></span>
 </h4>
 <p>一个经典的空战游戏。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h4>
 <span class="ez-toc-section" id="Chain_Reaction"></span><a rel="nofollow" href="http://www.yvoschaap.com/chainrxn/" target="_blank">Chain Reaction</a><span class="ez-toc-section-end"></span>
 </h4>
 <p>一个简单又容易上瘾的游戏。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h4>
 <span class="ez-toc-section" id="Same_Game"></span><a rel="nofollow" href="http://grenlibre.fr/demo/same/" target="_blank">Same Game</a><span class="ez-toc-section-end"></span>
 </h4>
 <p>这个游戏相信大家都会玩，把相同颜色的连在一起。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h4>
 <span class="ez-toc-section" id="Coverfire"></span><a rel="nofollow" href="http://www.wiicade.com/playJSGame.aspx?gameID=1317&amp;gameName=Coverfire" target="_blank">Coverfire</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h4>
 <span class="ez-toc-section" id="JQuery_Racing"></span><a rel="nofollow" href="http://www.mattpelham.com/racing/" target="_blank">JQuery Racing</a><span class="ez-toc-section-end"></span>
 </h4>
 <p>靠！这个游戏很耐完，我相信你一定会在上面花很多时间。 jQuery 做的。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h3><a rel="nofollow" href="http://joncom.be/experiments/thrust/">Thrust</a></h3>
 <p>经典的八位图游戏。让我想起了《<a title="史上最烂的超级玛丽" href="https://coolshell.cn/articles/2834.html" target="_blank">史上最烂的超级玛丽</a>》</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h3><a rel="nofollow" href="http://aduros.emufarmers.com/easel/">俄罗斯方块</a></h3>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h4>
 <span class="ez-toc-section" id="3D_%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97_-_Cubeout"></span><a rel="nofollow" href="http://alteredqualia.com/cubeout/" target="_blank">3D 俄罗斯方块 – Cubeout</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h4>
 <span class="ez-toc-section" id="Galatic_Plunder"></span><a rel="nofollow" href="http://dougx.net/plunder/plunder.html" target="_blank">Galatic Plunder</a><span class="ez-toc-section-end"></span>
 </h4>
 <p>这个游戏使用了Canvas 和 Audio，主要是为了证明，没有Flash，用HTML5一样行。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h4>
 <span class="ez-toc-section" id="Lines"></span><a rel="nofollow" href="http://10k.aneventapart.com/Uploads/62/" target="_blank">Lines</a><span class="ez-toc-section-end"></span>
 </h4>
 <p>很简单的游戏，我老看到办公室里很多人在玩。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h4>
 <span class="ez-toc-section" id="RGB_Invaders"></span><a rel="nofollow" href="http://10k.aneventapart.com/Uploads/392/" target="_blank">RGB Invaders</a><span class="ez-toc-section-end"></span>
 </h4>
 <p>小蜜蜂。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h4>
 <span class="ez-toc-section" id="Agent_008_Ball"></span><a rel="nofollow" href="http://www.agent8ball.com/" target="_blank">Agent 008 Ball</a><span class="ez-toc-section-end"></span>
 </h4>
 <p>受不了了，还有台球。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h4>
 <span class="ez-toc-section" id="JSLander"></span><a rel="nofollow" href="http://www.somethinghitme.com/projects/jslander/" target="_blank">JSLander</a><span class="ez-toc-section-end"></span>
 </h4>
 <p>一个飞船着陆游戏。速度不要起过去6，不然就坠毁了。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h4>
 <span class="ez-toc-section" id="Rainbow_Blocks"></span><a rel="nofollow" href="http://10k.aneventapart.com/Uploads/27/" target="_blank">Rainbow Blocks</a><span class="ez-toc-section-end"></span>
 </h4>
 <p>SameGame 和JT的另一种变种。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p><strong>文章</strong>：<a href="http://blog.insicdesigns.com/2010/09/showcase-of-games-developed-using-html5-canvas/">http://blog.insicdesigns.com/2010/09/showcase-of-games-developed-using-html5-canvas/</a></p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2010-09-21T18:48:51+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2998.html</guid>
@@ -4578,9 +4391,6 @@ slots = widgetModel.getSlotsPerWidget();</pre>
 <p>其实，这段代码也是如下而已罢了。</p>
 <p><code data-enlighter-language="java" class="EnlighterJSRAW">slots = thisWidget.getSlotCount();</code></p>
 <p>(全文完)</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-09-25T08:33:59+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3005.html</guid>
@@ -4600,7 +4410,6 @@ slots = widgetModel.getSlotsPerWidget();</pre>
 <p>这个时候，Microsoft的某个团队发现了Java的致命缺陷：这不是他们做的！于是他们创造了一个叫J，或是Jole，或是ActiveJ的东西（对不起，我真的记不起叫什么了）来挽救Java（译者：应该是Visual J++）。看起来很像Java，只是名字不同罢了。这太让人兴奋了，但是Sun使用了一些相当古老的法律条款向Microsoft提起了法律诉讼，其在一年内限制了任何一个公司可以发布类似Java的产品。这明显是抑制微软复制别人产品的一次尝试，唯一不同的，其结果导致了微软流向国会议员裤兜的现金网络的建立（在这个网络可以得到时事新闻和价值$14.75的T恤衫）。还记得 J/Jole/ActiveJ 的项目经理用他的鞋桌在敲着桌子并信誓旦旦地坚持 Microsoft 将永远不会放弃他的产品。SB！所有的这些也就仅仅意味着一件事——没有人关心ActiveX团队（或者是COM？）。令人难以置信的是，微软把这些东东全部集成起来，成了COM+（难道不应该是ActiveX+?），还有MTS（我不知道为什么没有COM和Active或是X或是+的字眼，而直接叫MTS了——我为这个名词感到实实在在地震惊！）。他们总是那么NB地为那些流行词加上“+”号。在那段时间，还有人曾叫喊着“Windows DNA”以及“Windows Washboard”，但这两个东西最终在我搞清是什么玩意的之前就夭折了。</p>
 <p>在这一点上，Microsoft已经很不安地窥视着Internet好几年了，他们终于意识到Internet上有一个致命缺陷：嗯，你应该知道这是什么（译注：Internet不是做他们做的！）。于是他们开始培养我们和.NET约会（.NET的发音很像“doughnut”圆环图，不过，这只是他们的唯一不同），这和Internet很相似，只不过.NET有更多的印刷品。其让我们清楚再清楚地了解一件事：.NET会消除DLL Hell。.NET包含了一个新的编程语言，叫C#（为了解决已经死翘翘的Active++ J++的缺陷）。.NET还包含一个虚拟机，所有的语言都运行在上面（这主要是为了解决依赖于Intel CPU的缺陷）。.NET还包含了一个单一的登录系统（这主要是为了解决“不把口令存放在Microsoft服务器上”的缺陷）。实际上，我们更容易做的是把.NET不包含的事给列出来。.NET绝对是一个划时代地Windows编程革命……当然，仅到明年。</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2010-09-27T08:51:30+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3008.html</guid>
@@ -4624,12 +4433,12 @@ slots = widgetModel.getSlotsPerWidget();</pre>
 <li>说到这些很酷很炫的东西，大家一定会想到使用Flash，不过，目前的<a href="https://coolshell.cn/articles/2735.html" target="_blank">Flash正在受到HTML5的强力挑战</a>，目前，对于HTML5的展示网站很多，让我们看到了HTML5完全可以做出Flash的样子，比如前些天本站说到的<a href="https://coolshell.cn/articles/2926.html" target="_blank">这个演示</a>，还有给大家展示的<a href="https://coolshell.cn/articles/2998.html" target="_blank">纯HTML5的小游戏</a>，不过，那些都是一些演示和展示罢了。今天在网上看到一个更强大的HTML5游戏，相当有可玩性，大家不妨一去试玩：<strong><a href="http://www.phoboslab.org/biolab/" target="_blank">http://www.phoboslab.org/biolab/</a></strong>
 </li>
 </ul>
-<p><a href="http://www.phoboslab.org/biolab/"><img alt="image placeholder" >
+<p><a href="http://www.phoboslab.org/biolab/"><img alt="image placeholder" ></a></p>
 <p><span style="color: #ffffff;">→</span></p>
 <ul>
 <li>HTML5 可以应用的还不只是游戏，这不，<a href="http://thechangelog.com/post/1097381443/vexflow-html5-canvas-javascript-library-music-and-guitar" target="_blank">有文章指出</a>，用<a href="http://www.vexflow.com/" target="_blank"><strong>VexFlow</strong></a>还可以很轻松地在网页上发布乐谱。而<a href="http://stepheneisenhauer.com/demos/drummachine/" target="_blank"><strong>这个网页</strong></a>还可以让你制作Hi-PoP音乐。</li>
 </ul>
-<p style="text-align: center;"><a href="http://www.vexflow.com/"><img alt="image placeholder" >
+<p style="text-align: center;"><a href="http://www.vexflow.com/"><img alt="image placeholder" ></a></p>
 <p><span style="color: #ffffff;">→</span></p>
 <ul>
 <li>说到Web开发，就得要提CSS了，这里有一个在线编辑CSS的网站，很不错，<a href="http://css3.mikeplate.com/" target="_blank"><strong>http://css3.mikeplate.com/</strong></a>。关于CSS和Web开发的一些文章，你可以查看本站的<a href="https://coolshell.cn/articles/tag/css" target="_blank">CSS的Tag</a>。现在，这种在线的东西是越来越多了，比如：《<a rel="bookmark" href="https://coolshell.cn/articles/2271.html" target="_blank">Emacs配色在线生成器</a><span style="font-weight: normal; font-size: 13px;">》、《</span><a rel="bookmark" href="https://coolshell.cn/articles/1883.html" target="_blank">Coderun.com 在线开发IDE</a>》、《<a rel="bookmark" href="https://coolshell.cn/articles/1830.html" target="_blank">正则表达式生成器</a>》、《<a rel="bookmark" href="https://coolshell.cn/articles/1611.html" target="_blank">Ajax开发利器UIzard</a>》、《<a rel="bookmark" href="https://coolshell.cn/articles/776.html" target="_blank">一个在线的画UML图的网站</a>》。</li>
@@ -4644,7 +4453,7 @@ slots = widgetModel.getSlotsPerWidget();</pre>
 <ul>
 <li>说起Web开发，很自然的就能想到UI。下面是一个<a href="http://designingwebinterfaces.com/designing-web-interfaces-12-screen-patterns" target="_blank"><strong>UI的设计Patterns</strong></a>，这篇文章告诉了我们12个比较常用或是经典的图形UI Patterns。关于<a href="https://coolshell.cn/articles/tag/ui" target="_blank">UI方面的话题</a>，你可以参看酷壳的《<a rel="bookmark" href="https://coolshell.cn/articles/363.html" target="_blank">35个强大的UI设计教程</a>》、《<a rel="bookmark" href="https://coolshell.cn/articles/1907.html" target="_blank">UI的恶梦</a>》和《<a rel="bookmark" href="https://coolshell.cn/articles/2313.html" target="_blank">史上最糟糕的网站</a>》。</li>
 </ul>
-<p><a href="http://designingwebinterfaces.com/designing-web-interfaces-12-screen-patterns"><img alt="image placeholder" >
+<p><a href="http://designingwebinterfaces.com/designing-web-interfaces-12-screen-patterns"><img alt="image placeholder" ></a></p>
 <p><span style="color: #ffffff;">→</span></p>
 <ul>
 <li>说起Web的界面，最让各位WEB开发者痛苦的就是网页兼容性问题，IE是一个恶梦，因为其自己和自己都不兼容，在MSDN上，有这样的一个网页说明了<a href="https://msdn.microsoft.com/en-us/library/cc351024" target="_blank"><strong>从IE5一直到IE9的CSS的兼容性问题</strong></a>，很多很多的表格，头都看大了。当然，以前本站的《<a rel="bookmark" href="https://coolshell.cn/articles/757.html" target="_blank">检查网页浏览器的兼容性</a>》的文章向你介绍过如何查看网站在不同浏览器中和操作系统下的效果（其也是一个在线服务）。</li>
@@ -4658,7 +4467,7 @@ slots = widgetModel.getSlotsPerWidget();</pre>
 <li>下面是一个给新手学习linux用的一个桌面（点击图片看大图），其列出了很多常用的命令，以及VI的常用命令。关于VI的一些东西，你可以查看<a href="https://coolshell.cn/articles/tag/vim" target="_blank">本站的这些文章</a>，如：<a rel="bookmark" href="https://coolshell.cn/articles/1651.html" target="_blank">VIM有趣的命令</a>、<a rel="bookmark" href="https://coolshell.cn/articles/894.html" target="_blank">如何在vim中得到你最喜爱的IDE特性</a>
 </li>
 </ul>
-<p style="text-align: center;"><a href="https://i.imgur.com/CJkR9.png"><img alt="image placeholder" >
+<p style="text-align: center;"><a href="https://i.imgur.com/CJkR9.png"><img alt="image placeholder" ></a></p>
 <p><span style="color: #ffffff;">→</span></p>
 <ul>
 <li>最后，给大家介绍一个关于文件格式方面东西，我们知道，很多文件的开头表明着这个文件的类型，所以，有这样的一个网站了维护了这么一个信息列表，其把几乎所有常见的文件头的那段和文件类型相关的Magic Number列了出来，而且还保持更新，非常不错哦，这个网站是：<strong><a href="http://www.garykessler.net/library/file_sigs.html">http://www.garykessler.net/library/file_sigs.html</a><span style="font-weight: normal;">，希望能对你有用哦。</span></strong>
@@ -4668,15 +4477,12 @@ slots = widgetModel.getSlotsPerWidget();</pre>
 <ul>
 <li><strong><span style="font-weight: normal;">最最后，给大家介绍一个开源项目，叫<a href="http://structuresynth.sourceforge.net/" target="_blank"><strong>Structure Synth</strong></a>，这个东西可以用来画出一些很酷的图，相当不错，使用起来非常简单，我试用了一下，的确很强大。用一些简单的脚本就可以作出很不错的3D图，下面是他的一个示例，只需要写那么不到10行的代码，很简单。</span></strong></li>
 </ul>
-<p><a href="http://structuresynth.sourceforge.net/index.php"><img alt="image placeholder" >
+<p><a href="http://structuresynth.sourceforge.net/index.php"><img alt="image placeholder" ></a></p>
 <p style="padding-left: 60px;">想看看，大家用这个东西做什么酷图了吗？上 <a href="https://www.flickr.com/groups/structuresynth/" target="_blank">http://www.flickr.com/groups/structuresynth/</a> 看看吧。</p>
-<p id="pool_4652540301" style="text-align: center;"><a title="structure 作者 Supreet Kumar" href="https://www.flickr.com/photos/9857764@N02/4652540301/in/pool-structuresynth"><img alt="image placeholder" >
-<a title="aircraft 作者 Supreet Kumar" href="https://www.flickr.com/photos/9857764@N02/4641055399/in/pool-structuresynth"><img alt="image placeholder" >
+<p id="pool_4652540301" style="text-align: center;"><a title="structure 作者 Supreet Kumar" href="https://www.flickr.com/photos/9857764@N02/4652540301/in/pool-structuresynth"><img alt="image placeholder" ></a> <a title="architecture x-ray 2 作者 Supreet Kumar" href="https://www.flickr.com/photos/9857764@N02/4652540021/in/pool-structuresynth"><img alt="image placeholder" ></a> <a title="perspective 作者 Supreet Kumar" href="https://www.flickr.com/photos/9857764@N02/4650270228/in/pool-structuresynth"><img alt="image placeholder" ></a> <a title="snake shade 作者 Supreet Kumar" href="https://www.flickr.com/photos/9857764@N02/4649663253/in/pool-structuresynth"><img alt="image placeholder" ></a> <a title="thatched beauty 作者 Supreet Kumar" href="https://www.flickr.com/photos/9857764@N02/4641732162/in/pool-structuresynth"><img alt="image placeholder" ></a><br>
+<a title="aircraft 作者 Supreet Kumar" href="https://www.flickr.com/photos/9857764@N02/4641055399/in/pool-structuresynth"><img alt="image placeholder" ></a> <a title="aircraft 作者 Supreet Kumar" href="https://www.flickr.com/photos/9857764@N02/4641055019/in/pool-structuresynth"><img alt="image placeholder" ></a> <a title=" 作者 FracturedPixel" href="https://www.flickr.com/photos/cav666/4640849748/in/pool-structuresynth"><img alt="image placeholder" ></a> <a title="splash1 作者 Supreet Kumar" href="https://www.flickr.com/photos/9857764@N02/4636427318/in/pool-structuresynth"><img alt="image placeholder" ></a> <a title="joy 作者 Supreet Kumar" href="https://www.flickr.com/photos/9857764@N02/4635820649/in/pool-structuresynth"><img alt="image placeholder" ></a></p>
 <p id="pool_4635820649">（全文完）</p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-09-28T08:38:34+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3013.html</guid>
@@ -4688,7 +4494,7 @@ slots = widgetModel.getSlotsPerWidget();</pre>
 <content><![CDATA[ 
 <p>今天在网上看到网页叫“<a href="http://c2.com/cgi/wiki?ObjectOrientationIsaHoax" target="_blank">Object Orientation Isa Hoax</a>”——面向对象是一个骗局，标题很有煽动性（注：该网站上还有一个网页叫<a href="http://c2.com/cgi/wiki?ObjectOrientationIsDead" target="_blank">Object Orientation Is Dead</a>），好吧，打开看看上面有些 什么，发现这个网页是在收集一些关于“面向对象的反动言论”，没想到的是，很多言论出自很多大师之口。比如：Alexander Stepanov和Bjarne Stroustrup。这些言论挺有意思的，所以，我摘两段在下面：</p>
 <p>第一段是Alexander Stepanov的（不要告诉我你不知道这个人，STL之父，关于他的故事，可以到<a href="http://www.techcn.com.cn/index.php?doc-view-131345.html" target="_blank">这里看看</a>）。他N年前作过一段采访，<a href="http://www.stlport.org/resources/StepanovUSA.html" target="_blank">原文在这里</a>（我非常建议大家去读一下这篇采访，相当过瘾），<a href="http://dev.csdn.net/htmls/11/11440.html" target="_blank">译文在这里</a>（不过有地方把原意都译反了，我重译了一下），其中有一个问答被上述的那个面向对象反动言论的网页收录了：</p>
-<figure style="width: 225px" class="wp-caption alignright"><img alt="image placeholder" >
+<figure style="width: 225px" class="wp-caption alignright"><img alt="image placeholder" ><figcaption class="wp-caption-text">Alexander Stepanov</figcaption></figure>
 <blockquote>
 <p><strong>Question</strong>:<br>
 I think STL and Generic Programming mark a definite departure from the common C++ programming style, which I find is almost completely derived from SmallTalk. Do you agree?</p>
@@ -4707,7 +4513,7 @@ Yes. STL is not object oriented. I think that object orientedness is almost as m
 <p><span style="color: #ffffff;">&lt;———&gt;</span></p>
 <p>下面，我们再来看C++的发明者Bjarne Stroustrup，在1998年IEEE采访时的一段话（<a href="http://www2.research.att.com/~bs/ieee_interview.html" target="_blank">全篇见这里</a>），下面是其中的几段话：（我的翻译如下）</p>
 <p><span id="more-3036"></span></p>
-<figure style="width: 200px" class="wp-caption alignright"><img alt="image placeholder" >
+<figure style="width: 200px" class="wp-caption alignright"><img alt="image placeholder" ><figcaption class="wp-caption-text">Bjarne Stroustrup</figcaption></figure>
 <blockquote>
 <p>So what is OO? Certainly not every good program is object-oriented, and not every object-oriented program is good. If this were so, “object-oriented” would simply be a synonym for “good,” and the concept would be a vacuous buzzword of little help when you need to make practical decisions. I tend to equate OOP with heavy use of class hierarchies and virtual functions (called methods in some languages). This definition is historically accurate because class hierarchies and virtual functions together with their accompanying design philosophy were what distinguished Simula from the other languages of its time. In fact, it is this aspect of Simula’s legacy that Smalltalk has most heavily emphasized.</p>
 <p>那么，什么是OO面向对象？当然，不会是所有的程序都是面向对象的，而且，也不是所有的面向对象程序就是好的。如果面向对象是好的，那么“Object-Oriented”应该成为“Good”的同义词，并且，OO概念只会成为一个假大空的口号，在你需要做出实际决定时只可能帮你那么一丁点。我倾向于把OOP等价于大量使用继承类和虚函数（某些语言的调用方法）。从历史上来说，这个定义是精确的，因为，在那个时候，只有类的继承和虚函数一起存在的设计哲学，才能把Simula和其它语言分别开来。事实上，Smalltalk相当地强调着这种Simula的遗留问题。</p>
@@ -4719,9 +4525,6 @@ Yes. STL is not object oriented. I think that object orientedness is almost as m
 <p><span style="color: #ffffff;">&lt;———&gt;</span></p>
 <p>我个人在看过这些言论后，我先不管“面向对象是不是一个骗局”，不过从某种角度上来看的确是有些问题的，C++、OO、XML、SOA、网格计算等等诸如此类的东西的确被挂上了神圣的光坏。这些东西出来的时候总是只有一种赞美的声音。无论好坏，只有一种声音总是令人恐怖的，无论好坏，有不同的声音总是好的，每当这个社会或是我们的IT界大张旗鼓地鼓吹或是信仰某些东西，却没有任何一点不同意见的时候，我就会感到一种莫名的恐慌。我知道，这是我们从小受到的那种“非黑即白”的价值观教育所致，事物要么全是好的，要么全是不好的。其实任何事物都是有好有不好的，C++，敏捷开发，CMMi，OO，设计模式，重构，等等等等，他们都有好的也有不好的，关键看你怎么来使用（如之前的《<a title="代码重构的一个示例" href="https://coolshell.cn/articles/3005.html" target="_blank">代码重构的一个示例</a>》）。这个世界只有适合不适合的东西，不会出现放之四海皆准的东西，也不可能出现一种可以解决所有问题的东西，如果有，那么这种东西必然是一种宗教性质的用来洗脑的东西。</p>
 <p>所以，每当在我身边看到或听到那些只有一种声音有如“电视购物”或是“新闻联播”之类的宣传或是鼓动的时候，我就感到很一种莫名的反感…… 不多说了，还是交给大家来评价吧。我仅以此篇文章献给那些OO-Oriented，Design Pattern-Oriented，Agile-Oriented，Process-Oriented，等等有着宗教信仰一般的人和事。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-09-29T08:37:54+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3036.html</guid>
@@ -4783,168 +4586,165 @@ Yes. STL is not object oriented. I think that object orientedness is almost as m
 <h4>
 <span class="ez-toc-section" id="1_A_CSS_styled_table_version_2"></span>1. <a href="http://veerle.duoh.com/blog/comments/a_css_styled_table_version_2/">A CSS styled table version 2</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="http://veerle.duoh.com/blog/comments/a_css_styled_table_version_2/"><img alt="image placeholder" >
+<p><a href="http://veerle.duoh.com/blog/comments/a_css_styled_table_version_2/"><img alt="image placeholder" ></a></p>
 <h4>
 <span class="ez-toc-section" id="2_A_CSS-based_Form_Template"></span>2.<a href="http://nidahas.com/2006/12/06/forms-markup-and-css-revisited/"> A CSS-based Form Template</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="http://nidahas.com/2006/12/06/forms-markup-and-css-revisited/"><img alt="image placeholder" >
+<p><a href="http://nidahas.com/2006/12/06/forms-markup-and-css-revisited/"><img alt="image placeholder" ></a></p>
 <p><span id="more-3063"></span></p>
 <h4>
 <span class="ez-toc-section" id="3_A_Stripe_of_List_Style_Inspiration"></span>3. <a href="http://www.wpdfd.com/issues/82/list_style_inspiration/">A Stripe of List Style Inspiration</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="http://www.wpdfd.com/issues/82/list_style_inspiration/"><img alt="image placeholder" >
+<p><a href="http://www.wpdfd.com/issues/82/list_style_inspiration/"><img alt="image placeholder" ></a></p>
 <h4>
 <span class="ez-toc-section" id="4_Accessible_expanding_and_collapsing_menu"></span>4. <a href="http://www.456bereastreet.com/archive/200705/accessible_expanding_and_collapsing_menu/">Accessible expanding and collapsing menu</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="http://www.456bereastreet.com/archive/200705/accessible_expanding_and_collapsing_menu/"><img alt="image placeholder" >
+<p><a href="http://www.456bereastreet.com/archive/200705/accessible_expanding_and_collapsing_menu/"><img alt="image placeholder" ></a></p>
 <h4>
 <span class="ez-toc-section" id="5_Advanced_CSS_Menu_Trick"></span>5. <a href="http://www.3point7designs.com/blog/2007/12/22/advanced-css-menu-trick/">Advanced CSS Menu Trick</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="http://www.3point7designs.com/blog/2007/12/22/advanced-css-menu-trick/"><img alt="image placeholder" >
+<p><a href="http://www.3point7designs.com/blog/2007/12/22/advanced-css-menu-trick/"><img alt="image placeholder" ></a></p>
 <h4>
 <span class="ez-toc-section" id="6_Animated_Rollover_Arrow"></span>6. <a href="http://www.pmob.co.uk/pob/animated.htm">Animated Rollover Arrow</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="http://www.pmob.co.uk/pob/animated.htm"><img alt="image placeholder" >
+<p><a href="http://www.pmob.co.uk/pob/animated.htm"><img alt="image placeholder" ></a></p>
 <h4>
 <span class="ez-toc-section" id="7_Animations"></span>7. <a href="https://i.imgur.com/dYFBl.png">Animations</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="https://i.imgur.com/dYFBl.png"><img alt="image placeholder" >
+<p><a href="https://i.imgur.com/dYFBl.png"><img alt="image placeholder" ></a></p>
 <h4>
 <span class="ez-toc-section" id="8_Background_Size"></span>8. <a href="https://i.imgur.com/OcbHO.png">Background Size</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="https://i.imgur.com/OcbHO.png"><img alt="image placeholder" >
+<p><a href="https://i.imgur.com/OcbHO.png"><img alt="image placeholder" ></a></p>
 <h4>
 <span class="ez-toc-section" id="9_Better_Ordered_Lists_Using_Simple_PHP_and_CSS"></span>9. <a href="https://css-tricks.com/better-ordered-lists-using-simple-php-and-css/">Better Ordered Lists</a> (Using Simple PHP and CSS)<span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="https://css-tricks.com/better-ordered-lists-using-simple-php-and-css/"><img alt="image placeholder" >
+<p><a href="https://css-tricks.com/better-ordered-lists-using-simple-php-and-css/"><img alt="image placeholder" ></a></p>
 <h4>
 <span class="ez-toc-section" id="10_Box_Shadow"></span>10. <a href="https://i.imgur.com/e5VlA.png">Box Shadow</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="https://i.imgur.com/e5VlA.png"><img alt="image placeholder" >
+<p><a href="https://i.imgur.com/e5VlA.png"><img alt="image placeholder" ></a></p>
 <h4>
 <span class="ez-toc-section" id="11_Creating_a_table_with_dynamically_highlighted_columns"></span>11. <a href="http://www.askthecssguy.com/2007/08/creating_a_table_with_dynamica.html">Creating a table with dynamically highlighted columns</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="http://www.askthecssguy.com/2007/08/creating_a_table_with_dynamica.html"><img alt="image placeholder" >
+<p><a href="http://www.askthecssguy.com/2007/08/creating_a_table_with_dynamica.html"><img alt="image placeholder" ></a></p>
 <h4>
 <span class="ez-toc-section" id="12_Creating_bulletproof_graphic_link_buttons_with_CSS_456_Berea_Street"></span>12. <a href="http://www.456bereastreet.com/archive/200705/creating_bulletproof_graphic_link_buttons_with_css/">Creating bulletproof graphic link buttons with CSS | 456 Berea Street</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="http://www.456bereastreet.com/archive/200705/creating_bulletproof_graphic_link_buttons_with_css/"><img alt="image placeholder" >
+<p><a href="http://www.456bereastreet.com/archive/200705/creating_bulletproof_graphic_link_buttons_with_css/"><img alt="image placeholder" ></a></p>
 <h4>
 <span class="ez-toc-section" id="13_Creative_and_Cool_Uses_of_the_CSS_Border_Property"></span>13. <a href="http://www.cssnewbie.com/12-creative-and-cool-uses-for-the-css-border-property/">Creative and Cool Uses of the CSS Border Property</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="http://www.cssnewbie.com/12-creative-and-cool-uses-for-the-css-border-property/"><img alt="image placeholder" >
+<p><a href="http://www.cssnewbie.com/12-creative-and-cool-uses-for-the-css-border-property/"><img alt="image placeholder" ></a></p>
 <h4>
 <span class="ez-toc-section" id="14_Creative_Use_of_PNG_Transparency_in_Web_Design"></span>14. <a href="http://www.digital-web.com/articles/web_standards_creativity_png/">Creative Use of PNG Transparency in Web Design</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="http://www.digital-web.com/articles/web_standards_creativity_png/"><img alt="image placeholder" >
+<p><a href="http://www.digital-web.com/articles/web_standards_creativity_png/"><img alt="image placeholder" ></a></p>
 <h4>
 <span class="ez-toc-section" id="15_Cross_Browser_CSS_SlideShow"></span>15. <a href="http://www.cssplay.co.uk/menu/slide_show">Cross Browser CSS SlideShow</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="http://www.cssplay.co.uk/menu/slide_show"><img alt="image placeholder" >
+<p><a href="http://www.cssplay.co.uk/menu/slide_show"><img alt="image placeholder" ></a></p>
 <h4>
 <span class="ez-toc-section" id="16_Cross_Browser_Multi-Page_Photograph_Gallery"></span>16. <a href="http://www.cssplay.co.uk/menu/lightbox.html#Portraits">Cross Browser Multi-Page Photograph Gallery</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="http://www.cssplay.co.uk/menu/lightbox.html#Portraits"><img alt="image placeholder" >
+<p><a href="http://www.cssplay.co.uk/menu/lightbox.html#Portraits"><img alt="image placeholder" ></a></p>
 <h4>
 <span class="ez-toc-section" id="17_CSS_Bar_Graphs_Examples"></span>17. <a href="http://applestooranges.com/blog/post/css-for-bar-graphs/?id=55">CSS Bar Graphs: Examples</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="http://applestooranges.com/blog/post/css-for-bar-graphs/?id=55"><img alt="image placeholder" >
+<p><a href="http://applestooranges.com/blog/post/css-for-bar-graphs/?id=55"><img alt="image placeholder" ></a></p>
 <h4>
 <span class="ez-toc-section" id="18_CSS_Based_Navigation"></span>18. <a href="http://www.nundroo.com/navigation/">CSS Based Navigation</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="http://www.nundroo.com/navigation/"><img alt="image placeholder" >
+<p><a href="http://www.nundroo.com/navigation/"><img alt="image placeholder" ></a></p>
 <h4>
 <span class="ez-toc-section" id="19_CSS_Curves"></span>19. <a href="http://storage.couchfort.net/cssCurves/">CSS Curves</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="http://storage.couchfort.net/cssCurves/"><img alt="image placeholder" >
+<p><a href="http://storage.couchfort.net/cssCurves/"><img alt="image placeholder" ></a></p>
 <h4>
 <span class="ez-toc-section" id="20_CSS_Dock_Menu"></span>20. <a href="http://www.ndesign-studio.com/blog/mac/css-dock-menu">CSS Dock Menu</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="http://www.ndesign-studio.com/blog/mac/css-dock-menu"><img alt="image placeholder" >
+<p><a href="http://www.ndesign-studio.com/blog/mac/css-dock-menu"><img alt="image placeholder" ></a></p>
 <h4>
 <span class="ez-toc-section" id="21_CSS_Double_Lists"></span>21. <a href="http://mikecherim.com/experiments/css_double_lists.php">CSS Double Lists</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="http://mikecherim.com/experiments/css_double_lists.php"><img alt="image placeholder" >
+<p><a href="http://mikecherim.com/experiments/css_double_lists.php"><img alt="image placeholder" ></a></p>
 <h4>
 <span class="ez-toc-section" id="22_CSS-Based_Tables_Technique"></span>22. <a href="http://www.smashingmagazine.com/2006/12/29/css-based-tables-modern-solutions/">CSS-Based Tables: Technique</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="http://www.smashingmagazine.com/2006/12/29/css-based-tables-modern-solutions/"><img alt="image placeholder" >
+<p><a href="http://www.smashingmagazine.com/2006/12/29/css-based-tables-modern-solutions/"><img alt="image placeholder" ></a></p>
 <h4>
 <span class="ez-toc-section" id="23_CSS_Gradient_Text_Effect"></span>23. <a href="http://www.webdesignerwall.com/tutorials/css-gradient-text-effect/">CSS Gradient Text Effect</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="http://www.webdesignerwall.com/tutorials/css-gradient-text-effect/"><img alt="image placeholder" >
+<p><a href="http://www.webdesignerwall.com/tutorials/css-gradient-text-effect/"><img alt="image placeholder" ></a></p>
 <h4>
 <span class="ez-toc-section" id="24_CSS_List_Boxes"></span>24. <a href="http://mikecherim.com/gbcms_xml/news_page.php?id=24#n24">CSS List Boxes</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="http://mikecherim.com/gbcms_xml/news_page.php?id=24#n24"><img alt="image placeholder" >
+<p><a href="http://mikecherim.com/gbcms_xml/news_page.php?id=24#n24"><img alt="image placeholder" ></a></p>
 <h4>
 <span class="ez-toc-section" id="25_CSS_Map_Pop"></span>25. <a href="http://mikecherim.com/experiments/css_map_pop.php">CSS Map Pop</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="http://mikecherim.com/experiments/css_map_pop.php"><img alt="image placeholder" >
+<p><a href="http://mikecherim.com/experiments/css_map_pop.php"><img alt="image placeholder" ></a></p>
 <h4>
 <span class="ez-toc-section" id="26_CSS_Pricing_Matrix"></span>26. <a href="http://www.askthecssguy.com/2007/09/sangeeta_asks_the_css_guy_how_1.html">CSS Pricing Matrix</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="http://www.askthecssguy.com/2007/09/sangeeta_asks_the_css_guy_how_1.html"><img alt="image placeholder" >
+<p><a href="http://www.askthecssguy.com/2007/09/sangeeta_asks_the_css_guy_how_1.html"><img alt="image placeholder" ></a></p>
 <h4>
 <span class="ez-toc-section" id="27_CSS_Production_Notes"></span>27. <a href="https://24ways.org/2006/css-production-notes">CSS Production Notes</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="https://24ways.org/2006/css-production-notes"><img alt="image placeholder" >
+<p><a href="https://24ways.org/2006/css-production-notes"><img alt="image placeholder" ></a></p>
 <h4>
 <span class="ez-toc-section" id="28_CSS_Pull_Quotes"></span>28. <a href="http://www.designmeme.com/articles/csspullquotes/">CSS Pull Quotes</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="http://www.designmeme.com/articles/csspullquotes/"><img alt="image placeholder" >
+<p><a href="http://www.designmeme.com/articles/csspullquotes/"><img alt="image placeholder" ></a></p>
 <h4>
 <span class="ez-toc-section" id="29_CSS_Rounded_Corners_Roundup_Nifty_Corners"></span>29. <a href="http://www.smileycat.com/miaow/archives/000044.php#nojavascript">CSS Rounded Corners Roundup</a> (Nifty Corners)<span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="http://www.smileycat.com/miaow/archives/000044.php#nojavascript"><img alt="image placeholder" >
+<p><a href="http://www.smileycat.com/miaow/archives/000044.php#nojavascript"><img alt="image placeholder" ></a></p>
 <h4>
 <span class="ez-toc-section" id="30_CSS_SiteMap"></span>30. <a href="http://wordpress.betech.virginia.edu/index.php/2007/10/03/css-sitemap/">CSS SiteMap</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="http://wordpress.betech.virginia.edu/index.php/2007/10/03/css-sitemap/"><img alt="image placeholder" >
+<p><a href="http://wordpress.betech.virginia.edu/index.php/2007/10/03/css-sitemap/"><img alt="image placeholder" ></a></p>
 <h4>
 <span class="ez-toc-section" id="31_CSS_Speech_Bubbles"></span>31. <a href="http://www.willmayo.com/2007/02/10/css-speech-bubbles/">CSS Speech Bubbles</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="http://www.willmayo.com/2007/02/10/css-speech-bubbles/"><img alt="image placeholder" >
+<p><a href="http://www.willmayo.com/2007/02/10/css-speech-bubbles/"><img alt="image placeholder" ></a></p>
 <h4>
 <span class="ez-toc-section" id="32_CSS_Stacked_Bar_Graphs"></span>32. <a href="http://www.thewojogroup.com/2008/12/css-stacked-bar-graphs/">CSS Stacked Bar Graphs</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="http://www.thewojogroup.com/2008/12/css-stacked-bar-graphs/"><img alt="image placeholder" >
+<p><a href="http://www.thewojogroup.com/2008/12/css-stacked-bar-graphs/"><img alt="image placeholder" ></a></p>
 <h4>
 <span class="ez-toc-section" id="33_CSS_Step_Menu"></span>33. <a href="http://codylindley.com/CSS/325/css-step-menu">CSS Step Menu</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="http://codylindley.com/CSS/325/css-step-menu"><img alt="image placeholder" >
+<p><a href="http://codylindley.com/CSS/325/css-step-menu"><img alt="image placeholder" ></a></p>
 <h4>
 <span class="ez-toc-section" id="34_CSS_Tabs"></span>34. <a href="http://exploding-boy.com/images/cssmenus/menus.html">CSS Tabs</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="http://exploding-boy.com/images/cssmenus/menus.html"><img alt="image placeholder" >
+<p><a href="http://exploding-boy.com/images/cssmenus/menus.html"><img alt="image placeholder" ></a></p>
 <h4>
 <span class="ez-toc-section" id="35_CSS_Teaser_Box"></span>35. <a href="http://www.456bereastreet.com/lab/teaser/">CSS Teaser Box</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="http://www.456bereastreet.com/lab/teaser/"><img alt="image placeholder" >
+<p><a href="http://www.456bereastreet.com/lab/teaser/"><img alt="image placeholder" ></a></p>
 <h4>
 <span class="ez-toc-section" id="36_CSS_Zooming"></span>36. <a href="http://www.deltatangobravo.com/images/zoom/">CSS Zooming</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="http://www.deltatangobravo.com/images/zoom/"><img alt="image placeholder" >
+<p><a href="http://www.deltatangobravo.com/images/zoom/"><img alt="image placeholder" ></a></p>
 <h4>
 <span class="ez-toc-section" id="37_CSS_Menu_Descriptions"></span>37. <a href="http://mikecherim.com/experiments/css_menu_descriptions.php#">CSS: Menu Descriptions</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="http://mikecherim.com/experiments/css_menu_descriptions.php#"><img alt="image placeholder" >
+<p><a href="http://mikecherim.com/experiments/css_menu_descriptions.php#"><img alt="image placeholder" ></a></p>
 <h4>
 <span class="ez-toc-section" id="38_CSS-Based_Forms_Techniques"></span>38. <a href="http://www.smashingmagazine.com/2006/11/11/css-based-forms-modern-solutions/">CSS-Based Forms: Techniques</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="http://www.smashingmagazine.com/2006/11/11/css-based-forms-modern-solutions/"><img alt="image placeholder" >
+<p><a href="http://www.smashingmagazine.com/2006/11/11/css-based-forms-modern-solutions/"><img alt="image placeholder" ></a></p>
 <h4>
 <span class="ez-toc-section" id="39_Date_Display_Technique_with_Sprites"></span>39. <a href="https://css-tricks.com/date-display-with-sprites/">Date Display Technique with Sprites</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="https://css-tricks.com/date-display-with-sprites/"><img alt="image placeholder" >
+<p><a href="https://css-tricks.com/date-display-with-sprites/"><img alt="image placeholder" ></a></p>
 <h4>
 <span class="ez-toc-section" id="40_Displaying_Percentages_with_CSS"></span>40. <a href="http://www.barenakedapp.com/the-design/displaying-percentages">Displaying Percentages with CSS</a><span class="ez-toc-section-end"></span>
 </h4>
-<p><a href="http://www.barenakedapp.com/the-design/displaying-percentages"><img alt="image placeholder" >
+<p><a href="http://www.barenakedapp.com/the-design/displaying-percentages"><img alt="image placeholder" ></a></p>
 <p>文章来源：<a href="http://technologytosoftware.com/best-css-techniques-you-shouldt-miss-for-effective-coding.html" target="_blank">http://technologytosoftware.com/best-css-techniques-you-shouldt-miss-for-effective-coding.html</a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-10-08T08:04:46+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3063.html</guid>
@@ -4971,7 +4771,6 @@ Yes. STL is not object oriented. I think that object orientedness is almost as m
 <p style="text-align: center;"><span style="font-size: large;"><a href="javascript:var%20s%20=%20document.createElement('script');s.type='text/javascript';document.body.appendChild(s);s.src='http://erkie.github.com/asteroids.min.js';void(0);"><strong>Kiss Ass</strong></a></span></p>
 <p>你可以把这个链接加入收藏夹，当你需要删除某些网页上的广告或是很让你不爽的东西时，打开这个网址，就可以开始了。</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2010-10-08T14:06:08+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3070.html</guid>
@@ -4987,9 +4786,6 @@ Yes. STL is not object oriented. I think that object orientedness is almost as m
 <p><a href="https://developer.mozilla.org/en/JavaScript/Guide" target="_blank">https://developer.mozilla.org/en/JavaScript/Guide</a></p>
 <p>第三个是Kernighan 和Ritchie 的 “The C Programming Language”第二版的问答和练习。</p>
 <p><a href="http://users.powernet.co.uk/eton/kandr2/" target="_blank">http://users.powernet.co.uk/eton/kandr2/</a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-10-09T14:06:21+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3083.html</guid>
@@ -5007,9 +4803,6 @@ Yes. STL is not object oriented. I think that object orientedness is almost as m
 </ol>
 <p>演示地点在这里：<a href="http://samy.pl/mapxss/" target="_blank">http://samy.pl/mapxss/</a></p>
 <p>我试了一下，无论无线和有线都可以准确定位我的位置。很强大，你也试试看。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-10-09T15:28:13+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3089.html</guid>
@@ -5020,11 +4813,8 @@ Yes. STL is not object oriented. I think that object orientedness is almost as m
 <link>https://coolshell.cn/articles/3097.html</link>
 <content><![CDATA[ 
 <p>之前发布过《<a rel="bookmark" href="https://coolshell.cn/articles/105.html" target="_blank">操作系统图形界面发展史(1981-2009)</a>》，今天在网上看到一张自于<a href="http://testking.com/">Testking.com</a>的关于Windows的进化图，其从1985年的windows 1.0到2009年的windows 7的。挺有意思的。点击可以看大图。</p>
-<p style="text-align: center;"><a href="http://www.testking.com/techking/infographics/the-darwinian-evolution-of-windows-infographic/"><img alt="image placeholder" >
+<p style="text-align: center;"><a href="http://www.testking.com/techking/infographics/the-darwinian-evolution-of-windows-infographic/"><img alt="image placeholder" ></a></p>
 <p>图片来源: <a href="http://www.testking.com/techking/infographics/the-darwinian-evolution-of-windows-infographic/" target="_blank">The Darwinian Evolution of Windows</a> by <a href="http://www.testking.com/techking/" target="_blank">Tech King</a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-10-11T08:56:40+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3097.html</guid>
@@ -5036,7 +4826,7 @@ Yes. STL is not object oriented. I think that object orientedness is almost as m
 <content><![CDATA[ 
 <p style="text-align: left;">以前本站发布过《<a rel="bookmark" href="https://coolshell.cn/articles/1863.html" target="_blank">编程语言时间地理图</a>》、《<a rel="bookmark" href="https://coolshell.cn/articles/2724.html" target="_blank">计算机编程简史图</a>》，下面是两张关于编程语言的进化图。</p>
 <p style="text-align: left;">第一张是比较宏观的，<a href="http://techdistrict.kirkk.com/2009/06/17/the-new-era-of-programming-languages/" target="_blank">来源在这里</a>，虽然是去年的，但还是比较不错的，其把计算机编程语言分成了五个时代——</p>
-<p style="text-align: center;"><a href="https://coolshell.cn/wp-content/uploads/2010/10/language-evolution.jpg"><img alt="image placeholder" >
+<p style="text-align: center;"><a href="https://coolshell.cn/wp-content/uploads/2010/10/language-evolution.jpg"><img alt="image placeholder" ></a></p>
 <ul>
 <li>
 <strong>语言诞生</strong>。1940年代。第一个语言应该是：<a href="https://en.wikipedia.org/wiki/Ada_Lovelace" target="_blank">Ada Lovelace</a>,</li>
@@ -5053,12 +4843,9 @@ Yes. STL is not object oriented. I think that object orientedness is almost as m
 </p>
 <p style="text-align: left;">下面是一张大图，让你看看整个编程语言的进代图。（点击看大图）</p>
 <p style="text-align: left;"><span id="more-3100"></span></p>
-<p style="text-align: center;"><a href="https://coolshell.cn/wp-content/uploads/2010/10/EvolutionOfComputerlanguages.png"><img alt="image placeholder" >
+<p style="text-align: center;"><a href="https://coolshell.cn/wp-content/uploads/2010/10/EvolutionOfComputerlanguages.png"><img alt="image placeholder" ></a> <a href="https://coolshell.cn/wp-content/uploads/2010/10/language-evolution.jpg"></a></p>
 <p style="text-align: left;"><a href="https://coolshell.cn/wp-content/uploads/2010/10/language-evolution.jpg">（</a>全文完）</p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-10-11T09:18:27+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3100.html</guid>
@@ -5081,9 +4868,6 @@ Yes. STL is not object oriented. I think that object orientedness is almost as m
 <p>下面是一个3D迷宫（用方向键移动，空格键跳动，注意左上角的地图）：</p>
 <p align="center"><iframe loading="lazy" frameborder="0" style="background:#000;border:0" width="660" height="500" src="https://raphaeljs.com/scape/"></iframe></p>
 <p>更多的示例请到其网站上看看吧：<a href="http://raphaeljs.com/index.html" target="_blank">http://raphaeljs.com/index.html</a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-10-12T08:21:37+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3107.html</guid>
@@ -5094,12 +4878,9 @@ Yes. STL is not object oriented. I think that object orientedness is almost as m
 <link>https://coolshell.cn/articles/3125.html</link>
 <content><![CDATA[ 
 <p>下图是几个经典的文本编辑器的学习曲线，不排除其中有调侃和幽默的味道。</p>
-<figure id="attachment_3126" aria-describedby="caption-attachment-3126" style="width: 600px" class="wp-caption aligncenter"><img alt="image placeholder" >
+<figure id="attachment_3126" aria-describedby="caption-attachment-3126" style="width: 600px" class="wp-caption aligncenter"><img alt="image placeholder" ><figcaption id="caption-attachment-3126" class="wp-caption-text">主流编辑器学习曲线图</figcaption></figure>
 <p><strong>注1</strong>：<strong>Pico</strong>(<strong>PI</strong>ne <strong>CO</strong>mposer)是Unix操作系统中最常见的三种文字处理软件之一，具有文字编辑、搜索、拼写检查、文件浏览和段对齐功能，适合高效地编辑短小的文件。Pico是由华盛顿大学开发的免费软件，随着<a title="Pine（尚未撰写）" href="https://www.washington.edu/pine/" target="_blank">pine</a>电子邮件处理软件发布。它是在Emacs的基础上以pine的邮件编辑为目标而开发的，所以其指令集是Emacs的子集，但是由于在界面上有提示快捷键，相对于vi和Emacs来说更加容易使用。由于Pico虽然是免费软件，但是它并不是开源软件，所以很多Linux版本并不包含Pico。这些版本通常提供一个界面类似的开源软件<a title="Nano" href="http://www.nano-editor.org/" target="_blank">nano</a>——Pico的克隆版。</p>
 <p><strong>注2</strong>：图中的纵横坐标没有标明。我所理解的是——X轴是熟练程度，Y轴是技能。于是对于notepad 来说，技能和熟练程度呈正比。对于VS来说，熟练程度越大，所需要技能先是越来越多，而随着熟练程度的增长，你需要的技能也越少。而对于VI来说，一开始就需要相当大的技能，但一旦掌握这些技能，则你将会越来越熟练。而对于emacs来说，技能和熟练程度是呈旋涡状。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-10-12T08:55:42+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3125.html</guid>
@@ -5119,9 +4900,6 @@ issue.</p>
 </blockquote>
 <blockquote><p>“名命类似是很不幸的。然而，那有很多的计算机产品和服务都叫Go。自从我们发布Go语言的这11个月里，这两个语言只有极少的混乱，所以，我们决定关闭这个问题。”</p></blockquote>
 <p>目前，该bug的状态为Unfortunate，这个状态很有创造性啊，在我的这么多年软件开发过程中，我还没有在任何的bug管理系统中见过这种状态，嗯，要不我也给我们公司的Defect Tracking System加上一个这种状态？</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-10-12T15:34:02+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3156.html</guid>
@@ -5191,7 +4969,6 @@ Ctrl+j</p></blockquote>
 mv /tmp/chmod /bin/chmod</pre>
 <p>各位，你的方法呢？</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2010-10-13T08:42:37+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3136.html</guid>
@@ -5202,13 +4979,10 @@ mv /tmp/chmod /bin/chmod</pre>
 <link>https://coolshell.cn/articles/3142.html</link>
 <content><![CDATA[ 
 <p><strong>用户界面设计</strong></p>
-<figure id="attachment_3144" aria-describedby="caption-attachment-3144" style="width: 300px" class="wp-caption aligncenter"><img alt="image placeholder" >
+<figure id="attachment_3144" aria-describedby="caption-attachment-3144" style="width: 300px" class="wp-caption aligncenter"><img alt="image placeholder" ><figcaption id="caption-attachment-3144" class="wp-caption-text">用户界面设计</figcaption></figure>
 <p><strong>用户体验设计</strong></p>
 <p><span id="more-3142"></span></p>
-<p><figure id="attachment_3143" aria-describedby="caption-attachment-3143" style="width: 308px" class="wp-caption aligncenter"><a href="https://coolshell.cn/wp-content/uploads/2010/10/UX.jpg"><img alt="image placeholder" >
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
+<p><figure id="attachment_3143" aria-describedby="caption-attachment-3143" style="width: 308px" class="wp-caption aligncenter"><a href="https://coolshell.cn/wp-content/uploads/2010/10/UX.jpg"><img alt="image placeholder" ></a><figcaption id="caption-attachment-3143" class="wp-caption-text">用户体验设计在便池上放一个假苍蝇会导致男人撒尿的时候会不由自主地瞄准它，有证据表明，这样的用户体验可以减少80%的小便溅出便池。</figcaption></figure></p>
  ]]></content>
 <pubDate>2010-10-14T08:45:02+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3142.html</guid>
@@ -5225,9 +4999,6 @@ mv /tmp/chmod /bin/chmod</pre>
 <br>
 <a href="https://coolshell.cn/wp-content/uploads/2010/10/rijndael_ingles2004.swf" target="_blank">点击这里看全屏</a><br>
 </center>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-10-15T10:13:00+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3161.html</guid>
@@ -5238,12 +5009,9 @@ mv /tmp/chmod /bin/chmod</pre>
 <link>https://coolshell.cn/articles/3181.html</link>
 <content><![CDATA[ 
 <p>点击图片看大图</p>
-<p><figure id="attachment_3185" aria-describedby="caption-attachment-3185" style="width: 581px" class="wp-caption aligncenter"><a href="https://coolshell.cn/wp-content/uploads/2010/10/EclipseCanoo1440x900.png"><img alt="image placeholder" >
+<p><figure id="attachment_3185" aria-describedby="caption-attachment-3185" style="width: 581px" class="wp-caption aligncenter"><a href="https://coolshell.cn/wp-content/uploads/2010/10/EclipseCanoo1440x900.png"><img alt="image placeholder" ></a><figcaption id="caption-attachment-3185" class="wp-caption-text">Eclipse 快捷键桌面</figcaption></figure><br>
 <span id="more-3181"></span><br>
-<figure id="attachment_3184" aria-describedby="caption-attachment-3184" style="width: 590px" class="wp-caption aligncenter"><a href="https://coolshell.cn/wp-content/uploads/2010/10/vim-shortcuts.png"><img alt="image placeholder" >
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
+<figure id="attachment_3184" aria-describedby="caption-attachment-3184" style="width: 590px" class="wp-caption aligncenter"><a href="https://coolshell.cn/wp-content/uploads/2010/10/vim-shortcuts.png"><img alt="image placeholder" ></a><figcaption id="caption-attachment-3184" class="wp-caption-text">vim 移动快捷键桌面</figcaption></figure></p>
  ]]></content>
 <pubDate>2010-10-18T08:23:04+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3181.html</guid>
@@ -5268,7 +5036,7 @@ mv /tmp/chmod /bin/chmod</pre>
 <h4>
 <span class="ez-toc-section" id="%E4%B8%80%E3%80%81Intel_%E7%BB%99%E5%BC%80%E5%8F%91%E4%BA%BA%E5%91%98%E6%8E%A8%E8%8D%90%E7%9A%84%E8%B5%84%E6%96%99%E5%88%97%E8%A1%A8%EF%BC%882010%E5%B9%B4%E4%B8%8B%E5%8D%8A%E5%B9%B4%EF%BC%89"></span>一、<a href="https://www.intel.com/technology/rr/RRlist.pdf" target="_blank">Intel 给开发人员推荐的资料列表（2010年下半年）</a><span class="ez-toc-section-end"></span>
 </h4>
-<figure id="attachment_3197" aria-describedby="caption-attachment-3197" style="width: 500px" class="wp-caption aligncenter"><a href="https://www.intel.com/technology/rr/RRlist.pdf" target="_blank"><img alt="image placeholder" >
+<figure id="attachment_3197" aria-describedby="caption-attachment-3197" style="width: 500px" class="wp-caption aligncenter"><a href="https://www.intel.com/technology/rr/RRlist.pdf" target="_blank"><img alt="image placeholder" ></a><figcaption id="caption-attachment-3197" class="wp-caption-text">Intel Recommended Books for Developers</figcaption></figure>
 <p>其中包含了</p>
 <ul>
 <li>硬件：硬件，电源，存储，无线</li>
@@ -5281,26 +5049,25 @@ mv /tmp/chmod /bin/chmod</pre>
 <h4>
 <span class="ez-toc-section" id="%E4%BA%8C%E3%80%81jQuery_Fundamentals"></span>二、<a href="http://jqfundamentals.com/book/" target="_blank">jQuery Fundamentals</a><span class="ez-toc-section-end"></span>
 </h4>
-<figure id="attachment_3196" aria-describedby="caption-attachment-3196" style="width: 500px" class="wp-caption aligncenter"><a href="http://jqfundamentals.com/book/" target="_blank"><img alt="image placeholder" >
+<figure id="attachment_3196" aria-describedby="caption-attachment-3196" style="width: 500px" class="wp-caption aligncenter"><a href="http://jqfundamentals.com/book/" target="_blank"><img alt="image placeholder" ></a><figcaption id="caption-attachment-3196" class="wp-caption-text">jQuery Fundamentals</figcaption></figure>
 <p>这可能是我见过写得最好的jQuery教程了，大量的示例，只是没有时间和精力，不然一定全部翻译过来。</p>
-<figure id="attachment_3195" aria-describedby="caption-attachment-3195" style="width: 500px" class="wp-caption aligncenter"><img alt="image placeholder" >
+<figure id="attachment_3195" aria-describedby="caption-attachment-3195" style="width: 500px" class="wp-caption aligncenter"><img alt="image placeholder" ><figcaption id="caption-attachment-3195" class="wp-caption-text">jQuery Fundamentals - Code Example</figcaption></figure>
 <p>还有其它关于jQuery的文章，你还可以查看《<a rel="bookmark" href="https://coolshell.cn/articles/2964.html" target="_blank">25个jQuery的编程小抄</a>》</p>
 <p style="padding-left: 30px;"><span style="color: #ffffff;">－－</span></p>
 <h4>
 <span class="ez-toc-section" id="%E4%B8%89%E3%80%81How_to_Design_Programs"></span>三、<a href="http://www.htdp.org/2003-09-26/Book/" target="_blank">How to Design Programs</a><span class="ez-toc-section-end"></span>
 </h4>
-<figure id="attachment_3194" aria-describedby="caption-attachment-3194" style="width: 500px" class="wp-caption aligncenter"><a href="http://www.htdp.org/2003-09-26/Book/" target="_blank"><img alt="image placeholder" >
+<figure id="attachment_3194" aria-describedby="caption-attachment-3194" style="width: 500px" class="wp-caption aligncenter"><a href="http://www.htdp.org/2003-09-26/Book/" target="_blank"><img alt="image placeholder" ></a><figcaption id="caption-attachment-3194" class="wp-caption-text">How to Design Programs</figcaption></figure>
 <p>想学学如何设计程序吗？英国剑桥大学写的，MIT出版的，希望你能看看，非常不错。</p>
 <p style="padding-left: 30px;"><span style="color: #ffffff;">－－</span></p>
 <h4>
 <span class="ez-toc-section" id="%E5%9B%9B%E3%80%81Microsoft_All-In-One_Code_Framework"></span>四、<a href="https://1code.codeplex.com/" target="_blank">Microsoft All-In-One Code Framework</a><span class="ez-toc-section-end"></span>
 </h4>
-<figure id="attachment_3193" aria-describedby="caption-attachment-3193" style="width: 500px" class="wp-caption aligncenter"><a href="https://1code.codeplex.com/" target="_blank"><img alt="image placeholder" >
+<figure id="attachment_3193" aria-describedby="caption-attachment-3193" style="width: 500px" class="wp-caption aligncenter"><a href="https://1code.codeplex.com/" target="_blank"><img alt="image placeholder" ></a><figcaption id="caption-attachment-3193" class="wp-caption-text">Microsoft All-In-One Code Framework</figcaption></figure>
 <p>C++/C#/VB.NET的一站式代码和资料，还有coding standard，也是很不错的。</p>
 <p>——————————————————————</p>
 <p>查看《<a rel="bookmark" href="https://coolshell.cn/articles/2775.html">免费电子书列表</a>》查看更多的电子书。</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2010-10-18T09:38:51+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3192.html</guid>
@@ -5314,7 +5081,7 @@ mv /tmp/chmod /bin/chmod</pre>
 <p>原文：<a href="http://smashinghub.com/3-useful-drop-down-menu-scripts-to-enhance-header-navigation.htm" target="_blank">http://smashinghub.com/3-useful-drop-down-menu-scripts-to-enhance-header-navigation.htm</a></p>
 <h4>jQuery</h4>
 <h3><strong><a href="http://www.dynamicdrive.com/dynamicindex1/ddsmoothmenu.htm"><strong>Smooth Navigation Menu</strong></a></strong></h3>
-<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-5.jpg"><img alt="image placeholder" >
+<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-5.jpg"><img alt="image placeholder" ><br>
 </a></strong></p>
 <p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-5.jpg"></a></strong></p>
 <p><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-5.jpg"></a></p>
@@ -5325,98 +5092,97 @@ mv /tmp/chmod /bin/chmod</pre>
 <h3>
 <strong> </strong><strong><a href="http://javascript-array.com/scripts/jquery_simple_drop_down_menu/">Simple Drop Down Menu Plugin</a></strong>
 </h3>
-<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-6.jpg"><img alt="image placeholder" >
+<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-6.jpg"><img alt="image placeholder" ></a><br>
 </strong></p>
 <h3><strong><a href="http://www.filamentgroup.com/lab/jquery_ipod_style_and_flyout_menus/">Dropdown, iPod Drilldown, and Flyout styles </a></strong></h3>
 <div><strong><br>
 </strong></div>
-<div><a href="http://smashinghub.com/wp-content/uploads/2010/10/drilldown.gif"><img alt="image placeholder" >
+<div><a href="http://smashinghub.com/wp-content/uploads/2010/10/drilldown.gif"><img alt="image placeholder" ></a></div>
 <h3><strong><a href="http://designreviver.com/tutorials/jquery-css-example-dropdown-menu/">jQuery and CSS Example</a><br>
 </strong></h3>
-<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-7.jpg"><img alt="image placeholder" >
+<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-7.jpg"><img alt="image placeholder" ></a><br>
 </strong></p>
 <h3>
 <strong> </strong><strong><a href="http://www.webdesigndev.com/web-development/create-the-fanciest-dropdown-menu-you-ever-saw">Create the Fanciest Drop Down Menu You Ever Saw</a></strong>
 </h3>
-<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-8.jpg"><img alt="image placeholder" >
+<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-8.jpg"><img alt="image placeholder" ></a><br>
 </strong></p>
 <h3><strong><a href="http://net.tutsplus.com/tutorials/javascript-ajax/a-different-top-navigation/">A Different Top Navigation</a></strong></h3>
-<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-9.jpg"><img alt="image placeholder" >
+<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-9.jpg"><img alt="image placeholder" ></a><br>
 </strong></p>
 <h3>
 <strong> </strong><strong><a href="https://css-tricks.com/simple-jquery-dropdowns/">Simple jQuery Dropdowns</a></strong>
 </h3>
-<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-15.jpg"><img alt="image placeholder" >
+<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-15.jpg"><img alt="image placeholder" ></a><br>
 </strong></p>
 <h3><strong><a href="http://www.noupe.com/tutorial/drop-down-menu-jquery-css.html"><strong>Sexy Drop Down Menu with jQuery and CSS</strong></a></strong></h3>
-<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-1.jpg"><img alt="image placeholder" >
+<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-1.jpg"><img alt="image placeholder" ></a><br>
 </strong></p>
 <h3><strong><a href="http://net.tutsplus.com/tutorials/html-css-techniques/how-to-create-a-drop-down-nav-menu-with-html5-css3-and-jquery/"><strong>How to Create a Drop Down Nav Menu with HTML5, CSS3, and jQuery</strong></a></strong></h3>
-<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-31.jpg"><img alt="image placeholder" >
+<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-31.jpg"><img alt="image placeholder" ></a><br>
 </strong></p>
 <h3><strong><a href="http://www.jankoatwarpspeed.com/post/2009/07/28/reinventing-drop-down-with-css-jquery.aspx">Reinventing a Drop Down with CSS and jQuery</a></strong></h3>
-<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-14.jpg"><img alt="image placeholder" >
+<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-14.jpg"><img alt="image placeholder" ></a><br>
 </strong></p>
 <h3>
 <strong> </strong><strong><a href="http://users.tpg.com.au/j_birch/plugins/superfish/">Superfish</a></strong>
 </h3>
-<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-13.jpg"><img alt="image placeholder" >
+<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-13.jpg"><img alt="image placeholder" ></a></strong><strong> </strong><strong><a href="http://www.clarklab.net/blog/posts/animated-drop-down-menu-with-jquery/"></a></strong></p>
 <h3><strong><a href="http://www.clarklab.net/blog/posts/animated-drop-down-menu-with-jquery/">Animated Drop Down Menu with jQuery</a></strong></h3>
-<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-12.jpg"><img alt="image placeholder" >
+<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-12.jpg"><img alt="image placeholder" ></a><br>
 </strong></p>
 <h3><strong><a href="http://www.filamentgroup.com/lab/jquery_ipod_style_and_flyout_menus/">jQuery Menu: Dropdown, Drilldown, and iPod Flyout Styles</a></strong></h3>
-<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-16.jpg"><img alt="image placeholder" >
+<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-16.jpg"><img alt="image placeholder" ></a><br>
 </strong></p>
 <h3><strong><a href="http://www.givainc.com/labs/mcdropdown_jquery_plugin.htm">McDropdown jQuery Plugin</a></strong></h3>
-<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-17.jpg"><img alt="image placeholder" >
+<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-17.jpg"><img alt="image placeholder" ></a></strong><strong><a href="http://www.hv-designs.co.uk/2009/02/17/sliding-jquery-menu/"><strong> </strong></a></strong></p>
 <h3><strong><a href="http://www.sohtanaka.com/web-design/mega-drop-downs-w-css-jquery/"><strong>Mega Drop Down Menus with CSS &amp; jQuery</strong></a></strong></h3>
-<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-3.jpg"><img alt="image placeholder" >
+<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-3.jpg"><img alt="image placeholder" ></a><br>
 </strong></p>
 <h3><strong><a href="http://www.hv-designs.co.uk/2009/02/17/sliding-jquery-menu/"><strong>Sliding jQuery Menu</strong></a></strong></h3>
-<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-4.jpg"><img alt="image placeholder" >
+<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-4.jpg"><img alt="image placeholder" ></a><br>
 </strong></p>
 <h3><strong><a href="http://jdsharp.us/jQuery/plugins/jdMenu/">jdMenu Hierarchical Menu Plugin</a></strong></h3>
-<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-18.jpg"><img alt="image placeholder" >
+<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-18.jpg"><img alt="image placeholder" ></a><br>
 </strong></p>
 <h3>
 <strong> </strong><strong><a href="http://apycom.com/menus/1-dim-gray.html">Dim Gray Drop Down Menu</a></strong>
 </h3>
-<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-19.jpg"><img alt="image placeholder" >
+<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-19.jpg"><img alt="image placeholder" ></a><br>
 </strong></p>
 <h3><strong><a href="http://www.kriesi.at/archives/create-a-multilevel-dropdown-menu-with-css-and-improve-it-via-jquery">Create a MultiLevel Dropdown Menu with CSS and Improve it with jQuery</a></strong></h3>
-<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-20.jpg"><img alt="image placeholder" >
+<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-20.jpg"><img alt="image placeholder" ></a></strong></p>
 <h3>
 <strong> </strong><strong><a href="http://www.queness.com/post/966/jquery-drop-down-menu-for-rss-subscription-tutorial">jQuery Drop Down Menu for RSS Subscription</a></strong>
 </h3>
-<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-11.jpg"><img alt="image placeholder" >
+<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-11.jpg"><img alt="image placeholder" ></a></strong><strong> </strong><strong><a href="http://www.queness.com/preview/1047/easy-to-style-jquery-drop-down-menu-tutorial"></a></strong></p>
 <h3><strong><a href="http://www.queness.com/preview/1047/easy-to-style-jquery-drop-down-menu-tutorial">Easy to Style jQuery Drop Down Menu</a></strong></h3>
-<h2><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-10.jpg"><img alt="image placeholder" >
+<h2><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/Drop-Down-Menu-Scripts-10.jpg"><img alt="image placeholder" ></a><br>
 </strong></h2>
 <h4><strong>CSS and Java Scripts<br>
 </strong></h4>
 <h3><strong><a rel="nofollow" href="http://lwis.net/free-css-drop-down-menu/">Lwis Dropdown Menu Framework</a></strong></h3>
-<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/lwis_menu.png"><img alt="image placeholder" >
+<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/lwis_menu.png"><img alt="image placeholder" ></a></strong></p>
 <h3><strong><a rel="nofollow" href="http://greengeckodesign.com/projects/menumatic.aspx">MenuMatic </a></strong></h3>
-<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/menumatic.jpg"><img alt="image placeholder" >
+<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/menumatic.jpg"><img alt="image placeholder" ></a></strong><strong><a rel="nofollow" href="http://www.andrewsellick.com/35/sexy-sliding-javascript-side-bar-menu-using-mootools"></a></strong></p>
 <h3><strong><a rel="nofollow" href="http://www.andrewsellick.com/35/sexy-sliding-javascript-side-bar-menu-using-mootools">Sexy Sliding Menu</a></strong></h3>
-<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/sliding_menu.jpg"><img alt="image placeholder" >
+<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/sliding_menu.jpg"><img alt="image placeholder" ></a></strong></p>
 <h3><strong><a rel="nofollow" href="http://www.cssplay.co.uk/menus/circular-sub.html">Circular Menu</a></strong></h3>
-<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/circular_menu.jpg"><img alt="image placeholder" >
+<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/circular_menu.jpg"><img alt="image placeholder" ></a></strong><strong><a rel="nofollow" href="http://www.jankoatwarpspeed.com/post/2009/01/19/Create-Vimeo-like-top-navigation.aspx"></a></strong></p>
 <h3><strong><a rel="nofollow" href="http://www.jankoatwarpspeed.com/post/2009/01/19/Create-Vimeo-like-top-navigation.aspx">Vimeo-like Top Navigation</a></strong></h3>
-<p><a href="http://smashinghub.com/wp-content/uploads/2010/10/vimeo_menu.jpg"><img alt="image placeholder" >
+<p><a href="http://smashinghub.com/wp-content/uploads/2010/10/vimeo_menu.jpg"><img alt="image placeholder" ></a><strong><a rel="nofollow" href="http://www.filamentgroup.com/lab/jquery_ipod_style_and_flyout_menus/"></a></strong></p>
 <h3><strong><a rel="nofollow" href="http://www.filamentgroup.com/lab/jquery_ipod_style_and_flyout_menus/">FG jQuery Menu</a></strong></h3>
-<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/fg_menu.png"><img alt="image placeholder" >
+<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/fg_menu.png"><img alt="image placeholder" ></a></strong></p>
 <h3><strong><a rel="nofollow" href="http://extjs.com/">Ext JS Tree Panel</a></strong></h3>
-<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/dragdrop.jpg"><img alt="image placeholder" >
+<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/dragdrop.jpg"><img alt="image placeholder" ></a></strong></p>
 <h3><strong><a rel="nofollow" href="http://www.kriesi.at/archives/apple-menu-improved-with-jquery">Apple Style Menu</a></strong></h3>
-<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/appele1.jpg"><img alt="image placeholder" >
+<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/appele1.jpg"><img alt="image placeholder" ></a></strong></p>
 <h3><strong><a rel="nofollow" href="http://www.designmeme.com/articles/hoverboxmenu/">Hover Box</a></strong></h3>
 <h3>
-<strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/hoverbox.jpg"><img alt="image placeholder" >
+<strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/hoverbox.jpg"><img alt="image placeholder" ></a></strong><strong><a rel="nofollow" href="http://www.styledmenus.com/">Styled Menus</a></strong>
 </h3>
-<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/style.png"><img alt="image placeholder" >
+<p><strong><a href="http://smashinghub.com/wp-content/uploads/2010/10/style.png"><img alt="image placeholder" ></a></strong></p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2010-10-20T14:06:43+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3207.html</guid>
@@ -5466,9 +5232,6 @@ mv /tmp/chmod /bin/chmod</pre>
 <p style="text-align: left;">
 </p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-10-25T09:49:27+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3218.html</guid>
@@ -5480,14 +5243,13 @@ mv /tmp/chmod /bin/chmod</pre>
 <content><![CDATA[ 
 <p>以前向大家介绍过<a href="https://coolshell.cn/articles/1883.html" target="_blank">在线的IDE</a>，还有<a href="https://coolshell.cn/articles/1310.html" target="_blank">在线的编译器</a>，还有 <a rel="bookmark" href="https://coolshell.cn/articles/776.html" target="_blank">在线的画UML图的网站</a>，在<a href="https://coolshell.cn/articles/3013.html" target="_blank">这篇文章里</a>还介绍了一个<a href="http://css3.mikeplate.com/" target="_blank">在线的CSS制作服务</a>，今天给大家介绍两个在线的作图编辑服务。</p>
 <p>一个看似就是Web版的Photoshop：<a href="http://pixlr.com/editor/" target="_blank">http://pixlr.com/editor/</a> （用Flash做的）</p>
-<figure id="attachment_3245" aria-describedby="caption-attachment-3245" style="width: 585px" class="wp-caption aligncenter"><a href="http://pixlr.com/editor/"><img alt="image placeholder" >
+<figure id="attachment_3245" aria-describedby="caption-attachment-3245" style="width: 585px" class="wp-caption aligncenter"><a href="http://pixlr.com/editor/"><img alt="image placeholder" ></a><figcaption id="caption-attachment-3245" class="wp-caption-text">Photo Editor Online 在线服务</figcaption></figure>
 <p><span style="color: #ffffff;">—–</span></p>
 <p>一个是作矢量图的，叫SVG Editor：</p>
 <p><a href="https://svg-edit.googlecode.com/svn-history/r1771/trunk/editor/svg-editor.html" target="_blank">http://svg-edit.googlecode.com/svn-history/r1771/trunk/editor/svg-editor.html</a></p>
 <p><span id="more-3244"></span></p>
-<figure id="attachment_3246" aria-describedby="caption-attachment-3246" style="width: 585px" class="wp-caption aligncenter"><a href="https://svg-edit.googlecode.com/svn-history/r1771/trunk/editor/svg-editor.html"><img alt="image placeholder" >
+<figure id="attachment_3246" aria-describedby="caption-attachment-3246" style="width: 585px" class="wp-caption aligncenter"><a href="https://svg-edit.googlecode.com/svn-history/r1771/trunk/editor/svg-editor.html"><img alt="image placeholder" ></a><figcaption id="caption-attachment-3246" class="wp-caption-text">SVG Editor 矢量图编辑</figcaption></figure>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2010-10-25T13:02:06+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3244.html</guid>
@@ -5527,7 +5289,6 @@ mv /tmp/chmod /bin/chmod</pre>
 </ol>
 <p>我觉得作者所说的leave，应该是离开这个事，这个团队，而不完全是离开这个公司。我个人对上述的21条中的某些条觉得非常认同，比如：1，8，11，12，15，16，17。</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2010-10-26T08:54:25+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3231.html</guid>
@@ -5568,9 +5329,6 @@ mv /tmp/chmod /bin/chmod</pre>
 </ul>
 <p>我讲完后，老婆看似有些明白了，然后对我说，“明白了，我就说最近衣服有点跟不上，原来是L1（衣柜）里的衣服跟不上了，老公什么时候去买衣服啊……”。我晕！</p>
 <p>（以上故事，完全是我的亲身经历）</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-10-27T08:48:37+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3236.html</guid>
@@ -5581,17 +5339,14 @@ mv /tmp/chmod /bin/chmod</pre>
 <link>https://coolshell.cn/articles/3254.html</link>
 <content><![CDATA[ 
 <p>这里有一个<a href="http://liuliu.me/detect/detect.html" target="_blank">人脸识别的Javascript</a>，感觉挺酷的。识别的还是很不错的，网友们在做了很多的<a href="https://www.reddit.com/r/programming/comments/dy81y/my_notsoslow_face_detector_in_javascript/" target="_blank">测试</a>，对于动画片里的人员很不准，而且，照片质量要好一点的会准一点。下面是一些识别结果：</p>
-<p style="text-align: center;"><img alt="image placeholder" >
+<p style="text-align: center;"><img alt="image placeholder" ></p>
 <p>一个递归式的图</p>
 <p><span id="more-3254"></span></p>
-<p style="text-align: center;"><img alt="image placeholder" >
+<p style="text-align: center;"><img alt="image placeholder" ></p>
 <p>不过，好像只能识别白人</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p style="text-align: left;">大家可以去试试。</p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-11-01T08:57:53+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3254.html</guid>
@@ -5640,9 +5395,6 @@ wstring result = cpptempl::parse(text, data) ;</pre>
 &lt;/ul&gt;</p></blockquote>
 <p>更为详细的说明请到这里：<a href="https://bitbucket.org/ginstrom/cpptemplate/wiki/Home" target="_blank">http://bitbucket.org/ginstrom/cpptemplate/wiki/Home</a>。</p>
 <p>Google也有一个类似的库叫ctemplate：<a href="https://code.google.com/p/google-ctemplate/" target="_blank">http://code.google.com/p/google-ctemplate/</a> 提供相似的方法，你也可以试试看。与Google相对应的Java库叫Hapax：<a href="https://code.google.com/p/hapax/" target="_blank">http://code.google.com/p/hapax/</a>。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-11-02T08:59:06+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3258.html</guid>
@@ -5656,11 +5408,8 @@ wstring result = cpptempl::parse(text, data) ;</pre>
 <p style="text-align: center;"><a href="http://labs.codecomputerlove.com/FlashVsHtml5/" target="_blank">http://labs.codecomputerlove.com/FlashVsHtml5/</a></p>
 <p style="text-align: center;">
 </p>
-<p style="text-align: left;"><a href="http://labs.codecomputerlove.com/FlashVsHtml5/"><img alt="image placeholder" >
+<p style="text-align: left;"><a href="http://labs.codecomputerlove.com/FlashVsHtml5/"><img alt="image placeholder" ></a></p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-11-05T11:16:25+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3267.html</guid>
@@ -5672,12 +5421,9 @@ wstring result = cpptempl::parse(text, data) ;</pre>
 <content><![CDATA[ 
 <p><a href="http://learnpythonthehardway.org/static/LearnPythonTheHardWay.pdf" target="_blank"><strong>Learn Python The Hard Way (pdf)</strong></a></p>
 <p style="text-align: center;"><strong> </strong></p>
-<figure id="attachment_3272" aria-describedby="caption-attachment-3272" style="width: 245px" class="wp-caption aligncenter"><a href="http://learnpythonthehardway.org/static/LearnPythonTheHardWay.pdf"><img alt="image placeholder" >
+<figure id="attachment_3272" aria-describedby="caption-attachment-3272" style="width: 245px" class="wp-caption aligncenter"><a href="http://learnpythonthehardway.org/static/LearnPythonTheHardWay.pdf"><img alt="image placeholder" ></a><figcaption id="caption-attachment-3272" class="wp-caption-text">Learn Python The Hard Way</figcaption></figure>
 <p><a href="https://download.microsoft.com/download/5/0/A/50A39509-D015-410F-A8F2-A5511E5A988D/Microsoft_Press_ebook_Programming_Windows_Phone_7_PDF.pdf" target="_blank"><strong>Programming Windows Phone 7 (Charles Petzold)</strong></a></p>
-<p><figure id="attachment_3271" aria-describedby="caption-attachment-3271" style="width: 245px" class="wp-caption aligncenter"><a href="https://download.microsoft.com/download/5/0/A/50A39509-D015-410F-A8F2-A5511E5A988D/Microsoft_Press_ebook_Programming_Windows_Phone_7_PDF.pdf"><img alt="image placeholder" >
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
+<p><figure id="attachment_3271" aria-describedby="caption-attachment-3271" style="width: 245px" class="wp-caption aligncenter"><a href="https://download.microsoft.com/download/5/0/A/50A39509-D015-410F-A8F2-A5511E5A988D/Microsoft_Press_ebook_Programming_Windows_Phone_7_PDF.pdf"><img alt="image placeholder" ></a><figcaption id="caption-attachment-3271" class="wp-caption-text">Programming Windows Phone 7 by Charles Petzold</figcaption></figure></p>
  ]]></content>
 <pubDate>2010-11-08T11:47:09+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3270.html</guid>
@@ -5689,15 +5435,12 @@ wstring result = cpptempl::parse(text, data) ;</pre>
 <content><![CDATA[ 
 <p>大家看看这个网站吧。最强的验证码——把看到的东西画出来。</p>
 <p><a href="http://www.geee.net/contact.htm" target="_blank">http://www.geee.net/contact.htm</a></p>
-<p style="text-align: center;"><a href="http://www.geee.net/contact.htm"><img alt="image placeholder" >
+<p style="text-align: center;"><a href="http://www.geee.net/contact.htm"><img alt="image placeholder" ></a></p>
 <p>某些网友们还是做了一些尝试：</p>
 <p><span id="more-3277"></span></p>
-<p style="text-align: center;"><img alt="image placeholder" >
-<p style="text-align: center;"><img alt="image placeholder" >
+<p style="text-align: center;"><img alt="image placeholder" ></p>
+<p style="text-align: center;"><img alt="image placeholder" ></p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-11-08T18:36:50+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3277.html</guid>
@@ -5724,9 +5467,6 @@ wstring result = cpptempl::parse(text, data) ;</pre>
 <p>你觉得怎么样？</p>
 </div>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-11-16T09:12:04+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3281.html</guid>
@@ -5738,7 +5478,7 @@ wstring result = cpptempl::parse(text, data) ;</pre>
 <content><![CDATA[ 
 <p>以前本站发布过<a rel="bookmark" href="https://coolshell.cn/articles/3100.html">编程语言进化</a>，<a rel="bookmark" href="https://coolshell.cn/articles/3097.html">Windows的达尔文进化图</a>，今天在网上看到版本管理器的进化图，转过来，源文链接如下：</p>
 <p><a href="https://codicesoftware.blogspot.com/2010/11/version-control-timeline.html" target="_blank">http://codicesoftware.blogspot.com/2010/11/version-control-timeline.html</a> (墙)</p>
-<p style="text-align: center;"><a href="https://coolshell.cn/wp-content/uploads/2010/11/scmhistory.png"><img alt="image placeholder" >
+<p style="text-align: center;"><a href="https://coolshell.cn/wp-content/uploads/2010/11/scmhistory.png"><img alt="image placeholder" ></a></p>
 <p>这张图上分成了四个时期：</p>
 <p><span id="more-3288"></span></p>
 <p><strong>史前时期</strong>：1982年的RCS。现在你可能还能在Unix的发布包中找到它。</p>
@@ -5754,7 +5494,6 @@ wstring result = cpptempl::parse(text, data) ;</pre>
 <p>Plastic在2006年出现，强力地支持branch和merge，其还提供了强大的图示，包括3D的版本树，Plastic主要是为了让中等开发团队使用，介于大型的团队（ClearCase）和小型的团队（Subversion）之间。</p>
 <p>Team Foundation Server (TFS)，微软的新一代SCM工具，主要是为了VSS的失败负责，但是他还不是版本管理上还是很强，只不过，他集成了一大堆各种各样的工具，比如：issue tracking，test management等。</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2010-11-17T08:50:48+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3288.html</guid>
@@ -5764,13 +5503,13 @@ wstring result = cpptempl::parse(text, data) ;</pre>
 <title><![CDATA[ Jeff Dean的Stanford演讲 ]]></title>
 <link>https://coolshell.cn/articles/3301.html</link>
 <content><![CDATA[ 
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >Google 公司的 <a href="http://research.google.com/people/jeff/" target="_blank"><strong>Jeff Dean</strong></a> 在Stanford大学做了一个非常 <a href="http://stanford-online.stanford.edu/courses/ee380/101110-ee380-300.asx" target="_blank"><strong>精彩的演讲</strong></a>（视频未墙）。我觉得我们每一个人都应该去看一看这个视频，当然，没有字幕，需要不错的听力，当然，我不可能全部翻译出来，因为我也不是完全能听懂，下面是一些相关的Notes，供你参夸，并欢迎牛人指证。</p>
 <ul>
 <li>比较了从1999年到2010年十年来的搜索量的变化。搜索量增加了 1000 倍，而搜索速度快了5 倍。1999年，一个网页的更新最多需要一个月到两个月，而今天，只需要几秒钟，足足加快了5w倍。</li>
 <li>一开始，这些大量的查询产生了大约30GB的I/O量。2004年，他们考虑过全部重写infrastructure。</li>
 <li>讨论了一些关于变量长度字节对齐的东西。</li>
 <li>今天的MapReduce 有400万个作业，处理将近1000PB的数据，130PB的中间数据，还有45PB的输出数据。（1PB =1024TB）关于 MapReduce （Google云计算的精髓） 的一些统计，见下图：</li>
-<li><img alt="image placeholder" >
+<li><img alt="image placeholder" ></li>
 </ul>
 <p><span id="more-3301"></span></p>
 <ul>
@@ -5781,7 +5520,7 @@ wstring result = cpptempl::parse(text, data) ;</pre>
 <ul>
 <li>一个大型的系统需要分解成N多的小services.（这和Amazon的很相似，一个页面的调用可能要经过几百个后台的services）</li>
 <li>代码的性能将会是想当的重要。Jeff给了一张叫“Numbers Everyone Should Know” 的slide，如下所示，我觉得太经典了，其中的东西，如果你看过我的那篇“<a href="https://coolshell.cn/articles/3236.html" target="_blank"><strong>给老婆普及计算机知识</strong></a>”，我想我不需要多解释了。（注：1 ns = 十亿分之一秒）</li>
-<li><img alt="image placeholder" >
+<li><img alt="image placeholder" ></li>
 <li>把相同的东西抽出来去建立一个系统，而不是把所有的事情交给所有的人。他说： “最后的那个功能可能会导致你怎么个系统超出了原有的复杂度”。</li>
 <li>不要无限制地设计可扩展性。5倍到50倍的扩展性设计足够了。如果你要达到100倍的，那应该是re-arch了。</li>
 <li>Jeff很喜欢有中心主结点的架构体系，他并不喜欢分布式系统。当然，中心主结点主要是用来做控制的，而不是做数据或是计算服务的。</li>
@@ -5792,9 +5531,6 @@ wstring result = cpptempl::parse(text, data) ;</pre>
 </ul>
 <p>这是一个非常不错的演讲，很让人开阔眼界。</p>
 <p>最后，我想说说英文，很多程序员都很不喜欢英文，哎……怎么说呢？如果你今天对英文还很害怕的话，这只能怪我们的教育制度的失败。但如果你以此为借口的话，那只能怪你自己了。没有英文的能力，你的技术和认知仅限于中文圈中，而中文圈中基本上都是产商的文化。有人说，“功夫网”让我们的internet成为了局域网，而我想说，让我们成为局域网的不是那个墙，而是我们自己的世界观和英文能力。</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-11-22T09:07:36+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3301.html</guid>
@@ -5814,9 +5550,6 @@ wstring result = cpptempl::parse(text, data) ;</pre>
 <p><a href="https://software.intel.com/en-us/articles/introduction-to-x64-assembly/" target="_blank">http://software.intel.com/en-us/articles/introduction-to-x64-assembly/</a></p>
 <p><strong>Database Fundamental</strong></p>
 <p><a href="https://www.ibm.com/developerworks/wikis/display/db2oncampus/FREE+ebook+-+Database+fundamentals">https://www.ibm.com/developerworks/wikis/display/db2oncampus/FREE+ebook+-+Database+fundamentals</a></p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-11-25T09:04:54+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3311.html</guid>
@@ -5836,10 +5569,7 @@ wstring result = cpptempl::parse(text, data) ;</pre>
 <li><a rel="nofollow" href="http://www.colorjack.com/sphere/" target="_blank">http://www.colorjack.com/sphere/</a></li>
 <li><a rel="nofollow" href="http://easyrgb.com/" target="_blank">http://easyrgb.com</a></li>
 </ul>
-<p><img alt="image placeholder" >
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
+<p><img alt="image placeholder" ></p>
  ]]></content>
 <pubDate>2010-11-25T10:44:56+08:00</pubDate>
 <guid>https://coolshell.cn/articles/3314.html</guid>

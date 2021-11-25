@@ -4,13 +4,13 @@
 <title>酷 壳 – CoolShell</title>
 <description>享受编程和技术所带来的快乐 – Coding Your Ambition</description>
 <link>https://coolshell.cn</link>
-<pubDate>2021-11-25T19:30:07+08:00</pubDate>
+<pubDate>2021-11-25T21:00:59+08:00</pubDate>
 <!-- other elements omitted from this example -->
 <item>
 <title><![CDATA[ 谈谈我的“三观” ]]></title>
 <link>https://coolshell.cn/articles/19085.html</link>
 <content><![CDATA[ 
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >也许是人到了四十多了，敢写这么大的命题，我也醉了，不过，我还是想把我的想法记录下来，算是对我思考的一个snapshot，给未来的我看看，要么被未来的我打脸，要么打未来我的脸。无论怎么样，我觉得对我自己都很有意义。注意，这篇文章是长篇大论。</p>
 <p>三观是世界观、人生观和价值观，</p>
 <ul>
 <li>
@@ -94,9 +94,6 @@ Small minds discuss people</strong></p></blockquote>
 <p> </p>
 <p>在我“不惑之年”形成了这些价值观体系，也许未来还会变，也许还不成熟，总之，我不愿跟大多数人一样，因为大多数人都是随遇而安随大流的，因为这样风险最小，而我想走一条属于自己的路，做真正的自己，就像我24岁从银行里出来时想的那样，<strong>我选择对了一个正确的专业（计算机科学），呆在了一个正确的年代（信息化革命），这样的“狗屎运”几百年不遇，如果我还患得患失，那我岂不辜负活在这样一个刺激的时代？！我所要做的就是在这个时代中做有价值的事就好了！这个时代真的是太好了！</strong></p>
 <p>(全文完)</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2019-02-26T16:02:07+08:00</pubDate>
 <guid>https://coolshell.cn/articles/19085.html</guid>
@@ -107,7 +104,7 @@ Small minds discuss people</strong></p></blockquote>
 <link>https://coolshell.cn/articles/19219.html</link>
 <content><![CDATA[ 
 <blockquote><p><strong>注：本文由<a href="https://github.com/rayjun" target="_blank" rel="noopener noreferrer">雷俊</a>(Javaer/Emacser)和我一起编辑，所以文章版权归雷俊与我共同所有，转载者必需注明出处和我们两位作者。原文最早发于酷壳微信公众号，后来我又做了一些修改，再发到博客这边。</strong></p></blockquote>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >程序员是一个很懒的群体，总想着能够让代码为自己干活，他们不断地把工作生活中的一些事情用代码自动化了，从而让整个社会的效率运作地越来越高。所以，程序员在准备去优化这个世界的时候，都会先要优化自己的工作环境，是所谓“工欲善其事，必先利其器”。</p>
 <p>我们每个程序员都应该打造一套让自己更为高效的工作环境。那怕就是让你少输入一次命令，少按一次键，少在鼠标和键盘间切换一次，都会让程序员的工作变得更为的高效。所以，程序员一般需要一台性能比较好，不会因为开了太多的网页或程序就卡得不行的电脑，还要配备多个显示器，一个显示器写代码，一个查文档，一个测试运行结果，而不必在各种窗口来来回回的切换……在大量的窗口间切换经常会迷路，而且也容易出错（分不清线上或测试环境）……</p>
 <p>除了硬件上的装备，软件上也是能够提升程序员生产力的地方，<strong>在软件层面提升程序员生产力的东西有一个很重要的事就是命令行和脚本</strong>，使用鼠标和图形界面则会大大降低程序员的生产力。酷壳以前也写过一些，如《<a href="https://coolshell.cn/articles/8619.html" target="_blank" rel="noopener noreferrer">你可能不知道的Shell</a>》和《 <a href="https://coolshell.cn/articles/8883.html" target="_blank" rel="noopener noreferrer">应该知道的Linux技巧</a>》，但是Unix/Linux Shell就是一个大宝库，怎么写也写不完，不然，怎么会有“Where is the Shell, there is a way”。</p>
 <p><span id="more-19219"></span></p>
@@ -347,7 +344,6 @@ gnudate() {
 </ul>
 <p>最后，如果你还有什么别的更好的玩的东西，欢迎在评论区留言，或是到 <a href="https://github.com/coolshellx/articles" target="_blank" rel="noopener noreferrer">coolshellx/ariticles @ github</a> 修改本文。</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2019-03-17T13:53:01+08:00</pubDate>
 <guid>https://coolshell.cn/articles/19219.html</guid>
@@ -357,7 +353,7 @@ gnudate() {
 <title><![CDATA[ “努力就会成功” ]]></title>
 <link>https://coolshell.cn/articles/19271.html</link>
 <content><![CDATA[ 
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" > 那一年，我加入了某知名公司的某知名部门，在办公室中，我看到了到处都挂着——“努力就会成功”的条幅，这个部门中大多数员工的邮件签名都会有“努力就会成功”，我感到一种热血沸腾的气氛，这是我在多年工作来都没有感受到的，当时挺高兴地能和这样一群人工作，也没多想。直到有一天，我看到这些高级的软件工程师们把自己关在又挤又吵的会议室中，拼命地加班，真是拼命，周一到周日，每天早上10点到凌晨3点甚至凌晨5点，连国庆节都来上班，就在这样的环境和状态下，连续干了三个多月……上线前，QA找到了1000多个bug（你没看错，就是一千多个），最后这个项目用了1年多的时间来返工，本来一个6-8个月的项目，团队被打了鸡血想在3个月内完成，最终却花了近两年的时间来返工……（要知道，我以前在外国公司工作，外国老板看到团队在长时间加班会感到焦虑的，因为加班通常代表着有不好的事情正在发生……）</p>
 <p>所以对此，我是有点看不懂的，看不懂的是，为什么这么一群聪明的人，放着明亮宽敞的办公桌不用，硬要挤在一个又窄又小又吵又热的小空间里工作，而且要这么透支地写那么重要的很关键的系统级的代码……这就好像，一架在一个小作坊里被人加班加点赶工出来的飞机，谁敢坐啊？！老实说，这群工程师真是很优秀的工程师，他们完全是可以做得更好的……但是却做出了如此蹩脚和糟糕的系统……他们说，这样坐在一起可以做到快速沟通，然而，我觉得这恰恰是一种没有章法的表现。</p>
 <p>也是在这家公司，在这个项目烂尾一年前，公司感到了危机，CEO号召全体996，举全公司之力从董事长到下面基层员工对抗外部所谓的威胁，有的部门为了表现，甚至997，然而，在一年后，做出了一个烂得不能再烂的软件，最终以失败告终，很多人包括CEO也因此下课……</p>
 <p><span id="more-19271"></span></p>
@@ -376,12 +372,11 @@ gnudate() {
 <h4>Work Smart</h4>
 <p>2015年因为父亲病危要动手术，所以我不能工作在家照顾父亲。于是我就成为了一个自由职业者，帮很多公司解决一些技术问题，好多都是高并发和系统稳定性的问题，有一些是分布式架构的运维的问题，还有一些是工程管理和企业文化问题……有一些小公司的单体架构在业务上一推广就宕机了，于是把我叫过去，我在生产线上直接re-arch，用一些非常规的手段，1-2天就把性能救过来了…… 还有就是解决一些点状的技术问题，还帮用户做一些design/code review……，有70%工作是真正的按劳取酬，也就是先把问题解决了再谈要收多少钱，<strong>那段时间我出卖的不是我的劳动力，而是我的技能，所以，反而比打工挣得多多了，而且还比较轻闲</strong>……</p>
 <p>有时候，我还调侃到，你在大公司里一天写上万行代码，拼命地加班，你信不信，我只用写几百行代码就挣得比你多？<strong>同样是一个简单的 for-loop 语句，有人写的就值1万元一行，而你写的则一文不值。关键不在于谁写的代码多，关键在于我们解决了什么样的问题</strong>。你千万不要以为只要付你足够的钱，你就可以996，让你干什么都可以，然而当你自己把自己当成劳动力的时候，你也就只是一个像牲口一样的行事了！</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p><strong>这就好像算法一样，你那个O(n^2)的递归穷举算法，再怎么样也干不过我的O(n)的动态规划的算法。</strong></p>
 <p>现在我拿了投资在创业，一开始帮助各大企业建高并发高可用云化架构的公司，现在还给企业提供金融和营销能力，我跟客户谈业务的时候，基本不是因为我有多加班多努力地做方案，而是我能一针见血地指出用户的问题，帮用户解决问题。我在很多地方都见到阿里、蚂蚁、华为、HP……，一个小创业公司跟他们竞争真的很难，但我知道，要能竞争过这些大公司，这根本就不是能够通过加班996或是拼命努力就能搞定的，我必需要使用更好的方式，所以，除了更好地站在用户的立场，能够给用户制定更符合用户的技术方案之外，我必需做到我的技术方案不比这些大公司的差，而这一点，完全不是加班、努力或是勤奋能出来的，这是需要靠自己的经验、学习能力、归纳思考、和与更多牛人交流才出的来的……当我给某银行CIO介绍完我的分布式系统的方案后，CIO给我微微鞠躬说：“过去一两年，我听过几乎所有国内外产商跟我讲的分布式的方案，你的是我听过的最好的方案！谢谢你！”，当我给某省电信行业公司讲了一下DevOps的方案后，老总对我说：“你们真的是做事的人！”，当用户来问我：“你们的API网关是怎么写的？为什么运行的这么稳定？”……这些话都是让我很心里很暖的话……<strong>当然，我也有被骂的时候，也有失败的时候，但基本上来说，我无法通过努力工作改善我思维的不足……</strong></p>
 <p><strong>我们学计算机当程序员最大的福气不是可以到大公司里加班和996，而是我们生活在了第三次工业革命的信息化时代，这才是最大的福气，所以，我们应该努力地提升自己，而不是把自己当劳动力一样的卖了！在这样的一个时代，你要做的不是通过加班和拼命来跪着挣钱，而是通过技能来躺着挣钱……</strong></p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2019-04-17T09:12:27+08:00</pubDate>
 <guid>https://coolshell.cn/articles/19271.html</guid>
@@ -391,7 +386,7 @@ gnudate() {
 <title><![CDATA[ StackOverflow 2019 程序员调查 ]]></title>
 <link>https://coolshell.cn/articles/19307.html</link>
 <content><![CDATA[ 
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >前些天，StackOverflow 发布了 <a href="https://insights.stackoverflow.com/survey/2019" target="_blank" rel="noopener noreferrer">2019年的年度程序员调查</a>，这个调查报查有90000名程序员参与，这份调度报告平均花了20分钟，可见，这份报告有很多的问题，也是很详细的。这份报告有一些地方，让我有了一些思考。</p>
 <p>首先，我们先来看一下之份报告的 Key Results：</p>
 <ul>
 <li>Python 成为了过去一年中成长最快的语言，把Java挤到了第二位，排在后面的是Rust语言。</li>
@@ -404,9 +399,9 @@ gnudate() {
 <p><span id="more-19307"></span></p>
 <h4 id="toc_1">第一部分，Developer Profile</h4>
 <p>在第一部分中，我们可以看到，中国程序员参与这个调查的并不多，程序员主要集中在美国、欧洲、印度这三个地方。所以，这份报告更偏国际上一些。这对于我们中国程序员也有很大的帮助，因为一方面可以看到世界发展的趋势，另一方面也可以了解我们和世界有什么不一样。</p>
-<p>对于技术职业来说，整个世界的程序员开始趋于全栈和后端，有51.9%的人是全栈，50%的人是后端，32.8%的人是前端……在这些人中，很多程序员都选了多项，中位数是3项，最常见是前端、后端和全栈全选的。然后，接下来是选两项的，选两项目的包括：数据库管理员和系统管理员，DevOps Specialist 和 Site Reliablility Engineer， 学术研究者和科学家，设计师和前端工程师。<img alt="image placeholder" >
+<p>对于技术职业来说，整个世界的程序员开始趋于全栈和后端，有51.9%的人是全栈，50%的人是后端，32.8%的人是前端……在这些人中，很多程序员都选了多项，中位数是3项，最常见是前端、后端和全栈全选的。然后，接下来是选两项的，选两项目的包括：数据库管理员和系统管理员，DevOps Specialist 和 Site Reliablility Engineer， 学术研究者和科学家，设计师和前端工程师。<img alt="image placeholder" ></p>
 <p>从这些数据中我们可以看见：<strong>前后端的界限越来越不明显，设计师和前端的界限也开始模糊。这应该说明，工具和框架的成熟，让后端程序员和设计师也可以进入到前端工程师的领域，或是前端工程师开始进入后端和设计的领域</strong>。总之，复合型人才越来越越成为主流，而前后端也趋于一个相互融合的态势。</p>
-<p>在接下来的图表中，我们可以看到有80%以上的人是把编程当成自己的爱好（包括相关的女性）。<img alt="image placeholder" >
+<p>在接下来的图表中，我们可以看到有80%以上的人是把编程当成自己的爱好（包括相关的女性）。<img alt="image placeholder" ></p>
 <p>真是应了那句话——“Programmers who don’t code in their spare time for fun will never become as good as those that do”，是的，如果你对编程没有感到一种快乐，没有在你空闲的时候去以一种的兴趣爱好方式去面对，那么，无论是编程，还是运动，还是去旅游，都不会有太多成效的。</p>
 <p>在接下来的编程经验上，有两组如下的数据：</p>
 <table>
@@ -418,14 +413,14 @@ gnudate() {
 </thead>
 <tbody>
 <tr>
-<td><img alt="image placeholder" >
-<td><img alt="image placeholder" >
+<td><img alt="image placeholder" ></td>
+<td><img alt="image placeholder" ></td>
 </tr>
 </tbody>
 </table>
 <p>我们可以看到无论是学习还是编程，随着时间的拉长，其人数占比越来越少。</p>
 <p>下面我们再来看一个年龄图：</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>调查报告从20岁开始每隔5年划分一个年龄段，我们不难发现从25-29岁开始每个年龄段都比前一个年龄段人数急剧减少大约30-50%，比如25-29年龄段占总人数27.6%，而30-34则只有19.3%。以此类推，到60岁以上，就只剩1%。可以看出5年是大多数程序员的转型周期。这是合理的，因为5年时间足够一个人积累足够的经验技能为职业转型做准备。</p>
 <p>我们也可以看到50岁以上的程序员只有4.2%，大约是参与调查人员的300多人，如果这些人20岁左右参加工作，那么说明他们在1990左右就开始写代码，事实上那个时间点别说是程序员了，连电脑用户都不多。<strong>电脑和互联网真正暴发的时间还是在1995年 – 2000年之间，不过，那个时间点程序员的总体人数也不多，而行业越来越火才会导致大量的人进入到这个行业中，这个转换过程基本上去需要3-5年，也就是从2000年后才开始有大量的人拥入程序员这个行业，程序员的人数在过去30年间也是呈增涨态势的，所以，我个人认为，所谓的“众多老程序员”的比例会被2005年以后大量拥入程序员行业的年青人所“稀释”。所以，上图的比例不能完全说明程序员是个青春饭</strong>。</p>
 <p>但是，我们还是要正视老牌资深的程序员越来越少的这个事实，在这份报告第三部分中说了一些和程序员职业生涯相关的调查，如下：</p>
@@ -460,8 +455,8 @@ gnudate() {
 </thead>
 <tbody>
 <tr>
-<td><img alt="image placeholder" >
-<td><img alt="image placeholder" >
+<td><img alt="image placeholder" ></td>
+<td><img alt="image placeholder" ></td>
 </tr>
 </tbody>
 </table>
@@ -490,7 +485,7 @@ gnudate() {
 </ul>
 <p><strong>看样子编程开发工具还是Visual Studio 和 IntelliJ的天下，MacOS/Linux正在抢Windows的开发市场</strong></p>
 <p>接下来，StackOverflow给了一个技术圈的图</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>从上面这个图中，我们可以看以技术的几圈子：</p>
 <ul>
 <li>
@@ -520,10 +515,9 @@ gnudate() {
 </ul>
 <p><strong>从工作中我们可以看到，程序员还是比较关心技术和公司文化的，换工作也是这个职业很正常的特性，他们并不喜欢被打扰，希望有足够的时间，而对于工程质量还是很有追求的。</strong></p>
 <p>最后用一张程序员的“<strong>每周工作时间</strong>” 来结束本文！</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>祝大家快乐！</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2019-04-21T12:29:13+08:00</pubDate>
 <guid>https://coolshell.cn/articles/19307.html</guid>
@@ -533,7 +527,7 @@ gnudate() {
 <title><![CDATA[ HTTP API 认证授权术 ]]></title>
 <link>https://coolshell.cn/articles/19395.html</link>
 <content><![CDATA[ 
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >我们知道，HTTP是无状态的，所以，当我们需要获得用户是否在登录的状态时，我们需要检查用户的登录状态，一般来说，用户的登录成功后，服务器会发一个登录凭证（又被叫作Token），就像你去访问某个公司，在前台被认证过合法后，这个公司的前台会给你的一个访客卡一样，之后，你在这个公司内去到哪都用这个访客卡来开门，而不再校验你是哪一个人。在计算机的世界里，这个登录凭证的相关数据会放在两种地方，一个地方在用户端，以Cookie的方式（一般不会放在浏览器的Local Storage，因为这很容易出现登录凭证被XSS攻击），另一个地方是放在服务器端，又叫Session的方式（SessonID存于Cookie）。</p>
 <p>但是，这个世界还是比较复杂的，除了用户访问，还有用户委托的第三方的应用，还有企业和企业间的调用，这里，我想把业内常用的一些 API认证技术相对系统地总结归纳一下，这样可以让大家更为全面的了解这些技术。<strong>注意，这是一篇长文！</strong></p>
 <p>本篇文章会覆盖如下技术：</p>
 <ul>
@@ -625,7 +619,7 @@ Authorization: Digest username="Mufasa",
 </h4>
 <p>先说HMAC技术，这个东西来自于MAC – <a href="https://en.wikipedia.org/wiki/Message_authentication_code" target="_blank" rel="noopener noreferrer">Message Authentication Code</a>，是一种用于给消息签名的技术，也就是说，我们怕消息在传递的过程中被人修改，所以，我们需要用对消息进行一个MAC算法，得到一个摘要字串，然后，接收方得到消息后，进行同样的计算，然后比较这个MAC字符串，如果一致，则表明没有被修改过（整个过程参看下图）。而HMAC – <a href="https://en.wikipedia.org/wiki/HMAC" target="_blank" rel="noopener noreferrer">Hash-based Authenticsation Code</a>，指的是利用Hash技术完成这一工作，比如：SHA-256算法。</p>
 <p> </p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p style="text-align: center;">（图片来自 <a href="https://en.wikipedia.org/wiki/Message_authentication_code" target="_blank" rel="noopener noreferrer">Wikipedia – MAC 词条</a> ）</p>
 <p>我们再来说App ID，这个东西跟验证没有关系，只是用来区分，是谁来调用API的，就像我们每个人的身份证一样，只是用来标注不同的人，不是用来做身份认证的。与前面的不同之处是，这里，我们需要用App ID 来映射一个用于加密的密钥，这样一来，我们就可以在服务器端进行相关的管理，我们可以生成若干个密钥对（AppID, AppSecret），并可以有更细粒度的操作权限管理。</p>
 <p>把AppID和HMAC用于API认证，目前来说，玩得最好最专业的应该是AWS了，我们可以通过<a href="https://docs.aws.amazon.com/zh_cn/general/latest/gr/sigv4-create-canonical-request.html" target="_blank" rel="noopener noreferrer">S3的API请求签名文档</a>看到AWS是怎么玩的。整个过程还是非常复杂的，可以通过下面的图片流程看个大概。基本上来说，分成如下几个步骤：</p>
@@ -635,7 +629,7 @@ Authorization: Digest username="Mufasa",
 <li>准备签名，用 <code>AWSSecretAccessKey</code>来对日期签一个 <code>DataKey</code>，再用 <code>DataKey</code> 对要操作的Region签一个 <code>DataRegionKey</code> ，再对相关的服务签一个<code>DataRegionServiceKey</code> ，最后得到 <code>SigningKey</code>.</li>
 <li>用第三步的 <code>SigningKey</code>来对第二步的 <code>StringToSign</code> 签名。</li>
 </ol>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p> </p>
 <p>最后，发出HTTP Request时，在HTTP头的 <code>Authorization</code>字段中放入如下的信息：</p>
 <pre class="programlisting" style="padding-left: 40px;">Authorization: AWS4-HMAC-SHA256 
@@ -706,7 +700,7 @@ Authorization: Digest username="Mufasa",
 <li>最后使用Access Token 访问用户授权访问的资源。</li>
 </ol>
 <p>下图附上一个Yahoo!的流程图可以看到整个过程的相关细节。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>因为上面这个流程有三方：User，Consumer 和 Service Provide，所以，又叫 3-legged flow，三脚流程。OAuth 1.0 也有不需要用户参与的，只有Consumer 和 Service Provider 的， 也就是 2-legged flow 两脚流程，其中省掉了用户认证的事。整个过程如下所示：</p>
 <ol>
 <li>Consumer（第三方照片打印服务）需要先上Service Provider获得开发的 Consumer Key 和 Consumer Secret</li>
@@ -738,7 +732,7 @@ Authorization: Digest username="Mufasa",
 </li>
 </ul>
 <p>下图是整个签名的示意图：</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>图片还是比较直观的，我就不多解释了。</p>
 <h4>
 <span class="ez-toc-section" id="OAuth_20"></span>OAuth 2.0<span class="ez-toc-section-end"></span>
@@ -755,7 +749,7 @@ Authorization: Digest username="Mufasa",
 <span class="ez-toc-section" id="Authorization_Code_Flow"></span><strong>Authorization Code Flow</strong><span class="ez-toc-section-end"></span>
 </h5>
 <p>Authorization Code 是最常使用的OAuth 2.0的授权许可类型，它适用于用户给第三方应用授权访问自己信息的场景。这个Flow也是OAuth 2.0四个Flow中我个人觉得最完整的一个Flow，其流程图如下所示。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p> </p>
 <p>下面是对这个流程的一个细节上的解释：</p>
 <p>1）当用户（Resource Owner）访问第三方应用（Client）的时候，第三方应用会把用户带到认证服务器（Authorization Server）上去，主要请求的是 <code>/authorize</code> API，其中的请求方式如下所示。</p>
@@ -838,7 +832,7 @@ Authorization: Bearer iJKV1QiLCJhbGciOiJSUzI1NiI</pre>
 <span class="ez-toc-section" id="_Client_Credential_Flow"></span> Client Credential Flow<span class="ez-toc-section-end"></span>
 </h5>
 <p>Client Credential 是一个简化版的API认证，主要是用于认证服务器到服务器的调用，也就是没有用户参与的的认证流程。下面是相关的流程图。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>这个过程非常简单，本质上就是Client用自己的 <code>client_id</code>和 <code>client_secret</code>向Authorization Server 要一个 Access Token，然后使用Access Token访问相关的资源。</p>
 <p>请求示例</p>
 <pre style="padding-left: 40px;">POST /token HTTP/1.1
@@ -857,7 +851,7 @@ grant_type=client_credentials
   "scope":"create"
 }</pre>
 <p>这里，容我多扯一句，微信公从平台的开发文档中，使用了OAuth 2.0 的 Client Credentials的方式（参看文档“<a href="https://mp.weixin.qq.com/wiki?t=resource/res_main&amp;id=mp1421140183" target="_blank" rel="noopener noreferrer">微信公众号获取access token</a>”），我截了个图如下所谓。我们可以看到，<strong>微信公众号使用的是GET方式的请求，把AppID和AppSecret放在了URL中，虽然这也符合OAuth 2.0，但是并不好，因为大多数网关代理会把整个URI请求记到日志中。我们只要脑补一下腾讯的网关的Access Log，里面的日志一定会有很多的各个用户的AppID和AppSecret……</strong></p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p> </p>
 <h4>
 <span class="ez-toc-section" id="%E5%B0%8F%E7%BB%93"></span>小结<span class="ez-toc-section-end"></span>
@@ -894,9 +888,6 @@ grant_type=client_credentials
 <li>认证授权服务器（Authorization Server）和应用服务器（App Server）最好分开。</li>
 </ul>
 <p>(全文完)</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2019-05-09T21:37:29+08:00</pubDate>
 <guid>https://coolshell.cn/articles/19395.html</guid>
@@ -906,7 +897,7 @@ grant_type=client_credentials
 <title><![CDATA[ 如何超过大多数人 ]]></title>
 <link>https://coolshell.cn/articles/19464.html</link>
 <content><![CDATA[ 
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >当你看到这篇文章的标题，你一定对这篇文章产生了巨大的兴趣，因为你的潜意识在告诉你，这是一本人生的“武林秘籍”，而且还是左耳朵写的，一定有干货满满，只要读完，一定可以练就神功并找到超过大多数人的快车道和捷径……然而…… 当你看到我这样开篇时，你一定会觉得我马上就要有个转折，告诉你这是不可能的，一切都需要付出和努力……然而，你错了，这篇文章还真就是一篇“秘籍”，只要你把这些“秘籍”用起来，你就一定可以超过大多数人。而且，这篇文章只有我这个“人生导师”可以写得好。毕竟，我的生命过到了十六进制2B的年纪，踏入这个社会已超过20年，舍我其谁呢？！</p>
 <p>P.S. 这篇文章借鉴于《<a href="https://coolshell.cn/articles/4758.html" target="_blank" rel="noopener noreferrer">如何写出无法维护的代码</a>》一文的风格……嘿嘿</p>
 <div id="ez-toc-container" class="ez-toc-v2_0_17 counter-hierarchy counter-decimal ez-toc-grey">
 <div class="ez-toc-title-container">
@@ -1008,7 +999,6 @@ grant_type=client_credentials
 <p>4）<strong>勤奋努力执着坚持</strong>。如果上面三件事你都没有也没有能力，那还有最后一件事了，那就是勤奋努力了，就是所谓的“一万小时定律”了（参看《<a href="https://coolshell.cn/articles/2250.html" target="_blank" rel="noopener noreferrer">21天教你学会C++</a>》中的十年学编程一节），我见过很多不聪明的人，悟性也不够（比如我就是一个），别人学一个东西，一个月就好了，而我需要1年甚至更长，但是很多东西都是死的，只要肯花时间就有一天你会搞懂的，耐不住我坚持十年二十年，聪明的人发明个飞机飞过去了，笨一点的人愚公移山也过得去，因为更多的人是懒人，我不用拼过聪明人，我只用拼过那些懒人就好了。</p>
 <p>好了，就这么多，如果哪天你变得消极和不自信，你要来读读我的这篇文章，子曰：温故而知新。</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2019-06-22T13:47:57+08:00</pubDate>
 <guid>https://coolshell.cn/articles/19464.html</guid>
@@ -1019,35 +1009,34 @@ grant_type=client_credentials
 <link>https://coolshell.cn/articles/19612.html</link>
 <content><![CDATA[ 
 <p>2019年7月20日，是有纪念意义的一天，这天不是因为广大网民帮周杰伦在新浪微博上的超话刷到第一，而是阿波罗登月的50周年的纪念日。早在几年前，在Github上放出了当年Apollo飞船使用的源代码（当然是汇编的），但完全不明白为什么这几天会有一些中国的小朋友到这个github的issue里灌水……，人类历史上这么伟大的一件事，为什么不借这个机会学习一下呢？下面是一些阿波罗登月与程序员相关的小故事，顺着这些东西，你可以把你的周末和精力用得更有价值。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>首先，要说的是Apollo 11导航的源代码，这些代码的设计负责人叫<a href="https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)" target="_blank" rel="noopener noreferrer">Margaret Heafield Hamilton </a>，是一个女程序员，专业是数学和哲学，1960年得到一个MIT麻省理工大学的临时的软件开发职位，负责在PDP-1和LGP-30上运行天气预报的软件（注：在计算机历史上，PDP系统机器被称为Hack文化的重要推手，PDP-11推了Unix操作系统，而Unix操作系统则是黑客文化的重要产品。参看《<a href="https://coolshell.cn/articles/2322.html" target="_blank" rel="noopener noreferrer">Unix传奇</a>》）。然后，她又为美国空军编写探测知敌方飞行的软件，之后，于1965年的时候，她加入了MIT仪器实验室，并成为了这个实验室的主管，这个实验实就是Apollo计划的一部分，她负责编写全新的月球登录的导航软件，以及后来该软件在其他项目中的各个版本。</p>
 <p><span id="more-19612"></span></p>
 <p>上图是Hamilton站在她和她的麻省理工团队为阿波罗项目制作的导航软件源代码旁边，在Github上的开源的代码 – <a href="https://github.com/chrislgarry/Apollo-11" target="_blank" rel="noopener noreferrer">Apollo-11</a> （2016年开源）。我们可以看到，有两个重要的目录，一个目录叫“Comanche055”，一个目录叫“Luminary099”，前者是指挥舱用的（英文为 <a href="https://en.wikipedia.org/wiki/Apollo_command_and_service_module#Command_Module_(CM)" target="_blank" rel="noopener noreferrer">Command Module</a> ）后者为登月舱用的（英文为 <a href="https://en.wikipedia.org/wiki/Apollo_Lunar_Module" target="_blank" rel="noopener noreferrer">Lunar Module</a>），这里需要说明一下的是，指挥舱是把登录舱推到月球上，在返回的时候，登录舱是被抛弃掉的，而返回到地球的是指挥舱。如果你想看这两份源代码的纸版，你可以访问这两个链接：<a href="https://archive.org/details/Comanche55J2k60" target="_blank" rel="noopener noreferrer">Comanche 55 AGC Program Listing</a> 和 <a href="https://archive.org/details/Luminary99001J2k60" target="_blank" rel="noopener noreferrer">Luminary 99 REv.1 AGC Program Listing</a>。其中的55 和 90 是各自的build 版本号。</p>
 <p>我们细看一下，这些文件的日期是，1969年7月14日，而Apollo 11登月的日期是1969年7月16日起程，7月19日经过月球背面，7月20日下午8点登月。代码写好，两天后就直接上生产，然后就登月，还是导航代码，这代码写的的健壮性得有多强。</p>
 <p>如果你仔细比较一下这两个目录中的文件，你会发现有些文件是一样的，不但文件名一样，而且内容也一样。这说明这两个模块中的一些东西是相似的。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>这些代码应该是很难读了，因为当时写这些代码的时候，C语言都没有被发明，所以基本上来说都是汇编代码了，而且还可以发现，这些代码的源文件全是以agc后缀结尾的， 看来这还不是我们平时所了解的汇编，所谓的AGC代表了运行这些代码的计算机 –<a href="https://en.wikipedia.org/wiki/Apollo_Guidance_Computer" target="_blank" rel="noopener noreferrer"> Apollo Guideance Computer</a> 。沿着这个Wikipedia的链接，你可以看到AGC这个电脑的指令是什么样的，看懂那几条指令后，这些源代码也就能读懂了。当然，因为是写成汇编的，所以，读起来还是要费点神的。不过，其中有一个文件是 <code><a href="https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/LUNAR_LANDING_GUIDANCE_EQUATIONS.agc" target="_blank" rel="noopener noreferrer">LUNAR_LANDING_GUIDANCE_EQUATIONS.agc</a></code> 你会不会很好奇想去看看？</p>
 <p>打开源文件，你还可以看到每个文件都有很多很多的注释，非常友好，但是也有一些注释比较有趣。这里有一组短视频带你读这些代码 – <a href="https://www.pluralsight.com/courses/moon-landing-apollo-11" target="_blank" rel="noopener noreferrer">Exploring the Apollo Guidance Computer(AGC) Code</a>，一供10个小视频，每个2分钟左右，如果你英文听边还行（我觉得很容易听懂），可以看看，了解一下AGC的工作方式，挺有趣意思的。</p>
 <p>当时的AGC有32公斤，主频只有2MHz，2K的RAM，36K的ROM。嗯，当年就是这么一个小玩意，把人送上了月球，今天，一个聊天程序就占内存几GB……</p>
 <p>下面是AGC在Apollo 1指挥舱里的样子（图片截自上面的视频），这个高质量的3D扫描来自<a href="https://www.3d.si.edu/explorer/apollo-11-command-module" target="_blank" rel="noopener noreferrer"> Simithsonian 3D: Apollo 11 Command Module</a> （我觉得美国人干这些事干就是很漂亮啊，这种高清的3D扫描太牛了，如果你仔细看，这个舱里还有宇航员在舱壁上的手写）</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>这个AGC的操作界面又叫DSKY – Display 和 Keyboard的缩写，下图是一个 AGC 模拟器，其官方主页在 <a href="https://www.ibiblio.org/apollo/" target="_blank" rel="noopener noreferrer">https://www.ibiblio.org/apollo/</a>源代码在 <a href="https://github.com/virtualagc/virtualagc" target="_blank" rel="noopener noreferrer">Github/VirtualAGC</a>。在这个界面上我们可以看到：下面的键盘上左边有两个键，一个是动词Verb一个是名词Noun，Verb指定操作类型，Noun指定要由Verb命令修改的数据。右边的显示器下面有三个5位的数字，这三个数值显示表示航天器姿态的矢量，以及所需速度变化的显示矢量。是的，当年的导航就靠这三个数字和里面的程序了。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p> </p>
 <p>如果你想了解AGC更多的细节，你可以看看 这篇 <a href="http://www.ibiblio.org/apollo/ForDummies.html" target="_blank" rel="noopener noreferrer">AGC for Dummies</a>。这篇文章讲述了AGC这个嵌入式系统的背景和操作指令。一份详细的<a href="http://www.ibiblio.org/apollo/assembly_language_manual.html" target="_blank" rel="noopener noreferrer">AGC 汇编语言手册</a>可以让你了解更多的细节。</p>
 <p>另外，我在Youtube上找到了一个讲当时Apollo电脑的纪录片 – <a href="https://www.youtube.com/watch?v=9YA7X5we8ng" target="_blank" rel="noopener noreferrer">Navigation Computer</a>，太有趣了。比如：21分51秒开始讲存储用的 <a href="https://en.wikipedia.org/wiki/Core_rope_memory" target="_blank" rel="noopener noreferrer">Rope Memory</a> 绕线内存，Hamilton 也出来讲了一下在这种内存上编程，画面切到一个人用个比较长的金属针在一个像主板一样的东西上，左右穿梭，就像刺绣一样，但是绣的不是图案，而是程序……太硬核了，真正的通过“硬编织”的方式来写程序。</p>
-<p><a href="https://www.youtube.com/watch?v=9YA7X5we8ng" target="_blank" rel="noopener noreferrer"><img alt="image placeholder" >
+<p><a href="https://www.youtube.com/watch?v=9YA7X5we8ng" target="_blank" rel="noopener noreferrer"><img alt="image placeholder" ></a></p>
 <p>看完上面这个纪录篇，我是非常之惊叹，惊叹于50年前的工程能力，惊叹于50年前这些人面对技术的的一丝不苟，对技术的尊重和严谨的这种精神和方法，一点都不比较今天差。</p>
 <p>不过，最牛的还不是这个，我在Hamilton的Wikipedia词条上找到了他说的一个事件—— 当年Apollo登陆雷达开关放在了错误的位置，导致AGC收到了不少错误的信号。结果就是AGC既得执行着陆必须的计算，又要接受这些占用其15%时间的额外数据。但是AGC的程序居然可以用高优先级的任务打断低优先级的任务，于是，AGC自动剔除了低级别的任务以保证了重要的任务完成。Hamilton 原话说—— 如果当时的程序不能识别错误并从错误中恢复，我怀疑阿波罗不能成功登月。if the computer hadn’t recognized this problem and taken recovery action, I doubt if Apollo 11 would have been the successful moon landing it was。</p>
 <p>看到这里，你有没有觉得——“这个女程序员的一小步，是整个人类的一大步”？</p>
 <p>Hamilton 的牛逼之外还在于，她是第一个将“软件工程”提出来的人，在MIT，她想让软件开发就像其它工程一样，有相应的工程纪律，给于相关的尊重，于是她创造了Software Engineering这个词。2018年，<a href="https://www.computer.org/csdl/magazine/so/2018/05" target="_blank" rel="noopener noreferrer">IEEE在纪念软件工程50周年</a>的时候，他们把 Hamilton 请过去讲了一个叫 <a href="https://ieeexplore.ieee.org/document/8409915" target="_blank" rel="noopener noreferrer">What the Errors Tell Us</a> 的主题。她绝对可以称得上是程序员的Pioneer。</p>
 <p>三年前，Apollo的源代码被开源时候，Twitter有个叫 Lin Clark 的人发了一条推：“我妈50年前的代码被放到Github上了”，虽然，她不是 Hamilton 的女儿，但她妈妈也是Apollo其中一个程序员，现在Lin Clark同样也是一个程序员，目前在 Mozilla工作，Staff Engineer，专长 <span class="lt-line-clamp__line">WebAssembly, Rust, 和 JavaScript</span> ，也是个非常厉害的程序，Youtube上各种演讲，也是一个跟他妈妈一样牛的人。</p>
 <p>当她在Twitter上这么自豪地发了一条这样的推后，我不知道各位有什么想法？想不想你的后代在未来也会这样自豪的发条微博？<br>
-<img alt="image placeholder" >
+<img alt="image placeholder" ></p>
 <p> </p>
 <p>最后，尤其是想对那些到Apollo源代码的issue里发spam垃圾信息的人说一下，你看看人家，再看看你们自己，你们是不是想让你们的孩子在登月100周年纪念的时候说——50年前我爹那个傻叉在Apollo的github的issue列表时写了些垃圾，还以为自己多机灵？！</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2019-07-21T19:00:30+08:00</pubDate>
 <guid>https://coolshell.cn/articles/19612.html</guid>
@@ -1057,7 +1046,7 @@ grant_type=client_credentials
 <title><![CDATA[ HTTP的前世今生 ]]></title>
 <link>https://coolshell.cn/articles/19840.html</link>
 <content><![CDATA[ 
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >HTTP (Hypertext transfer protocol) 翻译成中文是超文本传输协议，是互联网上重要的一个协议，由欧洲核子研究委员会CERN的英国工程师 <a title="" href="https://en.wikipedia.org/wiki/Tim_Berners-Lee">Tim Berners-Lee</a> v发明的，同时，他也是WWW的发明人，最初的主要是用于传递通过HTML封装过的数据。在1991年发布了HTTP 0.9版，在1996年发布1.0版，1997年是1.1版，1.1版也是到今天为止传输最广泛的版本（初始<a class="external text" href="https://tools.ietf.org/html/rfc2068" rel="nofollow">RFC 2068</a> 在1997年发布， 然后在1999年被 <a class="external text" href="https://tools.ietf.org/html/rfc2616" rel="nofollow">RFC 2616</a> 取代，再在2014年被 <a class="external text" href="https://tools.ietf.org/html/rfc7230" rel="nofollow">RFC 7230</a> /<a class="external text" href="https://tools.ietf.org/html/rfc7231" rel="nofollow">7231</a>/<a class="external text" href="https://tools.ietf.org/html/rfc7232" rel="nofollow">7232</a>/<a class="external text" href="https://tools.ietf.org/html/rfc7233" rel="nofollow">7233</a>/<a class="external text" href="https://tools.ietf.org/html/rfc7234" rel="nofollow">7234</a>/<a class="external text" href="https://tools.ietf.org/html/rfc7235" rel="nofollow">7235</a>取代），2015年发布了2.0版，其极大的优化了HTTP/1.1的性能和安全性，而2018年发布的3.0版，继续优化HTTP/2，激进地使用UDP取代TCP协议，目前，HTTP/3 在2019年9月26日 被 Chrome，Firefox，和Cloudflare支持，所以我想写下这篇文章，简单地说一下HTTP的前世今生，让大家学到一些知识，并希望可以在推动一下HTTP标准协议的发展。</p>
 <div id="ez-toc-container" class="ez-toc-v2_0_17 counter-hierarchy counter-decimal ez-toc-grey">
 <div class="ez-toc-title-container">
 <p class="ez-toc-title">目录</p>
@@ -1138,7 +1127,7 @@ grant_type=client_credentials
 </h4>
 <p>然而，这个世界没有完美的解决方案，HTTP/2也不例外，其主要的问题是：若干个HTTP的请求在复用一个TCP的连接，底层的TCP协议是不知道上层有多少个HTTP的请求的，所以，一旦发生丢包，造成的问题就是所有的HTTP请求都必需等待这个丢了的包被重传回来，哪怕丢的那个包不是我这个HTTP请求的。因为TCP底层是没有这个知识了。</p>
 <p>这个问题又叫<a href="https://en.wikipedia.org/wiki/Head-of-line_blocking" target="_blank" rel="noopener noreferrer">Head-of-Line Blocking</a>问题，这也是一个比较经典的流量调度的问题。这个问题最早主要的发生的交换机上。下图来自Wikipedia。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>图中，左边的是输入队列，其中的1，2，3，4表示四个队列，四个队列中的1，2，3，4要去的右边的output的端口号。此时，第一个队列和第三个队列都要写右边的第四个端口，然后，一个时刻只能处理一个包，所以，一个队列只能在那等另一个队列写完后。然后，其此时的3号或1号端口是空闲的，而队列中的要去1和3号端号的数据，被第四号端口给block住了。这就是所谓的HOL blocking问题。</p>
 <p>HTTP/1.1中的pipeline中如果有一个请求block了，那么队列后请求也统统被block住了；HTTP/2 多请求复用一个TCP连接，一旦发生丢包，就会block住所有的HTTP请求。这样的问题很讨厌。好像基本无解了。</p>
 <p>是的TCP是无解了，但是UDP是有解的 ！<strong>于是HTTP/3破天荒地把HTTP底层的TCP协议改成了UDP！</strong></p>
@@ -1151,8 +1140,8 @@ grant_type=client_credentials
 <table>
 <tbody>
 <tr>
-<td><img alt="image placeholder" >
-<td><img alt="image placeholder" >
+<td><img alt="image placeholder" ></td>
+<td><img alt="image placeholder" ></td>
 </tr>
 </tbody>
 </table>
@@ -1169,9 +1158,6 @@ grant_type=client_credentials
 <p>目前看下来，HTTP/3目前看上去没有太多的协议业务逻辑上的东西，更多是HTTP/2 + QUIC协议。但，HTTP/3 因为动到了底层协议，所以，在普及方面上可能会比 HTTP/2要慢的多的多。但是，可以看到QUIC协议的强大，细思及恐，QUIC这个协议真对TCP是个威胁，如果QUIC成熟了，TCP是不是会有可能成为历史呢？</p>
 <p>未来十年，让我们看看UDP是否能够逆袭TCP……</p>
 <p>(全文完)</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2019-10-01T19:21:10+08:00</pubDate>
 <guid>https://coolshell.cn/articles/19840.html</guid>
@@ -1181,7 +1167,7 @@ grant_type=client_credentials
 <title><![CDATA[ Unix 50 年：Ken Thompson 的密码 ]]></title>
 <link>https://coolshell.cn/articles/19996.html</link>
 <content><![CDATA[ 
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >50年前，除了Apollo上天之外，还有一个大事的发生，就是Unix操作系统的诞生，若干年前我写过《Unix的传奇，<a href="https://coolshell.cn/articles/2322.html" target="_blank" rel="noopener noreferrer">上篇</a>，<a href="https://coolshell.cn/articles/2324.html" target="_blank" rel="noopener noreferrer">下篇</a>》，Unix是我入行前十年伴我成长的操作系统，虽然现在Linux早已接过了Unix的时代交接棒，但是，Unix文化对我个人的技术观影响是非常大的（注：《<a href="https://book.douban.com/subject/1467587/" target="_blank" rel="noopener noreferrer">Unix编程艺术</a>》是一本对影响我很深的书），而对于 <a href="https://en.wikipedia.org/wiki/Ken_Thompson">Ken Thompson</a> 和 <a href="https://en.wikipedia.org/wiki/Dennis_Ritchie" target="_blank" rel="noopener noreferrer">Dennis Ritchie</a> 这两位 Unix 的缔造者，也是计算机圈中的神一般的人物。今天，Dennis已经去逝，Ken在Google里跟 Rob Pike和 Robert Griesemer 这两位大神在开发Go语言。</p>
 <p>P.S. 今年，我一直想写篇Unix 50周年纪念的文章，但一直无从下手，因为不想写过大的命题，如果能写个轶事最好不过。正好过完国庆节，技术圈里有个“热搜”——Ken Thompson的密码。但一直没有时间，所以拖到今天才写下来。</p>
 <p>正文开始，2014年，有个叫Leah Neukirchen的程序员（<a href="https://leahneukirchen.org/blog/" target="_blank" rel="noopener noreferrer">blog</a>）在 BSD 3 的源代码中的 <code><a href="https://leahneukirchen.org/blog/archive/2019/10/ken-thompson-s-unix-password.html" target="_blank" rel="noopener noreferrer">/etc/passwd</a></code> 看到了早年Unix黑客们的被 hash了的密码，该文件如下所示：</p>
 <p><span id="more-19996"></span></p>
@@ -1224,7 +1210,7 @@ tty::504:50::/:/bin/tty我</pre>
 <p>在2019年10月份，在 <a href="https://www.tuhs.org/">The Unix Heritage Society</a> 这个社区中，<a href="https://inbox.vuxu.org/tuhs/6dceffe228804a76de1e12f18d1fc0dc@inventati.org/" target="_blank" rel="noopener noreferrer">这个事又被人问起来</a>，说以前有个人破解这些密码，不知道有没有全破解出来了？于是Leah看到了，就回应说，那个人是我，但是还是没干出来……于是好些人进来留言。</p>
 <p>5天后，2019年10月08日，一个来自澳大利亚的程序员Nigel Williams说，<a href="https://inbox.vuxu.org/tuhs/CACCFpdx_6oeyNkgH_5jgfxbxWbZ6VtOXQNKOsonHPF2=747ZOw@mail.gmail.com/" target="_blank" rel="noopener noreferrer">Ken的密码我破解出来了</a>，哈希串<code>ZghOT0eRm4U9s</code> 明文是 <code>p/q2-q4!</code>（果然是有数字有特殊字符），小伙说，我在 AMD Radeon Vega 64 的 GPU上运行了 <code>hashcat</code> 这个命令，干了我 4天多，每秒钟的“配速”是930MH/s （每秒钟9亿3千万次hash运算）。然后，<a href="https://inbox.vuxu.org/tuhs/CAG=a+rj8VcXjS-ftaj8P2_duLFSUpmNgB4-dYwnTsY_8g5WdEA@mail.gmail.com/" target="_blank" rel="noopener noreferrer">Ken Thompson 也留言到 “恭喜”</a> ，这样，Ken 的密码在40年后被破解了……</p>
 <p>马上，就有人问到，这个密码是不是国际象棋的走棋？嗯，很像中国象棋中的“车五进一”，“马三退一”，这个密码中的 <code>p</code> 代表 <code>pawn</code> 小兵，从 <code>q2</code> 的位置走到 <code>q4</code>，这个看来是国际象棋中的开局进兵——用来做登录密码，非常合适。而且，Ken Thompson 在 Unix中写下的一个国际象棋的程序 <a href="https://en.wikipedia.org/wiki/Belle_(chess_machine)" target="_blank" rel="noopener noreferrer">Belle</a>，在1978年首次参加<a href="https://en.wikipedia.org/wiki/North_American_Computer_Chess_Championship">计算机协会的北美计算机国际象棋锦标赛</a>时，它获得了第一个冠军头衔，其搜索深度为八层。之后又赢得了四次冠军。1983年，它也成为第一台获得国际象棋“大师”称号的计算机。所以，Ken用这个做密码相当make sense!</p>
-<p style="text-align: center;"><img alt="image placeholder" >
+<p style="text-align: center;"><img alt="image placeholder" >Ken在贝尔实验室调程序（图片来源：<a href="https://spectrum.ieee.org/tech-history/silicon-revolution/in-1983-this-bell-labs-computer-was-the-first-machine-to-become-a-chess-master" target="_blank" rel="noopener noreferrer">IEEE SPECTRUM</a>）</p>
 <p>当然，还有一个人的密码是所有人里最难破解的，这个人就是<a href="https://en.wikipedia.org/wiki/Bill_Joy" target="_blank" rel="noopener noreferrer">Bill Joy</a>，他最初作为加州大学伯克利分校的研究生，在校期间着手改进Unix 内核，并管理BSD发行版。他最著名的贡献是ex和vi编辑器以及C shell。在Sun公司成立6个月后，他正式成为公司的联合创始人，他在Sun公司的推动了NFS，SPARC处理器，以及Java语言。他还是一个风险投资人员。</p>
 <p>在Ken的密被破解后两周（2019年10月19日），有人号称已经破解了Bill的密码，他在<a href="https://minnie.tuhs.org/pipermail/tuhs/2019-October/019124.html" target="_blank" rel="noopener noreferrer">邮件组中这样写到</a>：</p>
 <blockquote><p>一开始，我使用了大小写字符和数字，8位长度来破解所有的组合，花了我6天的时间，失败了。然后，我开始尝试只用小写字母和控制字符，结果在40分钟内就破解了。但是因为Bill现健在，所以，只要bill同意他才公布这个密码。</p></blockquote>
@@ -1647,7 +1633,6 @@ BSD 的一个程序员。从他的主页上可以看到他目前在Berkeley大�
 </ul>
 <p>还有Unix的社区：TUHS: The Unix Heritage Society – <a href="http://minnie.tuhs.org/cgi-bin/utree.pl" rel="nofollow">The Unix Tree</a></p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2019-11-03T14:12:54+08:00</pubDate>
 <guid>https://coolshell.cn/articles/19996.html</guid>
@@ -1657,7 +1642,7 @@ BSD 的一个程序员。从他的主页上可以看到他目前在Berkeley大�
 <title><![CDATA[ 别让自己“墙”了自己 ]]></title>
 <link>https://coolshell.cn/articles/20276.html</link>
 <content><![CDATA[ 
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >这一两周与几个朋友聊天，有年轻的90后，也有大叔级的70后，这些人在我看来都是很有能力的人，但是一些喜好过于强烈，让我不经意地回顾了我工作20年来身边的人，有发展得好的，也有发展的不好的，有些人是很可惜的，因为限制他们的不是其它人，也不是环境，而是自己，所以，很想写下这篇文章。（注：这篇文章可能会是一篇说教的文章，所以，可能会让你看着犯困，所以，我会尽量地短一些，而且尽可能多讲故事，少道理，这里的故事，全是真实发生的）</p>
 <h4>几个故事</h4>
 <p>2019年年初，我面试了一个很年轻的小伙子（93/94年出生），这个小伙子特别有灵性，也很聪明，计算机专业出身，也很喜欢技术，基础和学习能力也很好。在我这20年来认识的人中，如果他能呆在北京、上海、深圳这样的城市，我保证不出三年，他会成为他们同龄人中非常出色的技术人员，如果有个好的舞台有一个好的团队带他，他的未来会非常成功。然而，这个小伙子有两大喜好：1）只愿（或是说被迫）呆在一个毫无IT的环境的三/四线城市，2）对技术有非常大的偏好，只喜欢Go语言，非常不喜欢其它的语言，比如：Java（离开Java的世界，基本上离开了做架构的世界（<strong>相关解释见文末</strong>））。</p>
 <p>他的这两个喜好，足以让一个未来会很优秀的人毁掉，因为，这个时代没有限制他，他的能力也没有限制他，但是他的意识完完全全地限制了他。<span id="more-20276"></span></p>
@@ -1712,7 +1697,6 @@ BSD 的一个程序员。从他的主页上可以看到他目前在Berkeley大�
 <p><strong>注：这篇文章就是要劝大家更为开放，让自己有更多的可能性，能到更高的层次，做更有价值的事，成为更强更好的人……当然，如果你觉得你只想做一个平凡人，也和本文并不冲突……另外你也不要觉得这篇文章是让你要成为一个精英，但你一定要去摸高……这篇文章是告诉你一种面对人生的思考方式，在这种思考方式下，你会有更多的可能性，更大的场景……而不是直接把自己归到“平常人”，把自己“墙”了！</strong></p>
 <p>注：我以为用Java适合做架构这事应该是常识了，但是评论中有很多人非常反对这个事。那我解释一下吧：首先，小型的项目用什么语言都行，爱用什么用什么。但是，真正的企业级架构就不一样了，其中并不仅仅只是RESTful API或RPC，还有各种配套设施和控制系统，比如：应用网关，服务发现、配置中心、健康检查、服务监控、服务治理（熔断、限流、幂等、重试、隔离、事务补偿）、Tracing监控、SOA/ESB、CQRS、EDA……这些东西在非Java的技术栈体系内，很难看到全貌，<strong>Java强大的生态环境，就是让你把注意力放到更高层次的架构和业务上来的</strong>。（千万不要觉得，整几个服务RPC一下，加个缓存，加个队列，就能叫架构，那只是系统集成罢了）</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2019-12-01T11:10:21+08:00</pubDate>
 <guid>https://coolshell.cn/articles/20276.html</guid>
@@ -1722,7 +1706,7 @@ BSD 的一个程序员。从他的主页上可以看到他目前在Berkeley大�
 <title><![CDATA[ 使用简单的逻辑方法进行独立思考 ]]></title>
 <link>https://coolshell.cn/articles/20533.html</link>
 <content><![CDATA[ 
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >这是一个非常复杂的世界，这个世界上有很多各式各样的观点和思维方式，作为一个程序员的我，也会有程序员的思维方式，程序员的思维方式更接近数学的思维方式，数学的思维方式让可以很容易地理清楚这个混乱的世界，其实，并不需要太复杂的数学逻辑，只需要使用一些简单的数学方法，就可以大幅提升自己的认识能力，所以，在这里，记录一篇我自己的思维方式，一方面给大家做个参考，另一方面也供更高阶的人给我进行指正。算是“开源我的思维方式”，开放不仅仅是为了输出，更是为了看看有没有更好的方式。</p>
 <p>我的思维方式中，使用数学逻辑的方式进行思考，通常来说，我会使用五步思考的方式：</p>
 <p><strong>第一步：信息数据可考证</strong>。如果一个观点或是一个见解的数据是错误的，那么就会造成后面的观点全是错的，所以，首要的是要进行数据的查证或考证。一般来说，如果一篇文章的作者足够严谨的话，他的需要给他的数据建立相关的引用或是可以考证的方法方式。如果一篇文章中出现的是，“有关专家表明”、“美国科学家证明”、“经济学家指出”，但是没有任出处，也没有点明这个专家或是科学家的名字，或是，也没有说明或引用让读者可以自己去验证的方法。那么，其引用的话或是数据是无法考证的，如果是无法考证的，那么，这篇文章的水份就非常大了。一般来说，当我读到一篇文章中的东西没有可考证的来源或是方法时，通常来说，我就不会再读了，因为这篇文章的价值已经不大了，如果我关心这篇文章中的东西，我会改为自己去查找的方式，虽然变“重”了，但是很安全。（所以，像Wikipedia这样的网站是我经常去获得信息的地方，因为信息可以被考证是其基本价值观）</p>
 <p><span id="more-20533"></span></p>
@@ -1742,7 +1726,6 @@ BSD 的一个程序员。从他的主页上可以看到他目前在Berkeley大�
 </ul>
 <p>欢迎你告诉我一些你的实践和思维方式。</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2019-12-26T22:46:53+08:00</pubDate>
 <guid>https://coolshell.cn/articles/20533.html</guid>
@@ -1752,7 +1735,7 @@ BSD 的一个程序员。从他的主页上可以看到他目前在Berkeley大�
 <title><![CDATA[ MegaEase的远程工作文化 ]]></title>
 <link>https://coolshell.cn/articles/20765.html</link>
 <content><![CDATA[ 
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ><a href="https://megaease.com/" target="_blank" rel="noopener noreferrer">MegaEase</a> 是我创业的公司，主要是想把云计算（PaaS/SaaS层）的那些高可用高并发的分布式技术普及到那需要对技术自主可控的公司，这样就不需要去使用不能自主可控的闭源系统或是大公司的云平台。我于2016年开始成立MegaEase，从早期8个人，直到今天有20来个人，我们从一开始到今天都是在远程工作的公司文化。因为我很喜欢《<a href="https://coolshell.cn/articles/9156.html" target="_blank" rel="noopener noreferrer">Rework</a>》这本书，写这本书的公司叫37signal（现名basecamp），这家公司在发《Rework》这本书的时候，整个公司只有16个人，分布在全世界8个城市，这种Geek的公司的文化很吸引我，所以，在我决定创业的时候，我就止不住地想成立这样能够远程工作的公司，于是，远程工作的团队文化就这样成为了MegaEase的基因。<strong>下面我会分享一下，我们公司的远程工作文化和其中的一些问题，最后还有一个工作协议</strong>。</p>
 <p>我们在早期的时候，8个员工来自5个城市，现在的20来个员工来自8个城市2个国家。虽然我们现在使用“共享办公室”，但是本质上，我们的整个文化是远程工作的文化。在2017-2018年度，我们公司产品商业化以来，公司早期的8个工程师在远程工作的状态下成功支持了得到的老罗的跨年演讲活动，以及其它几个客户，一方面验证了用户愿意付费购买我们的产品和服务之后，另一方面也有一些不错的收入，客单价都在百万左右。还记得当时，有几个投资人并不相信我们连个办公室都没有，而且8个人分布在5个城市，觉得我们是个骗子公司（哈哈）。在过去的一年，我们通过我们的产品和服务帮助银行电信互联网等公司进行了他们的系统架构的改造和升级，让复杂和高门槛的分布式技术和架构可以被更多的企业所掌握所应用。这说明，远程工作是没有什么问题的。实际上远程团队远程工作真的不新鲜，Github上有个Repo维护着一个<a href="https://github.com/remoteintech/remote-jobs" target="_blank" rel="noopener noreferrer">支持远程工作的公司列表</a>，还有一个<a href="https://github.com/lukasz-madon/awesome-remote-job" target="_blank" rel="noopener noreferrer">跟远程工作相关的Awesome索引</a>。</p>
 <p>当然，自从我创业以来，我身边就一直有好些不同的声音质疑远程工作。听过他们的理由后，我能够理解他们的疑虑和困惑，因为管理的确是一个很复杂的事，因为要面对的是极为复杂的人，所以，有这些疑虑也是正常的。下面是我的一些经验和分享。先说宏观管理，再说微观实践。</p>
 <p><span id="more-20765"></span></p>
@@ -1998,7 +1981,6 @@ BSD 的一个程序员。从他的主页上可以看到他目前在Berkeley大�
 </h4>
 <p>远程工作并不是目的，但是远程工作会逼迫管理者面对管理的本质问题。远程工作趋向于找到优秀自驱的人才，守护团队的共同目标，并打造精悍高能的团队，并要求我们在需要沟通和协作的地方使用更为科学和有效的手段，在各个环节中提升工作效率，降低组织内耗……你的团队管理模型是否最优，在远程工作下就会一览无余！远程工作只是一个手段，提升管理水平才是真正的目的！</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2020-01-31T15:23:18+08:00</pubDate>
 <guid>https://coolshell.cn/articles/20765.html</guid>
@@ -2008,7 +1990,7 @@ BSD 的一个程序员。从他的主页上可以看到他目前在Berkeley大�
 <title><![CDATA[ 与程序员相关的CPU缓存知识 ]]></title>
 <link>https://coolshell.cn/articles/20793.html</link>
 <content><![CDATA[ 
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >好久没有写一些微观方面的文章了，今天写一篇关于CPU Cache相关的文章，这篇文章比较长，主要分成这么几个部分：基础知识、缓存的命中、缓存的一致性、相关的代码示例和延伸阅读。其中会讲述一些多核 CPU 的系统架构以及其原理，包括对程序性能上的影响，以及在进行并发编程的时候需要注意到的一些问题。这篇文章我会尽量地写简单和通俗易懂一些，主要是讲清楚相关的原理和问题，而对于一些细节和延伸阅读我会在文章最后会给出相关的资源。</p>
 <p>因为无论你写什么样的代码都会交给CPU来执行，所以，如果你想写出性能比较高的代码，这篇文章中提到的技术还是值得认真学习的。另外，千万别觉得这些东西没用，这些东西非常有用，十多年前就是这些知识在性能调优上帮了我的很多大忙，从而跟很多人拉开了差距……</p>
 <div id="ez-toc-container" class="ez-toc-v2_0_17 counter-hierarchy counter-decimal ez-toc-grey">
 <div class="ez-toc-title-container">
@@ -2035,7 +2017,7 @@ BSD 的一个程序员。从他的主页上可以看到他目前在Berkeley大�
 <span class="ez-toc-section" id="%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86"></span>基础知识<span class="ez-toc-section-end"></span>
 </h4>
 <p>首先，我们都知道现在的CPU多核技术，都会有几级缓存，老的CPU会有两级内存（L1和L2），新的CPU会有三级内存（L1，L2，L3 ），如下图所示：</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ><span id="more-20793"></span></p>
 <p>其中：</p>
 <ul>
 <li>L1缓存分成两种，一种是指令缓存，一种是数据缓存。L2缓存和L3缓存不分指令和数据。</li>
@@ -2077,7 +2059,7 @@ BSD 的一个程序员。从他的主页上可以看到他目前在Berkeley大�
 <li>另一种方法，为了降低缓存搜索算法，我们需要使用像Hash Table这样的数据结构，最简单的hash table就是做“求模运算”，比如：我们的L1 Cache有512个Cache Line，那么，公式：<code>（内存地址 mod 512）* 64</code> 就可以直接找到所在的Cache地址的偏移了。但是，这样的方式需要我们的程序对内存地址的访问要非常地平均，不然冲突就会非常严重。这成了一种非常理想的情况了。</li>
 <li>为了避免上述的两种方案的问题，于是就要容忍一定的hash冲突，也就出现了 N-Way 关联。也就是把连续的N个Cache Line绑成一组，然后，先把找到相关的组，然后再在这个组内找到相关的Cache Line。这叫 Set Associativity。如下图所示。</li>
 </ul>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>对于 N-Way 组关联，可能有点不好理解，这里个例子，并多说一些细节（不然后面的代码你会不能理解），Intel 大多数处理器的L1 Cache都是32KB，8-Way 组相联，Cache Line 是64 Bytes。这意味着，</p>
 <ul>
 <li>32KB的可以分成，32KB / 64 = 512 条 Cache Line。</li>
@@ -2095,9 +2077,9 @@ BSD 的一个程序员。从他的主页上可以看到他目前在Berkeley大�
 </ul>
 <p>如下图所示：（图片来自《<a href="https://manybutfinite.com/post/intel-cpu-caches/" target="_blank" rel="noopener noreferrer">Cache: a place for concealment and safekeeping</a>》）</p>
 <p>当拿到一个内存地址的时候，先拿出中间的 6bits 来，找到是哪组。</p>
-<p style="text-align: center;"><img alt="image placeholder" >
+<p style="text-align: center;"><img alt="image placeholder" ></p>
 <p>然后，在这一个8组的cache line中，再进行O(n) n=8 的遍历，主是要匹配前24bits的tag。如果匹配中了，就算命中，如果没有匹配到，那就是cache miss，如果是读操作，就需要进向后面的缓存进行访问了。L2/L3同样是这样的算法。而淘汰算法有两种，一种是随机一种是LRU。现在一般都是以LRU的算法（通过增加一个访问计数器来实现）</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>这也意味着：</p>
 <ul>
 <li>L1 Cache 可映射 36bits 的内存地址，一共 2^36 = 64GB的内存</li>
@@ -2124,12 +2106,12 @@ BSD 的一个程序员。从他的主页上可以看到他目前在Berkeley大�
 <li>
 <strong>Snoopy 协议</strong>。这种协议更像是一种数据通知的总线型的技术。CPU Cache通过这个协议可以识别其它Cache上的数据状态。如果有数据共享的话，可以通过广播机制将共享数据的状态通知给其它CPU Cache。这个协议要求每个CPU Cache 都可以<strong class="hu je"><em class="io">“</em>窥探<em class="io">”</em></strong>数据事件的通知并做出相应的反应。如下图所示，有一个Snoopy Bus的总线。</li>
 </ul>
-<p><strong><img alt="image placeholder" >
+<p><strong><img alt="image placeholder" ></strong></p>
 <p>因为Directory协议是一个中心式的，会有性能瓶颈，而且会增加整体设计的复杂度。而Snoopy协议更像是微服务+消息通讯，所以，现在基本都是使用Snoopy的总线的设计。</p>
 <p>这里，我想多写一些细节，因为这种微观的东西，让人不自然地就会跟分布式系统关联起来，在分布式系统中我们一般用Paxos/Raft这样的分布式一致性的算法。而在CPU的微观世界里，则不必使用这样的算法，原因是因为CPU的多个核的硬件不必考虑网络会断会延迟的问题。所以，CPU的多核心缓存间的同步的核心就是要管理好数据的状态就好了。</p>
 <p>这里介绍几个状态协议，先从最简单的开始，MESI协议，这个协议跟那个著名的足球运动员梅西没什么关系，其主要表示缓存数据有四个状态：Modified（已修改）, Exclusive（独占的）,Shared（共享的），Invalid（无效的）。</p>
 <p>这些状态的状态机如下所示（有点复杂，你可以先不看，这个图就是想告诉你状态控制有多复杂）：</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>下面是个示例（如果你想看一下动画演示的话，这里有一个网页（<a href="https://www.scss.tcd.ie/Jeremy.Jones/VivioJS/caches/MESIHelp.htm" target="_blank" rel="noopener noreferrer">MESI Interactive Animations</a>），你可以进行交互操作，这个动画演示中使用的Write Through算法）：</p>
 <table>
 <thead>
@@ -2322,7 +2304,7 @@ void thread_func (int id) {
     result[id] = c;
 }</pre>
 <p>我们把两个程序分别在 1 到 32 个线程上跑一下，得出的结果画一张图如下所示（横轴是线程数，纵轴是完成统的时间，单位是微秒）：</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>上图中，我们可以看到，灰色的曲线就是第一种方法，橙色的就是第二种（用局部变量的）方法。当只有一个线程的时候，两个方法相当，基本没有什么差别，但是在线程数增加的时候的时候，你会发现，第二种方法的性能提高的非常快。直到到达6个线程的时候，开始变得稳定（前面说过，我的CPU是6核的）。而第一种方法无论加多少线程也没有办法超过第二种方法。因为第一种方法不是CPU Cache 友好的。也就是说，第二种方法，<strong>只要我的CPU核数足够多，就可以做到线性的性能扩展，让每一个CPU核都跑起来，而第一种则不能</strong>。</p>
 <p>篇幅问题，示例就写到这里，相关的代码参看<a href="https://github.com/haoel/cpu-cache" target="_blank" rel="noopener noreferrer">我的Github相关仓库</a>。</p>
 <h4>
@@ -2346,7 +2328,6 @@ void thread_func (int id) {
 </ul>
 <p>总之，这个CPU Cache的调优技术不是什么新鲜的东西，只要Google就能找到有很多很多文章……</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2020-03-01T19:43:41+08:00</pubDate>
 <guid>https://coolshell.cn/articles/20793.html</guid>
@@ -2356,7 +2337,7 @@ void thread_func (int id) {
 <title><![CDATA[ Rust语言的编程范式 ]]></title>
 <link>https://coolshell.cn/articles/20845.html</link>
 <content><![CDATA[ 
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >总是有很多很多人来问我对Rust语言怎么看的问题，在各种地方被at，其实，我不是很想表达我的想法。因为在不同的角度，你会看到不同的东西。编程语言这个东西，老实说很难评价，在学术上来说，Lisp就是很好的语言，然而在工程使用的时候，你会发现Lisp没什么人用，而Javascript或是PHP这样在学术很糟糕设计的语言反而成了主流，你觉得C++很反人类，在我看来，C++有很多不错的设计，而且对于了解编程语言和编译器的和原理非常有帮助。<strong>但是C++也很危险，所以，出现在像Java或Go 语言来改善它，Rust本质上也是在改善C++的。他们各自都有各自的长处和优势</strong>。</p>
 <p>因为各个语言都有好有不好，因此，我不想用别的语言来说Rust的问题，或是把Rust吹成朵花以打压别的语言，写成这样的文章，是很没有营养的事。<strong>本文主要想通过Rust的语言设计来看看编程中的一些挑战，尤其是Rust重要的一些编程范式，这样反而更有意义一些，因为这样你才可能一通百通</strong>。</p>
 <p>这篇文章的篇幅比较长，而且有很多代码，信息量可能会非常大，所以，<strong>在读本文前，你需要有如下的知识准备</strong>：</p>
 <ul>
@@ -2553,7 +2534,7 @@ impl Render {
 <li>Rust要我们实现 <code>Copy</code> Trait，但是我们不想要拷贝，因为我们就是想把 <code>next_buffer</code> move 到 <code>current_buffer</code> 中</li>
 </ul>
 <p>我们想要同时 Move 两个变量，参数 <code>buf</code> move 到 <code>next_buffer</code> 的同时，还要把 <code>next_buffer</code> 里的东西 move 到 <code>current_buffer</code> 中。 我们需要一个“杂耍”的技能。<br>
-<img alt="image placeholder" >
+<img alt="image placeholder" ></p>
 <p>这个需要动用 <code>std::mem::replace(&amp;dest, src)</code> 函数了， 这个函数技把 <code>src</code> 的值 move 到 <code>dest</code> 中，然后把 <code>dest</code> 再返回出来（这其中使用了 unsafe 的一些底层骚操作才能完成）。Anyway，最终是这样实现的：</p>
 <pre class="EnlighterJSRAW" data-enlighter-language="rust">use std::mem::replace
 fn update_buffer(&amp; mut self, buf : String) { 
@@ -3037,7 +3018,6 @@ println!("{:?}", v);</pre>
 <p>这些东西都会导致失去编译的灵活性，并在一些时候需要“去糖”，导致，你在使用Rust会有诸多的不适应，程序编译不过的挫败感也是令人沮丧的。在初学Rust的时候，我想自己写一个单向链表，结果，费尽心力，才得以完成。也就是说，<strong>如果你对Rust的概念认识的不完整，你完全写不出程序，那怕就是很简单的一段代码</strong>。我觉得，这种挺好的，逼着程序员必需了解所有的概念才能编码。但是，另一方面也表明了这门语言并不适合初学者。</p>
 <p>没有银弹，任何语言都有些适合的地方和场景。</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2020-04-04T14:48:23+08:00</pubDate>
 <guid>https://coolshell.cn/articles/20845.html</guid>
@@ -3047,7 +3027,7 @@ println!("{:?}", v);</pre>
 <title><![CDATA[ 计时攻击 Timing Attacks ]]></title>
 <link>https://coolshell.cn/articles/21003.html</link>
 <content><![CDATA[ 
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >本文来自读者“程序猿石头”的投稿文章《<a href="https://mp.weixin.qq.com/s?__biz=MzI3OTUzMzcwNw==&amp;mid=100002290&amp;idx=1&amp;sn=8829db16a065f485b257fba0c691d94f&amp;chksm=6b4708165c30810096133f36523c8c781ce5333d851c31905d6cc49dd9b756a3f08141fbc9e8#rd" target="_blank" rel="noopener noreferrer">这 10 行比较字符串相等的代码给我整懵了，不信你也来看看</a>》，原文写的很好，但不够直接了当，信息密度不够高，所以我对原文进行大量的删减、裁剪、改写和添加，主要删除了一些没有信息的段落，主要加入了如何实施计时攻击相关的其它内容，让这篇文章中的知识更系统一些，并且还指出了其它的一些问题。所以，我把标题也改成了《计时攻击 Timing Attacks》。</p>
 <div id="ez-toc-container" class="ez-toc-v2_0_17 counter-hierarchy counter-decimal ez-toc-grey">
 <div class="ez-toc-title-container">
 <p class="ez-toc-title">目录</p>
@@ -3252,9 +3232,6 @@ func ConstantTimeSelect(v, x, y int) int</pre>
 <p>在文章结束前，再提一个事。</p>
 <p>上面的所有的代码都还有一个问题——他们都要判断字符串的长度是否一致，如果不一致就返回了，所以，通过时间攻击是可以知道字符串的长度的。比如：你的密码长度。理论上来说，字符串的长度也应该属于“隐私数据”（当然，对于签名则不是）。</p>
 <p>(全文完)</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2020-07-05T13:26:52+08:00</pubDate>
 <guid>https://coolshell.cn/articles/21003.html</guid>
@@ -3264,7 +3241,7 @@ func ConstantTimeSelect(v, x, y int) int</pre>
 <title><![CDATA[ 程序员如何把控自己的职业 ]]></title>
 <link>https://coolshell.cn/articles/20977.html</link>
 <content><![CDATA[ 
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >这篇文章的主要内容主要是我今年3月份在腾讯做的直播，主要是想让一些技术人员对世界有一个大体的认识，并且在这个认识下能够有一个好的方法成就自己。而不是在一脸蒙圈的状态下随波逐流，而日益迷茫和焦虑。直播完后，腾讯方面把我的直播形成文字的形式发了出来，我觉得我可以再做一个精编版。所以，有了这篇文章，希望对大家有帮助。</p>
 <p>对我来说，在我二十多年的工作经历来看，期间经历了很多技术的更新换代，整个技术模式、业务模式也是一直变来变去，我们这群老程序员成长中所经历的技术比今天的程序员玩的还更杂更多。我罗列一下我学过的，而且还被淘汰掉的技术，大家先感受一下。</p>
 <pre>- MIS应用开发：FoxPro，PowerBuilder，Delphi
 - OA：Lotus Notes，VBScripts
@@ -3403,7 +3380,7 @@ func ConstantTimeSelect(v, x, y int) int</pre>
 <h4>
 <span class="ez-toc-section" id="%E5%AD%A6%E4%B9%A0%E6%95%88%E7%8E%87"></span>学习效率<span class="ez-toc-section-end"></span>
 </h4>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >谈到学习效率，就需要拿出这张学习金字塔的图来了。从图可以看到学习方法分布两层，一种是被动学习，也是浅度学习，听讲，阅读，视听，演示都是在被动学习，而与人讨论，自己动手实践，教授给别人是主动学习。主动学习我们称之为深度学习，如果你不能深度学习，你就不能真正学到东西。这也是你会经常有“学那么多干什么，不用就忘了”，这就是浅度学习的症状了。</p>
 <p>下面，我给出一些我自己觉得不错的学习经验：</p>
 <p><strong>1、挑选一手知识和信息源。</strong>对于学习方法：第一我们一定要到知识源去挑选知识，知识信息源非常关键，二手信息丢失太大了，谭浩强写的书就丢失太多信息了。<strong>目前计算机一手知识基本都是国外的</strong>，所以<strong>英文非常重要</strong>。我鼓励大家一定读第一手的资料。如果你英语有问题，至少要看翻译过来，最好是原汁原味翻译的，不要我理解了给你讲那种，那种也是被别人嚼一遍再讲给你你没有体会，是别人带着你，别人的体会会影响你，也许你的体会会比他更好，因为是你自己总结出来的东西，所以知识源很重要。</p>
 <p><strong>2、注意原理和基础</strong><strong>第二要注重基础原理</strong>。虽然可以忘记这个技术，但是原理记在心里，我可以徒手实现出来，而且通过原理可以更快学习其他类似的技术。所以原理很重要！当你学会C、C++要学Java和GO都很快。</p>
@@ -3417,7 +3394,6 @@ func ConstantTimeSelect(v, x, y int) int</pre>
 <p>好了，该到这篇文章收尾的时候了，小结一下，如果你想更好的把握时代，提升自己，你需要知道这个时代的趋势是什么，需要什么样的人，这些人需要什么样的能力，这些能力是怎么获得的，投入到基础知识的学习就像“基建”一样，如果基础不好，不能长高，学习能力也是需要适应这个快速时代的重要的基础能力，没有好的学习能力，很快就会掉队被淘汰。</p>
 <p>这些东西，是我从业二十年来的总结和体会，希望对你有用。</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2020-08-07T17:31:29+08:00</pubDate>
 <guid>https://coolshell.cn/articles/20977.html</guid>
@@ -3427,7 +3403,7 @@ func ConstantTimeSelect(v, x, y int) int</pre>
 <title><![CDATA[ 百度为什么掉队了 ]]></title>
 <link>https://coolshell.cn/articles/21113.html</link>
 <content><![CDATA[ 
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >今天早上看到一篇文章《<a href="https://new.qq.com/omn/20201215/20201215A06XMN00.html" target="_blank" rel="noopener noreferrer">百度不要用户</a>》这篇文章里的大意是：百度错过了移动互联网，等反应过来的时候，在2013年猛收购了一些公司来追赶对手或是时代，但都不成功，然后又开始后过来走到技术，大力发展AI，可惜，AI又是一个不是很成熟的事，需要没有上限的投入，而且在短期内看不到盈利的事，然而整个KPI又设计在了盈利上，最后导致内部内耗严重，人才和管理层流失，最终离用户越来越远。</p>
 <p>文章中有一个段落的标题是【做决策的是技术】，其中有话是这样的——</p>
 <blockquote><p>在“重技术、轻运营”的百度，产品的主导权和优先权在技术手里，产品和运营的立项话语权相对轻很多。如果是在 PC 时代，这无可厚非，但在移动互联网时代，这就有很大的问题。</p></blockquote>
 <p>这就是中国这个社会的价值观了，整个社会价值观从本质上来说是不待见技术的——<strong>平时都说技术不重要，但是当有问题出现的的时候，他们都会把问题都推到技术上</strong>。</p>
@@ -3465,7 +3441,6 @@ func ConstantTimeSelect(v, x, y int) int</pre>
 <p>另外，你再仔细看一下上面的清单，你会看得出来，Google做的这些产品和方向都有一种浓浓的技术味……而且，你会觉得，在技术上折腾，就算是失败了，也能让人感觉得到这家公司和团队不会差……</p>
 <p>与《百度不要用户》这篇文章中所说的，百度的问题是“技术人员话语太强”，我觉得百度的问题是，不再做技术了……而公司出现了混乱的思维方式，无论是不是技术人员，谁都不会思考和做决定了……</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2020-12-16T18:46:17+08:00</pubDate>
 <guid>https://coolshell.cn/articles/21113.html</guid>
@@ -3475,7 +3450,7 @@ func ConstantTimeSelect(v, x, y int) int</pre>
 <title><![CDATA[ Go编程模式：切片，接口，时间和性能 ]]></title>
 <link>https://coolshell.cn/articles/21128.html</link>
 <content><![CDATA[ 
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>在本篇文章中，我会对Go语言编程模式的一些基本技术和要点，这样可以让你更容易掌握Go语言编程。其中，主要包括，数组切片的一些小坑，还有接口编程，以及时间和程序运行性能相关的话题。</p>
 <section class="post-series"><h3 class="post-series-title">本文是全系列中第1 / 10篇：<a href="https://coolshell.cn/articles/series/go%e7%bc%96%e7%a8%8b%e6%a8%a1%e5%bc%8f">Go编程模式</a>
 </h3>
@@ -3517,7 +3492,7 @@ func ConstantTimeSelect(v, x, y int) int</pre>
     cap   int            //容量有多大
 }</pre>
 <p>用图示来看，一个空的slice的表现如下：</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" > 熟悉C/C++的同学一定会知道，在结构体里用数组指针的问题——数据会发生共享！下面我们来看一下slice的一些操作</p>
 <p><span id="more-21128"></span></p>
 <pre class="EnlighterJSRAW" data-enlighter-language="golang">foo = make([]int, 5)
 foo[3] = 42
@@ -3531,7 +3506,7 @@ bar[1] = 99</pre>
 <li>然后开始对foo所指向的数组中的索引为3和4的元素进行赋值</li>
 <li>然后，对foo做切片后赋值给bar，再修改bar[1]</li>
 </ul>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>通过上图我们可以看到，因为foo和bar的内存是共享的，所以，foo和bar的对数组内容的修改都会影响到对方。</p>
 <p>接下来，我们再来看一个数据操作 <code>append()</code> 的示例</p>
 <pre class="EnlighterJSRAW" data-enlighter-language="golang">a := make([]int, 32)
@@ -3539,7 +3514,7 @@ b := a[1:16]
 a = append(a, 1)
 a[2] = 42</pre>
 <p>上面这段代码中，把 <code>a[1:16]</code> 的切片赋给到了 <code>b</code> ，此时，<code>a</code> 和 <code>b</code> 的内存空间是共享的，然后，对 <code>a</code>做了一个 <code>append()</code>的操作，这个操作会让 <code>a</code> 重新分享内存，导致 <code>a</code> 和 <code>b</code> 不再共享，如下图所示：</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>从上图我们可以看以看到 <code>append()</code>操作让 <code>a</code> 的容量变成了64，而长度是33。这里，需要重点注意一下——<strong><code>append()</code>这个函数在 <code>cap</code> 不够用的时候就会重新分配内存以扩大容量，而如果够用的时候不不会重新分享内存！</strong></p>
 <p>我们再看来看一个例子：</p>
 <pre class="EnlighterJSRAW" data-enlighter-language="golang">func main() {
@@ -3558,7 +3533,7 @@ a[2] = 42</pre>
     fmt.Println("dir2 =&gt;",string(dir2)) //prints: dir2 =&gt; uffixBBBB
 }</pre>
 <p>上面这个例子中，<code>dir1</code> 和 <code>dir2</code> 共享内存，虽然 <code>dir1</code> 有一个 <code>append()</code> 操作，但是因为 cap 足够，于是数据扩展到了<code>dir2</code> 的空间。下面是相关的图示（注意上图中 <code>dir1</code> 和 <code>dir2</code> 结构体中的 <code>cap</code> 和 <code>len</code> 的变化）</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>如果要解决这个问题，我们只需要修改一行代码。</p>
 <pre class="EnlighterJSRAW" data-enlighter-language="golang">dir1 := path[:sepIndex]
 </pre>
@@ -3790,7 +3765,6 @@ func main() {
 </li>
 </ul>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2020-12-18T15:36:30+08:00</pubDate>
 <guid>https://coolshell.cn/articles/21128.html</guid>
@@ -3800,7 +3774,7 @@ func main() {
 <title><![CDATA[ Go 编程模式：错误处理 ]]></title>
 <link>https://coolshell.cn/articles/21140.html</link>
 <content><![CDATA[ 
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >错误处理一直以一是编程必需要面对的问题，错误处理如果做的好的话，代码的稳定性会很好。不同的语言有不同的出现处理的方式。Go语言也一样，在本篇文章中，我们来讨论一下Go语言的出错出处，尤其是那令人抓狂的 <code>if err != nil</code> 。</p>
 <p>在正式讨论Go代码里满屏的 <code>if err != nil</code> 怎么办这个事之前，我想先说一说编程中的错误处理。这样可以让大家在更高的层面理解编程中的错误处理。</p>
 <section class="post-series"><h3 class="post-series-title">本文是全系列中第2 / 10篇：<a href="https://coolshell.cn/articles/series/go%e7%bc%96%e7%a8%8b%e6%a8%a1%e5%bc%8f">Go编程模式</a>
 </h3>
@@ -4135,7 +4109,6 @@ default:
 </li>
 </ul>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2020-12-22T18:19:30+08:00</pubDate>
 <guid>https://coolshell.cn/articles/21140.html</guid>
@@ -4145,7 +4118,7 @@ default:
 <title><![CDATA[ Go 编程模式：Functional Options ]]></title>
 <link>https://coolshell.cn/articles/21146.html</link>
 <content><![CDATA[ 
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >在本篇文章中，我们来讨论一下Functional Options这个编程模式。这是一个函数式编程的应用案例，编程技巧也很好，是目前在Go语言中最流行的一种编程模式。但是，在我们正式讨论这个模式之前，我们需要先来看看要解决什么样的问题。</p>
 <section class="post-series"><h3 class="post-series-title">本文是全系列中第3 / 10篇：<a href="https://coolshell.cn/articles/series/go%e7%bc%96%e7%a8%8b%e6%a8%a1%e5%bc%8f">Go编程模式</a>
 </h3>
 <ul class="post-series-list">
@@ -4365,9 +4338,6 @@ s3, _ := NewServer("0.0.0.0", 8080, Timeout(300*time.Second), MaxConns(1000))</p
 </li>
 </ul>
 <p>(全文完)</p>
-<div style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2020-12-22T23:23:52+08:00</pubDate>
 <guid>https://coolshell.cn/articles/21146.html</guid>
@@ -4377,7 +4347,7 @@ s3, _ := NewServer("0.0.0.0", 8080, Timeout(300*time.Second), MaxConns(1000))</p
 <title><![CDATA[ Go编程模式：Map-Reduce ]]></title>
 <link>https://coolshell.cn/articles/21164.html</link>
 <content><![CDATA[ 
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >在本篇文章中，我们学习一下函数式编程的中非常重要的Map、Reduce、Filter的三种操作，这三种操作可以让我们非常方便灵活地进行一些数据处理——我们的程序中大多数情况下都是在到倒腾数据，尤其对于一些需要统计的业务场景，Map/Reduce/Filter是非常通用的玩法。下面先来看几个例子：</p>
 <section class="post-series"><h3 class="post-series-title">本文是全系列中第5 / 10篇：<a href="https://coolshell.cn/articles/series/go%e7%bc%96%e7%a8%8b%e6%a8%a1%e5%bc%8f">Go编程模式</a>
 </h3>
 <ul class="post-series-list">
@@ -4513,7 +4483,7 @@ out = Filter(intset, func(n int) bool {
 fmt.Printf("%v\n", out)
 </pre>
 <p>下图是一个比喻，其非常形象地说明了Map-Reduce是的业务语义，其在数据处理中非常有用。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h4>
 <span class="ez-toc-section" id="%E4%B8%9A%E5%8A%A1%E7%A4%BA%E4%BE%8B"></span>业务示例<span class="ez-toc-section-end"></span>
 </h4>
@@ -4879,7 +4849,6 @@ func filter(slice, function interface{}, inPlace bool) (interface{}, int) {
 <p>我个人觉得，Map/Reduce在数据处理的时候还是很有用的，Rob Pike可能平时也不怎么写“业务逻辑”的代码，所以，对他来说可能也不太了解业务的变化有多么的频繁……</p>
 <p>当然，好还是不好，由你来判断，但多学一些编程模式是对自己的帮助也是很有帮助的。</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2020-12-24T15:13:52+08:00</pubDate>
 <guid>https://coolshell.cn/articles/21164.html</guid>
@@ -4889,7 +4858,7 @@ func filter(slice, function interface{}, inPlace bool) (interface{}, int) {
 <title><![CDATA[ Go 编程模式：Go Generation ]]></title>
 <link>https://coolshell.cn/articles/21179.html</link>
 <content><![CDATA[ 
-<figure id="attachment_21254" aria-describedby="caption-attachment-21254" style="width: 296px" class="wp-caption alignright"><img alt="image placeholder" >
+<figure id="attachment_21254" aria-describedby="caption-attachment-21254" style="width: 296px" class="wp-caption alignright"><img alt="image placeholder" ><figcaption id="caption-attachment-21254" class="wp-caption-text">图片来源：<a href="https://gophersource.com/" target="_blank" rel="noopener">GopherSource</a></figcaption></figure>
 <p>在本篇文章中，我们将要学习一下Go语言的代码生成的玩法。Go语言代码生成主要还是用来解决编程泛型的问题，泛型编程主要解决的问题是因为静态类型语言有类型，所以，相关的算法或是对数据处理的程序会因为类型不同而需要复制一份，这样导致数据类型和算法功能耦合的问题。泛型编程可以解决这样的问题，就是说，在写代码的时候，不用关心处理数据的类型，只需要关心相当处理逻辑。泛型编程是静态语言中非常非常重要的特征，如果没有泛型，我们很难做到多态，也很难完成抽象，会导致我们的代码冗余量很大。</p>
 <section class="post-series"><h3 class="post-series-title">本文是全系列中第6 / 10篇：<a href="https://coolshell.cn/articles/series/go%e7%bc%96%e7%a8%8b%e6%a8%a1%e5%bc%8f">Go编程模式</a>
 </h3>
@@ -4938,8 +4907,8 @@ func filter(slice, function interface{}, inPlace bool) (interface{}, int) {
 <table>
 <tbody>
 <tr>
-<td><img alt="image placeholder" >
-<td><img alt="image placeholder" >
+<td><img alt="image placeholder" ></td>
+<td><img alt="image placeholder" ></td>
 </tr>
 </tbody>
 </table>
@@ -4948,7 +4917,7 @@ func filter(slice, function interface{}, inPlace bool) (interface{}, int) {
 <table>
 <tbody>
 <tr>
-<td colspan="2"><img alt="image placeholder" >
+<td colspan="2"><img alt="image placeholder" ></td>
 </tr>
 </tbody>
 </table>
@@ -5281,7 +5250,6 @@ func filterEmployeeExample() {
 </li>
 </ul>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2020-12-25T17:06:36+08:00</pubDate>
 <guid>https://coolshell.cn/articles/21179.html</guid>
@@ -5291,7 +5259,7 @@ func filterEmployeeExample() {
 <title><![CDATA[ Go编程模式：委托和反转控制 ]]></title>
 <link>https://coolshell.cn/articles/21214.html</link>
 <content><![CDATA[ 
-<figure id="attachment_21256" aria-describedby="caption-attachment-21256" style="width: 300px" class="wp-caption alignright"><img alt="image placeholder" >
+<figure id="attachment_21256" aria-describedby="caption-attachment-21256" style="width: 300px" class="wp-caption alignright"><img alt="image placeholder" ><figcaption id="caption-attachment-21256" class="wp-caption-text">图片来源：<a href="https://gophersource.com/" target="_blank" rel="noopener">GopherSource</a></figcaption></figure>
 <p>反转控制<a title="IoC - Inversion of Control" href="https://en.wikipedia.org/wiki/Inversion_of_control" target="_blank" rel="noopener">IoC – Inversion of Control</a> 是一种软件设计的方法，其主要的思想是把控制逻辑与业务逻辑分享，不要在业务逻辑里写控制逻辑，这样会让控制逻辑依赖于业务逻辑，而是反过来，让业务逻辑依赖控制逻辑。在《<a href="https://coolshell.cn/articles/9949.html" target="_blank" rel="noopener">IoC/DIP其实是一种管理思想</a>》中的那个开关和电灯的示例一样，开关是控制逻辑，电器是业务逻辑，不要在电器中实现开关，而是把开关抽象成一种协议，让电器都依赖之。这样的编程方式可以有效的降低程序复杂度，并提升代码重用。</p>
 <section class="post-series"><h3 class="post-series-title">本文是全系列中第4 / 10篇：<a href="https://coolshell.cn/articles/series/go%e7%bc%96%e7%a8%8b%e6%a8%a1%e5%bc%8f">Go编程模式</a>
 </h3>
@@ -5558,7 +5526,6 @@ func (set *IntSet) Delete(x int) {
 }</pre>
 <p>这个就是控制反转，不再由 控制逻辑 <code>Undo</code> 来依赖业务逻辑 <code>IntSet</code>，而是由业务逻辑 <code>IntSet</code> 来依赖 <code>Undo</code> 。其依赖的是其实是一个协议，这个协议是一个没有参数的函数数组。我们也可以看到，我们 Undo 的代码就可以复用了。</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2020-12-26T16:57:48+08:00</pubDate>
 <guid>https://coolshell.cn/articles/21214.html</guid>
@@ -5568,7 +5535,7 @@ func (set *IntSet) Delete(x int) {
 <title><![CDATA[ Go编程模式：Pipeline ]]></title>
 <link>https://coolshell.cn/articles/21228.html</link>
 <content><![CDATA[ 
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>本篇文章，我们着重介绍Go编程中的Pipeline模式。对于Pipeline用过Unix/Linux命令行的人都不会陌生，他是一种把各种命令拼接起来完成一个更强功能的技术方法。在今天，流式处理，函数式编程，以及应用网关对微服务进行简单的API编排，其实都是受pipeline这种技术方式的影响，Pipeline这种技术在可以很容易的把代码按单一职责的原则拆分成多个高内聚低耦合的小模块，然后可以很方便地拼装起来去完成比较复杂的功能。</p>
 <section class="post-series"><h3 class="post-series-title">本文是全系列中第8 / 10篇：<a href="https://coolshell.cn/articles/series/go%e7%bc%96%e7%a8%8b%e6%a8%a1%e5%bc%8f">Go编程模式</a>
 </h3>
@@ -5791,7 +5758,7 @@ func prime(in &lt;-chan int) &lt;-chan int {
   return out
 }</pre>
 <p>用图片表示一下，整个程序的结构如下所示：</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <h4>
 <span class="ez-toc-section" id="%E5%BB%B6%E4%BC%B8%E9%98%85%E8%AF%BB"></span>延伸阅读<span class="ez-toc-section-end"></span>
 </h4>
@@ -5814,7 +5781,6 @@ func prime(in &lt;-chan int) &lt;-chan int {
 </li>
 </ul>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2020-12-26T17:04:59+08:00</pubDate>
 <guid>https://coolshell.cn/articles/21228.html</guid>
@@ -5824,7 +5790,7 @@ func prime(in &lt;-chan int) &lt;-chan int {
 <title><![CDATA[ Go 编程模式：k8s Visitor 模式 ]]></title>
 <link>https://coolshell.cn/articles/21263.html</link>
 <content><![CDATA[ 
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >本篇文章主要想讨论一下，Kubernetes 的 <code>kubectl</code> 命令中的使用到到的一个编程模式 – Visitor（注：其实，<code>kubectl</code> 主要使用到了两个一个是Builder，另一个是Visitor）。本来，Visitor 是面向对象设计模英中一个很重要的设计模款（参看Wikipedia<a href="https://en.wikipedia.org/wiki/Visitor_pattern" target="_blank" rel="noopener"> Visitor Pattern词条</a>），这个模式是一种将算法与操作对象的结构分离的一种方法。这种分离的实际结果是能够在不修改结构的情况下向现有对象结构添加新操作，是遵循开放/封闭原则的一种方法。这篇文章我们重点看一下 <code>kubelet</code> 中是怎么使用函数式的方法来实现这个模式的。</p>
 <section class="post-series"><h3 class="post-series-title">本文是全系列中第9 / 10篇：<a href="https://coolshell.cn/articles/series/go%e7%bc%96%e7%a8%8b%e6%a8%a1%e5%bc%8f">Go编程模式</a>
 </h3>
 <ul class="post-series-list">
@@ -6122,7 +6088,6 @@ v.Visit(LoadFile)</pre>
 <p>是不是比之前的那个简单？注意，这个<code>DecoratedVisitor</code> 同样可以成为一个Visitor来使用。</p>
 <p>好，上面的这些代码全部存在于 <code>kubectl</code> 的代码中，你看懂了这里面的代码逻辑，相信你也能够看懂 <code>kubectl</code> 的代码了。</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2020-12-26T19:25:46+08:00</pubDate>
 <guid>https://coolshell.cn/articles/21263.html</guid>
@@ -6132,7 +6097,7 @@ v.Visit(LoadFile)</pre>
 <title><![CDATA[ 如何做一个有质量的技术分享 ]]></title>
 <link>https://coolshell.cn/articles/21589.html</link>
 <content><![CDATA[ 
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >分享信息并不难，大多数人都能做到，就算是不善言谈性格内向的技术人员，通过博客或社交媒体，或是不正式的交流，他们都能或多或少的做到。但是如果你想要做一个有质量有高度的分享，这个就难了，所谓的有质量和有高度，我心里面的定义有两点：1）分享内容的保鲜期是很长的，2）会被大范围的传递。我们团队内每周都在做技术分享，虽然分享的主题都很有价值，但是分享的质量参差不齐，所以，想写下这篇文章 。供大家参考。</p>
 <p>首先，我们先扪心自问一下，我们自己觉得读到的好的技术文章是什么？我不知道大家的是什么，我个人认为的好的文章是下面这样的：</p>
 <ul>
 <li>
@@ -6211,9 +6176,8 @@ v.Visit(LoadFile)</pre>
 <li>Further reading list.</li>
 </ul>
 </blockquote>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2021-07-13T13:00:46+08:00</pubDate>
 <guid>https://coolshell.cn/articles/21589.html</guid>
@@ -6223,7 +6187,7 @@ v.Visit(LoadFile)</pre>
 <title><![CDATA[ Go编程模式 ： 泛型编程 ]]></title>
 <link>https://coolshell.cn/articles/21615.html</link>
 <content><![CDATA[ 
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >Go语言的1.17版本发布了，其中开始正式支持泛型了。虽然还有一些限制（比如，不能把泛型函数export），但是，可以体验了。我的这个《Go编程模式》的系列终于有了真正的泛型编程了，再也不需要使用反射或是go generation这些难用的技术了。周末的时候，我把Go 1.17下载下来，然后，体验了一下泛型编程，还是很不错的。下面，就让我们来看一下Go的泛型编程。（注：不过，如果你对泛型编程的重要性还不是很了解的话，你可以先看一下之前的这篇文章《<a title="Go 编程模式：Go Generation" href="https://coolshell.cn/articles/21179.html" target="_blank" rel="noopener">Go编程模式：Go Generation</a>》，然后再读一下《<a title="Go编程模式：Map-Reduce" href="https://coolshell.cn/articles/21164.html" target="_blank" rel="noopener">Go编程模式：MapReduce</a>》）</p>
 <section class="post-series"><h3 class="post-series-title">本文是全系列中第10 / 10篇：<a href="https://coolshell.cn/articles/series/go%e7%bc%96%e7%a8%8b%e6%a8%a1%e5%bc%8f">Go编程模式</a>
 </h3>
 <ul class="post-series-list">
@@ -6664,7 +6628,6 @@ print(no_vacation)
 //{Hao 44 0 8000.5} {Jack 26 0 4000} {Marry 29 0 6000}</pre>
 <p>怎么样，你大概了解了泛型编程的意义了吧。</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2021-09-04T13:44:02+08:00</pubDate>
 <guid>https://coolshell.cn/articles/21615.html</guid>
@@ -6674,8 +6637,8 @@ print(no_vacation)
 <title><![CDATA[ 源代码特洛伊木马攻击 ]]></title>
 <link>https://coolshell.cn/articles/21649.html</link>
 <content><![CDATA[ 
-<p><img alt="image placeholder" >
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" >最近，我们在 Github 的 Code Review 中看到 Github 开始出现下面这个 Warning 信息—— “This file contains bidirectional Unicode text that may be interpreted or compiled differently than what appears below.”也就是说我们的代码中有一些 bidirectional unicode 的文本，中文直译作 “双向文本”，意思是一些语言是从左到右的，而另一些则是是从右到左的（如：阿拉伯语），如果同一个文件里，即有从左向右的文本也有从右向左文本两种的混搭，那么，就叫bi-direction。术语通常缩写为“ <b>BiDi</b> ”或“ <b>bidi</b> ”。使用双向文本对于中国人来说并不陌生，因为中文又可以从左到右，也可以从右到左，还可以从上到下。</p>
+<p><img alt="image placeholder" ></p>
 <p>早期的计算机仅设计为基于拉丁字母的从左到右的方式。添加新的字符集和字符编码使许多其他从左到右的脚本能够得到支持，但不容易支持从右到左的脚本，例如阿拉伯语或希伯来语，并且将两者混合使用更是不可能。从右到左的脚本是通过<a title="ISO/IEC 8859-6" href="https://en.wikipedia.org/wiki/ISO/IEC_8859-6">ISO/IEC 8859-6</a>和<a title="ISO/IEC 8859-8" href="https://en.wikipedia.org/wiki/ISO/IEC_8859-8">ISO/IEC 8859-8</a>等编码引入的，通常以书写和阅读顺序存储字母。可以简单地将从左到右的显示顺序翻转为从右到左的显示顺序，但这样做会牺牲正确显示从左到右脚本的能力。通过双向脚本支持，可以在同一页面上混合来自不同脚本的字符，而不管书写方向如何。</p>
 <p><span id="more-21649"></span></p>
 <p>双向文本支持是计算机系统正确显示双向文本的能力。对于Unicode来说，其标准为完整的 BiDi 支持提供了基础，其中包含有关如何编码和显示从左到右和从右到左脚本的混合的详细规则。你可以使用一些控制字符来帮助你完成双向文本的编排。</p>
@@ -6699,7 +6662,7 @@ func main() {
 }</pre>
 <p>这个代码你看上去没有什么 奇怪的地方，但是你在执行的时候（可以直接上Go Playground上执行  –<a href="https://play.golang.org/p/e2BDZvFlet0" target="_blank" rel="noopener"> https://play.golang.org/p/e2BDZvFlet0</a>），你会发现，结果是 0，也就是说“Hello, World”中没有值为 1 的 bit 位。这究竟发生了什么事？</p>
 <p>如果你把上面这段代码拷贝粘贴到字符界面上的 vim 编辑器里，你就可以看到下面这一幕。</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>其中有两个浅蓝色的尖括号的东西—— <code>&lt;202e&gt;</code> 和 <code>&lt;202d&gt;</code> 。这两个字符是两个Unicode的控制字符（注：完整的双向文本控制字符参看 <a href="https://www.compart.com/en/unicode/bidiclass" target="_blank" rel="noopener">Unicode Bidirectional Classes</a>）：</p>
 <ul>
 <li>
@@ -6716,9 +6679,9 @@ func main() {
 <blockquote><p>在 Unicode 规范到 14.0 的双向算法中发现了一个问题。它允许通过控制序列对字符进行视觉重新排序，可用于制作源代码，呈现与编译器和解释器执行逻辑完全不同的逻辑。攻击者可以利用这一点对接受 Unicode 的编译器的源代码进行编码，从而将目标漏洞引入人类审查者不可见的地方。</p></blockquote>
 <p>这个安全问题在剑桥大学的这篇论文“<a href="https://www.trojansource.codes/" target="_blank" rel="noopener">Some Vulnerabilities are Invisible</a>”中有详细的描述。其中PDF版的文章中也给了这么一个示例：</p>
 <p>通过双向文本可以把下面这段代码：</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>伪装成下面的这个样子：</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>在图 2 中<code>'alice'</code>被定义为价值 100，然后是一个从 Alice 中减去资金的函数。最后一行以 50 的值调用该函数，因此该小程序在执行时应该给我们 50 的结果。</p>
 <p>然而，图 1 向我们展示了如何使用双向字符来破坏程序的意图：通过插入<strong>RLI (Right To Left Isolate)</strong><i> – </i><strong>U+2067</strong><i>，</i>我们将文本方向从传统英语更改为从右到左。尽管我们使用了减去资金功能，但图 1 的输出变为 100。</p>
 <p>除此之外，支持Unicode还可以出现很多其它的攻击，尤其是通过一些“不可见字符”，或是通过“同形字符”在源代码里面埋坑。比如文章“<a href="https://certitude.consulting/blog/en/invisible-backdoor/" target="_blank" rel="noopener">The Invisible Javascript Backdoor</a>”里的这个示例：</p>
@@ -6749,7 +6712,7 @@ app.get('/network_health', async (req, res) =&gt; {
 app.listen(8080);</pre>
 <p>上面这个代码实现了一个非常简单的网络健康检查，HTTP会执行 <code>ping -c 1 google.com</code> 以及 <code>curl -s http://example.com</code> 这两个命令来查看网络是否正常。其中，可选输入 HTTP 参数<code>timeout</code>限制命令执行时间。</p>
 <p>然后，上面这个代码是有不可见的Unicode 字符，如果你使用VSCode，把编码从 Unicode 改成 DOS (CP437) 后你就可以看到这个Unicode了</p>
-<p><img alt="image placeholder" >
+<p><img alt="image placeholder" ></p>
 <p>于是，一个你看不见的 <code>πàñ</code> 变量就这样生成了，你再仔细看一下整个逻辑，这个看不见的变量，可以让你的代码执行他想要的命令。因为，http 的请求中有第二个参数，这个参数可奖在后面被执行。于是我们可以构造如下的的 HTTP 请求：</p>
 <p style="text-align: center;"><strong>http://host:port/network_health?%E3%85%A4=&lt;any command&gt;</strong></p>
 <p>其中的，%E3%85%A4 就是 <code>\u3164</code> 这个不可见Unicode 的编码，于是，一个后门代码就这样在神不知鬼不觉的情况下注入了。</p>
@@ -6761,7 +6724,6 @@ app.listen(8080);</pre>
 <p>如何你以为 <code>ǃ</code> 是 惊叹号，其实不是，它是一个Unicode <code>╟â</code>。这种东西就算你把你的源码转成 DOS(CP437) 也没用，因为用肉眼在一大堆正常的字符中找不正常的，我觉得是基本不可能的事。</p>
 <p>现在，是时候检查一下你的代码有没有上述的这些情况了……</p>
 <p>（全文完）</p>
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
  ]]></content>
 <pubDate>2021-11-19T17:02:46+08:00</pubDate>
 <guid>https://coolshell.cn/articles/21649.html</guid>
