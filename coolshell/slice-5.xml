@@ -4,7 +4,7 @@
 <title>酷 壳 – CoolShell</title>
 <description>享受编程和技术所带来的快乐 – Coding Your Ambition</description>
 <link>https://coolshell.cn</link>
-<pubDate>2021-11-26T11:34:01+08:00</pubDate>
+<pubDate>2021-11-26T11:41:56+08:00</pubDate>
 <!-- other elements omitted from this example -->
 <item>
 <title><![CDATA[ 程序员技术练级攻略 ]]></title>
@@ -277,9 +277,6 @@
 <p>（全文完）</p>
 <hr>
 <p><strong><span style="color: #cc0000; font-size: 16pt;">注：该文最新的版本在这里</span>《<a style="font-size: 16pt;" href="https://coolshell.cn/articles/18360.html">程序员技术练级攻略（2018版）</a>》<span style="color: #cc0000; font-size: 16pt;">（需要付费阅读）</span></strong></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-07-18T10:31:22+08:00</pubDate>
 <guid>https://coolshell.cn/articles/4990.html</guid>
@@ -305,9 +302,6 @@
 <p>爽啊，戴着黑礼帽思考问题比我想像中的要有趣得多，现在我必需要把它摘下来了。</p>
 <p><strong>看完这篇文章，你觉得是人的问题还是软件开发方法的问题？</strong></p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-07-21T08:37:03+08:00</pubDate>
 <guid>https://coolshell.cn/articles/5044.html</guid>
@@ -450,9 +444,6 @@ echo "two: $two ($(typeof $two))"
 echo "three: $three ($(typeof $two))"</pre>
 <p> </p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-07-21T12:39:11+08:00</pubDate>
 <guid>https://coolshell.cn/articles/5035.html</guid>
@@ -501,9 +492,6 @@ class time{
 </ol>
 <div>各位无证程序员们，看到这个例子，你们是不是感到编程的压力了？呵呵。</div>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-08-01T08:25:59+08:00</pubDate>
 <guid>https://coolshell.cn/articles/5075.html</guid>
@@ -590,9 +578,6 @@ class time{
 <p>上面是原作者介绍的一些资源，看起来是给初学者用的，我也是初学者，在<strong>这里想问一下各位熟悉iOS开发的大拿，在这个基础上，你们有没有什么推荐？</strong></p>
 <p><em><strong>—-更新 2011/8/3，新浪微博上我以前的一个同事给了大家下面的推荐—-</strong></em></p>
 <p>//<a href="https://weibo.com/n/%E6%9D%8E%E6%9D%A8iBabyNote">@李杨iBabyNote</a>：加上Three20吧，一个非常好的的开源iphone UI library. facebook 用的，品质有保证。 还有tweetero (Open Source Twitter App for iPhone),国内sina/qq微博 API 基本copy twitter. 所以想做iphone上和围脖相关的应用可以参考此代码</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-08-02T08:40:11+08:00</pubDate>
 <guid>https://coolshell.cn/articles/5089.html</guid>
@@ -699,9 +684,6 @@ and be on your way</p>
 <p>这个错误对于中国用户不会陌生。这个错误以前更多的是Connection Reset，N年前你访问很多国外的网站者会遇到Connection Reset错，今天呢，更多的是“Time Out”，因为，关键词匹配太耗性能了，图片和视频的无法使用关键词过滤，所以，还不如直接封了IP，简单而粗暴，今天的Connection Reset更多的是出现在使用Google的搜索，当你搜某些关键词时就出这个错了。</p>
 <figure id="attachment_5122" aria-describedby="caption-attachment-5122" style="width: 593px" class="wp-caption aligncenter"><img alt="image placeholder" ><figcaption id="caption-attachment-5122" class="wp-caption-text">该页无法显示 Connection Reset</figcaption></figure>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-08-08T08:37:36+08:00</pubDate>
 <guid>https://coolshell.cn/articles/5107.html</guid>
@@ -1251,9 +1233,6 @@ and be on your way</p>
 </div>
 </div>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-08-11T08:40:12+08:00</pubDate>
 <guid>https://coolshell.cn/articles/5132.html</guid>
@@ -1342,9 +1321,6 @@ and be on your way</p>
 <p>呵呵，用户提不出准确的需求这太正常不过了，但是这不代表用户傻，可以糊弄。另外，尤其是那些创新的项目，哪有什么需求，只有一个大概的方向，谁都不知道该做成什么样，我现在做的就是这样的项目。不做个原型，不前期试探一下用户和市场，谁也不知道。</p>
 <p>另外，我想告诉这些人，用户需求提不出来很正常，提偏了也很正常，关键在于我们的需求分析能力。福特汽车公司的创始人说过——“<strong>如果我问用户要什么，他们会告诉我他们要一匹更快的马！</strong>”，<strong>大多数平庸的人都会去饲养“一匹更快的马”，而不是分析需求后了解到用户的需求是——“更快的交通工具”。</strong></p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-08-12T08:22:58+08:00</pubDate>
 <guid>https://coolshell.cn/articles/5143.html</guid>
@@ -1433,9 +1409,6 @@ and be on your way</p>
 <p style="text-align: center;"><img alt="image placeholder" ></p>
 <p style="text-align: left;">（全文完）</p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-08-14T14:49:22+08:00</pubDate>
 <guid>https://coolshell.cn/articles/5160.html</guid>
@@ -2170,9 +2143,6 @@ and be on your way</p>
 </div>
 <p>(全文完)</p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-08-15T08:21:50+08:00</pubDate>
 <guid>https://coolshell.cn/articles/5164.html</guid>
@@ -2337,9 +2307,6 @@ end
 <li><a href="http://haacked.com/archive/2009/08/26/method-missing-csharp-4.aspx">Fun With Method Missing and C# 4</a></li>
 </ul>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-08-15T10:37:13+08:00</pubDate>
 <guid>https://coolshell.cn/articles/5202.html</guid>
@@ -2367,9 +2334,6 @@ end
 <p>——————</p>
 <p style="text-align: center;"><img alt="image placeholder" ></p>
 <p>不知道这是不是你的经历，我经历过很多次这样的事。对于很多维护性质的项目，我犯过的错误让我成了一个实实在在的保守派，我几乎不敢动，那怕看到代码很不合口味。当然，那些从来没有写过代码的敏捷咨询师一定会说用TDD或是UT可以让你的重构更有效也更容易，因为这样会让他们显得更我价值，但我想告诉你，这种脱离实际的说法很不负责任，这就好比说——<strong> 我在杀猪的时候遇到了一些麻烦，因为我对猪的生理结构不清楚，或是这本来就是一头畸形的猪，导致我杀的猪很难看，而伟大的敏捷咨询师却告诉我，要用一把更快更漂亮的刀</strong>。软件开发永远不是那么简单的事，杀猪也一样。</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-08-16T08:42:35+08:00</pubDate>
 <guid>https://coolshell.cn/articles/5201.html</guid>
@@ -2431,9 +2395,6 @@ end
 <p>新浪的东西其实挺没创意的，<a title="微软用新浪来当反面教材" href="https://coolshell.cn/articles/3872.html" target="_blank">微软用新浪在当过反面教材</a>，某WEB设计师也用<a title="为什么中国的网页设计那么烂？" href="https://coolshell.cn/articles/3605.html" target="_blank">新浪来当过反面教材</a>。不过，新浪微博还是很强大的，尤其是删贴和阻止信息传播上，经过观察，的确很强大。</p>
 <p><span style="color: #008000;">我把我这篇文章里的那个欺诈示例转到了我的微博（<a href="https://weibo.com/n/%E5%B7%A6%E8%80%B3%E6%9C%B5%E8%80%97%E5%AD%90"><span style="color: #008000;">@左耳朵耗子</span></a>）做了个测试。结果，在有这篇文章做提示的情况下，还是有些人相信了，还有些人骂我并把我取消关注和拉黑了。我真是服了，我故意造得这么假这么娱乐，结果还是有些人认真了。你说那些骗子看到这个情况岂不是开心之极啊。再次说明新浪微博的这种上下文的方式弊端！</span></p>
 <p>（<strong>转载请注明作者和出处</strong>）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-08-17T08:34:04+08:00</pubDate>
 <guid>https://coolshell.cn/articles/5247.html</guid>
@@ -2745,9 +2706,6 @@ iota(c, c+3, 'a'); //{'a','b','c'} </pre>
 <p>总之，看下来，C++11 还是很学院派，很多实用的东西还是没有，比如： XML，sockets，reflection，当然还有垃圾回收。看来要等到C++ 20了。呵呵。不过C++ 11在性能上还是很快。参看 Google’s <a href="http://www.itproportal.com/2011/06/07/googles-rates-c-most-complex-highest-performing-language/">benchmark tests</a>。原文还引用Stroustrup 的观点：C++11 是一门新的语言——一个更好的 C++。</p>
 <p>如果把所有的改变都列出来，你会发现真多啊。我估计C++ Primer那本书的厚度要增加至少30%以上。C++的门槛会不会越来越高了呢？我不知道，但我个人觉得这门语言的确是变得越来越令人望而却步了。（想起了某人和我说的一句话——学技术真的是太累了，还是搞方法论好混些？）</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-08-19T08:43:59+08:00</pubDate>
 <guid>https://coolshell.cn/articles/5265.html</guid>
@@ -2878,9 +2836,6 @@ dictionary<strong><span style="color: #ff0000;">[“someKey”]</span></strong> 
 <p>“哦，不对，是一个参数。”</p>
 <p>你是否也有类似的经历呢？</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-08-23T10:04:06+08:00</pubDate>
 <guid>https://coolshell.cn/articles/5292.html</guid>
@@ -3011,9 +2966,6 @@ dictionary<strong><span style="color: #ff0000;">[“someKey”]</span></strong> 
 </ul>
 <div>（<strong>以上内容，转载时请保持原文一致，并请注明作者和出处</strong>）</div>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-08-25T08:48:48+08:00</pubDate>
 <guid>https://coolshell.cn/articles/5353.html</guid>
@@ -3142,9 +3094,6 @@ if(NULL != fname) {
 <p><code data-enlighter-language="c" class="EnlighterJSRAW">float result = num-x&lt;10 ? f(result):f(-result);</code></p>
 <p>妈的！我的这个错误在愚蠢程度上和上面那个作者出的错误有一拼。</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-08-26T10:17:48+08:00</pubDate>
 <guid>https://coolshell.cn/articles/5388.html</guid>
@@ -3602,9 +3551,6 @@ if(NULL != fname) {
 <p style="text-align: center;">——————————正文结束——————————</p>
 <p>对于vi/vim只是点评一点：这是一个你不需要使用鼠标，不需使用小键盘，只需要使用大键盘就可以完成很多复杂功能文本编辑的编辑器。不然，<a title="Visual Studio的Vim插件" href="https://coolshell.cn/articles/1901.html" target="_blank">Visual Studio也不就会有vim的插件了</a>。</p>
 <p>(全文完)</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-09-07T08:27:26+08:00</pubDate>
 <guid>https://coolshell.cn/articles/5426.html</guid>
@@ -3655,9 +3601,6 @@ filter.setCaseInsensitive(false)</pre>
 <p><span style="color: #cc0000;">所以，程序中不要出现magic number，true/false 也是一种 magic number。但是，我想告诉大家，从API设计的角度来说，你无法强制调用者用常量来取代true/false，定义成枚举类型是最好的选择</span>。</p>
 <p>最后，如果你想设计一个好的API，强烈推荐你读一下Nokia的Qt的《<a href="http://qt-project.org/wiki/API-Design-Principles" target="_blank">API Design Principles</a>》，本文就是其中的“<a href="http://developer.qt.nokia.com/wiki/API_Design_Principles#e7794937cba47d5e9c54d50a6a32328b" target="_blank">Boolean Trap</a>”。</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-09-08T15:35:18+08:00</pubDate>
 <guid>https://coolshell.cn/articles/5444.html</guid>
@@ -3689,9 +3632,6 @@ filter.setCaseInsensitive(false)</pre>
 <li><a href="http://jrmiii.com/2009/03/06/learning-vim-the-pragmatic-way.html">http://jrmiii.com/2009/03/06/learning-vim-the-pragmatic-way.html</a></li>
 </ul>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-09-16T09:07:05+08:00</pubDate>
 <guid>https://coolshell.cn/articles/5479.html</guid>
@@ -3945,9 +3885,6 @@ filter.setCaseInsensitive(false)</pre>
 <p><a href="https://www.tutorialspoint.com/cplusplus/cpp_web_programming.htm" target="_blank">http://www.tutorialspoint.com/cplusplus/cpp_web_programming.htm</a> （注意翻墙）</p>
 <div>（全文完）</div>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-09-20T08:32:52+08:00</pubDate>
 <guid>https://coolshell.cn/articles/5224.html</guid>
@@ -3986,9 +3923,6 @@ filter.setCaseInsensitive(false)</pre>
 </ul>
 <div>（全文完）</div>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-09-21T08:26:58+08:00</pubDate>
 <guid>https://coolshell.cn/articles/5514.html</guid>
@@ -4066,9 +4000,6 @@ filter.setCaseInsensitive(false)</pre>
 <p>还有当时用猫上网的年代，NetAnt成了下载软件的装机必备。下载速率平均只有3k-4kBps，这种生活是怎么过来的啊。哈。</p>
 <p><img alt="image placeholder" ></p>
 <p>相信你也有你自己的怀旧的故事，不妨分享一下。</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-10-14T13:58:40+08:00</pubDate>
 <guid>https://coolshell.cn/articles/5576.html</guid>
@@ -4098,9 +4029,6 @@ filter.setCaseInsensitive(false)</pre>
 <p>模型的产生是柔性的，主要源于灵感；过程的执行是刚性的，主要源于逻辑。苹果砸在牛顿的脑袋上能砸出万有引力模型，砸在我们脑袋上却只是“哎呦”一声；但一个苹果3元钱，两个苹果2*3=6元钱却在牛顿和我们面前是平等的。迷信灵感和迷信逻辑是两个错误的极端，孔子讲“天下国家可均也，爵禄可辞也，白刃可蹈也，中庸不可能也”，任何一项技能的高级阶段都是关于“度”的艺术。如同光具有波粒二象性，软件开发也具有艺术创作和工业生产的二象性，它包含了柔性的设计和刚性的过程。越是不成熟的前沿领域越表现出柔性特征；越是成熟的一般领域越表现出工业生产的特征。因此，一个以新产品为主的创业型公司应当更注重设计，更需要画家、诗人般的创造型人才；而业务成熟产品稳定的大公司应当更注重过程，更需要踏踏实实的生产线工人似的人才。但在当今这个瞬息万变的信息时代，即使是世界500强的大公司也越来越不稳定，越来越需要创新才能适应，所以即使大公司也不可忽视软件开发的柔性特征。同时，我们也不能迷信模型，过程同样可以成为企业的核心竞争力，比如：富士康。虚虚实实，实实虚虚，其妙无穷。老外做Nike品牌（虚），我们做代工生产（实），高额利润被老外拿走了；我们经营航空公司（虚），老外生产波音飞机（实）高价卖给我们，高额利润又被老外拿走了。靠虚取胜还是靠实取胜？这是个问题^_^</p>
 <p>或许我对于模型柔性的描述不太让人满意，人们多习惯于有章可循的感觉，即便不是死板的知识，起码要找个“在某某思想的指导下”才觉得心里有着落。或许还有人说，模型的确重要，那么我们能不能有一个过程、模式或套路来推导出模型呢？比如，现在非常流行的从用户需求出发的分析模式，即“分析需求，抽象出共性，共性是本质的，本质是稳定的”，这类模式的特点符合人们希望找到套路的心理，一看就明白，容易操作，有成就感。我不否认这类模式的确可以得出可用的软件设计，沿用成熟的模型也未尝不可。但我们应该明白，心中的世界远比现实的世界更广大更美妙。世界是多元的，用户需求、成熟模型等直接可见的东西只代表了某几个维度的视图，设计者心中应当有更多的维度！用户需要一个文本编辑器，是设计者心中的世界决定了他交出的作品是Vi，还是Emacs，亦或是Notepad。亨利·福特说：“如果你问用户需要什么，他会告诉你一匹更快的马”。汽车源于福特心中的世界，这是一个比只有马的世界更多彩的世界。乔布斯是一个不重视市场调研的人，iPod，iPhone，iPad都不是发个问卷，做个市场调查看看用户需要什么的结果。Apple是乔布斯心中的世界在现实中的投影！所以，请打破“从用户需求出发”，“从模式出发”的迷信，释放你的想象力，让自己心中的世界去包容现实的世界吧！</p>
 <p>每个人心中都有一个属于自己的世界，牛顿运动定律是牛顿心中的世界，相对论是爱因斯坦心中的世界。哪一个才是本来的世界呢？有没有本来的世界呢？本来的世界是什么样子呢？… 老子给我们启示“道可道，非常道”，说得清，道得明，想得到的都不是永恒的真理，所以真理不可言说，对真理的探索永远没有止境……</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-10-16T13:16:55+08:00</pubDate>
 <guid>https://coolshell.cn/articles/5625.html</guid>
@@ -4143,9 +4071,6 @@ filter.setCaseInsensitive(false)</pre>
 </ul>
 <div>（全文完）</div>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-10-17T08:38:15+08:00</pubDate>
 <guid>https://coolshell.cn/articles/5531.html</guid>
@@ -4180,9 +4105,6 @@ filter.setCaseInsensitive(false)</pre>
 <p><em><strong>————更新 2011/10/20 15:00————</strong></em></p>
 <p>有些人觉得这篇文章是给培训公司做广告或是炒作。有些人觉得几百元钱在北京生存并不可能。我可以理解你们的怀疑，但这些言论让我有些无语，我只希望你们能在做些调查后，再做这样的结论。<strong><span style="color: #cc0000;">你可以看到，王平在第一个培训公司没有学到什么，在第二个培训公司也没有学到什么，而是在和我的朋友阎斌去尝试创业时才学到了很多。呼唤这些人的阅读智商啊</span></strong>。</p>
 <p>这个世界有时候并不是像我们所想像的那样，在北京，几百元一个月的人并不少，上大学也好，去培训公司也好，这都不重要，重要的是我们想改变自己的那种心态和积极。而我只希望王平的经历能给大家带来人生的一些感触。</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-10-20T08:26:50+08:00</pubDate>
 <guid>https://coolshell.cn/articles/5651.html</guid>
@@ -4240,9 +4162,6 @@ filter.setCaseInsensitive(false)</pre>
 </ul>
 <p>关于软件项目管理的文章，还可以参看《<a title="软件公司的两种管理方式" href="https://coolshell.cn/articles/4951.html">软件公司的两种管理方式</a>》，最后，欢迎大家表达观点。</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-10-25T08:24:44+08:00</pubDate>
 <guid>https://coolshell.cn/articles/5686.html</guid>
@@ -4395,9 +4314,6 @@ console.log(name + ‘: ‘ + result); })<br>
 <li><a title="An Approach to Internal Domain-Specific Languages in Java" href="http://www.infoq.com/articles/internal-dsls-java">An Approach to Internal Domain-Specific Languages in Java</a></li>
 </ul>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-10-31T08:28:47+08:00</pubDate>
 <guid>https://coolshell.cn/articles/5709.html</guid>
@@ -4546,9 +4462,6 @@ int main(void)
 <p style="padding-left: 30px;"><strong>3）保证性能，就算牺牲移植性。</strong></p>
 <p>今天很多语言进化得很高级了，语法也越来越复杂和强大，但是C语言依然光芒四射，Dennis离世了，但是C语言的这些设计思路将永远不朽。</p>
 <p><strong>（请勿用于商业用途，转载时请注明作者和出处）</strong></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-11-01T08:26:38+08:00</pubDate>
 <guid>https://coolshell.cn/articles/5761.html</guid>
@@ -4696,9 +4609,6 @@ int main(void)
 <p>老实说，我不知道这篇文章怎么收尾。我今天在这里说得太多了。因为这篇文章花了我6年时间。请包涵我言语冒犯之处，包涵我可能误解了一些产品，团队，或某个人。也许我们真的在开始做了很多平台方面的东西，只是我没看到。我只想说声对不起。</p>
 <p>但是，我们现在开始必需把事做对了！</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-11-03T09:19:12+08:00</pubDate>
 <guid>https://coolshell.cn/articles/5701.html</guid>
@@ -4789,9 +4699,6 @@ int main(void)
 <p>这些失败，还有那所暗示的公司的优先级，指出了一个最基本的企业文化的问题，其会让问题出现在任一发布版中：因为他们缺乏尊守必要的数据库系统的设计律条。</p>
 <p>请慎重考虑这些警告。</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-11-10T08:28:26+08:00</pubDate>
 <guid>https://coolshell.cn/articles/5826.html</guid>
@@ -4884,9 +4791,6 @@ int main(void)
 </h4>
 <p>最后，我要说明一下，本文是我思考了十天左右的文章，不存在喝多了，也不存在凌晨写作头脑不清的问题，也不存在本来要把一篇给小范围传播的文章给大家看。对于我在文中批评的那些公司，我希望他们能把我的这些rant当成一种建议和鞭策，当然，你们需要适应我调侃和尖锐的语气。千万不要学那些敏感人士，或是黑我的blog，或是骂人，因为这样只会让你们看上去更为难堪。</p>
 <p><span style="color: #cc0000;">最后注明一下版权，<strong>本文由陈皓原创发表，你可以任意传载，但必需在明显位置注明作者和出处，而且不能用于任何商业用途</strong>。</span></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-11-15T08:31:21+08:00</pubDate>
 <guid>https://coolshell.cn/articles/5815.html</guid>
@@ -4977,9 +4881,6 @@ int main(void)
 <p style="text-align: left;"><span style="color: #cc0000;">最后注明一下版权，<strong>本文由陈皓原创发表，你可以任意传载，但必需在明显位置注明作者和出处，而且不能用于任何商业用途</strong></span>。</p>
 </div>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-11-22T08:29:24+08:00</pubDate>
 <guid>https://coolshell.cn/articles/5901.html</guid>
@@ -5043,9 +4944,6 @@ int main(void)
 <p>这是给程序员们女朋友的建议。如果某程序员要和你分手，你可以参照这位国外程序员女友的作法——“你可以在facebook和twitter上拉黑我，也可以不回我的短信，但是，你永远不可能阻止我对你在Reddit上发的所有的贴投反对票！FUCK YOU ！”</p>
 <p><img alt="image placeholder" ></p>
 <p>就这些，希望对你会喜欢。</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-11-24T12:39:04+08:00</pubDate>
 <guid>https://coolshell.cn/articles/5537.html</guid>
@@ -5087,9 +4985,6 @@ int main(void)
 <p>既然这样，那么我就不得不加粗朋友的这句话了——<strong>用QQ的和裸奔的区别在于“裸奔”是自愿的！！</strong> 而且，我仿佛、似乎、好像，隐约还听到有人在欢快地呻吟着：“在QQ上裸奔的用户体验太~~好~~啦~~，让我高潮不断啊~~~啊~~~啊~~~啊~~~~~~~~”。行了行了，你可以裸奔，但是没有必要那么爽吧。</p>
 <p>（对不起，我本不应该骂人的，更不应该还骂的那么低俗，重要的是，这本来应该在新浪微博上骂的，因为那里的骂人用户体验最好的地方……）</p>
 <p>结尾了，你会会说我是一个喷子，呵呵。我想说，<strong>腾讯是一个天使和魔鬼的混合体，东西还是要一分为二的看</strong>，用么还是可以适当用用的，但是我们的头脑还是要清楚一些明白那是怎么一回事。</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-11-25T08:27:09+08:00</pubDate>
 <guid>https://coolshell.cn/articles/5966.html</guid>
@@ -5140,9 +5035,6 @@ int main(void)
 <p>（如果你还有什么样的问题，我可以在继续更新并回答你的问题）</p>
 <p>——————————</p>
 <p>希望你现在明白，关于腾讯的帐号申诉过程，看上去相那么回事，实际上漏洞百出。当然，我不能说腾讯是愚蠢的，因为人家搞得那么大的企业，我只能说人家是在下一盘很大的棋……</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-11-28T08:34:30+08:00</pubDate>
 <guid>https://coolshell.cn/articles/5987.html</guid>
@@ -5795,9 +5687,6 @@ int main(void)
 </tbody>
 </table>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-11-29T11:11:07+08:00</pubDate>
 <guid>https://coolshell.cn/articles/6010.html</guid>
@@ -6055,9 +5944,6 @@ int main(void)
 <p>这里有多的东西被省略了，并不是因为那些可能不是有帮助的答案，而是因为那些东西都太细节了，超出了这个问题的范围，因为这本来就是一个Web开发需要了解东西的Overview。我想你可以去看一下其它人的答案，我有时间，我也会补充别人的答案进来。请随意编辑这个答案，因为可能有些东西忘了，也有可能有些东西不对。</p>
 <p style="text-align: left;">（全文完）</p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-12-07T08:29:49+08:00</pubDate>
 <guid>https://coolshell.cn/articles/6043.html</guid>
@@ -6146,9 +6032,6 @@ int main(void)
 <p style="text-align: center;"><strong>在2011年的年底，我希望大家的2011年没有虚度，而2012年能经历那些有意义的的事。</strong></p>
 <p style="text-align: center;"><span style="color: #cc0000; font-size: 16pt; font-family: 'Microsoft YaHei';"><strong>提前祝大家新年快乐！</strong></span></p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-12-20T08:39:41+08:00</pubDate>
 <guid>https://coolshell.cn/articles/6142.html</guid>
@@ -6317,9 +6200,6 @@ int main(void)
 <p>最后说一下，CSDN在这次事件的表现看上去还是很不错的，道歉也很诚恳，<strong>但是，我还是希望CSDN反思一下为什么数据库会泄露了？内部有不良员工？还是系统不安全被黑？不要只是诚恳道歉，还要找自己的原因。其它的网站可能就很恶劣了。包括新浪，人人，开心等，最恶心的就是腾讯，你说他的安全有问题，他还找一堆人来骂你。</strong></p>
 <p style="text-align: center;"><span style="color: #cc0000; font-size: 16pt; font-family: 'Microsoft YaHei';"><strong>祝大家新年快乐！</strong></span></p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-12-22T12:08:27+08:00</pubDate>
 <guid>https://coolshell.cn/articles/6193.html</guid>
@@ -6602,9 +6482,6 @@ public URL getResource(String name)
 </div>
 <p style="text-align: left;">（全文完）</p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-12-28T12:22:55+08:00</pubDate>
 <guid>https://coolshell.cn/articles/6112.html</guid>
@@ -6639,9 +6516,6 @@ public URL getResource(String name)
 <p>最后，请让我我再次征集——</p>
 <p>call 所有的女程序员，我想给你们写一篇blog，希望你们能和我分享你们的程序员的经历和技术心得。你是男程序员也没有问题，也欢迎分享你身边女程员的故事。 大家可以发邮件至：haoel(at)hotmail.com</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2011-12-30T10:25:02+08:00</pubDate>
 <guid>https://coolshell.cn/articles/6312.html</guid>
@@ -7118,9 +6992,6 @@ pm是一个技术相当强悍的人，至今见过这么多人，我依旧这么
 <span class="ez-toc-section" id="%E5%A5%B3%E7%A8%8B%E5%BA%8F%E5%91%98%E4%BB%AC%EF%BC%8C%E4%B8%BA%E4%BD%A0%E4%BB%AC%E9%AA%84%E5%82%B2%EF%BC%8C%E7%A5%9D%E4%BD%A0%E4%BB%AC2012%E5%B9%B4%E6%9B%B4%E4%B8%8A%E4%B8%80%E5%B1%82%E6%A5%BC%E3%80%82"></span>女程序员们，为你们骄傲，祝你们2012年更上一层楼。<span class="ez-toc-section-end"></span>
 </h5>
 <p><strong>（另外，请各种网站、媒体，报刊，杂志，自由转载或是选取其中的故事做为你们的素材）</strong></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-01-04T08:29:08+08:00</pubDate>
 <guid>https://coolshell.cn/articles/6346.html</guid>
@@ -7263,9 +7134,6 @@ pm是一个技术相当强悍的人，至今见过这么多人，我依旧这么
 <p>现在&lt;compiling-loader&gt;如何影响getResource(“/”)，以及getResourceAsStream“不”被影响全部真相大白。</p>
 <p><span style="color: #ff0000;">注：&lt;compiling-loader&gt;只对获取根路径产生影响，也就是参数为”/”。比如加载”/test/Path.class”不会产生影响。</span></p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-01-05T08:28:59+08:00</pubDate>
 <guid>https://coolshell.cn/articles/6335.html</guid>
@@ -7363,9 +7231,6 @@ return h ^ (h &gt;&gt;&gt; 7) ^ (h &gt;&gt;&gt; 4);
 </ul>
 <p>不过，对于更底层的或是其它形式的攻击，可能就有点麻烦了。</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-01-06T08:36:05+08:00</pubDate>
 <guid>https://coolshell.cn/articles/6424.html</guid>
@@ -7932,9 +7797,6 @@ function bind(fn, bound_this) { var bound_args
 <a href="https://killdream.github.com/blog/2011/10/understanding-javascript-oop/" target="_blank">Understanding Javascript OOP</a>.</li>
 </ul>
 <p><span style="color: #cc0000;"><strong>（转载时请注明作者和出处，请勿用于任何商业用途）</strong></span></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-01-09T08:16:27+08:00</pubDate>
 <guid>https://coolshell.cn/articles/6441.html</guid>
@@ -8122,9 +7984,6 @@ function bind(fn, bound_this) { var bound_args
 <p style="text-align: center;"><strong> Alexa 统计的12306的PV</strong> （注：Alexa的PV定义是：一个用户在一天内对一个页面的多次点击只算一次）</p>
 <p style="text-align: center;"><img alt="image placeholder" ></p>
 <p>（<span style="color: #cc0000;"><strong>本文转载时请注明作者和出处，请勿于记商业目的</strong></span>）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-01-16T08:20:22+08:00</pubDate>
 <guid>https://coolshell.cn/articles/6470.html</guid>
@@ -8230,9 +8089,6 @@ function bind(fn, bound_this) { var bound_args
 <p><strong>我的这些言论不一定对，但希望能让大家有启发，有所思考。</strong></p>
 <p><strong>注</strong>：本来这篇文章的标题想取成“<strong>程序员要解决的三种问题</strong>”， 但是因为过年都在关注 “方韩之争”，所以，干脆取成了这个名字。你可以认为我比较调皮，也可以认为我爱ZB，还可以认为我标题党，反正，请随意理解。（这篇文章是我的自己写 的，没有代笔，因为你一定会在这篇文章中看到属于我的用五笔打出来的错别字，当然，我无法自证，哈哈）</p>
 <p>（<span style="color: #cc0000;"><strong>转载时请注明作者和出处，请勿用于商业用途</strong></span>）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-01-30T11:00:50+08:00</pubDate>
 <guid>https://coolshell.cn/articles/6526.html</guid>
@@ -8313,9 +8169,6 @@ function bind(fn, bound_this) { var bound_args
 <p>那么，我们还会觉得C++要被淘汰了，不适合进入了吗？看完这个演讲，你应该有答案的。</p>
 <p>后面讲了C++的文艺复兴，你可以在Google 搜索 “<a href="https://www.google.com/search?q=C%2B%2B+Renaissance" target="_blank">C++ Renaissance</a>”看看。另外，<strong>该视频的讲议可以在<a href="http://ecn.channel9.msdn.com/content/WhyCPPCB2011.pdf" target="_blank">这里下载</a></strong>。</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-02-02T08:22:57+08:00</pubDate>
 <guid>https://coolshell.cn/articles/6548.html</guid>
@@ -8349,9 +8202,6 @@ function bind(fn, bound_this) { var bound_args
 <li>复杂地认为国人是喜欢起哄的，不问为什么。</li>
 </ol>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-02-21T07:54:57+08:00</pubDate>
 <guid>https://coolshell.cn/articles/6639.html</guid>
@@ -8511,9 +8361,6 @@ var derive = object(base);<br>
 <span class="ez-toc-section" id="%E9%A2%98%E5%A4%96%E8%AF%9D%EF%BC%9A"></span><strong><span style="color: #008000">题外话：</span></strong><span class="ez-toc-section-end"></span>
 </h4>
 <p>web2.0后，web应用可谓飞速发展，如今在HTML5发布之际，浏览器的功能被大大强化，我感觉Browser远远在不是一个Browser那么简单了。记得C++之父曾经这样说过JAVA，JAVA不是跨平台，JAVA本身就是一个平台。如今的Browser也本身就是一个平台了，好在这个平台是基于标准的。如果Browser是平台，由于Browser安全沙箱的限制，个人电脑的资源被使用的很少，感觉Browser就是一个NC（Network Computer）？我们居然又回到了Sun最初提出的构想，Sun是不是太强大了些？</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-02-27T08:25:13+08:00</pubDate>
 <guid>https://coolshell.cn/articles/6668.html</guid>
@@ -8685,9 +8532,6 @@ secondMethod: function (c) {<br>
 <h2><strong><span style="color: #008000">参考：</span></strong></h2>
 <p><a href="http://blog.morrisjohns.com/javascript_closures_for_dummies.html">JavaScript Closures For Dummies(</a><a href="https://web.archive.org/web/20080209105120/http://blog.morrisjohns.com/javascript_closures_for_dummies">镜像</a><a href="http://blog.morrisjohns.com/javascript_closures_for_dummies.html">)</a> 可惜都被墙了。<br>
 <a href="http://yuiblog.com/blog/2006/11/27/video-crockford-advjs/">Advance Javascript</a> （Douglas Crockford 大神的视频，一定要看啊）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-03-07T08:30:43+08:00</pubDate>
 <guid>https://coolshell.cn/articles/6731.html</guid>
@@ -8723,9 +8567,6 @@ secondMethod: function (c) {<br>
 <p>个人以为，Bret所说这个原则也好，信条也好，是一种对自己创造力有引导性质的原则和信条，并不是那些已有的原则或信条，否则那只不过是在跟从了，所以，这些原则和信条应该是新的东西，是自己悟出来的东西，这样的原则和信条会导致你有一种责任感向正确的方向去创造。当然，这些原则也不是那些非常笼统和模糊的东西，比如，要创业开公司，要设计出有更好的用户体验的东西，要创造有很多用户使用的产品，或是有更好的收入什么的。其应该是明确的，有指导性的，就像Bret他自己的信条一样——“创造者需要即时的反馈”，就像他演示的那样，当你在一行一行修改你的代码的时候，你可以立即看到代码运行的过程和效果。这个原则可以指导着他要对一切达不到这个原则的东西负责，并引导着他知道应该做什么，不应该做什么，从而去创造新的东西，解决问题。</p>
 <p>当然，世界是多元的，每个人都有每个人自己的原则。不同的原则必然会把你导到不同的路上。不管你是否同意，视频中的那些演示是相当令人震撼的。</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-03-09T08:38:48+08:00</pubDate>
 <guid>https://coolshell.cn/articles/6775.html</guid>
@@ -8821,9 +8662,6 @@ secondMethod: function (c) {<br>
 <span class="ez-toc-section" id="%E5%8F%8B%E6%83%85%E6%8E%A8%E8%8D%90"></span>友情推荐<span class="ez-toc-section-end"></span>
 </h4>
 <p>本文的图是用我自己开发的<a href="http://textdiagram.sinaapp.com">TextDiagram</a>工具画的，欢迎试用！如果您喜欢，请推荐给朋友，谢谢！</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-03-13T08:36:53+08:00</pubDate>
 <guid>https://coolshell.cn/articles/6790.html</guid>
@@ -8958,9 +8796,6 @@ secondMethod: function (c) {<br>
 <p>40-<a href="http://brightcreative.com/">Brightcreative</a></p>
 <p><img alt="image placeholder" ></p>
 <p><em>(全文完)</em></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-03-19T08:25:46+08:00</pubDate>
 <guid>https://coolshell.cn/articles/6840.html</guid>
@@ -8999,9 +8834,6 @@ border-bottom: 100px solid red;
 <p>然后两条边都是设置为透明，最后我们就得到了</p>
 <p style="text-align: left;"><img alt="image placeholder" ></p>
 <p>这个属于奇技淫巧，但是也说明CSS的强大，没有做不到只有想不到。另外<a href="https://css-tricks.com/examples/ShapesOfCSS/">http://css-tricks.com/examples/ShapesOfCSS/ </a>还能找到很多其他的形状，感兴趣的同学可以自己去看。还有酷壳以前的这篇文章《<a title="CSS图形" href="https://coolshell.cn/articles/5164.html" target="_blank">CSS实现的各种形状</a>》</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-03-24T20:35:41+08:00</pubDate>
 <guid>https://coolshell.cn/articles/6913.html</guid>
@@ -9032,9 +8864,6 @@ border-bottom: 100px solid red;
 <p>我所谈到的“反过来”本质上就是软件设计中的控制反转 (Inversion of Control, IoC)思想。IoC是每一个初级程序员向高级进阶所需要了解的<strong>最重要</strong>的设计思想。由于Spring等开发框架的流行，知道IoC概念的程序员不在少数，但不少人对于IoC的理解仅仅停留在通过依赖注入 (Dependency Injection)实现解耦这个层面。实际上，IoC的应用不仅包括解耦，它还是框架的基本原理，在非计算机领域，IoC也是无处不在，如果你能从上面的例子中体会到IoC，这才算是融会贯通了。</p>
 <p>软件开发中一种最常见的模式是“以用户为出发点，以需求分析为核心”。该模式提倡从用户需求中分析推导出设计和实现，比如，TDD式的设计正是这类典型。而IoC式的软件设计与此截然相反，IoC的设计是一种“以愿景（自身利益是愿景的重要方面）为出发点，以架构为核心”的模式。如果用户的需求是一台电脑，我们如何能通过第一种模式分析需求推导出“主板-CPU-内存-外设”的PC架构呢？恐怕很难。IoC式的设计是以用户看不见摸不着的架构为核心，自己主导设计，用户需求是设计的约束条件和验证手段，而不是出发点和目标。我们想要掌握主动，不被需求变化搞得疲于奔命，就必须熟练使用第二种模式。</p>
 <p>我们的人生都被环境和各种客观条件所束缚，多数人只能随波逐流，听从命运的安排。你有没有想过要拥有人生的主导权呢？既然你是程序员，你懂IoC，你能否设计自己的人生框架呢？Yes，you can!</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-03-26T11:01:07+08:00</pubDate>
 <guid>https://coolshell.cn/articles/6950.html</guid>
@@ -9113,9 +8942,6 @@ border-bottom: 100px solid red;
 <p><img alt="image placeholder" ></p>
 <p>不过，国内还没有相应的产品，有想法的同学不妨试试去做一个类似于这样的产品，动作要快，千万不要让创新工场和腾讯抢先了。;-)</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-04-09T08:33:22+08:00</pubDate>
 <guid>https://coolshell.cn/articles/6976.html</guid>
@@ -9247,9 +9073,6 @@ border-bottom: 100px solid red;
 <p>一些人觉得我是在泄私愤，我能够理解为什么我会被这样误解，但是没有关系，很多新东西新观点总是会被误解的，我坦然面对。请大家抛开我的这些情感因素，单纯的思考一下，没有专职QA的的团队架构是否有积极的意义在里面？</p>
 <p><strong>再补充一点，大家思考一下，QA是保证质量的，但是很多QA是在做测试，软件质量是测试出来的吗？如果不从需求分析，软件设计，代码实现上做好控制，到测试的时候你还怎么保证质量呢？</strong></p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-04-11T08:48:59+08:00</pubDate>
 <guid>https://coolshell.cn/articles/6994.html</guid>
@@ -9307,9 +9130,6 @@ border-bottom: 100px solid red;
 <p>2）观察身边的事物，去思考，去调查，举一反三，这才是你成长的源泉。不要把你的成长推给客观原因。</p>
 <p>3）我的<a title="软件开发的“三重门”" href="https://coolshell.cn/articles/6526.html" target="_blank">软件开发的三重门</a>中说过，第三重门是解决实际问题，让你的业务处理更为的智能，更为地强大。我不知道为什么这一两年，我们的圈子里所有的人都在关注着“云”，“海量数据处理”，“高性能架构”这样的东西，尤其是那些性能调的高性能的东西并不很难，而这些更为实际问题更有挑战性，也更有前景。</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-04-17T10:06:16+08:00</pubDate>
 <guid>https://coolshell.cn/articles/7048.html</guid>
@@ -9351,9 +9171,6 @@ IE6一直存活着，所有的前端开发人员都痛恨它，都不想兼容�
 <p>实在搞不懂为什么我们做个东西非要去支持IE6呢？检测到用户是IE6，给个提示，给个升级链接不就行了？ 这样做用户体验是有多么不好吗？ 你天天去支持IE6，还要天天磨叽用户使用IE6，你不觉的很矛盾吗？再说我一个普通用户，你如果不提醒，我怎么知道要升级IE6啊？</p>
 <p><strong>对于遭遇了故事一，故事二的人只能送上一句话“哀其不幸，怒其不争！”</strong></p>
 <p>原文链接：<a href="https://hfcc8685.github.com/blog/2012/04/19/shui-zhi-cuo/" target="_blank">http://hfcc8685.github.com/blog/2012/04/19/shui-zhi-cuo/</a></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-04-19T10:11:05+08:00</pubDate>
 <guid>https://coolshell.cn/articles/7126.html</guid>
@@ -9383,9 +9200,6 @@ IE6一直存活着，所有的前端开发人员都痛恨它，都不想兼容�
 <p style="text-align: left;"><strong>哪位会做游戏又熟Vim的朋友也能做一个？</strong></p>
 <p style="text-align: left;">（全文完）</p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-04-26T08:22:22+08:00</pubDate>
 <guid>https://coolshell.cn/articles/7166.html</guid>
@@ -9460,9 +9274,6 @@ IE6一直存活着，所有的前端开发人员都痛恨它，都不想兼容�
 <div><strong><br>
 </strong></div>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-04-27T08:26:44+08:00</pubDate>
 <guid>https://coolshell.cn/articles/7186.html</guid>
@@ -9496,9 +9307,6 @@ IE6一直存活着，所有的前端开发人员都痛恨它，都不想兼容�
 <p>想想建材和家俱市场，无论用户过来想装修什么，我都可以满足用户的不同需求，只要你是和家装相关，我基本上都能满足你，不是吗？无论你怎么变，只要不变态，我基本上都可以满足你。这就是解耦，拼装带来的好处。 你可能会说我说得太简单了，另一方面，你可能觉得有一些系统这样做没必要，我承认，不过，你可以有选择的或多或少地试试。（其实，我相信你已经在不自觉得或多或少地使用这种方式开发软件了） （全文完）</p>
 <div></div>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-05-03T08:14:20+08:00</pubDate>
 <guid>https://coolshell.cn/articles/7236.html</guid>
@@ -9913,9 +9721,6 @@ SELECT Values WHERE city="CA:San Francisco*"</pre>
 </li>
 </ol>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-05-15T08:22:13+08:00</pubDate>
 <guid>https://coolshell.cn/articles/7270.html</guid>
@@ -9999,9 +9804,6 @@ SELECT Values WHERE city="CA:San Francisco*"</pre>
 <p>（全文完，<strong>转载时请注明作者和出处</strong>）</p>
 <p><audio style="display: none;" controls="controls"></audio></p>
 <p><audio style="display: none;" controls="controls"></audio></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-05-17T08:25:38+08:00</pubDate>
 <guid>https://coolshell.cn/articles/7425.html</guid>
@@ -10025,9 +9827,6 @@ SELECT Values WHERE city="CA:San Francisco*"</pre>
 <p>Mark</p>
 <div>（新闻来源：<a href="http://www.borowitzreport.com/2012/05/17/a-letter-from-mark-zuckerberg/" target="_blank">http://www.borowitzreport.com/2012/05/17/a-letter-from-mark-zuckerberg/</a>）</div>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-05-19T11:01:21+08:00</pubDate>
 <guid>https://coolshell.cn/articles/7448.html</guid>
@@ -10147,9 +9946,6 @@ SELECT Values WHERE city="CA:San Francisco*"</pre>
 <p>从上面的例子中，我们可以看到被压缩的比例还是很可观的。</p>
 <p>作者给出了源码你可以看看（ C99标准） <a href="http://en.nerdaholyc.com/wp-content/uploads/2012/05/huffman_string.zip">Download the source files</a></p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-05-22T13:32:05+08:00</pubDate>
 <guid>https://coolshell.cn/articles/7459.html</guid>
@@ -10190,9 +9986,6 @@ function test()
 <p><img alt="image placeholder" ></p>
 <p>这个报告说明了源码中的那些变量的情况。</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-05-24T14:50:31+08:00</pubDate>
 <guid>https://coolshell.cn/articles/7480.html</guid>
@@ -10395,9 +10188,6 @@ function test()
 <p><a href="https://en.wikipedia.org/wiki/Language-oriented_programming">Wikipedia: Language-oriented programming</a></p>
 <p><a href="https://book.douban.com/subject/6859720/">《实用Common Lisp编程》</a></p>
 <p><a href="https://book.douban.com/subject/4031906/">《冒号课堂 – 编程范式与OOP思想》</a></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-06-04T08:58:46+08:00</pubDate>
 <guid>https://coolshell.cn/articles/7526.html</guid>
@@ -10486,9 +10276,6 @@ function test()
 <p>当你把你的产品目标放在这样高的位置上，你不难发现，一来，仿冒者们无法跟上你的跟步，二来，仿冒者们几乎没有办法来复制。因为，他们只能复制到外表，但永远无法复制到产品的精髓。</p>
 <p>还是那句话，<strong>因为仿冒者们急功近利的基因就决定了他们做不到抄袭。因为QQ用户群的基因也决定了腾讯无法复制豆瓣或Stackoverflow</strong>。</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-06-13T08:35:31+08:00</pubDate>
 <guid>https://coolshell.cn/articles/7617.html</guid>
@@ -10765,9 +10552,6 @@ net.core.wmem_max = 16777216</pre>
 <p>先写这么多吧，欢迎大家指正补充。</p>
 <blockquote><p><strong>注：</strong>这篇文章的确是个大杂烩。其实其中的说到的很多技术在网上都有很多很多的技术文章，google一下就能找到一堆有很多细节的文章，所以我也就不写了。这篇性能调优的文章写作的动机是之前看到 <a href="https://weibo.com/n/%E6%B7%98%E5%AE%9D%E8%A4%9A%E9%9C%B8">@淘宝褚霸</a> 强推的<a href="http://highscalability.com/">highscalability.com</a>上的这篇文章：<a href="http://highscalability.com/blog/2012/5/16/big-list-of-20-common-bottlenecks.html" target="_blank">Big List Of 20 Common Bottlenecks</a>，觉得这篇文章泛泛而谈，觉得自己能写得比它好，所以就产生了动机。</p></blockquote>
 <p>（<span style="color: #cc0000;"><strong>转载时请注明作者和出处，请勿用于商业用途</strong></span>）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-06-20T09:24:53+08:00</pubDate>
 <guid>https://coolshell.cn/articles/7490.html</guid>
@@ -10791,9 +10575,6 @@ net.core.wmem_max = 16777216</pre>
 <p><code data-enlighter-language="shell" class="EnlighterJSRAW">git lg</code></p>
 <p>如果你想看看git log –pretty=format的参数，你可以看看<a href="https://git-scm.com/book/zh/Git-%E5%9F%BA%E7%A1%80-%E6%9F%A5%E7%9C%8B%E6%8F%90%E4%BA%A4%E5%8E%86%E5%8F%B2" target="_blank">这篇文章</a>。</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-06-24T23:29:05+08:00</pubDate>
 <guid>https://coolshell.cn/articles/7755.html</guid>
@@ -11029,9 +10810,6 @@ net.core.wmem_max = 16777216</pre>
 </ul>
 <p>最后，用Linus最经典的话来结束本文——“ Talk is Cheap, Show me the Code！”</p>
 <p>（<strong>注：本文由<a href="https://weibo.com/renfake" target="_blank">@常新居士</a>完成初稿，我做了一些编辑，主要写了第五节“没完”</strong> ）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-06-25T08:20:08+08:00</pubDate>
 <guid>https://coolshell.cn/articles/7657.html</guid>
@@ -11133,9 +10911,6 @@ net.core.wmem_max = 16777216</pre>
 <p>其实，这样的业务例子还有很多，比如，分析一个公司的客户分类，这样可以对不同的客户使用不同的商业策略，或是电子商务中分析商品相似度，归类商品，从而可以使用一些不同的销售策略，等等。</p>
 <p>最后给一个挺好的算法的幻灯片：<a href="https://www.cs.cmu.edu/~guestrin/Class/10701-S07/Slides/clustering.pdf">http://www.cs.cmu.edu/~guestrin/Class/10701-S07/Slides/clustering.pdf</a></p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-06-29T08:24:02+08:00</pubDate>
 <guid>https://coolshell.cn/articles/7779.html</guid>
@@ -11168,9 +10943,6 @@ net.core.wmem_max = 16777216</pre>
 <p>懂编程的人一眼就能看出来，前两种方式是以一种Workaround或Hack的方式解决这个问题。第一种方式会导致一些基于timestamp的消息通知乱序了，而第二种会导致出现两个一模一样的timestamp。最后一种不会出现timestamp的问题。对了，你还记得以前那篇《<a href="https://coolshell.cn/articles/5075.html" rel="bookmark">你确信你了解时间吗？</a>》的文章吗？</p>
 <p>最后，说说Windows，Windows  Time Service不支持闰秒通知，所以，当闰秒发生的时候，你的Windows上的时间会比实际时间快一秒钟，这需要等下一次的时钟同步才会完成修正。你可以查看这篇文章：<a href="https://support.microsoft.com/kb/909614/en-us">http://support.microsoft.com/kb/909614/en-us</a></p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-06-30T17:16:34+08:00</pubDate>
 <guid>https://coolshell.cn/articles/7804.html</guid>
@@ -11287,9 +11059,6 @@ net.core.wmem_max = 16777216</pre>
 <p>并且从一开始我们就应该意识到这点。 对于C++11的新特性很兴奋的人们并不关心一个拥有如此少特性的语言。 即使最后他提供了如此多。</p>
 <p>谢谢。</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-07-05T08:12:25+08:00</pubDate>
 <guid>https://coolshell.cn/articles/7771.html</guid>
@@ -11620,9 +11389,6 @@ net.core.wmem_max = 16777216</pre>
 </div>
 </div>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-07-11T08:10:11+08:00</pubDate>
 <guid>https://coolshell.cn/articles/7829.html</guid>
@@ -11759,9 +11525,6 @@ sum += ~t &amp; data[j];</pre>
 <blockquote><p><strong>注：</strong>在GCC下，如果你使用 <code>-O3</code> or <code>-ftree-vectorize</code> 编译参数，GCC会帮你优化分叉语句为无分叉语句。VC++2010没有这个功能。</p></blockquote>
 <p><strong>最后，推荐大家一个网站——<a href="https://developers.google.com/speed/" target="_blank">Google Speed</a>，网站上的有一些教程告诉你<a href="https://developers.google.com/speed/articles/" target="_blank">如何写出更快的Web程序</a>。</strong></p>
 <p><strong></strong>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-07-13T08:18:32+08:00</pubDate>
 <guid>https://coolshell.cn/articles/7886.html</guid>
@@ -11940,9 +11703,6 @@ sum += ~t &amp; data[j];</pre>
 </ul>
 <p>建议你移步去看看这篇文章。</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-07-19T08:32:09+08:00</pubDate>
 <guid>https://coolshell.cn/articles/7917.html</guid>
@@ -12028,9 +11788,6 @@ $ pstree -p | grep fork
 <p><img alt="image placeholder" ></p>
 <p>现在你明白了吧。（另，对于图中的我本人拙劣的配色，请见谅!）</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-08-01T08:20:46+08:00</pubDate>
 <guid>https://coolshell.cn/articles/7965.html</guid>
@@ -12195,9 +11952,6 @@ $ pstree -p | grep fork
 </ul>
 <p>最后，非常感谢能和“<strong>@简悦云风</strong>”，“<strong>@淘宝诸霸</strong>”，“<strong>@Laruence</strong>”一起讨论这个问题！无论你们的观点怎么样，我都和你们“在一起”，嘿嘿嘿……</p>
 <p>(全文完)</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-08-06T08:12:05+08:00</pubDate>
 <guid>https://coolshell.cn/articles/7992.html</guid>
@@ -12268,9 +12022,6 @@ $ pstree -p | grep fork
 <p>对于酷壳来说，其文化和价值观比较重一些，短期内，还是以我个人色彩为主一些，虽然我希望这是一个大家都能来分享的地方。前段时间我有个想法想做一个“程序员疫苗站”，就像我们一出生时接种的各种疫苗可以让我们抵抗各种病毒一样，这个网站可以让程序员接种一些犯低级错误的疫苗，从而对这些低级错误有抵抗。我还没有想得特别清楚，不过方向基本上是这个方面的。</p>
 <p>（全文完）</p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-08-12T16:02:28+08:00</pubDate>
 <guid>https://coolshell.cn/articles/8031.html</guid>
@@ -12342,9 +12093,6 @@ $ pstree -p | grep fork
 <p>总之一句话——<strong>如果你没有兴趣，什么都是借口，如果你有兴趣了，什么都是好玩的</strong>。</p>
 <h4></h4>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-08-16T23:50:25+08:00</pubDate>
 <guid>https://coolshell.cn/articles/8088.html</guid>
@@ -12386,9 +12134,6 @@ $ pstree -p | grep fork
 <tbody>
 <tr>
 <td valign="top" width="33%">
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-08-17T08:15:30+08:00</pubDate>
 <guid>https://coolshell.cn/articles/8052.html</guid>
@@ -12454,9 +12199,6 @@ $ pstree -p | grep fork
 <li>用X语言写一个编译器，然后手动编译之（不需要特别优化），（注：手动编译估计就是手动翻译成机器汇编代码），然后再运行这个手动编译的编译器来编译这个编译器的源码，并优化之。<a title="Donald Knuth" href="https://en.wikipedia.org/wiki/Donald_Knuth">Donald Knuth</a> 在他的 <a title="WEB" href="https://en.wikipedia.org/wiki/WEB">WEB</a> <a title="Literate programming" href="https://en.wikipedia.org/wiki/Literate_programming">literate programming</a> 系统里用到了这个方法。</li>
 </ul>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-08-20T08:40:04+08:00</pubDate>
 <guid>https://coolshell.cn/articles/8115.html</guid>
@@ -12558,9 +12300,6 @@ $ pstree -p | grep fork
 <p>比如：解析加减乘除表达式，字符串转数字，洗牌程序，口令生成器，通过ip地址找地点，英汉词典双向检索……</p>
 <p><strong>总之，我反对纯算法面试题！</strong></p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-08-22T08:20:18+08:00</pubDate>
 <guid>https://coolshell.cn/articles/8138.html</guid>
@@ -12628,9 +12367,6 @@ ajax.send(null);<br>
 <p style="padding-left: 30px;">3）另外，在今天这样N多框架，N多lib，N多开源的年代下，<strong>不知道大家有没有失去了从零开始自己写代码的能力？</strong>比如上面的这个问题，不知道有多少人还会自己写原生态的Ajax？不过，我还是建议大家能在使用各种框架的时候，明白那些最基础的知识，求甚解，知其然知其所以然，真的很重要。</p>
 <p>我是从那个“吃糠的年代”过来的程序员，那时的程序员什么都要自己干，很辛苦，今天我和很多人说我以前的那些经历，会被笑话，但是我从这些什么都自己的干的年代过的经历，让我受益很多。我把我的想法分享给大家，希望对大家有用。</p>
 <p>(全文完)</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-08-27T14:56:59+08:00</pubDate>
 <guid>https://coolshell.cn/articles/8170.html</guid>
@@ -12673,9 +12409,6 @@ ajax.send(null);<br>
 <p style="padding-left: 30px;">3）<strong>软件的质量不是测试出来的，而是设计和维护出来的。就像工匠们在一点一点地雕琢他们的作品一样。</strong></p>
 <p>UT的粒度是多少，这个不重要，重要的是你会不会自己思考你的软件应该怎么做，怎么测试。</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-09-03T08:13:31+08:00</pubDate>
 <guid>https://coolshell.cn/articles/8209.html</guid>
@@ -12968,9 +12701,6 @@ bool atomic_compare_exchange_weak( volatile std::atomic* obj,
 <p><audio style="display: none;" controls="controls"></audio></p>
 <p><audio style="display: none;" controls="controls"></audio></p>
 <p><audio style="display: none;" controls="controls"></audio></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-09-07T08:26:55+08:00</pubDate>
 <guid>https://coolshell.cn/articles/8239.html</guid>
@@ -13291,9 +13021,6 @@ bool atomic_compare_exchange_weak( volatile std::atomic* obj,
 <p>我之所以发现这篇文章，是因为我读到了 Jeff Atwood 的这篇名为 “<a href="http://www.codinghorror.com/blog/2006/07/linus-torvalds-visual-basic-fan.html">Linus Torvalds, Visual Basic Fan</a>” 的文章，这篇文章指向了 “<a href="http://sztywny.titaniumhosting.com/2006/07/23/stiff-asks-great-programmers-answers/">STIFF ASKS, GREAT PROGRAMMERS ANSWER</a>” 这篇文章，但是链接已坏了，然后，我搜了一下也没有搜到这篇文章。然后我去了 archive.org 搜了一下，并找到了这篇由 Jaroslaw Rzeszótko 写的博客。</p>
 <p>因为这篇博文现在找不到了，所以，我想我应该重新把它贴出来，这样其它人可以读一下这篇有意思的文章。所以，我向原作者取得了授权，再次感谢 Jaroslaw!</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-09-14T08:29:54+08:00</pubDate>
 <guid>https://coolshell.cn/articles/8275.html</guid>
@@ -13776,9 +13503,6 @@ testBlock : Begin to exec blk.
 <li><a href="https://en.wikipedia.org/wiki/Closure_(computer_science)" target="_blank">http://en.wikipedia.org/wiki/Closure_(computer_science)</a></li>
 </ul>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-09-20T08:17:07+08:00</pubDate>
 <guid>https://coolshell.cn/articles/8309.html</guid>
@@ -13858,9 +13582,6 @@ testBlock : Begin to exec blk.
 <p>最后，Bret说了一下，他被问过很多次——这些漂亮的想法怎么应用到现实世界中？他说这个问题问的是对的，但是这些问题问的就好像是——“怎么能让一匹马从内燃机引擎受益”一样，其假设的改变是错误的。他回答到，更准确的是——“<strong>Programming has to work like this</strong>”，所以他说，他的这些东西不是一种“Training”，也不是一种“银弹”，只不过是拿开了眼罩。</p>
 <p><strong>更新：</strong>一楼回复的朋友给了一个中译版的链接：<a href="http://chengyichao.info/learnable-programming/">http://chengyichao.info/learnable-programming/</a></p>
 <p>(全文完)</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-10-14T16:37:04+08:00</pubDate>
 <guid>https://coolshell.cn/articles/8387.html</guid>
@@ -13928,9 +13649,6 @@ testBlock : Begin to exec blk.
 <p style="text-align: left;">看到这个图后，我陷入了深深地沉思，我在想。是什么样的动力能让人干出这样的事来？兴趣，还是为了好玩。还就是为了证明他能干一些让人拍案叫绝的东西？<strong>这可能就是一种Geek精神吧。就是为了能做出让世人冿冿乐道的东西</strong>。</p>
 <p style="text-align: left;">（全文完）</p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-10-16T08:15:44+08:00</pubDate>
 <guid>https://coolshell.cn/articles/8398.html</guid>
@@ -14053,9 +13771,6 @@ P(d[i] | w[x], w[y])
 <span class="ez-toc-section" id="%E6%80%BB%E7%BB%93"></span>总结<span class="ez-toc-section-end"></span>
 </h4>
 <p>TF-IDF模型是搜索引擎中广泛使用的信息检索模型，但对于TF-IDF模型一直存在各种疑问。本文为信息检索问题一种基于条件概率的盒子小球模型，其核心思想是把“查询串q和文档d的匹配度问题”转化为“查询串q来自于文档d的条件概率问题”。它从概率的视角为信息检索问题定义了比TF-IDF模型所表达的匹配度更为清晰的目标。从概率模型中，我们看到查询串q来自于文档d的条件概率主要包含以下几个因素：1) 文档的先验概率P(d[i])，这与PageRank对应；2) 词w被作为搜索关键词的先验概率P(w)，这可以通过统计方法获得；3) 关键词w代表文档d主题，或以词w搜索文档d的概率，P(w | d)，除了统计方法，这可以通过tf-idf来计算。</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-10-24T09:05:54+08:00</pubDate>
 <guid>https://coolshell.cn/articles/8422.html</guid>
@@ -14724,9 +14439,6 @@ Returned normally from f.
 </pre>
 <p>你习惯这种编程方式吗？我觉得有点诡异。呵呵。</p>
 <p>好了，上面是是一Go语言相关的编程语法的介绍，我没有事无巨细，只是让你了解一下Go语言是长什么样的。<strong>当然，这还没完，请期待下篇——Go语言的特性</strong>。</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-11-06T08:27:48+08:00</pubDate>
 <guid>https://coolshell.cn/articles/8460.html</guid>
@@ -15473,9 +15185,6 @@ func htmlHandler(w http.ResponseWriter, r *http.Request) {
 <p>Go的功能库有很多，大家自己慢慢看吧。<strong>我再吐个槽——Go的文档真不好读。例子太少了</strong>。</p>
 <p>先说这么多吧。这是我周末两天学Go语言学到的东西，写得太仓促了，而且还有一些东西理解不到位，还大家请指正！</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-11-07T08:17:20+08:00</pubDate>
 <guid>https://coolshell.cn/articles/8489.html</guid>
@@ -15769,9 +15478,6 @@ H |  10075  10033   9866   9857  10170   9854  10062  10078  10056 
 I |  10045   9864   9879  10066   9930   9919  10085  10104  10095  10013
 J |   9873   9958  10051  10041   9986  10008  10078  10001  10094   9910</pre>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-11-20T08:22:07+08:00</pubDate>
 <guid>https://coolshell.cn/articles/8593.html</guid>
@@ -15998,9 +15704,6 @@ vim一个远程文件</li>
 <li><a href="https://www.commandlinefu.com/" target="_blank" rel="noopener">http://www.commandlinefu.com/</a></li>
 </ul>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-11-23T08:19:24+08:00</pubDate>
 <guid>https://coolshell.cn/articles/8619.html</guid>
@@ -16296,9 +15999,6 @@ header("Location: " . $redirect_url);</pre>
 <p>你可以看看Google和Baidu搜索引擎的链接跳转，百度的跳转链接是被加密过的，而Google的网站链接很长，里面有网站的明文，但是会有几个加密过的参数，如果你把那些参数移除掉，Google会显示一个重定向的提醒页面。（我个人觉得还是Google做得好）</p>
 <p>（本篇文章结束）</p>
 <p>这段时间工作和家里的事比较多，所以时间有限，更新不快，而此篇行文比较仓促，欢迎大家补充，并指出我文中的问题。</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-12-10T08:34:48+08:00</pubDate>
 <guid>https://coolshell.cn/articles/8711.html</guid>

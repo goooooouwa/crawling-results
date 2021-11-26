@@ -4,7 +4,7 @@
 <title>酷 壳 – CoolShell</title>
 <description>享受编程和技术所带来的快乐 – Coding Your Ambition</description>
 <link>https://coolshell.cn</link>
-<pubDate>2021-11-26T11:34:01+08:00</pubDate>
+<pubDate>2021-11-26T11:41:56+08:00</pubDate>
 <!-- other elements omitted from this example -->
 <item>
 <title><![CDATA[ 图片搜索引擎优化Checklist ]]></title>
@@ -32,9 +32,6 @@
 </ul>
 <p>文章：<a href="http://www.webceo.com/newsletter/2009/081009.html" target="_blank">来源</a></p>
 <p><script type="text/javascript"></script></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-10-11T11:17:01+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1528.html</guid>
@@ -536,9 +533,6 @@ main = with =&lt;&lt; (listenOn - PortNumber 4242) where
 
 </pre>
 <p>如果你知道更多的，请你告诉我们。（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-10-11T18:01:06+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1532.html</guid>
@@ -568,9 +562,6 @@ done<br>
 [/bash]</p>
 <p>在运行代码之前，请确保你们小孩的摇篮和PC机的光驱连接在一起。当然，你也可以在脚本中播放一曲催眠曲。注意，脚本其中的sleep 1是为了配合上摇篮的节奏，这样需要你在实际过程中调试一下。</p>
 <p>这样的成本是不是有点高？居然还要达上一台电脑，呵呵。所以，我就不建议你用Windows来实现了，那样的成本可能会更高。</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-10-12T10:05:38+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1539.html</guid>
@@ -1304,9 +1295,6 @@ Code was run.
 本文完整的代码在Github<a href="https://github.com/lsegal/my_toy_compiler">这里</a>。我一直都在避免提到这个代码，因为这个代码不是本文的重点，而仅仅是带过这部分代码。</p>
 <p>我意识到这是一篇非常长的文章，并且这篇文章中难免会有出错的地方，如果你找到了任何问题，在你觉得有空的时候，欢迎你给我发电子邮件，我将会调整我的文章。你如果向想我们共享一些信息，你也可以在你觉得有空的时候写信给我们。</p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-10-12T12:47:18+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1547.html</guid>
@@ -1622,9 +1610,6 @@ function checkChecked() {
 </pre>
 <p>我们 Google Maps 就绪了，这篇文章讲述了Google Map API中你应该知道的。希望这篇文章对你有帮助。</p>
 <p>文章：<a href="http://jeez.eu/2009/10/09/google-maps-from-a-to-z/" target="_blank">来源</a></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-10-13T15:41:23+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1561.html</guid>
@@ -1866,9 +1851,6 @@ function checkChecked() {
 <li><a href="http://www.topxml.com/xsl/XSLTRef.asp">XSLT Reference</a></li>
 </ul>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-10-13T22:26:30+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1566.html</guid>
@@ -1985,9 +1967,6 @@ mytest[/bash]</p>
 hello<br>
 coolshell.cn[/bash]</p>
 <p>(全文完)</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-10-14T23:47:25+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1574.html</guid>
@@ -1998,9 +1977,6 @@ coolshell.cn[/bash]</p>
 <link>https://coolshell.cn/articles/1579.html</link>
 <content><![CDATA[ 
 <p>一图胜千言<img alt="image placeholder" ></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-10-15T10:44:53+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1579.html</guid>
@@ -2023,9 +1999,6 @@ coolshell.cn[/bash]</p>
 <img alt="image placeholder" ></a></p>
 <p style="text-align: left;">(全文完)</p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-10-15T10:55:02+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1582.html</guid>
@@ -2064,9 +2037,6 @@ fink scanpackages<br>
 <p>我之所以抛弃了macport 是因为他目前出现的和新版10.6的冲突问题，导致系统gcc库环境出现错误，而macport又与系统架构上不兼容 ，导致Port不能用 gcc 也不能用，而我又准备拿光盘重装developer环境的时候，光驱坏了 DVD盘一律不能读 :shame goodness…!<br>
 fink的出现完全让我避开了以上问题，或许上述问题的出现有我个人原因。 但是fink有很重要的一点，就是它的源很快。他会自动推荐最适合我们的镜像。如果我们要随时更换fink的配置， 可以执行 <span style="color: #3366ff">fink configure.</span></p>
 <p>我相信读到这里，会有不少习惯Port的朋友使用 Fink， Just do it, Fink和MacPort 同时存在并不是什么坏事，虽然我已经把MacPort彻底删了。</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-10-19T19:06:41+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1592.html</guid>
@@ -2078,9 +2048,6 @@ fink的出现完全让我避开了以上问题，或许上述问题的出现有�
 <content><![CDATA[ 
 <p>Definition Guide 和 The Good Part， 犀牛和蝴蝶，一厚一薄，事情不言而喻。</p>
 <p><a href="https://coolshell.cn/wp-content/uploads/2009/10/javascript.jpg"><img alt="image placeholder" ></a></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-10-22T23:12:25+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1608.html</guid>
@@ -2102,9 +2069,6 @@ fink的出现完全让我避开了以上问题，或许上述问题的出现有�
 <p style="text-align: center;"><a href="http://www.uizard.org/UIzard/uizard.php" target="_blank">http://www.uizard.org/UIzard/uizard.php</a></p>
 <p><a href="https://coolshell.cn/wp-content/uploads/2009/10/uizard1.jpg"><img alt="image placeholder" ></a></p>
 <p>(全文完)</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-10-22T23:40:30+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1611.html</guid>
@@ -2122,9 +2086,6 @@ fink的出现完全让我避开了以上问题，或许上述问题的出现有�
 <p>Linus在日本参加一个<a href="http://events.linuxfoundation.org/events/japan-linux-symposium"><strong>Japan Linux Symposium</strong></a>的座谈会，在一个Picaca的<a href="https://picasaweb.google.com/cschlaeger/JapanLinuxSymposium#5395400000458161906" target="_blank">链接</a>上说，Microsoft选择了和Japan Linux Symposium同一天，在座谈会的间隙，Linus和其同事想做点有趣的事情，于是他们来到了Windows 7的小商店里，当然，售货员同志并不知道这人是谁，而Linus一进店里马上就做了一个下蹲坚大拇指的手势，而他的同事很识相地马上就照了一张照片。呵呵，当然，他们什么也没有买。</p>
 <p>而在一个据说是照片作者的 <a href="http://blogs.zdnet.com/perlow/?p=11403" target="_blank">BLOG</a> 上，博主也证实了相关的说法，说，这是Linus的一种幽默的态度，还说，Linus应该做一个V字型的手势而不是大拇指，这主要是Linus对东方文不了解。呵呵。</p>
 <p>呵呵，很有意思吧。</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-10-23T14:21:50+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1619.html</guid>
@@ -2354,9 +2315,6 @@ int main(int argc, char **argv)
 <p><strong>教训一：千万不要使用 `ldd` 去测试你不知道的文件！<br>
 教训二：千万不要相信陌生人！</strong></p>
 <p>文章：<a href="http://www.catonmat.net/blog/ldd-arbitrary-code-execution/" target="_blank">来源</a>（以上文章并非完全翻译，我做过一些修改，所以，如果你要转载，请注明作者和出处）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-10-28T00:15:46+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1626.html</guid>
@@ -2467,9 +2425,6 @@ int main(int argc, char **argv)
 5）备份脚本可以放在计划任务（linux是corn）中以实际自动化。<br>
 6）以上的方法一般说来比较适用于全部备份，而不是增量备份。</p>
 <p>（全文完）<a href="http://topcat.hypermart.net/backup.html" target="_blank"></a></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-10-30T15:16:20+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1640.html</guid>
@@ -2614,9 +2569,6 @@ sudo /usr/share/doc/libdvdread4/install-css.sh</p>
 <p> </p>
 <p>好了，基本上就是这些，我要说，没有图片的支持，看来这篇文章不怎么的。呵呵。不过希望你喜欢。也希望你给我们推荐你所喜欢的Ubuntu工具。</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-10-30T19:10:47+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1644.html</guid>
@@ -2627,9 +2579,6 @@ sudo /usr/share/doc/libdvdread4/install-css.sh</p>
 <link>https://coolshell.cn/articles/1654.html</link>
 <content><![CDATA[ 
 <p style="TEXT-ALIGN: left">源文：<a href="http://duartes.org/gustavo/blog/post/richard-feynman-challenger-disaster-software-engineering" target="_blank">链接</a>  （本文主要根据挑战者号的问题，以及Richard Feynman那对NASA严厉的批评报告，批评了不适当的“自顶向下”的设计方法，并总结了一下软件工程和其它工程的相通的一些观点。翻译水平有限，欢迎指正）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-11-04T16:49:30+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1654.html</guid>
@@ -2642,9 +2591,6 @@ sudo /usr/share/doc/libdvdread4/install-css.sh</p>
 <p>前几天逛豆瓣，发现了VIM一个有趣的小技巧。</p>
 <p>在VIM中输入:h!试试看会发现什么。</p>
 <p>再输入:h 42呢？又会有什么发现？</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-11-04T19:05:22+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1651.html</guid>
@@ -2712,9 +2658,6 @@ sudo /usr/share/doc/libdvdread4/install-css.sh</p>
 <p><a href="http://www.456bereastreet.com/lab/accessible-expanding-collapsing-menu/" target="new"><img alt="image placeholder" ></a></p>
 <p>演示： <a title="Demo" href="http://www.456bereastreet.com/lab/accessible-expanding-collapsing-menu/" target="new">Accessible expanding and collapsing menu</a></p>
 <p>文章：<a href="http://9tricks.com/web-dev/13-awesome-javascript-css-menus/" target="_blank">来源</a></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-11-04T19:23:04+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1660.html</guid>
@@ -2837,9 +2780,6 @@ sudo /usr/share/doc/libdvdread4/install-css.sh</p>
 </ol>
 <p><code>也许还有其它我不知道的，欢迎你补充。</code></p>
 <p><code>（全文完）</code></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-11-07T11:39:53+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1679.html</guid>
@@ -3014,9 +2954,6 @@ sudo /usr/share/doc/libdvdread4/install-css.sh</p>
 </tbody>
 </table>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-11-08T00:20:03+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1684.html</guid>
@@ -3047,9 +2984,6 @@ You can try this if you have a very small penis.</p>
 <p>1FUH4-VN0P3-N1STH-1S1S8-3TT3R-JU57K-1DD3N<br>
 If you have no penis this is better just kidding.</p>
 <p>上面的这些英文我就不翻译了，大家就算是看个乐吧。关于这样的恶搞，还有很多，大家可以看看《<a title="编程真难啊 - 3,812 次浏览" href="https://coolshell.cn/articles/1391.html">编程真难啊</a>》，还有《<a rel="bookmark" href="https://coolshell.cn/articles/1619.html">Windows 7 的新粉丝 Linus Torvalds</a>》</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-11-09T08:01:04+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1693.html</guid>
@@ -3060,9 +2994,6 @@ If you have no penis this is better just kidding.</p>
 <link>https://coolshell.cn/articles/1695.html</link>
 <content><![CDATA[ 
 <p><a href="https://coolshell.cn/wp-content/uploads/2009/11/resume_comic.png"></a>下面这个图片来源国外，是一个关于程序员面试时的简历，被人事部门和程序员本身评审的角度不同的图片。当然，这是一个从国外面试的视角制作的图片，不过，可以看出，其中很多东西都是和国内是相同的。让我们通过这个图片也来了解一下自身吧。</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-11-09T10:22:23+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1695.html</guid>
@@ -3092,9 +3023,6 @@ If you have no penis this is better just kidding.</p>
 <p>所以，“橡皮鸭”只是一个形式，其主要目的是要你把自己写的代码做“自查”，也就是自己解释给自己听。当然，为了不让你像个“精神分裂”的程序员，引入“橡皮鸭”是很有必要的（虽然这样还是有点精神病，但比起精神分裂来说算是好的了，嘻嘻）。所以，真实的本质是Code Review。关于代码评审，大家可以看一下我的这篇文章《<a rel="bookmark" href="https://coolshell.cn/articles/1302.html">Code Review中的几个提示</a>》，你会明白其中更多的东西的。</p>
 <p>最后，我想和大家说一下道具“橡皮鸭”。是的，在我们的身边，你不一定能找得“橡皮鸭”，但你可以找到你你的同事，你的朋友，来做这个“橡皮鸭”，当然，他们并不一定有“橡皮鸭”好使，因为你的那些同事或朋友一定会在你解释的时候，随意地发表意见和看法，相当的令人annoying。《<a rel="bookmark" href="https://coolshell.cn/articles/1302.html">Code Review中的几个提示</a>》和《<a rel="bookmark" href="https://coolshell.cn/articles/16.html">结对编程的利与弊</a>》也谈到了一些，供你借鉴。</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-11-10T18:00:06+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1719.html</guid>
@@ -3147,9 +3075,6 @@ If you have no penis this is better just kidding.</p>
 </table>
 </div>
 <p>查看：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/4490" target="_blank">https://addons.mozilla.org/zh-CN/firefox/addon/4490</a></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-11-11T11:36:20+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1714.html</guid>
@@ -3212,9 +3137,6 @@ return(0);
 <p>是的，如果你通晓C++的一切的一切，你自然不会对这段程序感到惊奇。这样的事情在C/C++的世界中并不少见，要搞乱C/C++的代码并不是一件难事，花样多得数不胜数，只要看看《<a title="6个变态的C语言Hello World程序 - 4,749 次浏览" href="https://coolshell.cn/articles/914.html">6个变态的C语言Hello World程序</a>》你就知道了，而且，还有一个简单的教程《<a title="如何加密/混乱C源代码 - 2,420 次浏览" href="https://coolshell.cn/articles/933.html">如何加密/混乱C源代码</a>》告诉你一些简单的做法。</p>
 <p>那么，如果你有一天在读程序中看到“vector&lt;UINT4&gt; foo”，你会觉得那只是一个幻觉吗？</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-11-11T12:06:25+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1724.html</guid>
@@ -3244,9 +3166,6 @@ return(0);
 </ul>
 <p>似乎Google内部官方编程语言之战在即… C, C++, Java, Python, JavaScript, and now <a href="https://golang.org/">Go</a> and <a href="http://www.zimbu.org/">Zimbu</a>(by VIM 的作者)</p>
 <p><a href="http://v.youku.com/v_show/id_XMTMxMzIwMTQ4.html">Go programming language Tech Talk</a></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-11-11T18:01:20+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1751.html</guid>
@@ -3270,9 +3189,6 @@ return(0);
 <p style="text-align: center;"><span style="color: #ff0000;"><span style="color: #000000;"><img alt="image placeholder" ></span></span></p>
 <p><span style="color: #ff0000;"><span style="color: #000000;">40年后的今天，Ken Thompson参与Go语言设计，于是，他提交了这个改动，也算是圆了他的愿望，从这点看来，Ken Thompson把Go语言看得和Unix一样重啊。难道Go语言也会像Unix一样成为另一个传奇？（Unix传奇 <a href="http://blog.csdn.net/haoel/archive/2007/03/27/1542340.aspx" target="_blank">上篇</a>，<a href="http://blog.csdn.net/haoel/archive/2007/03/27/1542353.aspx" target="_blank">下篇</a>）</span></span></p>
 <p><span style="color: #ff0000;"><span style="color: #000000;">（全文完）</span></span></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-11-12T08:31:25+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1761.html</guid>
@@ -3316,9 +3232,6 @@ return(0);
 </ul>
 <p>后面的网友们纷纷支持Issue 9，<strong>Issue 9</strong>的呼声最高。截止本文发表，大约有710个跟贴，在<a href="https://www.reddit.com/r/programming/comments/a351z/oohhhh_snap_i_have_already_used_the_name_go_for/" target="_blank">reddit.com</a>上也在580多个。网友的力量就是大啊。</p>
 <p>星期五了，耗子祝大家周末快乐！</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-11-13T13:37:11+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1781.html</guid>
@@ -3349,9 +3262,6 @@ return(0);
 <p style="text-align: center;"><a href="https://coolshell.cn/wp-content/uploads/2009/11/measurements_table.jpg"><img alt="image placeholder" ></a></p>
 <p style="text-align: left;"> （全文完）</p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-11-16T08:20:17+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1788.html</guid>
@@ -3433,9 +3343,6 @@ Having’s not trusting, either.</p>
 </center>
 <br>
 我相信这不是恶搞，但面对这样的事情——“老子”，“道德经”，“ Unix”和“英文”的和谐统一体，我无法不服啊。
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-11-16T09:30:26+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1794.html</guid>
@@ -3449,9 +3356,6 @@ Having’s not trusting, either.</p>
 <p>现在，一个具有创意的天才解决方案出来了——为什么不把这些与工作无关的网站的样子都变成和工作相关呢？这里有一个示例，真让人拍案叫绝。不知道大家知不知道一个叫<a href="http://www.fmylife.com/" target="_blank">http://www.fmylife.com/</a>的网站？这个网站上都是一些“令人难堪”的小笑话，很多是荤的笑话，而有另一个网站是：<a href="http://fml.madsravn.dk/">http://fml.madsravn.dk/</a>——这个网站就是fmylife的翻版，唯一不同的是，它把fmylife.com伪装成了一个Java 2 Platform SE v1.42的技术文档（请注意这个文档中的函数解释的内容），于是你就可以在上班的时候大胆地浏览fmylife.com上的内容了，因为那看起来就像在看Java的API文档。呵呵。</p>
 <p style="text-align: center;"><img alt="image placeholder" ></p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-11-16T13:19:53+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1808.html</guid>
@@ -3850,9 +3754,6 @@ li a {
 </h4>
 <p>调界面是一件很难的事，调一个CSS的HTML界面是一件更难的事，在IE下调一个CSS的HTML界面是难上加难的事。</p>
 <p>文章：<a href="http://net.tutsplus.com/tutorials/html-css-techniques/9-most-common-ie-bugs-and-how-to-fix-them/" target="_blank">来源</a></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-11-17T15:33:02+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1817.html</guid>
@@ -3903,9 +3804,6 @@ int main(int argc, char *argv[]) {
 Hello from C!<br>
 $[/bash]</p>
 <p>当然，我并不建议你在真正的开发环境中这样使用，我只不过是在介绍一个比较有趣的用法，仅此而已！</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-11-19T13:47:51+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1824.html</guid>
@@ -3949,9 +3847,6 @@ $[/bash]</p>
 <a href="http://www.hongkiat.com/blog/60-really-cool-and-creative-error-404-pages/">http://www.hongkiat.com/blog/60-really-cool-and-creative-error-404-pages/</a></p>
 <p>电视屏幕型<br>
 <a href="http://aviationreviews.com/404">http://aviationreviews.com/404</a></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-11-19T14:46:54+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1826.html</guid>
@@ -3979,9 +3874,6 @@ $[/bash]</p>
 <p style="text-align: left;">总之，这是一个很酷，但却界面很丑陋的在线的正则表达式生成工具。</p>
 <p style="text-align: left;"> </p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-11-20T09:12:17+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1830.html</guid>
@@ -4038,9 +3930,6 @@ for (x=0; x&lt;4000; x++) memory[x] = block + shellcode;
 <p> </p>
 </div>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-11-23T00:52:14+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1835.html</guid>
@@ -4059,9 +3948,6 @@ for (x=0; x&lt;4000; x++) memory[x] = block + shellcode;
 <p><a href="http://vrapper.sourceforge.net/home/">http://vrapper.sourceforge.net/home/</a></p>
 <p style="text-align: center;"><img alt="image placeholder" ></p>
 <p>（全文完）<a rel="bookmark" href="https://coolshell.cn/articles/894.html"></a></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-11-23T09:07:40+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1837.html</guid>
@@ -4125,9 +4011,6 @@ for (x=0; x&lt;4000; x++) memory[x] = block + shellcode;
 <strong>Visual Basic</strong>   这是一辆驾驭你的车。 [from “yivkX360” on digg.com]</li>
 <p> </p>
 <p>文章：<a href="http://www.cs.caltech.edu/~mvanier/hacking/rants/cars.html" target="_blank">来源</a></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-11-24T18:24:22+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1839.html</guid>
@@ -4410,9 +4293,6 @@ if ($stmt = $mysqli-&gt;prepare("SELECT username FROM user WHERE state=?")) {
 <p>而且，Apache 运行在极端并行的环境中，会创建很多很多的了进程。这就是为什么这种“永久链接”的机制工作地不好的原因。在你决定要使用“永久链接”之前，你需要好好地考虑一下你的整个系统的架构。</p>
 <p>文章：<a href="http://net.tutsplus.com/tutorials/other/top-20-mysql-best-practices/" target="_blank">来源</a></p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-11-27T18:57:33+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1846.html</guid>
@@ -4450,9 +4330,6 @@ unsigned uy = y;</pre>
 <p>7. 错。INT_MAX 和 INT_MAX</p>
 <p>8. 正确。</p>
 <p>9. 错。INT_MIN</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-11-29T00:45:17+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1857.html</guid>
@@ -4468,9 +4345,6 @@ unsigned uy = y;</pre>
 <p style="text-align: center;"><img alt="image placeholder" ></p>
 <p style="text-align: center;">（点击小星，可以看到语言的发明者和示例）</p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-11-30T07:33:04+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1863.html</guid>
@@ -4487,9 +4361,6 @@ unsigned uy = y;</pre>
 <p style="text-align: center;"><img alt="image placeholder" ></p>
 <p style="text-align: left;">（全文完）</p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-11-30T08:16:54+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1850.html</guid>
@@ -4504,9 +4375,6 @@ unsigned uy = y;</pre>
 <p style="text-align: center;"><a href="https://coolshell.cn/wp-content/uploads/2009/11/coderun.ide_.jpg"></a><a href="https://coolshell.cn/wp-content/uploads/2009/11/coderun.ide_.jpg"></a><a href="https://coolshell.cn/wp-content/uploads/2009/11/coderun.ide_.jpg"><img alt="image placeholder" ></a></p>
 <p style="TEXT-ALIGN: left">有朋友在留言中说，这个项目可能不实用，没什么意思，而我想说，Google的Chrome OS项目可能非常喜欢这个东西。顺便说一下，这个Online的IDE是开源的，源码在这里：<a href="https://coderun.codeplex.com/">http://coderun.codeplex.com/</a>。 </p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-12-01T13:41:12+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1883.html</guid>
@@ -4593,9 +4461,6 @@ echo construct_sql(construct_sql("UPDATE table SET", ", ", $updates) . " WHERE "
 <p><code data-enlighter-language="php" class="EnlighterJSRAW">UPDATE table SET `field1`='val1', `field2`='val2' WHERE `field1`='cond1' AND `field2`='cond2' LIMIT 1;</code></p>
 <p> </p>
 <p><code>（全文完）</code></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-12-01T13:48:25+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1889.html</guid>
@@ -4668,9 +4533,6 @@ echo construct_sql(construct_sql("UPDATE table SET", ", ", $updates) . " WHERE "
 <p>对于这一点，我一直持疑问的态度，所以，我在其后打了两个问号。老实说，对于实际参与这一环节，我个人的意见是适可而止，因为时间太短了，无论你怎么做你都无法了解完整。即然无法了解完整，那就获取你最需要的吧，就是本文开头的那三个问题，以及上面所述的“第三点”（了解应聘者的以往经历）。</p>
 <p>也许这个文章中有一些你不同意的观点，没问题，欢迎批评，如果你有更好的做法，我也想听听，不妨在这里留个言，如果不想留也可以email给我。</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-12-02T08:53:36+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1870.html</guid>
@@ -4688,9 +4550,6 @@ echo construct_sql(construct_sql("UPDATE table SET", ", ", $updates) . " WHERE "
 <div id="projectTitleBar">
 <strong></strong><a href="https://visualstudiogallery.msdn.microsoft.com/en-us/59ca71b3-a4a3-46ca-8fe1-0e90e3f79329"></a> 看来Vim还是很强大的，不然，怎会有这些人把其集成到了 Eclipes 和Vistual Studio中，呵呵。Unix下的这个老得都不行了的编辑器正在影响着图形界面的编辑器。最后，让我问问你，你会用Vim吗？</div>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-12-04T09:55:58+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1901.html</guid>
@@ -4777,9 +4636,6 @@ A：这是因为Oct 31 == Dec 25！（八进制的31==十进制的25）</p>
 <p>程序员说，“我们从来不关心Warning，只关心Error”</p>
 <p> </p>
 <p>(你还有更多的笑话吗？欢迎告诉我们)</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-12-07T08:12:16+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1903.html</guid>
@@ -4820,9 +4676,6 @@ A：这是因为Oct 31 == Dec 25！（八进制的31==十进制的25）</p>
 <p style="text-align: center;"><a href="https://coolshell.cn/wp-content/uploads/2009/12/Blackhawk-Cockpit.jpg"><img alt="image placeholder" ></a> </p>
 <p style="text-align: left;">你有什么UI恐怖的经历吗？欢迎与我们分享。</p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-12-09T16:04:26+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1907.html</guid>
@@ -4869,9 +4722,6 @@ A：这是因为Oct 31 == Dec 25！（八进制的31==十进制的25）</p>
     {}          // options
   );
 &lt;/script&gt;</pre>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-12-11T13:44:45+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1924.html</guid>
@@ -4940,9 +4790,6 @@ while 1:
 </ul>
 <p>希望这个小程序能给你开启一个如何写摄像头的程序。</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-12-11T14:10:30+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1928.html</guid>
@@ -4974,9 +4821,6 @@ while 1:
 <a href="https://www.chromeexperiments.com/">http://www.chromeexperiments.com/</a></p>
 <p style="text-align: left;">(全文完)</p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-12-14T08:35:31+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1932.html</guid>
@@ -5041,9 +4885,6 @@ while 1:
 <p>程序员是一种可以把香烟和咖啡变成代码的机器。</p>
 <p>有多少微软的工程师会换电灯泡？没有，他们会把黑暗变成一种标准，然后对你说，这就是设计行为。</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-12-14T12:10:44+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1941.html</guid>
@@ -5081,9 +4922,6 @@ width: 100%;
 }[/javascript]</p>
 <p>或是</p>
 <p>[javascript]$("span").ellipsis();[/javascript]</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-12-15T08:43:59+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1949.html</guid>
@@ -5303,9 +5141,6 @@ public class ReadExcel {
 
 }
 </pre>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-12-15T09:36:21+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1954.html</guid>
@@ -5363,9 +5198,6 @@ public class ReadExcel {
 </ul>
 <p>如果上面的工具都不能帮助你的话，你可能需要打调试日志，或是使用一个透明的代理服务器：如： <a href="http://www.charlesproxy.com/">Charles Web Debugging Proxy</a> （Windows）</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-12-15T15:50:35+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1957.html</guid>
@@ -5377,9 +5209,6 @@ public class ReadExcel {
 <content><![CDATA[ 
 <p>下面是一个用CSS做的一个3D的效果。你可以使用鼠标在图片中移动来显示这个效果。其实，这个效果只是能过移动图片来产生的。其可以工作在Internet Explorer 8, Firefox 3, Opera 9, Safari 3, Chrome 4 和 Konqueror 3.5下。网页在这里：<a href="http://www.romancortes.com/ficheros/meninas.html" target="_blank">http://www.romancortes.com/ficheros/meninas.html</a></p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-12-16T14:04:32+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1962.html</guid>
@@ -5409,9 +5238,6 @@ public class ReadExcel {
 <p>你只所以要看手册是因为你不知道EOF是什么意思。我并不打算告诉你，因为你是一个不学无术的人。</p>
 <p><strong>java.io.FileNotFoundException</strong></p>
 <p>连木匠都知道他的工具放在哪里。</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-12-17T16:44:15+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1970.html</guid>
@@ -5437,9 +5263,6 @@ public class ReadExcel {
 <li>还有一个网友说：这么做或者可以阻止网页上的广告阻截器。</li>
 </ol>
 <p>呵呵，看来，“超级天才”和“极端愚蠢”可能只是一线之差，只有写这段程序的那个程序员才知道为什么要这么干了。也许，他的键盘的那个键真的是坏了也不一定。</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-12-18T17:20:44+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1973.html</guid>
@@ -5455,9 +5278,6 @@ public class ReadExcel {
 经过5次传球后<br>
 球回到a的手里</p>
 <p>算总共有多少种传球的方法</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-12-20T17:41:11+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1976.html</guid>
@@ -5490,9 +5310,6 @@ public class ReadExcel {
 <p><em>copyright (C) 1996-2006 by Billy S. Hollis, originally posted on dotnetmasters.com 13 January 2006</em></p>
 <p> 文章：<a href="http://dotnetmasters.com/historyofcfamily.htm" target="_blank">来源</a></p>
 <p><em> </em></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-12-21T08:12:10+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1984.html</guid>
@@ -5518,9 +5335,6 @@ public class ReadExcel {
 <p style="text-align: center;"><img alt="image placeholder" ></p>
 <p> </p>
 <p><a href="https://coolshell.cn/wp-content/uploads/2009/12/language-fanboys.jpg"></a></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-12-24T14:31:25+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1992.html</guid>
@@ -5539,9 +5353,6 @@ public class ReadExcel {
 <p>关于操作系统，还有<a href="https://coolshell.cn/articles/1579.html" target="_blank">这一张图</a>也很有意思。</p>
 <p style="text-align: center;"><img alt="image placeholder" ></p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-12-24T14:50:46+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1998.html</guid>
@@ -5556,9 +5367,6 @@ public class ReadExcel {
 <p>上海交通大学FTP：<a title="http://202.38.97.230/" href="http://202.38.97.230/" target="_blank">http://202.38.97.230</a></p>
 <p>如果你是教育网的用户，上海交通大学FTP访问速度非常的快。</p>
 <p>:)</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-12-27T21:06:26+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2011.html</guid>
@@ -5633,9 +5441,6 @@ public class ReadExcel {
 <div>好记又免费，爽哉！！ :)</div>
 <div></div>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2009-12-28T19:03:34+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2015.html</guid>
@@ -5740,9 +5545,6 @@ Joe Celko有一篇文章叫 <a rel="nofollow" href="https://www.amazon.com/gp/pr
 </div>
 </div>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-01-06T08:24:41+08:00</pubDate>
 <guid>https://coolshell.cn/articles/1990.html</guid>
@@ -6684,9 +6486,6 @@ Joe Celko有一篇文章叫 <a rel="nofollow" href="https://www.amazon.com/gp/pr
 2010 = ((1/.2)/.3)*((4+5)*(6-.7+8)+.9)<br>
 2010 = ((1/(.2-.3))/(.4-.5))*(6+7+8-.9)</p>
 <p>文章：<a href="http://www.thesamet.com/2010.txt" target="_blank">来源</a></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-01-07T08:22:13+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2036.html</guid>
@@ -7359,9 +7158,6 @@ Joe Celko有一篇文章叫 <a rel="nofollow" href="https://www.amazon.com/gp/pr
 </table>
 <p></p>
 </center>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-01-08T08:09:00+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2039.html</guid>
@@ -7397,9 +7193,6 @@ Joe Celko有一篇文章叫 <a rel="nofollow" href="https://www.amazon.com/gp/pr
 <p style="text-align: left;">相关的技术细节请看这里：<a href="http://bellard.org/pi/pi2700e9/pipcrecord.pdf">http://bellard.org/pi/pi2700e9/pipcrecord.pdf</a></p>
 <p style="text-align: left;">我想了想，算这个玩意花了多少度电，产生了多少废气，太不环保了。呵呵。</p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-01-08T08:28:48+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2043.html</guid>
@@ -7410,9 +7203,6 @@ Joe Celko有一篇文章叫 <a rel="nofollow" href="https://www.amazon.com/gp/pr
 <link>https://coolshell.cn/articles/2047.html</link>
 <content><![CDATA[ 
 <p>我们总是在于“现实生活”和“电脑的数字生活”中的差异，这两个世界难道不可以合并吗？美国MIT Media Lab（麻省理工学院媒体实验室）的天才学生普拉纳夫- (Prarnav Mistry)，发明了一项结合实体世界和虚拟世界的科技，令人惊喜，感叹创造力的惊人。下面是视频。翻译还OK。</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-01-09T12:10:09+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2047.html</guid>
@@ -7586,9 +7376,6 @@ int main(void) {
   return 0; // Ok!
 }</pre>
 <p>呵呵。的确是挺怪异的。</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-01-21T08:16:18+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2053.html</guid>
@@ -7651,9 +7438,6 @@ Cargo-Cult 编程</h4>
 <p>使用这种风格的程序员，对重构代码有着一种难以控制的极端冲动。他们几乎会重构所有经手的代码。就算是在产品在Release的前夜，当他在修正几个拼写错误的bug同时，其会修改10个类，以及重构与这10个类有联系的另20个类，并且修改了代码的build脚本，以及5个部署描述符。</p>
 <p>文章：<a href="http://www.codeinstructions.com/2008/10/styles-of-programming.html" target="_blank">来源</a><br>
 （全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-01-22T08:39:24+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2058.html</guid>
@@ -7668,9 +7452,6 @@ Cargo-Cult 编程</h4>
 <p style="text-align: left;">打开这个网站，你会看到N年前DOS时代的Windows 3.1的界面，居然还可以扫雷，呵呵。真应了那句话——“只要是可以被Javascript实现的应用或程序，最终都会被Javascript所实现”。另，关于其它Web上更为疯狂的程序，可以查看本站的<a href="https://coolshell.cn/articles/1932.html" target="_blank">这篇文章</a>。还有这个<a href="https://coolshell.cn/articles/1883.html" target="_blank">在线的IDE</a>。下面是win3.1的截图：</p>
 <p style="text-align: center;"><a href="https://coolshell.cn/wp-content/uploads/2010/01/Win32web.jpg"><img alt="image placeholder" ></a> </p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-01-25T13:50:02+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2065.html</guid>
@@ -7687,9 +7468,6 @@ Cargo-Cult 编程</h4>
 <p>这个图本来没有什么，但制作者把其做成了一个圆弧形，这样，看下来就有些不一样了。你还没有看出来？让我们来对比一下这个图和FireFox的logo吧。</p>
 <p style="text-align: center;"><a href="https://coolshell.cn/wp-content/uploads/2010/01/firefoxlogo.jpg"><img alt="image placeholder" ></a></p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-01-25T14:24:18+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2069.html</guid>
@@ -7708,9 +7486,6 @@ Cargo-Cult 编程</h4>
 <p>因为bcrypt采用了一系列各种不同的Blowfish加密算法，并引入了一个work factor，这个工作因子可以让你决定这个算法的代价有多大。因为这些，这个算法不会因为计算机CPU处理速度变快了，而导致算法的时间会缩短了。因为，你可以增加work factor来把其性能降下来。呵呵。</p>
 <p>那么，bcrypt到底有多慢？如果和MD5一起来比较的话，如果使用值为12的work factor的话，如果加密“cool”的话，bcrypt需要0.3秒，而MD5只需要一微秒（百万分之一秒）。也就是说，前面我们说的那个只需要40秒就可以穷举完所有的可能的MD5编码的口令的算法，在使用bcrypt下，需要12年。</p>
 <p>这就是bcrypt给你带来的选择，<strong>你可以一个安全的口令和一个快速的加密算法，或是一个不怎么安全的口令和一个性能不好的加密算法</strong>。</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-02-01T17:18:36+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2078.html</guid>
@@ -7982,9 +7757,6 @@ class StandardMathematicsSystem(MathematicsSystem):
 
 print StandardMathematicsSystem.getInstance(new (InternalBase, new (IntegralNumber, 2))).calculateFactorial(new (IntegralNumber, 6))</pre>
 <p>摘自：<a href="https://gist.github.com/289467" target="_blank">来源</a></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-02-01T17:42:48+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2082.html</guid>
@@ -7996,9 +7768,6 @@ print StandardMathematicsSystem.getInstance(new (InternalBase, new (IntegralNumb
 <content><![CDATA[ 
 <p style="text-align: center;"><a href="https://coolshell.cn/wp-content/uploads/2010/02/ipad.jpg"><img alt="image placeholder" ></a></p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-02-06T10:53:27+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2086.html</guid>
@@ -8018,9 +7787,6 @@ print StandardMathematicsSystem.getInstance(new (InternalBase, new (IntegralNumb
 <p style="padding-left: 30px;">
 </p>
 <p><a href="https://coolshell.cn/wp-content/uploads/2010/02/reader2.png"><img alt="image placeholder" ></a></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-02-07T09:35:01+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2091.html</guid>
@@ -8048,9 +7814,6 @@ print StandardMathematicsSystem.getInstance(new (InternalBase, new (IntegralNumb
 <p><a href="https://coolshell.cn/wp-content/uploads/2010/02/before.png"></a>图例：修改后</p>
 <p><a href="https://coolshell.cn/wp-content/uploads/2010/02/after.png"><img alt="image placeholder" ></a></p>
 <p>这样你就可以用Zoom来替代鼠标滚轮了。</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-02-07T10:08:44+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2097.html</guid>
@@ -8133,9 +7896,6 @@ print StandardMathematicsSystem.getInstance(new (InternalBase, new (IntegralNumb
 <li>科学松鼠会</li>
 </ul>
 <p>更多经典种子，亲爱的读者，等你添加。分享是快乐的。</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-02-08T21:47:50+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2105.html</guid>
@@ -8156,9 +7916,6 @@ for line in file:
     do something else
 提倡使用<span style="color: #0000ff;">utf8</span></pre>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-02-08T22:06:00+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2109.html</guid>
@@ -8199,9 +7956,6 @@ ok</p></blockquote>
 <p>以上内容 参考自</p>
 <p>http://spawnlink.com/articles/an-introduction-to-releases-with-erlybank/</p>
 <p>http://streamhacker.com/2009/07/02/how-to-create-an-erlang-first-target-system/</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-03-04T02:55:13+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2111.html</guid>
@@ -8220,9 +7974,6 @@ ok</p></blockquote>
 <p>自2009年6月以来，Titanium 开发平台吸引了超过27000名开发人员对公司所谓“本机优势”概念的兴趣（<em><a href="http://www.appcelerator.com/products/native-iphone-android-development/">阅读详情</a></em>）。其中包括对本机控件的支持，基于位置的服务，社交共享，HTML 5，在线和设备内置数据库，集成数据分析，丰富的多媒体等等。</p>
 <p>Appcelerator 承诺在3月份的第三周支持苹果的新平板设备，包括几周后即将发布的 iPad。对黑莓的支持将于五月或六月间发布。Titanium 的社区版本完全免费，专业版本不免费，但是提供技术支持，数据分析以及对新版本的预览。</p>
 <p>Titanium 支持的平台包括： PC， Mac，Linux，最新版本则支持 iPhone 和 Android，Appcelerator 公司即将发布对黑莓和苹果 iPad 的支持。</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-03-10T18:47:43+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2117.html</guid>
@@ -8355,9 +8106,6 @@ ok</p></blockquote>
 <li>我们不用太拘泥于具体数据，特别是对于那些不好的工具的差评都无太大区别，而对于那些优秀的工具的好评却很有一些不同。</li>
 </ul>
 <p>Martin Fowler 反复强调这只是一个公司内部的调查，并无误导市场的意思，大家如果感兴趣的话可以点击 <em><a href="http://martinfowler.com/bliki/VcsSurvey.html"><em>文章来源</em></a></em> 阅读原文，以及另一篇关于版本控制的文章 <em><a href="http://martinfowler.com/bliki/VersionControlTools.html">VersionControlTools</a></em>。</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-03-13T06:31:02+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2135.html</guid>
@@ -8372,9 +8120,6 @@ ok</p></blockquote>
 <p>其中有一项是<a href="https://www.google.com/publicdata/explore?ds=ltjib1m1uf3pf_&amp;ctype=l&amp;met_y=sizegdp_t2&amp;hl=en_US&amp;dl=en_US">世界各国人均GDP</a></p>
 <p>虽然最近一些中国城市房价已经超越我们的想象力，但是从<a href="https://www.google.com/publicdata/explore?ds=ltjib1m1uf3pf_&amp;ctype=l&amp;met_y=sizegdp_t2&amp;hl=en_US&amp;dl=en_US#ctype=l&amp;met_y=sizegdp_t2&amp;scale_y=lin&amp;ind_y=false&amp;rdim=country&amp;idim=country:CHN:IND:DEU:GBR:USA:ZAF:ITA:AUS:CAN:RUS:JPN&amp;hl=en_US&amp;dl=en_US">这张图</a>里还是可以看到，我们仍是一个人均非常穷的国家。</p>
 <p><a href="https://coolshell.cn/wp-content/uploads/2010/03/we-are-still-poor.jpg"><img alt="image placeholder" ></a></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-03-14T20:51:49+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2179.html</guid>
@@ -8390,9 +8135,6 @@ ok</p></blockquote>
 <div class="mceTemp" style="text-align: left;">你可以按热键S来加入一个下载完了的结点，用P来加入一下空结点，按R来删除一个结点（有点慢，要等10秒左右吧）。</div>
 <figure id="attachment_2185" aria-describedby="caption-attachment-2185" style="width: 553px" class="wp-caption alignnone"><a href="https://coolshell.cn/wp-content/uploads/2010/03/bt_js_demo.jpg"><img alt="image placeholder" ></a><figcaption id="caption-attachment-2185" class="wp-caption-text">BT工作原理演示动画</figcaption></figure>
 <p>关于其它Javascript的一些小玩意，你可以看看<a title="哥是玩程序的" href="https://coolshell.cn/articles/1932.html" target="_blank">这篇文章</a>。</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-03-16T15:09:35+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2184.html</guid>
@@ -8421,9 +8163,6 @@ ok</p></blockquote>
 </ul>
 <p>所以，保证基本的系统安全不仅仅取决于你做了备份，还在于你是否能够成功恢复备份。如果你在运营一个 WEB 服务，你需要向我展示你能够在合理的时间内，在一台新的服务器或者是和原来的数据没有任何关系的服务器上，使用近期备份的数据还原出整个网站。</p>
 <p>让我们不要再问人们是否做了系统备份，而是问他们是否能够恢复系统。</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-03-25T08:16:20+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2155.html</guid>
@@ -8459,9 +8198,6 @@ ok</p></blockquote>
 <p>TAGtheLOOK 是一个 Facebook 应用，它可以让你在自己或者朋友的时装照片上贴上标签，并且与其他人分享这些标签来展示你的时尚品味。这个应用能给网上时尚商店带来潜在的商机。</p>
 <p><strong>大众评选产品 <a href="http://exaudios.com/" target="_blank">eXaudios MagInify Call Center</a></strong></p>
 <p><a href="../wp-content/uploads/2010/03/MagInify11.jpg"><img alt="image placeholder" ></a>MagInify 是这样一个工具，它能够解码客户讲话的声音和音调，以判断客户情绪的好坏，从而帮助呼叫中心和客服人员分析统计服务质量，发现不足。</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-03-28T07:44:21+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2191.html</guid>
@@ -8550,9 +8286,6 @@ private static final int INNER_ITERATION=50000;
 <p>因此，即时在做最简单的拼接时，如果我们不想创建StringBuffer或StringBuilder实例使，我们也因该使用concat。但是对于大量的字符串拼接操作，我们就不应该使用concat(<strong>译者注：</strong>因为测试代码功能上并不完全等价，更换后的测试代码concat的平均处理时间是1650.9毫秒。这个结果在原文的评论里面。)，因为concat会降低你程序的性能，消耗你的cpu。因此，在不考虑线程安全和同步的情况下，为了获得最高的性能，我们应尽量使用StringBuilder</p>
 <p>本文的源代码，编译目标文件和字节码可以通过下面的这个链接获得：</p>
 <p>下载源代码，类和字节码：<a herf="http://www.box.net/shared/hzl48ma8ne">String_Concatenation _Performance.zip</a></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-03-28T09:42:14+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2235.html</guid>
@@ -8621,9 +8354,6 @@ Peter Norvig</h3>
 <p>这实际上是假定了有些人本身就具有成为杰出设计师的必要潜质；要做的只是引导他们前进。<a href="http://www-pu.informatik.uni-tuebingen.de/users/klaeren/epigrams.html" target="_blank">Alan Perlis</a>说得更简洁：“每个人都可以被教授如何雕塑；而对米开朗基罗来说，能教给他的倒是怎样能够不去雕塑。杰出的程序员也一样”。</p>
 <p>所以尽管去买那些Java书；你很可能会从中找到些用处。但你的生活，或者你作为程序员的真正的专业技术，并不会因此在24小时、24天甚至24个月内发生真正的变化。</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-03-30T08:27:27+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2250.html</guid>
@@ -8637,9 +8367,6 @@ Peter Norvig</h3>
 <p>点击“Generate config file”，你可以看到生成的Emacs配色配置。</p>
 <p style="text-align: center;"><img alt="image placeholder" ></p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-03-31T09:15:19+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2271.html</guid>
@@ -8724,9 +8451,6 @@ Peter Norvig</h3>
 </tbody>
 </table>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-03-31T12:41:32+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2276.html</guid>
@@ -8741,9 +8465,6 @@ Peter Norvig</h3>
 <p style="text-align: center;"><a href="https://coolshell.cn/wp-content/uploads/2010/03/c++.png"><img alt="image placeholder" ></a> </p>
 <p>程序员在一开始学习C++的时候，用C++的语法写C觉得很牛，也会觉得自己很快掌握了C++语言，对一切都充满了信心。他们告诉你他们懂C++，其它他们错误，但我们不能说他们在撒谎，因为人总是不知道自己不知道什么。此后，当他们在C++的学习历程中，发现了很多很多稀奇古怪的东西，还有很多相当底层和复杂的东西，他们的将会变得很受挫，很沮丧，还始变得怀疑起，自信心开始下降，甚至有时候他们靠人品来编程。只到有一天，开始开窃，觉得C++的世界不能乱来，需要一定的规则，一定的方法，于是通过大量的错误不停地总结和反省，最终自信心又会被建立起来，<a href="https://coolshell.cn/articles/2250.html" target="_blank">经历多年的历练后</a>，才能恢复自信。</p>
 <p>对于大多数的自称自己熟悉C++的程序员来说，基本上来说他们都是用C++的语法来写C。</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-04-01T09:02:15+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2287.html</guid>
@@ -8757,9 +8478,6 @@ Peter Norvig</h3>
 <p><span style="font-family: arial,helvetica,sans-serif;"> </span><span style="font-family: arial,helvetica,sans-serif;"><a href="https://www.google.com/search?q=ways+to+commit+suicide" target="_blank">suicide prevention onebox</a></span></p>
 <p><a href="https://www.google.com/search?q=poison+control" target="_blank"><span style="font-family: arial,helvetica,sans-serif;">poison control onebox</span></a></p>
 <p><a href="https://coolshell.cn/wp-content/uploads/2010/04/googleOnebox.png"><img alt="image placeholder" ></a></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-04-01T12:57:29+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2296.html</guid>
@@ -8787,9 +8505,6 @@ Peter Norvig</h3>
 <li>
 <a href="http://news.cnet.com/8301-27080_3-20001359-245.html">Report: Windows 7 holes eased by axing admin rights</a> (news.cnet.com)</li>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-04-06T08:42:44+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2305.html</guid>
@@ -8819,9 +8534,6 @@ Peter Norvig</h3>
 <a href="http://www.superbad.com/" target="_blank">http://www.superbad.com/</a>，这可能是史上最无厘头的网页了，不知道这个网站要干什么，找到可以点的地方点吧，打开一个网页，再点击其中的链接，又打开一个网页，不一会儿你就会在一层又一层的网页中迷路了，好在每次打开的网页都风格迥然，倒也不会觉得单一。</li>
 </ol>
 <p>你还知道一些BT的网站吗？欢迎和我们一样分享。</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-04-07T09:35:00+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2313.html</guid>
@@ -9033,9 +8745,6 @@ UNIX-|                     |
 </ul>
 <h2>(转载时请注明作者和出处。未经许可，请勿用于商业用途)</h2>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-04-09T08:44:57+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2324.html</guid>
@@ -9124,9 +8833,6 @@ Bill Joy</p>
 <strong>(</strong><strong>转载时请注明作者和出处。未经许可，请勿用于商业用途</strong><strong>)</strong>
 </h2>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-04-09T08:45:27+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2322.html</guid>
@@ -9156,9 +8862,6 @@ Bill Joy</p>
 <li>变量命名很不直观，大量的old, tmp, c1, c2, s1, s2, s3 等学校里用的变量名，只有作者自己知道是什么意思。函数命令的风格也不一致，编程风格也很不一致，基本没有编程规范。</li>
 </ul>
 <p>的确很不易读。不管怎么样，很欣赏在man page中把源码的易读性列为BUG的这种作法。</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-04-14T09:10:20+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2352.html</guid>
@@ -9176,9 +8879,6 @@ Bill Joy</p>
 <p>其它，让IE系例的浏览器挂掉，并不需要Javascript，你可以尝试点击下面这个页面，这是一个纯HTML的页面，没有任何的CSS，或是JS的东西，只有HTML。请小心打开（如果在Firefox中打开也可能会挂，Chrome中没事）</p>
 <p style="text-align: center;"><a href="http://www.gregmerideth.net/html/iecrash.html" target="_blank">http://www.gregmerideth.net/html/iecrash.html</a></p>
 <p>这个纯HTML的来源是本来是作者写了一个程序生成了一个N层嵌套的表格，结果在IE5中导致了IE5不响应直到Crash并使用了100%的CPU资源，这么多年过去了，还是老样子，在我的dual-core+IE7上，也是一样，占了50%的CPU，而且还有很高的内核使用，最后只能把进程给kill了。BT啊，纯HTML都会让IE这样。</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2010-04-14T13:42:36+08:00</pubDate>
 <guid>https://coolshell.cn/articles/2357.html</guid>

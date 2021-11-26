@@ -4,7 +4,7 @@
 <title>酷 壳 – CoolShell</title>
 <description>享受编程和技术所带来的快乐 – Coding Your Ambition</description>
 <link>https://coolshell.cn</link>
-<pubDate>2021-11-26T11:34:01+08:00</pubDate>
+<pubDate>2021-11-26T11:41:56+08:00</pubDate>
 <!-- other elements omitted from this example -->
 <item>
 <title><![CDATA[ 如此理解面向对象编程 ]]></title>
@@ -272,9 +272,6 @@
 <p>我觉得，这篇文章的例子举得太差了，差得感觉就像是OO的高级黑。面向对象编程注重的是：<strong>1）数据和其行为的打包封装，2）程序的接口和实现的解耦</strong>。你那怕，举一个多个开关和多个电器的例子，不然就像STL中，一个排序算法对多个不同容器的例子，都比这个例子要好得多得多。老实说，Java SDK里太多这样的东西了。</p>
 <p>我以前给一些公司讲一些设计模式的培训课，我一再提到，<strong>那23个经典的设计模式和OO半毛钱关系没有</strong>，只不过人家用OO来实现罢了。<strong>设计模式就三个准则：1）中意于组合而不是继承，2）依赖于接口而不是实现，3）高内聚，低耦合。你看，这完全就是Unix的设计准则</strong>。</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-12-13T08:19:28+08:00</pubDate>
 <guid>https://coolshell.cn/articles/8745.html</guid>
@@ -451,9 +448,6 @@
 <a href="http://scriptular.com/">Scriptular</a> and <a href="http://rubular.com/">Rubular</a> — 正则表达式工具，这样的工具太多了，如： <a href="http://refiddle.com/">ReFiddle</a>, <a href="http://regexpal.com/">Regex pal</a> and <a href="http://www.txt2re.com/">Txt2Re</a>。</li>
 </ul>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-12-19T00:04:43+08:00</pubDate>
 <guid>https://coolshell.cn/articles/8767.html</guid>
@@ -564,9 +558,6 @@
 <p style="text-align: center;"><span style="color: #ff0000; font-size: 14px;" data-mce-mark="1"><strong>2012年就要过去了，祝大家新年快乐！</strong></span></p>
 <figure id="attachment_8798" aria-describedby="caption-attachment-8798" style="width: 640px" class="wp-caption aligncenter"><img alt="image placeholder" ><figcaption id="caption-attachment-8798" class="wp-caption-text">插图来自电影 Life of Pi</figcaption></figure>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2012-12-28T09:00:50+08:00</pubDate>
 <guid>https://coolshell.cn/articles/8790.html</guid>
@@ -795,9 +786,6 @@ cat a b b | sort | uniq -u &gt; c   # c is set difference a - b 差集</pre>
 <li>使用 dmesg 来查看一些硬件或驱动程序的信息或问题。</li>
 </ul>
 <p>作者最后加了一个免责声明：Disclaimer: Just because you <i>can</i> do something in bash, doesn’t necessarily mean you should. ;) （全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2013-01-09T08:24:29+08:00</pubDate>
 <guid>https://coolshell.cn/articles/8883.html</guid>
@@ -891,9 +879,6 @@ cat a b b | sort | uniq -u &gt; c   # c is set difference a - b 差集</pre>
 <p>大家一定记得《<a title="SteveY对Amazon和Google平台的长篇大论 - 60,581 人阅读" href="https://coolshell.cn/articles/5701.html">SteveY对Amazon和Google平台的长篇大论</a>》中Amazon中那个令人非常向往的SOA式的架构。因为以前在Amazon，有些话不好说。现在可以说了，我在Amazon里，我个人对这个服务化的架构相当的不待见，太复杂，复杂以乱七八糟，方向是好的，想法也是好的，但是这东西和OO一样，造成大量的接口复杂度，今天的Amazon，完全没人知道各个服务是怎么个调用的，一团乱麻（其内部并不像你看到的AWS那么的美妙。注：AWS是非常不错的，是相当好的设计）。</p>
 <p><strong>那么我们怎么来解决SOA的接口复杂度问题？其实，Unix早就给出了答案——数据驱动编程</strong>（详见：《Unix编程艺术》的第9.1章），在我离开Amazon的时候，美国总部的Principle SDE们在吐槽今天Amazon的SOA架构，更好的架构应该是数据驱动式的。（今天还在Amazon的同学可以上内网boardcast上看看相关的Principle Talk视频）</p>
 <p>（瞎扯一句：这本来是我想在2012年杭州QCon上的分享的一个主题，无奈当时被大会组织者给拒了，所以只好讲了一个《建一支小团队》，今天有多人还是不能明白甚至反感我的那个《小团队》的演讲，但是我相信那是必然的趋势，就像十年前大家在说“程序员只能干到30岁”时，当时的我我却毫不犹豫地相信十年后，30岁以上的有经验的老程序员一定会成为各个公司角逐和竟争的红人）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2013-02-01T08:15:59+08:00</pubDate>
 <guid>https://coolshell.cn/articles/8961.html</guid>
@@ -985,9 +970,6 @@ node * remove_if(node * head, remove_fn rm)
 <p>如果你对上面的代码和描述理解上有困难的话，你可以看看下图的示意：</p>
 <p><img alt="image placeholder" ></p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2013-02-04T08:33:20+08:00</pubDate>
 <guid>https://coolshell.cn/articles/8990.html</guid>
@@ -1492,9 +1474,6 @@ seq 9 | sed 'H;g' | awk -v RS='' '{for(i=1;i&lt;=NF;i++)printf("%dx%d=%d%s", i, 
 </li>
 </ul>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2013-02-17T08:38:29+08:00</pubDate>
 <guid>https://coolshell.cn/articles/9070.html</guid>
@@ -1970,9 +1949,6 @@ one</pre>
 <p><img alt="image placeholder" ></p>
 <p>就先说这么多吧，希望对大家有用。</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2013-02-20T08:36:48+08:00</pubDate>
 <guid>https://coolshell.cn/articles/9104.html</guid>
@@ -2032,9 +2008,6 @@ one</pre>
 <li><a title="通过Axon和Disruptor处理1M tps" href="http://ifeve.com/axon/" target="_blank">通过Axon和Disruptor处理1M tps</a></li>
 </ul>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2013-02-28T20:13:46+08:00</pubDate>
 <guid>https://coolshell.cn/articles/9169.html</guid>
@@ -2186,9 +2159,6 @@ interface Super{ }</pre>
 <p>最后，希望对技术感兴趣的朋友多交流。个人微博：（<a href="https://weibo.com/xmuzyq" target="_blank">http://weibo.com/xmuzyq</a>)</p>
 <div id="xunlei_com_thunder_helper_plugin_d462f475-c18e-46be-bd10-327458d045bd">(全文完)</div>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2013-03-05T23:28:51+08:00</pubDate>
 <guid>https://coolshell.cn/articles/9229.html</guid>
@@ -2395,9 +2365,6 @@ interface Super{ }</pre>
 <p>如果你要监控你的员工，你得想想你要花多少时间和金钱来监管员工。你浪费了多少钱去安装监控软件？你浪费了多少人力资源去监视员工？你浪费了多少时间去写没有人会看的规章制度？<strong>看看这些成本，你很快就发现，对员工的不信任才是最大的开销</strong>。</p>
 <blockquote><p><strong>感想</strong>：我始终在跟我的团队成员说，最有效的管理就是自己管理自己，而不是还要专们的人来管你。不然的话，你一定会很难受的。如果你能管理好你的工作和任务，我们就不需要项目经理。如果你能管理得好你的做事的方法和流程，就不需要那些搞流程的。如果你能管理得好你的程序质量，我们就不需要QA来监管你…… 等等。<strong>其实，你们如果能管理得好自己，并能自我进化。你们甚至不需要一个经理。但是，你们可能会需要一个为你们跑腿打杂的人，其实，那个人就是经理</strong>。</p></blockquote>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2013-03-11T08:25:34+08:00</pubDate>
 <guid>https://coolshell.cn/articles/9156.html</guid>
@@ -2521,9 +2488,6 @@ Date: Fri, 22 Mar 2013 10:07:10 +0800</p>
 </pre>
 <p>P.S. robots.txt我已经加上了。</p>
 <p>（全文完，谢谢大家的支持）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2013-03-23T21:47:20+08:00</pubDate>
 <guid>https://coolshell.cn/articles/9308.html</guid>
@@ -2557,9 +2521,6 @@ Date: Fri, 22 Mar 2013 10:07:10 +0800</p>
 <p>关于Google 的寻人的数据可以通过Google PersonFinder API 下载和上传，这里是其API页面：</p>
 <p style="text-align: center;"><strong><a href="https://code.google.com/p/googlepersonfinder/wiki/DataAPI" target="_blank">http://code.google.com/p/googlepersonfinder/wiki/DataAPI</a></strong></p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2013-04-22T00:20:16+08:00</pubDate>
 <guid>https://coolshell.cn/articles/9508.html</guid>
@@ -2714,9 +2675,6 @@ Date: Fri, 22 Mar 2013 10:07:10 +0800</p>
 <tbody>
 <tr>
 <td valign="top" width="91">
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2013-04-26T22:29:56+08:00</pubDate>
 <guid>https://coolshell.cn/articles/9410.html</guid>
@@ -2904,9 +2862,6 @@ delete[] pBase;</pre>
 <p>现在，你终于知道Base* pBase = new Derived[10];这个问题是C语言的转型的问题，你也应该知道用于数组的指针是怎么回事了吧？<strong>这是一个很奇葩的代码！请你不要像那些人一样在微博上和这里的评论里高呼并和我理论到：“微软的C++编译器支持这个事！”。</strong></p>
 <p>最后，我越来越发现，<span style="color: #cc0000; font-size: 14px;"><strong>很多说C++难用的人，其实是不懂C语言</strong></span>。</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2013-04-29T16:17:40+08:00</pubDate>
 <guid>https://coolshell.cn/articles/9543.html</guid>
@@ -3073,9 +3028,6 @@ delete[] pBase;</pre>
 <p>我在这里把这个事情记录下来，只是为了让大家了解并体会一下并发环境下的危险。</p>
 <p>参考：<a href="https://mailinator.blogspot.com/2009/06/beautiful-race-condition.html" rel="nofollow">http://mailinator.blogspot.com/2009/06/beautiful-race-condition.html</a></p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2013-05-10T08:12:12+08:00</pubDate>
 <guid>https://coolshell.cn/articles/9606.html</guid>
@@ -3332,9 +3284,6 @@ el.style.cssText += "; left: " + left + "px; top: " + top + "px;";[/javascript]<
 </li>
 </ul>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2013-05-22T08:17:47+08:00</pubDate>
 <guid>https://coolshell.cn/articles/9666.html</guid>
@@ -3488,9 +3437,6 @@ public void addCounter() {
 </h4>
 <p><a title="《Split-Ordered Lists: Lock-Free Extensible Hash Tables》" href="http://www.cs.ucf.edu/~dcm/Teaching/COT4810-Spring2011/Literature/SplitOrderedLists.pdf" target="_blank">《Split-Ordered Lists: Lock-Free Extensible Hash Tables》</a></p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2013-05-30T21:31:20+08:00</pubDate>
 <guid>https://coolshell.cn/articles/9703.html</guid>
@@ -3634,9 +3580,6 @@ xhr.send('');</pre>
 <p>最后再提两个js，一个是<a href="http://stevesouders.com/controljs/" target="_blank">ControlJS</a>，一个叫<a href="http://headjs.com/" target="_blank">HeadJS</a>，专门用来做异步load javascript文件的。</p>
 <p>好了，这是所有的内容了，希望大家看过后能对Javascript的载入和执行，以及相关的技术有个了解。<strong>同时，也希望各前端高手不吝赐教！</strong></p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2013-06-05T08:31:06+08:00</pubDate>
 <guid>https://coolshell.cn/articles/9749.html</guid>
@@ -3752,9 +3695,6 @@ kfree_skb(skb, FREE_WRITE);</pre>
 <p>不过，今年1月28日的时候，Alan因为家庭原因宣布退出Linux项目了，下面是他Google+的声明：</p>
 <blockquote><p>“I’m leaving the Linux world and Intel for a bit for family reasons, I’m aware that ‘family reasons’ is usually management speak for ‘I think the boss is an asshole’ but I’d like to assure everyone that while I frequently think Linus is an asshole (and therefore very good as kernel dictator) I am departing quite genuinely for family reasons and not because I’ve fallen out with Linus or Intel or anyone else. Far from it I’ve had great fun working there.”</p></blockquote>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2013-06-30T12:27:04+08:00</pubDate>
 <guid>https://coolshell.cn/articles/9859.html</guid>
@@ -3796,9 +3736,6 @@ kfree_skb(skb, FREE_WRITE);</pre>
 <li>反转控制和依赖倒置是一种智慧。</li>
 </ul>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2013-07-05T08:44:03+08:00</pubDate>
 <guid>https://coolshell.cn/articles/9949.html</guid>
@@ -3845,9 +3782,6 @@ Linus那句“给我看源代码”对真正的项目来说是个狭隘的视角
 <p>[注]这段话举个例子说明一下。Linux IPv6源码作者以前在葡萄牙上网聊天，只会简单讨论和问一些基本问题。我们助其弄明白一些内核原理之后，他写了大约75%的IPv6协议栈代码，他最近受聘于美国思科公司。</p>
 <p>附录一：一篇针对本文的<a href="http://tech.groups.yahoo.com/group/java-os-project/message/2358?var=1&amp;p=1" target="_blank">吐槽贴</a></p>
 <p>附录二：2009年Cox回复Torvalds的<a href="https://lkml.org/lkml/2009/7/28/375" target="_blank">邮件</a>，事情起因是Cox的一个tty patch导致<a href="https://lkml.org/lkml/2009/7/11/125" target="_blank">kdesu(KDE project’s su utility)</a>程序无法工作，该问题争论长达两个星期，此后Alan离开了Linux项目投奔Intel。</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2013-07-08T15:42:27+08:00</pubDate>
 <guid>https://coolshell.cn/articles/9917.html</guid>
@@ -3964,9 +3898,6 @@ def inorder(t):
             yield x
 </pre>
 <p>yield与return区别的一种通俗解释是yield返回时系统会保留函数调用的状态，下次该函数被调用时会接着从上次的执行点继续执行，这是一种与栈语义所完全不同的流程控制语义。我们知道Python的解释器是C写的，但是C并不支持yield语义，那么解释器是如何做到对yield的支持的呢？ 有了上面把递归遍历变换为迭代遍历的经验，相信你已经猜到Python解释器一定是对yield代码进行了某种变换。如果你已经能够实现递归变非递归，不妨尝试一下能否写一段编译程序将yield代码变换为非yield代码。</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2013-07-14T11:08:23+08:00</pubDate>
 <guid>https://coolshell.cn/articles/9886.html</guid>
@@ -4333,9 +4264,6 @@ t1:	(&amp;b)=0x0804a01c
 <strong>测试程序不能依赖于不成熟的代码。</strong>软件开发99%以上的bug都是基于不合格(substandard)开发人员导致，这并不能怪罪于语言以及编译器本身。使用诸如#define TRUE FALSE或者#define NULL 1之类的trick来黑C语言只能证明此人很有娱乐精神而不是真正的”hack value”，拿老北京梨园行当里的一句话——“那是下三滥的玩意儿”。</li>
 </ul>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2013-07-21T21:16:33+08:00</pubDate>
 <guid>https://coolshell.cn/articles/10115.html</guid>
@@ -4556,9 +4484,6 @@ return append(append(left_it, root_it), right_it)<br>
 <span class="ez-toc-section" id="%E6%80%BB%E7%BB%93"></span>总结<span class="ez-toc-section-end"></span>
 </h4>
 <p>本文介绍了类型的本质在于它所定义的操作以及操作之间的关系和不变式。类型的实现关键在于满足类型规范的要求，而具体实现是可以变化的，使用者和测试用例都应该只依赖于类型规范而不依赖于具体实现。函数式的类型实现往往和类型规范是直接对应的，简单通用，但可能有性能问题，而命令式的类型实现往往会引入复杂的内部数据结构，但是其优点是高效。这两种实现并不是完全互斥的，有时候可以将二者相结合达到简单与高效的结合。</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2013-07-22T19:46:00+08:00</pubDate>
 <guid>https://coolshell.cn/articles/10169.html</guid>
@@ -4641,9 +4566,6 @@ return append(append(left_it, root_it), right_it)<br>
 <p>大家感受一下吧。</p>
 <p>好了，我就说这么多，欢迎大家讨论。</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2013-07-24T08:28:10+08:00</pubDate>
 <guid>https://coolshell.cn/articles/10217.html</guid>
@@ -4875,9 +4797,6 @@ A++; C++;                      518 ms</p>
 <p>网易数据库大牛<a href="https://weibo.com/u/2216172320" target="_blank">@何_登成</a>自制PPT<a href="http://vdisk.weibo.com/s/dBzv2sibdUB8" target="_blank">《CPU Cache and Memory Ordering》</a>，信息量超大！</p>
 <p>南京大学计算机教学<a href="http://cs.nju.edu.cn/swang/CompArchOrg_12F/slides/lecture09.pdf" target="_blank">公开PPT</a>，温馨提示，地址域名里面改变字段”lecture”后面的数字编号可切换课程;-)</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2013-07-30T09:05:38+08:00</pubDate>
 <guid>https://coolshell.cn/articles/10249.html</guid>
@@ -5032,9 +4951,6 @@ A++; C++;                      518 ms</p>
 <p>不好意思，我只给出了问题，没有建议，这也说明数据分析中有很多的机会……</p>
 <p><span style="color: #770000; font-size: 12pt;">最后，还要提的一个是“<span style="color: #cc0000;"><strong>数据中的个人隐私问题</strong></span>”，这似乎就像那些有悖伦理的黑魔法一样，你要成功就得把自己变得黑暗。是的，<strong>数据就像一个王座一样，像征着一种权力和征服，但登上去的路途一样令人胆颤</strong>。</span></p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2013-07-31T08:11:17+08:00</pubDate>
 <guid>https://coolshell.cn/articles/10192.html</guid>
@@ -5214,9 +5130,6 @@ console.error(e);<br>
 <p>4) 业务逻辑都可以放到配置中吗？</p>
 <p>这个问题的答案显然是：Yes！我没有遇到过不可以放入配置的逻辑，只是问题在于这样做是否值得，能达到什么效果。对于需要灵活变化，重复出现，有复用价值的东西放入作为配置是明智的选择。这篇文章的主要目的就在于介绍把<strong>主要业务逻辑都放到配置中，再通过程序解释执行配置的设计方法，我称之为：元驱动编程(Meta Driven Programming)</strong>。</p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2013-08-09T10:18:31+08:00</pubDate>
 <guid>https://coolshell.cn/articles/10337.html</guid>
@@ -5260,9 +5173,6 @@ Foo&lt;3&gt;&gt;1&gt; foo;
 <p></p>
 <pre data-enlighter-language="cpp" class="EnlighterJSRAW">Foo&lt;(3&gt;&gt;1)&gt; foo;
 </pre>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2013-10-02T18:47:36+08:00</pubDate>
 <guid>https://coolshell.cn/articles/10449.html</guid>
@@ -5415,9 +5325,6 @@ class String
 <p><strong>练习2</strong>：实现一个带 int size_; 成员的版本，以空间换时间。</p>
 <p><strong>练习3</strong>：受益于右值引用及移动语意，在 C++11 中对 String 实施直接插入排序的性能比C++98/03要高，试编程验证之。（g++的标准库也用到了此技术。）</p>
 <p>陈皓注：同时，大家可以移步看看我的一篇老文《<a href="http://blog.csdn.net/haoel/article/details/1491219" target="_blank">STL中String类的问题</a>》</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2013-10-09T15:40:38+08:00</pubDate>
 <guid>https://coolshell.cn/articles/10478.html</guid>
@@ -5502,9 +5409,6 @@ while (!queue.empty())
 <p>在我最早的实现中，<code>curr.move()</code> 的参数是 <code>const std::function&lt;void(const State&amp;)&gt; &amp;</code>，但是我发现这里每次构造 <code>std::function&lt;void(const State&amp;)&gt;</code> 对象都会分配一次内存，似乎有些不值。因此在现在的实现中 <code>curr.move()</code> 是个函数模板，这样就能自动匹配lambda参数（通常是个 struct 对象），省去了 <code>std::function</code>的内存分配。</p>
 <p>本文完整的代码见 <a href="https://github.com/chenshuo/recipes/blob/master/puzzle/huarong.cc">https://github.com/chenshuo/recipes/…/puzzle/huarong.cc</a>，需用 GCC 4.7 编译，求解图 1 的题目的耗时约几十毫秒。</p>
 <p><strong>练习：</strong>修改程序，打印每一步移动棋子的情况。</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2013-10-09T15:50:21+08:00</pubDate>
 <guid>https://coolshell.cn/articles/10476.html</guid>
@@ -5646,9 +5550,6 @@ while (!queue.empty())
 <p>上面两个成对alloc/free接口的时间复杂度都是O(logN)，保证了程序运行性能。然而这段程序设计的独特之处就在于<strong>使用加权来标记内存空闲状态，而不是一般的有限状态机，实际上longest既可以表示权重又可以表示状态，状态机就毫无必要了，所谓“少即是多”嘛！</strong>反观cloudwu的实现，将节点标记为UNUSED/USED/SPLIT/FULL四个状态机，反而会带来额外的条件判断和管理实现，而且还不如数值那样精确。从逻辑流程上看，wuwenbin的实现简洁明了如同教科书一般，特别是左右子树的走向，内存块的分离合并，块索引到节点下标的转换都是一步到位，不像cloudwu充斥了大量二叉树的深度和长度的间接计算，让代码变得晦涩难读，这些都是longest的功劳。<strong>一个“极简”的设计往往在于你想不到的突破常规思维的地方。</strong></p>
 <p>这份代码唯一的缺陷就是longest的大小是4字节，内存消耗大。但<a href="http://blog.codingnow.com/2011/12/buddy_memory_allocation.html" target="_blank">cloudwu的博客</a>上有人提议用logN来保存值，这样就能实现uint8_t大小了，<strong>看，又是一个“极简”的设计！</strong></p>
 <p>说实话，很难在网上找到比这更简约更优雅的buddy system实现了——至少在Google上如此。</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2013-10-09T23:10:42+08:00</pubDate>
 <guid>https://coolshell.cn/articles/10427.html</guid>
@@ -6157,9 +6058,6 @@ while (!queue.empty())
 <p>Mask过后的二维码就成最终的图了。</p>
 <p>好了，大家可以去尝试去写一下QR的编码程序，当然，你可以用网上找个Reed Soloman的纠错算法的库，或是看看别人的源代码是怎么实现这个繁锁的编码。</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2013-10-29T08:32:35+08:00</pubDate>
 <guid>https://coolshell.cn/articles/10590.html</guid>
@@ -6352,9 +6250,6 @@ fields : [<br>
 <h4>
 <a href="https://www.cnblogs.com/weidagang2046/p/the-nature-of-meta.html#-4" name="-4"></a>总结</h4>
 <p>《人月神话》的作者Fred Brooks曾在80年代阐述了它对于软件复杂性的看法，即著名的<a href="https://en.wikipedia.org/wiki/No_Silver_Bullet">No Silver Bullet</a>。他认为不存在一种技术能使得软件开发在生产力、可靠性、简洁性方面提高一个数量级。我不清楚Brooks这一论断详细的背景，但是就个人的开发经验而言，元驱动编程和普通编程方法相比在生产力、可靠性和简洁性方面的确是数量级的提升,在我看来它就是软件开发的银弹！</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2013-10-31T08:00:09+08:00</pubDate>
 <guid>https://coolshell.cn/articles/10652.html</guid>
@@ -6436,9 +6331,6 @@ fields : [<br>
 </ul>
 <p style="text-align: left;">（全文完）</p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2013-11-13T08:21:45+08:00</pubDate>
 <guid>https://coolshell.cn/articles/10688.html</guid>
@@ -6865,9 +6757,6 @@ end)()</pre>
 </ul>
 <p>关于Lua的标库，你可以看看官方文档：<a href="http://lua-users.org/wiki/StringLibraryTutorial" target="_blank">string</a>，  <a href="http://lua-users.org/wiki/TableLibraryTutorial" target="_blank">table</a>， <a href="http://lua-users.org/wiki/MathLibraryTutorial" target="_blank">math</a>， <a href="http://lua-users.org/wiki/IoLibraryTutorial" target="_blank">io</a>， <a href="http://lua-users.org/wiki/OsLibraryTutorial" target="_blank">os</a>。</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2013-12-03T08:29:06+08:00</pubDate>
 <guid>https://coolshell.cn/articles/10739.html</guid>
@@ -6960,9 +6849,6 @@ A2) 用rsync啊，你妹！</p></blockquote>
 <li><a href="http://mywiki.wooledge.org/XyProblem" target="_blank">Greg’s Wiki</a></li>
 </ul>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2013-12-16T10:22:37+08:00</pubDate>
 <guid>https://coolshell.cn/articles/10804.html</guid>
@@ -7373,9 +7259,6 @@ nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 force(nums | even_filter | multiply_by_three | convert_to_string | echo)</pre>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2013-12-27T08:11:03+08:00</pubDate>
 <guid>https://coolshell.cn/articles/10822.html</guid>
@@ -7553,9 +7436,6 @@ force(nums | even_filter | multiply_by_three | convert_to_string | echo)</pre>
 <p>很明显，上述的Dynamo的配置用的是CAP里的A和P。</p>
 <p>我非常推大家都去看看这篇论文：《<a href="http://www.read.seas.harvard.edu/~kohler/class/cs239-w08/decandia07dynamo.pdf" target="_blank">Dynamo：Amazon’s Highly Available Key-Value Store</a>》，如果英文痛苦，你可以<a href="http://vdisk.weibo.com/s/AKRQZMLLc1ol%20%20" target="_blank">看看译文</a>（译者不详）。</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2014-01-20T11:08:16+08:00</pubDate>
 <guid>https://coolshell.cn/articles/10910.html</guid>
@@ -7891,9 +7771,6 @@ PT_THREAD(driver_thread(struct pt *pt))
 </h4>
 <p>看到这里，手养的你是否想迫不及待地 DIY 一个协程组件呢？哪怕很多动态语言本身已经支持了协程语义，很多 C 程序员仍然倾向于自己实现组件，网上很多开源代码底层用的主要还是 glibc 的 ucontext 组件，毕竟提供堆栈的协程组件使用起来更加通用方便。你可以自己写一个调度器，然后模拟线程上下文，再然后……你就能搞出一个跨平台的COS了（笑）。GNU Pth 线程库就是这么实现的，其原作者德国人 <a title="http://engelschall.com/" href="https://engelschall.com/" target="_blank">Ralf S. Engelschall</a> （又是个开源大牛，还写了 <a title="http://engelschall.com/software-artist.php" href="https://engelschall.com/software-artist.php" target="_blank">OpenSSL 等许多作品</a>）就写了一篇<a title="http://xmailserver.org/rse-pmt.pdf" href="http://xmailserver.org/rse-pmt.pdf" target="_blank">论文</a>教大家如何实现一个线程库。另外 protothreads 官网上也有一大堆<a title="http://dunkels.com/adam/pt/links.html" href="http://dunkels.com/adam/pt/links.html" target="_blank">推荐阅读</a>。Have fun！</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2014-01-28T10:50:41+08:00</pubDate>
 <guid>https://coolshell.cn/articles/10975.html</guid>
@@ -8014,9 +7891,6 @@ BAD: http://example.org</pre>
 <p style="text-align: center;"><img alt="image placeholder" ></p>
 <p>让我们扪心自问一下，我们花了多少时间在玩那些“红包游戏”，而又搞到了多少红包？人家4个小时找了5个bug，挣了$4000美金。<strong>老天给了你我一样的时间，我们用来抽几块钱的红包，人家用自己的技能来挣奖金。这就是人和人的差距。这就是所谓的效率</strong>——你可以移步看看我写的《<a title="加班与效率" href="https://coolshell.cn/articles/10217.html" target="_blank">加班与效率</a>》</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2014-02-10T08:16:11+08:00</pubDate>
 <guid>https://coolshell.cn/articles/11021.html</guid>
@@ -8455,9 +8329,6 @@ BAD: http://example.org</pre>
 <p><a href="http://fryerblog.com/post/2179029238/a-windows-workflow-foundation-example">图片来源</a>, <a href="https://en.wikipedia.org/wiki/Windows_Workflow_Foundation">Wikipedia</a> 和 <a href="https://msdn.microsoft.com/en-us/vstudio/jj684582.aspx">官方网站</a></p>
 <p><img alt="image placeholder" ><img alt="image placeholder" ></p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2014-02-22T00:27:10+08:00</pubDate>
 <guid>https://coolshell.cn/articles/11094.html</guid>
@@ -8655,9 +8526,6 @@ if ( ...... ){
 <p style="text-align: center; font-size: 36px; color: #cc0000; font-family: Georgia,;"><strong>Go To Fail !!!</strong></p>
 <p>在这里唠叨这么多，与大家共勉！</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2014-02-24T08:12:11+08:00</pubDate>
 <guid>https://coolshell.cn/articles/11112.html</guid>
@@ -9088,9 +8956,6 @@ int main()
 <pre>6*7=42</pre>
 <p>如果6*9=42就完美了，就差一步啊……</p>
 <p>(全文完)</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 - CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
 </.></pre> ]]></content>
 <pubDate>2014-03-06T22:42:42+08:00</pubDate>
 <guid>https://coolshell.cn/articles/11170.html</guid>
@@ -9253,9 +9118,6 @@ public class BlackListServiceImpl {
 <p><strong>数据一致性问题</strong>。CopyOnWrite容器只能保证数据的最终一致性，不能保证数据的实时一致性。所以如果你希望写入的的数据，马上能读到，请不要使用CopyOnWrite容器。</p>
 <p>关于C++的STL中，曾经也有过Copy-On-Write的玩法，参见陈皓的《<a href="http://blog.csdn.net/haoel/article/details/24058" target="_blank">C++ STL String类中的Copy-On-Write</a>》，后来，因为有很多线程安全上的事，就被去掉了。</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2014-03-07T08:26:31+08:00</pubDate>
 <guid>https://coolshell.cn/articles/11175.html</guid>
@@ -9415,9 +9277,6 @@ FPU结果 = -1.1000 0001 0100 1111 1011 101<strong>001</strong> *2^27<br>
 = -11000 0001 0100 1111 1011 101<strong>001</strong>0<br>
 = -202014162</p>
 <p>全文完，若本文有纰漏之处欢迎指正。</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2014-03-15T20:44:24+08:00</pubDate>
 <guid>https://coolshell.cn/articles/11235.html</guid>
@@ -9984,9 +9843,6 @@ if __name__ == '__main__':
 <p>关于更多的示例，你可以参看： <a href="https://wiki.python.org/moin/PythonDecoratorLibrary" target="_blank" rel="noopener noreferrer">Python Decorator Library</a></p>
 <p>关于Python Decroator的各种提案，可以参看：<a href="https://wiki.python.org/moin/PythonDecoratorProposals" target="_blank" rel="noopener noreferrer">Python Decorator Proposals</a></p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2014-03-20T09:50:34+08:00</pubDate>
 <guid>https://coolshell.cn/articles/11265.html</guid>
@@ -10225,9 +10081,6 @@ vim -p *.cpp</strong></p></blockquote>
 <p style="padding-left: 30px;">Ubuntu下：apt-get remove emacs</p>
 <p>对了，以前本站也有一篇小短文《<a href="https://coolshell.cn/articles/894.html" target="_blank">如何在vim中得到你最喜爱的IDE特性</a>》你也可以看看。</p>
 <p>（:wq）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2014-03-24T08:25:29+08:00</pubDate>
 <guid>https://coolshell.cn/articles/11312.html</guid>
@@ -10450,9 +10303,6 @@ int main(){
 <p style="padding-left: 30px;"><strong>3）当你们在说有坑的时候，你得问一下自己，是真有坑还是自己的学习能力上出了问题。</strong></p>
 <p>如果你觉得你的C语言还不错，欢迎你看看《<a title="C语言的谜题" href="https://coolshell.cn/articles/945.html" target="_blank">C语言的谜题</a>》还有《<a title="谁说C语言很简单？" href="https://coolshell.cn/articles/873.html" target="_blank">谁说C语言很简单？</a>》还有《<a href="https://coolshell.cn/articles/830.html" target="_blank">语言的歧义</a>》以及《<a title="深入理解C语言" href="https://coolshell.cn/articles/5761.html" target="_blank" rel="bookmark">深入理解C语言</a>》一文。</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2014-04-01T08:17:15+08:00</pubDate>
 <guid>https://coolshell.cn/articles/11377.html</guid>
@@ -10546,9 +10396,6 @@ int main(){
 <p>芝兰生于空谷，不以无人而不芳！君子修身养道，不以穷困而改志！</p>
 <p>谢谢听我唠叨。</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2014-04-12T16:28:01+08:00</pubDate>
 <guid>https://coolshell.cn/articles/11432.html</guid>
@@ -10715,9 +10562,6 @@ base在调用intValue等方法的时候是会汇总的：</p>
 <p style="padding-left: 30px;">
 </p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2014-04-17T23:11:40+08:00</pubDate>
 <guid>https://coolshell.cn/articles/11454.html</guid>
@@ -11042,9 +10886,6 @@ void f(signed int si_a, signed int si_b) {
 </ul>
 <p>最后， 不好意思，这篇文章可能罗嗦了一些，大家见谅。</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2014-04-21T08:18:01+08:00</pubDate>
 <guid>https://coolshell.cn/articles/11466.html</guid>
@@ -11225,9 +11066,6 @@ list = null; // help GC
 <p>当你需要实现一个缓存时，可以考虑优先使用WeakHashMap，而不是HashMap，当然，更好的选择是使用框架，例如Guava Cache。</p>
 <p>最后，再次提醒，以上的这些未必可以对代码有多少性能上的提升，但是熟悉这些方法，是为了帮助我们写出更卓越的代码，和GC更好地合作。</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2014-05-07T11:24:38+08:00</pubDate>
 <guid>https://coolshell.cn/articles/11541.html</guid>
@@ -11322,9 +11160,6 @@ list = null; // help GC
 <p>我们是被这个时代推上浪潮之巅的人，是去做一个见证者，或是一个冲在最前面也不怕被拍死的傻瓜，是我们每个人选择的权利。</p>
 <p>只是不要忘记，那些傻瓜，不是真的不怕死，<strong>他们只是认真</strong>。</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2014-05-26T11:20:55+08:00</pubDate>
 <guid>https://coolshell.cn/articles/11629.html</guid>
@@ -11540,9 +11375,6 @@ list = null; // help GC
 <p style="text-align: right;"><strong> <a href="https://coolshell.cn/articles/11609.html" target="_blank">TCP的那些事儿（下）&gt;&gt;&gt;</a></strong></p>
 <p style="text-align: left;">（上篇完）</p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2014-05-28T08:15:36+08:00</pubDate>
 <guid>https://coolshell.cn/articles/11564.html</guid>
@@ -11847,9 +11679,6 @@ list = null; // help GC
 <p>当然，TCP东西太多了，不同的人可能有不同的理解，而且本文可能也会有一些荒谬之言甚至错误，还希望得到您的反馈和批评。</p>
 <p style="text-align: left;">（全文完）</p>
 <p> </p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2014-05-28T08:20:32+08:00</pubDate>
 <guid>https://coolshell.cn/articles/11609.html</guid>
@@ -12017,9 +11846,6 @@ list = null; // help GC
 <p style="padding-left: 30px;">5）<strong>软件架构上要松耦合，团队组织上要紧耦合</strong>。</p>
 <p style="padding-left: 30px;">6）<strong>工程师文化是关键，重视过程就是重视结果</strong>。只重视结果的KPI等同于“竭泽而渔”和“饮鸩止渴”。</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2014-06-09T09:06:11+08:00</pubDate>
 <guid>https://coolshell.cn/articles/11656.html</guid>
@@ -12048,9 +11874,6 @@ list = null; // help GC
 <p style="text-align: center;"><span style="color: #cc0000;"><strong>本活动已结果，题的页面还在保留中……</strong></span></p>
 <p style="text-align: left;">（全文完）</p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2014-08-03T18:52:14+08:00</pubDate>
 <guid>https://coolshell.cn/articles/11832.html</guid>
@@ -12139,9 +11962,6 @@ list = null; // help GC
 <p>最后感谢大家为这个活动付出的时间！</p>
 <p>（全文完）</p>
 <p> </p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2014-08-06T07:47:50+08:00</pubDate>
 <guid>https://coolshell.cn/articles/11847.html</guid>
@@ -12203,9 +12023,6 @@ list = null; // help GC
 <p><img alt="image placeholder" ></p>
 <p><strong>延伸阅读</strong>：<a title="偷了世界的程序员" href="https://coolshell.cn/articles/3363.html" target="_blank">偷了世界的程序员</a></p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2014-09-08T00:26:08+08:00</pubDate>
 <guid>https://coolshell.cn/articles/11928.html</guid>
@@ -12382,9 +12199,6 @@ echo date</pre>
 <p>于是，你的当前目录下会出现一个echo的文件，这个文件的内容就是date命令的输出。</p>
 <p><strong>能发现这个种玩法的人真是个变态，完全是为bash的源代码量身定制的一个攻击</strong>。</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2014-09-28T07:56:46+08:00</pubDate>
 <guid>https://coolshell.cn/articles/11973.html</guid>
@@ -12570,9 +12384,6 @@ void foo()
 <a title="注意事项" href="http://state-threads.sourceforge.net/docs/notes.html" target="_blank">Programing Notes</a>：编程注意事项，包括信号处理，IPC，非网络I/O事件等。</li>
 </ul>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2014-10-12T22:48:57+08:00</pubDate>
 <guid>https://coolshell.cn/articles/12012.html</guid>
@@ -12599,9 +12410,6 @@ void foo()
 <p>好了，不多说了，<strong>我希望大家有时间都去练练LeetCode，无论是找工作还是对你的编程能力会有非常大的提高</strong>。</p>
 <p> </p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2014-10-23T10:51:54+08:00</pubDate>
 <guid>https://coolshell.cn/articles/12052.html</guid>
@@ -12666,9 +12474,6 @@ int main(void) {
 <p>但在后来，NetBSD 1.3 又把传统的vfork给捡了回来，说是vfork的性能在 Pentium Pro 200MHz 的机器（这机器好古董啊）上有可以提高几秒钟的性能。详情见——“<a class=" wrap external" href="https://www.netbsd.org/docs/kernel/vfork.html" target="_blank" rel="nofollow noreferrer">NetBSD Documentation: Why implement traditional vfork()<i class="icon-external"></i></a>”</p>
 <p>今天的Linux下，fork和vfork还是各是各的，不过，还是建议你不要用vfork，除非你非常关注性能。</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2014-11-21T00:48:27+08:00</pubDate>
 <guid>https://coolshell.cn/articles/12103.html</guid>
@@ -12690,9 +12495,6 @@ int main(void) {
 <p>跨平台代码复用通常会带来一些性能上的问题。Garrick Toubassi，Engineering Director 和 Google Inbox 项目组成员，对此表示： “性能上的影响如果有的话，也可以说是微不足道的。我们做过大量的性能测试。因为没有加入额外的中间层来处理跨平台兼容性，所有代码最后都是平台原生代码。J2ObjC 编译生成的目标代码和 Java 源代码拥有大致相同的对象数量和对象图谱复杂度 (object graph complexity) ”。</p>
 <p>Google 使用的整套方法解决了跨平台移动开发中的一个很重要的问题，同时也推进了安卓先行 (Android-first) 的移动开发策略。</p>
 <p>更多 Google Inbox 文章请猛戳 <a href="https://gmailblog.blogspot.com.au/2014/11/going-under-hood-of-inbox.html">Gmail 官方博客</a>。</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2014-11-26T08:03:17+08:00</pubDate>
 <guid>https://coolshell.cn/articles/12136.html</guid>
@@ -12836,9 +12638,6 @@ int main(void) {
 <h3>结语</h3>
 <p>HTML6 规范还未发布，本文原作者 <a href="http://html6spec.com/">Oscar Godson</a> 只是为我们提供了一个对 HTML6 规范的展望，或者说他希望 HTML6 能够支持的一些新特性。</p>
 <p>原文链接：<a href="http://java.dzone.com/articles/look-html6-what-it-and-what">A Look Into HTML6 – What Is It, and What Does it Have to Offer?</a></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2014-12-06T12:41:34+08:00</pubDate>
 <guid>https://coolshell.cn/articles/12206.html</guid>
@@ -12930,9 +12729,6 @@ David @ 2014-05-08：不知道你这个结论是近期的还是以前的？Basec
 Derick @ 2014-05-08：就是最近。我猜测可能和你使用JavaScript的多少有关系。因为以我个人的经验，Android 上 JavaScript 的运行速度非常慢。如果你感兴趣可以看看下面的文章：<a href="https://www.timroes.de/2013/11/23/old-webview-vs-chromium-webview/" target="_blank">https://www.timroes.de/2013/11/23/old-webview-vs-chromium-webview/</a><br>
 David @ 2014-05-08：我们使用了很多JavaScript，当然没有 Web MVC 客户端用得那样多。另外我们使用了 Turbolinks ：）</p>
 <p> </p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2014-12-15T10:57:20+08:00</pubDate>
 <guid>https://coolshell.cn/articles/12225.html</guid>
@@ -13018,9 +12814,6 @@ David @ 2014-05-08：我们使用了很多JavaScript，当然没有 Web MVC 客�
 <a title="Concurrency Is Not Parallelism" href="http://www.vaikan.com/docs/Concurrency-is-not-Parallelism" target="_blank"> Concurrency Is Not Parallelism</a>：Go语言之父Rob Pike幻灯片解释“并发”与“并行”概念上的区别</li>
 </ul>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2014-12-31T09:59:33+08:00</pubDate>
 <guid>https://coolshell.cn/articles/16910.html</guid>
@@ -13194,9 +12987,6 @@ David @ 2014-05-08：我们使用了很多JavaScript，当然没有 Web MVC 客�
 <p>P.S. 我虽然这么说，但从我个人来说，我非常理解微信为了让用户有很好的体验而不让微信成为一个四处都是营销商品的地方。所以，我从个人来说，希望微信不要成为一个商家的营销地。另外，我也知道阿里对移动端的看重，所以，上述的方案虽然对用户体验和安全都比较好，但是从目前商业利益的情况看来基本无法实现。不过我这里也只是抛砖引玉了。</p>
 <p>面对安全和用户这两个事，<strong>你们两个中国最大的互联网公司，应该带头做好榜样，你们都是不缺钱的公司，应该更多的承担起社会的责任，真正为用户做点什么，而不是整天想着流量入口，互相屏蔽，互相指责，想着自己能有多少用户，这TMD太LOW了，和你们的地位完全不符。所以，从站在用户的角度上来说，我希望微信和淘宝都能站在用户的角度上思考问题，一起合作来真正的为用户更好的服务。</strong></p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2015-04-14T08:13:23+08:00</pubDate>
 <guid>https://coolshell.cn/articles/17066.html</guid>
@@ -13496,9 +13286,6 @@ setns(fd, 0); // 加入新的namespace</pre>
 </ul>
 <p>（应网友card323加入）</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2015-04-16T10:19:23+08:00</pubDate>
 <guid>https://coolshell.cn/articles/17029.html</guid>
@@ -13949,9 +13736,6 @@ awk  env  groups  head  id  mesg  sort  strace  tail  top  uniq  vi  wc  xargs
 <p>关于如何做一个chroot的目录，这里有个工具叫<a href="https://wiki.ubuntu.com/DebootstrapChroot" target="_blank" rel="noopener noreferrer">DebootstrapChroot</a>，你可以顺着链接去看看（英文的哦）</p>
 <p>接下来的事情，你可以自己玩了，我相信你的想像力 。：）</p>
 <p>在下一篇，我将向你介绍User Namespace、Network Namespace以及Namespace的其它东西。</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2015-04-16T10:20:08+08:00</pubDate>
 <guid>https://coolshell.cn/articles/17010.html</guid>
@@ -14314,9 +14098,6 @@ cpuset cpu cpuacct memory devices freezer net_cls blkio perf_event net_prio huge
 </ul>
 <p>（全文完）<br>
 </p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2015-04-17T09:03:57+08:00</pubDate>
 <guid>https://coolshell.cn/articles/17049.html</guid>
@@ -14561,9 +14342,6 @@ hchen$ tree
 <li><a href="https://lwn.net/Articles/324291/" target="_blank">Unioning file systems: Architecture, features, and design choices</a></li>
 </ul>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2015-08-24T08:01:13+08:00</pubDate>
 <guid>https://coolshell.cn/articles/17061.html</guid>
@@ -14821,9 +14599,6 @@ TARGET                SOURCE
 <p>所以，如果你在使用loopback的devicemapper的话，当你的存储出现了问题后，正确的解决方案是：</p>
 <p style="text-align: center;">rm -rf /var/lib/docker</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2015-08-26T08:21:09+08:00</pubDate>
 <guid>https://coolshell.cn/articles/17200.html</guid>
@@ -15053,9 +14828,6 @@ KICK_OUT:
 <p>你会发现生成output.c正好也是59959行代码，一分不差，probably yes终于变成了definitely yes。同时也可以看到，cuckoo filter真的很快！如果你想看hashing的整个过程，可以参照<a href="https://github.com/begeekmyfriend/CuckooFilter/blob/master/README.md" target="_blank">README</a>里把调试宏打开。最后，欢迎给<a href="https://github.com/begeekmyfriend/CuckooFilter" target="_blank">这个小玩意</a>提交PR！</p>
 <h4>参考资料</h4>
 <p>Cuckoo Filter的<a href="https://www.cs.cmu.edu/~binfan/papers/conext14_cuckoofilter.pdf" target="_blank">论文</a>和<a href="https://www.cs.cmu.edu/~binfan/papers/conext14_cuckoofilter.pptx" target="_blank">PPT</a>：Cuckoo Filter: Practically Better Than Bloom</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2015-09-02T09:18:54+08:00</pubDate>
 <guid>https://coolshell.cn/articles/17225.html</guid>
@@ -15184,9 +14956,6 @@ KICK_OUT:
 <p style="padding-left: 30px;">5）作为老板，分工中的问题，你找到比较优的解了吗？比如，对于不同团队间的协议，你找到了吗？</p>
 <p>可能，在不同的情况下你会有不同的答案。但是对我来说呢，无论是什么情况，我都只会有一个答案。</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2015-12-13T12:55:52+08:00</pubDate>
 <guid>https://coolshell.cn/articles/17295.html</guid>
@@ -15255,9 +15024,6 @@ KICK_OUT:
 <p>欢迎大家也分享一下你们性能测试的经验和方法。</p>
 <p>（全文完）</p>
 <p> </p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2016-07-06T01:03:26+08:00</pubDate>
 <guid>https://coolshell.cn/articles/17381.html</guid>
@@ -15313,9 +15079,6 @@ KICK_OUT:
 <p>（全文完）</p>
 <p> </p>
 <p><audio style="display: none;" controls="controls"></audio></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2016-07-11T09:08:40+08:00</pubDate>
 <guid>https://coolshell.cn/articles/17391.html</guid>
@@ -15405,9 +15168,6 @@ KICK_OUT:
 <p>（全文完）</p>
 <p> </p>
 <p> </p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2016-07-27T16:25:28+08:00</pubDate>
 <guid>https://coolshell.cn/articles/17416.html</guid>
@@ -15497,9 +15257,6 @@ KICK_OUT:
 <p>有问题就有挑战，我每天都在思考，如何在不完美甚至残缺的环境下，解决这些公司的技术问题。每个人都要给自己一个目标。目前，我给自己的目标是——<strong>在残缺的环境下，能让用户不改一行代码，不动任何的架构，不改变用户很糟糕的软件开发的习惯，也不让用户作任何管理上的调整，能提升用户的软件系统的性能和稳定性</strong>。</p>
 <p>因为我相信技术，我相信有更好的技术，可以为用户完全透明的提升性能和稳定性，我大致找到了相应的解，现在，我正在实践的路上，这也许是笔大买卖，所以我不知天高地厚地注册了自己的公司……</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2016-08-18T18:55:17+08:00</pubDate>
 <guid>https://coolshell.cn/articles/17446.html</guid>
@@ -15698,9 +15455,6 @@ KICK_OUT:
 <p>包括很多技术人员也永远不会理解，为什么要做好多像Code Review、自动化运维、自动化测试、持续集成之类这样很无聊的东西。就像我在《<a href="https://coolshell.cn/articles/11432.html" target="_blank">从Code Review 谈如何做技术</a>》中提到的，阿里很多的工程师，架构师/专家，甚至资深架构师都没有这个意识，当然，这不怪他们，因为经历决定思维方式，他们的经历的是民用级的系统，做的都是堆功能的工作，的确不需要。</p>
 <p>看完这些，最后让我们都扪心自问一下，你还敢说你的系统是高可用的了么？ ;-)</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2016-08-21T12:34:53+08:00</pubDate>
 <guid>https://coolshell.cn/articles/17459.html</guid>
@@ -15854,9 +15608,6 @@ KICK_OUT:
 <p>另外，我不知道，为什么我一说这些东西，就会有很多人（包括程序员自己）来和我说我是个理想主义者，这些已经不是什么理想了，已被很多成功的公司用了很多很多年了。只是你没有见到过罢了。还有的人说，因为中国的国情不同。这更让我费解了。这让我想到了当年大清朝派了一堆人出国考察后回来后，说外国的那套共和的东西不符合中国国情，最终也在历史的潮流中被淹没掉了。另外，什么叫“中国的国情不同”？中国有全世界数一数二的互联网用户，也有全世界数一数二的市场，不再是以前那个一穷二白的年代了，中国的国情到底有哪些不同呢？</p>
 <p>我不知道各位工程师是为什么活的？但我觉得，<strong>我们选择了一个刺激的职业，也赶上了这个行业大发展的时代，我们不妨扪心自问一下，你是否愿意让自己的能力、青春和热情就这样被磨灭了？</strong></p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2016-09-18T16:23:11+08:00</pubDate>
 <guid>https://coolshell.cn/articles/17497.html</guid>
@@ -16110,9 +15861,6 @@ function find (x, y) {
 <p>《<a href="https://en.wikipedia.org/wiki/Fixed-point_combinator" target="_blank">Wikipedia: Fixed-point combinator</a>》</p>
 <p>（全文完）</p>
 <p></p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2016-10-23T17:56:29+08:00</pubDate>
 <guid>https://coolshell.cn/articles/17524.html</guid>
@@ -16329,9 +16077,6 @@ function find (x, y) {
 <p style="text-align: center;"><strong>最后祝大家新年快乐，来年大展鸿图。</strong></p>
 <p>（全文完）</p>
 <p> </p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2016-12-28T12:29:25+08:00</pubDate>
 <guid>https://coolshell.cn/articles/17583.html</guid>
@@ -16393,9 +16138,6 @@ function find (x, y) {
 <p>最后，提醒大家一下，被黑了也不要去付赎金，因为目前来说没有任何证据证明黑客们真正保存了你的数据，因为，被黑的服务器太多了，估计有几百T的数据，估计是不会为你保存的。下面也是Victor Gevers的提示：</p>
 <p><img alt="image placeholder" ></p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2017-01-07T17:11:28+08:00</pubDate>
 <guid>https://coolshell.cn/articles/17607.html</guid>
@@ -16618,9 +16360,6 @@ console.table(pets)</pre>
 <p><img alt="image placeholder" ></p>
 <p>如果你知道更多，也欢迎补充！</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2017-01-19T20:25:55+08:00</pubDate>
 <guid>https://coolshell.cn/articles/17634.html</guid>
@@ -16747,9 +16486,6 @@ console.table(pets)</pre>
 <p>很多公司基本上都是这样的套路，首先是极力掩盖，如果掩盖不了了就开始撒谎，撒不了谎了，就“文过饰非”、“避重就轻”、“转移视线”。然而，面对危机的最佳方法就是——“多一些真诚，少一些套路”，<strong>所谓的“多一些真诚”的最佳实践就是——“透明公开所有的信息”</strong>，Gitlab此次的这个事给大家树立了非常好的榜样。AWS也会把自己所有的故障和细节都批露出来。</p>
 <p><strong>事情本来就做错了，而公开所有的细节，会让大众少很多猜测的空间，有利于抵制流言和黑公关，同时，还会赢得大众的理解和支持</strong>。看看Gitlab这次还去YouTube上直播整个修复过程，是件很了不起的事，大家可以到他们的blog上看看，对于这样的透明和公开，一片好评。</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2017-02-02T16:11:28+08:00</pubDate>
 <guid>https://coolshell.cn/articles/17680.html</guid>
@@ -16812,9 +16548,6 @@ console.table(pets)</pre>
 <p><strong>最后，你是要建一个 “高可用的技术系统” ，还是一个 “高用的管理系统”？ ;-)</strong></p>
 <p>（全文完）</p>
 <p> </p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2017-03-03T14:20:03+08:00</pubDate>
 <guid>https://coolshell.cn/articles/17737.html</guid>
@@ -17190,9 +16923,6 @@ for (...) {
 <p>4）<strong>对于多个状态的判断和组合，如果复杂了，可以使用“组合状态表”，或是状态机加Observer的状态订阅的设计模式</strong>。这样的代码即解了耦，也干净简单，同样有很强的扩展性。</p>
 <p>5） <strong>重构“箭头型”代码其实是在帮你重新梳理所有的代码和逻辑，这个过程非常值得为之付出</strong>。重新整思路去想尽一切办法简化代码的过程本身就可以让人成长。</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2017-04-05T18:07:14+08:00</pubDate>
 <guid>https://coolshell.cn/articles/17757.html</guid>
@@ -17500,9 +17230,6 @@ mybar("hello,", "world!")</pre>
 <p>好吧，看上去不是那么的漂亮，但是 it works。看样子 Go 语言目前本身的特性无法做成像 Java 或 Python 那样，对此，我们只能多求 Go 语言多放糖了！</p>
 <p>Again， 如果你有更好的写法，请你一定要告诉我。</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2017-06-01T16:48:15+08:00</pubDate>
 <guid>https://coolshell.cn/articles/17929.html</guid>
@@ -17595,9 +17322,6 @@ mybar("hello,", "world!")</pre>
 <p style="padding-left: 30px;">请问这样的绩效能打个几分呢？呵呵。</p>
 <p>当然，不管怎么说，我还有很多路要走，还有很多不足，我还要继续努力。所以，我挑了一条对我来说最难走的路，作死创业……</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2017-07-09T18:03:00+08:00</pubDate>
 <guid>https://coolshell.cn/articles/17972.html</guid>
@@ -17754,9 +17478,6 @@ mybar("hello,", "world!")</pre>
 </li>
 </ul>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2017-07-16T21:40:55+08:00</pubDate>
 <guid>https://coolshell.cn/articles/17998.html</guid>
@@ -18309,9 +18030,6 @@ return;<br>
 </h2>
 <p>Qt 3有一整套类用来把完成增量加载的图片传递给一个动画 —— <code>QImageSource</code>/<code>Sink</code>/<code>QASyncIO</code>/<code>QASyncImageIO</code>。由于这些类之前只是用于启用动画的<code>QLabel</code>，完全过度设计了（overkill）。</p>
 <p>从中得到的教训就是：对于那些未来可能的还不明朗的需求，不要过早地增加抽象设计。当需求真的出现时，比起一个复杂的系统，在简单的系统新增需求要容易得多。</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2017-07-25T14:16:30+08:00</pubDate>
 <guid>https://coolshell.cn/articles/18024.html</guid>
@@ -18389,9 +18107,6 @@ include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot</pre>
 <p>基本上就是这些事。希望大家都来把自己的网站更新成 https 的。</p>
 <p>嗯，12306，你什么时候按照这个教程做一下你的证书？</p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2017-08-26T14:06:17+08:00</pubDate>
 <guid>https://coolshell.cn/articles/18094.html</guid>
@@ -18449,9 +18164,6 @@ include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot</pre>
 <p>但是，对于那些已经走出和正在走出国门的企业来说，了解与掌握这一重要的专利诉讼程序却是极其重要的。通领科技集团的积极尝试充分证明了这一点，而且随着这一程序的不断成熟，美国国际贸易法院（ITC）也开始在审理时适用“马克曼听证”制度。所以，知道“马克曼听证”意味着什么，确保所提交的用于解释权利要求的文件确实充分，学会利用“马克曼听证”，无论是对于破解美国的专利诉讼威胁，还是为未来准备有效的法律武器，无疑都非常重要。（知识产权报　作者　魏玮）</p>
 <p> </p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2017-09-19T14:08:00+08:00</pubDate>
 <guid>https://coolshell.cn/articles/18140.html</guid>
@@ -18549,9 +18261,6 @@ include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot</pre>
 <p><strong>这篇文章于上周发布于<a href="https://time.geekbang.org/column/intro/48" target="_blank" rel="noopener noreferrer">“极客时间”的我的付费专栏</a>中。极客时间中的付费是我受Geekbang邀请写的一个付费专栏，因为过去10多年给企业有过很多内训，过去2年又给好多企业做过一些咨询工作，所以，我会把一些商业化的内容写在极客时间里，当然，也会有一些我的新文章。关于这个事，我后面我专门开一篇文章说一下。（大家可以到 Apple的App Store上搜极客时间，Android版本等到12月初吧）<br>
 </strong></p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2017-10-30T09:24:20+08:00</pubDate>
 <guid>https://coolshell.cn/articles/18190.html</guid>
@@ -18625,9 +18334,6 @@ include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot</pre>
 <p> </p>
 <p>（全文完）</p>
 <p> </p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2018-01-02T16:56:11+08:00</pubDate>
 <guid>https://coolshell.cn/articles/18246.html</guid>
@@ -18676,9 +18382,6 @@ include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot</pre>
 <p> </p>
 <p><img alt="image placeholder" ></p>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2018-05-29T12:38:23+08:00</pubDate>
 <guid>https://coolshell.cn/articles/18360.html</guid>
@@ -18856,9 +18559,6 @@ $ echo $?
 <li><a href="http://alexander.holbreich.org/docker-components-explained/" target="_blank" rel="noopener noreferrer">Docker components explained</a></li>
 </ul>
 <p>（全文完）</p>
-<div style="margin-top: 15px; font-size: 11px;">
-<p align="center"><strong>（转载本站文章请注明作者和出处 <a href="https://coolshell.cn/">酷 壳 – CoolShell</a> ，请勿用于任何商业用途）</strong></p>
-</div>
  ]]></content>
 <pubDate>2018-12-08T11:57:35+08:00</pubDate>
 <guid>https://coolshell.cn/articles/18654.html</guid>
