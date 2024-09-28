@@ -1,8 +1,8 @@
-https://raw.githubusercontent.com/goooooouwa/crawling-results/master/coolshell/slice-0.xml
-https://raw.githubusercontent.com/goooooouwa/crawling-results/master/coolshell/slice-1.xml
-https://raw.githubusercontent.com/goooooouwa/crawling-results/master/coolshell/slice-2.xml
-https://raw.githubusercontent.com/goooooouwa/crawling-results/master/coolshell/slice-3.xml
-https://raw.githubusercontent.com/goooooouwa/crawling-results/master/coolshell/slice-4.xml
-https://raw.githubusercontent.com/goooooouwa/crawling-results/master/coolshell/slice-5.xml
-https://raw.githubusercontent.com/goooooouwa/crawling-results/master/coolshell/slice-6.xml
-https://raw.githubusercontent.com/goooooouwa/crawling-results/master/coolshell/slice-7.xml
+https://raw.githubusercontent.com/goooooouwa/rss-feeds/master/coolshell/slice-0.xml
+https://raw.githubusercontent.com/goooooouwa/rss-feeds/master/coolshell/slice-1.xml
+https://raw.githubusercontent.com/goooooouwa/rss-feeds/master/coolshell/slice-2.xml
+https://raw.githubusercontent.com/goooooouwa/rss-feeds/master/coolshell/slice-3.xml
+https://raw.githubusercontent.com/goooooouwa/rss-feeds/master/coolshell/slice-4.xml
+https://raw.githubusercontent.com/goooooouwa/rss-feeds/master/coolshell/slice-5.xml
+https://raw.githubusercontent.com/goooooouwa/rss-feeds/master/coolshell/slice-6.xml
+https://raw.githubusercontent.com/goooooouwa/rss-feeds/master/coolshell/slice-7.xml
