@@ -17,4 +17,4 @@ Explanation of CURL command:
 
 ### For blogs, You can generate Kindle ebook from RSS feeds with `feeds.txt` and `slice-0.xml`
 
-See [README](https://github.com/goooooouwa/rss2kindle/blob/master/README.md) of [rss2kindle](https://github.com/goooooouwa/rss2kindle/tree/master).
+See [README](https://github.com/goooooouwa/blog2kindle/blob/master/README.md) of [blog2kindle](https://github.com/goooooouwa/blog2kindle/tree/master).
